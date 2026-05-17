@@ -3,11 +3,12 @@ import { cn } from '@/lib/utils'
 interface ScoreCardProps {
   value: string | number
   label: string
+  showPercent?: boolean
   variant?: 'default' | 'accent' | 'warning'
   href?: string
 }
 
-export function ScoreCard({ value, label, variant = 'default', href }: ScoreCardProps) {
+export function ScoreCard({ value, label, showPercent = false, variant = 'default', href }: ScoreCardProps) {
   const inner = (
     <div
       className={cn('score-card', variant)}
@@ -38,7 +39,7 @@ export function ScoreCard({ value, label, variant = 'default', href }: ScoreCard
         letterSpacing: '-0.03em',
         color: variant === 'accent' ? 'var(--amber)' : 'var(--text)',
       }}>
-        {typeof value === 'number' && value < 100 ? (
+        {showPercent ? (
           <>{value}<span style={{ fontSize: 14, opacity: 0.6 }}>%</span></>
         ) : value}
       </div>

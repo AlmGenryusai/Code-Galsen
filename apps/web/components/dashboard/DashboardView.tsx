@@ -110,6 +110,7 @@ export function DashboardView({ data }: Props) {
           <ScoreCard
             value={data.examScore ?? '—'}
             label="ExamScore"
+            showPercent={data.examScore !== null}
             variant="accent"
             href="/quiz?mode=examen"
           />
