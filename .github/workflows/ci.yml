@@ -1,0 +1,218 @@
+# =============================================================================
+# .github/workflows/ci.yml — Code Galsen CI pipeline
+# =============================================================================
+
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PNPM_VERSION: 9
+  NODE_VERSION: 22
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Lint + Typecheck (front)
+  # ---------------------------------------------------------------------------
+  lint-typecheck:
+    name: Lint & Typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter web lint
+      - run: pnpm --filter web typecheck
+
+  # ---------------------------------------------------------------------------
+  # Tests Vitest unit
+  # ---------------------------------------------------------------------------
+  test-unit:
+    name: Unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter web test:unit -- --reporter=verbose
+
+  # ---------------------------------------------------------------------------
+  # Tests parseur Python
+  # ---------------------------------------------------------------------------
+  test-parser:
+    name: Parser tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - run: cd scripts/parser && python -m pytest test_parser.py -v
+
+  # ---------------------------------------------------------------------------
+  # E2E Playwright
+  # ---------------------------------------------------------------------------
+  test-e2e:
+    name: E2E Playwright
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter web exec playwright install --with-deps chromium
+      - run: pnpm --filter web build
+      - run: pnpm --filter web test:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: playwright-report
+          path: apps/web/playwright-report/
+          retention-days: 7
+
+  # ---------------------------------------------------------------------------
+  # Bundle size budget (alerte si > 300 Ko initial)
+  # ---------------------------------------------------------------------------
+  bundle-budget:
+    name: Bundle budget
+    runs-on: ubuntu-latest
+    needs: [lint-typecheck]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter web build
+      - name: Check bundle size
+        run: |
+          cd apps/web
+          MAX_KB=300
+          # Next.js prod build: extraire taille first load JS depuis .next/build-manifest.json
+          MAIN_BYTES=$(find .next/static/chunks -name "main-*.js" -not -name "*.map" -exec du -b {} + | awk '{ s += $1 } END { print s }')
+          MAIN_KB=$(( MAIN_BYTES / 1024 ))
+          echo "Main chunk: ${MAIN_KB} KB (budget ${MAX_KB} KB)"
+          if [ "$MAIN_KB" -gt "$MAX_KB" ]; then
+            echo "❌ Bundle dépasse budget de $((MAIN_KB - MAX_KB)) KB"
+            exit 1
+          fi
+          echo "✓ Bundle dans budget"
+
+  # ---------------------------------------------------------------------------
+  # Lighthouse PWA + Performance audit (pull request only)
+  # ---------------------------------------------------------------------------
+  lighthouse:
+    name: Lighthouse audit
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    needs: [test-e2e]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter web build
+      - run: pnpm --filter web start &
+      - run: sleep 5
+      - name: Run Lighthouse
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            http://localhost:3000
+          uploadArtifacts: true
+          configPath: ./apps/web/.lighthouserc.json
+
+  # ---------------------------------------------------------------------------
+  # Migrations SQL — vérif syntaxe
+  # ---------------------------------------------------------------------------
+  sql-lint:
+    name: SQL migrations check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Postgres container
+        run: |
+          docker run -d --name pg -e POSTGRES_PASSWORD=postgres -p 5432:5432 postgres:15
+          sleep 5
+      - name: Apply migrations
+        run: |
+          for f in supabase/migrations/*.sql; do
+            echo "→ $f"
+            docker exec -i pg psql -U postgres -d postgres < "$f"
+          done
+
+  # ---------------------------------------------------------------------------
+  # Deploy Supabase Edge Functions (main only)
+  # ---------------------------------------------------------------------------
+  deploy-functions:
+    name: Deploy Edge Functions
+    runs-on: ubuntu-latest
+    needs: [lint-typecheck, test-unit, sql-lint]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Apply migrations
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+        run: |
+          supabase link --project-ref ${{ secrets.SUPABASE_PROJECT_REF }}
+          supabase db push --linked
+      - name: Deploy functions
+        env:
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        run: |
+          for fn in supabase/functions/*/; do
+            name=$(basename "$fn")
+            echo "→ deploy $name"
+            supabase functions deploy "$name" --project-ref ${{ secrets.SUPABASE_PROJECT_REF }}
+          done
+
+  # ---------------------------------------------------------------------------
+  # Status check résumé
+  # ---------------------------------------------------------------------------
+  ci-pass:
+    name: CI pass
+    runs-on: ubuntu-latest
+    needs: [lint-typecheck, test-unit, test-parser, test-e2e, bundle-budget, sql-lint]
+    steps:
+      - run: echo "✓ All CI checks passed"

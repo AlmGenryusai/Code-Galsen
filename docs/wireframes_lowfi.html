@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Code Galsen — Wireframes MVP</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #1a1d24;
+    --ink: #e8e9ed;
+    --muted: #8b8f99;
+    --line: #2a2e38;
+    --accent: #2e9f6b;
+    --accent2: #f4a23a;
+    --danger: #d65a4f;
+    --phone-bg: #ffffff;
+    --phone-ink: #1a1a1a;
+    --phone-muted: #6b6b6b;
+    --phone-line: #e5e5e5;
+    --phone-tint: #f4f6f8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--ink);
+  }
+  h1 { font-size: 32px; margin: 0 0 8px; }
+  h2 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0 0 24px; font-weight: 500;}
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 32px;
+  }
+  .frame {
+    background: var(--panel);
+    border-radius: 16px;
+    padding: 24px;
+    border: 1px solid var(--line);
+  }
+  .frame-title {
+    font-size: 13px; color: var(--muted); margin: 0 0 16px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .frame-title .id { background: var(--line); padding: 2px 8px; border-radius: 4px; font-family: ui-monospace, monospace; font-size: 11px; }
+  .phone {
+    background: var(--phone-bg);
+    color: var(--phone-ink);
+    width: 380px;
+    margin: 0 auto;
+    border-radius: 32px;
+    border: 8px solid #2a2e38;
+    overflow: hidden;
+    aspect-ratio: 380/780;
+    display: flex; flex-direction: column;
+    font-size: 14px;
+    position: relative;
+  }
+  .statusbar { height: 28px; display:flex; justify-content: space-between; align-items: center; padding: 0 16px; font-size: 12px; font-weight: 600; }
+  .nav { padding: 12px 16px; border-bottom: 1px solid var(--phone-line); display: flex; align-items: center; gap: 12px; font-weight: 600;}
+  .nav .back { font-size: 18px; color: var(--phone-muted); }
+  .content { flex: 1; padding: 16px; overflow: hidden; }
+  .tab { display:flex; padding: 0 16px; border-top: 1px solid var(--phone-line); height: 56px; }
+  .tab > div { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 10px; color: var(--phone-muted); }
+  .tab > div.active { color: var(--accent); }
+  .tab .icon { width: 20px; height: 20px; background: currentColor; mask-position: center; mask-size: contain; mask-repeat: no-repeat; }
+  .btn { display: block; width: 100%; padding: 14px; border-radius: 10px; background: var(--accent); color: #fff; text-align: center; font-weight: 600; border: 0; font-size: 15px; margin: 8px 0; }
+  .btn.ghost { background: transparent; color: var(--phone-ink); border: 1px solid var(--phone-line); }
+  .btn.danger { background: var(--danger); }
+  .input { display: block; width: 100%; padding: 14px; border: 1px solid var(--phone-line); border-radius: 10px; font-size: 16px; margin: 8px 0; }
+  .otp-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; margin: 16px 0; }
+  .otp-cell { aspect-ratio: 1; border: 1px solid var(--phone-line); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 600; }
+  .otp-cell.filled { background: var(--phone-tint); }
+  .theme-card { background: var(--phone-tint); border-radius: 12px; padding: 16px; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
+  .theme-card .icon { width: 36px; height: 36px; background: var(--accent); border-radius: 8px; flex-shrink: 0; }
+  .theme-card .meta { flex: 1; }
+  .theme-card .meta h4 { margin: 0 0 4px; font-size: 14px; }
+  .theme-card .meta .progress { height: 4px; background: var(--phone-line); border-radius: 2px; overflow: hidden; }
+  .theme-card .meta .progress > div { height: 100%; background: var(--accent); }
+  .theme-card .meta small { font-size: 11px; color: var(--phone-muted); }
+  .badge { display: inline-block; padding: 2px 8px; background: var(--accent2); color: #fff; border-radius: 4px; font-size: 10px; font-weight: 600; }
+  .timer { background: var(--accent); color: #fff; padding: 6px 12px; border-radius: 999px; font-weight: 700; font-size: 13px; display: inline-flex; align-items: center; gap: 6px; }
+  .progress-bar { height: 4px; background: var(--phone-line); margin: 0 -16px 16px; }
+  .progress-bar > div { height: 100%; background: var(--accent); }
+  .question-img { width: 100%; aspect-ratio: 16/9; background: #ddd url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Crect fill='%23bbb' width='100' height='60'/%3E%3Cpath fill='%23999' d='M30 25l10 10 10-10 20 20H30z'/%3E%3C/svg%3E") center/cover; border-radius: 10px; margin-bottom: 12px; }
+  .option { display: flex; align-items: center; gap: 12px; padding: 12px; border: 1px solid var(--phone-line); border-radius: 10px; margin-bottom: 8px; font-size: 14px;}
+  .option.correct { border-color: var(--accent); background: rgba(46,159,107,0.08); }
+  .option.wrong { border-color: var(--danger); background: rgba(214,90,79,0.08); }
+  .option .letter { width: 28px; height: 28px; border-radius: 50%; background: var(--phone-tint); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; flex-shrink: 0; }
+  .pay-card { background: linear-gradient(135deg, var(--accent), #1e6647); color: #fff; padding: 20px; border-radius: 12px; margin-bottom: 16px; }
+  .pay-card h3 { margin: 0 0 4px; font-size: 16px;}
+  .pay-card .price { font-size: 32px; font-weight: 700; }
+  .pay-method { display: flex; align-items: center; gap: 12px; padding: 14px; border: 1px solid var(--phone-line); border-radius: 10px; margin-bottom: 8px;}
+  .pay-method .logo { width: 36px; height: 36px; background: var(--phone-tint); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 11px; }
+  .pay-method .name { flex: 1; }
+  .small { font-size: 11px; color: var(--phone-muted); }
+  .center { text-align: center; }
+  .logo-big { width: 80px; height: 80px; background: var(--accent); border-radius: 20px; margin: 80px auto 24px; display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 36px; }
+  .spacer-lg { height: 120px; }
+  .legend {
+    margin-top: 32px; padding: 16px; background: var(--panel); border-radius: 12px;
+    font-size: 13px; line-height: 1.6; color: var(--muted);
+  }
+  .legend strong { color: var(--ink); }
+</style>
+</head>
+<body>
+
+<h1>Code Galsen — Wireframes MVP</h1>
+<h2>5 écrans clés · mobile 380×780 · low-fi</h2>
+
+<div class="grid">
+
+  <!-- 1. SPLASH -->
+  <div class="frame">
+    <div class="frame-title"><span>Splash / Onboarding</span><span class="id">SCREEN-01</span></div>
+    <div class="phone">
+      <div class="statusbar"><span>09:41</span><span>📶 🔋</span></div>
+      <div class="content center">
+        <div class="logo-big">CG</div>
+        <h2 style="color: var(--phone-ink); margin: 0 0 12px;">Code Galsen</h2>
+        <p class="small" style="font-size: 14px; line-height: 1.5;">Réussis ton code de la route<br>en 90 jours, hors ligne.</p>
+        <div class="spacer-lg"></div>
+        <button class="btn">Commencer</button>
+        <button class="btn ghost">J'ai déjà un compte</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. OTP -->
+  <div class="frame">
+    <div class="frame-title"><span>Connexion par OTP</span><span class="id">SCREEN-02</span></div>
+    <div class="phone">
+      <div class="statusbar"><span>09:41</span><span>📶 🔋</span></div>
+      <div class="nav"><span class="back">←</span> Vérification</div>
+      <div class="content">
+        <p style="margin: 8px 0 4px;">Code envoyé au</p>
+        <p style="margin: 0 0 16px; font-weight: 700;">+221 77 ••• 23 45</p>
+        <div class="otp-grid">
+          <div class="otp-cell filled">8</div>
+          <div class="otp-cell filled">4</div>
+          <div class="otp-cell filled">2</div>
+          <div class="otp-cell filled">1</div>
+          <div class="otp-cell"></div>
+          <div class="otp-cell"></div>
+        </div>
+        <p class="small center">Renvoyer le code dans <strong>0:23</strong></p>
+        <div class="spacer-lg"></div>
+        <button class="btn">Vérifier</button>
+        <button class="btn ghost" style="font-size:13px;">Changer de numéro</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. HOME THÈMES -->
+  <div class="frame">
+    <div class="frame-title"><span>Accueil — Thèmes</span><span class="id">SCREEN-03</span></div>
+    <div class="phone">
+      <div class="statusbar"><span>09:41</span><span>📶 🔋</span></div>
+      <div class="nav" style="justify-content: space-between;">
+        <span style="font-size: 16px;">Bonjour Amadou 👋</span>
+        <span class="badge">Pass 67j</span>
+      </div>
+      <div class="content" style="overflow-y: auto;">
+        <p class="small" style="margin: 0 0 12px;">Progression globale · 42%</p>
+        <div class="theme-card">
+          <div class="icon" style="background: #2e9f6b;"></div>
+          <div class="meta">
+            <h4>1. Signalisation</h4>
+            <div class="progress"><div style="width: 80%"></div></div>
+            <small>16/20 fiches · 4 quiz</small>
+          </div>
+        </div>
+        <div class="theme-card">
+          <div class="icon" style="background: #f4a23a;"></div>
+          <div class="meta">
+            <h4>2. Priorités</h4>
+            <div class="progress"><div style="width: 45%"></div></div>
+            <small>9/20 fiches · 3 quiz</small>
+          </div>
+        </div>
+        <div class="theme-card">
+          <div class="icon" style="background: #d65a4f;"></div>
+          <div class="meta">
+            <h4>3. Vitesse UEMOA</h4>
+            <div class="progress"><div style="width: 30%"></div></div>
+            <small>6/20 fiches · 2 quiz</small>
+          </div>
+        </div>
+        <div class="theme-card">
+          <div class="icon" style="background: #6b8cae;"></div>
+          <div class="meta">
+            <h4>4. Partage chaussée</h4>
+            <div class="progress"><div style="width: 10%"></div></div>
+            <small>2/20 fiches</small>
+          </div>
+        </div>
+      </div>
+      <div class="tab">
+        <div class="active"><div class="icon" style="background: currentColor; width:6px; height:6px; border-radius:50%;"></div>Cours</div>
+        <div>Examen</div>
+        <div>Carnet</div>
+        <div>Profil</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. QUIZ -->
+  <div class="frame">
+    <div class="frame-title"><span>Quiz — Question</span><span class="id">SCREEN-04</span></div>
+    <div class="phone">
+      <div class="statusbar"><span>09:41</span><span>📶 🔋</span></div>
+      <div class="nav" style="justify-content: space-between;">
+        <span><span class="back">×</span> Q 12/40</span>
+        <span class="timer">⏱ 0:14</span>
+      </div>
+      <div class="progress-bar"><div style="width: 30%"></div></div>
+      <div class="content">
+        <div class="question-img"></div>
+        <p style="font-weight: 600; line-height: 1.4; margin: 0 0 16px;">Quelle est la vitesse maximale autorisée hors agglomération sur cette route ?</p>
+        <div class="option"><div class="letter">A</div><span>60 km/h</span></div>
+        <div class="option correct"><div class="letter">B</div><span>80 km/h ✓</span></div>
+        <div class="option"><div class="letter">C</div><span>100 km/h</span></div>
+        <div class="option"><div class="letter">D</div><span>120 km/h</span></div>
+        <button class="btn ghost" style="font-size:13px;">🔊 Écouter en wolof</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. PAIEMENT -->
+  <div class="frame">
+    <div class="frame-title"><span>Paiement Pass Réussite</span><span class="id">SCREEN-05</span></div>
+    <div class="phone">
+      <div class="statusbar"><span>09:41</span><span>📶 🔋</span></div>
+      <div class="nav"><span class="back">←</span> Activer ton Pass</div>
+      <div class="content">
+        <div class="pay-card">
+          <h3>Pass Réussite</h3>
+          <div class="price">4 900 <span style="font-size:14px; opacity:0.8;">FCFA</span></div>
+          <p class="small" style="color: rgba(255,255,255,0.85); margin: 8px 0 0;">90 jours · accès illimité · hors ligne</p>
+        </div>
+        <p class="small" style="margin: 16px 0 8px;">Choisir un moyen de paiement</p>
+        <div class="pay-method">
+          <div class="logo" style="background: #f47c1c; color: white;">OM</div>
+          <div class="name"><strong>Orange Money</strong><br><span class="small">Paiement instantané</span></div>
+        </div>
+        <div class="pay-method" style="border-color: var(--accent); background: rgba(46,159,107,0.05);">
+          <div class="logo" style="background: #1ec8d2; color: white;">W</div>
+          <div class="name"><strong>Wave</strong><br><span class="small">Sans frais</span></div>
+          <div style="width:20px; height:20px; border-radius:50%; border:6px solid var(--accent); flex-shrink:0;"></div>
+        </div>
+        <div style="height: 24px;"></div>
+        <button class="btn">Payer 4 900 FCFA</button>
+        <button class="btn ghost" style="font-size:12px;">Restaurer mon achat</button>
+        <p class="small center" style="margin-top:12px;">🔒 Paiement sécurisé via PayDunya</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="legend">
+  <strong>Notes spec.</strong> Composants UI utiliseront shadcn/ui (Button, Input, Card, Progress, Sheet, Tabs, Toast). Couleurs primaires : vert <code>#2e9f6b</code> (succès, accent), orange <code>#f4a23a</code> (warnings, en cours), rouge <code>#d65a4f</code> (erreurs). Police système (no custom font à charger en MVP). Toutes les images sont placeholders : prévoir librairie d'illustrations adaptées Sénégal (motos, charrettes, signalisations locales). Tab bar 4 sections : <em>Cours</em>, <em>Examen blanc</em>, <em>Carnet d'erreurs</em>, <em>Profil</em>. Wireframes low-fi à raffiner sprint 1.5 avec un designer ou via skill <code>frontend-design</code> pour les écrans clés.
+</div>
+
+</body>
+</html>

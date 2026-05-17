@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "theme": "Vitesse et limitations",
+    "course_sheet_ref": "vitesse-agglomeration",
+    "question": "En agglomération au Sénégal, sauf indication contraire, la vitesse maximale autorisée est de :",
+    "difficulty": "facile",
+    "options": [
+      {"letter": "A", "text": "30 km/h", "is_correct": false},
+      {"letter": "B", "text": "50 km/h", "is_correct": true},
+      {"letter": "C", "text": "70 km/h", "is_correct": false},
+      {"letter": "D", "text": "90 km/h", "is_correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "theme": "Vitesse et limitations",
+    "course_sheet_ref": "vitesse-route",
+    "question": "Sur une route nationale hors agglomération, la vitesse maximale autorisée est de :",
+    "difficulty": "facile",
+    "options": [
+      {"letter": "A", "text": "70 km/h", "is_correct": false},
+      {"letter": "B", "text": "80 km/h", "is_correct": true},
+      {"letter": "C", "text": "100 km/h", "is_correct": false},
+      {"letter": "D", "text": "120 km/h", "is_correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "theme": "Vitesse et limitations",
+    "course_sheet_ref": "vitesse-autoroute",
+    "question": "Sur l'autoroute à péage Dakar-Diamniadio, la vitesse maximale est de :",
+    "difficulty": "moyen",
+    "options": [
+      {"letter": "A", "text": "110 km/h", "is_correct": false},
+      {"letter": "B", "text": "120 km/h", "is_correct": false},
+      {"letter": "C", "text": "130 km/h", "is_correct": false},
+      {"letter": "D", "text": "140 km/h", "is_correct": true}
+    ]
+  },
+  {
+    "id": 4,
+    "theme": "Priorités et intersections",
+    "course_sheet_ref": "priorite-droite",
+    "question": "À une intersection sans signalisation, vous devez céder le passage :",
+    "difficulty": "facile",
+    "options": [
+      {"letter": "A", "text": "au véhicule venant de gauche", "is_correct": false},
+      {"letter": "B", "text": "au véhicule venant de droite", "is_correct": true},
+      {"letter": "C", "text": "au véhicule le plus rapide", "is_correct": false},
+      {"letter": "D", "text": "au véhicule le plus gros", "is_correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "theme": "Signalisation",
+    "course_sheet_ref": "panneau-stop",
+    "question": "Un panneau STOP signifie que vous devez :",
+    "difficulty": "facile",
+    "options": [
+      {"letter": "A", "text": "ralentir et passer si la voie est libre", "is_correct": false},
+      {"letter": "B", "text": "marquer un arrêt complet puis céder le passage", "is_correct": true},
+      {"letter": "C", "text": "tourner obligatoirement à droite", "is_correct": false},
+      {"letter": "D", "text": "klaxonner avant de passer", "is_correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "theme": "Partage de la chaussée",
+    "course_sheet_ref": "motocyclistes",
+    "question": "En présence d'un motocycliste à votre droite à un feu rouge, vous devez :",
+    "difficulty": "moyen",
+    "options": [
+      {"letter": "A", "text": "redémarrer rapidement pour le doubler", "is_correct": false},
+      {"letter": "B", "text": "rester vigilant car il peut serrer à droite ou se faufiler", "is_correct": true},
+      {"letter": "C", "text": "klaxonner pour le faire reculer", "is_correct": false},
+      {"letter": "D", "text": "lui couper la route", "is_correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "theme": "Partage de la chaussée",
+    "course_sheet_ref": "charrettes",
+    "question": "Vous approchez d'une charrette tractée par un âne sur la chaussée. La bonne attitude est :",
+    "difficulty": "facile",
+    "options": [
+      {"letter": "A", "text": "doubler sans ralentir", "is_correct": false},
+      {"letter": "B", "text": "ralentir, garder distance latérale d'au moins 1,5 m et doubler avec prudence", "is_correct": true},
+      {"letter": "C", "text": "klaxonner longuement pour effrayer l'animal", "is_correct": false},
+      {"letter": "D", "text": "rester très près derrière la charrette", "is_correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "theme": "Signalisation de danger",
+    "course_sheet_ref": "branches-arbres",
+    "question": "Au Sénégal, en zone interurbaine, des branches d'arbres déposées sur la chaussée signalent généralement :",
+    "difficulty": "moyen",
+    "options": [
+      {"letter": "A", "text": "un mariage en cours", "is_correct": false},
+      {"letter": "B", "text": "une panne ou un accident à proximité", "is_correct": true},
+      {"letter": "C", "text": "une zone de chasse", "is_correct": false},
+      {"letter": "D", "text": "un arrêt de car rapide", "is_correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "theme": "Alcool et conduite",
+    "course_sheet_ref": "taux-alcool-sn",
+    "question": "Au Sénégal, le taux d'alcool maximal autorisé dans le sang du conducteur est de :",
+    "difficulty": "facile",
+    "options": [
+      {"letter": "A", "text": "0,2 g/L", "is_correct": false},
+      {"letter": "B", "text": "0,5 g/L", "is_correct": true},
+      {"letter": "C", "text": "0,8 g/L", "is_correct": false},
+      {"letter": "D", "text": "1,0 g/L", "is_correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "theme": "Équipements obligatoires",
+    "course_sheet_ref": "equipements-vehicule",
+    "question": "Un véhicule léger circulant au Sénégal doit obligatoirement disposer à bord de :",
+    "difficulty": "moyen",
+    "options": [
+      {"letter": "A", "text": "un seul gilet jaune", "is_correct": false},
+      {"letter": "B", "text": "deux triangles de présignalisation, gilet jaune, extincteur et trousse de secours", "is_correct": true},
+      {"letter": "C", "text": "un GPS et un kit mains libres", "is_correct": false},
+      {"letter": "D", "text": "uniquement la carte grise", "is_correct": false}
+    ]
+  }
+]
