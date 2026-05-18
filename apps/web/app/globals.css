@@ -4,24 +4,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..900,0..100,0..1&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
-:root {
-  /* Sahel Sun & Asphalt — WCAG AAA soleil intense */
-  --bg: #0B0A09;
-  --surface: #1A1816;
-  --surface2: #252320;
-  --text: #FAFAF9;
-  --text2: rgba(250, 250, 249, 0.55);
-  --primary: #F97316;
-  --primary-deep: #C2410C;
-  --amber: #FBBF24;
-  --stroke: rgba(250, 250, 249, 0.12);
-  /* Alias rétrocompatibilité composants existants */
-  --terra: #F97316;
-  --terra-deep: #C2410C;
-  --serif: 'Fraunces', Georgia, serif;
-  --sans: 'Plus Jakarta Sans', system-ui, sans-serif;
-  --mono: 'JetBrains Mono', monospace;
-  --radius: 16px;
+@layer base {
+  :root {
+    /* Thème Sombre de Sécurité — Sahel Sun & Asphalt */
+    --background:    24 15%  4%;   /* #0B0A09 */
+    --surface:       24 10% 10%;   /* #1A1816 */
+    --primary:       25 95% 53%;   /* #F97316 Orange Route */
+    --primary-deep:  21 90% 42%;   /* #C2410C */
+    --amber:         45 93% 47%;   /* #FBBF24 Jaune Signalisation */
+    --text:          30 20% 98%;   /* #FAFAF9 Blanc Craie */
+    --text-secondary:24 10% 65%;   /* Gris moyen descriptions */
+    --success:      160 84% 39%;   /* #10B981 Vert Validation */
+    --error:          0 84% 60%;   /* #EF4444 Rouge Arrêt */
+    --stroke:        24 10% 98%;   /* utilisé avec /12 opacity */
+    --radius: 0.75rem;
+
+    /* ── Aliases hex rétrocompatibilité composants existants ── */
+    --bg:         #0B0A09;
+    --surface-hex:#1A1816;
+    --surface2:   #252320;
+    --terra:      #F97316;
+    --terra-deep: #C2410C;
+    --amber-hex:  #FBBF24;
+    --text-hex:   #FAFAF9;
+    --text2:      rgba(250,250,249,0.55);
+    --stroke-hex: rgba(250,250,249,0.12);
+
+    /* ── Typographie ── */
+    --serif: 'Fraunces', Georgia, serif;
+    --sans:  'Plus Jakarta Sans', system-ui, sans-serif;
+    --mono:  'JetBrains Mono', monospace;
+  }
 }
 
 * {
@@ -30,14 +43,17 @@
   padding: 0;
 }
 
-html,
 body {
-  height: 100%;
-  background: var(--bg);
-  color: var(--text);
+  background-color: hsl(var(--background));
+  color: hsl(var(--text));
   font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, .font-serif-italic {
+  font-family: var(--serif);
+  font-style: italic;
 }
 
 /* Mobile-first: conteneur plein écran */
@@ -51,13 +67,9 @@ main {
 }
 
 /* Scrollbar discrète */
-::-webkit-scrollbar {
-  width: 3px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
-  background: var(--stroke);
+  background: rgba(250,250,249,0.12);
   border-radius: 99px;
 }

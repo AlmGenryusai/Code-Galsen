@@ -60,7 +60,7 @@ export function BottomNav() {
       transform: 'translateX(-50%)',
       width: '100%',
       maxWidth: 430,
-      background: 'rgba(13,12,10,0.92)',
+      background: 'color-mix(in srgb, var(--bg) 92%, transparent)',
       backdropFilter: 'blur(16px)',
       WebkitBackdropFilter: 'blur(16px)',
       borderTop: '1px solid var(--stroke)',

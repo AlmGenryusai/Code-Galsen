@@ -9,21 +9,29 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: '#0d0c0a',
-        surface: '#1a1815',
-        surface2: '#242018',
-        terra: '#c94b30',
-        'terra-deep': '#a03820',
-        amber: '#f5b033',
-        cream: '#f4ede3',
+        background: 'hsl(var(--background))',
+        surface:    'hsl(var(--surface))',
+        primary:    'hsl(var(--primary))',
+        'primary-deep': 'hsl(var(--primary-deep))',
+        amber:      'hsl(var(--amber))',
+        text:       'hsl(var(--text))',
+        'text-secondary': 'hsl(var(--text-secondary))',
+        success:    'hsl(var(--success))',
+        error:      'hsl(var(--error))',
+        /* hex aliases pour composants inline-style existants */
+        bg:         '#0B0A09',
+        surface2:   '#252320',
+        terra:      '#F97316',
+        'terra-deep': '#C2410C',
+        cream:      '#FAFAF9',
       },
       fontFamily: {
         serif: ['Fraunces', 'Georgia', 'serif'],
-        sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
-        mono: ['JetBrains Mono', 'monospace'],
+        sans:  ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+        mono:  ['JetBrains Mono', 'monospace'],
       },
-      borderColor: {
-        stroke: 'rgba(244,237,227,0.12)',
+      borderRadius: {
+        DEFAULT: 'var(--radius)',
       },
     },
   },
