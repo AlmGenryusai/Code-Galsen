@@ -43,11 +43,13 @@ export function ExamScoreCard({ score, href = '/quiz?mode=examen' }: ExamScoreCa
           fontSize: 46,
           fontWeight: 800,
           lineHeight: 1,
-          color: score !== null && score >= 80
-            ? 'hsl(var(--success))'
-            : score !== null && score >= 60
-              ? 'hsl(var(--text))'
-              : 'hsl(var(--error))',
+          color: score === null
+            ? 'hsl(var(--muted))'
+            : score >= 80
+              ? 'hsl(var(--success))'
+              : score >= 60
+                ? 'hsl(var(--text))'
+                : 'hsl(var(--error))',
         }}>
           {score ?? '—'}
         </span>

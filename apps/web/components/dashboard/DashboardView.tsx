@@ -37,7 +37,7 @@ export function DashboardView({ data }: Props) {
   const sublabel = `${Math.floor(data.cumulatedMinutes / 60)} h cumulées · ${data.examBlancReussis} examen${data.examBlancReussis > 1 ? 's' : ''} blanc réussi${data.examBlancReussis > 1 ? 's' : ''}`
 
   return (
-    <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', paddingBottom: 80 }}>
+    <div style={{ background: 'hsl(var(--bg))', paddingBottom: 80 }}>
       {/* Top bar */}
       <div style={{
         display: 'flex',
