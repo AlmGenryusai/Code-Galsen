@@ -1,9 +1,10 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
+import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { QuizOption } from './QuizOption'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
+import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
 import type { Question } from '@/lib/quiz/mock-questions'
 
 interface QuizViewProps {
@@ -23,24 +24,16 @@ export function QuizView({ questions }: QuizViewProps) {
   const total = questions.length
   const answered = selected !== null
 
-  const hasAnswered = useRef(false)
-  const isNavigating = useRef(false)
-
-  useEffect(() => {
-    isNavigating.current = false
-  }, [index])
+  const { tryAnswer, tryNavigate } = useQuestionGuards(index)
 
   function handleSelect(optionId: string) {
-    if (hasAnswered.current) return
-    hasAnswered.current = true
+    if (!tryAnswer()) return
     setSelected(optionId)
     if (optionId === q.correctId) setScore(s => s + 1)
   }
 
   function handleNext() {
-    if (isNavigating.current) return
-    isNavigating.current = true
-    hasAnswered.current = false
+    if (!tryNavigate()) return
     if (index + 1 >= total) {
       setDone(true)
     } else {

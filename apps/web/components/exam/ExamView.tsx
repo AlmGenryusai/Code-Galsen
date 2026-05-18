@@ -1,9 +1,10 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { QuizOption } from '@/components/quiz/QuizOption'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
+import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
 import type { Question } from '@/lib/quiz/mock-questions'
 
 const { timerSeconds: TIMER_SECONDS, maxFaults: MAX_FAULTS } = EXAM_CONFIG
@@ -25,14 +26,7 @@ export function ExamView({ questions }: ExamViewProps) {
   const [result, setResult] = useState<ExamResult | null>(null)
   const [timeLeft, setTimeLeft] = useState(TIMER_SECONDS)
 
-  // Prevent double-tap registering two answers before re-render
-  const hasAnswered = useRef(false)
-  // Prevent double-tap on "Question suivante" skipping a question
-  const isNavigating = useRef(false)
-
-  useEffect(() => {
-    isNavigating.current = false
-  }, [index])
+  const { tryAnswer, tryNavigate } = useQuestionGuards(index)
 
   const q = questions[index]
   const answered = selected !== null || timedOut
@@ -41,7 +35,7 @@ export function ExamView({ questions }: ExamViewProps) {
   useEffect(() => {
     if (answered || result !== null) return
     if (timeLeft <= 0) {
-      hasAnswered.current = true
+      if (!tryAnswer()) return
       setTimedOut(true)
       setFaults(f => f + 1)
       return
@@ -51,8 +45,7 @@ export function ExamView({ questions }: ExamViewProps) {
   }, [timeLeft, answered, result])
 
   function handleSelect(optionId: string) {
-    if (hasAnswered.current) return
-    hasAnswered.current = true
+    if (!tryAnswer()) return
     setSelected(optionId)
     if (optionId !== q.correctId) {
       setFaults(f => f + 1)
@@ -60,9 +53,7 @@ export function ExamView({ questions }: ExamViewProps) {
   }
 
   function handleNext() {
-    if (isNavigating.current) return
-    isNavigating.current = true
-    hasAnswered.current = false
+    if (!tryNavigate()) return
     if (isLast) {
       setResult(faults <= MAX_FAULTS ? 'pass' : 'fail')
     } else {
