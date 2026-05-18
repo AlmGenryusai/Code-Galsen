@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { PassChip } from './PassChip'
 import { ExamScoreCard } from './ExamScoreCard'
 import { ReviewChip } from './ReviewChip'
@@ -62,8 +63,10 @@ export function DashboardView({ data }: Props) {
           )}
         </div>
 
-        {/* ExamScore — héros plein-largeur (P02) */}
-        <ExamScoreCard score={data.examScore} />
+        {/* ExamScore — tap → /examen */}
+        <Link href="/examen" style={{ display: 'block', textDecoration: 'none' }}>
+          <ExamScoreCard score={data.examScore} />
+        </Link>
 
         {/* Chips secondaires (P02) */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>

@@ -58,25 +58,42 @@ export function QuizView({ questions }: QuizViewProps) {
         <div style={{ fontSize: 13, color: 'hsl(var(--muted))' }}>
           {score}/{total} bonnes réponses
         </div>
-        <button
-          onClick={() => router.push('/')}
-          style={{
-            marginTop: 8,
-            padding: '14px 32px',
-            background: 'hsl(var(--primary))',
-            color: 'hsl(var(--text))',
-            border: 'none',
-            borderRadius: 'var(--radius)',
-            fontSize: 15,
-            fontWeight: 700,
-            fontFamily: 'var(--font-sans)',
-            cursor: 'pointer',
-            width: '100%',
-            maxWidth: 320,
-          }}
-        >
-          Retour au parcours
-        </button>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 10, width: '100%', maxWidth: 320, marginTop: 8 }}>
+          <button
+            onClick={() => router.push('/examen')}
+            style={{
+              padding: '14px 32px',
+              background: 'hsl(var(--primary))',
+              color: 'hsl(var(--text))',
+              border: 'none',
+              borderRadius: 'var(--radius)',
+              fontSize: 15,
+              fontWeight: 700,
+              fontFamily: 'var(--font-sans)',
+              cursor: 'pointer',
+              width: '100%',
+            }}
+          >
+            Passer un examen blanc →
+          </button>
+          <button
+            onClick={() => router.push('/')}
+            style={{
+              padding: '14px 32px',
+              background: 'transparent',
+              color: 'hsl(var(--muted))',
+              border: '1.5px solid hsl(var(--border))',
+              borderRadius: 'var(--radius)',
+              fontSize: 15,
+              fontWeight: 600,
+              fontFamily: 'var(--font-sans)',
+              cursor: 'pointer',
+              width: '100%',
+            }}
+          >
+            Retour au parcours
+          </button>
+        </div>
       </div>
     )
   }
