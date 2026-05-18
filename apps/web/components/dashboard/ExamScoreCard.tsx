@@ -12,8 +12,8 @@ export function ExamScoreCard({ score, href = '/quiz?mode=examen' }: ExamScoreCa
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        height: 96,
-        padding: '0 20px',
+        height: 80,
+        padding: '0 16px',
         background: 'hsl(var(--surface))',
         border: '1px solid hsl(var(--border))',
         borderRadius: 'var(--radius)',
@@ -40,7 +40,7 @@ export function ExamScoreCard({ score, href = '/quiz?mode=examen' }: ExamScoreCa
       </div>
       <div style={{ display: 'flex', alignItems: 'baseline', gap: 2, flexShrink: 0 }}>
         <span style={{
-          fontSize: 56,
+          fontSize: 46,
           fontWeight: 800,
           lineHeight: 1,
           color: score !== null && score >= 80

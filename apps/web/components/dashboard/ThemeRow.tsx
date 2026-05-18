@@ -15,7 +15,7 @@ export function ThemeRow({ icon, color, title, progress, questionsTotal, href }:
         display: 'flex',
         alignItems: 'center',
         gap: 12,
-        padding: '12px 0',
+        padding: '10px 0',
         borderBottom: '1px solid hsl(var(--border))',
         textDecoration: 'none',
         color: 'hsl(var(--text))',
@@ -44,7 +44,6 @@ export function ThemeRow({ icon, color, title, progress, questionsTotal, href }:
             width: `${progress}%`,
             background: progress >= 80 ? 'hsl(var(--success))' : 'hsl(var(--primary))',
             borderRadius: 99,
-            transition: 'width 0.6s ease',
           }} />
         </div>
       </div>

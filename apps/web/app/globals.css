@@ -19,7 +19,7 @@
     --border-2:   30 22% 79%;    /* #D8CCBC — séparateurs forts */
     --text:       18 14% 10%;    /* #1F1A17 — texte principal  15.6:1 AAA */
     --muted:      25 11% 38%;    /* #6B6257 — secondaire       5.42:1 AA  */
-    --muted-2:    25  9% 53%;    /* #948A7C — tertiaire */
+    --muted-2:    25 10% 44%;    /* #716760 — tertiaire 4.6:1 AA ✓ */
     --primary:    22 86% 50%;    /* #EA6A12 — CTA orange */
     --primary-h:  22 92% 44%;    /* #D95C09 — hover/lien/active */
     --primary-soft:28 100% 93%;  /* #FCEEDD — chips doux */
@@ -79,6 +79,36 @@ main {
 button, a[role="button"], [role="tab"] {
   min-height: 48px;
   cursor: pointer;
+}
+
+/* Quiz option rows — tap-friendly (P06 + Q1 audit) */
+.quiz-option {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 64px;
+  padding: 14px 16px;
+  border-radius: var(--radius);
+  border: 1.5px solid hsl(var(--border));
+  background: hsl(var(--surface));
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: var(--font-sans);
+  color: hsl(var(--text));
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.quiz-option:active {
+  background: hsl(var(--surface-2));
+}
+.quiz-option[data-state="correct"] {
+  border-color: hsl(var(--success));
+  background: hsl(var(--success-soft));
+}
+.quiz-option[data-state="wrong"] {
+  border-color: hsl(var(--error));
+  background: hsl(var(--error-soft));
 }
 
 /* Scrollbar discrète */

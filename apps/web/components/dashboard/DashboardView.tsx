@@ -43,13 +43,13 @@ export function DashboardView({ data }: Props) {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        padding: '16px 20px 12px',
+        padding: '10px 20px 8px',
       }}>
         <span style={{ fontSize: 15, fontWeight: 600, color: 'hsl(var(--text))' }}>Mon parcours</span>
         <PassChip passExpiresAt={data.passExpiresAt} />
       </div>
 
-      <div style={{ padding: '0 20px', display: 'flex', flexDirection: 'column', gap: 12 }}>
+      <div style={{ padding: '0 20px', display: 'flex', flexDirection: 'column', gap: 8 }}>
         {/* Greeting */}
         <div>
           <h1 style={{ fontSize: 30, fontWeight: 800, lineHeight: 1.1, color: 'hsl(var(--text))' }}>
@@ -91,7 +91,8 @@ export function DashboardView({ data }: Props) {
             <span style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--muted))' }}>Thèmes du programme</span>
             <a href="/themes" style={{
               fontSize: 12,
-              color: 'hsl(var(--primary-h))',
+              fontWeight: 600,
+              color: 'hsl(var(--muted))',
               textDecoration: 'none',
               fontFamily: 'var(--font-mono)',
             }}>
