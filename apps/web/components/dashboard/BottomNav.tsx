@@ -1,7 +1,7 @@
 'use client'
 
+import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useRouter } from 'next/navigation'
 
 const NAV_ITEMS = [
   {
@@ -52,7 +52,6 @@ const NAV_ITEMS = [
 
 export function BottomNav() {
   const pathname = usePathname()
-  const router = useRouter()
 
   return (
     <nav style={{
@@ -71,10 +70,9 @@ export function BottomNav() {
       {NAV_ITEMS.map((item) => {
         const active = pathname === item.href
         return (
-          <a
+          <Link
             key={item.href}
             href={item.href}
-            onClick={(e) => { e.preventDefault(); router.push(item.href) }}
             style={{
               flex: 1,
               display: 'flex',
@@ -92,7 +90,7 @@ export function BottomNav() {
           >
             {item.icon(active)}
             {item.label}
-          </a>
+          </Link>
         )
       })}
     </nav>
