@@ -30,6 +30,7 @@ export function ThemeRow({ icon, color, title, progress, questionsTotal, href }:
         alignItems: 'center',
         justifyContent: 'center',
         fontSize: 18,
+        color: '#fff',
         flexShrink: 0,
       }}>
         {icon}

@@ -81,36 +81,6 @@ button, a[role="button"], [role="tab"] {
   cursor: pointer;
 }
 
-/* Quiz option rows — tap-friendly (P06 + Q1 audit) */
-.quiz-option {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  min-height: 64px;
-  padding: 14px 16px;
-  border-radius: var(--radius);
-  border: 1.5px solid hsl(var(--border));
-  background: hsl(var(--surface));
-  font-size: 16px;
-  line-height: 1.5;
-  font-family: var(--font-sans);
-  color: hsl(var(--text));
-  text-align: left;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-.quiz-option:active {
-  background: hsl(var(--surface-2));
-}
-.quiz-option[data-state="correct"] {
-  border-color: hsl(var(--success));
-  background: hsl(var(--success-soft));
-}
-.quiz-option[data-state="wrong"] {
-  border-color: hsl(var(--error));
-  background: hsl(var(--error-soft));
-}
-
 /* Scrollbar discrète */
 ::-webkit-scrollbar { width: 3px; }
 ::-webkit-scrollbar-track { background: transparent; }

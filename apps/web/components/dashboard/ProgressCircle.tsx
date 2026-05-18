@@ -1,5 +1,3 @@
-import { memo } from 'react'
-
 interface ProgressCircleProps {
   percent: number
   size?: number
@@ -9,7 +7,7 @@ interface ProgressCircleProps {
   sublabel: string
 }
 
-export const ProgressCircle = memo(function ProgressCircle({
+export function ProgressCircle({
   percent,
   size = 36,
   strokeWidth = 3,
@@ -63,4 +61,4 @@ export const ProgressCircle = memo(function ProgressCircle({
       </div>
     </div>
   )
-})
+}
