@@ -125,8 +125,15 @@ export function QuizView({ questions }: QuizViewProps) {
         }} />
       </div>
 
-      {/* Question */}
-      <div style={{ padding: '20px 20px 0', flex: 1 }}>
+      {/* Question + options — scrollable */}
+      <div style={{
+        flex: 1,
+        overflowY: 'auto',
+        paddingTop: 20,
+        paddingLeft: 20,
+        paddingRight: 20,
+        paddingBottom: answered ? 90 : 20,
+      }}>
         <p style={{
           fontSize: 17,
           fontWeight: 600,
@@ -137,7 +144,6 @@ export function QuizView({ questions }: QuizViewProps) {
           {q.text}
         </p>
 
-        {/* Options */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
           {q.options.map(opt => (
             <QuizOption
@@ -150,41 +156,53 @@ export function QuizView({ questions }: QuizViewProps) {
           ))}
         </div>
 
-        {/* Explanation + Next */}
         {answered && (
-          <div style={{ marginTop: 16 }}>
-            <div style={{
-              padding: '12px 14px',
-              background: 'hsl(var(--surface))',
-              border: '1px solid hsl(var(--border))',
-              borderRadius: 'var(--radius)',
-              fontSize: 13,
-              lineHeight: 1.5,
-              color: 'hsl(var(--muted))',
-              marginBottom: 12,
-            }}>
-              {q.explanation}
-            </div>
-            <button
-              onClick={handleNext}
-              style={{
-                width: '100%',
-                padding: '16px',
-                background: 'hsl(var(--primary))',
-                color: 'hsl(var(--text))',
-                border: 'none',
-                borderRadius: 'var(--radius)',
-                fontSize: 15,
-                fontWeight: 700,
-                fontFamily: 'var(--font-sans)',
-                cursor: 'pointer',
-              }}
-            >
-              {index + 1 >= total ? 'Voir les résultats' : 'Suivant →'}
-            </button>
+          <div style={{
+            marginTop: 16,
+            padding: '12px 14px',
+            background: 'hsl(var(--surface))',
+            border: '1px solid hsl(var(--border))',
+            borderRadius: 'var(--radius)',
+            fontSize: 13,
+            lineHeight: 1.5,
+            color: 'hsl(var(--muted))',
+          }}>
+            {q.explanation}
           </div>
         )}
       </div>
+
+      {/* Bouton fixe bas — toujours dans zone pouce */}
+      {answered && (
+        <div style={{
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          padding: '12px 20px',
+          paddingBottom: 'calc(12px + env(safe-area-inset-bottom))',
+          background: 'hsl(var(--bg))',
+          borderTop: '1px solid hsl(var(--border))',
+        }}>
+          <button
+            onClick={handleNext}
+            style={{
+              width: '100%',
+              padding: '16px',
+              background: 'hsl(var(--primary))',
+              color: 'hsl(var(--text))',
+              border: 'none',
+              borderRadius: 'var(--radius)',
+              fontSize: 15,
+              fontWeight: 700,
+              fontFamily: 'var(--font-sans)',
+              cursor: 'pointer',
+            }}
+          >
+            {index + 1 >= total ? 'Voir les résultats' : 'Suivant →'}
+          </button>
+        </div>
+      )}
     </div>
   )
 }

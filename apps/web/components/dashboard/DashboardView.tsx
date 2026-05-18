@@ -92,7 +92,7 @@ export function DashboardView({ data }: Props) {
             marginBottom: 4,
           }}>
             <span style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--muted))' }}>Thèmes du programme</span>
-            <a href="/themes" style={{
+            <Link href="/quiz" style={{
               fontSize: 12,
               fontWeight: 600,
               color: 'hsl(var(--muted))',
@@ -100,7 +100,7 @@ export function DashboardView({ data }: Props) {
               fontFamily: 'var(--font-mono)',
             }}>
               Voir tout
-            </a>
+            </Link>
           </div>
 
           {/* P08 — gradient fade signal scroll */}
@@ -113,7 +113,7 @@ export function DashboardView({ data }: Props) {
                 title={t.title}
                 progress={t.progress}
                 questionsTotal={t.questionsTotal}
-                href={`/themes/${t.id}`}
+                href="/quiz"
               />
             ))}
             <div style={{
