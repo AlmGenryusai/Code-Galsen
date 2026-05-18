@@ -27,6 +27,12 @@ export function ExamView({ questions }: ExamViewProps) {
 
   // Prevent double-tap registering two answers before re-render
   const hasAnswered = useRef(false)
+  // Prevent double-tap on "Question suivante" skipping a question
+  const isNavigating = useRef(false)
+
+  useEffect(() => {
+    isNavigating.current = false
+  }, [index])
 
   const q = questions[index]
   const answered = selected !== null || timedOut
@@ -54,6 +60,8 @@ export function ExamView({ questions }: ExamViewProps) {
   }
 
   function handleNext() {
+    if (isNavigating.current) return
+    isNavigating.current = true
     hasAnswered.current = false
     if (isLast) {
       setResult(faults <= MAX_FAULTS ? 'pass' : 'fail')

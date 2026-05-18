@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { QuizOption } from './QuizOption'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
@@ -23,13 +23,24 @@ export function QuizView({ questions }: QuizViewProps) {
   const total = questions.length
   const answered = selected !== null
 
+  const hasAnswered = useRef(false)
+  const isNavigating = useRef(false)
+
+  useEffect(() => {
+    isNavigating.current = false
+  }, [index])
+
   function handleSelect(optionId: string) {
-    if (answered) return
+    if (hasAnswered.current) return
+    hasAnswered.current = true
     setSelected(optionId)
     if (optionId === q.correctId) setScore(s => s + 1)
   }
 
   function handleNext() {
+    if (isNavigating.current) return
+    isNavigating.current = true
+    hasAnswered.current = false
     if (index + 1 >= total) {
       setDone(true)
     } else {
@@ -110,8 +121,13 @@ export function QuizView({ questions }: QuizViewProps) {
         >
           ‹
         </button>
-        <div style={{ flex: 1, fontSize: 13, color: 'hsl(var(--muted))', fontFamily: 'var(--font-mono)' }}>
-          {index + 1} / {total}
+        <div style={{ flex: 1 }}>
+          <div style={{ fontSize: 10, fontWeight: 700, color: 'hsl(var(--muted))', fontFamily: 'var(--font-mono)', letterSpacing: '0.08em', textTransform: 'uppercase' }}>
+            Entraînement
+          </div>
+          <div style={{ fontSize: 13, color: 'hsl(var(--muted))', fontFamily: 'var(--font-mono)' }}>
+            {index + 1} / {total}
+          </div>
         </div>
       </div>
 
