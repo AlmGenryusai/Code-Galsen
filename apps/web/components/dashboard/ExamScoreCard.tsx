@@ -4,7 +4,7 @@ interface ExamScoreCardProps {
   href?: string
 }
 
-export function ExamScoreCard({ score, href = '/quiz?mode=examen' }: ExamScoreCardProps) {
+export function ExamScoreCard({ score, href = '/examen' }: ExamScoreCardProps) {
   return (
     <a
       href={href}

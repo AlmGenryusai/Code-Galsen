@@ -64,9 +64,7 @@ export function DashboardView({ data }: Props) {
         </div>
 
         {/* ExamScore — tap → /examen */}
-        <Link href="/examen" style={{ display: 'block', textDecoration: 'none' }}>
-          <ExamScoreCard score={data.examScore} />
-        </Link>
+        <ExamScoreCard score={data.examScore} href="/examen" />
 
         {/* Chips secondaires (P02) */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>

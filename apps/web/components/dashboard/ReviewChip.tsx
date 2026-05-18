@@ -4,7 +4,7 @@ interface ReviewChipProps {
   href?: string
 }
 
-export function ReviewChip({ count, href = '/quiz?mode=srs' }: ReviewChipProps) {
+export function ReviewChip({ count, href = '/quiz' }: ReviewChipProps) {
   return (
     <a
       href={href}
