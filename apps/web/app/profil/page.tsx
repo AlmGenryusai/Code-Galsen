@@ -2,7 +2,7 @@ import { BottomNav } from '@/components/dashboard/BottomNav'
 
 export default function ProfilPage() {
   return (
-    <main style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', paddingBottom: 80 }}>
+    <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', paddingBottom: 80 }}>
       <div style={{
         display: 'flex',
         flexDirection: 'column',
@@ -18,6 +18,6 @@ export default function ProfilPage() {
         </p>
       </div>
       <BottomNav />
-    </main>
+    </div>
   )
 }

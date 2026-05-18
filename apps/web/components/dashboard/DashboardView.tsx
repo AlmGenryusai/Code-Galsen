@@ -35,7 +35,7 @@ interface Props {
 export function DashboardView({ data }: Props) {
   const isFirstDay = data.streakDays === 0 && data.globalProgressPct === 0
 
-  const sublabel = `${Math.floor(data.cumulatedMinutes / 60)} h cumulées · ${data.examBlancReussis} examen${data.examBlancReussis > 1 ? 's' : ''} blanc réussi${data.examBlancReussis > 1 ? 's' : ''}`
+  const sublabel = `${Math.floor(data.cumulatedMinutes / 60)} h cumulées · ${data.examBlancReussis} examen${data.examBlancReussis > 1 ? 's' : ''} blanc${data.examBlancReussis > 1 ? 's' : ''} réussi${data.examBlancReussis > 1 ? 's' : ''}`
 
   return (
     <div style={{ background: 'hsl(var(--bg))', paddingBottom: 80 }}>
