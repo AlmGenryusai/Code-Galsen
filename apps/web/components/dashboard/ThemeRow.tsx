@@ -16,9 +16,9 @@ export function ThemeRow({ icon, color, title, progress, questionsTotal, href }:
         alignItems: 'center',
         gap: 12,
         padding: '12px 0',
-        borderBottom: '1px solid var(--stroke)',
+        borderBottom: '1px solid hsl(var(--border))',
         textDecoration: 'none',
-        color: 'inherit',
+        color: 'hsl(var(--text))',
       }}
     >
       <div style={{
@@ -29,11 +29,8 @@ export function ThemeRow({ icon, color, title, progress, questionsTotal, href }:
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        fontFamily: 'var(--serif)',
-        fontWeight: 600,
-        fontSize: 16,
+        fontSize: 18,
         flexShrink: 0,
-        color: '#fff',
       }}>
         {icon}
       </div>
@@ -41,20 +38,20 @@ export function ThemeRow({ icon, color, title, progress, questionsTotal, href }:
         <div style={{ fontSize: 14, fontWeight: 500, marginBottom: 6, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
           {title}
         </div>
-        <div style={{ height: 4, background: 'var(--stroke)', borderRadius: 99, overflow: 'hidden' }}>
+        <div style={{ height: 4, background: 'hsl(var(--border))', borderRadius: 99, overflow: 'hidden' }}>
           <div style={{
             height: '100%',
             width: `${progress}%`,
-            background: progress >= 80 ? 'var(--amber)' : 'var(--terra)',
+            background: progress >= 80 ? 'hsl(var(--success))' : 'hsl(var(--primary))',
             borderRadius: 99,
             transition: 'width 0.6s ease',
           }} />
         </div>
       </div>
-      <div style={{ fontSize: 13, fontFamily: 'var(--mono)', opacity: 0.55, flexShrink: 0 }}>
+      <div style={{ fontSize: 13, fontFamily: 'var(--font-mono)', color: 'hsl(var(--muted-2))', flexShrink: 0 }}>
         {progress}%
       </div>
-      <div style={{ fontSize: 18, opacity: 0.25, fontFamily: 'var(--serif)' }}>›</div>
+      <div style={{ fontSize: 16, color: 'hsl(var(--muted-2))', opacity: 0.6 }}>›</div>
     </a>
   )
 }
@@ -66,12 +63,12 @@ export function ThemeRowSkeleton() {
       alignItems: 'center',
       gap: 12,
       padding: '12px 0',
-      borderBottom: '1px solid var(--stroke)',
+      borderBottom: '1px solid hsl(var(--border))',
     }}>
-      <div style={{ width: 36, height: 36, borderRadius: 10, background: 'var(--surface2)', flexShrink: 0 }} />
+      <div style={{ width: 36, height: 36, borderRadius: 10, background: 'hsl(var(--surface-2))', flexShrink: 0 }} />
       <div style={{ flex: 1 }}>
-        <div style={{ height: 12, background: 'var(--surface2)', borderRadius: 6, marginBottom: 8, width: '60%' }} />
-        <div style={{ height: 4, background: 'var(--surface2)', borderRadius: 99 }} />
+        <div style={{ height: 12, background: 'hsl(var(--surface-2))', borderRadius: 6, marginBottom: 8, width: '60%' }} />
+        <div style={{ height: 4, background: 'hsl(var(--surface-2))', borderRadius: 99 }} />
       </div>
     </div>
   )

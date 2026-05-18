@@ -22,17 +22,16 @@ export function ProgressCircle({
   const dash = (percent / 100) * circumference
 
   return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: 14,
-        background: 'var(--surface)',
-        borderRadius: 14,
-        padding: '14px 16px',
-        border: '1px solid var(--stroke)',
-      }}
-    >
+    <div style={{
+      display: 'flex',
+      alignItems: 'center',
+      gap: 14,
+      background: 'hsl(var(--surface))',
+      borderRadius: 14,
+      padding: '14px 16px',
+      border: '1px solid hsl(var(--border))',
+      boxShadow: 'var(--shadow-1)',
+    }}>
       <svg
         width={size}
         height={size}
@@ -45,7 +44,7 @@ export function ProgressCircle({
           cy={cy}
           r={r}
           fill="none"
-          stroke="rgba(244,237,227,0.12)"
+          stroke="hsl(var(--border))"
           strokeWidth={strokeWidth}
         />
         <circle
@@ -53,7 +52,7 @@ export function ProgressCircle({
           cy={cy}
           r={r}
           fill="none"
-          stroke="var(--amber)"
+          stroke="hsl(var(--primary))"
           strokeWidth={strokeWidth}
           strokeDasharray={`${dash} ${circumference}`}
           strokeLinecap="round"
@@ -61,13 +60,13 @@ export function ProgressCircle({
         />
       </svg>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={{ fontSize: 11, opacity: 0.55, letterSpacing: '0.08em', textTransform: 'uppercase', fontFamily: 'var(--mono)', marginBottom: 2 }}>
+        <div style={{ fontSize: 11, color: 'hsl(var(--muted))', letterSpacing: '0.08em', textTransform: 'uppercase', fontFamily: 'var(--font-mono)', marginBottom: 2 }}>
           {label}
         </div>
-        <div style={{ fontFamily: 'var(--serif)', fontSize: 26, fontWeight: 500, lineHeight: 1, letterSpacing: '-0.03em', color: 'var(--text)' }}>
-          {value}<span style={{ fontSize: 14, opacity: 0.55 }}>%</span>
+        <div style={{ fontSize: 26, fontWeight: 800, lineHeight: 1, letterSpacing: '-0.03em', color: 'hsl(var(--text))' }}>
+          {value}<span style={{ fontSize: 14, fontWeight: 600, color: 'hsl(var(--muted))' }}>%</span>
         </div>
-        <div style={{ fontSize: 12, opacity: 0.45, marginTop: 3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+        <div style={{ fontSize: 12, color: 'hsl(var(--muted-2))', marginTop: 3, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
           {sublabel}
         </div>
       </div>
