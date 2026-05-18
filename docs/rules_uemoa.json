@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "description": "Règles de vitesse absolues et contraintes réglementaires UEMOA. Dictionnaire de validation pour parser.py (adaptation questions FR → UEMOA).",
+  "countries": {
+    "SN": {
+      "name": "Sénégal",
+      "authority": "ANASER",
+      "speed_limits_kmh": {
+        "urban": 50,
+        "departementale": 90,
+        "nationale": 110,
+        "autoroute": 110
+      },
+      "excluded_from_fr": [
+        "30 km/h zones scolaires",
+        "50 km/h agglomération FR",
+        "80 km/h routes FR",
+        "130 km/h autoroute FR",
+        "110 km/h voie rapide FR",
+        "Zones ZFE",
+        "Vignette Crit'Air",
+        "Zones à faibles émissions",
+        "Loi Montagne",
+        "Verglas / neige / conditions hivernales nordiques"
+      ],
+      "specificities": [
+        "Signalisation branches d'arbres = obstacle réglementaire",
+        "Charrettes et animaux ont priorité sur routes rurales",
+        "Transports collectifs informels (car rapide, Ndiaga Ndiaye)",
+        "Motos représentent 38% des accidents — questions dédiées obligatoires",
+        "Examen blanc : 40 questions, 20s/Q, max 5 fautes (conforme ANASER)"
+      ]
+    },
+    "CI": {
+      "name": "Côte d'Ivoire",
+      "authority": "OSER",
+      "speed_limits_kmh": {
+        "urban": 60,
+        "nationale": 110,
+        "autoroute": 120
+      },
+      "excluded_from_fr": [
+        "30 km/h zones FR",
+        "50 km/h agglomération FR",
+        "80 km/h routes FR",
+        "130 km/h autoroute FR",
+        "Zones ZFE",
+        "Vignette Crit'Air",
+        "Loi Montagne"
+      ],
+      "specificities": [
+        "Voie express Abidjan : 100 km/h",
+        "Péages autoroutes du Nord et de l'Ouest"
+      ]
+    },
+    "ML": {
+      "name": "Mali",
+      "authority": "DNTT",
+      "speed_limits_kmh": {
+        "urban": 50,
+        "nationale": 90,
+        "autoroute": 100
+      },
+      "excluded_from_fr": [
+        "Conditions hivernales / neige",
+        "Loi Montagne",
+        "ZFE / Crit'Air"
+      ],
+      "specificities": []
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "authority": "STVS",
+      "speed_limits_kmh": {
+        "urban": 50,
+        "nationale": 90,
+        "autoroute": 100
+      },
+      "excluded_from_fr": [
+        "Conditions hivernales / neige",
+        "Loi Montagne",
+        "ZFE / Crit'Air"
+      ],
+      "specificities": []
+    }
+  },
+  "parser_rules": {
+    "flag_for_review": [
+      "neige",
+      "verglas",
+      "brouillard dense",
+      "Loi Montagne",
+      "ZFE",
+      "Crit'Air",
+      "vignette",
+      "110 km/h",
+      "130 km/h",
+      "30 km/h",
+      "périphérique"
+    ],
+    "auto_replace": {
+      "50 km/h en agglomération": {
+        "SN": "50 km/h en agglomération",
+        "CI": "60 km/h en agglomération"
+      },
+      "130 km/h sur autoroute": {
+        "SN": "110 km/h sur autoroute",
+        "CI": "120 km/h sur autoroute"
+      },
+      "80 km/h sur route": {
+        "SN": "90 km/h sur route départementale",
+        "CI": "110 km/h sur route nationale"
+      }
+    }
+  }
+}
