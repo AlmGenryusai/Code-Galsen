@@ -1,12 +1,12 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { QuizOption } from '@/components/quiz/QuizOption'
+import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import type { Question } from '@/lib/quiz/mock-questions'
 
-const TIMER_SECONDS = 20
-const MAX_FAULTS = 5
+const { timerSeconds: TIMER_SECONDS, maxFaults: MAX_FAULTS } = EXAM_CONFIG
 
 interface ExamViewProps {
   questions: Question[]
@@ -25,6 +25,9 @@ export function ExamView({ questions }: ExamViewProps) {
   const [result, setResult] = useState<ExamResult | null>(null)
   const [timeLeft, setTimeLeft] = useState(TIMER_SECONDS)
 
+  // Prevent double-tap registering two answers before re-render
+  const hasAnswered = useRef(false)
+
   const q = questions[index]
   const answered = selected !== null || timedOut
   const isLast = index + 1 >= total
@@ -32,6 +35,7 @@ export function ExamView({ questions }: ExamViewProps) {
   useEffect(() => {
     if (answered || result !== null) return
     if (timeLeft <= 0) {
+      hasAnswered.current = true
       setTimedOut(true)
       setFaults(f => f + 1)
       return
@@ -41,7 +45,8 @@ export function ExamView({ questions }: ExamViewProps) {
   }, [timeLeft, answered, result])
 
   function handleSelect(optionId: string) {
-    if (answered) return
+    if (hasAnswered.current) return
+    hasAnswered.current = true
     setSelected(optionId)
     if (optionId !== q.correctId) {
       setFaults(f => f + 1)
@@ -49,6 +54,7 @@ export function ExamView({ questions }: ExamViewProps) {
   }
 
   function handleNext() {
+    hasAnswered.current = false
     if (isLast) {
       setResult(faults <= MAX_FAULTS ? 'pass' : 'fail')
     } else {
@@ -67,8 +73,8 @@ export function ExamView({ questions }: ExamViewProps) {
   }
 
   if (result !== null) {
-    const correct = total - faults
-    const pct = Math.max(0, Math.round((correct / total) * 100))
+    const correct = Math.max(0, total - faults)
+    const pct = Math.round((correct / total) * 100)
     const pass = result === 'pass'
     return (
       <div style={{
@@ -90,7 +96,7 @@ export function ExamView({ questions }: ExamViewProps) {
         <div style={{ fontSize: 14, color: 'hsl(var(--muted))', textAlign: 'center', lineHeight: 1.6 }}>
           {faults} faute{faults !== 1 ? 's' : ''} sur {MAX_FAULTS} autorisées
           <br />
-          {Math.max(0, correct)}/{total} bonnes réponses
+          {correct}/{total} bonnes réponses
         </div>
         <div style={{ width: '100%', maxWidth: 320, display: 'flex', flexDirection: 'column', gap: 10, marginTop: 8 }}>
           <button
@@ -136,11 +142,11 @@ export function ExamView({ questions }: ExamViewProps) {
 
   return (
     <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', display: 'flex', flexDirection: 'column' }}>
-      {/* Timer bar — discret, haut d'écran */}
+      {/* Timer bar */}
       <div style={{ height: 3, background: 'hsl(var(--border))', flexShrink: 0 }}>
         <div style={{
           height: '100%',
-          width: `${answered ? timerPct : timerPct}%`,
+          width: `${timerPct}%`,
           background: 'hsl(var(--primary))',
           transition: answered ? 'none' : 'width 1s linear',
         }} />
@@ -154,33 +160,31 @@ export function ExamView({ questions }: ExamViewProps) {
         justifyContent: 'space-between',
         flexShrink: 0,
       }}>
-        <div style={{
-          fontSize: 13,
-          fontFamily: 'var(--font-mono)',
-          color: 'hsl(var(--muted))',
-        }}>
+        <div style={{ fontSize: 13, fontFamily: 'var(--font-mono)', color: 'hsl(var(--muted))' }}>
           Q {index + 1} / {total}
         </div>
-
-        {/* Fault dots */}
         <div style={{ display: 'flex', gap: 6, alignItems: 'center' }}>
           {Array.from({ length: MAX_FAULTS }).map((_, i) => (
-            <div
-              key={i}
-              style={{
-                width: 8,
-                height: 8,
-                borderRadius: '50%',
-                background: i < faults ? 'hsl(var(--error))' : 'hsl(var(--border))',
-                transition: 'background 0.2s',
-              }}
-            />
+            <div key={i} style={{
+              width: 8,
+              height: 8,
+              borderRadius: '50%',
+              background: i < faults ? 'hsl(var(--error))' : 'hsl(var(--border))',
+              transition: 'background 0.2s',
+            }} />
           ))}
         </div>
       </div>
 
-      {/* Question + options */}
-      <div style={{ flex: 1, padding: '4px 20px 20px', display: 'flex', flexDirection: 'column' }}>
+      {/* Question + options — scrollable si débordement */}
+      <div style={{
+        flex: 1,
+        overflowY: 'auto',
+        paddingTop: 4,
+        paddingLeft: 20,
+        paddingRight: 20,
+        paddingBottom: answered ? 90 : 20,
+      }}>
         <p style={{
           fontSize: 17,
           fontWeight: 600,
@@ -203,6 +207,7 @@ export function ExamView({ questions }: ExamViewProps) {
           ))}
         </div>
 
+        {/* Explication inline — bouton en position fixe bas */}
         {answered && (
           <div style={{ marginTop: 16 }}>
             {timedOut && (
@@ -227,30 +232,44 @@ export function ExamView({ questions }: ExamViewProps) {
               fontSize: 13,
               lineHeight: 1.5,
               color: 'hsl(var(--muted))',
-              marginBottom: 12,
             }}>
               {q.explanation}
             </div>
-            <button
-              onClick={handleNext}
-              style={{
-                width: '100%',
-                padding: '16px',
-                background: 'hsl(var(--primary))',
-                color: 'hsl(var(--text))',
-                border: 'none',
-                borderRadius: 'var(--radius)',
-                fontSize: 15,
-                fontWeight: 700,
-                fontFamily: 'var(--font-sans)',
-                cursor: 'pointer',
-              }}
-            >
-              {isLast ? 'Voir les résultats' : 'Question suivante →'}
-            </button>
           </div>
         )}
       </div>
+
+      {/* Action bar — position fixe bas, toujours dans zone pouce */}
+      {answered && (
+        <div style={{
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          padding: '12px 20px',
+          paddingBottom: 'calc(12px + env(safe-area-inset-bottom))',
+          background: 'hsl(var(--bg))',
+          borderTop: '1px solid hsl(var(--border))',
+        }}>
+          <button
+            onClick={handleNext}
+            style={{
+              width: '100%',
+              padding: '16px',
+              background: 'hsl(var(--primary))',
+              color: 'hsl(var(--text))',
+              border: 'none',
+              borderRadius: 'var(--radius)',
+              fontSize: 15,
+              fontWeight: 700,
+              fontFamily: 'var(--font-sans)',
+              cursor: 'pointer',
+            }}
+          >
+            {isLast ? 'Voir les résultats' : 'Question suivante →'}
+          </button>
+        </div>
+      )}
     </div>
   )
 }

@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { QuizOption } from './QuizOption'
+import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import type { Question } from '@/lib/quiz/mock-questions'
 
 interface QuizViewProps {
@@ -46,7 +47,7 @@ export function QuizView({ questions }: QuizViewProps) {
 
   if (done) {
     const pct = Math.round((score / total) * 100)
-    const pass = pct >= 80
+    const pass = pct >= EXAM_CONFIG.passThresholdPct
     return (
       <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '0 20px', gap: 16 }}>
         <div style={{ fontSize: 48, fontWeight: 800, color: pass ? 'hsl(var(--success))' : 'hsl(var(--error))' }}>
