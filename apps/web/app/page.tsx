@@ -1,4 +1,7 @@
 import { DashboardView, type DashboardData } from '@/components/dashboard/DashboardView'
+import { getThemes } from '@/lib/quiz/questions'
+
+const THEME_COLORS = ['#c94b30', '#a03820', '#f5b033', '#4a6741', '#3a5a8a']
 
 // Données mock État B — Progression standard (S1.1)
 // Remplacé par Dexie + Supabase en S1.5 / S2.1
@@ -12,13 +15,15 @@ const MOCK_DATA: DashboardData = {
   srsCountDue: 12,
   examScore: 78,
   streakDays: 1,
-  themes: [
-    { id: 'signalisation', icon: 'S', color: '#c94b30', title: 'Signalisation routière', progress: 68, questionsTotal: 120 },
-    { id: 'priorites',     icon: 'P', color: '#a03820', title: 'Priorités et intersections', progress: 42, questionsTotal: 80  },
-    { id: 'vitesse',       icon: 'V', color: '#f5b033', title: 'Vitesse et distances',       progress: 55, questionsTotal: 60  },
-    { id: 'alcool',        icon: 'A', color: '#4a6741', title: 'Alcool, drogues, médicaments', progress: 20, questionsTotal: 45 },
-    { id: 'mecanique',     icon: 'M', color: '#3a5a8a', title: 'Mécanique et sécurité',      progress: 10, questionsTotal: 90  },
-  ],
+  // Thèmes réels du JSON ; progression branchée plus tard (useProgress)
+  themes: getThemes().map(({ theme, count }, i) => ({
+    id: theme,
+    icon: theme[0],
+    color: THEME_COLORS[i % THEME_COLORS.length],
+    title: theme,
+    progress: 0,
+    questionsTotal: count,
+  })),
 }
 
 export default function DashboardPage() {

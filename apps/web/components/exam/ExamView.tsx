@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { QuizOption } from '@/components/quiz/QuizOption'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
-import type { Question } from '@/lib/quiz/mock-questions'
+import type { Question } from '@/lib/quiz/types'
 
 const { timerSeconds: TIMER_SECONDS, maxFaults: MAX_FAULTS } = EXAM_CONFIG
 
@@ -223,17 +223,19 @@ export function ExamView({ questions }: ExamViewProps) {
                 Temps écoulé
               </div>
             )}
-            <div style={{
-              padding: '12px 14px',
-              background: 'hsl(var(--surface))',
-              border: '1px solid hsl(var(--border))',
-              borderRadius: 'var(--radius)',
-              fontSize: 13,
-              lineHeight: 1.5,
-              color: 'hsl(var(--muted))',
-            }}>
-              {q.explanation}
-            </div>
+            {q.explanation && (
+              <div style={{
+                padding: '12px 14px',
+                background: 'hsl(var(--surface))',
+                border: '1px solid hsl(var(--border))',
+                borderRadius: 'var(--radius)',
+                fontSize: 13,
+                lineHeight: 1.5,
+                color: 'hsl(var(--muted))',
+              }}>
+                {q.explanation}
+              </div>
+            )}
           </div>
         )}
       </div>

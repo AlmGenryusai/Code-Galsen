@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import { QuizOption } from './QuizOption'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
-import type { Question } from '@/lib/quiz/mock-questions'
+import type { Question } from '@/lib/quiz/types'
 
 interface QuizViewProps {
   questions: Question[]
@@ -165,7 +165,7 @@ export function QuizView({ questions }: QuizViewProps) {
           ))}
         </div>
 
-        {answered && (
+        {answered && q.explanation && (
           <div style={{
             marginTop: 16,
             padding: '12px 14px',

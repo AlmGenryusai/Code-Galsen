@@ -1,6 +1,6 @@
 import { QuizView } from '@/components/quiz/QuizView'
-import { MOCK_QUESTIONS } from '@/lib/quiz/mock-questions'
+import { getQuestions } from '@/lib/quiz/questions'
 
 export default function QuizPage() {
-  return <QuizView questions={MOCK_QUESTIONS} />
+  return <QuizView questions={getQuestions()} />
 }

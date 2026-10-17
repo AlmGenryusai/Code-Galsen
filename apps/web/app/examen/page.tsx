@@ -1,6 +1,6 @@
 import { ExamView } from '@/components/exam/ExamView'
-import { MOCK_QUESTIONS } from '@/lib/quiz/mock-questions'
-import type { Question } from '@/lib/quiz/mock-questions'
+import { getQuestions } from '@/lib/quiz/questions'
+import type { Question } from '@/lib/quiz/types'
 
 function shuffle(arr: Question[]): Question[] {
   const a = [...arr]
@@ -12,5 +12,5 @@ function shuffle(arr: Question[]): Question[] {
 }
 
 export default function ExamenPage() {
-  return <ExamView questions={shuffle(MOCK_QUESTIONS)} />
+  return <ExamView questions={shuffle(getQuestions())} />
 }
