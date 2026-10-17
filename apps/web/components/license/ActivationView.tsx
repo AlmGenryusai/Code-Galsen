@@ -4,6 +4,8 @@ import { useState, type FormEvent } from 'react'
 import Link from 'next/link'
 import { formatCode, isValidCode } from '@/lib/license/code'
 import { FREE_THEME } from '@/lib/license/license'
+import { activate, type ActivationError } from '@/lib/license/activate'
+import { useLicense } from '@/lib/license/use-license'
 
 interface Props {
   themeCount: number
@@ -12,7 +14,20 @@ interface Props {
   supportWhatsapp: string // numéro international sans « + » ; vide → lien masqué
 }
 
-type Status = 'idle' | 'invalid' | 'soon'
+type Status = 'idle' | 'invalid' | 'pending' | ActivationError
+
+const MESSAGES: Partial<Record<Status, string>> = {
+  invalid: 'Format attendu : GALS-XXXX-XXXX',
+  unknown_code: 'Code inconnu. Vérifie la saisie.',
+  already_used: 'Code déjà utilisé sur un autre téléphone. Contacte le support.',
+  expired: 'Ce code a expiré.',
+  network: 'Pas de connexion. Réessaie quand tu as du réseau.',
+  server: 'Erreur du serveur. Réessaie plus tard.',
+}
+
+function formatDate(expSec: number): string {
+  return new Date(expSec * 1000).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
+}
 
 const buttonStyle = {
   display: 'block',
@@ -31,11 +46,22 @@ const buttonStyle = {
 export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supportWhatsapp }: Props) {
   const [code, setCode] = useState('')
   const [status, setStatus] = useState<Status>('idle')
+  const [activatedUntil, setActivatedUntil] = useState<number | null>(null)
+  const license = useLicense()
+  const activeUntil = activatedUntil ?? (license.active ? license.expiresAt : null)
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault()
-    // Session 9 : appel de la fonction d'activation. Aucun code ne débloque pour l'instant.
-    setStatus(isValidCode(code) ? 'soon' : 'invalid')
+    if (status === 'pending') return // anti double-tap
+    if (!isValidCode(code)) return setStatus('invalid')
+    setStatus('pending')
+    const result = await activate(code)
+    if (result.ok) {
+      setActivatedUntil(result.license.expiresAt)
+      setStatus('idle')
+    } else {
+      setStatus(result.error)
+    }
   }
 
   return (
@@ -102,59 +128,82 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
         )}
       </div>
 
-      <form onSubmit={handleSubmit} noValidate style={{ marginTop: 24 }}>
-        <label htmlFor="code" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: 'hsl(var(--text))', marginBottom: 8 }}>
-          Code d&apos;activation
-        </label>
-        <input
-          id="code"
-          name="code"
-          value={code}
-          onChange={(e) => {
-            setCode(formatCode(e.target.value))
-            setStatus('idle')
-          }}
-          placeholder="GALS-XXXX-XXXX"
-          inputMode="text"
-          autoCapitalize="characters"
-          autoComplete="off"
-          autoCorrect="off"
-          spellCheck={false}
-          maxLength={14}
-          aria-invalid={status === 'invalid'}
-          aria-describedby="code-status"
-          style={{
-            width: '100%',
-            height: 48,
-            padding: '0 14px',
-            fontSize: 18,
-            fontFamily: 'var(--font-mono)',
-            letterSpacing: '0.08em',
-            color: 'hsl(var(--text))',
-            background: 'hsl(var(--surface))',
-            border: `1.5px solid hsl(var(${status === 'invalid' ? '--error' : '--border'}))`,
-            borderRadius: 'var(--radius)',
-          }}
-        />
-        <p id="code-status" role="status" style={{
-          minHeight: 20,
-          marginTop: 6,
-          fontSize: 13,
-          color: status === 'invalid' ? 'hsl(var(--error))' : 'hsl(var(--muted))',
+      {activeUntil !== null ? (
+        <div role="status" style={{
+          marginTop: 24,
+          padding: '16px',
+          background: 'hsl(var(--success-soft))',
+          borderRadius: 'var(--radius)',
         }}>
-          {status === 'invalid' && 'Format attendu : GALS-XXXX-XXXX'}
-          {status === 'soon' && 'Activation bientôt disponible.'}
-        </p>
-        <button
-          type="submit"
-          style={{ ...buttonStyle, marginTop: 4, background: 'hsl(var(--text))', color: 'hsl(var(--bg))', border: 'none' }}
-        >
-          Activer
-        </button>
-        <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10, textAlign: 'center' }}>
-          Le code s&apos;active sur un seul téléphone.
-        </p>
-      </form>
+          <p style={{ fontSize: 15, fontWeight: 700, color: 'hsl(var(--text))', lineHeight: 1.4 }}>
+            Accès complet {activatedUntil !== null ? 'activé' : 'actif'} jusqu&apos;au {formatDate(activeUntil)}.
+          </p>
+          <Link href="/" style={{ ...buttonStyle, marginTop: 14, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}>
+            Commencer
+          </Link>
+        </div>
+      ) : (
+        <form onSubmit={handleSubmit} noValidate style={{ marginTop: 24 }}>
+          <label htmlFor="code" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: 'hsl(var(--text))', marginBottom: 8 }}>
+            Code d&apos;activation
+          </label>
+          <input
+            id="code"
+            name="code"
+            value={code}
+            onChange={(e) => {
+              setCode(formatCode(e.target.value))
+              setStatus('idle')
+            }}
+            placeholder="GALS-XXXX-XXXX"
+            inputMode="text"
+            autoCapitalize="characters"
+            autoComplete="off"
+            autoCorrect="off"
+            spellCheck={false}
+            maxLength={14}
+            aria-invalid={status === 'invalid' || status === 'unknown_code'}
+            aria-describedby="code-status"
+            style={{
+              width: '100%',
+              height: 48,
+              padding: '0 14px',
+              fontSize: 18,
+              fontFamily: 'var(--font-mono)',
+              letterSpacing: '0.08em',
+              color: 'hsl(var(--text))',
+              background: 'hsl(var(--surface))',
+              border: `1.5px solid hsl(var(${status === 'invalid' ? '--error' : '--border'}))`,
+              borderRadius: 'var(--radius)',
+            }}
+          />
+          <p id="code-status" role="status" style={{
+            minHeight: 20,
+            marginTop: 6,
+            fontSize: 13,
+            color: status === 'network' ? 'hsl(var(--muted))' : 'hsl(var(--error))',
+          }}>
+            {MESSAGES[status]}
+          </p>
+          <button
+            type="submit"
+            disabled={status === 'pending'}
+            style={{
+              ...buttonStyle,
+              marginTop: 4,
+              background: 'hsl(var(--text))',
+              color: 'hsl(var(--bg))',
+              border: 'none',
+              opacity: status === 'pending' ? 0.6 : 1,
+            }}
+          >
+            {status === 'pending' ? 'Activation…' : 'Activer'}
+          </button>
+          <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10, textAlign: 'center' }}>
+            Le code s&apos;active sur un seul téléphone.
+          </p>
+        </form>
+      )}
 
       {supportWhatsapp && (
         <a
