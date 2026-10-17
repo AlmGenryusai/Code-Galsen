@@ -1,0 +1,7 @@
+# Supabase — seul usage V1 : activation des licences (CLAUDE.md §Architecture)
+project_id = "code-galsen"
+
+[functions.activate]
+# Les clés publiables Supabase (sb_publishable_…) ne sont pas des JWT.
+# La fonction est protégée par le code d'activation lui-même.
+verify_jwt = false
