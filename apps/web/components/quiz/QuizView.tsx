@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { QuizOption } from './QuizOption'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
+import { useProgress } from '@/lib/progress/use-progress'
 import type { Question } from '@/lib/quiz/types'
 
 interface QuizViewProps {
@@ -25,11 +26,14 @@ export function QuizView({ questions }: QuizViewProps) {
   const answered = selected !== null
 
   const { tryAnswer, tryNavigate } = useQuestionGuards(index)
+  const { recordAnswer } = useProgress()
 
   function handleSelect(optionId: string) {
     if (!tryAnswer()) return
     setSelected(optionId)
-    if (optionId === q.correctId) setScore(s => s + 1)
+    const isCorrect = optionId === q.correctId
+    if (isCorrect) setScore(s => s + 1)
+    recordAnswer(q.id, isCorrect)
   }
 
   function handleNext() {
