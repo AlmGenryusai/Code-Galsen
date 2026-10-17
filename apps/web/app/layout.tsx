@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
+import { RegisterServiceWorker } from '@/components/RegisterServiceWorker'
 import './globals.css'
 
 // P12: une seule famille variable, subset latin, display swap
@@ -45,6 +46,7 @@ export default function RootLayout({
     <html lang="fr" className={`${sans.variable} ${mono.variable}`}>
       <body>
         <main>{children}</main>
+        <RegisterServiceWorker />
       </body>
     </html>
   )
