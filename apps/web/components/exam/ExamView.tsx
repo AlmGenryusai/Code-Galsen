@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { QuizOption } from '@/components/quiz/QuizOption'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
+import { useProgress } from '@/lib/progress/use-progress'
 import type { Question } from '@/lib/quiz/types'
 
 const { timerSeconds: TIMER_SECONDS, maxFaults: MAX_FAULTS } = EXAM_CONFIG
@@ -27,6 +28,7 @@ export function ExamView({ questions }: ExamViewProps) {
   const [timeLeft, setTimeLeft] = useState<number>(TIMER_SECONDS)
 
   const { tryAnswer, tryNavigate } = useQuestionGuards(index)
+  const { recordExam } = useProgress()
 
   const q = questions[index]
   const answered = selected !== null || timedOut
@@ -55,7 +57,10 @@ export function ExamView({ questions }: ExamViewProps) {
   function handleNext() {
     if (!tryNavigate()) return
     if (isLast) {
-      setResult(faults <= MAX_FAULTS ? 'pass' : 'fail')
+      const passed = faults <= MAX_FAULTS
+      const correct = Math.max(0, total - faults)
+      recordExam({ score: Math.round((correct / total) * 100), faults, total, passed })
+      setResult(passed ? 'pass' : 'fail')
     } else {
       setIndex(i => i + 1)
       setSelected(null)

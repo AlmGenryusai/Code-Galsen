@@ -1,6 +1,6 @@
 import { CarnetView } from '@/components/carnet/CarnetView'
-import { MOCK_CARNET } from '@/lib/carnet/mock-carnet'
+import { getQuestions } from '@/lib/quiz/questions'
 
 export default function CarnetPage() {
-  return <CarnetView data={MOCK_CARNET} />
+  return <CarnetView questions={getQuestions().map(({ id, theme }) => ({ id, theme }))} />
 }

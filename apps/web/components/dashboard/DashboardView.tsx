@@ -8,34 +8,42 @@ import { StreakChip } from './StreakChip'
 import { ProgressCircle } from './ProgressCircle'
 import { ThemeRow } from './ThemeRow'
 import { BottomNav } from './BottomNav'
+import { themeProgress, type QuestionRef } from '@/lib/progress/progress'
+import { useProgress } from '@/lib/progress/use-progress'
 
 export interface DashboardData {
   userName: string
   passExpiresAt: number
-  globalProgressPct: number
   cumulatedMinutes: number
-  examBlancReussis: number
   srsCountDue: number
-  examScore: number | null
   streakDays: number
   themes: Array<{
     id: string
     icon: string
     color: string
     title: string
-    progress: number
     questionsTotal: number
   }>
 }
 
 interface Props {
   data: DashboardData
+  questions: QuestionRef[]
 }
 
-export function DashboardView({ data }: Props) {
-  const isFirstDay = data.streakDays === 0 && data.globalProgressPct === 0
+export function DashboardView({ data, questions }: Props) {
+  const { progress } = useProgress()
+  const byTheme = themeProgress(progress, questions)
+  const totalQuestions = data.themes.reduce((s, t) => s + t.questionsTotal, 0)
+  const globalProgressPct = totalQuestions > 0
+    ? Math.round(data.themes.reduce((s, t) => s + (byTheme[t.id] ?? 0) * t.questionsTotal, 0) / totalQuestions)
+    : 0
+  const examScore = progress.exams[0]?.score ?? null
+  const examBlancReussis = progress.exams.filter(e => e.passed).length
 
-  const sublabel = `${Math.floor(data.cumulatedMinutes / 60)} h cumulées · ${data.examBlancReussis} examen${data.examBlancReussis > 1 ? 's' : ''} blanc${data.examBlancReussis > 1 ? 's' : ''} réussi${data.examBlancReussis > 1 ? 's' : ''}`
+  const isFirstDay = data.streakDays === 0 && globalProgressPct === 0
+
+  const sublabel = `${Math.floor(data.cumulatedMinutes / 60)} h cumulées · ${examBlancReussis} examen${examBlancReussis > 1 ? 's' : ''} blanc${examBlancReussis > 1 ? 's' : ''} réussi${examBlancReussis > 1 ? 's' : ''}`
 
   return (
     <div style={{ background: 'hsl(var(--bg))', paddingBottom: 80 }}>
@@ -64,7 +72,7 @@ export function DashboardView({ data }: Props) {
         </div>
 
         {/* ExamScore — tap → /examen */}
-        <ExamScoreCard score={data.examScore} href="/examen" />
+        <ExamScoreCard score={examScore} href="/examen" />
 
         {/* Chips secondaires (P02) */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
@@ -74,10 +82,10 @@ export function DashboardView({ data }: Props) {
 
         {/* Progression globale */}
         <ProgressCircle
-          percent={data.globalProgressPct}
+          percent={globalProgressPct}
           size={36}
           label="Progression globale"
-          value={String(data.globalProgressPct)}
+          value={String(globalProgressPct)}
           sublabel={sublabel}
         />
 
@@ -109,7 +117,7 @@ export function DashboardView({ data }: Props) {
                 icon={t.icon}
                 color={t.color}
                 title={t.title}
-                progress={t.progress}
+                progress={byTheme[t.id] ?? 0}
                 questionsTotal={t.questionsTotal}
                 href="/quiz"
               />
