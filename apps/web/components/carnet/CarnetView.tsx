@@ -3,7 +3,8 @@
 import Link from 'next/link'
 import { BottomNav } from '@/components/dashboard/BottomNav'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
-import type { CarnetData } from '@/lib/carnet/mock-carnet'
+import { themeErrorRates, type QuestionRef } from '@/lib/progress/progress'
+import { useProgress } from '@/lib/progress/use-progress'
 
 function formatDate(iso: string): string {
   const d = new Date(iso)
@@ -15,11 +16,13 @@ function formatDate(iso: string): string {
 }
 
 interface Props {
-  data: CarnetData
+  questions: QuestionRef[]
 }
 
-export function CarnetView({ data }: Props) {
-  const { examAttempts, weakThemes } = data
+export function CarnetView({ questions }: Props) {
+  const { progress } = useProgress()
+  const examAttempts = progress.exams
+  const weakThemes = themeErrorRates(progress, questions).filter(t => t.errorRate > 0)
   const last = examAttempts[0] ?? null
   const recent = examAttempts.slice(0, 3)
   const avgScore = recent.length > 0
