@@ -6,7 +6,7 @@ const VERSION = new URL(self.location.href).searchParams.get('v') || 'dev'
 const CACHE = 'galsen-' + VERSION
 
 // Les 5 écrans : obligatoires, sinon l'installation échoue
-const PAGES = ['/', '/quiz', '/examen', '/carnet', '/profil']
+const PAGES = ['/', '/quiz', '/examen', '/carnet', '/profil', '/activer']
 const EXTRA = ['/manifest.json', '/icons/icon-192.png', '/icons/icon-512.png', '/icons/maskable-512.png']
 
 // Fichiers versionnés référencés par le HTML : balises <script>/<link> ("/_next/static/…")
