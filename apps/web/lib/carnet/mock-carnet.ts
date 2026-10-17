@@ -29,8 +29,8 @@ export const MOCK_CARNET: CarnetData = {
     { id: 'e3', date: '2026-05-15', score: 80, faults: 3, total: 15, passed: true },
   ],
   weakThemes: [
-    { themeId: 'feux',      label: 'Feux et signaux',       errorRate: 0.67, questionsAttempted: 3 },
-    { themeId: 'distances', label: 'Distances de sécurité', errorRate: 0.50, questionsAttempted: 4 },
-    { themeId: 'vitesse',   label: 'Vitesses',              errorRate: 0.33, questionsAttempted: 6 },
+    // themeId = libellé du thème dans content/questions.json
+    { themeId: 'Feux et signaux',       label: 'Feux et signaux',       errorRate: 0.67, questionsAttempted: 3 },
+    { themeId: 'Distances de sécurité', label: 'Distances de sécurité', errorRate: 0.50, questionsAttempted: 4 },
   ],
 }
