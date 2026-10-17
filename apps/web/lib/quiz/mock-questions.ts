@@ -1,5 +1,5 @@
-// DONNÉES MOCK — remplacées par Dexie + dataset réel en S1.14/S1.15
-// Source règles : CLAUDE.md §Règles métier critiques
+// DONNÉES MOCK — remplacées par le contenu JSON validé (apps/web/content)
+// Règles contenu : CLAUDE.md §Contenu (aucun chiffre légal sans source)
 
 export interface Question {
   id: string
@@ -8,35 +8,10 @@ export interface Question {
   correctId: string
   explanation: string
   themeId: string
+  needs_review?: boolean // chiffre non sourcé : à faire valider par un moniteur
 }
 
 export const MOCK_QUESTIONS: Question[] = [
-  {
-    id: 'q1',
-    themeId: 'vitesse',
-    text: 'Quelle est la vitesse maximale autorisée en agglomération au Sénégal ?',
-    options: [
-      { id: 'a', text: '40 km/h' },
-      { id: 'b', text: '50 km/h' },
-      { id: 'c', text: '60 km/h' },
-      { id: 'd', text: '80 km/h' },
-    ],
-    correctId: 'a',
-    explanation: 'En agglomération au Sénégal/UEMOA : 40 km/h. La limite de 50 km/h est propre au Code français.',
-  },
-  {
-    id: 'q2',
-    themeId: 'vitesse',
-    text: 'Sur route nationale hors agglomération, quelle vitesse maximale est autorisée ?',
-    options: [
-      { id: 'a', text: '80 km/h' },
-      { id: 'b', text: '90 km/h' },
-      { id: 'c', text: '100 km/h' },
-      { id: 'd', text: '110 km/h' },
-    ],
-    correctId: 'c',
-    explanation: 'Hors agglomération sur route nationale : 100 km/h selon le Code UEMOA.',
-  },
   {
     id: 'q3',
     themeId: 'priorites',
@@ -64,19 +39,6 @@ export const MOCK_QUESTIONS: Question[] = [
     explanation: 'Les panneaux circulaires à fond rouge sont des panneaux d\'interdiction.',
   },
   {
-    id: 'q5',
-    themeId: 'alcool',
-    text: 'Le taux d\'alcoolémie maximal autorisé au volant au Sénégal est de :',
-    options: [
-      { id: 'a', text: '0,5 g/L' },
-      { id: 'b', text: '0,8 g/L' },
-      { id: 'c', text: '0,0 g/L (tolérance zéro)' },
-      { id: 'd', text: '1,0 g/L' },
-    ],
-    correctId: 'a',
-    explanation: 'Le seuil légal au Sénégal est de 0,5 g/L de sang, comme dans la majorité des pays UEMOA.',
-  },
-  {
     id: 'q6',
     themeId: 'feux',
     text: 'Que signifie un feu orange fixe ?',
@@ -101,6 +63,7 @@ export const MOCK_QUESTIONS: Question[] = [
     ],
     correctId: 'b',
     explanation: 'La règle des 2 secondes : votre véhicule doit passer un repère fixe au moins 2 secondes après le véhicule qui vous précède.',
+    needs_review: true,
   },
   {
     id: 'q8',
@@ -142,19 +105,6 @@ export const MOCK_QUESTIONS: Question[] = [
     explanation: 'Tenir son téléphone en main au volant est strictement interdit et passible d\'une amende, même à l\'arrêt.',
   },
   {
-    id: 'q11',
-    themeId: 'vitesse',
-    text: 'Sur autoroute au Sénégal, quelle est la vitesse maximale autorisée ?',
-    options: [
-      { id: 'a', text: '100 km/h' },
-      { id: 'b', text: '110 km/h' },
-      { id: 'c', text: '120 km/h' },
-      { id: 'd', text: '140 km/h' },
-    ],
-    correctId: 'd',
-    explanation: 'Sur autoroute en UEMOA, la vitesse maximale est de 140 km/h. La limite de 130 km/h est propre au Code de la route français.',
-  },
-  {
     id: 'q12',
     themeId: 'comportement',
     text: 'Un piéton s\'engage sur un passage piéton. Que faire ?',
@@ -179,19 +129,6 @@ export const MOCK_QUESTIONS: Question[] = [
     ],
     correctId: 'b',
     explanation: 'Le feu rouge clignotant signifie arrêt obligatoire, puis cédez le passage. Il indique une intersection à risque élevé.',
-  },
-  {
-    id: 'q14',
-    themeId: 'alcool',
-    text: 'Quelle sanction risque-t-on pour conduite en état d\'ivresse au Sénégal ?',
-    options: [
-      { id: 'a', text: 'Avertissement verbal uniquement' },
-      { id: 'b', text: 'Amende seulement' },
-      { id: 'c', text: 'Amende et retrait de permis' },
-      { id: 'd', text: 'Amende, retrait de permis et emprisonnement possible' },
-    ],
-    correctId: 'd',
-    explanation: 'La conduite en état d\'ivresse au Sénégal est sanctionnée par une amende, un retrait de permis et peut entraîner une peine d\'emprisonnement.',
   },
   {
     id: 'q15',

@@ -1,8 +1,12 @@
 # Code Galsen
 
-PWA mobile-first, offline-first pour préparer l'examen théorique du permis de conduire au Sénégal et dans la zone UEMOA.
+PWA mobile-first, hors ligne, pour préparer l'examen théorique du permis **B** au **Sénégal**. Français uniquement en V1.
 
-**Modèle:** Pass Réussite · 4 900 FCFA · 90 jours · Mobile Money (Wave / Orange Money)
+**Modèle :** 4 900 FCFA · 90 jours · paiement Wave (lien de paiement Business), activation par code. Gratuit : 1 thème + 1 examen blanc.
+
+Préparation à l'examen : ne remplace pas l'auto-école et ne délivre aucun certificat.
+
+> Décisions produit et techniques : voir [CLAUDE.md](CLAUDE.md). Le dossier `docs/` décrit l'ancienne architecture, qui n'est plus valide.
 
 ---
 
@@ -10,13 +14,13 @@ PWA mobile-first, offline-first pour préparer l'examen théorique du permis de 
 
 | Écran | État |
 |---|---|
-| Dashboard — parcours, progression, chips | ✅ |
-| Quiz libre — 15 questions UEMOA, feedback immédiat | ✅ |
-| Examen blanc — timer 20s/Q, compteur fautes, résultat pass/fail | ✅ |
-| Carnet — dernier score, taux moyen, thèmes faibles | ✅ |
+| Dashboard — parcours, progression, chips | ✅ (données mock) |
+| Quiz libre — 10 questions mock, feedback immédiat | ✅ |
+| Examen blanc — timer, compteur fautes, résultat (`EXAM_CONFIG` paramétrable) | ✅ |
+| Carnet — dernier score, taux moyen, thèmes faibles | ✅ (données mock) |
 | Profil | Stub — à venir |
-| Auth OTP + paiement PayDunya | À faire (S1.2 / S1.9) |
-| Offline-first Dexie + Service Worker | À faire (S1.5) |
+| Activation par code + licence signée | À faire |
+| Hors ligne (service worker) + progression localStorage | À faire |
 
 ---
 
@@ -26,17 +30,17 @@ PWA mobile-first, offline-first pour préparer l'examen théorique du permis de 
 |---|---|
 | Framework | Next.js 14 App Router |
 | Langage | TypeScript strict |
-| Style | Tailwind CSS + shadcn/ui |
-| State client | Zustand + React Query |
-| DB locale | IndexedDB via Dexie 3.x |
-| Service Worker | Workbox 7.x |
-| Backend | Supabase (Postgres 15 + Edge Functions Deno) |
-| Auth | OTP custom + JWT RS256 (jose) |
-| SMS | Africa's Talking |
-| Paiement | PayDunya |
-| CDN | Supabase Storage + Bunny.net |
+| Style | Tailwind CSS |
+| État client | `useState` + hooks maison (`useProgress`) |
+| Progression | localStorage |
+| Hors ligne | Service worker (app + contenu précachés) |
+| Contenu | JSON dans le repo (`apps/web/content`), schéma v1.1 — pas de CMS ni de base de données |
+| Panneaux | Composants SVG inline |
+| Backend | 1 Edge Function Supabase (activation) + table `licenses` |
+| Licence | Signature ed25519, vérification hors ligne par clé publique embarquée |
+| Paiement | Wave (lien de paiement Business) |
 | Tests | Vitest + Playwright |
-| Hosting | Vercel (front) · Supabase EU (back) |
+| Hébergement | Vercel |
 
 ---
 
@@ -44,9 +48,8 @@ PWA mobile-first, offline-first pour préparer l'examen théorique du permis de 
 
 ```bash
 pnpm install
-cp .env.example .env.local        # remplir clés
-pnpm supabase start               # Postgres + Edge Functions local
-pnpm dev                          # Next.js port 3000
+cp .env.example .env.local        # remplir les clés
+pnpm --filter web dev             # http://localhost:3000
 ```
 
 ---
@@ -54,35 +57,24 @@ pnpm dev                          # Next.js port 3000
 ## Commandes
 
 ```bash
-# Tests
-pnpm test                         # vitest watch
-pnpm test:e2e                     # playwright
-
-# DB
-pnpm supabase migration new <nom>
-pnpm supabase db reset
-
-# Build
-pnpm build
-pnpm analyze                      # bundle analyzer
-
-# Seed
-python scripts/parser/parser.py --input data/fr.json --output data/seed_uemoa.sqlite
-
-# Audio
-bash scripts/audio/ingest.sh raw/*.wav out/
+pnpm --filter web dev
+pnpm --filter web build
+pnpm --filter web typecheck
+pnpm --filter web lint
+pnpm --filter web test            # vitest
+pnpm --filter web test:e2e        # playwright
 ```
 
 ---
 
 ## Règles métier critiques
 
-1. **Vitesses UEMOA :** 40 / 60 / 80 / 100 / 120 / 140 km/h — jamais les valeurs françaises
-2. **Examen blanc :** 40 questions · 20s/Q · max 5 fautes (conforme ANASER) — mock 15Q en phase MVP
-3. **Pass :** 4 900 FCFA · 90 jours · JWT RS256 signé serveur · validation offline
-4. **Audio Wolof :** MP3 mono 32 kbps ≤ 20 Ko/fichier — pas de TTS runtime
-5. **Bundle JS initial :** < 300 Ko gzipped
-6. **Wording :** "préparation à l'examen", jamais "garantie de réussite"
+1. **Contenu :** aucun chiffre légal sans source. Chaque question porte un `legal_ref`. Valeurs non confirmées (vitesses, taux d'alcool, format officiel de l'examen) : ne pas inventer, laisser en `draft`.
+2. **Publication :** statut `published` seulement après relecture d'un moniteur (et du juriste pour les items réglementaires).
+3. **Examen blanc :** `EXAM_CONFIG` paramétrable. Ne pas afficher « conforme à l'examen officiel » tant que ce n'est pas confirmé.
+4. **Licence :** code à usage unique lié à un appareil, licence signée vérifiée hors ligne. Clé privée uniquement dans les secrets Supabase.
+5. **Bundle JS initial :** < 300 Ko gzip. Fonctionne en mode avion après la première visite.
+6. **Wording :** « préparation à l'examen », jamais « garantie de réussite ».
 
 ---
 
@@ -96,17 +88,14 @@ apps/web/
     quiz/               # QuizView, QuizOption
     exam/               # ExamView
     carnet/             # CarnetView
+  content/              # Questions JSON (source de vérité contenu)
   lib/
-    quiz/               # Questions mock, EXAM_CONFIG, useQuestionGuards
+    quiz/               # Questions mock, EXAM_CONFIG, useQuestionGuards, srs
     carnet/             # Types + mock données progression
 
 supabase/
-  migrations/           # SQL séquentielles
-  functions/            # Edge Functions Deno
-
-scripts/
-  parser/               # Parseur questions FR → UEMOA (Python)
-  audio/                # Pipeline ffmpeg MP3 32k mono
+  migrations/           # SQL (à réduire à la table licenses)
+  functions/            # Edge Function d'activation (à venir)
 ```
 
 ---
@@ -129,11 +118,14 @@ Contraste WCAG AA vérifié sur tous les éléments interactifs.
 
 ## Roadmap
 
-- [ ] S1.2 — Auth OTP (Africa's Talking)
-- [ ] S1.5 — Dexie schema + persistance locale
-- [ ] S1.9 — Paiement PayDunya + pass 90j
-- [ ] S1.14 — Dataset complet UEMOA (parseur Python · ~1 500 questions)
-- [ ] S2 — Audio Wolof + PWA offline-first complet
+- [x] Nettoyage : retrait OTP, PayDunya, JWT, Zustand, React Query, Dexie
+- [ ] Progression locale (`useProgress` + localStorage)
+- [ ] Contenu JSON schéma v1.1 avec `legal_ref`, relu par un moniteur
+- [ ] Activation : code unique → Edge Function → licence ed25519 liée à l'appareil
+- [ ] Vérification de licence hors ligne + verrouillage gratuit / payant
+- [ ] Service worker : app + contenu précachés, mode avion
+
+Reporté (hors V1) : audio Wolof, moto, UEMOA, comptes utilisateurs.
 
 ---
 
