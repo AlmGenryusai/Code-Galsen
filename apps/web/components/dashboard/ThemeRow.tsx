@@ -5,12 +5,14 @@ interface ThemeRowProps {
   progress: number
   questionsTotal: number
   href?: string
+  locked?: boolean // réservé à l'accès complet : le lien mène à /activer
 }
 
-export function ThemeRow({ icon, color, title, progress, questionsTotal, href }: ThemeRowProps) {
+export function ThemeRow({ icon, color, title, progress, questionsTotal, href, locked }: ThemeRowProps) {
   return (
     <a
       href={href ?? '#'}
+      aria-label={locked ? `${title} (verrouillé)` : undefined}
       style={{
         display: 'flex',
         alignItems: 'center',
@@ -51,7 +53,9 @@ export function ThemeRow({ icon, color, title, progress, questionsTotal, href }:
       <div style={{ fontSize: 13, fontFamily: 'var(--font-mono)', color: 'hsl(var(--muted-2))', flexShrink: 0 }}>
         {progress}%
       </div>
-      <div style={{ fontSize: 16, color: 'hsl(var(--muted-2))', opacity: 0.6 }}>›</div>
+      <div aria-hidden style={{ fontSize: locked ? 14 : 16, color: 'hsl(var(--muted-2))', opacity: 0.6 }}>
+        {locked ? '🔒' : '›'}
+      </div>
     </a>
   )
 }
