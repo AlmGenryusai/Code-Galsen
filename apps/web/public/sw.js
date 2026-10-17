@@ -61,21 +61,40 @@ async function cacheFirst(request) {
   return res
 }
 
-async function networkFirstPage(request) {
-  const url = new URL(request.url)
-  try {
-    const res = await fetch(request)
+// Réseau faible : au-delà de ce délai, la page en cache est servie si elle existe
+const NETWORK_TIMEOUT_MS = 3000
+
+async function networkFirstPage(event) {
+  const url = new URL(event.request.url)
+  // ignoreSearch : /quiz?mode=erreurs → /quiz
+  const fromCache = () => caches.match(url.pathname, { ignoreSearch: true })
+
+  const network = fetch(event.request).then(async (res) => {
     if (res.ok) {
+      const copy = res.clone()
       const cache = await caches.open(CACHE)
-      cache.put(url.pathname, res.clone())
+      await cache.put(url.pathname, copy)
     }
     return res
+  })
+  // La mise à jour du cache continue même si la page en cache a déjà été servie
+  event.waitUntil(network.catch(() => {}))
+
+  const TIMEOUT = Symbol('timeout')
+  const timeout = new Promise((resolve) => setTimeout(resolve, NETWORK_TIMEOUT_MS, TIMEOUT))
+
+  try {
+    const winner = await Promise.race([network, timeout])
+    if (winner !== TIMEOUT) return winner
   } catch (err) {
-    // ignoreSearch : /quiz?mode=erreurs → /quiz
-    const cached = await caches.match(url.pathname, { ignoreSearch: true })
+    // hors ligne
+    const cached = await fromCache()
     if (cached) return cached
     throw err
   }
+
+  // délai dépassé : cache si présent, sinon on continue d'attendre le réseau
+  return (await fromCache()) ?? network
 }
 
 self.addEventListener('fetch', (event) => {
@@ -89,7 +108,7 @@ self.addEventListener('fetch', (event) => {
   if (request.headers.get('RSC') === '1' || url.searchParams.has('_rsc')) return
 
   if (request.mode === 'navigate') {
-    event.respondWith(networkFirstPage(request))
+    event.respondWith(networkFirstPage(event))
   } else if (url.pathname.startsWith('/_next/static/') || EXTRA.includes(url.pathname)) {
     event.respondWith(cacheFirst(request))
   }
