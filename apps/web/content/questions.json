@@ -64,6 +64,7 @@
     "id": "q8",
     "theme": "Priorités et intersections",
     "text": "Sur une route signalée comme prioritaire, qui a la priorité à une intersection ?",
+    "sign": "route-prioritaire",
     "options": [
       { "id": "a", "text": "Le véhicule arrivant de droite" },
       { "id": "b", "text": "Le véhicule sur la route prioritaire" },
@@ -79,6 +80,7 @@
     "id": "q9",
     "theme": "Signalisation",
     "text": "Un triangle inversé (pointe en bas) à fond blanc avec liséré rouge signifie :",
+    "sign": "cedez-le-passage",
     "options": [
       { "id": "a", "text": "Arrêt obligatoire" },
       { "id": "b", "text": "Cédez le passage" },
@@ -154,6 +156,7 @@
     "id": "s5",
     "theme": "Signalisation",
     "text": "Un panneau STOP signifie que vous devez :",
+    "sign": "stop",
     "options": [
       { "id": "a", "text": "ralentir et passer si la voie est libre" },
       { "id": "b", "text": "marquer un arrêt complet puis céder le passage" },

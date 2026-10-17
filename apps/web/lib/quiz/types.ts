@@ -11,4 +11,5 @@ export interface Question {
   legal_ref: string | null // article de loi ou décret ; null = non sourcé
   status: 'draft' | 'published'
   needs_review?: boolean // chiffre non sourcé : à faire valider par un moniteur
+  sign?: string // id d'un panneau de components/sign/signs.tsx
 }
