@@ -2,10 +2,12 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { useSearchParams } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { QuizView } from './QuizView'
 import { pickDue } from '@/lib/quiz/srs'
 import { useProgress } from '@/lib/progress/use-progress'
+import { redirectFor, type Target } from '@/lib/license/license'
+import { useLicense } from '@/lib/license/use-license'
 import type { Question } from '@/lib/quiz/types'
 
 const DUE_LIMIT = 20
@@ -14,9 +16,30 @@ interface Props {
   questions: Question[]
 }
 
-/** /quiz : entraînement normal, ou /quiz?mode=erreurs : questions dues de la file SRS. */
+/**
+ * /quiz : entraînement sur tout le programme, /quiz?theme=<thème> : un thème,
+ * /quiz?mode=erreurs : questions dues de la file SRS. Verrou gratuit / payant : lib/license.
+ */
 export function QuizEntry({ questions }: Props) {
-  const isErrors = useSearchParams().get('mode') === 'erreurs'
+  const router = useRouter()
+  const params = useSearchParams()
+  const isErrors = params.get('mode') === 'erreurs'
+  const theme = params.get('theme')
+  const themed = theme ? questions.filter((q) => q.theme === theme) : []
+  // Thème inconnu → traité comme /quiz sans thème
+  const target: Target = isErrors
+    ? { kind: 'errors' }
+    : theme && themed.length > 0
+      ? { kind: 'theme', theme }
+      : { kind: 'all' }
+
+  const license = useLicense()
+  const redirect = license.loaded ? redirectFor(target, license) : null
+
+  useEffect(() => {
+    if (redirect) router.replace(redirect)
+  }, [redirect, router])
+
   const { progress, loaded } = useProgress()
   // Liste figée au démarrage : la file change à chaque réponse
   const [due, setDue] = useState<Question[] | null>(null)
@@ -31,6 +54,8 @@ export function QuizEntry({ questions }: Props) {
     )
   }, [isErrors, loaded, due, questions, progress.srs])
 
+  if (!license.loaded || redirect) return null
+  if (target.kind === 'theme') return <QuizView questions={themed} />
   if (!isErrors) return <QuizView questions={questions} />
   if (due === null) return null
 

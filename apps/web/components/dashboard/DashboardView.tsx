@@ -11,10 +11,11 @@ import { BottomNav } from './BottomNav'
 import { themeProgress, type QuestionRef } from '@/lib/progress/progress'
 import { useProgress } from '@/lib/progress/use-progress'
 import { countDue } from '@/lib/quiz/srs'
+import { canAccess, hrefFor, targetHref, type Target } from '@/lib/license/license'
+import { useLicense } from '@/lib/license/use-license'
 
 export interface DashboardData {
   userName: string
-  passExpiresAt: number
   cumulatedMinutes: number
   streakDays: number
   themes: Array<{
@@ -32,7 +33,12 @@ interface Props {
 }
 
 export function DashboardView({ data, questions }: Props) {
-  const { progress } = useProgress()
+  const { progress, loaded } = useProgress()
+  const license = useLicense()
+  // Avant chargement : lien vers la cible, sans cadenas ; la page cible tranche
+  const ready = loaded && license.loaded
+  const href = (t: Target) => (ready ? hrefFor(t, license) : targetHref(t))
+  const locked = (t: Target) => ready && !canAccess(t, license)
   const byTheme = themeProgress(progress, questions)
   const totalQuestions = data.themes.reduce((s, t) => s + t.questionsTotal, 0)
   const globalProgressPct = totalQuestions > 0
@@ -56,7 +62,7 @@ export function DashboardView({ data, questions }: Props) {
         padding: '10px 20px 8px',
       }}>
         <span style={{ fontSize: 15, fontWeight: 600, color: 'hsl(var(--text))' }}>Mon parcours</span>
-        <PassChip passExpiresAt={data.passExpiresAt} />
+        {license.loaded && <PassChip license={license} />}
       </div>
 
       <div style={{ padding: '0 20px', display: 'flex', flexDirection: 'column', gap: 8 }}>
@@ -73,11 +79,11 @@ export function DashboardView({ data, questions }: Props) {
         </div>
 
         {/* ExamScore — tap → /examen */}
-        <ExamScoreCard score={examScore} href="/examen" />
+        <ExamScoreCard score={examScore} href={href({ kind: 'exam', examsTaken: progress.exams.length })} />
 
         {/* Chips secondaires (P02) */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-          <ReviewChip count={srsCountDue} href="/quiz?mode=erreurs" />
+          <ReviewChip count={srsCountDue} href={href({ kind: 'errors' })} />
           <StreakChip days={data.streakDays} />
         </div>
 
@@ -99,7 +105,7 @@ export function DashboardView({ data, questions }: Props) {
             marginBottom: 4,
           }}>
             <span style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--muted))' }}>Thèmes du programme</span>
-            <Link href="/quiz" style={{
+            <Link href={href({ kind: 'all' })} style={{
               fontSize: 12,
               fontWeight: 600,
               color: 'hsl(var(--muted))',
@@ -120,7 +126,8 @@ export function DashboardView({ data, questions }: Props) {
                 title={t.title}
                 progress={byTheme[t.id] ?? 0}
                 questionsTotal={t.questionsTotal}
-                href="/quiz"
+                href={href({ kind: 'theme', theme: t.id })}
+                locked={locked({ kind: 'theme', theme: t.id })}
               />
             ))}
             <div style={{

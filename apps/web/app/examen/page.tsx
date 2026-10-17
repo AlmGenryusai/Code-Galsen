@@ -1,4 +1,4 @@
-import { ExamView } from '@/components/exam/ExamView'
+import { ExamGate } from '@/components/exam/ExamGate'
 import { getQuestions } from '@/lib/quiz/questions'
 import type { Question } from '@/lib/quiz/types'
 
@@ -12,5 +12,5 @@ function shuffle(arr: Question[]): Question[] {
 }
 
 export default function ExamenPage() {
-  return <ExamView questions={shuffle(getQuestions())} />
+  return <ExamGate questions={shuffle(getQuestions())} />
 }
