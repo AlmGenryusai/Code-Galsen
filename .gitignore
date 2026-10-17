@@ -23,3 +23,7 @@ seed_uemoa.sqlite
 coverage
 playwright-report
 test-results
+
+# Next.js / TS generated
+next-env.d.ts
+*.tsbuildinfo

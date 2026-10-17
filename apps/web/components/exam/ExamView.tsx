@@ -24,7 +24,7 @@ export function ExamView({ questions }: ExamViewProps) {
   const [timedOut, setTimedOut] = useState(false)
   const [faults, setFaults] = useState(0)
   const [result, setResult] = useState<ExamResult | null>(null)
-  const [timeLeft, setTimeLeft] = useState(TIMER_SECONDS)
+  const [timeLeft, setTimeLeft] = useState<number>(TIMER_SECONDS)
 
   const { tryAnswer, tryNavigate } = useQuestionGuards(index)
 
