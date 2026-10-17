@@ -1,10 +1,8 @@
 /**
  * srs.ts — Algorithme de répétition espacée (SuperMemo-2 simplifié)
  *
- * Destination repo : apps/web/lib/quiz/srs.ts
- *
  * Principe :
- *  - Chaque question fautive entre dans la file `srs_queue` (IndexedDB Dexie).
+ *  - Chaque question fautive entre dans la file SRS (progression locale).
  *  - À chaque révision, l'utilisateur évalue implicitement sa réponse (bonne / fausse).
  *  - L'intervalle avant prochaine révision croît si bonne réponse (x ease_factor),
  *    se réinitialise à 1 jour si mauvaise.
@@ -16,7 +14,7 @@
  */
 
 export interface SrsState {
-  questionId: number;
+  questionId: string;
   nextReviewAt: string;       // ISO 8601
   intervalDays: number;
   easeFactor: number;
@@ -50,7 +48,7 @@ export const DEFAULT_SRS_CONFIG: SrsConfig = {
  * Appelé après la première erreur sur une question.
  */
 export function initSrs(
-  questionId: number,
+  questionId: string,
   config: SrsConfig = DEFAULT_SRS_CONFIG,
   now: Date = new Date(),
 ): SrsState {

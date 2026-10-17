@@ -10,12 +10,12 @@ import { ThemeRow } from './ThemeRow'
 import { BottomNav } from './BottomNav'
 import { themeProgress, type QuestionRef } from '@/lib/progress/progress'
 import { useProgress } from '@/lib/progress/use-progress'
+import { countDue } from '@/lib/quiz/srs'
 
 export interface DashboardData {
   userName: string
   passExpiresAt: number
   cumulatedMinutes: number
-  srsCountDue: number
   streakDays: number
   themes: Array<{
     id: string
@@ -40,6 +40,7 @@ export function DashboardView({ data, questions }: Props) {
     : 0
   const examScore = progress.exams[0]?.score ?? null
   const examBlancReussis = progress.exams.filter(e => e.passed).length
+  const srsCountDue = countDue(Object.values(progress.srs))
 
   const isFirstDay = data.streakDays === 0 && globalProgressPct === 0
 
@@ -76,7 +77,7 @@ export function DashboardView({ data, questions }: Props) {
 
         {/* Chips secondaires (P02) */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-          <ReviewChip count={data.srsCountDue} />
+          <ReviewChip count={srsCountDue} href="/quiz?mode=erreurs" />
           <StreakChip days={data.streakDays} />
         </div>
 

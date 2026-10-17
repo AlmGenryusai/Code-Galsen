@@ -29,9 +29,11 @@ function save(p: Progress) {
 /** Progression locale (localStorage). Lue après montage pour éviter un écart d'hydratation. */
 export function useProgress() {
   const [progress, setProgress] = useState<Progress>(emptyProgress)
+  const [loaded, setLoaded] = useState(false)
 
   useEffect(() => {
     setProgress(load())
+    setLoaded(true)
   }, [])
 
   const update = useCallback((fn: (p: Progress) => Progress) => {
@@ -54,5 +56,5 @@ export function useProgress() {
     [update],
   )
 
-  return { progress, recordAnswer, recordExam }
+  return { progress, loaded, recordAnswer, recordExam }
 }

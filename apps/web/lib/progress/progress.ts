@@ -2,6 +2,7 @@
 // Fonctions pures : aucun accès à window ici (voir use-progress.ts)
 
 import type { Question } from '../quiz/types'
+import { DEFAULT_SRS_CONFIG, initSrs, review, type SrsState } from '../quiz/srs'
 
 export const STORAGE_KEY = 'galsen.progress.v1'
 
@@ -23,6 +24,7 @@ export interface ExamAttempt {
 export interface Progress {
   answers: Record<string, AnswerStat> // clé = id de question
   exams: ExamAttempt[]                // plus récent en tête
+  srs: Record<string, SrsState>       // file « mes erreurs », clé = id de question
 }
 
 export interface WeakTheme {
@@ -35,7 +37,7 @@ export interface WeakTheme {
 export type QuestionRef = Pick<Question, 'id' | 'theme'>
 
 export function emptyProgress(): Progress {
-  return { answers: {}, exams: [] }
+  return { answers: {}, exams: [], srs: {} }
 }
 
 function isObject(v: unknown): v is Record<string, unknown> {
@@ -54,13 +56,33 @@ export function parseProgress(raw: string | null): Progress {
   if (!isObject(data) || !isObject(data.answers) || !Array.isArray(data.exams)) {
     return emptyProgress()
   }
-  return { answers: data.answers as Progress['answers'], exams: data.exams as ExamAttempt[] }
+  return {
+    answers: data.answers as Progress['answers'],
+    exams: data.exams as ExamAttempt[],
+    // progression enregistrée avant la file SRS : pas de champ srs
+    srs: isObject(data.srs) ? (data.srs as Progress['srs']) : {},
+  }
 }
 
+function nextSrs(srs: Progress['srs'], questionId: string, isCorrect: boolean, now: Date): Progress['srs'] {
+  const state = srs[questionId]
+  if (state) {
+    const next = review(state, isCorrect, DEFAULT_SRS_CONFIG, now)
+    const rest = { ...srs }
+    delete rest[questionId]
+    return next ? { ...rest, [questionId]: next } : rest
+  }
+  if (isCorrect) return srs
+  // première erreur : à réviser tout de suite
+  return { ...srs, [questionId]: { ...initSrs(questionId, DEFAULT_SRS_CONFIG, now), nextReviewAt: now.toISOString() } }
+}
+
+/** Enregistre une réponse : compteurs + file SRS. */
 export function withAnswer(p: Progress, questionId: string, isCorrect: boolean, now: Date): Progress {
   const prev = p.answers[questionId] ?? { correct: 0, wrong: 0, lastAnsweredAt: '' }
   return {
     ...p,
+    srs: nextSrs(p.srs, questionId, isCorrect, now),
     answers: {
       ...p.answers,
       [questionId]: {
