@@ -8,6 +8,7 @@ export interface Question {
   correctId: string
   explanation: string
   themeId: string
+  needs_review?: boolean // chiffre non sourcé : à faire valider par un moniteur
 }
 
 export const MOCK_QUESTIONS: Question[] = [
@@ -62,6 +63,7 @@ export const MOCK_QUESTIONS: Question[] = [
     ],
     correctId: 'b',
     explanation: 'La règle des 2 secondes : votre véhicule doit passer un repère fixe au moins 2 secondes après le véhicule qui vous précède.',
+    needs_review: true,
   },
   {
     id: 'q8',

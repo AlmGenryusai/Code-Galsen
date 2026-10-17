@@ -44,6 +44,7 @@
     "course_sheet_ref": "charrettes",
     "question": "Vous approchez d'une charrette tractée par un âne sur la chaussée. La bonne attitude est :",
     "difficulty": "facile",
+    "needs_review": true,
     "options": [
       {"letter": "A", "text": "doubler sans ralentir", "is_correct": false},
       {"letter": "B", "text": "ralentir, garder distance latérale d'au moins 1,5 m et doubler avec prudence", "is_correct": true},
