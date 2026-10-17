@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { QuizOption } from '@/components/quiz/QuizOption'
+import { RoadSign } from '@/components/sign/RoadSign'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
 import { useProgress } from '@/lib/progress/use-progress'
@@ -189,6 +190,12 @@ export function ExamView({ questions }: ExamViewProps) {
         paddingRight: 20,
         paddingBottom: answered ? 90 : 20,
       }}>
+        {q.sign && (
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
+            <RoadSign id={q.sign} size={72} />
+          </div>
+        )}
+
         <p style={{
           fontSize: 17,
           fontWeight: 600,
