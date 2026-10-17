@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest'
+import { countDue } from '../quiz/srs'
 import {
   emptyProgress,
   parseProgress,
@@ -37,8 +38,17 @@ describe('parseProgress', () => {
     const p: Progress = {
       answers: { a1: { correct: 1, wrong: 2, lastAnsweredAt: T0.toISOString() } },
       exams: [{ id: 'e1', date: T0.toISOString(), score: 80, faults: 3, total: 15, passed: true }],
+      srs: {},
     }
     expect(parseProgress(JSON.stringify(p))).toEqual(p)
+  })
+
+  it('progression sans srs (avant session 5) → réponses conservées, srs vide', () => {
+    const old = {
+      answers: { a1: { correct: 1, wrong: 2, lastAnsweredAt: T0.toISOString() } },
+      exams: [{ id: 'e1', date: T0.toISOString(), score: 80, faults: 3, total: 15, passed: true }],
+    }
+    expect(parseProgress(JSON.stringify(old))).toEqual({ ...old, srs: {} })
   })
 })
 
@@ -48,6 +58,37 @@ describe('withAnswer', () => {
     let p = withAnswer(emptyProgress(), 'a1', true, T0)
     p = withAnswer(p, 'a1', false, T1)
     expect(p.answers.a1).toEqual({ correct: 1, wrong: 1, lastAnsweredAt: T1.toISOString() })
+  })
+})
+
+describe('withAnswer — file SRS', () => {
+  it('mauvaise réponse → entre dans la file, à réviser tout de suite', () => {
+    const p = withAnswer(emptyProgress(), 'a1', false, T0)
+    expect(p.srs.a1).toMatchObject({ questionId: 'a1', nextReviewAt: T0.toISOString(), intervalDays: 1, failCount: 1 })
+    expect(countDue(Object.values(p.srs), T0)).toBe(1)
+  })
+
+  it('bonne réponse hors file → rien', () => {
+    expect(withAnswer(emptyProgress(), 'a1', true, T0).srs).toEqual({})
+  })
+
+  it('bonne réponse en file → review (streak +1)', () => {
+    let p = withAnswer(emptyProgress(), 'a1', false, T0)
+    p = withAnswer(p, 'a1', true, T0)
+    expect(p.srs.a1.successStreak).toBe(1)
+    expect(p.srs.a1.lastReviewedAt).toBe(T0.toISOString())
+  })
+
+  it('mauvaise réponse en file → failCount +1', () => {
+    let p = withAnswer(emptyProgress(), 'a1', false, T0)
+    p = withAnswer(p, 'a1', false, T0)
+    expect(p.srs.a1.failCount).toBe(2)
+  })
+
+  it('3 bonnes réponses consécutives → retirée de la file', () => {
+    let p = withAnswer(emptyProgress(), 'a1', false, T0)
+    for (let i = 0; i < 3; i++) p = withAnswer(p, 'a1', true, T0)
+    expect(p.srs).toEqual({})
   })
 })
 
