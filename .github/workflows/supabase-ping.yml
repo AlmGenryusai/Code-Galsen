@@ -1,0 +1,34 @@
+# Évite la mise en pause du projet Supabase gratuit (7 jours sans activité base).
+# Appelle `activate` avec un code bien formé mais inexistant : la fonction lit la table
+# `licenses` puis répond 404 {"error":"unknown_code"}. Aucune écriture.
+
+name: supabase-ping
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # chaque lundi, 08:00 UTC
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Appeler activate avec un code inexistant
+        env:
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          status=$(curl -sS --max-time 30 -o response.json -w '%{http_code}' -X POST \
+            'https://mqgdqedbgdximjkczmsl.supabase.co/functions/v1/activate' \
+            -H 'Content-Type: application/json' \
+            -H "apikey: ${SUPABASE_ANON_KEY}" \
+            -d '{"code":"GALS-PING-0000","deviceId":"00000000000000000000000000000000"}')
+          echo "HTTP ${status}"
+          cat response.json; echo
+          # 404 seul ne suffit pas : la passerelle répond aussi 404 si la fonction n'existe pas
+          if [ "$status" != "404" ] || ! grep -q '"unknown_code"' response.json; then
+            echo "::error::Réponse inattendue (attendu : 404 unknown_code)"
+            exit 1
+          fi
