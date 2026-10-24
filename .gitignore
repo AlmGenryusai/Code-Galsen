@@ -27,3 +27,6 @@ test-results
 # Next.js / TS generated
 next-env.d.ts
 *.tsbuildinfo
+
+# Lots de codes d'activation (scripts/generate-codes.mjs)
+codes/
