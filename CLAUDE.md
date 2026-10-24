@@ -71,6 +71,7 @@ pnpm --filter web build
 pnpm --filter web typecheck
 pnpm --filter web lint
 pnpm --filter web test
+node scripts/generate-codes.mjs 50   # 50 codes (max 500) → codes/*.sql + .csv (gitignoré)
 ```
 
 ## Structure
