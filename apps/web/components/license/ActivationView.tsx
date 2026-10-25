@@ -144,6 +144,25 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
         </div>
       ) : (
         <form onSubmit={handleSubmit} noValidate style={{ marginTop: 24 }}>
+          {!wavePaymentUrl && supportWhatsapp && (
+            <a
+              href={`https://wa.me/${supportWhatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                minHeight: 44,
+                marginBottom: 8,
+                fontSize: 14,
+                fontWeight: 600,
+                color: 'hsl(var(--primary-h))',
+                textDecoration: 'none',
+              }}
+            >
+              Pour obtenir un code, écris-nous sur WhatsApp
+            </a>
+          )}
           <label htmlFor="code" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: 'hsl(var(--text))', marginBottom: 8 }}>
             Code d&apos;activation
           </label>

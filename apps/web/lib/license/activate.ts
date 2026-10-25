@@ -10,9 +10,9 @@ const STATUS_ERRORS: Record<number, ActivationError> = { 404: 'unknown_code', 40
 
 /** Appelle la fonction Edge `activate`, vérifie la licence reçue puis la stocke. */
 export async function activate(code: string): Promise<ActivationResult> {
+  if (navigator.onLine === false) return { ok: false, error: 'network' }
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL
   if (!url) return { ok: false, error: 'server' }
-  if (navigator.onLine === false) return { ok: false, error: 'network' }
 
   const deviceId = getDeviceId()
   const controller = new AbortController()

@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { PassChip } from './PassChip'
 import { ExamScoreCard } from './ExamScoreCard'
 import { ReviewChip } from './ReviewChip'
-import { StreakChip } from './StreakChip'
 import { ProgressCircle } from './ProgressCircle'
 import { ThemeRow } from './ThemeRow'
 import { BottomNav } from './BottomNav'
@@ -15,9 +14,6 @@ import { canAccess, hrefFor, targetHref, type Target } from '@/lib/license/licen
 import { useLicense } from '@/lib/license/use-license'
 
 export interface DashboardData {
-  userName: string
-  cumulatedMinutes: number
-  streakDays: number
   themes: Array<{
     id: string
     icon: string
@@ -45,12 +41,11 @@ export function DashboardView({ data, questions }: Props) {
     ? Math.round(data.themes.reduce((s, t) => s + (byTheme[t.id] ?? 0) * t.questionsTotal, 0) / totalQuestions)
     : 0
   const examScore = progress.exams[0]?.score ?? null
-  const examBlancReussis = progress.exams.filter(e => e.passed).length
+  const examsTaken = progress.exams.length
   const srsCountDue = countDue(Object.values(progress.srs))
+  const answersCount = Object.values(progress.answers).reduce((s, a) => s + a.correct + a.wrong, 0)
 
-  const isFirstDay = data.streakDays === 0 && globalProgressPct === 0
-
-  const sublabel = `${Math.floor(data.cumulatedMinutes / 60)} h cumulées · ${examBlancReussis} examen${examBlancReussis > 1 ? 's' : ''} blanc${examBlancReussis > 1 ? 's' : ''} réussi${examBlancReussis > 1 ? 's' : ''}`
+  const sublabel = `${answersCount} question${answersCount > 1 ? 's' : ''} répondue${answersCount > 1 ? 's' : ''} · ${examsTaken} examen${examsTaken > 1 ? 's' : ''} blanc${examsTaken > 1 ? 's' : ''} fait${examsTaken > 1 ? 's' : ''}`
 
   return (
     <div style={{ background: 'hsl(var(--bg))', paddingBottom: 80 }}>
@@ -69,9 +64,9 @@ export function DashboardView({ data, questions }: Props) {
         {/* Greeting */}
         <div>
           <h1 style={{ fontSize: 30, fontWeight: 800, lineHeight: 1.1, color: 'hsl(var(--text))' }}>
-            {isFirstDay ? 'Premier jour.' : `Bonjour, ${data.userName}.`}
+            Bonjour.
           </h1>
-          {isFirstDay && (
+          {answersCount === 0 && (
             <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 4 }}>
               Choisis un thème pour commencer.
             </p>
@@ -82,10 +77,7 @@ export function DashboardView({ data, questions }: Props) {
         <ExamScoreCard score={examScore} href={href({ kind: 'exam', examsTaken: progress.exams.length })} />
 
         {/* Chips secondaires (P02) */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-          <ReviewChip count={srsCountDue} href={href({ kind: 'errors' })} />
-          <StreakChip days={data.streakDays} />
-        </div>
+        <ReviewChip count={srsCountDue} href={href({ kind: 'errors' })} />
 
         {/* Progression globale */}
         <ProgressCircle

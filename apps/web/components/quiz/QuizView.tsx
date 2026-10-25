@@ -146,7 +146,8 @@ export function QuizView({ questions }: QuizViewProps) {
         paddingTop: 20,
         paddingLeft: 20,
         paddingRight: 20,
-        paddingBottom: answered ? 90 : 20,
+        // réserve la hauteur de la barre fixe du bas (bouton + marges + zone sûre iPhone)
+        paddingBottom: answered ? 'calc(100px + env(safe-area-inset-bottom))' : 20,
       }}>
         {q.sign && (
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
