@@ -12,8 +12,8 @@ describe('verrou gratuit / payant', () => {
   })
 
   it('thème payant → /activer', () => {
-    expect(canAccess({ kind: 'theme', theme: 'Priorités et intersections' }, free)).toBe(false)
-    expect(redirectFor({ kind: 'theme', theme: 'Priorités et intersections' }, free)).toBe(ACTIVATE_HREF)
+    expect(canAccess({ kind: 'theme', theme: 't01' }, free)).toBe(false)
+    expect(redirectFor({ kind: 'theme', theme: 't01' }, free)).toBe(ACTIVATE_HREF)
   })
 
   it('/quiz sans thème → thème gratuit', () => {
@@ -30,7 +30,7 @@ describe('verrou gratuit / payant', () => {
   })
 
   it('licence active : tout est ouvert', () => {
-    expect(redirectFor({ kind: 'theme', theme: 'Priorités et intersections' }, paid)).toBeNull()
+    expect(redirectFor({ kind: 'theme', theme: 't01' }, paid)).toBeNull()
     expect(redirectFor({ kind: 'all' }, paid)).toBeNull()
     expect(redirectFor({ kind: 'errors' }, paid)).toBeNull()
     expect(redirectFor({ kind: 'exam', examsTaken: 5 }, paid)).toBeNull()

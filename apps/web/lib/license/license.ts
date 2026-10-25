@@ -1,7 +1,7 @@
 // Gratuit / payant — règles produit : CLAUDE.md §Produit
 // Gratuit : 1 thème + 1 examen blanc. Payant : tout le reste.
 
-export const FREE_THEME = 'Signalisation'
+export const FREE_THEME = 't04' // id de thème : lib/quiz/taxonomy.ts
 export const ACTIVATE_HREF = '/activer'
 
 export interface License {
