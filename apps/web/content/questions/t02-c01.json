@@ -1,0 +1,290 @@
+[
+  {
+    "id": "t02-c01-0001",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "parts": [
+      {
+        "text": "Avant de changer de direction, je dois d'abord :",
+        "options": [
+          {
+            "id": "A",
+            "text": "klaxonner"
+          },
+          {
+            "id": "B",
+            "text": "vérifier que je peux le faire sans danger, puis prévenir"
+          },
+          {
+            "id": "C",
+            "text": "mettre le clignotant et tourner"
+          },
+          {
+            "id": "D",
+            "text": "ralentir sans regarder"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On regarde d'abord si la manœuvre est possible, puis on prévient avec le clignotant. Le clignotant seul ne remplace pas le regard.",
+    "common_mistake": "Mettre le clignotant et tourner aussitôt.",
+    "legal_ref": "Décret 2004-13, art. 8",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c01-0002",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "parts": [
+      {
+        "text": "Un cycliste tend le bras horizontalement vers la gauche. Il va :",
+        "options": [
+          {
+            "id": "A",
+            "text": "tourner à gauche"
+          },
+          {
+            "id": "B",
+            "text": "tourner à droite"
+          },
+          {
+            "id": "C",
+            "text": "s'arrêter"
+          },
+          {
+            "id": "D",
+            "text": "ralentir"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le bras étendu horizontalement indique le côté où l'on tourne. Le bras levé indique le côté opposé, le bras baissé un ralentissement ou un arrêt.",
+    "common_mistake": "Confondre le bras tendu avec le bras levé.",
+    "legal_ref": "Décret 2004-13, art. 8",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c01-0003",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "parts": [
+      {
+        "text": "De nuit, hors agglomération, je veux dépasser. Je préviens celui que je dépasse avec :",
+        "options": [
+          {
+            "id": "A",
+            "text": "l'avertisseur seul"
+          },
+          {
+            "id": "B",
+            "text": "des appels de phares"
+          },
+          {
+            "id": "C",
+            "text": "les feux de détresse"
+          },
+          {
+            "id": "D",
+            "text": "rien, il le verra"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "De nuit ou hors agglomération, on alterne les feux de route et de croisement. Le clignotant prévient ceux qui suivent ou croisent.",
+    "common_mistake": "Klaxonner la nuit.",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c01-0004",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "parts": [
+      {
+        "text": "J'utilise mon avertisseur sonore :",
+        "options": [
+          {
+            "id": "A",
+            "text": "pour dire bonjour"
+          },
+          {
+            "id": "B",
+            "text": "pour donner un avertissement nécessaire aux autres usagers"
+          },
+          {
+            "id": "C",
+            "text": "pour presser celui qui me gêne"
+          },
+          {
+            "id": "D",
+            "text": "en continu dans un embouteillage"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le klaxon est réservé aux avertissements nécessaires. En agglomération, les signaux doivent être brefs et très modérés.",
+    "common_mistake": "Klaxonner par énervement.",
+    "legal_ref": "Décret 2004-13, art. 87 et 89 ; loi 2022-04, L.66",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c01-0005",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "parts": [
+      {
+        "text": "En ville, la nuit, pour avertir un autre usager, je privilégie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le klaxon à fond"
+          },
+          {
+            "id": "B",
+            "text": "un signal lumineux"
+          },
+          {
+            "id": "C",
+            "text": "les feux de détresse"
+          },
+          {
+            "id": "D",
+            "text": "rien"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Entre le coucher et le lever du jour, on avertit par signal optique. Le klaxon n'est utilisé qu'en cas d'absolue nécessité.",
+    "common_mistake": "Klaxonner la nuit pour tout.",
+    "legal_ref": "Décret 2004-13, art. 89",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c01-0006",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "parts": [
+      {
+        "text": "La nuit, sur une route avec un bon éclairage public, je peux rouler avec :",
+        "options": [
+          {
+            "id": "A",
+            "text": "les feux de position seulement"
+          },
+          {
+            "id": "B",
+            "text": "aucun feu"
+          },
+          {
+            "id": "C",
+            "text": "les feux de détresse"
+          },
+          {
+            "id": "D",
+            "text": "les feux de brouillard"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Avec un éclairage public suffisant, on peut se contenter des feux de position. Sinon, feux de croisement ou de route.",
+    "common_mistake": "Rouler sans feux parce qu'on voit bien.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c01-0007",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "parts": [
+      {
+        "text": "Je croise un véhicule la nuit. Je dois mettre :",
+        "options": [
+          {
+            "id": "A",
+            "text": "les feux de route"
+          },
+          {
+            "id": "B",
+            "text": "les feux de croisement"
+          },
+          {
+            "id": "C",
+            "text": "aucun feu"
+          },
+          {
+            "id": "D",
+            "text": "les feux de brouillard"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les feux de croisement remplacent les feux de route à chaque croisement et quand on suit de près un autre véhicule. Sinon on éblouit.",
+    "common_mistake": "Garder les feux de route au croisement.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c01-0008",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "parts": [
+      {
+        "text": "Je m'approche d'un carrefour. Je dois d'abord :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélérer pour passer"
+          },
+          {
+            "id": "B",
+            "text": "vérifier que la route que je vais croiser est libre"
+          },
+          {
+            "id": "C",
+            "text": "klaxonner et passer"
+          },
+          {
+            "id": "D",
+            "text": "fermer les yeux"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On regarde et on modère son allure, d'autant plus que la visibilité est faible. On annonce son approche si nécessaire.",
+    "common_mistake": "Compter sur les autres pour s'arrêter.",
+    "legal_ref": "Décret 2004-13, art. 25",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

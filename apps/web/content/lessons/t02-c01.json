@@ -1,0 +1,109 @@
+{
+  "id": "t02-c01",
+  "theme": "t02",
+  "sheets": [
+    {
+      "id": "t02-c01-f01",
+      "title": "Prévenir avant de bouger",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Avant de tourner, de me déporter ou de ralentir fortement, je regarde d'abord si c'est possible. Ensuite seulement, j'avertis les autres."
+        },
+        {
+          "type": "heading",
+          "text": "Les gestes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Clignotant : pour tourner ou se déporter.",
+            "Bras tendu à l'horizontale : je tourne du côté du bras (pour vélo, charrette, moto sans clignotant).",
+            "Bras levé : je tourne du côté opposé.",
+            "Bras baissé : je ralentis ou je m'arrête."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Le clignotant ne donne aucune priorité. Il prévient, il ne me protège pas."
+        },
+        {
+          "type": "memo",
+          "text": "Je regarde, puis je signale, puis je bouge."
+        }
+      ]
+    },
+    {
+      "id": "t02-c01-f02",
+      "title": "Les feux et l'avertisseur",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Mes feux servent à voir et à être vu. L'avertisseur sert à prévenir d'un danger, pas à presser les autres."
+        },
+        {
+          "type": "heading",
+          "text": "Les feux"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nuit sans éclairage public : feux de croisement ou de route.",
+            "Nuit avec bon éclairage public : les feux de position suffisent.",
+            "Je croise ou je suis de près un véhicule : feux de croisement, pour ne pas l'éblouir."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "L'avertisseur"
+        },
+        {
+          "type": "text",
+          "text": "Je l'utilise seulement pour un avertissement nécessaire. En ville, je fais bref et modéré. La nuit, je préfère un signal lumineux."
+        },
+        {
+          "type": "memo",
+          "text": "Feux de croisement quand je croise. Klaxon seulement si c'est nécessaire."
+        }
+      ]
+    },
+    {
+      "id": "t02-c01-f03",
+      "title": "Anticiper aux intersections",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Une intersection est l'endroit où il y a le plus de surprises. J'anticipe avant d'y arriver."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je vérifie que la route que je vais croiser est libre.",
+            "Je ralentis d'autant plus que je vois mal.",
+            "J'annonce mon approche si nécessaire, par un appel de phares.",
+            "Je regarde les piétons, les motos et les charrettes qui peuvent sortir d'un coin."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "En dépassant, je préviens celui que je dépasse : de jour avec l'avertisseur, de nuit avec des appels de phares."
+        },
+        {
+          "type": "attention",
+          "text": "Un carrefour sans panneau n'est pas un carrefour sans danger : je cède à droite et je regarde."
+        },
+        {
+          "type": "memo",
+          "text": "Je vois avant d'arriver."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 8, 18, 25, 82, 87, 89 ; loi 2022-04, L.66",
+  "legal_status": "pending",
+  "status": "draft"
+}
