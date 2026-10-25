@@ -1,0 +1,99 @@
+{
+  "id": "t03-c01",
+  "theme": "t03",
+  "sheets": [
+    {
+      "id": "t03-c01-f01",
+      "title": "Brouillard, poussière, forte pluie",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Quand je vois mal, je roule pour pouvoir m'arrêter dans ce que je vois."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'allume mes feux de croisement, même de jour.",
+            "Je réduis ma vitesse, même si la route est droite.",
+            "Si je vois à moins de 50 mètres, je roule à 50 km/h maximum."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Je ne klaxonne pas pour « voir plus loin » : ça ne change pas ma visibilité."
+        },
+        {
+          "type": "memo",
+          "text": "Je vois mal : je ralentis et j'allume."
+        }
+      ]
+    },
+    {
+      "id": "t03-c01-f02",
+      "title": "Route mouillée ou glissante",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "La pluie et le sable allongent la distance de freinage."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'augmente ma distance avec le véhicule devant.",
+            "Je freine tôt et doucement.",
+            "Je ralentis avant les virages, pas dedans."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Après les premières pluies, la chaussée est plus glissante : la poussière et l'huile remontent."
+        },
+        {
+          "type": "memo",
+          "text": "Sol mouillé : plus de distance, moins de vitesse."
+        }
+      ]
+    },
+    {
+      "id": "t03-c01-f03",
+      "title": "Conduire la nuit",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "La nuit, je vois moins loin et je suis moins vu."
+        },
+        {
+          "type": "heading",
+          "text": "Mes feux"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sans éclairage public : feux de croisement ou de route.",
+            "Je croise ou je suis de près un véhicule : feux de croisement pour ne pas éblouir.",
+            "Un véhicule garé la nuit doit être signalé par ses feux."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Je règle ma vitesse sur la portée de mes phares : si je ne peux pas m'arrêter dans ce que j'éclaire, je roule trop vite."
+        },
+        {
+          "type": "memo",
+          "text": "Nuit : j'éclaire, je n'éblouis pas."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 13, 82 ; loi 2022-04, L.58",
+  "legal_status": "pending",
+  "status": "draft"
+}

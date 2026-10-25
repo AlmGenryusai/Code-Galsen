@@ -1,0 +1,292 @@
+[
+  {
+    "id": "t03-c01-0001",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "parts": [
+      {
+        "text": "Il y a du brouillard. Je roule avec :",
+        "options": [
+          {
+            "id": "A",
+            "text": "aucun feu"
+          },
+          {
+            "id": "B",
+            "text": "les feux de croisement"
+          },
+          {
+            "id": "C",
+            "text": "les feux de route"
+          },
+          {
+            "id": "D",
+            "text": "les feux de détresse"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Par temps de brouillard, on allume les feux de croisement ou de route, même de jour. Les feux de croisement éblouissent moins dans la brume.",
+    "common_mistake": "Rouler sans feux de jour.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c01-0002",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "parts": [
+      {
+        "text": "Dans le brouillard, je règle ma vitesse :",
+        "options": [
+          {
+            "id": "A",
+            "text": "à la limite autorisée"
+          },
+          {
+            "id": "B",
+            "text": "pour pouvoir m'arrêter dans ce que je vois"
+          },
+          {
+            "id": "C",
+            "text": "comme d'habitude"
+          },
+          {
+            "id": "D",
+            "text": "plus vite pour sortir du brouillard"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On doit réduire sa vitesse quand la visibilité est insuffisante. La limite n'est pas un objectif.",
+    "common_mistake": "Rouler vite pour traverser plus vite.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c01-0003",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "parts": [
+      {
+        "text": "Je vois à moins de 50 mètres. Ma vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "50 km/h"
+          },
+          {
+            "id": "B",
+            "text": "70 km/h"
+          },
+          {
+            "id": "C",
+            "text": "90 km/h"
+          },
+          {
+            "id": "D",
+            "text": "la même qu'avant"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Quand la visibilité est inférieure à 50 m, la limite tombe à 50 km/h sur toute route.",
+    "common_mistake": "Garder la vitesse du beau temps.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c01-0004",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "parts": [
+      {
+        "text": "Sur la route, de la poussière ou du sable réduit ma vue. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélère"
+          },
+          {
+            "id": "B",
+            "text": "ralentis et reste prudent"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne tout le temps"
+          },
+          {
+            "id": "D",
+            "text": "m'arrête au milieu de la route"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Poussière, sable, fumée ou forte pluie imposent une vitesse réduite. Un klaxon ne fait pas voir plus loin.",
+    "common_mistake": "Accélérer pour s'en sortir.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c01-0005",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "parts": [
+      {
+        "text": "La nuit, je suis de près un autre véhicule. Je mets :",
+        "options": [
+          {
+            "id": "A",
+            "text": "les feux de route"
+          },
+          {
+            "id": "B",
+            "text": "les feux de croisement"
+          },
+          {
+            "id": "C",
+            "text": "les feux de détresse"
+          },
+          {
+            "id": "D",
+            "text": "aucun feu"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les feux de croisement remplacent les feux de route quand on suit de près ou quand on croise, pour ne pas éblouir.",
+    "common_mistake": "Rester en feux de route derrière un véhicule.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c01-0006",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "parts": [
+      {
+        "text": "Après une forte pluie, la route est glissante. Pour freiner, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "freine fort et d'un coup"
+          },
+          {
+            "id": "B",
+            "text": "freine tôt et progressivement"
+          },
+          {
+            "id": "C",
+            "text": "freine d'un coup de volant"
+          },
+          {
+            "id": "D",
+            "text": "ne freine pas"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sur sol mouillé, la distance de freinage augmente. Freiner tôt et doucement évite le dérapage.",
+    "common_mistake": "Freiner brutalement sur route mouillée.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c01-0007",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "parts": [
+      {
+        "text": "Sur une route mouillée, la distance avec le véhicule devant moi doit être :",
+        "options": [
+          {
+            "id": "A",
+            "text": "plus courte"
+          },
+          {
+            "id": "B",
+            "text": "la même"
+          },
+          {
+            "id": "C",
+            "text": "plus longue"
+          },
+          {
+            "id": "D",
+            "text": "sans importance"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "L'eau allonge la distance de freinage. Il faut plus de place pour s'arrêter.",
+    "common_mistake": "Rester collé au véhicule devant.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c01-0008",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "parts": [
+      {
+        "text": "Je dois régler ma vitesse selon :",
+        "options": [
+          {
+            "id": "A",
+            "text": "les obstacles prévisibles"
+          },
+          {
+            "id": "B",
+            "text": "la visibilité"
+          },
+          {
+            "id": "C",
+            "text": "l'état de la route"
+          },
+          {
+            "id": "D",
+            "text": "seulement la limite affichée"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "La limite est un maximum. Je la réduis selon la circulation, la visibilité et l'état de la chaussée.",
+    "common_mistake": "Rouler toujours à la limite.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]
