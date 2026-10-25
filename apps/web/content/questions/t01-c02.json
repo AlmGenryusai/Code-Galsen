@@ -74,5 +74,293 @@
     "legal_ref": null,
     "legal_status": "pending",
     "status": "draft"
+  },
+  {
+    "id": "t01-c02-0003",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "À un carrefour sans signalisation, un véhicule arrive à ma droite. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "passe en premier, je suis plus rapide"
+          },
+          {
+            "id": "B",
+            "text": "lui cède le passage"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne puis je passe"
+          },
+          {
+            "id": "D",
+            "text": "accélère pour passer avant lui"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sans signalisation, on cède le passage au conducteur qui vient de droite. La vitesse ou la taille du véhicule ne changent rien.",
+    "common_mistake": "Croire que le plus rapide ou le plus gros passe en premier.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0004",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "Face à un panneau STOP, je dois :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ralentir sans m'arrêter si la route est vide"
+          },
+          {
+            "id": "B",
+            "text": "m'arrêter à la limite, puis céder le passage"
+          },
+          {
+            "id": "C",
+            "text": "klaxonner et passer"
+          },
+          {
+            "id": "D",
+            "text": "céder seulement si je vois un véhicule"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le STOP impose un temps d'arrêt à la limite de l'intersection, puis il faut céder aux conducteurs de l'autre route, dans les deux sens.",
+    "common_mistake": "Rouler au pas sans s'arrêter.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0005",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "Face à un panneau « Cédez le passage », je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "m'arrête toujours, même route vide"
+          },
+          {
+            "id": "B",
+            "text": "passe, car je suis sur la route la plus large"
+          },
+          {
+            "id": "C",
+            "text": "céder le passage aux autres routes, dans les deux sens"
+          },
+          {
+            "id": "D",
+            "text": "passe en klaxonnant"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Ce panneau demande de laisser passer les conducteurs de l'autre route, qu'ils viennent de gauche ou de droite.",
+    "common_mistake": "Ne regarder que le côté droit.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0006",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "Je suis déjà engagé dans un rond-point. Un véhicule veut y entrer. Qui passe en premier ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "lui, car il arrive vite"
+          },
+          {
+            "id": "B",
+            "text": "le plus gros des deux"
+          },
+          {
+            "id": "C",
+            "text": "moi, déjà engagé"
+          },
+          {
+            "id": "D",
+            "text": "celui qui klaxonne"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Dans un carrefour à sens giratoire obligatoire, le conducteur déjà engagé est prioritaire. Celui qui arrive doit attendre.",
+    "common_mistake": "Penser que celui qui entre passe avant.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0007",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "Une ambulance avec sirène arrive derrière moi. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélère pour la devancer"
+          },
+          {
+            "id": "B",
+            "text": "réduis ma vitesse et me range pour la laisser passer"
+          },
+          {
+            "id": "C",
+            "text": "continue sans changer ma vitesse"
+          },
+          {
+            "id": "D",
+            "text": "me mets au milieu de la route"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les ambulances, pompiers, police et gendarmerie annonçant leur approche passent en priorité. Il faut céder, ralentir, et au besoin s'arrêter ou se garer.",
+    "common_mistake": "Accélérer pour dégager le passage.",
+    "legal_ref": "Décret 2004-13, art. 29",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0008",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "Un cortège officiel escorté par la police arrive. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le dépasse si la route est large"
+          },
+          {
+            "id": "B",
+            "text": "m'arrête immédiatement, en laissant toute la chaussée libre"
+          },
+          {
+            "id": "C",
+            "text": "passe avant lui"
+          },
+          {
+            "id": "D",
+            "text": "me mets dans la file du cortège"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Il est interdit de couper un cortège en marche. Quand il est escorté, chacun s'arrête et laisse la chaussée libre.",
+    "common_mistake": "Se glisser dans le cortège pour ne pas attendre.",
+    "legal_ref": "Décret 2004-13, art. 30",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0009",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "Je m'approche d'une voie ferrée sans barrière. Je m'engage :",
+        "options": [
+          {
+            "id": "A",
+            "text": "si je n'entends pas de train"
+          },
+          {
+            "id": "B",
+            "text": "seulement après m'être assuré qu'aucun train n'est annoncé"
+          },
+          {
+            "id": "C",
+            "text": "en accélérant pour passer vite"
+          },
+          {
+            "id": "D",
+            "text": "si le véhicule devant moi est passé"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le train a toujours la priorité. Sans barrière, on ne s'engage qu'après avoir vérifié que le passage est sûr et qu'aucun train n'approche.",
+    "common_mistake": "Se fier au véhicule qui précède.",
+    "legal_ref": "Décret 2004-13, art. 12",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0010",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "Je sors d'une cour ou d'un chemin privé vers la route. Je dois :",
+        "options": [
+          {
+            "id": "A",
+            "text": "m'engager vite, les autres me verront"
+          },
+          {
+            "id": "B",
+            "text": "marquer un temps d'arrêt et céder le passage"
+          },
+          {
+            "id": "C",
+            "text": "klaxonner et avancer"
+          },
+          {
+            "id": "D",
+            "text": "passer si la route paraît libre à gauche"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Celui qui débouche d'un immeuble ou d'un chemin privé s'arrête d'abord et cède le passage aux usagers de la route.",
+    "common_mistake": "Sortir en force en comptant sur le klaxon.",
+    "legal_ref": "Décret 2004-13, art. 7",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]

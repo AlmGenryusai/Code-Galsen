@@ -1,0 +1,126 @@
+{
+  "id": "t01-c05",
+  "theme": "t01",
+  "sheets": [
+    {
+      "id": "t01-c05-f01",
+      "title": "Croiser un véhicule",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Quand deux véhicules viennent en sens inverse, ils se croisent à droite."
+        },
+        {
+          "type": "heading",
+          "text": "Je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je me serre sur ma droite.",
+            "Sur une route à une seule voie, je laisse ma gauche libre et j'utilise l'accotement si besoin.",
+            "Si un obstacle bloque ma voie, je laisse passer ceux qui viennent en face avant."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Sur route étroite, un véhicule de plus de 2,10 m de large ou 8 m de long ralentit ou s'arrête pour laisser passer les plus petits."
+        },
+        {
+          "type": "memo",
+          "text": "Croiser : à droite, et chacun fait de la place."
+        }
+      ]
+    },
+    {
+      "id": "t01-c05-f02",
+      "title": "Dépasser en sécurité",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "On dépasse par la gauche."
+        },
+        {
+          "type": "heading",
+          "text": "Avant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Assez de place et de visibilité devant.",
+            "Prévenir : clignotant, appel de phares ou avertisseur.",
+            "Rien ne vient en face sur une route à deux voies."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Pendant et après"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je laisse au moins 1 mètre à un piéton, un cycle, un cavalier, un animal ou une charrette.",
+            "Je me rabats seulement quand je peux le faire sans gêner celui que j'ai dépassé."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Si on me dépasse"
+        },
+        {
+          "type": "text",
+          "text": "Je me serre à droite et je n'accélère pas."
+        },
+        {
+          "type": "memo",
+          "text": "Je vois, je préviens, je dépasse à gauche."
+        }
+      ]
+    },
+    {
+      "id": "t01-c05-f03",
+      "title": "Quand le dépassement est interdit",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Je ne dépasse pas quand je ne vois pas assez loin ou quand le lieu est dangereux."
+        },
+        {
+          "type": "heading",
+          "text": "Interdit"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dans un virage ou à l'approche d'un sommet de côte.",
+            "À un passage à niveau sans garde.",
+            "À une intersection, sauf si je suis sur la route prioritaire."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Cas particulier"
+        },
+        {
+          "type": "text",
+          "text": "Si le véhicule devant moi signale qu'il tourne à gauche, je le dépasse par la droite."
+        },
+        {
+          "type": "heading",
+          "text": "Convois"
+        },
+        {
+          "type": "text",
+          "text": "Hors agglomération, les véhicules de plus de 3,5 t ou de plus de 8 m laissent au moins 50 m entre eux."
+        },
+        {
+          "type": "memo",
+          "text": "Pas de vue, pas de dépassement."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 15 à 24, 36",
+  "legal_status": "pending",
+  "status": "draft"
+}

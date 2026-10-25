@@ -5,23 +5,23 @@
     "chapter": "t01-c01",
     "parts": [
       {
-        "text": "Un panneau circulaire à fond rouge signifie :",
+        "text": "Un panneau rond, fond blanc, bordé de rouge, signifie :",
         "options": [
           {
             "id": "A",
-            "text": "Une obligation"
+            "text": "une obligation"
           },
           {
             "id": "B",
-            "text": "Un danger"
+            "text": "un danger"
           },
           {
             "id": "C",
-            "text": "Une interdiction"
+            "text": "une interdiction"
           },
           {
             "id": "D",
-            "text": "Une indication"
+            "text": "une simple indication"
           }
         ],
         "correct": [
@@ -29,8 +29,9 @@
         ]
       }
     ],
-    "explanation": "Les panneaux circulaires à fond rouge sont des panneaux d'interdiction.",
-    "legal_ref": null,
+    "explanation": "Les panneaux d'interdiction sont ronds, à fond blanc bordé de rouge. Seul le sens interdit a un fond rouge entier. Les obligations sont sur fond bleu.",
+    "common_mistake": "Croire que tous les panneaux à fond rouge sont des interdictions.",
+    "legal_ref": "Décret 2004-13, annexe P4",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -151,23 +152,23 @@
     "chapter": "t01-c01",
     "parts": [
       {
-        "text": "Un feu rouge clignotant à une intersection signifie :",
+        "text": "Un feu rouge clignotant indique un passage à niveau non gardé. Je :",
         "options": [
           {
             "id": "A",
-            "text": "Ralentir et passer prudemment"
+            "text": "ralentis et passe prudemment"
           },
           {
             "id": "B",
-            "text": "S'arrêter obligatoirement et céder le passage avant de repartir"
+            "text": "m'arrête : arrêt absolu"
           },
           {
             "id": "C",
-            "text": "Priorité aux véhicules venant de gauche"
+            "text": "cède à droite et passe"
           },
           {
             "id": "D",
-            "text": "Même signification qu'un feu orange fixe"
+            "text": "passe si la route est libre"
           }
         ],
         "correct": [
@@ -175,8 +176,9 @@
         ]
       }
     ],
-    "explanation": "Le feu rouge clignotant signifie arrêt obligatoire, puis cédez le passage. Il indique une intersection à risque élevé.",
-    "legal_ref": null,
+    "explanation": "Les feux rouges clignotants sont réservés aux passages à niveau non gardés et aux aérodromes. Ils signifient arrêt absolu.",
+    "common_mistake": "Passer en ralentissant.",
+    "legal_ref": "Décret 2004-13, annexe P7",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -254,6 +256,588 @@
     "explanation": "Sur les routes interurbaines, des branches posées sur la chaussée avertissent d'un véhicule en panne ou d'un accident plus loin. Ralentissez et soyez prêt à vous arrêter.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0008",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Ce panneau (losange jaune) signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "fin de la priorité"
+          },
+          {
+            "id": "B",
+            "text": "route à caractère prioritaire"
+          },
+          {
+            "id": "C",
+            "text": "cédez le passage"
+          },
+          {
+            "id": "D",
+            "text": "zone de danger"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le losange jaune indique que vous êtes sur une route prioritaire. Aux intersections, les autres routes vous cèdent le passage.",
+    "common_mistake": "Le confondre avec un panneau de danger.",
+    "legal_ref": "Décret 2004-13, annexe P3 (AB6)",
+    "legal_status": "pending",
+    "status": "draft",
+    "media": {
+      "kind": "sign",
+      "src": "route-prioritaire",
+      "alt": "Route à caractère prioritaire",
+      "credit": "Code Galsen"
+    }
+  },
+  {
+    "id": "t01-c01-0009",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Ce losange jaune barré de noir signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "début de priorité"
+          },
+          {
+            "id": "B",
+            "text": "fin du caractère prioritaire"
+          },
+          {
+            "id": "C",
+            "text": "interdiction de stationner"
+          },
+          {
+            "id": "D",
+            "text": "fin de ville"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Après ce panneau, la route n'est plus prioritaire. Les règles de la droite s'appliquent de nouveau aux intersections.",
+    "common_mistake": "Croire que la priorité continue.",
+    "legal_ref": "Décret 2004-13, annexe P3 (AB7)",
+    "legal_status": "pending",
+    "status": "draft",
+    "media": {
+      "kind": "sign",
+      "src": "ab7",
+      "alt": "Fin de route à caractère prioritaire",
+      "credit": "Code Galsen"
+    }
+  },
+  {
+    "id": "t01-c01-0010",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Ce panneau rond blanc et rouge, avec une flèche rouge qui monte, signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "j'ai la priorité sur ceux d'en face"
+          },
+          {
+            "id": "B",
+            "text": "je cède le passage aux véhicules venant en sens inverse"
+          },
+          {
+            "id": "C",
+            "text": "interdiction de dépasser"
+          },
+          {
+            "id": "D",
+            "text": "route à sens unique"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "La flèche rouge montante représente ceux qui arrivent en face : ils passent d'abord. C'est à moi de leur céder le passage.",
+    "common_mistake": "Lire la flèche montante comme la mienne.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B15)",
+    "legal_status": "pending",
+    "status": "draft",
+    "media": {
+      "kind": "sign",
+      "src": "b15",
+      "alt": "Cédez le passage aux véhicules venant en sens inverse",
+      "credit": "Code Galsen"
+    }
+  },
+  {
+    "id": "t01-c01-0011",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Ce panneau bleu carré, avec la flèche blanche qui monte, signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "je cède le passage à ceux d'en face"
+          },
+          {
+            "id": "B",
+            "text": "j'ai la priorité sur ceux qui viennent en face"
+          },
+          {
+            "id": "C",
+            "text": "route à sens unique"
+          },
+          {
+            "id": "D",
+            "text": "fin de route prioritaire"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sur ce panneau bleu, la flèche blanche montante est ma direction : j'ai la priorité sur le sens inverse (l'autre flèche, rouge, doit me laisser passer).",
+    "common_mistake": "Confondre avec le panneau rond rouge.",
+    "legal_ref": "Décret 2004-13, annexe P5 (C18)",
+    "legal_status": "pending",
+    "status": "draft",
+    "media": {
+      "kind": "sign",
+      "src": "c18",
+      "alt": "Priorité par rapport au sens inverse",
+      "credit": "Code Galsen"
+    }
+  },
+  {
+    "id": "t01-c01-0012",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Ce triangle avec une croix noire annonce :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un passage à niveau"
+          },
+          {
+            "id": "B",
+            "text": "une intersection de deux routes"
+          },
+          {
+            "id": "C",
+            "text": "un rond-point"
+          },
+          {
+            "id": "D",
+            "text": "une route prioritaire"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Ce panneau de danger annonce une intersection de deux routes sans autre indication. La règle de la droite s'applique.",
+    "common_mistake": "Penser que la croix indique un passage à niveau.",
+    "legal_ref": "Décret 2004-13, annexe P3 (AB1)",
+    "legal_status": "pending",
+    "status": "draft",
+    "media": {
+      "kind": "sign",
+      "src": "priorite-droite",
+      "alt": "Intersection de deux routes",
+      "credit": "Code Galsen"
+    }
+  },
+  {
+    "id": "t01-c01-0013",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Ce triangle avec trois flèches en cercle annonce un rond-point. Au rond-point, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "passe avant ceux déjà engagés"
+          },
+          {
+            "id": "B",
+            "text": "cède le passage à ceux déjà engagés"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne et entre"
+          },
+          {
+            "id": "D",
+            "text": "entre à toute vitesse"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Celui qui est engagé dans un carrefour à sens giratoire a la priorité. Celui qui arrive attend un trou.",
+    "common_mistake": "Entrer sans regarder.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A25) ; art. 28",
+    "legal_status": "pending",
+    "status": "draft",
+    "media": {
+      "kind": "sign",
+      "src": "sens-giratoire",
+      "alt": "Carrefour à sens giratoire",
+      "credit": "Code Galsen"
+    }
+  },
+  {
+    "id": "t01-c01-0014",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Les panneaux qui annoncent un danger sont :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ronds, à fond bleu"
+          },
+          {
+            "id": "B",
+            "text": "triangulaires, à fond crème bordés de rouge"
+          },
+          {
+            "id": "C",
+            "text": "carrés, à fond rouge"
+          },
+          {
+            "id": "D",
+            "text": "rectangulaires, à fond vert"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les signaux de danger sont de forme triangulaire, fond crème, bordés d'un listel rouge. Un danger se lit avant d'être près.",
+    "common_mistake": "Chercher un fond blanc comme en Europe.",
+    "legal_ref": "Décret 2004-13, annexe P3",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0015",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Les panneaux d'interdiction (hors sens interdit) sont :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ronds, à fond blanc bordé de rouge"
+          },
+          {
+            "id": "B",
+            "text": "ronds, à fond bleu"
+          },
+          {
+            "id": "C",
+            "text": "triangulaires"
+          },
+          {
+            "id": "D",
+            "text": "carrés à fond jaune"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Les signaux d'interdiction ont le fond blanc et une bande rouge. Seul le sens interdit a le fond rouge entier avec un symbole blanc.",
+    "common_mistake": "Penser que tous les ronds à fond rouge interdisent.",
+    "legal_ref": "Décret 2004-13, annexe P4",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0016",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Un panneau rond à fond bleu foncé, avec un symbole blanc, indique :",
+        "options": [
+          {
+            "id": "A",
+            "text": "une obligation"
+          },
+          {
+            "id": "B",
+            "text": "une interdiction"
+          },
+          {
+            "id": "C",
+            "text": "un danger"
+          },
+          {
+            "id": "D",
+            "text": "une indication de ville"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Les signaux d'obligation ont le fond bleu foncé et les symboles blancs. Ils disent ce que l'on doit faire.",
+    "common_mistake": "Le prendre pour une simple indication.",
+    "legal_ref": "Décret 2004-13, annexe P4",
+    "legal_status": "pending",
+    "status": "draft",
+    "media": {
+      "kind": "sign",
+      "src": "b21b",
+      "alt": "Direction obligatoire : tout droit",
+      "credit": "Code Galsen"
+    }
+  },
+  {
+    "id": "t01-c01-0017",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Le feu rouge fixe signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "je peux passer si la route est vide"
+          },
+          {
+            "id": "B",
+            "text": "l'interdiction de passer"
+          },
+          {
+            "id": "C",
+            "text": "je ralentis seulement"
+          },
+          {
+            "id": "D",
+            "text": "je cède à droite"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le feu rouge signifie l'interdiction de passer, même si la route paraît vide.",
+    "common_mistake": "Passer au rouge quand personne ne vient.",
+    "legal_ref": "Décret 2004-13, annexe P7",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0018",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Le feu jaune fixe signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélérer"
+          },
+          {
+            "id": "B",
+            "text": "l'annonce du rouge : je m'arrête si je le peux"
+          },
+          {
+            "id": "C",
+            "text": "le même que le vert"
+          },
+          {
+            "id": "D",
+            "text": "je cède à droite"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le jaune annonce le rouge. On s'arrête, sauf si on est si près qu'on ne peut plus freiner dans de bonnes conditions de sécurité.",
+    "common_mistake": "Accélérer pour « passer avant le rouge ».",
+    "legal_ref": "Décret 2004-13, annexe P7",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0019",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Un feu jaune clignotant signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "arrêt absolu"
+          },
+          {
+            "id": "B",
+            "text": "prudence, ralentir"
+          },
+          {
+            "id": "C",
+            "text": "priorité à droite sur tous"
+          },
+          {
+            "id": "D",
+            "text": "passage libre à pleine vitesse"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le jaune clignotant attire l'attention sur un point dangereux : prudence, ralentir. Au carrefour avec feu orange clignotant, on cède à droite.",
+    "common_mistake": "Le prendre pour un feu vert.",
+    "legal_ref": "Décret 2004-13, annexe P7 ; art. 28",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0020",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Un feu rouge clignotant indique :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un passage à niveau non gardé ou un aérodrome : arrêt absolu"
+          },
+          {
+            "id": "B",
+            "text": "un carrefour : je cède à droite"
+          },
+          {
+            "id": "C",
+            "text": "un chantier : je ralentis"
+          },
+          {
+            "id": "D",
+            "text": "une zone scolaire"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Les feux rouges clignotants sont réservés aux passages à niveau non gardés et aux aérodromes. Ils signifient arrêt absolu.",
+    "common_mistake": "Penser que c'est un feu de carrefour.",
+    "legal_ref": "Décret 2004-13, annexe P7",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0021",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Au Sénégal, les lignes et marques sur la chaussée sont de couleur :",
+        "options": [
+          {
+            "id": "A",
+            "text": "blanche"
+          },
+          {
+            "id": "B",
+            "text": "jaune"
+          },
+          {
+            "id": "C",
+            "text": "rouge"
+          },
+          {
+            "id": "D",
+            "text": "verte"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les marques sur chaussée (lignes, passages piétons, flèches) sont jaunes.",
+    "common_mistake": "Chercher du blanc comme en Europe.",
+    "legal_ref": "Décret 2004-13, annexe P8",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0022",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Un agent de la circulation me fait signe de m'arrêter alors que le feu est vert. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "passe, le feu est vert"
+          },
+          {
+            "id": "B",
+            "text": "m'arrête : l'agent prime sur la signalisation fixe"
+          },
+          {
+            "id": "C",
+            "text": "passe en klaxonnant"
+          },
+          {
+            "id": "D",
+            "text": "ralentis seulement"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Quand un agent habilité dirige la circulation, ses indications priment sur les feux et les panneaux.",
+    "common_mistake": "Obéir au feu plutôt qu'à l'agent.",
+    "legal_ref": "Décret 2004-13, art. 38",
+    "legal_status": "pending",
     "status": "draft"
   }
 ]

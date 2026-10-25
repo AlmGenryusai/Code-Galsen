@@ -1,0 +1,121 @@
+{
+  "id": "t01-c04",
+  "theme": "t01",
+  "sheets": [
+    {
+      "id": "t01-c04-f01",
+      "title": "Les limites de vitesse",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "La vitesse maximale dépend du lieu et du temps."
+        },
+        {
+          "type": "heading",
+          "text": "En agglomération"
+        },
+        {
+          "type": "list",
+          "items": [
+            "50 km/h en général.",
+            "30 km/h aux abords des écoles, hôpitaux et édifices religieux (mosquée, église)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hors agglomération, par temps normal"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Autoroute : 130 km/h.",
+            "Route à deux chaussées séparées : 110 km/h.",
+            "Route avec au moins 2 voies par sens : 100 km/h.",
+            "Route à double sens sans séparateur : 90 km/h."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Par pluie"
+        },
+        {
+          "type": "text",
+          "text": "Les limites baissent : 100, 90, 80, 70 km/h dans l'ordre des routes ci-dessus. Si je vois à moins de 50 mètres, c'est 50 km/h partout."
+        },
+        {
+          "type": "memo",
+          "text": "50 en ville, 30 devant une école, puis 130, 110, 100, 90 selon la route."
+        }
+      ]
+    },
+    {
+      "id": "t01-c04-f02",
+      "title": "Adapter sa vitesse",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "La limite est un maximum, pas un objectif. Je règle ma vitesse selon ce que je vois et ce qui peut arriver."
+        },
+        {
+          "type": "heading",
+          "text": "Je ralentis quand"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je traverse une agglomération.",
+            "La route n'est pas libre devant moi.",
+            "Il y a du brouillard, de la forte pluie, de la poussière, ou qu'il fait nuit.",
+            "J'aborde un virage, une descente, une intersection ou un sommet de côte.",
+            "Je croise ou dépasse des piétons, des animaux ou un convoi arrêté."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Un panneau peut imposer une limite plus basse que celle de la loi. Je respecte le panneau."
+        },
+        {
+          "type": "memo",
+          "text": "Je dois pouvoir m'arrêter dans ce que je vois."
+        }
+      ]
+    },
+    {
+      "id": "t01-c04-f03",
+      "title": "Vitesse et dangers courants",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Au Sénégal, la route mélange voitures, motos, charrettes, piétons et animaux. La même vitesse n'est pas la même selon le lieu."
+        },
+        {
+          "type": "heading",
+          "text": "Exemples"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sortie d'école : 30 km/h maximum, et moins si des enfants courent.",
+            "Route nationale, nuit : je règle ma vitesse sur mes phares.",
+            "Route mouillée : j'allonge ma distance de freinage."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Plus je roule vite, plus ma distance d'arrêt est longue et plus le choc est grave."
+        },
+        {
+          "type": "attention",
+          "text": "La vitesse est une cause très fréquente d'accidents graves, et une infraction que les appareils automatiques constatent."
+        },
+        {
+          "type": "memo",
+          "text": "Je ralentis avant le danger, pas pendant."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 13, 14 ; loi 2022-04, L.58, L.60",
+  "legal_status": "pending",
+  "status": "draft"
+}
