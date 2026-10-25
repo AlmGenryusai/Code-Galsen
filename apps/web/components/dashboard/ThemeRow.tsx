@@ -1,79 +1,50 @@
+import Link from 'next/link'
+import { ChevronIcon, LockIcon } from './Icons'
+
 interface ThemeRowProps {
-  icon: string
-  color: string
   title: string
-  progress: number
+  progress: number // % (0-100) de questions réussies
   questionsTotal: number
-  href?: string
-  locked?: boolean // réservé à l'accès complet : le lien mène à /activer
+  lastSeries?: { score: number; total: number }
+  href: string
+  locked?: boolean // le lien mène à /activer
 }
 
-export function ThemeRow({ icon, color, title, progress, questionsTotal, href, locked }: ThemeRowProps) {
+export function ThemeRow({ title, progress, questionsTotal, lastSeries, href, locked }: ThemeRowProps) {
   return (
-    <a
-      href={href ?? '#'}
+    <Link
+      href={href}
       aria-label={locked ? `${title} (verrouillé)` : undefined}
       style={{
         display: 'flex',
         alignItems: 'center',
         gap: 12,
+        minHeight: 64,
         padding: '10px 0',
-        borderBottom: '1px solid hsl(var(--border))',
+        borderBottom: '1px solid hsl(var(--sand))',
         textDecoration: 'none',
-        color: 'hsl(var(--text))',
+        color: 'hsl(var(--ink))',
       }}
     >
-      <div style={{
-        width: 36,
-        height: 36,
-        borderRadius: 10,
-        background: color,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: 18,
-        color: '#fff',
-        flexShrink: 0,
-      }}>
-        {icon}
-      </div>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={{ fontSize: 14, fontWeight: 500, marginBottom: 6, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-          {title}
+        <div style={{ fontSize: 16, fontWeight: 700, lineHeight: 1.25 }}>{title}</div>
+        <div style={{ fontSize: 14, color: 'hsl(var(--muted))', margin: '2px 0 6px' }}>
+          {questionsTotal} question{questionsTotal > 1 ? 's' : ''}
         </div>
-        <div style={{ height: 4, background: 'hsl(var(--border))', borderRadius: 99, overflow: 'hidden' }}>
-          <div style={{
-            height: '100%',
-            width: `${progress}%`,
-            background: progress >= 80 ? 'hsl(var(--success))' : 'hsl(var(--primary))',
-            borderRadius: 99,
-          }} />
+        <div style={{ height: 4, background: 'hsl(var(--sand))', borderRadius: 99, overflow: 'hidden' }}>
+          <div
+            style={{ height: '100%', width: `${progress}%`, background: 'hsl(var(--structure))', borderRadius: 99 }}
+          />
         </div>
       </div>
-      <div style={{ fontSize: 13, fontFamily: 'var(--font-mono)', color: 'hsl(var(--muted-2))', flexShrink: 0 }}>
-        {progress}%
-      </div>
-      <div aria-hidden style={{ fontSize: locked ? 14 : 16, color: 'hsl(var(--muted-2))', opacity: 0.6 }}>
-        {locked ? '🔒' : '›'}
-      </div>
-    </a>
-  )
-}
-
-export function ThemeRowSkeleton() {
-  return (
-    <div style={{
-      display: 'flex',
-      alignItems: 'center',
-      gap: 12,
-      padding: '12px 0',
-      borderBottom: '1px solid hsl(var(--border))',
-    }}>
-      <div style={{ width: 36, height: 36, borderRadius: 10, background: 'hsl(var(--surface-2))', flexShrink: 0 }} />
-      <div style={{ flex: 1 }}>
-        <div style={{ height: 12, background: 'hsl(var(--surface-2))', borderRadius: 6, marginBottom: 8, width: '60%' }} />
-        <div style={{ height: 4, background: 'hsl(var(--surface-2))', borderRadius: 99 }} />
-      </div>
-    </div>
+      {lastSeries && (
+        <div style={{ fontSize: 16, fontWeight: 700, flexShrink: 0 }}>
+          {lastSeries.score} / {lastSeries.total}
+        </div>
+      )}
+      <span aria-hidden style={{ color: 'hsl(var(--muted))', display: 'flex', flexShrink: 0 }}>
+        {locked ? <LockIcon /> : <ChevronIcon />}
+      </span>
+    </Link>
   )
 }

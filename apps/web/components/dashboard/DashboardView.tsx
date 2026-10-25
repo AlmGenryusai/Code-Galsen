@@ -1,12 +1,11 @@
 'use client'
 
-import Link from 'next/link'
 import { PassChip } from './PassChip'
-import { ExamScoreCard } from './ExamScoreCard'
+import { HomeCard } from './HomeCard'
 import { ReviewChip } from './ReviewChip'
-import { ProgressCircle } from './ProgressCircle'
 import { ThemeRow } from './ThemeRow'
 import { BottomNav } from './BottomNav'
+import { ExamIcon, SeriesIcon, SheetsIcon, TrainingIcon } from './Icons'
 import { themeProgress, type QuestionRef } from '@/lib/progress/progress'
 import { useProgress } from '@/lib/progress/use-progress'
 import { countDue } from '@/lib/quiz/srs'
@@ -16,8 +15,6 @@ import { useLicense } from '@/lib/license/use-license'
 export interface DashboardData {
   themes: Array<{
     id: string
-    icon: string
-    color: string
     title: string
     questionsTotal: number
   }>
@@ -36,105 +33,75 @@ export function DashboardView({ data, questions }: Props) {
   const href = (t: Target) => (ready ? hrefFor(t, license) : targetHref(t))
   const locked = (t: Target) => ready && !canAccess(t, license)
   const byTheme = themeProgress(progress, questions)
-  const totalQuestions = data.themes.reduce((s, t) => s + t.questionsTotal, 0)
-  const globalProgressPct = totalQuestions > 0
-    ? Math.round(data.themes.reduce((s, t) => s + (byTheme[t.id] ?? 0) * t.questionsTotal, 0) / totalQuestions)
-    : 0
-  const examScore = progress.exams[0]?.score ?? null
-  const examsTaken = progress.exams.length
+  const lastExam = progress.exams[0]
+  const examTarget: Target = { kind: 'exam', examsTaken: progress.exams.length }
   // ids inconnus (anciennes questions) ignorés
   const knownIds = new Set(questions.map((q) => q.id))
   const srsCountDue = countDue(Object.values(progress.srs).filter((s) => knownIds.has(s.questionId)))
   const answersCount = Object.values(progress.answers).reduce((s, a) => s + a.correct + a.wrong, 0)
 
-  const sublabel = `${answersCount} question${answersCount > 1 ? 's' : ''} répondue${answersCount > 1 ? 's' : ''} · ${examsTaken} examen${examsTaken > 1 ? 's' : ''} blanc${examsTaken > 1 ? 's' : ''} fait${examsTaken > 1 ? 's' : ''}`
-
   return (
-    <div style={{ background: 'hsl(var(--bg))', paddingBottom: 80 }}>
-      {/* Top bar */}
-      <div style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        padding: '10px 20px 8px',
-      }}>
-        <span style={{ fontSize: 15, fontWeight: 600, color: 'hsl(var(--text))' }}>Mon parcours</span>
+    <div style={{ background: 'hsl(var(--bg))', paddingBottom: 'calc(72px + env(safe-area-inset-bottom))' }}>
+      <header
+        style={{
+          background: 'hsl(var(--structure))',
+          color: 'hsl(var(--bg))',
+          minHeight: 52,
+          padding: '0 20px',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+        }}
+      >
+        <span style={{ fontSize: 18, fontWeight: 800 }}>Code Galsen</span>
         {license.loaded && <PassChip license={license} />}
-      </div>
+      </header>
 
-      <div style={{ padding: '0 20px', display: 'flex', flexDirection: 'column', gap: 8 }}>
-        {/* Greeting */}
+      <div style={{ padding: '20px 20px 0', display: 'flex', flexDirection: 'column', gap: 12 }}>
         <div>
-          <h1 style={{ fontSize: 30, fontWeight: 800, lineHeight: 1.1, color: 'hsl(var(--text))' }}>
-            Bonjour.
-          </h1>
+          <h1 style={{ fontSize: 30, fontWeight: 800, lineHeight: 1.1, color: 'hsl(var(--ink))' }}>Bonjour.</h1>
           {answersCount === 0 && (
-            <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 4 }}>
-              Choisis un thème pour commencer.
-            </p>
+            <p style={{ fontSize: 16, color: 'hsl(var(--muted))', marginTop: 4 }}>Choisis un thème pour commencer.</p>
           )}
         </div>
 
-        {/* ExamScore — tap → /examen */}
-        <ExamScoreCard score={examScore} href={href({ kind: 'exam', examsTaken: progress.exams.length })} />
-
-        {/* Chips secondaires (P02) */}
-        <ReviewChip count={srsCountDue} href={href({ kind: 'errors' })} />
-
-        {/* Progression globale */}
-        <ProgressCircle
-          percent={globalProgressPct}
-          size={36}
-          label="Progression globale"
-          value={String(globalProgressPct)}
-          sublabel={sublabel}
-        />
-
-        {/* Thèmes du programme */}
-        <div>
-          <div style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            marginBottom: 4,
-          }}>
-            <span style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--muted))' }}>Thèmes du programme</span>
-            <Link href={href({ kind: 'all' })} style={{
-              fontSize: 12,
-              fontWeight: 600,
-              color: 'hsl(var(--muted))',
-              textDecoration: 'none',
-              fontFamily: 'var(--font-mono)',
-            }}>
-              Voir tout
-            </Link>
-          </div>
-
-          {/* P08 — gradient fade signal scroll */}
-          <div style={{ position: 'relative' }}>
-            {data.themes.map((t) => (
-              <ThemeRow
-                key={t.id}
-                icon={t.icon}
-                color={t.color}
-                title={t.title}
-                progress={byTheme[t.id] ?? 0}
-                questionsTotal={t.questionsTotal}
-                href={href({ kind: 'theme', theme: t.id })}
-                locked={locked({ kind: 'theme', theme: t.id })}
-              />
-            ))}
-            <div style={{
-              position: 'absolute',
-              bottom: 0,
-              left: 0,
-              right: 0,
-              height: 32,
-              background: 'linear-gradient(to bottom, transparent, hsl(var(--bg)))',
-              pointerEvents: 'none',
-            }} />
-          </div>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+          <HomeCard icon={<SeriesIcon />} title="Séries thématiques" note="10 questions" href="#themes" />
+          <HomeCard
+            icon={<TrainingIcon />}
+            title="Entraînement"
+            note="Toutes les questions"
+            href={href({ kind: 'all' })}
+            locked={locked({ kind: 'all' })}
+          />
+          <HomeCard
+            icon={<ExamIcon />}
+            title="Examen blanc"
+            note={lastExam ? `Dernier : ${lastExam.total - lastExam.faults} / ${lastExam.total}` : undefined}
+            href={href(examTarget)}
+            locked={locked(examTarget)}
+          />
+          <HomeCard icon={<SheetsIcon />} title="Fiches de cours" note="Bientôt" />
         </div>
+
+        <ReviewChip count={srsCountDue} href={href({ kind: 'errors' })} locked={locked({ kind: 'errors' })} />
+
+        <section id="themes" style={{ scrollMarginTop: 12 }}>
+          <h2 style={{ fontSize: 18, fontWeight: 800, color: 'hsl(var(--ink))', margin: '8px 0 4px' }}>
+            Séries thématiques
+          </h2>
+          {data.themes.map((t) => (
+            <ThemeRow
+              key={t.id}
+              title={t.title}
+              progress={byTheme[t.id] ?? 0}
+              questionsTotal={t.questionsTotal}
+              lastSeries={progress.series[t.id]}
+              href={href({ kind: 'theme', theme: t.id })}
+              locked={locked({ kind: 'theme', theme: t.id })}
+            />
+          ))}
+        </section>
       </div>
 
       <BottomNav />
