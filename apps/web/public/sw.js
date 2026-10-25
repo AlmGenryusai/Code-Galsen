@@ -7,7 +7,14 @@ const CACHE = 'galsen-' + VERSION
 
 // Les écrans : obligatoires, sinon l'installation échoue
 const PAGES = ['/', '/quiz', '/examen', '/carnet', '/profil', '/activer', '/fiches']
-const EXTRA = ['/manifest.json', '/icons/icon-192.png', '/icons/icon-512.png', '/icons/maskable-512.png']
+const EXTRA = [
+  '/manifest.json',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
+  '/icons/maskable-512.png',
+  // panneaux (components/sign/signs.tsx)
+  ...['ab1', 'ab2', 'ab25', 'ab4', 'ab6', 'ab7', 'b15', 'b21-1', 'b21-2', 'b21a1', 'b21a2', 'b21b', 'b21c1', 'b21c2', 'b22a', 'b22b', 'b25-30', 'b27a', 'b40', 'b41', 'b42', 'c18'].map((id) => '/signs/' + id + '.svg'),
+]
 
 // Fichiers versionnés référencés par le HTML : balises <script>/<link> ("/_next/static/…")
 // et données RSC inline (self.__next_f : "static/chunks/…", parfois échappés)
