@@ -30,7 +30,7 @@
       }
     ],
     "explanation": "Le piéton engagé sur un passage piéton est prioritaire. Vous devez impérativement ralentir et lui céder le passage.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, annexe F3 ; loi 2022-04, L.68",
     "legal_status": "pending",
     "status": "reviewed",
     "review": {
@@ -108,7 +108,7 @@
     ],
     "explanation": "Le car vous cache les piétons qui traversent devant lui. Vous les verrez trop tard si vous passez vite.",
     "common_mistake": "Dépasser le car arrêté sans ralentir.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, art. 13 et annexe F3",
     "legal_status": "pending",
     "status": "reviewed",
     "review": {
@@ -236,7 +236,7 @@
     ],
     "explanation": "Hors passage, le piéton reste fragile. Vous devez toujours pouvoir l'éviter, même si vous n'avez pas la priorité.",
     "common_mistake": "Croire que hors passage, on n'a plus à s'arrêter.",
-    "legal_ref": null,
+    "legal_ref": "Loi 2022-04, L.67 et L.68",
     "legal_status": "pending",
     "status": "reviewed",
     "review": {
@@ -275,7 +275,7 @@
     ],
     "explanation": "Une personne qui porte un enfant ne peut pas se hâter. La presser la met en danger, elle et l'enfant.",
     "common_mistake": "Presser le piéton pour gagner quelques secondes.",
-    "legal_ref": null,
+    "legal_ref": "Loi 2022-04, L.69 ; décret 2004-13, annexe F3",
     "legal_status": "pending",
     "status": "reviewed",
     "review": {

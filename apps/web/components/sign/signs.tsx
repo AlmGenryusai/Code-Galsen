@@ -1,19 +1,17 @@
-// Panneaux routiers en SVG inline — modèles de la Convention de Vienne (utilisés au Sénégal).
-// Repère commun : viewBox 0 0 100 100. Aucun chiffre (pas de limitation de vitesse).
-// Chaque dessin doit être vérifié visuellement par un moniteur avant publication.
+// Panneaux routiers. `file` : SVG Wikimedia nettoyé dans public/signs/ (précaché par sw.js).
+// Sans `file` : dessin inline provisoire, repère viewBox 0 0 100 100, à vérifier par un moniteur.
 
 import type { ReactElement } from 'react'
 
 const RED = '#C1121F'
 const BLUE = '#0B4EA2'
-const YELLOW = '#F6C700'
 const WHITE = '#FFFFFF'
 const BLACK = '#111111'
-const EDGE = '#9CA3AF' // liseré fin pour détacher le blanc du fond
 
 export interface SignDef {
-  label: string
-  draw: () => ReactElement
+  label: string // sens du panneau, repris en alt
+  file?: string // SVG dans public/signs/ ; sinon dessin inline `draw`
+  draw?: () => ReactElement
 }
 
 /** Triangle de danger (pointe en haut) : bord rouge, fond blanc. Pictogramme dans la zone y 35–78. */
@@ -39,45 +37,7 @@ function CarRear({ x, color }: { x: number; color: string }) {
   )
 }
 
-/** Un tiers du sens giratoire : arc tournant dans le sens inverse des aiguilles d'une montre + pointe. */
-function RoundaboutArrow({ rotate }: { rotate: number }) {
-  return (
-    <g transform={`rotate(${rotate} 50 62)`}>
-      <path d="M60.34,58.24 A11,11 0 0 0 50,51" fill="none" stroke={BLACK} strokeWidth={4} />
-      <polygon points="44.5,51 50,47.5 50,54.5" fill={BLACK} />
-    </g>
-  )
-}
-
 export const SIGNS: Record<string, SignDef> = {
-  stop: {
-    label: 'Stop',
-    draw: () => (
-      <g>
-        <polygon
-          points="31.63,5.65 68.37,5.65 94.35,31.63 94.35,68.37 68.37,94.35 31.63,94.35 5.65,68.37 5.65,31.63"
-          fill={WHITE}
-          stroke={EDGE}
-          strokeWidth={0.75}
-        />
-        <polygon
-          points="33.16,9.35 66.84,9.35 90.65,33.16 90.65,66.84 66.84,90.65 33.16,90.65 9.35,66.84 9.35,33.16"
-          fill={RED}
-        />
-        <text
-          x={50}
-          y={59.5}
-          textAnchor="middle"
-          fill={WHITE}
-          fontSize={26}
-          fontWeight={700}
-          fontFamily="Arial, Helvetica, sans-serif"
-        >
-          STOP
-        </text>
-      </g>
-    ),
-  },
 
   'cedez-le-passage': {
     label: 'Cédez le passage',
@@ -151,33 +111,27 @@ export const SIGNS: Record<string, SignDef> = {
     ),
   },
 
-  'priorite-droite': {
-    label: 'Intersection avec priorité à droite',
-    draw: () => (
-      <DangerTriangle>
-        <path d="M41,48 L59,74 M59,48 L41,74" stroke={BLACK} strokeWidth={7} />
-      </DangerTriangle>
-    ),
-  },
-
-  'route-prioritaire': {
-    label: 'Route à caractère prioritaire',
-    draw: () => (
-      <g>
-        <polygon points="50,3 97,50 50,97 3,50" fill={WHITE} stroke={EDGE} strokeWidth={0.75} />
-        <polygon points="50,18 82,50 50,82 18,50" fill={YELLOW} />
-      </g>
-    ),
-  },
-
-  'sens-giratoire': {
-    label: 'Carrefour à sens giratoire',
-    draw: () => (
-      <DangerTriangle>
-        <RoundaboutArrow rotate={0} />
-        <RoundaboutArrow rotate={120} />
-        <RoundaboutArrow rotate={240} />
-      </DangerTriangle>
-    ),
-  },
+  // Panneaux en fichier SVG
+  stop: { label: 'Stop', file: 'ab4' },
+  'route-prioritaire': { label: 'Route à caractère prioritaire', file: 'ab6' },
+  'priorite-droite': { label: 'Intersection avec priorité à droite', file: 'ab1' },
+  'sens-giratoire': { label: 'Carrefour à sens giratoire', file: 'ab25' },
+  ab2: { label: 'Intersection avec une route prioritaire', file: 'ab2' },
+  ab7: { label: 'Fin de route à caractère prioritaire', file: 'ab7' },
+  b15: { label: 'Priorité au sens inverse : cédez le passage aux véhicules venant en face', file: 'b15' },
+  c18: { label: 'Priorité par rapport au sens inverse', file: 'c18' },
+  'b21-1': { label: 'Direction obligatoire : à droite', file: 'b21-1' },
+  'b21-2': { label: 'Direction obligatoire : à gauche', file: 'b21-2' },
+  b21a1: { label: 'Contournement obligatoire par la droite', file: 'b21a1' },
+  b21a2: { label: 'Contournement obligatoire par la gauche', file: 'b21a2' },
+  b21b: { label: 'Direction obligatoire : tout droit', file: 'b21b' },
+  b21c1: { label: 'Direction obligatoire : tourner à droite', file: 'b21c1' },
+  b21c2: { label: 'Direction obligatoire : tourner à gauche', file: 'b21c2' },
+  b22a: { label: 'Piste ou bande cyclable obligatoire', file: 'b22a' },
+  b22b: { label: 'Chemin obligatoire pour piétons', file: 'b22b' },
+  'b25-30': { label: 'Vitesse minimale obligatoire : 30', file: 'b25-30' },
+  b27a: { label: 'Voie réservée aux autobus', file: 'b27a' },
+  b40: { label: 'Fin de piste ou bande cyclable obligatoire', file: 'b40' },
+  b41: { label: 'Fin de chemin obligatoire pour piétons', file: 'b41' },
+  b42: { label: 'Fin de chemin obligatoire pour cavaliers', file: 'b42' },
 }
