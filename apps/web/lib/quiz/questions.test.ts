@@ -110,6 +110,23 @@ describe('règles de publication — détection', () => {
   })
 })
 
+const isIsoDate = (s: unknown) => {
+  if (typeof s !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return false
+  const d = new Date(`${s}T00:00:00Z`)
+  return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === s
+}
+
+describe('relecture moniteur', () => {
+  it('toute question reviewed a review.moniteur en date ISO valide', () => {
+    const bad = all.filter(({ q }) => q.status === 'reviewed' && !isIsoDate(q.review?.moniteur))
+    expect(bad.map(({ q }) => q.id)).toEqual([])
+  })
+  it('isIsoDate refuse les dates impossibles', () => {
+    expect(isIsoDate('2026-10-25')).toBe(true)
+    for (const s of ['2026-13-45', '2026-02-30', '25/10/2026', '2026-1-5', undefined]) expect(isIsoDate(s)).toBe(false)
+  })
+})
+
 describe('thème gratuit t04 — pool réel', () => {
   const pool = getQuestions(FREE_THEME)
 
