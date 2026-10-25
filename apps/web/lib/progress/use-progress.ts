@@ -65,7 +65,7 @@ export function useProgress() {
   )
 
   const recordLesson = useCallback(
-    (chapter: string) => update((p) => withLesson(p, chapter, new Date())),
+    (sheetId: string) => update((p) => withLesson(p, sheetId, new Date())),
     [update],
   )
 

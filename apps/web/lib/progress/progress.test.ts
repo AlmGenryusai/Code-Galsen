@@ -163,22 +163,22 @@ describe('lessons (fiches lues)', () => {
   const D2 = new Date('2026-10-26T08:00:00Z')
 
   it('withLesson marque la fiche lue', () => {
-    expect(withLesson(emptyProgress(), 't04-c01', D1).lessons).toEqual({ 't04-c01': D1.toISOString() })
+    expect(withLesson(emptyProgress(), 't04-c01-f01', D1).lessons).toEqual({ 't04-c01-f01': D1.toISOString() })
   })
 
   it('withLesson garde la première date', () => {
-    const p = withLesson(emptyProgress(), 't04-c01', D1)
-    expect(withLesson(p, 't04-c01', D2).lessons['t04-c01']).toBe(D1.toISOString())
+    const p = withLesson(emptyProgress(), 't04-c01-f01', D1)
+    expect(withLesson(p, 't04-c01-f01', D2).lessons['t04-c01-f01']).toBe(D1.toISOString())
   })
 
   it('withLesson garde les autres fiches', () => {
-    const p = withLesson(withLesson(emptyProgress(), 't04-c01', D1), 't04-c02', D2)
-    expect(Object.keys(p.lessons)).toEqual(['t04-c01', 't04-c02'])
+    const p = withLesson(withLesson(emptyProgress(), 't04-c01-f01', D1), 't04-c01-f02', D2)
+    expect(Object.keys(p.lessons)).toEqual(['t04-c01-f01', 't04-c01-f02'])
   })
 
   it('parseProgress relit lessons', () => {
-    const raw = JSON.stringify({ answers: {}, exams: [], lessons: { 't04-c01': D1.toISOString() } })
-    expect(parseProgress(raw).lessons).toEqual({ 't04-c01': D1.toISOString() })
+    const raw = JSON.stringify({ answers: {}, exams: [], lessons: { 't04-c01-f01': D1.toISOString() } })
+    expect(parseProgress(raw).lessons).toEqual({ 't04-c01-f01': D1.toISOString() })
   })
 
   it('parseProgress sans champ lessons (ancienne progression) → {}', () => {
@@ -189,8 +189,19 @@ describe('lessons (fiches lues)', () => {
     expect(parseProgress(JSON.stringify({ answers: {}, exams: [], lessons: [1] })).lessons).toEqual({})
   })
 
+  it('parseProgress ignore les valeurs qui ne sont pas des dates en texte', () => {
+    const raw = JSON.stringify({ answers: {}, exams: [], lessons: { 't04-c01-f01': D1.toISOString(), x: 3, y: null } })
+    expect(parseProgress(raw).lessons).toEqual({ 't04-c01-f01': D1.toISOString() })
+  })
+
+  it("anciennes clés de chapitre (session 17) : sans effet sur les fiches lues", () => {
+    const raw = JSON.stringify({ answers: {}, exams: [], lessons: { 't04-c01': D1.toISOString() } })
+    const ids = ['t04-c01-f01', 't04-c01-f02']
+    expect(ids.filter((id) => parseProgress(raw).lessons[id])).toEqual([])
+  })
+
   it('aller-retour JSON', () => {
-    const p = withLesson(emptyProgress(), 't04-c03', D1)
+    const p = withLesson(emptyProgress(), 't04-c03-f01', D1)
     expect(parseProgress(JSON.stringify(p))).toEqual(p)
   })
 })
