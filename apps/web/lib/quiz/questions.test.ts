@@ -4,7 +4,10 @@ import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { TAXONOMY } from './taxonomy'
 import type { QuestionV2 } from './types'
-import { getQuestions } from './questions'
+import { getQuestions, getThemes } from './questions'
+import { pickSeries, seriesCardSize } from './series'
+import { pickExamQuestions } from './exam'
+import { FREE_THEME } from '../license/license'
 
 const DIR = join(__dirname, '../../content/questions')
 const files = readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()
@@ -104,5 +107,33 @@ describe('règles de publication — détection', () => {
   it('thème / chapitre inconnus, id mal préfixé', () => {
     const v = violations('t99-c01', { ...base, theme: 't99', chapter: 't99-c01', id: 'x-1' })
     expect(v).toEqual(expect.arrayContaining(['theme inconnu : t99', 'chapter inconnu : t99-c01', 'id non préfixé par son chapitre']))
+  })
+})
+
+describe('thème gratuit t04 — pool réel', () => {
+  const pool = getQuestions(FREE_THEME)
+
+  it('30 questions, ids uniques préfixés par leur chapitre, aucune published', () => {
+    expect(pool).toHaveLength(30)
+    expect(new Set(pool.map((q) => q.id)).size).toBe(30)
+    expect(pool.every((q) => q.id.startsWith(`${q.chapter}-`))).toBe(true)
+    expect(pool.filter((q) => q.status === 'published')).toEqual([])
+  })
+
+  it('série thématique : 10 questions distinctes parmi 30', () => {
+    const out = pickSeries(getQuestions(), FREE_THEME)
+    expect(out).toHaveLength(10)
+    expect(new Set(out.map((q) => q.id)).size).toBe(10)
+  })
+
+  it('carte Séries sans licence : 10 questions', () => {
+    const free = getThemes().filter((t) => t.theme === FREE_THEME).map((t) => t.count)
+    expect(seriesCardSize(free)).toBe(10)
+  })
+
+  it('examen blanc gratuit : tout le pool t04 (30 < 40), sans doublon', () => {
+    const out = pickExamQuestions(pool)
+    expect(out).toHaveLength(30)
+    expect(new Set(out.map((q) => q.id)).size).toBe(30)
   })
 })
