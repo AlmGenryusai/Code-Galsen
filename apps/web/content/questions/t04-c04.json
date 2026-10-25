@@ -33,7 +33,10 @@
     "common_mistake": "Rouler trop près d'un car qui s'arrête souvent.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c04-0002",
@@ -69,7 +72,10 @@
     "common_mistake": "Dépasser un car arrêté à vitesse normale.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c04-0003",
@@ -105,7 +111,10 @@
     "common_mistake": "Ne pas lire le comportement du taxi.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c04-0004",
@@ -141,7 +150,10 @@
     "common_mistake": "Accélérer pour passer avant un bus qui signale.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c04-0005",
@@ -178,7 +190,10 @@
     "common_mistake": "Doubler le car à chaque arrêt.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c04-0006",
@@ -224,6 +239,9 @@
     "common_mistake": "Dépasser un car arrêté sans ralentir.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   }
 ]

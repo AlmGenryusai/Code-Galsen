@@ -45,5 +45,8 @@
   ],
   "legal_ref": null,
   "legal_status": "pending",
-  "status": "draft"
+  "status": "reviewed",
+  "review": {
+    "moniteur": "2026-10-25"
+  }
 }

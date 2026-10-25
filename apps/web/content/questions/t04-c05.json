@@ -33,7 +33,10 @@
     "common_mistake": "Se glisser à droite d'un camion qui tourne.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c05-0002",
@@ -69,7 +72,10 @@
     "common_mistake": "Rester dans l'angle mort d'un camion.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c05-0003",
@@ -105,7 +111,10 @@
     "common_mistake": "Freiner au moment même du croisement.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c05-0004",
@@ -142,7 +151,10 @@
     "common_mistake": "Dépasser sans avoir la place de se rabattre.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c05-0005",
@@ -178,6 +190,9 @@
     "common_mistake": "Se coller à un camion pour le suivre de près.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   }
 ]
