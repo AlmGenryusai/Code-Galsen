@@ -1,0 +1,229 @@
+[
+  {
+    "id": "t04-c01-0002",
+    "theme": "t04",
+    "chapter": "t04-c01",
+    "parts": [
+      {
+        "text": "Devant l'école, des enfants courent vers la route. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "freine fort au dernier moment"
+          },
+          {
+            "id": "B",
+            "text": "ralentis dès que je les vois, prêt à m'arrêter"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne pour qu'ils s'écartent"
+          },
+          {
+            "id": "D",
+            "text": "garde ma vitesse, ils savent regarder"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les enfants jugent mal la vitesse et traversent sans prévenir. Ralentir tôt vous laisse le temps de vous arrêter.",
+    "common_mistake": "Compter sur le klaxon pour dégager la route.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c01-0003",
+    "theme": "t04",
+    "chapter": "t04-c01",
+    "parts": [
+      {
+        "text": "Un car est arrêté juste avant un passage piéton. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le dépasse vite pour libérer la route"
+          },
+          {
+            "id": "B",
+            "text": "ralentis fort : des piétons peuvent surgir devant lui"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne pour prévenir les piétons"
+          },
+          {
+            "id": "D",
+            "text": "reste collé à lui sans regarder"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le car vous cache les piétons qui traversent devant lui. Vous les verrez trop tard si vous passez vite.",
+    "common_mistake": "Dépasser le car arrêté sans ralentir.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c01-0004",
+    "theme": "t04",
+    "chapter": "t04-c01",
+    "parts": [
+      {
+        "text": "La nuit, sur une route peu éclairée, un groupe marche au bord. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "passe près d'eux, ils m'ont vu"
+          },
+          {
+            "id": "B",
+            "text": "éteins mes phares pour ne pas les éblouir"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne sans ralentir"
+          },
+          {
+            "id": "D",
+            "text": "ralentis et m'écarte sans geste brusque"
+          }
+        ],
+        "correct": [
+          "D"
+        ]
+      }
+    ],
+    "explanation": "La nuit, un piéton en vêtements sombres se voit très tard. Une vitesse réduite vous laisse le temps de réagir.",
+    "common_mistake": "Rouler vite en pensant que les piétons voient la voiture.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c01-0005",
+    "theme": "t04",
+    "chapter": "t04-c01",
+    "parts": [
+      {
+        "text": "Devant un passage piéton, je regarde aussi :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ceux qui attendent au bord"
+          },
+          {
+            "id": "B",
+            "text": "ceux qui courent pour traverser"
+          },
+          {
+            "id": "C",
+            "text": "seulement ceux déjà sur les bandes"
+          },
+          {
+            "id": "D",
+            "text": "le trottoir d'en face seulement"
+          }
+        ],
+        "correct": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un piéton qui attend ou qui court peut s'engager sans prévenir. Regardez toute la zone, pas seulement les bandes blanches.",
+    "common_mistake": "Ne regarder que les piétons déjà engagés.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c01-0006",
+    "theme": "t04",
+    "chapter": "t04-c01",
+    "parts": [
+      {
+        "text": "Un piéton traverse hors passage devant moi. Je peux passer sans ralentir :",
+        "options": [
+          {
+            "id": "A",
+            "text": "OUI"
+          },
+          {
+            "id": "B",
+            "text": "NON"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "shuffle": false
+      },
+      {
+        "text": "Je dois pouvoir m'arrêter s'il s'engage :",
+        "options": [
+          {
+            "id": "C",
+            "text": "OUI"
+          },
+          {
+            "id": "D",
+            "text": "NON"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "shuffle": false
+      }
+    ],
+    "explanation": "Hors passage, le piéton reste fragile. Vous devez toujours pouvoir l'éviter, même si vous n'avez pas la priorité.",
+    "common_mistake": "Croire que hors passage, on n'a plus à s'arrêter.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c01-0007",
+    "theme": "t04",
+    "chapter": "t04-c01",
+    "parts": [
+      {
+        "text": "Une femme avec un enfant dans les bras traverse lentement. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la presse en m'approchant"
+          },
+          {
+            "id": "B",
+            "text": "passe derrière elle en accélérant"
+          },
+          {
+            "id": "C",
+            "text": "attends qu'elle ait fini de traverser"
+          },
+          {
+            "id": "D",
+            "text": "lui fais signe de courir"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Une personne qui porte un enfant ne peut pas se hâter. La presser la met en danger, elle et l'enfant.",
+    "common_mistake": "Presser le piéton pour gagner quelques secondes.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

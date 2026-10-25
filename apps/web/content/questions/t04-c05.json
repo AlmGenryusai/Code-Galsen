@@ -1,0 +1,183 @@
+[
+  {
+    "id": "t04-c05-0001",
+    "theme": "t04",
+    "chapter": "t04-c05",
+    "parts": [
+      {
+        "text": "Un camion va tourner à droite, je suis derrière lui. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "passe à sa droite pour gagner du temps"
+          },
+          {
+            "id": "B",
+            "text": "reste derrière, à bonne distance"
+          },
+          {
+            "id": "C",
+            "text": "me place juste à côté"
+          },
+          {
+            "id": "D",
+            "text": "klaxonne pour qu'il tourne vite"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un camion qui tourne à droite se déporte d'abord à gauche. Son arrière balaie ensuite la droite : un véhicule à ce moment-là est coincé.",
+    "common_mistake": "Se glisser à droite d'un camion qui tourne.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c05-0002",
+    "theme": "t04",
+    "chapter": "t04-c05",
+    "parts": [
+      {
+        "text": "Je ne vois pas les rétroviseurs du camion devant moi. Le chauffeur :",
+        "options": [
+          {
+            "id": "A",
+            "text": "me voit parfaitement"
+          },
+          {
+            "id": "B",
+            "text": "me voit grâce à ses phares"
+          },
+          {
+            "id": "C",
+            "text": "me voit si je klaxonne"
+          },
+          {
+            "id": "D",
+            "text": "ne me voit probablement pas"
+          }
+        ],
+        "correct": [
+          "D"
+        ]
+      }
+    ],
+    "explanation": "Si vous ne voyez pas ses rétroviseurs, il ne vous voit pas. Reculez pour réapparaître dans son champ de vision.",
+    "common_mistake": "Rester dans l'angle mort d'un camion.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c05-0003",
+    "theme": "t04",
+    "chapter": "t04-c05",
+    "parts": [
+      {
+        "text": "Sur une route étroite, un camion arrive en face. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "freine en plein croisement"
+          },
+          {
+            "id": "B",
+            "text": "mords sur le bas-côté sans ralentir"
+          },
+          {
+            "id": "C",
+            "text": "ralentis avant et reste bien à droite"
+          },
+          {
+            "id": "D",
+            "text": "accélère pour passer avant lui"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Un camion prend beaucoup de place et déplace de l'air. Ralentir avant le croisement vous évite un freinage brusque au mauvais moment.",
+    "common_mistake": "Freiner au moment même du croisement.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c05-0004",
+    "theme": "t04",
+    "chapter": "t04-c05",
+    "parts": [
+      {
+        "text": "Pour dépasser un camion en sécurité, je vérifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "que rien ne vient en face"
+          },
+          {
+            "id": "B",
+            "text": "que j'ai la place de me rabattre"
+          },
+          {
+            "id": "C",
+            "text": "seulement qu'il est plus lent que moi"
+          },
+          {
+            "id": "D",
+            "text": "que mon klaxon marche"
+          }
+        ],
+        "correct": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un camion est long à dépasser. Vous devez voir loin devant et pouvoir revenir sur votre file sans le gêner.",
+    "common_mistake": "Dépasser sans avoir la place de se rabattre.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c05-0005",
+    "theme": "t04",
+    "chapter": "t04-c05",
+    "parts": [
+      {
+        "text": "Je suis juste derrière un camion très chargé. Je risque :",
+        "options": [
+          {
+            "id": "A",
+            "text": "rien, il freine doucement"
+          },
+          {
+            "id": "B",
+            "text": "de ne pas voir la route devant et de ne pas freiner à temps"
+          },
+          {
+            "id": "C",
+            "text": "d'être mieux vu par les autres"
+          },
+          {
+            "id": "D",
+            "text": "de gagner du temps"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un camion cache la route et peut freiner fort. Plus de distance vous donne plus de vue et plus de temps pour freiner.",
+    "common_mistake": "Se coller à un camion pour le suivre de près.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  }
+]

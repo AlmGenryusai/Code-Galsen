@@ -1,0 +1,229 @@
+[
+  {
+    "id": "t04-c04-0001",
+    "theme": "t04",
+    "chapter": "t04-c04",
+    "parts": [
+      {
+        "text": "Un car rapide s'arrête brusquement devant moi pour des clients. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "colle son pare-chocs pour qu'il avance"
+          },
+          {
+            "id": "B",
+            "text": "garde de la distance pour pouvoir freiner"
+          },
+          {
+            "id": "C",
+            "text": "le double aussitôt par la droite"
+          },
+          {
+            "id": "D",
+            "text": "klaxonne pour l'avertir"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les cars et taxis freinent vite et se rabattent sans prévenir. Une bonne distance vous laisse le temps de vous arrêter.",
+    "common_mistake": "Rouler trop près d'un car qui s'arrête souvent.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c04-0002",
+    "theme": "t04",
+    "chapter": "t04-c04",
+    "parts": [
+      {
+        "text": "Un Ndiaga Ndiaye est arrêté, des passagers descendent. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le dépasse vite par la gauche"
+          },
+          {
+            "id": "B",
+            "text": "klaxonne pour qu'ils se dépêchent"
+          },
+          {
+            "id": "C",
+            "text": "ralentis et regarde si quelqu'un traverse devant lui"
+          },
+          {
+            "id": "D",
+            "text": "passe tout près des passagers"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Des passagers descendent côté route et traversent souvent devant le véhicule. Ils ne regardent pas toujours la circulation.",
+    "common_mistake": "Dépasser un car arrêté à vitesse normale.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c04-0003",
+    "theme": "t04",
+    "chapter": "t04-c04",
+    "parts": [
+      {
+        "text": "Un taxi ralentit sans raison et se déporte vers le bord. Il va probablement :",
+        "options": [
+          {
+            "id": "A",
+            "text": "tourner à gauche"
+          },
+          {
+            "id": "B",
+            "text": "faire demi-tour"
+          },
+          {
+            "id": "C",
+            "text": "accélérer"
+          },
+          {
+            "id": "D",
+            "text": "s'arrêter pour un client"
+          }
+        ],
+        "correct": [
+          "D"
+        ]
+      }
+    ],
+    "explanation": "Un taxi qui ralentit et se déporte cherche ou prend un client. Il peut s'arrêter d'un coup, sans clignotant.",
+    "common_mistake": "Ne pas lire le comportement du taxi.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c04-0004",
+    "theme": "t04",
+    "chapter": "t04-c04",
+    "parts": [
+      {
+        "text": "Un bus Dakar Dem Dikk se rabat vers l'arrêt avec son clignotant. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélère pour passer avant lui"
+          },
+          {
+            "id": "B",
+            "text": "lui laisse la place de se rabattre"
+          },
+          {
+            "id": "C",
+            "text": "me colle à lui"
+          },
+          {
+            "id": "D",
+            "text": "klaxonne pour qu'il attende"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le bus a un long gabarit et se déporte avant de s'arrêter. Lui laisser la place évite l'accrochage.",
+    "common_mistake": "Accélérer pour passer avant un bus qui signale.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c04-0005",
+    "theme": "t04",
+    "chapter": "t04-c04",
+    "parts": [
+      {
+        "text": "Derrière un car rapide qui s'arrête souvent, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "garde ma distance"
+          },
+          {
+            "id": "B",
+            "text": "colle à lui pour gagner du temps"
+          },
+          {
+            "id": "C",
+            "text": "regarde les piétons devant lui"
+          },
+          {
+            "id": "D",
+            "text": "le double à chaque arrêt"
+          }
+        ],
+        "correct": [
+          "A",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Entre deux arrêts, le car freine fort et ses passagers traversent. Distance et regard sur les piétons vous protègent.",
+    "common_mistake": "Doubler le car à chaque arrêt.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c04-0006",
+    "theme": "t04",
+    "chapter": "t04-c04",
+    "parts": [
+      {
+        "text": "Un car arrêté me cache les piétons. Je peux le dépasser sans ralentir :",
+        "options": [
+          {
+            "id": "A",
+            "text": "OUI"
+          },
+          {
+            "id": "B",
+            "text": "NON"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "shuffle": false
+      },
+      {
+        "text": "Un piéton peut surgir devant le car :",
+        "options": [
+          {
+            "id": "C",
+            "text": "OUI"
+          },
+          {
+            "id": "D",
+            "text": "NON"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "shuffle": false
+      }
+    ],
+    "explanation": "Le car cache ce qui se passe devant lui. Ralentir avant de le dépasser vous laisse le temps de réagir.",
+    "common_mistake": "Dépasser un car arrêté sans ralentir.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

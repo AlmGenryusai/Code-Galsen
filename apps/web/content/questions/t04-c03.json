@@ -33,5 +33,186 @@
     "legal_ref": null,
     "legal_status": "pending",
     "status": "draft"
+  },
+  {
+    "id": "t04-c03-0002",
+    "theme": "t04",
+    "chapter": "t04-c03",
+    "parts": [
+      {
+        "text": "Je veux dépasser une charrette. Avant, je vérifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "que la route est dégagée loin devant"
+          },
+          {
+            "id": "B",
+            "text": "que mon klaxon fonctionne"
+          },
+          {
+            "id": "C",
+            "text": "que personne ne me suit"
+          },
+          {
+            "id": "D",
+            "text": "que la charrette va ralentir pour moi"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Une charrette est lente et se déporte parfois. Il vous faut une longue vue dégagée pour finir le dépassement en sécurité.",
+    "common_mistake": "Se lancer sans avoir vu assez loin devant.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c03-0003",
+    "theme": "t04",
+    "chapter": "t04-c03",
+    "parts": [
+      {
+        "text": "En dépassant une charrette, un klaxon fort peut :",
+        "options": [
+          {
+            "id": "A",
+            "text": "garantir que le cheval s'écarte"
+          },
+          {
+            "id": "B",
+            "text": "calmer l'animal"
+          },
+          {
+            "id": "C",
+            "text": "ne rien changer"
+          },
+          {
+            "id": "D",
+            "text": "effrayer le cheval qui peut se jeter sur la route"
+          }
+        ],
+        "correct": [
+          "D"
+        ]
+      }
+    ],
+    "explanation": "Un animal surpris peut bondir d'un côté ou de l'autre. Mieux vaut ralentir, laisser de l'espace et dépasser sans bruit.",
+    "common_mistake": "Klaxonner fort en dépassant.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c03-0004",
+    "theme": "t04",
+    "chapter": "t04-c03",
+    "parts": [
+      {
+        "text": "La nuit, une charrette sans feux roule au bord de la route. Je la vois tard. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "roule plus vite pour passer vite"
+          },
+          {
+            "id": "B",
+            "text": "fais confiance au cocher, il connaît la route"
+          },
+          {
+            "id": "C",
+            "text": "règle ma vitesse pour m'arrêter dans mes phares"
+          },
+          {
+            "id": "D",
+            "text": "m'approche pour mieux la voir"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Une charrette sans feux ne se voit qu'au dernier moment. Rouler à une vitesse où vous pouvez vous arrêter dans vos phares évite le choc.",
+    "common_mistake": "Rouler trop vite pour la visibilité de la nuit.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c03-0005",
+    "theme": "t04",
+    "chapter": "t04-c03",
+    "parts": [
+      {
+        "text": "Un troupeau de moutons traverse devant moi. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "passe au milieu en roulant doucement"
+          },
+          {
+            "id": "B",
+            "text": "klaxonne en continu"
+          },
+          {
+            "id": "C",
+            "text": "m'arrête et attends que le passage soit libre"
+          },
+          {
+            "id": "D",
+            "text": "accélère pour passer avant"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Un animal peut partir dans n'importe quelle direction. Attendre que tout le troupeau soit passé évite de heurter celui qui traîne derrière.",
+    "common_mistake": "Passer au milieu du troupeau.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c03-0006",
+    "theme": "t04",
+    "chapter": "t04-c03",
+    "parts": [
+      {
+        "text": "Face à des animaux sur la route, je peux :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ralentir dès que je les vois"
+          },
+          {
+            "id": "B",
+            "text": "klaxonner fort pour les chasser"
+          },
+          {
+            "id": "C",
+            "text": "rester prêt à m'arrêter"
+          },
+          {
+            "id": "D",
+            "text": "rouler derrière eux pour les presser"
+          }
+        ],
+        "correct": [
+          "A",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Les animaux réagissent mal au bruit et à la pression. Ralentir tôt et rester prêt à vous arrêter vous protège, vous et eux.",
+    "common_mistake": "Chasser les animaux au klaxon.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
   }
 ]
