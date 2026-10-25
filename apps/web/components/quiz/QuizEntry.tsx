@@ -8,6 +8,7 @@ import { pickDue } from '@/lib/quiz/srs'
 import { useProgress } from '@/lib/progress/use-progress'
 import { redirectFor, type Target } from '@/lib/license/license'
 import { useLicense } from '@/lib/license/use-license'
+import { themeTitle } from '@/lib/quiz/taxonomy'
 import type { QuestionV2 } from '@/lib/quiz/types'
 
 const DUE_LIMIT = 20
@@ -53,8 +54,8 @@ export function QuizEntry({ questions }: Props) {
   }, [isErrors, loaded, due, questions, progress.srs])
 
   if (!license.loaded || redirect) return null
-  if (target.kind === 'theme') return <QuizView questions={themed} />
-  if (!isErrors) return <QuizView questions={questions} />
+  if (target.kind === 'theme') return <QuizView questions={themed} title={`Série « ${themeTitle(target.theme)} »`} />
+  if (!isErrors) return <QuizView questions={questions} title="Entraînement" />
   if (due === null) return null
 
   if (due.length === 0) {
@@ -83,5 +84,5 @@ export function QuizEntry({ questions }: Props) {
     )
   }
 
-  return <QuizView questions={due} />
+  return <QuizView questions={due} title="Mes erreurs" />
 }

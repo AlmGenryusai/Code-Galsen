@@ -13,9 +13,10 @@ export function isCorrect(question: QuestionV2, answers: OptionId[][]): boolean 
   })
 }
 
-/** Plusieurs bonnes réponses ou question double : on coche puis on valide (sinon un tap suffit). */
-export function needsValidation(question: QuestionV2): boolean {
-  return question.parts.length > 1 || question.parts[0].correct.length > 1
+/** Type affiché dans la barre du bas. On coche puis on valide dans tous les cas. */
+export function answerKind(question: QuestionV2): 'single' | 'multi' | 'double' {
+  if (question.parts.length > 1) return 'double'
+  return question.parts[0].correct.length > 1 ? 'multi' : 'single'
 }
 
 /** Nouvelle sélection d'une partie après un tap : bascule si plusieurs bonnes réponses, sinon remplace. */
