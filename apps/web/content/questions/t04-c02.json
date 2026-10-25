@@ -33,5 +33,196 @@
     "legal_ref": null,
     "legal_status": "not_regulatory",
     "status": "draft"
+  },
+  {
+    "id": "t04-c02-0002",
+    "theme": "t04",
+    "chapter": "t04-c02",
+    "parts": [
+      {
+        "text": "Dans un bouchon, une moto remonte entre deux files. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "me décale pour fermer le passage"
+          },
+          {
+            "id": "B",
+            "text": "reste bien dans ma file, sans me décaler"
+          },
+          {
+            "id": "C",
+            "text": "ouvre ma portière pour voir devant"
+          },
+          {
+            "id": "D",
+            "text": "accélère pour la devancer"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un décalage brusque coupe la route à la moto qui arrive. En restant droit, vous restez prévisible.",
+    "common_mistake": "Se décaler « pour voir devant » dans un bouchon.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c02-0003",
+    "theme": "t04",
+    "chapter": "t04-c02",
+    "parts": [
+      {
+        "text": "Je veux ouvrir ma portière côté route. Je dois d'abord :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ouvrir doucement puis regarder"
+          },
+          {
+            "id": "B",
+            "text": "klaxonner pour prévenir"
+          },
+          {
+            "id": "C",
+            "text": "regarder mon rétroviseur puis par-dessus l'épaule"
+          },
+          {
+            "id": "D",
+            "text": "mettre mon clignotant"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Une moto qui passe près de votre portière n'a pas le temps de l'éviter. Le contrôle visuel doit se faire avant d'ouvrir.",
+    "common_mistake": "Ouvrir la portière en ne regardant que le rétroviseur.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c02-0004",
+    "theme": "t04",
+    "chapter": "t04-c02",
+    "parts": [
+      {
+        "text": "Avant de me décaler sur le côté, je vérifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "mon rétroviseur"
+          },
+          {
+            "id": "B",
+            "text": "l'angle mort, par-dessus l'épaule"
+          },
+          {
+            "id": "C",
+            "text": "seulement que mon clignotant est allumé"
+          },
+          {
+            "id": "D",
+            "text": "que la moto m'a vu dans son rétroviseur"
+          }
+        ],
+        "correct": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le rétroviseur ne montre pas tout. L'angle mort est justement la zone où une moto peut se cacher.",
+    "common_mistake": "Se fier au seul rétroviseur.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c02-0005",
+    "theme": "t04",
+    "chapter": "t04-c02",
+    "parts": [
+      {
+        "text": "Une moto arrive vite à ma droite. Mon clignotant est allumé et je veux tourner. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "tourne, le clignotant me protège"
+          },
+          {
+            "id": "B",
+            "text": "accélère pour passer avant elle"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne puis tourne"
+          },
+          {
+            "id": "D",
+            "text": "regarde et la laisse passer si elle est proche"
+          }
+        ],
+        "correct": [
+          "D"
+        ]
+      }
+    ],
+    "explanation": "Le clignotant avertit, mais il ne donne aucune priorité. Une moto proche est difficile à éviter pour elle comme pour vous.",
+    "common_mistake": "Croire que le clignotant donne la priorité.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t04-c02-0006",
+    "theme": "t04",
+    "chapter": "t04-c02",
+    "parts": [
+      {
+        "text": "Je vois une moto dans mon rétroviseur gauche. Elle ne peut plus être dans mon angle mort à droite :",
+        "options": [
+          {
+            "id": "A",
+            "text": "OUI"
+          },
+          {
+            "id": "B",
+            "text": "NON"
+          }
+        ],
+        "correct": [
+          "B"
+        ],
+        "shuffle": false
+      },
+      {
+        "text": "Je regarde quand même par-dessus l'épaule avant de me décaler :",
+        "options": [
+          {
+            "id": "C",
+            "text": "OUI"
+          },
+          {
+            "id": "D",
+            "text": "NON"
+          }
+        ],
+        "correct": [
+          "C"
+        ],
+        "shuffle": false
+      }
+    ],
+    "explanation": "Plusieurs motos peuvent circuler en même temps, des deux côtés. Chaque côté demande son propre contrôle.",
+    "common_mistake": "Penser qu'une seule moto veut dire qu'il n'y en a pas d'autre.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
   }
 ]
