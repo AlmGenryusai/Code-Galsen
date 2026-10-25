@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { pickSeries } from './series'
+import { pickSeries, seriesCardSize } from './series'
 import type { QuestionV2 } from './types'
 
 function qs(theme: string, n: number): QuestionV2[] {
@@ -33,4 +33,14 @@ describe('pickSeries', () => {
   it('size personnalisé', () => {
     expect(pickSeries(qs('A', 15), 'A', 3)).toHaveLength(3)
   })
+})
+
+describe('seriesCardSize', () => {
+  it.each([
+    [[3], 3],
+    [[3, 25], 10],
+    [[10], 10],
+    [[1], 1],
+    [[], 0],
+  ])('%j → %i', (counts, n) => expect(seriesCardSize(counts)).toBe(n))
 })
