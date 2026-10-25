@@ -22,10 +22,17 @@ export interface ExamAttempt {
   passed: boolean
 }
 
+export interface SeriesResult {
+  score: number // bonnes réponses
+  total: number // questions de la série (≤ 10)
+  date: string  // ISO 8601
+}
+
 export interface Progress {
   answers: Record<string, AnswerStat> // clé = id de question
   exams: ExamAttempt[]                // plus récent en tête
   srs: Record<string, SrsState>       // file « mes erreurs », clé = id de question
+  series: Record<string, SeriesResult> // dernière série par thème, clé = id de thème
 }
 
 export interface WeakTheme {
@@ -38,7 +45,7 @@ export interface WeakTheme {
 export type QuestionRef = Pick<QuestionV2, 'id' | 'theme'>
 
 export function emptyProgress(): Progress {
-  return { answers: {}, exams: [], srs: {} }
+  return { answers: {}, exams: [], srs: {}, series: {} }
 }
 
 function isObject(v: unknown): v is Record<string, unknown> {
@@ -62,6 +69,8 @@ export function parseProgress(raw: string | null): Progress {
     exams: data.exams as ExamAttempt[],
     // progression enregistrée avant la file SRS : pas de champ srs
     srs: isObject(data.srs) ? (data.srs as Progress['srs']) : {},
+    // idem : progression enregistrée avant les séries
+    series: isObject(data.series) ? (data.series as Progress['series']) : {},
   }
 }
 
@@ -97,6 +106,11 @@ export function withAnswer(p: Progress, questionId: string, isCorrect: boolean, 
 
 export function withExam(p: Progress, attempt: ExamAttempt): Progress {
   return { ...p, exams: [attempt, ...p.exams] }
+}
+
+/** Enregistre la note de la dernière série d'un thème (écrase la précédente). */
+export function withSeries(p: Progress, theme: string, result: SeriesResult): Progress {
+  return { ...p, series: { ...p.series, [theme]: result } }
 }
 
 /** Taux d'erreur par thème (Σ fautes / Σ réponses), thèmes avec au moins une réponse, du plus faible au plus fort. */

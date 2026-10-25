@@ -7,6 +7,7 @@ import {
   parseProgress,
   withAnswer,
   withExam,
+  withSeries,
   type Progress,
 } from './progress'
 
@@ -56,5 +57,11 @@ export function useProgress() {
     [update],
   )
 
-  return { progress, loaded, recordAnswer, recordExam }
+  const recordSeries = useCallback(
+    (theme: string, score: number, total: number) =>
+      update((p) => withSeries(p, theme, { score, total, date: new Date().toISOString() })),
+    [update],
+  )
+
+  return { progress, loaded, recordAnswer, recordExam, recordSeries }
 }

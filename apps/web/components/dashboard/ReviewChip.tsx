@@ -1,29 +1,36 @@
-// P02: chip secondaire "À réviser" sous ExamScoreCard
+import Link from 'next/link'
+import { ChevronIcon, LockIcon } from './Icons'
+
 interface ReviewChipProps {
   count: number
-  href?: string
+  href: string
+  locked?: boolean
 }
 
-export function ReviewChip({ count, href = '/quiz' }: ReviewChipProps) {
+/** « À réviser » : file SRS (mes erreurs), une ligne sous la grille. */
+export function ReviewChip({ count, href, locked }: ReviewChipProps) {
   return (
-    <a
+    <Link
       href={href}
       style={{
         display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        padding: '10px 14px',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        gap: 12,
+        minHeight: 52,
+        padding: '0 14px',
         background: 'hsl(var(--surface))',
-        border: '1px solid hsl(var(--border))',
+        border: '1px solid hsl(var(--sand))',
         borderRadius: 'var(--radius)',
-        boxShadow: 'var(--shadow-1)',
         textDecoration: 'none',
-        color: 'hsl(var(--text))',
-        minHeight: 60,
+        color: 'hsl(var(--ink))',
       }}
     >
-      <div style={{ fontSize: 28, fontWeight: 800, lineHeight: 1 }}>{count}</div>
-      <div style={{ fontSize: 12, color: 'hsl(var(--muted))', marginTop: 4 }}>À réviser</div>
-    </a>
+      <span style={{ fontSize: 16, fontWeight: 700 }}>Mes erreurs</span>
+      <span style={{ display: 'flex', alignItems: 'center', gap: 8, fontSize: 14, color: 'hsl(var(--muted))' }}>
+        {count} à réviser
+        {locked ? <LockIcon /> : <ChevronIcon />}
+      </span>
+    </Link>
   )
 }

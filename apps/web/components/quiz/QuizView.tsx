@@ -12,12 +12,13 @@ import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
 interface QuizViewProps {
   questions: QuestionV2[]
   title: string // nom de la série dans l'en-tête
+  onFinish?: (score: number, total: number) => void // appelé une fois, à la dernière question
 }
 
 const BAR_HEIGHT = 72
 const KIND_LABEL = { single: 'Une seule réponse', multi: 'Plusieurs réponses', double: 'Question double' }
 
-export function QuizView({ questions, title }: QuizViewProps) {
+export function QuizView({ questions, title, onFinish }: QuizViewProps) {
   const router = useRouter()
   const [index, setIndex] = useState(0)
   const [picked, setPicked] = useState<OptionId[][]>([])
@@ -52,6 +53,7 @@ export function QuizView({ questions, title }: QuizViewProps) {
     if (!tryNavigate()) return
     if (index + 1 >= total) {
       setDone(true)
+      onFinish?.(score, total)
     } else {
       setIndex(i => i + 1)
       setPicked([])

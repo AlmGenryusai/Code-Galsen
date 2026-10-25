@@ -6,6 +6,7 @@ import {
   themeErrorRates,
   themeProgress,
   withAnswer,
+  withSeries,
   type Progress,
   type QuestionRef,
 } from './progress'
@@ -39,6 +40,7 @@ describe('parseProgress', () => {
       answers: { a1: { correct: 1, wrong: 2, lastAnsweredAt: T0.toISOString() } },
       exams: [{ id: 'e1', date: T0.toISOString(), score: 80, faults: 3, total: 15, passed: true }],
       srs: {},
+      series: {},
     }
     expect(parseProgress(JSON.stringify(p))).toEqual(p)
   })
@@ -48,7 +50,7 @@ describe('parseProgress', () => {
       answers: { a1: { correct: 1, wrong: 2, lastAnsweredAt: T0.toISOString() } },
       exams: [{ id: 'e1', date: T0.toISOString(), score: 80, faults: 3, total: 15, passed: true }],
     }
-    expect(parseProgress(JSON.stringify(old))).toEqual({ ...old, srs: {} })
+    expect(parseProgress(JSON.stringify(old))).toEqual({ ...old, srs: {}, series: {} })
   })
 })
 
@@ -121,5 +123,35 @@ describe('themeProgress', () => {
     p = withAnswer(p, 'a1', true, T0)
     p = withAnswer(p, 'b1', false, T0)
     expect(themeProgress(p, QUESTIONS)).toEqual({ A: 50, B: 0, C: 0 })
+  })
+})
+
+describe('séries', () => {
+  const R = { score: 7, total: 10, date: T0.toISOString() }
+
+  it('withSeries enregistre la note du thème', () => {
+    expect(withSeries(emptyProgress(), 'A', R).series).toEqual({ A: R })
+  })
+
+  it('withSeries écrase la note précédente, sans toucher aux autres thèmes', () => {
+    const p = withSeries(withSeries(emptyProgress(), 'A', R), 'B', { ...R, score: 3 })
+    const next = withSeries(p, 'A', { ...R, score: 9 })
+    expect(next.series.A.score).toBe(9)
+    expect(next.series.B.score).toBe(3)
+  })
+
+  it('parseProgress relit series', () => {
+    const raw = JSON.stringify({ answers: {}, exams: [], series: { A: R } })
+    expect(parseProgress(raw).series).toEqual({ A: R })
+  })
+
+  it('parseProgress sans champ series (ancienne progression) → {}', () => {
+    const raw = JSON.stringify({ answers: {}, exams: [], srs: {} })
+    expect(parseProgress(raw).series).toEqual({})
+  })
+
+  it('parseProgress avec series invalide → {}', () => {
+    const raw = JSON.stringify({ answers: {}, exams: [], series: [1] })
+    expect(parseProgress(raw).series).toEqual({})
   })
 })
