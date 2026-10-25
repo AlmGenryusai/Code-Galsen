@@ -6,6 +6,7 @@ import {
   themeErrorRates,
   themeProgress,
   withAnswer,
+  withLesson,
   withSeries,
   type Progress,
   type QuestionRef,
@@ -41,6 +42,7 @@ describe('parseProgress', () => {
       exams: [{ id: 'e1', date: T0.toISOString(), score: 80, faults: 3, total: 15, passed: true }],
       srs: {},
       series: {},
+      lessons: {},
     }
     expect(parseProgress(JSON.stringify(p))).toEqual(p)
   })
@@ -50,7 +52,7 @@ describe('parseProgress', () => {
       answers: { a1: { correct: 1, wrong: 2, lastAnsweredAt: T0.toISOString() } },
       exams: [{ id: 'e1', date: T0.toISOString(), score: 80, faults: 3, total: 15, passed: true }],
     }
-    expect(parseProgress(JSON.stringify(old))).toEqual({ ...old, srs: {}, series: {} })
+    expect(parseProgress(JSON.stringify(old))).toEqual({ ...old, srs: {}, series: {}, lessons: {} })
   })
 })
 
@@ -153,5 +155,42 @@ describe('séries', () => {
   it('parseProgress avec series invalide → {}', () => {
     const raw = JSON.stringify({ answers: {}, exams: [], series: [1] })
     expect(parseProgress(raw).series).toEqual({})
+  })
+})
+
+describe('lessons (fiches lues)', () => {
+  const D1 = new Date('2026-10-25T08:00:00Z')
+  const D2 = new Date('2026-10-26T08:00:00Z')
+
+  it('withLesson marque la fiche lue', () => {
+    expect(withLesson(emptyProgress(), 't04-c01', D1).lessons).toEqual({ 't04-c01': D1.toISOString() })
+  })
+
+  it('withLesson garde la première date', () => {
+    const p = withLesson(emptyProgress(), 't04-c01', D1)
+    expect(withLesson(p, 't04-c01', D2).lessons['t04-c01']).toBe(D1.toISOString())
+  })
+
+  it('withLesson garde les autres fiches', () => {
+    const p = withLesson(withLesson(emptyProgress(), 't04-c01', D1), 't04-c02', D2)
+    expect(Object.keys(p.lessons)).toEqual(['t04-c01', 't04-c02'])
+  })
+
+  it('parseProgress relit lessons', () => {
+    const raw = JSON.stringify({ answers: {}, exams: [], lessons: { 't04-c01': D1.toISOString() } })
+    expect(parseProgress(raw).lessons).toEqual({ 't04-c01': D1.toISOString() })
+  })
+
+  it('parseProgress sans champ lessons (ancienne progression) → {}', () => {
+    expect(parseProgress(JSON.stringify({ answers: {}, exams: [] })).lessons).toEqual({})
+  })
+
+  it('parseProgress avec lessons invalide → {}', () => {
+    expect(parseProgress(JSON.stringify({ answers: {}, exams: [], lessons: [1] })).lessons).toEqual({})
+  })
+
+  it('aller-retour JSON', () => {
+    const p = withLesson(emptyProgress(), 't04-c03', D1)
+    expect(parseProgress(JSON.stringify(p))).toEqual(p)
   })
 })

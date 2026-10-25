@@ -23,9 +23,10 @@ export interface DashboardData {
 interface Props {
   data: DashboardData
   questions: QuestionRef[]
+  lessonIds: string[]
 }
 
-export function DashboardView({ data, questions }: Props) {
+export function DashboardView({ data, questions, lessonIds }: Props) {
   const { progress, loaded } = useProgress()
   const license = useLicense()
   // Avant chargement : lien vers la cible, sans cadenas ; la page cible tranche
@@ -38,6 +39,8 @@ export function DashboardView({ data, questions }: Props) {
   // ids inconnus (anciennes questions) ignorés
   const knownIds = new Set(questions.map((q) => q.id))
   const srsCountDue = countDue(Object.values(progress.srs).filter((s) => knownIds.has(s.questionId)))
+  // ids inconnus (anciennes fiches) ignorés
+  const lessonsRead = lessonIds.filter((id) => progress.lessons[id]).length
   const answersCount = Object.values(progress.answers).reduce((s, a) => s + a.correct + a.wrong, 0)
 
   return (
@@ -81,7 +84,12 @@ export function DashboardView({ data, questions }: Props) {
             href={href(examTarget)}
             locked={locked(examTarget)}
           />
-          <HomeCard icon={<SheetsIcon />} title="Fiches de cours" note="Bientôt" />
+          <HomeCard
+            icon={<SheetsIcon />}
+            title="Fiches de cours"
+            note={`${lessonsRead} / ${lessonIds.length} lues`}
+            href="/fiches"
+          />
         </div>
 
         <ReviewChip count={srsCountDue} href={href({ kind: 'errors' })} locked={locked({ kind: 'errors' })} />

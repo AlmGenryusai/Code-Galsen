@@ -33,6 +33,7 @@ export interface Progress {
   exams: ExamAttempt[]                // plus récent en tête
   srs: Record<string, SrsState>       // file « mes erreurs », clé = id de question
   series: Record<string, SeriesResult> // dernière série par thème, clé = id de thème
+  lessons: Record<string, string>     // fiches lues : id de chapitre → date ISO de la 1re lecture
 }
 
 export interface WeakTheme {
@@ -45,7 +46,7 @@ export interface WeakTheme {
 export type QuestionRef = Pick<QuestionV2, 'id' | 'theme'>
 
 export function emptyProgress(): Progress {
-  return { answers: {}, exams: [], srs: {}, series: {} }
+  return { answers: {}, exams: [], srs: {}, series: {}, lessons: {} }
 }
 
 function isObject(v: unknown): v is Record<string, unknown> {
@@ -71,6 +72,8 @@ export function parseProgress(raw: string | null): Progress {
     srs: isObject(data.srs) ? (data.srs as Progress['srs']) : {},
     // idem : progression enregistrée avant les séries
     series: isObject(data.series) ? (data.series as Progress['series']) : {},
+    // idem : progression enregistrée avant les fiches
+    lessons: isObject(data.lessons) ? (data.lessons as Progress['lessons']) : {},
   }
 }
 
@@ -111,6 +114,12 @@ export function withExam(p: Progress, attempt: ExamAttempt): Progress {
 /** Enregistre la note de la dernière série d'un thème (écrase la précédente). */
 export function withSeries(p: Progress, theme: string, result: SeriesResult): Progress {
   return { ...p, series: { ...p.series, [theme]: result } }
+}
+
+/** Marque une fiche lue ; la première date est conservée. */
+export function withLesson(p: Progress, chapter: string, now: Date): Progress {
+  if (p.lessons[chapter]) return p
+  return { ...p, lessons: { ...p.lessons, [chapter]: now.toISOString() } }
 }
 
 /** Taux d'erreur par thème (Σ fautes / Σ réponses), thèmes avec au moins une réponse, du plus faible au plus fort. */
