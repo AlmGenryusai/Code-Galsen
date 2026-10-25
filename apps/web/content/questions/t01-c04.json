@@ -1,0 +1,292 @@
+[
+  {
+    "id": "t01-c04-0001",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "En agglomération, la vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "30 km/h"
+          },
+          {
+            "id": "B",
+            "text": "50 km/h"
+          },
+          {
+            "id": "C",
+            "text": "70 km/h"
+          },
+          {
+            "id": "D",
+            "text": "90 km/h"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "En agglomération, la limite est de 50 km/h. Un panneau peut imposer plus bas.",
+    "common_mistake": "Rouler à 70 km/h dans une petite ville.",
+    "legal_ref": "loi 2022-04, L.60",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0002",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Aux abords d'une école, d'un hôpital ou d'une mosquée ou église, la vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "50 km/h"
+          },
+          {
+            "id": "B",
+            "text": "40 km/h"
+          },
+          {
+            "id": "C",
+            "text": "30 km/h"
+          },
+          {
+            "id": "D",
+            "text": "20 km/h"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Aux abords des établissements scolaires, hospitaliers et des édifices religieux, la limite est de 30 km/h.",
+    "common_mistake": "Garder 50 km/h devant une école.",
+    "legal_ref": "loi 2022-04, L.60",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0003",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Sur autoroute, par temps normal, la vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "90 km/h"
+          },
+          {
+            "id": "B",
+            "text": "110 km/h"
+          },
+          {
+            "id": "C",
+            "text": "120 km/h"
+          },
+          {
+            "id": "D",
+            "text": "130 km/h"
+          }
+        ],
+        "correct": [
+          "D"
+        ]
+      }
+    ],
+    "explanation": "Sur autoroute, la limite est de 130 km/h par temps normal, et 100 km/h par pluie.",
+    "common_mistake": "Confondre avec la limite des routes nationales.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0004",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Sur une route à double sens sans séparateur central, par temps normal, je roule à :",
+        "options": [
+          {
+            "id": "A",
+            "text": "90 km/h maximum"
+          },
+          {
+            "id": "B",
+            "text": "110 km/h maximum"
+          },
+          {
+            "id": "C",
+            "text": "130 km/h maximum"
+          },
+          {
+            "id": "D",
+            "text": "70 km/h maximum"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Sur une route à double sens sans séparateur, la limite est de 90 km/h, et 70 km/h par pluie.",
+    "common_mistake": "Rouler à 110 km/h sur une route étroite.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0005",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Il pleut sur une route à deux voies par sens, sans terre-plein. Ma vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "100 km/h"
+          },
+          {
+            "id": "B",
+            "text": "90 km/h"
+          },
+          {
+            "id": "C",
+            "text": "80 km/h"
+          },
+          {
+            "id": "D",
+            "text": "70 km/h"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Sur une section à au moins deux voies par sens, la limite passe de 100 à 80 km/h par pluie.",
+    "common_mistake": "Garder la vitesse du beau temps.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0006",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "La visibilité est inférieure à 50 mètres (brouillard, poussière). Ma vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la même que d'habitude"
+          },
+          {
+            "id": "B",
+            "text": "70 km/h"
+          },
+          {
+            "id": "C",
+            "text": "50 km/h"
+          },
+          {
+            "id": "D",
+            "text": "90 km/h"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Quand on voit à moins de 50 m, la limite est de 50 km/h, quel que soit le type de route.",
+    "common_mistake": "Penser que la limite ne dépend pas de la visibilité.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0007",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Pour ma vitesse, je dois tenir compte de :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la limite autorisée"
+          },
+          {
+            "id": "B",
+            "text": "la visibilité"
+          },
+          {
+            "id": "C",
+            "text": "l'état de la route"
+          },
+          {
+            "id": "D",
+            "text": "seulement de la limite"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "La limite est un maximum, pas un objectif. On règle sa vitesse selon la circulation, les obstacles et ce qu'on voit.",
+    "common_mistake": "Rouler toujours à la limite maximale.",
+    "legal_ref": "Décret 2004-13, art. 13 et 14",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0008",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Un panneau limite à 40 km/h sur une route où la loi permet 90. Je roule à :",
+        "options": [
+          {
+            "id": "A",
+            "text": "90 km/h, c'est la loi"
+          },
+          {
+            "id": "B",
+            "text": "60 km/h, entre les deux"
+          },
+          {
+            "id": "C",
+            "text": "40 km/h maximum, la limite du panneau"
+          },
+          {
+            "id": "D",
+            "text": "50 km/h"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Le gestionnaire de la route peut baisser les limites. Le panneau s'impose.",
+    "common_mistake": "Suivre la limite générale malgré le panneau.",
+    "legal_ref": "loi 2022-04, L.58 ; Décret 2004-13, art. 14",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

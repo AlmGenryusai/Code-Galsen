@@ -1,0 +1,329 @@
+[
+  {
+    "id": "t01-c05-0001",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "Je croise un véhicule qui vient en face. Je me place :",
+        "options": [
+          {
+            "id": "A",
+            "text": "au milieu de la route"
+          },
+          {
+            "id": "B",
+            "text": "à droite de ma voie"
+          },
+          {
+            "id": "C",
+            "text": "à gauche, pour qu'il me voie"
+          },
+          {
+            "id": "D",
+            "text": "sur l'accotement toujours"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les croisements se font à droite. Chacun se serre sur sa droite pour laisser de la place.",
+    "common_mistake": "Rouler au milieu en croisant.",
+    "legal_ref": "Décret 2004-13, art. 15 à 17",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c05-0002",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "Avant de dépasser, je dois :",
+        "options": [
+          {
+            "id": "A",
+            "text": "avoir assez de place et de visibilité devant"
+          },
+          {
+            "id": "B",
+            "text": "prévenir de mon intention"
+          },
+          {
+            "id": "C",
+            "text": "m'assurer que personne ne me double"
+          },
+          {
+            "id": "D",
+            "text": "accélérer à fond"
+          }
+        ],
+        "correct": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On dépasse à gauche, après avoir vérifié l'espace et la vue, et en prévenant (clignotant, appel de phares, avertisseur).",
+    "common_mistake": "Dépasser sans prévenir.",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c05-0003",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "En dépassant un cycliste, un piéton ou une charrette, je laisse au moins :",
+        "options": [
+          {
+            "id": "A",
+            "text": "20 cm"
+          },
+          {
+            "id": "B",
+            "text": "50 cm"
+          },
+          {
+            "id": "C",
+            "text": "1 mètre"
+          },
+          {
+            "id": "D",
+            "text": "3 mètres"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "La distance minimale est de 1 mètre pour un piéton, un cycle, un cavalier, un animal ou un véhicule hippomobile.",
+    "common_mistake": "Frôler le cycliste.",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c05-0004",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "Un véhicule va me dépasser. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélère pour rester devant"
+          },
+          {
+            "id": "B",
+            "text": "me serre à droite sans accélérer"
+          },
+          {
+            "id": "C",
+            "text": "me mets au milieu"
+          },
+          {
+            "id": "D",
+            "text": "klaxonne"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Celui qui est dépassé se serre à droite, n'accélère pas et au besoin ralentit pour raccourcir le dépassement.",
+    "common_mistake": "Accélérer pour ne pas se faire dépasser.",
+    "legal_ref": "Décret 2004-13, art. 19",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c05-0005",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "Le véhicule devant moi signale qu'il va tourner à gauche. Je le dépasse :",
+        "options": [
+          {
+            "id": "A",
+            "text": "à gauche"
+          },
+          {
+            "id": "B",
+            "text": "à droite, c'est même obligatoire"
+          },
+          {
+            "id": "C",
+            "text": "pas du tout"
+          },
+          {
+            "id": "D",
+            "text": "en klaxonnant sans changer de côté"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Quand le conducteur devant signale qu'il tourne à gauche, on le dépasse par la droite.",
+    "common_mistake": "Le dépasser à gauche et le percuter.",
+    "legal_ref": "Décret 2004-13, art. 20",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c05-0006",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "Je ne dépasse pas :",
+        "options": [
+          {
+            "id": "A",
+            "text": "dans un virage sans visibilité"
+          },
+          {
+            "id": "B",
+            "text": "à l'approche d'un sommet de côte"
+          },
+          {
+            "id": "C",
+            "text": "à une intersection (sauf route prioritaire)"
+          },
+          {
+            "id": "D",
+            "text": "sur une longue ligne droite dégagée"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Le dépassement est interdit sans visibilité (virage, sommet de côte), aux passages à niveau non gardés et aux intersections.",
+    "common_mistake": "Dépasser à l'approche d'une côte.",
+    "legal_ref": "Décret 2004-13, art. 21",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c05-0007",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "Un véhicule en panne bloque ma voie. Les voitures arrivent en face. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "passe en premier, je suis plus près"
+          },
+          {
+            "id": "B",
+            "text": "laisse passer les véhicules d'en face avant"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne et fonce"
+          },
+          {
+            "id": "D",
+            "text": "m'arrête au milieu"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Quand un obstacle ne peut pas être contourné par la droite, celui dont la voie est bloquée cède le passage aux véhicules venant en sens inverse.",
+    "common_mistake": "Forcer le passage.",
+    "legal_ref": "Décret 2004-13, art. 23",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c05-0008",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "Je conduis un camion de 2,5 m de large sur une route étroite. En croisant une voiture, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "avance, la voiture se débrouille"
+          },
+          {
+            "id": "B",
+            "text": "ralentis et m'arrête au besoin pour la laisser passer"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne"
+          },
+          {
+            "id": "D",
+            "text": "accélère pour passer avant"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un véhicule de plus de 2,10 m de large ou 8 m de long doit ralentir ou s'arrêter pour laisser passer les plus petits.",
+    "common_mistake": "Penser que la taille donne la priorité.",
+    "legal_ref": "Décret 2004-13, art. 24",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c05-0009",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "parts": [
+      {
+        "text": "Hors agglomération, deux camions de plus de 3,5 tonnes se suivent. L'écart minimum est de :",
+        "options": [
+          {
+            "id": "A",
+            "text": "10 mètres"
+          },
+          {
+            "id": "B",
+            "text": "25 mètres"
+          },
+          {
+            "id": "C",
+            "text": "50 mètres"
+          },
+          {
+            "id": "D",
+            "text": "100 mètres"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Hors agglomération, les véhicules de plus de 3,5 t ou de plus de 8 m doivent laisser au moins 50 m entre eux.",
+    "common_mistake": "Rouler en convoi serré.",
+    "legal_ref": "Décret 2004-13, art. 36",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

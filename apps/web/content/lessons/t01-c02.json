@@ -1,0 +1,135 @@
+{
+  "id": "t01-c02",
+  "theme": "t01",
+  "sheets": [
+    {
+      "id": "t01-c02-f01",
+      "title": "Qui passe en premier ?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "À une intersection, la règle de base est simple : **je cède le passage à celui qui vient de ma droite** quand rien d'autre n'est indiqué."
+        },
+        {
+          "type": "heading",
+          "text": "Quand la règle de la droite s'applique"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Carrefour sans signalisation.",
+            "Deux routes secondaires, avec ou sans panneau.",
+            "Carrefour dont le feu orange clignote."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Avant de m'engager"
+        },
+        {
+          "type": "text",
+          "text": "Je regarde que la route que je vais croiser est libre, et je ralentis d'autant plus que je vois mal."
+        },
+        {
+          "type": "attention",
+          "text": "Le plus gros ou le plus rapide n'a pas de priorité en plus. Celui de droite passe, même si c'est une petite moto."
+        },
+        {
+          "type": "memo",
+          "text": "Pas de panneau : je cède à droite."
+        }
+      ]
+    },
+    {
+      "id": "t01-c02-f02",
+      "title": "STOP, cédez le passage et rond-point",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Ces trois cas remplacent la règle de la droite."
+        },
+        {
+          "type": "heading",
+          "text": "Le STOP"
+        },
+        {
+          "type": "text",
+          "text": "Je m'arrête à la limite de l'intersection, même si je ne vois personne. Puis je cède aux conducteurs de l'autre route, dans les deux sens."
+        },
+        {
+          "type": "heading",
+          "text": "Cédez le passage"
+        },
+        {
+          "type": "text",
+          "text": "Je laisse passer ceux de l'autre route, qu'ils viennent de gauche ou de droite. Je ralentis, je m'arrête si nécessaire."
+        },
+        {
+          "type": "heading",
+          "text": "Rond-point"
+        },
+        {
+          "type": "text",
+          "text": "Celui qui est déjà engagé dans le rond-point passe en premier. Celui qui arrive attend."
+        },
+        {
+          "type": "attention",
+          "text": "Rouler au pas devant un STOP sans s'arrêter reste une faute."
+        },
+        {
+          "type": "memo",
+          "text": "STOP : j'arrête. Cédez : je laisse passer. Rond-point : l'engagé passe."
+        }
+      ]
+    },
+    {
+      "id": "t01-c02-f03",
+      "title": "Véhicules prioritaires et passages à niveau",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Certains passent avant tout le monde, quelle que soit la route."
+        },
+        {
+          "type": "heading",
+          "text": "Ambulances, pompiers, police"
+        },
+        {
+          "type": "text",
+          "text": "Quand je les entends arriver avec la sirène, je cède immédiatement, je ralentis et, si besoin, je m'arrête ou me gare. Je ne les dépasse pas."
+        },
+        {
+          "type": "heading",
+          "text": "Cortège officiel"
+        },
+        {
+          "type": "text",
+          "text": "Je m'arrête et laisse toute la chaussée libre. Je ne coupe jamais un cortège en marche."
+        },
+        {
+          "type": "heading",
+          "text": "Voie ferrée"
+        },
+        {
+          "type": "text",
+          "text": "Le train a toujours la priorité. S'il n'y a pas de barrière, je m'engage seulement après avoir vérifié qu'aucun train n'approche."
+        },
+        {
+          "type": "heading",
+          "text": "Sortie d'une cour ou d'un chemin privé"
+        },
+        {
+          "type": "text",
+          "text": "Je m'arrête d'abord, puis je cède le passage aux usagers de la route."
+        },
+        {
+          "type": "memo",
+          "text": "Sirène, cortège, train : je laisse passer."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 7, 12, 25, 28 à 30",
+  "legal_status": "pending",
+  "status": "draft"
+}

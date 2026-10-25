@@ -1,0 +1,122 @@
+{
+  "id": "t01-c01",
+  "theme": "t01",
+  "sheets": [
+    {
+      "id": "t01-c01-f01",
+      "title": "Les familles de panneaux",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Les panneaux se reconnaissent d'abord à leur forme et à leur couleur."
+        },
+        {
+          "type": "heading",
+          "text": "Les trois catégories"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Danger** : triangle, fond crème, bordé de rouge.",
+            "**Prescription** : interdiction (rond, fond blanc, bordé de rouge) ou obligation (rond, fond bleu foncé, symbole blanc).",
+            "**Indication** : rectangulaire ou carré, souvent bleu ou crème."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Exception"
+        },
+        {
+          "type": "text",
+          "text": "Le sens interdit a un fond rouge avec une barre blanche. Le stationnement interdit est sur fond bleu bordé de rouge."
+        },
+        {
+          "type": "attention",
+          "text": "Seuls les panneaux prévus par l'annexe P sont permis. Un panneau qui ne ressemble à aucun modèle n'a pas de valeur."
+        },
+        {
+          "type": "memo",
+          "text": "Triangle : danger. Rond blanc bordé de rouge : interdit. Rond bleu : obligatoire."
+        }
+      ]
+    },
+    {
+      "id": "t01-c01-f02",
+      "title": "Les panneaux de priorité",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Quatre panneaux reviennent tout le temps."
+        },
+        {
+          "type": "heading",
+          "text": "À connaître"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**STOP** : arrêt complet, puis céder le passage.",
+            "**Cédez le passage** : je laisse passer ceux de l'autre route.",
+            "**Losange jaune** : je suis sur une route prioritaire. Barré de noir, la priorité se termine.",
+            "**Intersection de deux routes** (croix) : règle de la droite, je cède à ma droite."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Sur route étroite"
+        },
+        {
+          "type": "text",
+          "text": "Le panneau rond avec une flèche rouge qui monte me demande de céder le passage à ceux d'en face. Le panneau bleu m'en donne la priorité."
+        },
+        {
+          "type": "memo",
+          "text": "Losange jaune : je passe. STOP et triangle : je cède."
+        }
+      ]
+    },
+    {
+      "id": "t01-c01-f03",
+      "title": "Feux et marques au sol",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Les feux ont trois couleurs, toujours dans le même ordre : vert, jaune, rouge."
+        },
+        {
+          "type": "heading",
+          "text": "Les feux"
+        },
+        {
+          "type": "list",
+          "items": [
+            "**Vert** : voie libre.",
+            "**Jaune** : annonce du rouge. Je m'arrête si je peux le faire en sécurité.",
+            "**Rouge** : je ne passe pas.",
+            "**Jaune clignotant** : prudence, je ralentis.",
+            "**Rouge clignotant** : arrêt absolu, réservé aux passages à niveau non gardés."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Les marques"
+        },
+        {
+          "type": "text",
+          "text": "Au Sénégal, les lignes, passages piétons et flèches sont de couleur **jaune**."
+        },
+        {
+          "type": "attention",
+          "text": "Si un agent dirige la circulation, ses ordres priment sur les feux et les panneaux."
+        },
+        {
+          "type": "memo",
+          "text": "Rouge, je m'arrête. L'agent passe avant le feu."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, annexe P (P2 à P8) ; art. 28, 37, 38",
+  "legal_status": "pending",
+  "status": "draft"
+}

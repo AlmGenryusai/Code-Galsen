@@ -1,0 +1,293 @@
+[
+  {
+    "id": "t01-c06-0001",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "parts": [
+      {
+        "text": "Hors agglomération, ma voiture est en panne. Je la mets :",
+        "options": [
+          {
+            "id": "A",
+            "text": "sur la chaussée, en face"
+          },
+          {
+            "id": "B",
+            "text": "sur l'accotement si je peux"
+          },
+          {
+            "id": "C",
+            "text": "sur la ligne centrale"
+          },
+          {
+            "id": "D",
+            "text": "n'importe où"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Hors agglomération, on ne stationne pas sur la chaussée, sauf cas de force majeure ou accotement impraticable.",
+    "common_mistake": "Laisser la voiture sur la voie.",
+    "legal_ref": "Décret 2004-13, art. 31",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c06-0002",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "parts": [
+      {
+        "text": "Je suis arrêté sur la chaussée à cause d'une panne grave. Je dois signaler mon véhicule avec :",
+        "options": [
+          {
+            "id": "A",
+            "text": "des feux de détresse"
+          },
+          {
+            "id": "B",
+            "text": "un triangle de pré-signalisation"
+          },
+          {
+            "id": "C",
+            "text": "rien, il est visible"
+          },
+          {
+            "id": "D",
+            "text": "un simple coup de klaxon"
+          }
+        ],
+        "correct": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "explanation": "La loi demande de signaler la position du véhicule : triangle de pré-signalisation et feux de détresse.",
+    "common_mistake": "Penser que son véhicule est assez visible.",
+    "legal_ref": "Décret 2004-13, art. 31 ; loi 2022-04, L.64",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c06-0003",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "parts": [
+      {
+        "text": "Je ne me gare pas près :",
+        "options": [
+          {
+            "id": "A",
+            "text": "d'un virage sans visibilité"
+          },
+          {
+            "id": "B",
+            "text": "d'une intersection quand on voit mal"
+          },
+          {
+            "id": "C",
+            "text": "du sommet d'une côte"
+          },
+          {
+            "id": "D",
+            "text": "d'un arbre"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Quand la visibilité est insuffisante, on ne s'immobilise pas près d'une intersection, d'un virage ou d'un sommet de côte.",
+    "common_mistake": "Se garer juste après un virage.",
+    "legal_ref": "Décret 2004-13, art. 32",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c06-0004",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "parts": [
+      {
+        "text": "Puis-je stationner sur un passage à niveau ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "oui, brièvement"
+          },
+          {
+            "id": "B",
+            "text": "oui, si le train est loin"
+          },
+          {
+            "id": "C",
+            "text": "non, jamais"
+          },
+          {
+            "id": "D",
+            "text": "oui, avec les feux de détresse"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Il est interdit de stationner sur une partie de route traversée à niveau par une voie ferrée.",
+    "common_mistake": "S'arrêter « un instant » sur la voie.",
+    "legal_ref": "Décret 2004-13, art. 33",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c06-0005",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "parts": [
+      {
+        "text": "Avant de m'éloigner de mon véhicule garé, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "laisse le moteur tourner"
+          },
+          {
+            "id": "B",
+            "text": "coupe le moteur et m'assure qu'il ne bougera pas"
+          },
+          {
+            "id": "C",
+            "text": "laisse la portière ouverte"
+          },
+          {
+            "id": "D",
+            "text": "laisse la clé dessus"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On coupe le moteur et on s'assure que l'immobilisation est suffisante selon la pente et les conditions.",
+    "common_mistake": "Laisser le moteur tourner « une minute ».",
+    "legal_ref": "Décret 2004-13, art. 34",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c06-0006",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "parts": [
+      {
+        "text": "Avant d'ouvrir ma portière ou de descendre :",
+        "options": [
+          {
+            "id": "A",
+            "text": "je regarde si la voie est libre"
+          },
+          {
+            "id": "B",
+            "text": "j'ouvre rapidement"
+          },
+          {
+            "id": "C",
+            "text": "j'ouvre et je regarde ensuite"
+          },
+          {
+            "id": "D",
+            "text": "je prévois un passager pour regarder"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "On ne descend pas et on n'ouvre pas la portière sans s'être assuré qu'on peut le faire sans danger, pour les motos et les cyclistes.",
+    "common_mistake": "Ouvrir d'abord, regarder après.",
+    "legal_ref": "Décret 2004-13, art. 35",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c06-0007",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "parts": [
+      {
+        "text": "Où dois-je ranger mon véhicule en stationnement ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "au milieu de la route"
+          },
+          {
+            "id": "B",
+            "text": "sur l'accotement, en dégageant la chaussée"
+          },
+          {
+            "id": "C",
+            "text": "sur le trottoir"
+          },
+          {
+            "id": "D",
+            "text": "devant une entrée d'immeuble"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On range sur l'accotement pour dégager au maximum la chaussée, sans gêner la circulation ni l'accès aux immeubles.",
+    "common_mistake": "Se garer devant un portail.",
+    "legal_ref": "Décret 2004-13, art. 32",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c06-0008",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "parts": [
+      {
+        "text": "Je repars après un stationnement. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "démarre sans prévenir"
+          },
+          {
+            "id": "B",
+            "text": "préviens avec le clignotant et ne gêne personne"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne et démarre"
+          },
+          {
+            "id": "D",
+            "text": "pars en trombe"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Avant de reprendre la route, on prévient avec le clignotant (ou le bras) et on ne gêne pas les véhicules en mouvement.",
+    "common_mistake": "Démarrer sans regarder ni signaler.",
+    "legal_ref": "Décret 2004-13, art. 9",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

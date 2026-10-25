@@ -33,5 +33,293 @@
     "legal_ref": null,
     "legal_status": "pending",
     "status": "draft"
+  },
+  {
+    "id": "t01-c03-0002",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "La route n'a qu'une voie et je ne vois pas loin devant. Je roule :",
+        "options": [
+          {
+            "id": "A",
+            "text": "au milieu de la route"
+          },
+          {
+            "id": "B",
+            "text": "sur la partie gauche pour voir plus loin"
+          },
+          {
+            "id": "C",
+            "text": "sur la partie droite, en laissant la gauche libre"
+          },
+          {
+            "id": "D",
+            "text": "sur l'accotement"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Seul, on garde la partie droite de la chaussée. Quand la vue est courte, il faut en plus laisser libre la partie gauche pour les véhicules d'en face.",
+    "common_mistake": "Rouler au milieu pour « mieux voir ».",
+    "legal_ref": "Décret 2004-13, art. 3",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c03-0003",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "La chaussée est séparée en deux voies par une ligne continue. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la franchis pour dépasser"
+          },
+          {
+            "id": "B",
+            "text": "ne la franchis pas et ne la chevauche pas"
+          },
+          {
+            "id": "C",
+            "text": "la chevauche si la route est vide"
+          },
+          {
+            "id": "D",
+            "text": "la franchis seulement la nuit"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Une ligne continue ne se franchit pas, et on ne roule pas dessus. Elle marque un risque que l'on ne voit pas.",
+    "common_mistake": "Chevaucher la ligne dans un virage.",
+    "legal_ref": "Décret 2004-13, art. 4",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c03-0004",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "Une ligne discontinue est à ma gauche. Je peux la franchir :",
+        "options": [
+          {
+            "id": "A",
+            "text": "pour dépasser ou pour traverser la chaussée"
+          },
+          {
+            "id": "B",
+            "text": "quand je m'ennuie derrière un camion"
+          },
+          {
+            "id": "C",
+            "text": "seulement en agglomération"
+          },
+          {
+            "id": "D",
+            "text": "jamais"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Une ligne discontinue autorise à passer à gauche pour dépasser, ou pour traverser la chaussée si on tourne. Pas pour rouler à gauche sans raison.",
+    "common_mistake": "Rouler à gauche sans raison parce que la ligne est discontinue.",
+    "legal_ref": "Décret 2004-13, art. 5",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c03-0005",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "À ma gauche : une ligne continue collée à une ligne discontinue, la continue étant la plus proche de moi. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la franchis pour dépasser"
+          },
+          {
+            "id": "B",
+            "text": "ne peux pas franchir la continue"
+          },
+          {
+            "id": "C",
+            "text": "la franchis si la route est vide"
+          },
+          {
+            "id": "D",
+            "text": "la franchis de nuit"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Quand les deux lignes sont accolées, c'est celle qui est du côté de ma file qui compte. Ici c'est la continue : je ne la franchis pas.",
+    "common_mistake": "Se baser sur la discontinue qui est du mauvais côté.",
+    "legal_ref": "Décret 2004-13, art. 6",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c03-0006",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "Un monument est au milieu d'une place. Sauf panneau contraire, je le contourne :",
+        "options": [
+          {
+            "id": "A",
+            "text": "par la gauche"
+          },
+          {
+            "id": "B",
+            "text": "par la droite"
+          },
+          {
+            "id": "C",
+            "text": "du côté le plus court"
+          },
+          {
+            "id": "D",
+            "text": "par le côté vide"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Tout obstacle fixe au milieu d'une chaussée ou d'un rond-point se contourne par la droite, comme la circulation.",
+    "common_mistake": "Couper au plus court par la gauche.",
+    "legal_ref": "Décret 2004-13, art. 10",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c03-0007",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "Je croise un véhicule sur une route à une seule voie. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "reste au milieu"
+          },
+          {
+            "id": "B",
+            "text": "laisse la gauche libre et prends l'accotement si besoin"
+          },
+          {
+            "id": "C",
+            "text": "m'arrête sans bouger"
+          },
+          {
+            "id": "D",
+            "text": "accélère"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Chacun se serre à droite. Si la place manque, on utilise l'accotement plutôt que d'empiéter sur la gauche.",
+    "common_mistake": "Rester au milieu en espérant que l'autre bouge.",
+    "legal_ref": "Décret 2004-13, art. 16",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c03-0008",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "Une moto peut-elle rouler sur le trottoir pour éviter un bouchon ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "oui, si elle roule doucement"
+          },
+          {
+            "id": "B",
+            "text": "oui, si elle klaxonne"
+          },
+          {
+            "id": "C",
+            "text": "non, sauf cas de force majeure"
+          },
+          {
+            "id": "D",
+            "text": "oui, s'il n'y a personne"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Chaque usager doit rester sur l'espace prévu pour sa catégorie. Le trottoir est pour les piétons.",
+    "common_mistake": "Utiliser le trottoir « juste un moment ».",
+    "legal_ref": "Décret 2004-13, art. 11",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c03-0009",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "Sur une chaussée à plusieurs voies, je circule :",
+        "options": [
+          {
+            "id": "A",
+            "text": "sur la voie la plus à droite"
+          },
+          {
+            "id": "B",
+            "text": "sur la voie du milieu"
+          },
+          {
+            "id": "C",
+            "text": "sur la voie la plus à gauche"
+          },
+          {
+            "id": "D",
+            "text": "sur la ligne"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Seul, on roule sur la voie la plus à droite et on ne chevauche pas les lignes. Les autres voies servent pour dépasser.",
+    "common_mistake": "Rester sur la voie de gauche sans dépasser.",
+    "legal_ref": "Décret 2004-13, art. 3",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]

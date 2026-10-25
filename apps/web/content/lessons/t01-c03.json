@@ -1,0 +1,119 @@
+{
+  "id": "t01-c03",
+  "theme": "t01",
+  "sheets": [
+    {
+      "id": "t01-c03-f01",
+      "title": "Où je roule sur la route",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Seul sur la route, je tiens la partie droite de la chaussée. Si la chaussée a plusieurs voies, je prends la plus à droite."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ne roule pas sur les lignes.",
+            "Si la route n'a qu'une voie et que je ne vois pas loin, je laisse libre la partie gauche.",
+            "Je prends le trottoir ou l'accotement seulement s'ils sont faits pour mon type de véhicule."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Une moto n'a pas le droit de rouler sur le trottoir, sauf cas de force majeure."
+        },
+        {
+          "type": "memo",
+          "text": "Droite, dans ma voie, sur la chaussée."
+        }
+      ]
+    },
+    {
+      "id": "t01-c03-f02",
+      "title": "Les lignes sur la chaussée",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Les lignes disent ce que je peux faire sans me poser de question."
+        },
+        {
+          "type": "heading",
+          "text": "Ligne continue"
+        },
+        {
+          "type": "text",
+          "text": "Je ne la franchis pas et je ne la chevauche pas."
+        },
+        {
+          "type": "heading",
+          "text": "Ligne discontinue"
+        },
+        {
+          "type": "text",
+          "text": "Je peux franchir celle qui est à ma gauche pour dépasser, ou si je m'apprête à traverser la chaussée."
+        },
+        {
+          "type": "heading",
+          "text": "Ligne continue collée à une discontinue"
+        },
+        {
+          "type": "text",
+          "text": "Je regarde celle qui est juste à ma gauche : si c'est la continue, je ne passe pas. Si c'est la discontinue, je peux passer le temps de dépasser."
+        },
+        {
+          "type": "attention",
+          "text": "Sur une chaussée à trois voies, la voie la plus à gauche est réservée à ceux qui viennent en face."
+        },
+        {
+          "type": "memo",
+          "text": "Continue : je reste. Discontinue : je passe pour dépasser."
+        }
+      ]
+    },
+    {
+      "id": "t01-c03-f03",
+      "title": "Se croiser et contourner un obstacle",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Quand je croise un véhicule, je me serre à droite."
+        },
+        {
+          "type": "heading",
+          "text": "Route à une voie"
+        },
+        {
+          "type": "text",
+          "text": "Chacun laisse libre sa gauche. Si la place manque, je prends l'accotement plutôt que d'empiéter sur la gauche."
+        },
+        {
+          "type": "heading",
+          "text": "Route à plusieurs voies"
+        },
+        {
+          "type": "text",
+          "text": "Je me serre le plus possible à droite, autant que les autres usagers me le permettent."
+        },
+        {
+          "type": "heading",
+          "text": "Monument, borne, rond-point"
+        },
+        {
+          "type": "text",
+          "text": "Un obstacle fixe sur la chaussée se contourne par la droite, sauf panneau contraire."
+        },
+        {
+          "type": "memo",
+          "text": "Croiser : à droite. Contourner : à droite."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 3 à 6, 10, 11, 16, 17",
+  "legal_status": "pending",
+  "status": "draft"
+}

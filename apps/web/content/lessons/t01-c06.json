@@ -1,0 +1,112 @@
+{
+  "id": "t01-c06",
+  "theme": "t01",
+  "sheets": [
+    {
+      "id": "t01-c06-f01",
+      "title": "Où s'arrêter et se garer",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Je me gare de façon à gêner le moins possible la circulation."
+        },
+        {
+          "type": "heading",
+          "text": "Règles"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je range mon véhicule sur l'accotement pour dégager la chaussée.",
+            "Je ne bloque pas l'accès aux immeubles.",
+            "Je ne me gare pas près d'un virage, d'un sommet de côte ou d'une intersection quand la visibilité est mauvaise.",
+            "Je ne stationne jamais sur un passage à niveau."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Hors agglomération, je ne stationne pas sur la chaussée, sauf force majeure."
+        },
+        {
+          "type": "memo",
+          "text": "Gêner le moins possible : accotement, loin des virages."
+        }
+      ]
+    },
+    {
+      "id": "t01-c06-f02",
+      "title": "En panne sur la route",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Si je dois m'arrêter sur la chaussée parce que mon véhicule est en panne, je protège les autres."
+        },
+        {
+          "type": "heading",
+          "text": "Je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'allume mes feux de détresse.",
+            "Je pose un triangle de pré-signalisation derrière mon véhicule.",
+            "Je fais descendre les passagers du côté sûr."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Même de jour, un véhicule arrêté peut être heurté. Beaucoup d'accidents sur les routes nationales viennent d'un véhicule en panne non signalé."
+        },
+        {
+          "type": "memo",
+          "text": "Détresse et triangle, avant tout autre geste."
+        }
+      ]
+    },
+    {
+      "id": "t01-c06-f03",
+      "title": "Descendre et repartir",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Deux gestes simples évitent beaucoup d'accidents."
+        },
+        {
+          "type": "heading",
+          "text": "Avant de quitter mon véhicule"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je coupe le moteur.",
+            "Je vérifie qu'il ne bougera pas : frein à main, pente, sol.",
+            "Je prends les précautions pour qu'il reste visible."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Avant d'ouvrir la portière"
+        },
+        {
+          "type": "text",
+          "text": "Je regarde derrière moi : un cycliste ou une moto peut passer. J'ouvre quand je peux le faire sans danger."
+        },
+        {
+          "type": "heading",
+          "text": "Avant de repartir"
+        },
+        {
+          "type": "text",
+          "text": "Je préviens avec le clignotant et je ne gêne aucun véhicule en mouvement."
+        },
+        {
+          "type": "memo",
+          "text": "Moteur coupé, regard derrière, clignotant au départ."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 9, 31 à 35 ; loi 2022-04, L.64",
+  "legal_status": "pending",
+  "status": "draft"
+}
