@@ -1,12 +1,22 @@
 {
   "id": "t04-c05",
   "theme": "t04",
-  "blocks": {
-    "rule": "Je reste visible pour le chauffeur du camion. Je ne me place pas juste à côté de lui ni juste derrière, et je ne le dépasse que si j'ai la place.",
-    "why": "Un camion a de grands angles morts et met longtemps à freiner. En tournant, son arrière déborde.",
-    "situation": "Au port de Dakar, un camion tourne à droite. Je reste derrière lui, loin, au lieu de passer à sa droite.",
-    "trap": "Se glisser à droite d'un camion qui tourne. Le chauffeur ne me voit pas."
-  },
+  "sheets": [
+    {
+      "id": "t04-c05-f01",
+      "title": "Camions : être vu",
+      "blocks": [
+        { "type": "heading", "text": "La règle" },
+        { "type": "text", "text": "Je reste visible pour le chauffeur du camion. Je ne me place pas juste à côté de lui ni juste derrière, et je ne le dépasse que si j'ai la place." },
+        { "type": "heading", "text": "Pourquoi" },
+        { "type": "text", "text": "Un camion a de grands angles morts et met longtemps à freiner. En tournant, son arrière déborde." },
+        { "type": "heading", "text": "Sur la route" },
+        { "type": "text", "text": "Au port de Dakar, un camion tourne à droite. Je reste derrière lui, loin, au lieu de passer à sa droite." },
+        { "type": "heading", "text": "Le piège" },
+        { "type": "text", "text": "Se glisser à droite d'un camion qui tourne. Le chauffeur ne me voit pas." }
+      ]
+    }
+  ],
   "legal_ref": null,
   "legal_status": "pending",
   "status": "draft"

@@ -1,12 +1,22 @@
 {
   "id": "t04-c03",
   "theme": "t04",
-  "blocks": {
-    "rule": "Je ralentis à l'approche d'une charrette ou d'un troupeau. Je ne dépasse que si je vois assez loin devant et en laissant beaucoup d'espace.",
-    "why": "Un cheval ou un animal peut s'écarter brusquement, et une charrette n'a souvent ni feux ni rétroviseurs.",
-    "situation": "À la sortie de Thiès, une charrette chargée roule sur le bord de la route. Le soir, je la vois tard : je ralentis dès que je la devine.",
-    "trap": "Klaxonner fort en dépassant. L'animal peut prendre peur et se jeter sur la route."
-  },
+  "sheets": [
+    {
+      "id": "t04-c03-f01",
+      "title": "Charrettes : ralentir",
+      "blocks": [
+        { "type": "heading", "text": "La règle" },
+        { "type": "text", "text": "Je ralentis à l'approche d'une charrette ou d'un troupeau. Je ne dépasse que si je vois assez loin devant et en laissant beaucoup d'espace." },
+        { "type": "heading", "text": "Pourquoi" },
+        { "type": "text", "text": "Un cheval ou un animal peut s'écarter brusquement, et une charrette n'a souvent ni feux ni rétroviseurs." },
+        { "type": "heading", "text": "Sur la route" },
+        { "type": "text", "text": "À la sortie de Thiès, une charrette chargée roule sur le bord de la route. Le soir, je la vois tard : je ralentis dès que je la devine." },
+        { "type": "heading", "text": "Le piège" },
+        { "type": "text", "text": "Klaxonner fort en dépassant. L'animal peut prendre peur et se jeter sur la route." }
+      ]
+    }
+  ],
   "legal_ref": null,
   "legal_status": "pending",
   "status": "draft"
