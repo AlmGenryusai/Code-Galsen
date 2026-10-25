@@ -1,0 +1,13 @@
+{
+  "id": "t04-c02",
+  "theme": "t04",
+  "blocks": {
+    "rule": "Avant de tourner, de changer de file ou d'ouvrir ma portière, je regarde dans mes rétroviseurs puis par-dessus l'épaule. Je laisse de l'espace sur les côtés.",
+    "why": "Une moto est petite, rapide et souvent dans l'angle mort.",
+    "situation": "Bouchon sur la VDN, les Jakarta remontent entre les files et par la droite. Avant de me décaler, je tourne la tête.",
+    "trap": "Se fier au seul rétroviseur. La moto qui arrive est souvent juste à côté, dans l'angle mort."
+  },
+  "legal_ref": null,
+  "legal_status": "pending",
+  "status": "draft"
+}

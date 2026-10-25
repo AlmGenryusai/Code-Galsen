@@ -1,0 +1,13 @@
+{
+  "id": "t04-c01",
+  "theme": "t04",
+  "blocks": {
+    "rule": "Je cède le passage au piéton qui traverse ou s'engage sur un passage piéton. Hors passage, je ralentis et je reste prêt à m'arrêter.",
+    "why": "Un piéton n'a aucune protection. À faible vitesse, je m'arrête à temps ; plus vite, le choc peut être mortel.",
+    "situation": "Sortie d'école à Grand-Yoff, des enfants traversent entre deux cars rapides arrêtés. Je ne vois pas derrière les cars : je ralentis avant d'arriver à leur hauteur.",
+    "trap": "Croire qu'un piéton hors passage n'a pas la priorité et garder sa vitesse. On doit toujours éviter de le heurter."
+  },
+  "legal_ref": null,
+  "legal_status": "pending",
+  "status": "draft"
+}
