@@ -15,6 +15,32 @@
         { "type": "heading", "text": "Le piège" },
         { "type": "text", "text": "Se glisser à droite d'un camion qui tourne. Le chauffeur ne me voit pas." }
       ]
+    },
+    {
+      "id": "t04-c05-f02",
+      "title": "Angles morts et virages",
+      "blocks": [
+        { "type": "text", "text": "Un camion est long, haut, et son conducteur ne voit pas tout. Autour de lui, il existe des zones où je suis invisible pour lui, même si je le vois très bien." },
+        { "type": "heading", "text": "Où je ne suis pas vu" },
+        { "type": "list", "items": ["Juste devant son capot.", "Sur son côté droit, le long de la cabine.", "Juste derrière lui."] },
+        { "type": "heading", "text": "Quand il tourne" },
+        { "type": "text", "text": "Pour tourner à droite, le camion se déporte d'abord à gauche, puis son arrière balaie le côté droit. Un véhicule glissé à sa droite se fait coincer." },
+        { "type": "attention", "text": "Se glisser à droite d'un camion qui tourne est l'erreur la plus grave. Je reste derrière, loin." },
+        { "type": "memo", "text": "Si je ne vois pas ses rétroviseurs, il ne me voit pas." }
+      ]
+    },
+    {
+      "id": "t04-c05-f03",
+      "title": "Dépasser et croiser un camion",
+      "blocks": [
+        { "type": "text", "text": "Un camion est long à dépasser et il bouge sur la route. Je ne le dépasse que si la route est libre devant, sur une bonne distance, et que je peux revenir sur ma file sans le gêner." },
+        { "type": "heading", "text": "Pour dépasser" },
+        { "type": "list", "items": ["Je vérifie qu'aucun autre véhicule ne vient en face.", "Je laisse de l'espace en le dépassant, car il peut se déporter.", "Je ne me rabats que lorsque je vois bien tout le camion dans mon rétroviseur."] },
+        { "type": "heading", "text": "Pour croiser" },
+        { "type": "text", "text": "Un camion qui arrive en face fait un appel d'air et prend beaucoup de place. Je me tiens bien à droite de ma voie, sans mordre sur le bas-côté." },
+        { "type": "attention", "text": "Sur une route étroite, je ralentis avant le croisement, au lieu de freiner pendant." },
+        { "type": "memo", "text": "Camion : je dépasse seulement si je vois loin, je croise en restant bien à droite." }
+      ]
     }
   ],
   "legal_ref": null,
