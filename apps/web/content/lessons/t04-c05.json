@@ -44,9 +44,10 @@
     }
   ],
   "legal_ref": "Décret 2004-13, art. 18, 21 et 24",
-  "legal_status": "pending",
-  "status": "reviewed",
+  "legal_status": "confirmed",
+  "status": "published",
   "review": {
-    "moniteur": "2026-10-25"
+    "moniteur": "2026-10-25",
+    "juriste": "2026-10-25"
   }
 }

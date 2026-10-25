@@ -130,11 +130,11 @@ describe('relecture moniteur', () => {
 describe('thème gratuit t04 — pool réel', () => {
   const pool = getQuestions(FREE_THEME)
 
-  it('30 questions, ids uniques préfixés par leur chapitre, aucune published', () => {
+  it('30 questions, ids uniques préfixés par leur chapitre, toutes published', () => {
     expect(pool).toHaveLength(30)
     expect(new Set(pool.map((q) => q.id)).size).toBe(30)
     expect(pool.every((q) => q.id.startsWith(`${q.chapter}-`))).toBe(true)
-    expect(pool.filter((q) => q.status === 'published')).toEqual([])
+    expect(pool.filter((q) => q.status !== 'published')).toEqual([])
   })
 
   it('série thématique : 10 questions distinctes parmi 30', () => {
