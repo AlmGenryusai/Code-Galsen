@@ -32,10 +32,7 @@ export function ExamScoreCard({ score, href = '/examen' }: ExamScoreCardProps) {
           textTransform: 'uppercase',
           marginBottom: 4,
         }}>
-          Tu serais reçu
-        </div>
-        <div style={{ fontSize: 11, color: 'hsl(var(--muted-2))' }}>
-          Calculé sur tes 5 derniers examens blancs
+          Dernier examen blanc
         </div>
       </div>
       <div style={{ display: 'flex', alignItems: 'baseline', gap: 2, flexShrink: 0 }}>
