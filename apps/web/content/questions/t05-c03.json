@@ -1,0 +1,290 @@
+[
+  {
+    "id": "t05-c03-0001",
+    "theme": "t05",
+    "chapter": "t05-c03",
+    "parts": [
+      {
+        "text": "Le permis de conduire est établi sous forme de :",
+        "options": [
+          {
+            "id": "A",
+            "text": "feuille imprimée"
+          },
+          {
+            "id": "B",
+            "text": "carte numérisée et sécurisée"
+          },
+          {
+            "id": "C",
+            "text": "carnet"
+          },
+          {
+            "id": "D",
+            "text": "papier plastifié"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le permis est une carte numérisée sécurisée qui contient les empreintes du titulaire pour permettre une vérification biométrique.",
+    "common_mistake": "Penser que le permis est un simple papier.",
+    "legal_ref": "loi 2022-04, L.5",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c03-0002",
+    "theme": "t05",
+    "chapter": "t05-c03",
+    "parts": [
+      {
+        "text": "Chaque titulaire du permis reçoit :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un capital de points"
+          },
+          {
+            "id": "B",
+            "text": "un livret rouge"
+          },
+          {
+            "id": "C",
+            "text": "une plaque"
+          },
+          {
+            "id": "D",
+            "text": "une assurance gratuite"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le titulaire bénéficie d'un capital initial de points, dont le nombre et l'affectation sont fixés par décret.",
+    "common_mistake": "Ignorer que le permis fonctionne avec des points.",
+    "legal_ref": "loi 2022-04, L.6",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c03-0003",
+    "theme": "t05",
+    "chapter": "t05-c03",
+    "parts": [
+      {
+        "text": "Certaines infractions peuvent entraîner :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un retrait de points"
+          },
+          {
+            "id": "B",
+            "text": "un bonus de points"
+          },
+          {
+            "id": "C",
+            "text": "aucune conséquence"
+          },
+          {
+            "id": "D",
+            "text": "un nouveau permis"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Certaines infractions font perdre des points. La liste et le barème sont fixés par décret.",
+    "common_mistake": "Croire que seule l'amende compte.",
+    "legal_ref": "loi 2022-04, L.8 et L.9",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c03-0004",
+    "theme": "t05",
+    "chapter": "t05-c03",
+    "parts": [
+      {
+        "text": "Si le capital de points tombe à zéro, le permis est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "suspendu"
+          },
+          {
+            "id": "B",
+            "text": "invalidé"
+          },
+          {
+            "id": "C",
+            "text": "renouvelé"
+          },
+          {
+            "id": "D",
+            "text": "majoré"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Quand le retrait de points aboutit à un nombre nul, le permis est invalidé.",
+    "common_mistake": "Croire qu'on peut continuer à conduire.",
+    "legal_ref": "loi 2022-04, L.11",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c03-0005",
+    "theme": "t05",
+    "chapter": "t05-c03",
+    "parts": [
+      {
+        "text": "Je peux récupérer des points en :",
+        "options": [
+          {
+            "id": "A",
+            "text": "suivant un stage de sensibilisation à la sécurité routière"
+          },
+          {
+            "id": "B",
+            "text": "payant seulement une amende"
+          },
+          {
+            "id": "C",
+            "text": "changeant de voiture"
+          },
+          {
+            "id": "D",
+            "text": "attendant un an sans rien faire"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le conducteur qui a perdu des points peut en récupérer en suivant un stage de sensibilisation à la sécurité routière.",
+    "common_mistake": "Penser que l'amende efface les points.",
+    "legal_ref": "loi 2022-04, L.10",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c03-0006",
+    "theme": "t05",
+    "chapter": "t05-c03",
+    "parts": [
+      {
+        "text": "Le nombre de points d'un conducteur peut être communiqué :",
+        "options": [
+          {
+            "id": "A",
+            "text": "à tout le monde"
+          },
+          {
+            "id": "B",
+            "text": "seulement aux autorités administratives et judiciaires"
+          },
+          {
+            "id": "C",
+            "text": "à son employeur"
+          },
+          {
+            "id": "D",
+            "text": "à sa famille"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Ces informations ne peuvent être communiquées qu'aux autorités administratives et judiciaires dans l'exercice de leurs fonctions.",
+    "common_mistake": "Croire que c'est une information publique.",
+    "legal_ref": "loi 2022-04, L.7",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c03-0007",
+    "theme": "t05",
+    "chapter": "t05-c03",
+    "parts": [
+      {
+        "text": "Un juge peut, par décision de justice :",
+        "options": [
+          {
+            "id": "A",
+            "text": "suspendre le permis"
+          },
+          {
+            "id": "B",
+            "text": "annuler le permis"
+          },
+          {
+            "id": "C",
+            "text": "retirer des points"
+          },
+          {
+            "id": "D",
+            "text": "tout ce qui précède"
+          }
+        ],
+        "correct": [
+          "D"
+        ]
+      }
+    ],
+    "explanation": "Le permis peut être annulé ou suspendu par décision de justice, sans préjudice du retrait de points.",
+    "common_mistake": "Croire que seule l'administration agit.",
+    "legal_ref": "loi 2022-04, L.77",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c03-0008",
+    "theme": "t05",
+    "chapter": "t05-c03",
+    "parts": [
+      {
+        "text": "Conduire malgré une suspension ou une annulation du permis est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "permis de nuit"
+          },
+          {
+            "id": "B",
+            "text": "un délit puni de prison et d'amende"
+          },
+          {
+            "id": "C",
+            "text": "toléré hors agglomération"
+          },
+          {
+            "id": "D",
+            "text": "sans risque"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Violer l'interdiction de conduire est puni de trois ans de prison au plus et d'une amende, sans circonstances atténuantes.",
+    "common_mistake": "Reprendre le volant « en cachette ».",
+    "legal_ref": "loi 2022-04, L.81",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

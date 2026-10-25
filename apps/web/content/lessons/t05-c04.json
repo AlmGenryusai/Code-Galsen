@@ -1,0 +1,95 @@
+{
+  "id": "t05-c04",
+  "theme": "t05",
+  "sheets": [
+    {
+      "id": "t05-c04-f01",
+      "title": "Les infractions graves",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Certaines infractions sont des délits : prison et amende."
+        },
+        {
+          "type": "heading",
+          "text": "Quelques exemples"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Conduire sans permis : 1 à 3 ans de prison et 100 000 à 1 000 000 FCFA.",
+            "Fuir après un accident : 1 à 3 ans et 500 000 à 5 000 000 FCFA.",
+            "Refuser de s'arrêter à un agent : 6 mois à 2 ans.",
+            "Faux nom ou fausse adresse : 6 mois à 3 ans."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Si l'infraction cause un mort ou des blessés, les peines sont doublées."
+        },
+        {
+          "type": "memo",
+          "text": "Pas de permis, fuite, refus : délits."
+        }
+      ]
+    },
+    {
+      "id": "t05-c04-f02",
+      "title": "Téléphone, feux, vitesse",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Des infractions « courantes » sont aussi des délits."
+        },
+        {
+          "type": "heading",
+          "text": "À connaître"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Téléphone en main, règles de feux, pré-signalisation : 3 à 6 mois et 50 000 à 500 000 FCFA.",
+            "Accident mortel : aucun sursis, amende d'au moins 200 000 FCFA.",
+            "Modifier le limiteur de vitesse : 3 à 6 mois et 50 000 à 500 000 FCFA."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Un geste au volant peut devenir un délit."
+        }
+      ]
+    },
+    {
+      "id": "t05-c04-f03",
+      "title": "Responsabilité du conducteur",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Le conducteur répond des infractions qu'il commet en conduisant."
+        },
+        {
+          "type": "heading",
+          "text": "Autres mesures"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le véhicule peut être immobilisé, mis en fourrière ou retiré de la circulation.",
+            "Gêner volontairement la circulation avec un obstacle est puni de 3 mois à 5 ans."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Les appareils de contrôle automatique peuvent constater certaines infractions."
+        },
+        {
+          "type": "memo",
+          "text": "Je suis responsable de ce que je fais au volant."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Loi 2022-04, L.78, L.82, L.85, L.86, L.87, L.94, L.96, L.98",
+  "legal_status": "pending",
+  "status": "draft"
+}

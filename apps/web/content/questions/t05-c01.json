@@ -1,0 +1,292 @@
+[
+  {
+    "id": "t05-c01-0001",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "parts": [
+      {
+        "text": "À la demande d'un agent, je dois présenter :",
+        "options": [
+          {
+            "id": "A",
+            "text": "mon permis de conduire"
+          },
+          {
+            "id": "B",
+            "text": "le certificat d'immatriculation du véhicule"
+          },
+          {
+            "id": "C",
+            "text": "l'attestation d'assurance"
+          },
+          {
+            "id": "D",
+            "text": "mon passeport"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Permis, certificat d'immatriculation (avec la mention de visite technique) et, selon le cas, assurance ou autorisation de transport.",
+    "common_mistake": "Penser que le permis suffit.",
+    "legal_ref": "Décret 2004-13, art. 107",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c01-0002",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "parts": [
+      {
+        "text": "Après l'achat d'un véhicule mis en circulation pour la première fois, je déclare sa mise en circulation :",
+        "options": [
+          {
+            "id": "A",
+            "text": "dans un délai de 15 jours"
+          },
+          {
+            "id": "B",
+            "text": "dans un délai d'un an"
+          },
+          {
+            "id": "C",
+            "text": "jamais"
+          },
+          {
+            "id": "D",
+            "text": "seulement si on me le demande"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le propriétaire doit adresser la déclaration de mise en circulation dans les quinze jours. Il reçoit un certificat d'immatriculation et d'aptitude technique.",
+    "common_mistake": "Rouler des mois sans déclaration.",
+    "legal_ref": "Décret 2004-13, art. 44 et 45",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c01-0003",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "parts": [
+      {
+        "text": "La date de fin de validité de la visite technique figure :",
+        "options": [
+          {
+            "id": "A",
+            "text": "sur le certificat d'immatriculation"
+          },
+          {
+            "id": "B",
+            "text": "sur le pare-brise uniquement"
+          },
+          {
+            "id": "C",
+            "text": "sur la plaque"
+          },
+          {
+            "id": "D",
+            "text": "sur le permis"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le certificat d'immatriculation porte la mention de fin de validité de la visite technique.",
+    "common_mistake": "Chercher la date sur le permis.",
+    "legal_ref": "Décret 2004-13, art. 45 et 107",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c01-0004",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "parts": [
+      {
+        "text": "Un véhicule de transport de personnes ou de marchandises doit passer la visite technique :",
+        "options": [
+          {
+            "id": "A",
+            "text": "avant sa mise en circulation"
+          },
+          {
+            "id": "B",
+            "text": "seulement après un accident"
+          },
+          {
+            "id": "C",
+            "text": "jamais"
+          },
+          {
+            "id": "D",
+            "text": "tous les dix ans"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Tout véhicule employé au transport de personnes ou de marchandises passe d'abord une visite technique, puis aux dates fixées.",
+    "common_mistake": "Faire circuler un car sans visite.",
+    "legal_ref": "loi 2022-04, L.47",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c01-0005",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "parts": [
+      {
+        "text": "Une voiture doit porter :",
+        "options": [
+          {
+            "id": "A",
+            "text": "une plaque d'immatriculation à l'arrière seulement"
+          },
+          {
+            "id": "B",
+            "text": "deux plaques, à l'avant et à l'arrière"
+          },
+          {
+            "id": "C",
+            "text": "aucune plaque"
+          },
+          {
+            "id": "D",
+            "text": "une plaque sur le toit"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les véhicules automobiles, sauf motos et cyclomoteurs, portent deux plaques d'immatriculation.",
+    "common_mistake": "Rouler sans plaque avant.",
+    "legal_ref": "loi 2022-04, L.44",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c01-0006",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "parts": [
+      {
+        "text": "Un gendarme me fait signe de m'arrêter. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "continue"
+          },
+          {
+            "id": "B",
+            "text": "m'arrête"
+          },
+          {
+            "id": "C",
+            "text": "accélère"
+          },
+          {
+            "id": "D",
+            "text": "change de route"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Ne pas s'arrêter à la sommation claire d'un agent est un délit puni de prison et d'amende.",
+    "common_mistake": "Fuir un contrôle.",
+    "legal_ref": "loi 2022-04, L.85",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c01-0007",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "parts": [
+      {
+        "text": "Pour conduire une voiture, mon permis doit être :",
+        "options": [
+          {
+            "id": "A",
+            "text": "valable pour la catégorie du véhicule"
+          },
+          {
+            "id": "B",
+            "text": "d'un autre pays seulement"
+          },
+          {
+            "id": "C",
+            "text": "expiré mais non retiré"
+          },
+          {
+            "id": "D",
+            "text": "emprunté à un ami"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le permis doit correspondre à la catégorie du véhicule et être en cours de validité, au nom du conducteur.",
+    "common_mistake": "Conduire avec un permis d'une autre catégorie.",
+    "legal_ref": "loi 2022-04, L.4 et L.79",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c01-0008",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "parts": [
+      {
+        "text": "Je donne un faux nom à un agent après une infraction. C'est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "permis"
+          },
+          {
+            "id": "B",
+            "text": "un délit puni de prison et d'amende"
+          },
+          {
+            "id": "C",
+            "text": "une simple erreur"
+          },
+          {
+            "id": "D",
+            "text": "sans conséquence"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Donner un faux nom ou une fausse adresse après une infraction est puni de 6 mois à 3 ans de prison et d'une amende.",
+    "common_mistake": "Mentir pour éviter une amende.",
+    "legal_ref": "loi 2022-04, L.86",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]
