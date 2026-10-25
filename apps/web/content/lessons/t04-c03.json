@@ -15,6 +15,32 @@
         { "type": "heading", "text": "Le piège" },
         { "type": "text", "text": "Klaxonner fort en dépassant. L'animal peut prendre peur et se jeter sur la route." }
       ]
+    },
+    {
+      "id": "t04-c03-f02",
+      "title": "Dépasser une charrette",
+      "blocks": [
+        { "type": "text", "text": "Une charrette roule lentement et se déplace parfois sans prévenir. Je ne la dépasse que si je vois bien devant, sur une longue distance, et que la route est libre." },
+        { "type": "heading", "text": "Ce que je regarde avant" },
+        { "type": "list", "items": ["Y a-t-il quelqu'un en face ou un virage devant ?", "La charrette est-elle seule sur sa file, ou y a-t-il un autre véhicule devant elle ?", "Le cheval ou l'âne est-il calme ?"] },
+        { "type": "heading", "text": "Comment je dépasse" },
+        { "type": "text", "text": "Je ralentis d'abord, je me place avec beaucoup d'espace sur le côté, je passe sans klaxonner fort, puis je me rabats seulement quand je la vois dans mon rétroviseur." },
+        { "type": "attention", "text": "Un cheval surpris par un coup de klaxon peut se jeter d'un côté ou de l'autre. Je préfère ralentir et attendre." },
+        { "type": "memo", "text": "Si je n'ai pas le temps de voir loin, je ne dépasse pas." }
+      ]
+    },
+    {
+      "id": "t04-c03-f03",
+      "title": "Troupeaux et animaux sur la route",
+      "blocks": [
+        { "type": "text", "text": "Dans beaucoup de régions, les troupeaux de moutons, de vaches ou de chèvres traversent la route, parfois tard dans la journée, parfois la nuit." },
+        { "type": "heading", "text": "Ce que je fais" },
+        { "type": "list", "items": ["Je ralentis dès que je vois des animaux ou un berger au bord de la route.", "Je m'arrête si le troupeau traverse, sans le presser.", "Je n'essaie pas de passer au milieu : un animal peut partir dans n'importe quelle direction."] },
+        { "type": "heading", "text": "La nuit" },
+        { "type": "text", "text": "Un animal sombre est presque invisible. Sur une route de campagne, je règle ma vitesse pour pouvoir m'arrêter dans la partie de la route que mes phares éclairent." },
+        { "type": "attention", "text": "Il y a souvent un animal derrière celui que je vois. Si un animal traverse, j'attends que le passage soit totalement libre." },
+        { "type": "memo", "text": "Animaux sur la route : je ralentis, je laisse le temps, je ne force pas." }
+      ]
     }
   ],
   "legal_ref": null,

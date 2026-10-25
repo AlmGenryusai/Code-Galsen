@@ -15,6 +15,32 @@
         { "type": "heading", "text": "Le piège" },
         { "type": "text", "text": "Dépasser un car arrêté sans ralentir. Un piéton peut surgir devant le car." }
       ]
+    },
+    {
+      "id": "t04-c04-f02",
+      "title": "Arrêts brusques et passagers",
+      "blocks": [
+        { "type": "text", "text": "Les cars rapides, les Ndiaga Ndiaye, les bus et les taxis s'arrêtent là où un client leur fait signe. Ils freinent vite et se rabattent sans prévenir." },
+        { "type": "heading", "text": "Ce qui se passe autour d'un arrêt" },
+        { "type": "list", "items": ["Des passagers montent et descendent côté route.", "Des gens traversent devant et derrière le véhicule.", "Le véhicule redémarre vite et se remet sur la route."] },
+        { "type": "heading", "text": "Ce que je fais" },
+        { "type": "text", "text": "Je garde de la distance derrière un véhicule de transport en commun. Quand il s'arrête, je ralentis fort avant de le dépasser : je regarde d'abord s'il y a des piétons devant lui." },
+        { "type": "attention", "text": "Le car me cache les gens qui traversent. Je ne dépasse pas un car arrêté à toute vitesse." },
+        { "type": "memo", "text": "Car arrêté : je ralentis, je regarde devant lui, puis je passe." }
+      ]
+    },
+    {
+      "id": "t04-c04-f03",
+      "title": "Taxis et bus : les gestes",
+      "blocks": [
+        { "type": "text", "text": "Un taxi ou un bus n'a pas toujours un comportement prévisible. Je lis son comportement avant de décider." },
+        { "type": "heading", "text": "Les signes qui avertissent" },
+        { "type": "list", "items": ["Il ralentit sans raison apparente : il cherche un client.", "Son clignotant est allumé : il va se rabattre ou se déporter.", "Il se déporte vers le bord de la route : il va s'arrêter."] },
+        { "type": "heading", "text": "Ce que je fais" },
+        { "type": "list", "items": ["Je laisse de la place pour qu'il se rabatte.", "Je n'accélère pas pour le dépasser au moment où il signale.", "Quand j'utilise un taxi, je descends côté trottoir, pas côté route."] },
+        { "type": "attention", "text": "Un taxi qui ralentit peut s'arrêter d'un coup. Je ne reste pas collé à lui." },
+        { "type": "memo", "text": "Un véhicule de transport qui ralentit va probablement s'arrêter." }
+      ]
     }
   ],
   "legal_ref": null,

@@ -9,6 +9,7 @@ import { ExamIcon, SeriesIcon, SheetsIcon, TrainingIcon } from './Icons'
 import { themeProgress, type QuestionRef } from '@/lib/progress/progress'
 import { useProgress } from '@/lib/progress/use-progress'
 import { countDue } from '@/lib/quiz/srs'
+import { seriesCardSize } from '@/lib/quiz/series'
 import { canAccess, hrefFor, targetHref, type Target } from '@/lib/license/license'
 import { useLicense } from '@/lib/license/use-license'
 
@@ -34,6 +35,12 @@ export function DashboardView({ data, questions, lessonIds }: Props) {
   const href = (t: Target) => (ready ? hrefFor(t, license) : targetHref(t))
   const locked = (t: Target) => ready && !canAccess(t, license)
   const byTheme = themeProgress(progress, questions)
+  // Avant chargement de la licence : thème gratuit seul (comme les cadenas)
+  const seriesSize = seriesCardSize(
+    data.themes
+      .filter((t) => canAccess({ kind: 'theme', theme: t.id }, ready ? license : { active: false, expiresAt: null }))
+      .map((t) => t.questionsTotal),
+  )
   const lastExam = progress.exams[0]
   const examTarget: Target = { kind: 'exam', examsTaken: progress.exams.length }
   // ids inconnus (anciennes questions) ignorés
@@ -69,7 +76,7 @@ export function DashboardView({ data, questions, lessonIds }: Props) {
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-          <HomeCard icon={<SeriesIcon />} title="Séries thématiques" note="10 questions" href="#themes" />
+          <HomeCard icon={<SeriesIcon />} title="Séries thématiques" note={seriesSize > 0 ? `${seriesSize} question${seriesSize > 1 ? 's' : ''}` : undefined} href="#themes" />
           <HomeCard
             icon={<TrainingIcon />}
             title="Entraînement"

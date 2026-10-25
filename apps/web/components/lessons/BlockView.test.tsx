@@ -23,6 +23,7 @@ describe('BlockView', () => {
     expect(html({ type: 'heading', text: 'La règle' })).toContain('<h2')
     const list = html({ type: 'list', items: ['a', 'b **c**'] })
     expect(list.match(/<li/g)).toHaveLength(2)
+    expect(list).toContain('list-style:disc')
     expect(list).toContain('<strong>c</strong>')
   })
 

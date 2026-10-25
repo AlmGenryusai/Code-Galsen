@@ -15,6 +15,32 @@
         { "type": "heading", "text": "Le piège" },
         { "type": "text", "text": "Croire qu'un piéton hors passage n'a pas la priorité et garder sa vitesse. On doit toujours éviter de le heurter." }
       ]
+    },
+    {
+      "id": "t04-c01-f02",
+      "title": "Passage piéton et sortie d'école",
+      "blocks": [
+        { "type": "text", "text": "Devant un passage piéton, je ne regarde pas seulement la bande blanche. Je regarde les gens autour : ceux qui attendent au bord, ceux qui courent pour traverser, ceux qui poussent une charrette ou portent un enfant." },
+        { "type": "heading", "text": "Ce que je fais" },
+        { "type": "list", "items": ["Je lève le pied dès que je vois le passage, pas au dernier moment.", "Si un piéton s'engage, je m'arrête et je lui laisse finir sa traversée.", "Je ne lui fais pas signe de passer devant moi si un autre véhicule peut arriver à côté."] },
+        { "type": "heading", "text": "Devant une école" },
+        { "type": "text", "text": "À la sortie des classes, les enfants courent, se poussent et traversent sans regarder. Un car ou un taxi arrêté me cache la vue : je ne vois pas ce qui sort de derrière." },
+        { "type": "attention", "text": "Un véhicule arrêté devant le passage cache les piétons. Je ralentis fort avant de le dépasser, même si la voie est libre." },
+        { "type": "memo", "text": "Passage piéton ou école : je ralentis avant de voir le danger, pas après." }
+      ]
+    },
+    {
+      "id": "t04-c01-f03",
+      "title": "Piétons hors passage, la nuit",
+      "blocks": [
+        { "type": "text", "text": "Au Sénégal, beaucoup de gens marchent au bord de la route, ou la traversent là où ils en ont besoin : devant un marché, un arrêt de car, une boutique. Hors passage, ils restent des personnes fragiles que je dois éviter." },
+        { "type": "heading", "text": "Pourquoi c'est difficile la nuit" },
+        { "type": "text", "text": "Le soir, un piéton vêtu de sombre se voit très tard dans les phares. Sur une route mal éclairée, je le découvre souvent quand il est déjà proche." },
+        { "type": "heading", "text": "Ce que je fais" },
+        { "type": "list", "items": ["Je ralentis dès que je vois un groupe de personnes au bord de la route.", "J'adapte ma vitesse à ce que mes phares me laissent voir.", "Je reste prêt à freiner ou à m'écarter, sans faire de mouvement brusque."] },
+        { "type": "attention", "text": "Je ne suis pas prioritaire parce que le piéton traverse hors passage : je dois toujours pouvoir m'arrêter." },
+        { "type": "memo", "text": "Plus il fait sombre, plus je ralentis." }
+      ]
     }
   ],
   "legal_ref": null,

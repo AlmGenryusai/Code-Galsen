@@ -36,7 +36,7 @@ export function BlockView({ block }: { block: Block }) {
       return <p style={{ ...BODY, margin: '0 0 16px' }}>{inline(block.text)}</p>
     case 'list':
       return (
-        <ul style={{ ...BODY, margin: '0 0 16px', paddingLeft: 22 }}>
+        <ul style={{ ...BODY, margin: '0 0 16px', paddingLeft: 22, listStyle: 'disc', listStylePosition: 'outside' }}>
           {block.items.map((item, i) => (
             <li key={i} style={{ marginBottom: 4 }}>
               {inline(item)}

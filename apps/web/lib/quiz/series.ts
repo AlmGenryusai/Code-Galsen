@@ -17,3 +17,8 @@ export function pickSeries(
   }
   return a.slice(0, size)
 }
+
+/** Taille réelle d'une série : 10 au plus, jamais plus que le plus grand thème proposé. */
+export function seriesCardSize(counts: number[]): number {
+  return Math.min(SERIES_SIZE, Math.max(0, ...counts))
+}

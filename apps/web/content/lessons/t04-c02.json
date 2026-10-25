@@ -15,6 +15,33 @@
         { "type": "heading", "text": "Le piège" },
         { "type": "text", "text": "Se fier au seul rétroviseur. La moto qui arrive est souvent juste à côté, dans l'angle mort." }
       ]
+    },
+    {
+      "id": "t04-c02-f02",
+      "title": "Remontée de file",
+      "blocks": [
+        { "type": "text", "text": "Dans un bouchon, les motos passent entre les files, à gauche comme à droite. C'est fréquent à Dakar, sur la VDN ou à Pikine, et un conducteur de voiture doit s'y attendre." },
+        { "type": "heading", "text": "Pourquoi c'est dangereux" },
+        { "type": "text", "text": "Une moto qui remonte la file arrive vite et sans bruit pour moi. Elle apparaît d'un coup dans mon angle mort, au moment où je me décale." },
+        { "type": "heading", "text": "Ce que je fais" },
+        { "type": "list", "items": ["Je garde ma voiture bien dans ma file, sans mordre sur le côté.", "Je regarde mes rétroviseurs avant tout mouvement, puis par-dessus l'épaule.", "Je laisse un passage quand je le peux, au lieu de fermer la voie par colère."] },
+        { "type": "attention", "text": "Se décaler « pour voir devant » dans un bouchon est le geste qui provoque le plus d'accrochages avec les motos." },
+        { "type": "memo", "text": "Bouchon : une moto peut arriver des deux côtés, je regarde avant de bouger." }
+      ]
+    },
+    {
+      "id": "t04-c02-f03",
+      "title": "Ouvrir sa portière, tourner",
+      "blocks": [
+        { "type": "text", "text": "Deux gestes très simples causent beaucoup d'accidents de moto : ouvrir une portière et tourner sans regarder." },
+        { "type": "heading", "text": "La portière" },
+        { "type": "text", "text": "Garé au bord de la route, j'ouvre ma portière côté circulation. Une moto qui passe juste à côté n'a pas le temps de l'éviter." },
+        { "type": "list", "items": ["Je regarde dans le rétroviseur, puis par-dessus l'épaule.", "J'ouvre doucement, d'abord un peu, puis en grand quand la voie est libre."] },
+        { "type": "heading", "text": "Tourner" },
+        { "type": "text", "text": "Avant de tourner à droite ou de changer de direction, je regarde le côté vers lequel je vais. Une moto peut être là, dans l'angle mort, même si je ne l'ai pas vue dans le rétroviseur." },
+        { "type": "attention", "text": "Mettre le clignotant ne donne pas la priorité : il avertit, mais je dois quand même regarder." },
+        { "type": "memo", "text": "Avant d'ouvrir ou de tourner : rétroviseur, puis épaule." }
+      ]
     }
   ],
   "legal_ref": null,
