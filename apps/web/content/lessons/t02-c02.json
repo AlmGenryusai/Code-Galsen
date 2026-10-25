@@ -1,0 +1,111 @@
+{
+  "id": "t02-c02",
+  "theme": "t02",
+  "sheets": [
+    {
+      "id": "t02-c02-f01",
+      "title": "Alcool et stupéfiants",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "L'alcool et les drogues ralentissent les réflexes et font mal juger les distances. Un seul verre peut déjà changer le temps de réaction."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que dit la loi"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Taux d'alcool : 0,20 g/L de sang, soit 0,10 mg/L d'air expiré.",
+            "Conduire en état d'ivresse manifeste ou sous l'emprise de stupéfiants est puni de la même façon.",
+            "Les agents peuvent immobiliser le véhicule d'un conducteur manifestement ivre."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Conduire avec 0,20 g/L est déjà une infraction. Je ne bois pas avant de conduire."
+        },
+        {
+          "type": "memo",
+          "text": "Je conduis ou je bois, pas les deux."
+        }
+      ]
+    },
+    {
+      "id": "t02-c02-f02",
+      "title": "Téléphone et écouteurs",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Utiliser le téléphone en main au volant est interdit. C'est aussi vrai à l'arrêt dans la circulation."
+        },
+        {
+          "type": "heading",
+          "text": "Ce qui est interdit"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Téléphoner avec le téléphone tenu en main.",
+            "Tenir en main tout autre appareil qui détourne l'attention.",
+            "Porter un écouteur ou un casque audio dans l'oreille."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Seul un appareil de correction de surdité est permis. Les véhicules de police, gendarmerie, pompiers et ambulances en service sont exemptés."
+        },
+        {
+          "type": "attention",
+          "text": "Les appareils de contrôle automatique peuvent constater le téléphone en main."
+        },
+        {
+          "type": "memo",
+          "text": "Téléphone en main, écouteurs : non."
+        }
+      ]
+    },
+    {
+      "id": "t02-c02-f03",
+      "title": "Ceinture, casque, fatigue",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Trois protections qui sauvent des vies."
+        },
+        {
+          "type": "heading",
+          "text": "La ceinture"
+        },
+        {
+          "type": "text",
+          "text": "Elle est obligatoire pour le conducteur et les places avant. Seule une contre-indication médicale, avec certificat, dispense."
+        },
+        {
+          "type": "heading",
+          "text": "Le casque"
+        },
+        {
+          "type": "text",
+          "text": "Les passagers de motos et de vélomoteurs doivent porter un casque homologué."
+        },
+        {
+          "type": "heading",
+          "text": "La fatigue"
+        },
+        {
+          "type": "text",
+          "text": "La loi ne cite pas la fatigue, mais elle réduit les réflexes comme l'alcool. Au premier signe de sommeil, je m'arrête dans un endroit sûr et je me repose."
+        },
+        {
+          "type": "memo",
+          "text": "Ceinture avant de démarrer. Casque pour tous sur la moto. Fatigue : je m'arrête."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Loi 2022-04, L.57, L.84 ; décret 2004-13, art. 112, annexes D28 et S2",
+  "legal_status": "pending",
+  "status": "draft"
+}

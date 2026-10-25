@@ -33,5 +33,293 @@
     "legal_ref": null,
     "legal_status": "pending",
     "status": "draft"
+  },
+  {
+    "id": "t02-c02-0002",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "Au Sénégal, à partir de quel taux d'alcool dans le sang est-on en infraction ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "0,05 g/L"
+          },
+          {
+            "id": "B",
+            "text": "0,20 g/L"
+          },
+          {
+            "id": "C",
+            "text": "0,50 g/L"
+          },
+          {
+            "id": "D",
+            "text": "0,80 g/L"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "La loi 2022-04 fixe 0,20 g/L dans le sang. Mieux vaut ne pas boire du tout avant de conduire.",
+    "common_mistake": "Croire que « un verre » ne change rien.",
+    "legal_ref": "loi 2022-04, L.84",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c02-0003",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "Au contrôle de l'air expiré, le seuil d'alcool est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "0,10 mg/L"
+          },
+          {
+            "id": "B",
+            "text": "0,25 mg/L"
+          },
+          {
+            "id": "C",
+            "text": "0,40 mg/L"
+          },
+          {
+            "id": "D",
+            "text": "0,80 mg/L"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le seuil est de 0,10 milligramme par litre d'air expiré, soit 0,20 g/L de sang.",
+    "common_mistake": "Confondre le seuil sang et le seuil air.",
+    "legal_ref": "loi 2022-04, L.84",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c02-0004",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "Conduire sous l'emprise de stupéfiants, c'est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "toléré s'il n'y a pas d'accident"
+          },
+          {
+            "id": "B",
+            "text": "puni comme la conduite en état d'ivresse"
+          },
+          {
+            "id": "C",
+            "text": "permis sur de courtes distances"
+          },
+          {
+            "id": "D",
+            "text": "permis de jour"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Conduire sous l'emprise de stupéfiants ou de substances psychotropes est puni des mêmes sanctions que l'ivresse.",
+    "common_mistake": "Penser que le danger dépend de la distance.",
+    "legal_ref": "loi 2022-04, L.84",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c02-0005",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "Au volant, je peux porter un écouteur dans l'oreille :",
+        "options": [
+          {
+            "id": "A",
+            "text": "oui, pour la musique"
+          },
+          {
+            "id": "B",
+            "text": "non, sauf appareil de correction de surdité"
+          },
+          {
+            "id": "C",
+            "text": "oui, si le volume est bas"
+          },
+          {
+            "id": "D",
+            "text": "oui, sur autoroute"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le port à l'oreille d'un dispositif qui émet du son est interdit, sauf appareil correcteur de surdité.",
+    "common_mistake": "Penser que le volume bas change quelque chose.",
+    "legal_ref": "loi 2022-04, L.57",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c02-0006",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "La ceinture de sécurité est obligatoire :",
+        "options": [
+          {
+            "id": "A",
+            "text": "pour le conducteur et les places avant"
+          },
+          {
+            "id": "B",
+            "text": "pour les passagers arrière seulement"
+          },
+          {
+            "id": "C",
+            "text": "seulement hors agglomération"
+          },
+          {
+            "id": "D",
+            "text": "seulement sur autoroute"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le conducteur et les occupants des places avant doivent la porter. Seule une contre-indication médicale justifiée par un certificat dispense.",
+    "common_mistake": "Attacher sa ceinture seulement sur route.",
+    "legal_ref": "Décret 2004-13, annexe S2 et S3",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c02-0007",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "Les passagers d'une moto doivent porter :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un casque homologué"
+          },
+          {
+            "id": "B",
+            "text": "un foulard"
+          },
+          {
+            "id": "C",
+            "text": "rien, s'ils roulent doucement"
+          },
+          {
+            "id": "D",
+            "text": "un casque s'ils sont plusieurs"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité conforme à un modèle agréé.",
+    "common_mistake": "Croire que le casque ne concerne que le conducteur.",
+    "legal_ref": "Décret 2004-13, annexe D28",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c02-0008",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "Je suis très fatigué et je somnole au volant. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ouvre la vitre et continue"
+          },
+          {
+            "id": "B",
+            "text": "m'arrête dans un endroit sûr pour me reposer"
+          },
+          {
+            "id": "C",
+            "text": "accélère pour arriver plus vite"
+          },
+          {
+            "id": "D",
+            "text": "mets la radio plus fort"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "La fatigue réduit les réflexes comme l'alcool. Seul un arrêt dans un lieu sûr permet de récupérer.",
+    "common_mistake": "Lutter contre le sommeil sans s'arrêter.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t02-c02-0009",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "Un conducteur est manifestement ivre. Les agents peuvent :",
+        "options": [
+          {
+            "id": "A",
+            "text": "prescrire l'immobilisation du véhicule"
+          },
+          {
+            "id": "B",
+            "text": "le laisser repartir"
+          },
+          {
+            "id": "C",
+            "text": "le dispenser de contrôle"
+          },
+          {
+            "id": "D",
+            "text": "l'autoriser à conduire jusqu'à chez lui"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "En cas d'ivresse manifeste, l'immobilisation du véhicule peut être prescrite en plus des sanctions pénales.",
+    "common_mistake": "Croire qu'on peut repartir « doucement ».",
+    "legal_ref": "Décret 2004-13, art. 112 ; loi 2022-04, L.84",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]
