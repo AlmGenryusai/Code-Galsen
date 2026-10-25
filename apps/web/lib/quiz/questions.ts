@@ -6,6 +6,9 @@ import t01c05 from '../../content/questions/t01-c05.json'
 import t01c06 from '../../content/questions/t01-c06.json'
 import t02c01 from '../../content/questions/t02-c01.json'
 import t02c02 from '../../content/questions/t02-c02.json'
+import t03c01 from '../../content/questions/t03-c01.json'
+import t03c02 from '../../content/questions/t03-c02.json'
+import t03c03 from '../../content/questions/t03-c03.json'
 import t04c01 from '../../content/questions/t04-c01.json'
 import t04c02 from '../../content/questions/t04-c02.json'
 import t04c03 from '../../content/questions/t04-c03.json'
@@ -15,7 +18,7 @@ import { TAXONOMY } from './taxonomy'
 import type { QuestionV2 } from './types'
 
 // Un import par chapitre (le test de publication vérifie qu'aucun fichier n'est oublié).
-const ALL = [t01c01, t01c02, t01c03, t01c04, t01c05, t01c06, t02c01, t02c02, t04c01, t04c02, t04c03, t04c04, t04c05].flat() as QuestionV2[]
+const ALL = [t01c01, t01c02, t01c03, t01c04, t01c05, t01c06, t02c01, t02c02, t03c01, t03c02, t03c03, t04c01, t04c02, t04c03, t04c04, t04c05].flat() as QuestionV2[]
 
 // Doc 43 §4 : l'app n'affiche que les `published`. Tant qu'aucune question n'est relue,
 // on montre aussi les brouillons ; passer à false au lancement.

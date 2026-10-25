@@ -1,0 +1,111 @@
+{
+  "id": "t03-c02",
+  "theme": "t03",
+  "sheets": [
+    {
+      "id": "t03-c02-f01",
+      "title": "Entrer sur l'autoroute",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "L'autoroute est faite pour aller vite en sécurité : deux chaussées séparées, une clôture, et aucun croisement à niveau."
+        },
+        {
+          "type": "heading",
+          "text": "Qui peut y rouler"
+        },
+        {
+          "type": "text",
+          "text": "Seulement les véhicules à moteur de plus de 50 cm³. Pas de piétons, de vélos ni de cyclomoteurs."
+        },
+        {
+          "type": "heading",
+          "text": "Pour entrer"
+        },
+        {
+          "type": "text",
+          "text": "Sur la voie d'accélération, je prends de la vitesse pour m'insérer sans gêner. Je ne m'arrête pas au bout de la bretelle."
+        },
+        {
+          "type": "memo",
+          "text": "Bretelle : j'accélère, je m'insère."
+        }
+      ]
+    },
+    {
+      "id": "t03-c02-f02",
+      "title": "Vitesse et distance sur autoroute",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Les limites sont plus hautes, les erreurs plus graves."
+        },
+        {
+          "type": "heading",
+          "text": "Les limites"
+        },
+        {
+          "type": "list",
+          "items": [
+            "130 km/h par temps normal.",
+            "100 km/h par pluie.",
+            "50 km/h si je vois à moins de 50 mètres."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hors agglomération, les véhicules de plus de 3,5 tonnes ou de plus de 8 mètres laissent au moins 50 mètres entre eux."
+        },
+        {
+          "type": "attention",
+          "text": "Rouler à 130 km/h n'est pas un objectif : dès que la route est mouillée ou que je vois mal, je ralentis."
+        },
+        {
+          "type": "memo",
+          "text": "130, 100 sous la pluie, 50 dans la brume."
+        }
+      ]
+    },
+    {
+      "id": "t03-c02-f03",
+      "title": "Péage et panne",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Deux situations demandent des gestes précis."
+        },
+        {
+          "type": "heading",
+          "text": "Au péage"
+        },
+        {
+          "type": "text",
+          "text": "L'arrêt est obligatoire au poste. Je ralentis bien avant, je me mets dans la file et je reste à ma place."
+        },
+        {
+          "type": "heading",
+          "text": "En panne"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je me range sur la bande d'arrêt d'urgence.",
+            "J'allume les feux de détresse.",
+            "Je signale mon véhicule, je fais descendre les passagers du côté sûr."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "La bande d'arrêt d'urgence ne sert qu'en cas de nécessité absolue : jamais pour une pause ou un appel."
+        },
+        {
+          "type": "memo",
+          "text": "Panne : bande d'arrêt, détresse, signal."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Loi 2022-04, L.2, L.58 ; décret 2004-13, art. 1, 31, annexe P4",
+  "legal_status": "pending",
+  "status": "draft"
+}

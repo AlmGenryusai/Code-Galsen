@@ -1,0 +1,120 @@
+{
+  "id": "t03-c03",
+  "theme": "t03",
+  "sheets": [
+    {
+      "id": "t03-c03-f01",
+      "title": "Écoles, hôpitaux, lieux de culte",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Autour de ces lieux, la limite est de 30 km/h : il y a des enfants, des malades, des fidèles."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ralentis dès que je vois le panneau ou le bâtiment.",
+            "Je regarde les entrées et les sorties.",
+            "Je ne dépasse pas un véhicule arrêté devant l'entrée."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Aire piétonne"
+        },
+        {
+          "type": "text",
+          "text": "Dans une aire piétonne, les piétons sont prioritaires. Les véhicules autorisés roulent à l'allure du pas."
+        },
+        {
+          "type": "memo",
+          "text": "École, hôpital, mosquée, église : 30 km/h."
+        }
+      ]
+    },
+    {
+      "id": "t03-c03-f02",
+      "title": "Passage à niveau",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Le train a toujours la priorité."
+        },
+        {
+          "type": "heading",
+          "text": "Avec barrières"
+        },
+        {
+          "type": "text",
+          "text": "J'obéis au garde et je n'empêche pas la fermeture des barrières."
+        },
+        {
+          "type": "heading",
+          "text": "Sans barrière"
+        },
+        {
+          "type": "text",
+          "text": "Je ne m'engage qu'après m'être assuré qu'aucun train n'approche et que je peux traverser en sécurité."
+        },
+        {
+          "type": "heading",
+          "text": "Si un train arrive"
+        },
+        {
+          "type": "text",
+          "text": "Je dégage immédiatement la voie ferrée. Il est interdit de s'arrêter sur le passage ou de dépasser avant."
+        },
+        {
+          "type": "attention",
+          "text": "Je ne contourne jamais une barrière."
+        },
+        {
+          "type": "memo",
+          "text": "Pas de passage si je ne suis pas sûr."
+        }
+      ]
+    },
+    {
+      "id": "t03-c03-f03",
+      "title": "Virages, descentes, routes étroites",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Certains endroits demandent de ralentir avant d'y être."
+        },
+        {
+          "type": "heading",
+          "text": "Je ralentis dans"
+        },
+        {
+          "type": "list",
+          "items": [
+            "les virages et les descentes rapides",
+            "l'approche des sommets de côte",
+            "les routes étroites, encombrées ou bordées d'habitations",
+            "les ralentisseurs de type dos d'âne et les traversées de villages"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Près d'un marché ou d'un arrêt de car, des piétons surgissent sans regarder."
+        },
+        {
+          "type": "attention",
+          "text": "Je ralentis avant le danger, pas dedans."
+        },
+        {
+          "type": "memo",
+          "text": "Virage, village, marché : je lève le pied."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 12, 13, annexe P3 ; loi 2022-04, L.2, L.60",
+  "legal_status": "pending",
+  "status": "draft"
+}

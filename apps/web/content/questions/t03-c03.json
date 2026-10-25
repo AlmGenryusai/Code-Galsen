@@ -1,0 +1,290 @@
+[
+  {
+    "id": "t03-c03-0001",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "parts": [
+      {
+        "text": "Aux abords d'une école, d'un hôpital ou d'un lieu de culte, la vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "30 km/h"
+          },
+          {
+            "id": "B",
+            "text": "50 km/h"
+          },
+          {
+            "id": "C",
+            "text": "70 km/h"
+          },
+          {
+            "id": "D",
+            "text": "20 km/h"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "La loi limite à 30 km/h aux abords des établissements scolaires, hospitaliers et des édifices religieux.",
+    "common_mistake": "Garder 50 km/h devant une école.",
+    "legal_ref": "loi 2022-04, L.60",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c03-0002",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "parts": [
+      {
+        "text": "Dans une aire piétonne, les véhicules autorisés roulent :",
+        "options": [
+          {
+            "id": "A",
+            "text": "à vitesse normale"
+          },
+          {
+            "id": "B",
+            "text": "à l'allure du pas"
+          },
+          {
+            "id": "C",
+            "text": "en klaxonnant"
+          },
+          {
+            "id": "D",
+            "text": "à 30 km/h"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Dans une aire piétonne, seuls les véhicules nécessaires à la desserte circulent, à l'allure du pas, et les piétons sont prioritaires.",
+    "common_mistake": "Passer vite parce que la rue est vide.",
+    "legal_ref": "loi 2022-04, L.2",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c03-0003",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "parts": [
+      {
+        "text": "Un passage à niveau a des barrières. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "les contourne si le train est loin"
+          },
+          {
+            "id": "B",
+            "text": "obéis au garde et n'empêche pas la fermeture"
+          },
+          {
+            "id": "C",
+            "text": "passe vite avant la fermeture"
+          },
+          {
+            "id": "D",
+            "text": "klaxonne"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On obéit au garde et on ne gêne jamais la fermeture des barrières.",
+    "common_mistake": "Passer sous la barrière qui descend.",
+    "legal_ref": "Décret 2004-13, art. 12",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c03-0004",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "parts": [
+      {
+        "text": "Je suis sur une voie ferrée et un train approche. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "m'arrête"
+          },
+          {
+            "id": "B",
+            "text": "dégage immédiatement la voie"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne"
+          },
+          {
+            "id": "D",
+            "text": "recule doucement"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le train a la priorité : on dégage la voie tout de suite pour lui laisser le passage.",
+    "common_mistake": "S'arrêter sur les rails.",
+    "legal_ref": "Décret 2004-13, art. 12",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c03-0005",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "parts": [
+      {
+        "text": "Dans une descente rapide ou à l'approche d'un virage, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélère"
+          },
+          {
+            "id": "B",
+            "text": "ralentis"
+          },
+          {
+            "id": "C",
+            "text": "rétrograde et accélère"
+          },
+          {
+            "id": "D",
+            "text": "coupe le moteur"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On réduit sa vitesse en abordant les virages, les descentes rapides et l'approche des sommets de côte.",
+    "common_mistake": "Prendre de la vitesse en descente.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c03-0006",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "parts": [
+      {
+        "text": "Sur une route étroite, encombrée ou bordée d'habitations, je roule :",
+        "options": [
+          {
+            "id": "A",
+            "text": "vite pour dégager"
+          },
+          {
+            "id": "B",
+            "text": "à vitesse réduite"
+          },
+          {
+            "id": "C",
+            "text": "au milieu"
+          },
+          {
+            "id": "D",
+            "text": "à la limite"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On ralentit sur les routes étroites, encombrées, ou bordées de maisons : des enfants, des animaux ou des piétons peuvent surgir.",
+    "common_mistake": "Rouler vite dans un village.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c03-0007",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "parts": [
+      {
+        "text": "Un panneau triangulaire annonce un ralentisseur de type dos d'âne. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélère"
+          },
+          {
+            "id": "B",
+            "text": "ralentis avant l'obstacle"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne"
+          },
+          {
+            "id": "D",
+            "text": "change de voie"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les ralentisseurs sont signalés par un panneau de danger. On ralentit avant, pas sur l'obstacle.",
+    "common_mistake": "Freiner brusquement sur le ralentisseur.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A2b)",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c03-0008",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "parts": [
+      {
+        "text": "Près d'un marché au bord de la route, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "roule vite"
+          },
+          {
+            "id": "B",
+            "text": "reste attentif et ralentis"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne tout le temps"
+          },
+          {
+            "id": "D",
+            "text": "fonce pour passer"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Beaucoup de gens, des marchandises et des véhicules arrêtés : des piétons peuvent traverser sans regarder.",
+    "common_mistake": "Rouler à pleine vitesse près d'un marché.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "t03-c02-0001",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "parts": [
+      {
+        "text": "Les autoroutes sont réservées aux véhicules à moteur de cylindrée supérieure à :",
+        "options": [
+          {
+            "id": "A",
+            "text": "50 cm³"
+          },
+          {
+            "id": "B",
+            "text": "125 cm³"
+          },
+          {
+            "id": "C",
+            "text": "250 cm³"
+          },
+          {
+            "id": "D",
+            "text": "500 cm³"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Sur autoroute, les vélos, les piétons et les engins à moteur de 50 cm³ ou moins sont interdits.",
+    "common_mistake": "Prendre l'autoroute avec un cyclomoteur.",
+    "legal_ref": "Décret 2004-13, art. 1",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c02-0002",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "parts": [
+      {
+        "text": "Sur une autoroute, la vitesse maximale par temps normal est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "90 km/h"
+          },
+          {
+            "id": "B",
+            "text": "110 km/h"
+          },
+          {
+            "id": "C",
+            "text": "130 km/h"
+          },
+          {
+            "id": "D",
+            "text": "150 km/h"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "130 km/h par temps normal, 100 km/h par pluie, 50 km/h si l'on voit à moins de 50 m.",
+    "common_mistake": "Dépasser 130 km/h « parce que la route est droite ».",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c02-0003",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "parts": [
+      {
+        "text": "Il pleut sur l'autoroute. Ma vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "100 km/h"
+          },
+          {
+            "id": "B",
+            "text": "130 km/h"
+          },
+          {
+            "id": "C",
+            "text": "110 km/h"
+          },
+          {
+            "id": "D",
+            "text": "70 km/h"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Par pluie ou autres précipitations, la limite sur autoroute passe à 100 km/h.",
+    "common_mistake": "Garder 130 km/h sous la pluie.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c02-0004",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "parts": [
+      {
+        "text": "La bande d'arrêt d'urgence sert à :",
+        "options": [
+          {
+            "id": "A",
+            "text": "se reposer"
+          },
+          {
+            "id": "B",
+            "text": "téléphoner"
+          },
+          {
+            "id": "C",
+            "text": "s'arrêter en cas de nécessité absolue"
+          },
+          {
+            "id": "D",
+            "text": "dépasser"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Cette bande n'est faite que pour l'arrêt en cas de nécessité absolue. On ne s'y arrête pas par confort.",
+    "common_mistake": "S'arrêter sur la bande pour une pause.",
+    "legal_ref": "loi 2022-04, L.2",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c02-0005",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "parts": [
+      {
+        "text": "Je suis en panne sur l'autoroute. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "reste dans mon véhicule sur la voie"
+          },
+          {
+            "id": "B",
+            "text": "me range sur la bande d'arrêt et signale mon véhicule"
+          },
+          {
+            "id": "C",
+            "text": "descends et marche sur la chaussée"
+          },
+          {
+            "id": "D",
+            "text": "reprends la route"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On quitte les voies de circulation, on allume les feux de détresse et on signale le véhicule de loin.",
+    "common_mistake": "Rester sur la voie pour attendre.",
+    "legal_ref": "loi 2022-04, L.2 ; Décret 2004-13, art. 31",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c02-0006",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "parts": [
+      {
+        "text": "Au poste de péage, je dois :",
+        "options": [
+          {
+            "id": "A",
+            "text": "passer sans m'arrêter"
+          },
+          {
+            "id": "B",
+            "text": "m'arrêter"
+          },
+          {
+            "id": "C",
+            "text": "klaxonner"
+          },
+          {
+            "id": "D",
+            "text": "faire demi-tour"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "L'arrêt est obligatoire au poste de péage. On ralentit bien avant la barrière.",
+    "common_mistake": "Arriver trop vite à la barrière.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B5c)",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c02-0007",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "parts": [
+      {
+        "text": "Sur une bretelle d'insertion, j'accélère pour :",
+        "options": [
+          {
+            "id": "A",
+            "text": "m'arrêter en bout de voie"
+          },
+          {
+            "id": "B",
+            "text": "m'intégrer à la vitesse de la circulation"
+          },
+          {
+            "id": "C",
+            "text": "dépasser sur la bande d'arrêt"
+          },
+          {
+            "id": "D",
+            "text": "couper les voitures"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "La voie d'accélération sert à prendre de la vitesse pour s'insérer sans gêner le trafic.",
+    "common_mistake": "S'arrêter au bout de la bretelle.",
+    "legal_ref": "loi 2022-04, L.2",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t03-c02-0008",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "parts": [
+      {
+        "text": "Sur autoroute, il y a des passages à niveau :",
+        "options": [
+          {
+            "id": "A",
+            "text": "oui, comme sur toute route"
+          },
+          {
+            "id": "B",
+            "text": "non, il n'y en a pas"
+          },
+          {
+            "id": "C",
+            "text": "oui, si la route est longue"
+          },
+          {
+            "id": "D",
+            "text": "oui, la nuit seulement"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Une autoroute n'a pas de croisement à niveau : pas de feu, pas de carrefour, pas de voie ferrée à traverser.",
+    "common_mistake": "Chercher un carrefour là où il n'y en a pas.",
+    "legal_ref": "loi 2022-04, L.2",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]
