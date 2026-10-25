@@ -1,0 +1,37 @@
+[
+  {
+    "id": "t01-c03-0001",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "Quelle est la distance de sécurité minimale recommandée derrière le véhicule qui vous précède ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 seconde de distance"
+          },
+          {
+            "id": "B",
+            "text": "2 secondes de distance"
+          },
+          {
+            "id": "C",
+            "text": "10 mètres fixes"
+          },
+          {
+            "id": "D",
+            "text": "La longueur de votre véhicule"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "La règle des 2 secondes : votre véhicule doit passer un repère fixe au moins 2 secondes après le véhicule qui vous précède.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

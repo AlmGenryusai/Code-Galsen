@@ -1,0 +1,37 @@
+[
+  {
+    "id": "t04-c03-0001",
+    "theme": "t04",
+    "chapter": "t04-c03",
+    "parts": [
+      {
+        "text": "Vous approchez d'une charrette tractée par un âne sur la chaussée. La bonne attitude est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "doubler sans ralentir"
+          },
+          {
+            "id": "B",
+            "text": "ralentir, garder distance latérale d'au moins 1,5 m et doubler avec prudence"
+          },
+          {
+            "id": "C",
+            "text": "klaxonner longuement pour effrayer l'animal"
+          },
+          {
+            "id": "D",
+            "text": "rester très près derrière la charrette"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Une charrette avance lentement et l'animal peut s'écarter sans prévenir. Ralentissez, laissez de la place sur le côté et ne doublez que si la route est dégagée.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

@@ -2,17 +2,17 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
-import { QuizOption } from '@/components/quiz/QuizOption'
-import { RoadSign } from '@/components/sign/RoadSign'
+import { QuestionBody } from '@/components/quiz/QuestionBody'
+import { isCorrect, needsValidation, togglePick } from '@/lib/quiz/correction'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
 import { useProgress } from '@/lib/progress/use-progress'
-import type { Question } from '@/lib/quiz/types'
+import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
 
 const { timerSeconds: TIMER_SECONDS, maxFaults: MAX_FAULTS } = EXAM_CONFIG
 
 interface ExamViewProps {
-  questions: Question[]
+  questions: QuestionV2[]
 }
 
 type ExamResult = 'pass' | 'fail'
@@ -22,7 +22,8 @@ export function ExamView({ questions }: ExamViewProps) {
   const total = questions.length
 
   const [index, setIndex] = useState(0)
-  const [selected, setSelected] = useState<string | null>(null)
+  const [picked, setPicked] = useState<OptionId[][]>([])
+  const [submitted, setSubmitted] = useState(false)
   const [timedOut, setTimedOut] = useState(false)
   const [faults, setFaults] = useState(0)
   const [result, setResult] = useState<ExamResult | null>(null)
@@ -32,7 +33,9 @@ export function ExamView({ questions }: ExamViewProps) {
   const { recordExam } = useProgress()
 
   const q = questions[index]
-  const answered = selected !== null || timedOut
+  const answered = submitted || timedOut
+  const validate = needsValidation(q)
+  const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
   const isLast = index + 1 >= total
 
   useEffect(() => {
@@ -47,12 +50,19 @@ export function ExamView({ questions }: ExamViewProps) {
     return () => clearTimeout(id)
   }, [timeLeft, answered, result])
 
-  function handleSelect(optionId: string) {
+  function submit(answers: OptionId[][]) {
     if (!tryAnswer()) return
-    setSelected(optionId)
-    if (optionId !== q.correctId) {
-      setFaults(f => f + 1)
-    }
+    setPicked(answers)
+    setSubmitted(true)
+    if (!isCorrect(q, answers)) setFaults(f => f + 1)
+  }
+
+  function handlePick(partIndex: number, id: OptionId) {
+    if (answered) return
+    const next = q.parts.map((_, i) => picked[i] ?? [])
+    next[partIndex] = togglePick(q.parts[partIndex], next[partIndex], id)
+    if (validate) setPicked(next)
+    else submit(next)
   }
 
   function handleNext() {
@@ -64,17 +74,11 @@ export function ExamView({ questions }: ExamViewProps) {
       setResult(passed ? 'pass' : 'fail')
     } else {
       setIndex(i => i + 1)
-      setSelected(null)
+      setPicked([])
+      setSubmitted(false)
       setTimedOut(false)
       setTimeLeft(TIMER_SECONDS)
     }
-  }
-
-  function optionState(optionId: string) {
-    if (!answered) return 'idle' as const
-    if (optionId === q.correctId) return 'correct' as const
-    if (optionId === selected) return 'wrong' as const
-    return 'disabled' as const
   }
 
   if (result !== null) {
@@ -188,35 +192,9 @@ export function ExamView({ questions }: ExamViewProps) {
         paddingTop: 4,
         paddingLeft: 20,
         paddingRight: 20,
-        paddingBottom: answered ? 90 : 20,
+        paddingBottom: answered || validate ? 90 : 20,
       }}>
-        {q.sign && (
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
-            <RoadSign id={q.sign} size={72} />
-          </div>
-        )}
-
-        <p style={{
-          fontSize: 17,
-          fontWeight: 600,
-          lineHeight: 1.5,
-          color: 'hsl(var(--text))',
-          marginBottom: 20,
-        }}>
-          {q.text}
-        </p>
-
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-          {q.options.map(opt => (
-            <QuizOption
-              key={opt.id}
-              id={opt.id}
-              text={opt.text}
-              state={optionState(opt.id)}
-              onSelect={() => handleSelect(opt.id)}
-            />
-          ))}
-        </div>
+        <QuestionBody question={q} picked={picked} revealed={answered} onPick={handlePick} />
 
         {/* Explication inline — bouton en position fixe bas */}
         {answered && (
@@ -235,25 +213,12 @@ export function ExamView({ questions }: ExamViewProps) {
                 Temps écoulé
               </div>
             )}
-            {q.explanation && (
-              <div style={{
-                padding: '12px 14px',
-                background: 'hsl(var(--surface))',
-                border: '1px solid hsl(var(--border))',
-                borderRadius: 'var(--radius)',
-                fontSize: 13,
-                lineHeight: 1.5,
-                color: 'hsl(var(--muted))',
-              }}>
-                {q.explanation}
-              </div>
-            )}
           </div>
         )}
       </div>
 
       {/* Action bar — position fixe bas, toujours dans zone pouce */}
-      {answered && (
+      {(answered || validate) && (
         <div style={{
           position: 'fixed',
           bottom: 0,
@@ -265,7 +230,8 @@ export function ExamView({ questions }: ExamViewProps) {
           borderTop: '1px solid hsl(var(--border))',
         }}>
           <button
-            onClick={handleNext}
+            onClick={answered ? handleNext : () => submit(q.parts.map((_, i) => picked[i] ?? []))}
+            disabled={!answered && !ready}
             style={{
               width: '100%',
               padding: '16px',
@@ -276,10 +242,11 @@ export function ExamView({ questions }: ExamViewProps) {
               fontSize: 15,
               fontWeight: 700,
               fontFamily: 'var(--font-sans)',
-              cursor: 'pointer',
+              cursor: !answered && !ready ? 'default' : 'pointer',
+              opacity: !answered && !ready ? 0.5 : 1,
             }}
           >
-            {isLast ? 'Voir les résultats' : 'Question suivante →'}
+            {!answered ? 'Valider' : isLast ? 'Voir les résultats' : 'Question suivante →'}
           </button>
         </div>
       )}

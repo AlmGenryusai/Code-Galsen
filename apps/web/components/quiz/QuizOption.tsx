@@ -1,24 +1,25 @@
+export type OptionState = 'idle' | 'checked' | 'correct' | 'wrong' | 'disabled'
+
 interface QuizOptionProps {
-  id: string
+  id: string // 'A' | 'B' | 'C' | 'D' : la lettre affichée
   text: string
-  state: 'idle' | 'correct' | 'wrong' | 'disabled'
+  state: OptionState
   onSelect: () => void
 }
 
-const OPTION_LABELS = ['A', 'B', 'C', 'D']
-const OPTION_INDEX: Record<string, number> = { a: 0, b: 1, c: 2, d: 3 }
-
 export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
-  const label = OPTION_LABELS[OPTION_INDEX[id] ?? 0]
+  const idle = state === 'idle' || state === 'checked'
 
   const bg =
     state === 'correct' ? 'hsl(var(--success-soft))' :
     state === 'wrong'   ? 'hsl(var(--error-soft))' :
+    state === 'checked' ? 'hsl(var(--surface-2))' :
     'hsl(var(--surface))'
 
   const border =
     state === 'correct' ? '2px solid hsl(var(--success))' :
     state === 'wrong'   ? '2px solid hsl(var(--error))' :
+    state === 'checked' ? '2px solid hsl(var(--primary))' :
     '1.5px solid hsl(var(--border))'
 
   const icon =
@@ -28,7 +29,8 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
 
   return (
     <button
-      onClick={state === 'idle' ? onSelect : undefined}
+      onClick={idle ? onSelect : undefined}
+      aria-pressed={state === 'checked'}
       disabled={state === 'disabled'}
       style={{
         display: 'flex',
@@ -41,7 +43,7 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
         border,
         borderRadius: 'var(--radius)',
         textAlign: 'left',
-        cursor: state === 'idle' ? 'pointer' : 'default',
+        cursor: idle ? 'pointer' : 'default',
         WebkitTapHighlightColor: 'transparent',
       }}
     >
@@ -50,8 +52,8 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
         width: 28,
         height: 28,
         borderRadius: '50%',
-        background: state === 'idle' ? 'hsl(var(--surface-2))' : 'transparent',
-        border: state === 'idle' ? '1.5px solid hsl(var(--border-2))' : 'none',
+        background: idle ? 'hsl(var(--surface-2))' : 'transparent',
+        border: idle ? '1.5px solid hsl(var(--border-2))' : 'none',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -60,7 +62,7 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
         fontFamily: 'var(--font-mono)',
         color: 'hsl(var(--muted))',
       }}>
-        {icon ?? label}
+        {icon ?? id}
       </span>
       <span style={{
         fontSize: 15,

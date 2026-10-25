@@ -1,0 +1,37 @@
+[
+  {
+    "id": "t04-c01-0001",
+    "theme": "t04",
+    "chapter": "t04-c01",
+    "parts": [
+      {
+        "text": "Un piéton s'engage sur un passage piéton. Que faire ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Klaxonner pour l'avertir"
+          },
+          {
+            "id": "B",
+            "text": "Accélérer pour passer avant lui"
+          },
+          {
+            "id": "C",
+            "text": "Ralentir et lui céder le passage"
+          },
+          {
+            "id": "D",
+            "text": "Continuer si la voie de droite est libre"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Le piéton engagé sur un passage piéton est prioritaire. Vous devez impérativement ralentir et lui céder le passage.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

@@ -1,15 +1,29 @@
-import data from '../../content/questions.json'
-import type { Question } from './types'
+import t01c01 from '../../content/questions/t01-c01.json'
+import t01c02 from '../../content/questions/t01-c02.json'
+import t01c03 from '../../content/questions/t01-c03.json'
+import t02c02 from '../../content/questions/t02-c02.json'
+import t04c01 from '../../content/questions/t04-c01.json'
+import t04c02 from '../../content/questions/t04-c02.json'
+import t04c03 from '../../content/questions/t04-c03.json'
+import { TAXONOMY } from './taxonomy'
+import type { QuestionV2 } from './types'
 
-const QUESTIONS = data as Question[]
+// Un import par chapitre (le test de publication vérifie qu'aucun fichier n'est oublié).
+const ALL = [t01c01, t01c02, t01c03, t02c02, t04c01, t04c02, t04c03].flat() as QuestionV2[]
 
-export function getQuestions(theme?: string): Question[] {
-  return theme ? QUESTIONS.filter((q) => q.theme === theme) : QUESTIONS
+// Doc 43 §4 : l'app n'affiche que les `published`. Tant qu'aucune question n'est relue,
+// on montre aussi les brouillons ; passer à false au lancement.
+const SHOW_DRAFTS = true
+
+export function getQuestions(theme?: string): QuestionV2[] {
+  const visible = ALL.filter((q) => SHOW_DRAFTS || q.status === 'published')
+  return theme ? visible.filter((q) => q.theme === theme) : visible
 }
 
-/** Thèmes présents dans le JSON, dans l'ordre d'apparition, avec leur nombre de questions. */
+/** Thèmes ayant des questions, dans l'ordre de la taxonomie, avec leur nombre de questions. */
 export function getThemes(): { theme: string; count: number }[] {
-  const counts = new Map<string, number>()
-  for (const q of QUESTIONS) counts.set(q.theme, (counts.get(q.theme) ?? 0) + 1)
-  return Array.from(counts, ([theme, count]) => ({ theme, count }))
+  const questions = getQuestions()
+  return TAXONOMY.map((t) => ({ theme: t.id, count: questions.filter((q) => q.theme === t.id).length })).filter(
+    (t) => t.count > 0,
+  )
 }

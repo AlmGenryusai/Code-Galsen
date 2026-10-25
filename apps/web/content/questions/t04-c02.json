@@ -1,0 +1,37 @@
+[
+  {
+    "id": "t04-c02-0001",
+    "theme": "t04",
+    "chapter": "t04-c02",
+    "parts": [
+      {
+        "text": "En présence d'un motocycliste à votre droite à un feu rouge, vous devez :",
+        "options": [
+          {
+            "id": "A",
+            "text": "redémarrer rapidement pour le doubler"
+          },
+          {
+            "id": "B",
+            "text": "rester vigilant car il peut serrer à droite ou se faufiler"
+          },
+          {
+            "id": "C",
+            "text": "klaxonner pour le faire reculer"
+          },
+          {
+            "id": "D",
+            "text": "lui couper la route"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Une moto peut se faufiler entre les files ou serrer à droite au feu. Restez attentif avant de démarrer ou de tourner : elle est difficile à voir.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  }
+]

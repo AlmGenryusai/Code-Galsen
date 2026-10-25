@@ -1,7 +1,8 @@
 // Progression locale — stockée dans localStorage sous une seule clé
 // Fonctions pures : aucun accès à window ici (voir use-progress.ts)
 
-import type { Question } from '../quiz/types'
+import { themeTitle } from '../quiz/taxonomy'
+import type { QuestionV2 } from '../quiz/types'
 import { DEFAULT_SRS_CONFIG, initSrs, review, type SrsState } from '../quiz/srs'
 
 export const STORAGE_KEY = 'galsen.progress.v1'
@@ -34,7 +35,7 @@ export interface WeakTheme {
   questionsAttempted: number
 }
 
-export type QuestionRef = Pick<Question, 'id' | 'theme'>
+export type QuestionRef = Pick<QuestionV2, 'id' | 'theme'>
 
 export function emptyProgress(): Progress {
   return { answers: {}, exams: [], srs: {} }
@@ -112,7 +113,7 @@ export function themeErrorRates(p: Progress, questions: QuestionRef[]): WeakThem
   }
   return Array.from(byTheme, ([theme, t]) => ({
     themeId: theme,
-    label: theme,
+    label: themeTitle(theme),
     errorRate: t.wrong / t.total,
     questionsAttempted: t.attempted,
   })).sort((a, b) => b.errorRate - a.errorRate)

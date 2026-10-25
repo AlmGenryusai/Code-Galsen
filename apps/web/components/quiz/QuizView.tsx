@@ -2,39 +2,48 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { QuizOption } from './QuizOption'
-import { RoadSign } from '@/components/sign/RoadSign'
+import { QuestionBody } from './QuestionBody'
+import { isCorrect, needsValidation, togglePick } from '@/lib/quiz/correction'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
 import { useProgress } from '@/lib/progress/use-progress'
-import type { Question } from '@/lib/quiz/types'
+import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
 
 interface QuizViewProps {
-  questions: Question[]
+  questions: QuestionV2[]
 }
-
-type OptionState = 'idle' | 'correct' | 'wrong' | 'disabled'
 
 export function QuizView({ questions }: QuizViewProps) {
   const router = useRouter()
   const [index, setIndex] = useState(0)
-  const [selected, setSelected] = useState<string | null>(null)
+  const [picked, setPicked] = useState<OptionId[][]>([])
+  const [answered, setAnswered] = useState(false)
   const [score, setScore] = useState(0)
   const [done, setDone] = useState(false)
 
   const q = questions[index]
   const total = questions.length
-  const answered = selected !== null
+  const validate = needsValidation(q)
+  const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
 
   const { tryAnswer, tryNavigate } = useQuestionGuards(index)
   const { recordAnswer } = useProgress()
 
-  function handleSelect(optionId: string) {
+  function submit(answers: OptionId[][]) {
     if (!tryAnswer()) return
-    setSelected(optionId)
-    const isCorrect = optionId === q.correctId
-    if (isCorrect) setScore(s => s + 1)
-    recordAnswer(q.id, isCorrect)
+    setPicked(answers)
+    setAnswered(true)
+    const ok = isCorrect(q, answers)
+    if (ok) setScore(s => s + 1)
+    recordAnswer(q.id, ok)
+  }
+
+  function handlePick(partIndex: number, id: OptionId) {
+    if (answered) return
+    const next = q.parts.map((_, i) => picked[i] ?? [])
+    next[partIndex] = togglePick(q.parts[partIndex], next[partIndex], id)
+    if (validate) setPicked(next)
+    else submit(next)
   }
 
   function handleNext() {
@@ -43,15 +52,9 @@ export function QuizView({ questions }: QuizViewProps) {
       setDone(true)
     } else {
       setIndex(i => i + 1)
-      setSelected(null)
+      setPicked([])
+      setAnswered(false)
     }
-  }
-
-  function optionState(optionId: string): OptionState {
-    if (!answered) return 'idle'
-    if (optionId === q.correctId) return 'correct'
-    if (optionId === selected) return 'wrong'
-    return 'disabled'
   }
 
   if (done) {
@@ -147,54 +150,13 @@ export function QuizView({ questions }: QuizViewProps) {
         paddingLeft: 20,
         paddingRight: 20,
         // réserve la hauteur de la barre fixe du bas (bouton + marges + zone sûre iPhone)
-        paddingBottom: answered ? 'calc(100px + env(safe-area-inset-bottom))' : 20,
+        paddingBottom: answered || validate ? 'calc(100px + env(safe-area-inset-bottom))' : 20,
       }}>
-        {q.sign && (
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}>
-            <RoadSign id={q.sign} size={72} />
-          </div>
-        )}
-
-        <p style={{
-          fontSize: 17,
-          fontWeight: 600,
-          lineHeight: 1.5,
-          color: 'hsl(var(--text))',
-          marginBottom: 20,
-        }}>
-          {q.text}
-        </p>
-
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-          {q.options.map(opt => (
-            <QuizOption
-              key={opt.id}
-              id={opt.id}
-              text={opt.text}
-              state={optionState(opt.id)}
-              onSelect={() => handleSelect(opt.id)}
-            />
-          ))}
-        </div>
-
-        {answered && q.explanation && (
-          <div style={{
-            marginTop: 16,
-            padding: '12px 14px',
-            background: 'hsl(var(--surface))',
-            border: '1px solid hsl(var(--border))',
-            borderRadius: 'var(--radius)',
-            fontSize: 13,
-            lineHeight: 1.5,
-            color: 'hsl(var(--muted))',
-          }}>
-            {q.explanation}
-          </div>
-        )}
+        <QuestionBody question={q} picked={picked} revealed={answered} onPick={handlePick} />
       </div>
 
       {/* Bouton fixe bas — toujours dans zone pouce */}
-      {answered && (
+      {(answered || validate) && (
         <div style={{
           position: 'fixed',
           bottom: 0,
@@ -206,7 +168,8 @@ export function QuizView({ questions }: QuizViewProps) {
           borderTop: '1px solid hsl(var(--border))',
         }}>
           <button
-            onClick={handleNext}
+            onClick={answered ? handleNext : () => submit(q.parts.map((_, i) => picked[i] ?? []))}
+            disabled={!answered && !ready}
             style={{
               width: '100%',
               padding: '16px',
@@ -217,10 +180,11 @@ export function QuizView({ questions }: QuizViewProps) {
               fontSize: 15,
               fontWeight: 700,
               fontFamily: 'var(--font-sans)',
-              cursor: 'pointer',
+              cursor: !answered && !ready ? 'default' : 'pointer',
+              opacity: !answered && !ready ? 0.5 : 1,
             }}
           >
-            {index + 1 >= total ? 'Voir les résultats' : 'Suivant →'}
+            {!answered ? 'Valider' : index + 1 >= total ? 'Voir les résultats' : 'Suivant →'}
           </button>
         </div>
       )}

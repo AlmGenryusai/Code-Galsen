@@ -8,12 +8,12 @@ import { pickDue } from '@/lib/quiz/srs'
 import { useProgress } from '@/lib/progress/use-progress'
 import { redirectFor, type Target } from '@/lib/license/license'
 import { useLicense } from '@/lib/license/use-license'
-import type { Question } from '@/lib/quiz/types'
+import type { QuestionV2 } from '@/lib/quiz/types'
 
 const DUE_LIMIT = 20
 
 interface Props {
-  questions: Question[]
+  questions: QuestionV2[]
 }
 
 /**
@@ -42,16 +42,14 @@ export function QuizEntry({ questions }: Props) {
 
   const { progress, loaded } = useProgress()
   // Liste figée au démarrage : la file change à chaque réponse
-  const [due, setDue] = useState<Question[] | null>(null)
+  const [due, setDue] = useState<QuestionV2[] | null>(null)
 
   useEffect(() => {
     if (!isErrors || !loaded || due !== null) return
     const byId = new Map(questions.map((q) => [q.id, q]))
-    setDue(
-      pickDue(Object.values(progress.srs), DUE_LIMIT)
-        .map((s) => byId.get(s.questionId))
-        .filter((q): q is Question => q !== undefined),
-    )
+    // ids inconnus (anciennes questions) écartés avant pickDue : ils ne doivent pas prendre de place
+    const known = Object.values(progress.srs).filter((s) => byId.has(s.questionId))
+    setDue(pickDue(known, DUE_LIMIT).map((s) => byId.get(s.questionId)!))
   }, [isErrors, loaded, due, questions, progress.srs])
 
   if (!license.loaded || redirect) return null

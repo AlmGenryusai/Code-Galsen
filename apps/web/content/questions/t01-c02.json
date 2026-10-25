@@ -1,0 +1,78 @@
+[
+  {
+    "id": "t01-c02-0001",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "parts": [
+      {
+        "text": "À un carrefour sans signalisation, qui est prioritaire ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Celui qui vient de gauche"
+          },
+          {
+            "id": "B",
+            "text": "Celui qui vient de droite"
+          },
+          {
+            "id": "C",
+            "text": "Celui qui roule le plus vite"
+          },
+          {
+            "id": "D",
+            "text": "Celui qui klaxonne"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Règle de priorité à droite : le véhicule venant de droite est prioritaire à tout carrefour sans signalisation.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0002",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "media": {
+      "kind": "sign",
+      "src": "route-prioritaire",
+      "alt": "Panneau : Route à caractère prioritaire",
+      "credit": "Code Galsen (SVG)"
+    },
+    "parts": [
+      {
+        "text": "Sur une route signalée comme prioritaire, qui a la priorité à une intersection ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Le véhicule arrivant de droite"
+          },
+          {
+            "id": "B",
+            "text": "Le véhicule sur la route prioritaire"
+          },
+          {
+            "id": "C",
+            "text": "Le premier arrivé"
+          },
+          {
+            "id": "D",
+            "text": "Le véhicule le plus lourd"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sur une route prioritaire, les véhicules qui y circulent ont la priorité sur tous ceux venant des voies secondaires.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

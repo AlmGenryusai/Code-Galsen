@@ -1,0 +1,259 @@
+[
+  {
+    "id": "t01-c01-0001",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Un panneau circulaire à fond rouge signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "Une obligation"
+          },
+          {
+            "id": "B",
+            "text": "Un danger"
+          },
+          {
+            "id": "C",
+            "text": "Une interdiction"
+          },
+          {
+            "id": "D",
+            "text": "Une indication"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Les panneaux circulaires à fond rouge sont des panneaux d'interdiction.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0002",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "media": {
+      "kind": "sign",
+      "src": "cedez-le-passage",
+      "alt": "Panneau : Cédez le passage",
+      "credit": "Code Galsen (SVG)"
+    },
+    "parts": [
+      {
+        "text": "Un triangle inversé (pointe en bas) à fond blanc avec liséré rouge signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "Arrêt obligatoire"
+          },
+          {
+            "id": "B",
+            "text": "Cédez le passage"
+          },
+          {
+            "id": "C",
+            "text": "Sens interdit"
+          },
+          {
+            "id": "D",
+            "text": "Zone de danger"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le panneau \"Cédez le passage\" impose de laisser passer les usagers venant de la route croisée, sans arrêt obligatoire.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0003",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Le dépassement est interdit :",
+        "options": [
+          {
+            "id": "A",
+            "text": "Sur toute route en dehors des agglomérations"
+          },
+          {
+            "id": "B",
+            "text": "Lorsqu'une ligne continue sépare les voies"
+          },
+          {
+            "id": "C",
+            "text": "De nuit uniquement"
+          },
+          {
+            "id": "D",
+            "text": "Uniquement sur les routes nationales"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "La ligne continue au centre de la chaussée interdit formellement tout dépassement. Seule la ligne discontinue autorise le franchissement.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0004",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Que signifie un feu orange fixe ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Accélérer pour passer avant le rouge"
+          },
+          {
+            "id": "B",
+            "text": "Freiner si possible, sinon franchir prudemment"
+          },
+          {
+            "id": "C",
+            "text": "Même signification qu'un feu rouge"
+          },
+          {
+            "id": "D",
+            "text": "Priorité aux piétons uniquement"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le feu orange annonce le passage au rouge. Freinez si vous le pouvez en toute sécurité ; sinon, franchissez prudemment l'intersection.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0005",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Un feu rouge clignotant à une intersection signifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "Ralentir et passer prudemment"
+          },
+          {
+            "id": "B",
+            "text": "S'arrêter obligatoirement et céder le passage avant de repartir"
+          },
+          {
+            "id": "C",
+            "text": "Priorité aux véhicules venant de gauche"
+          },
+          {
+            "id": "D",
+            "text": "Même signification qu'un feu orange fixe"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le feu rouge clignotant signifie arrêt obligatoire, puis cédez le passage. Il indique une intersection à risque élevé.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0006",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "media": {
+      "kind": "sign",
+      "src": "stop",
+      "alt": "Panneau : Stop",
+      "credit": "Code Galsen (SVG)"
+    },
+    "parts": [
+      {
+        "text": "Un panneau STOP signifie que vous devez :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ralentir et passer si la voie est libre"
+          },
+          {
+            "id": "B",
+            "text": "marquer un arrêt complet puis céder le passage"
+          },
+          {
+            "id": "C",
+            "text": "tourner obligatoirement à droite"
+          },
+          {
+            "id": "D",
+            "text": "klaxonner avant de passer"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le STOP impose de vous arrêter complètement, même si la route semble libre, puis de céder le passage aux usagers qui arrivent.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0007",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Au Sénégal, en zone interurbaine, des branches d'arbres déposées sur la chaussée signalent généralement :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un mariage en cours"
+          },
+          {
+            "id": "B",
+            "text": "une panne ou un accident à proximité"
+          },
+          {
+            "id": "C",
+            "text": "une zone de chasse"
+          },
+          {
+            "id": "D",
+            "text": "un arrêt de car rapide"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sur les routes interurbaines, des branches posées sur la chaussée avertissent d'un véhicule en panne ou d'un accident plus loin. Ralentissez et soyez prêt à vous arrêter.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  }
+]
