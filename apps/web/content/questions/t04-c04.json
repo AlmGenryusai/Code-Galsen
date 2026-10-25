@@ -33,7 +33,7 @@
     "common_mistake": "Rouler trop près d'un car qui s'arrête souvent.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "reviewed",
+    "status": "published",
     "review": {
       "moniteur": "2026-10-25"
     }
@@ -72,7 +72,7 @@
     "common_mistake": "Dépasser un car arrêté à vitesse normale.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "reviewed",
+    "status": "published",
     "review": {
       "moniteur": "2026-10-25"
     }
@@ -111,7 +111,7 @@
     "common_mistake": "Ne pas lire le comportement du taxi.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "reviewed",
+    "status": "published",
     "review": {
       "moniteur": "2026-10-25"
     }
@@ -149,10 +149,11 @@
     "explanation": "Le bus a un long gabarit et se déporte avant de s'arrêter. Lui laisser la place évite l'accrochage.",
     "common_mistake": "Accélérer pour passer avant un bus qui signale.",
     "legal_ref": "Décret 2004-13, art. 8 et 19 ; loi 2022-04, L.49",
-    "legal_status": "pending",
-    "status": "reviewed",
+    "legal_status": "confirmed",
+    "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-10-25",
+      "juriste": "2026-10-25"
     }
   },
   {
@@ -190,7 +191,7 @@
     "common_mistake": "Doubler le car à chaque arrêt.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "reviewed",
+    "status": "published",
     "review": {
       "moniteur": "2026-10-25"
     }
@@ -238,10 +239,11 @@
     "explanation": "Le car cache ce qui se passe devant lui. Ralentir avant de le dépasser vous laisse le temps de réagir.",
     "common_mistake": "Dépasser un car arrêté sans ralentir.",
     "legal_ref": "Décret 2004-13, art. 13 et 21",
-    "legal_status": "pending",
-    "status": "reviewed",
+    "legal_status": "confirmed",
+    "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-10-25",
+      "juriste": "2026-10-25"
     }
   }
 ]
