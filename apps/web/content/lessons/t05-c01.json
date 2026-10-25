@@ -1,0 +1,98 @@
+{
+  "id": "t05-c01",
+  "theme": "t05",
+  "sheets": [
+    {
+      "id": "t05-c01-f01",
+      "title": "Les papiers à avoir sur soi",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "À chaque contrôle, un agent peut me demander mes papiers. Je dois les avoir avec moi."
+        },
+        {
+          "type": "heading",
+          "text": "Je présente"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mon permis de conduire, valable pour la catégorie de mon véhicule.",
+            "Le certificat d'immatriculation du véhicule, avec la date de fin de la visite technique.",
+            "L'assurance, et l'autorisation de transport si c'est un véhicule de transport."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Je m'arrête à la sommation d'un agent. Fuir un contrôle est un délit."
+        },
+        {
+          "type": "memo",
+          "text": "Permis, carte du véhicule, assurance."
+        }
+      ]
+    },
+    {
+      "id": "t05-c01-f02",
+      "title": "Mise en circulation et visite technique",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Un véhicule ne roule pas sans être déclaré."
+        },
+        {
+          "type": "heading",
+          "text": "Les règles"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je déclare la mise en circulation dans les 15 jours.",
+            "Je reçois un certificat d'immatriculation et d'aptitude technique.",
+            "Un véhicule de transport passe la visite technique avant d'être mis en circulation."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La date d'expiration de la visite technique est inscrite sur le certificat d'immatriculation."
+        },
+        {
+          "type": "memo",
+          "text": "Déclarer, immatriculer, visiter."
+        }
+      ]
+    },
+    {
+      "id": "t05-c01-f03",
+      "title": "Plaques et identité",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Une voiture porte deux plaques d'immatriculation, à l'avant et à l'arrière. Les motos et cyclomoteurs n'ont pas cette obligation."
+        },
+        {
+          "type": "heading",
+          "text": "À éviter"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rouler sans plaque ou avec une plaque non agréée.",
+            "Donner un faux nom ou une fausse adresse à un agent : c'est un délit."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Un permis d'une autre catégorie ne me permet pas de conduire ce véhicule."
+        },
+        {
+          "type": "memo",
+          "text": "Deux plaques, vrai nom, bon permis."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 44, 45, 107 ; loi 2022-04, L.4, L.44, L.47, L.85, L.86",
+  "legal_status": "pending",
+  "status": "draft"
+}

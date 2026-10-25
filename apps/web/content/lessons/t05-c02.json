@@ -1,0 +1,108 @@
+{
+  "id": "t05-c02",
+  "theme": "t05",
+  "sheets": [
+    {
+      "id": "t05-c02-f01",
+      "title": "Bien charger",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Un chargement mal fait devient un danger pour les autres."
+        },
+        {
+          "type": "heading",
+          "text": "Je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je prends toute précaution pour qu'il ne cause ni dommage ni danger.",
+            "Je fixe solidement ce qui dépasse.",
+            "Chaînes et bâches ne flottent pas et ne traînent pas."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Matériaux fins"
+        },
+        {
+          "type": "text",
+          "text": "Sable, ciment, gravier fin : je les couvre d'une bâche étanche bien amarrée."
+        },
+        {
+          "type": "memo",
+          "text": "Amarré, couvert, rien qui traîne."
+        }
+      ]
+    },
+    {
+      "id": "t05-c02-f02",
+      "title": "Charges longues",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Des barres, des tuyaux ou des planches dépassent facilement."
+        },
+        {
+          "type": "heading",
+          "text": "Limites"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rien ne dépasse à l'avant du véhicule.",
+            "Rien ne dépasse de plus de 3 mètres à l'arrière.",
+            "Les pièces sont amarrées entre elles et au véhicule."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Un chargement qui dépasse sans signal est invisible la nuit."
+        },
+        {
+          "type": "memo",
+          "text": "Pas devant, trois mètres derrière au maximum."
+        }
+      ]
+    },
+    {
+      "id": "t05-c02-f03",
+      "title": "Passagers et enfants",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chaque place est faite pour une personne."
+        },
+        {
+          "type": "heading",
+          "text": "Interdit"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Passagers sur les marchepieds, y compris les apprentis.",
+            "Passagers sur le toit.",
+            "Plus de personnes que de places inscrites sur le certificat d'immatriculation.",
+            "Une remorque pour transporter des personnes."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Transport scolaire"
+        },
+        {
+          "type": "text",
+          "text": "Les enfants non accompagnés sont transportés assis."
+        },
+        {
+          "type": "memo",
+          "text": "Une place, une personne, assis."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Loi 2022-04, L.50 à L.56",
+  "legal_status": "pending",
+  "status": "draft"
+}

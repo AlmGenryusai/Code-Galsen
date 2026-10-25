@@ -1,0 +1,292 @@
+[
+  {
+    "id": "t05-c02-0001",
+    "theme": "t05",
+    "chapter": "t05-c02",
+    "parts": [
+      {
+        "text": "Un chargement ne doit :",
+        "options": [
+          {
+            "id": "A",
+            "text": "causer ni dommage ni danger"
+          },
+          {
+            "id": "B",
+            "text": "tomber sur la route"
+          },
+          {
+            "id": "C",
+            "text": "dépasser sans être amarré"
+          },
+          {
+            "id": "D",
+            "text": "traîner sur le sol"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Toute précaution doit être prise pour que le chargement ne puisse blesser ou gêner personne.",
+    "common_mistake": "Penser qu'un chargement tient tout seul.",
+    "legal_ref": "loi 2022-04, L.54",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c02-0002",
+    "theme": "t05",
+    "chapter": "t05-c02",
+    "parts": [
+      {
+        "text": "Les chaînes et bâches d'un chargement doivent être :",
+        "options": [
+          {
+            "id": "A",
+            "text": "laissées flottantes"
+          },
+          {
+            "id": "B",
+            "text": "fixées pour ne pas dépasser ni traîner"
+          },
+          {
+            "id": "C",
+            "text": "enlevées en ville"
+          },
+          {
+            "id": "D",
+            "text": "accrochées aux feux"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Chaînes, bâches et accessoires doivent être fixés pour ne jamais sortir du contour ni traîner sur le sol.",
+    "common_mistake": "Laisser une bâche flotter au vent.",
+    "legal_ref": "loi 2022-04, L.54",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c02-0003",
+    "theme": "t05",
+    "chapter": "t05-c02",
+    "parts": [
+      {
+        "text": "Un chargement de grande longueur peut dépasser à l'arrière de :",
+        "options": [
+          {
+            "id": "A",
+            "text": "1 mètre"
+          },
+          {
+            "id": "B",
+            "text": "3 mètres au plus"
+          },
+          {
+            "id": "C",
+            "text": "5 mètres"
+          },
+          {
+            "id": "D",
+            "text": "sans limite"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Il ne doit pas dépasser de plus de 3 mètres l'arrière du véhicule ni dépasser à l'avant.",
+    "common_mistake": "Charger de longues barres sans limite.",
+    "legal_ref": "loi 2022-04, L.55",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c02-0004",
+    "theme": "t05",
+    "chapter": "t05-c02",
+    "parts": [
+      {
+        "text": "Je transporte du sable. Je dois :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le laisser à l'air libre"
+          },
+          {
+            "id": "B",
+            "text": "l'amarrer sous une bâche étanche"
+          },
+          {
+            "id": "C",
+            "text": "rouler très vite"
+          },
+          {
+            "id": "D",
+            "text": "le mouiller"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les matériaux pulvérulents doivent être solidement amarrés sous une bâche étanche pour ne pas s'envoler.",
+    "common_mistake": "Rouler avec un sable non couvert.",
+    "legal_ref": "loi 2022-04, L.54",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c02-0005",
+    "theme": "t05",
+    "chapter": "t05-c02",
+    "parts": [
+      {
+        "text": "Dans un véhicule de transport de personnes, les passagers sur le marchepied sont :",
+        "options": [
+          {
+            "id": "A",
+            "text": "autorisés si le véhicule est lent"
+          },
+          {
+            "id": "B",
+            "text": "interdits, y compris les apprentis"
+          },
+          {
+            "id": "C",
+            "text": "autorisés en ville"
+          },
+          {
+            "id": "D",
+            "text": "autorisés si le car est plein"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Il est interdit de transporter des passagers, y compris les apprentis chauffeurs, sur les marchepieds.",
+    "common_mistake": "Laisser monter sur le marchepied quand le car est plein.",
+    "legal_ref": "loi 2022-04, L.50",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c02-0006",
+    "theme": "t05",
+    "chapter": "t05-c02",
+    "parts": [
+      {
+        "text": "Je ne transporte pas de passagers :",
+        "options": [
+          {
+            "id": "A",
+            "text": "sur le toit"
+          },
+          {
+            "id": "B",
+            "text": "sur le marchepied"
+          },
+          {
+            "id": "C",
+            "text": "au-delà du nombre de places"
+          },
+          {
+            "id": "D",
+            "text": "assis à l'arrière"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Les passagers sur les toits, sur les marchepieds ou en surnombre sont interdits, y compris dans les véhicules particuliers.",
+    "common_mistake": "Charger tout le monde « pour une fois ».",
+    "legal_ref": "loi 2022-04, L.50 et L.51",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c02-0007",
+    "theme": "t05",
+    "chapter": "t05-c02",
+    "parts": [
+      {
+        "text": "Une remorque peut-elle transporter des passagers ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "oui, s'il y a des bancs"
+          },
+          {
+            "id": "B",
+            "text": "oui, sur courte distance"
+          },
+          {
+            "id": "C",
+            "text": "non, c'est interdit"
+          },
+          {
+            "id": "D",
+            "text": "oui, pour les enfants"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Il est interdit d'affecter une remorque au transport de personnes, public ou privé.",
+    "common_mistake": "Faire monter des gens dans une remorque.",
+    "legal_ref": "loi 2022-04, L.52",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c02-0008",
+    "theme": "t05",
+    "chapter": "t05-c02",
+    "parts": [
+      {
+        "text": "Dans un car scolaire, les enfants non accompagnés sont transportés :",
+        "options": [
+          {
+            "id": "A",
+            "text": "debout"
+          },
+          {
+            "id": "B",
+            "text": "assis"
+          },
+          {
+            "id": "C",
+            "text": "sur le toit"
+          },
+          {
+            "id": "D",
+            "text": "à l'arrière uniquement"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les enfants sont transportés assis s'ils ne sont pas accompagnés.",
+    "common_mistake": "Laisser des enfants debout.",
+    "legal_ref": "loi 2022-04, L.53",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

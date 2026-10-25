@@ -1,0 +1,290 @@
+[
+  {
+    "id": "t05-c04-0001",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "parts": [
+      {
+        "text": "Conduire un véhicule à moteur sans permis est puni de :",
+        "options": [
+          {
+            "id": "A",
+            "text": "rien si on est prudent"
+          },
+          {
+            "id": "B",
+            "text": "1 à 3 ans de prison et 100 000 à 1 000 000 FCFA"
+          },
+          {
+            "id": "C",
+            "text": "une simple amende de 5 000 FCFA"
+          },
+          {
+            "id": "D",
+            "text": "un avertissement"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "C'est un délit : 1 à 3 ans de prison et 100 000 à 1 000 000 FCFA d'amende. En cas d'accident grave, les peines sont doublées.",
+    "common_mistake": "Minimiser une conduite sans permis.",
+    "legal_ref": "loi 2022-04, L.78",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0002",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "parts": [
+      {
+        "text": "Je cause un accident et je m'enfuis. C'est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "autorisé si personne ne m'a vu"
+          },
+          {
+            "id": "B",
+            "text": "un délit puni de 1 à 3 ans de prison"
+          },
+          {
+            "id": "C",
+            "text": "sans conséquence"
+          },
+          {
+            "id": "D",
+            "text": "permis si je préviens plus tard"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Fuir après un accident pour échapper à sa responsabilité est puni d'1 à 3 ans de prison et de 500 000 à 5 000 000 FCFA. En cas de morts ou blessés, les peines sont doublées.",
+    "common_mistake": "Fuir pour éviter les ennuis.",
+    "legal_ref": "loi 2022-04, L.82",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0003",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "parts": [
+      {
+        "text": "Je refuse de m'arrêter à la sommation d'un agent. J'encours :",
+        "options": [
+          {
+            "id": "A",
+            "text": "6 mois à 2 ans de prison et une amende"
+          },
+          {
+            "id": "B",
+            "text": "rien"
+          },
+          {
+            "id": "C",
+            "text": "un simple rappel"
+          },
+          {
+            "id": "D",
+            "text": "une prime"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Refuser d'obtempérer ou refuser les vérifications est puni de 6 mois à 2 ans de prison et de 100 000 à 500 000 FCFA.",
+    "common_mistake": "Fuir un contrôle de police.",
+    "legal_ref": "loi 2022-04, L.85",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0004",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "parts": [
+      {
+        "text": "Utiliser le téléphone en main au volant ou enfreindre les règles de feux et de pré-signalisation est puni de :",
+        "options": [
+          {
+            "id": "A",
+            "text": "rien"
+          },
+          {
+            "id": "B",
+            "text": "3 à 6 mois de prison et 50 000 à 500 000 FCFA"
+          },
+          {
+            "id": "C",
+            "text": "1 000 FCFA"
+          },
+          {
+            "id": "D",
+            "text": "un sourire"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les infractions L.57 à L.64 sont punies de 3 à 6 mois de prison et de 50 000 à 500 000 FCFA.",
+    "common_mistake": "Croire que ce n'est qu'une contravention légère.",
+    "legal_ref": "loi 2022-04, L.87",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0005",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "parts": [
+      {
+        "text": "Si ces infractions causent un accident mortel :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le juge peut accorder un sursis"
+          },
+          {
+            "id": "B",
+            "text": "aucun sursis, amende d'au moins 200 000 FCFA"
+          },
+          {
+            "id": "C",
+            "text": "l'amende est supprimée"
+          },
+          {
+            "id": "D",
+            "text": "c'est un simple accident"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "En cas d'accident mortel, aucun sursis n'est accordé et l'amende ne peut pas descendre en dessous de 200 000 FCFA.",
+    "common_mistake": "Espérer un sursis après un mort.",
+    "legal_ref": "loi 2022-04, L.87",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0006",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "parts": [
+      {
+        "text": "Placer volontairement un objet sur la route pour gêner la circulation est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "permis"
+          },
+          {
+            "id": "B",
+            "text": "un délit puni de 3 mois à 5 ans de prison"
+          },
+          {
+            "id": "C",
+            "text": "une simple farce"
+          },
+          {
+            "id": "D",
+            "text": "toléré la nuit"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Gêner volontairement la circulation en plaçant un obstacle est puni de 3 mois à 5 ans de prison et de 50 000 à 1 000 000 FCFA.",
+    "common_mistake": "Poser une pierre « pour ralentir ».",
+    "legal_ref": "loi 2022-04, L.96",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0007",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "parts": [
+      {
+        "text": "Modifier le limiteur de vitesse d'un véhicule pour dépasser sa vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "autorisé"
+          },
+          {
+            "id": "B",
+            "text": "puni de 3 à 6 mois de prison et d'une amende"
+          },
+          {
+            "id": "C",
+            "text": "sans sanction"
+          },
+          {
+            "id": "D",
+            "text": "conseillé"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Modifier le dispositif de limitation de vitesse est puni de 3 à 6 mois de prison et de 50 000 à 500 000 FCFA.",
+    "common_mistake": "Débrider un véhicule.",
+    "legal_ref": "loi 2022-04, L.94",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0008",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "parts": [
+      {
+        "text": "Le conducteur d'un véhicule est responsable pénalement :",
+        "options": [
+          {
+            "id": "A",
+            "text": "des infractions commises par lui en conduisant"
+          },
+          {
+            "id": "B",
+            "text": "des infractions du passager"
+          },
+          {
+            "id": "C",
+            "text": "de toutes les infractions de la ville"
+          },
+          {
+            "id": "D",
+            "text": "seulement du propriétaire"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le conducteur répond des infractions qu'il commet en conduisant. Le véhicule peut aussi être immobilisé ou mis en fourrière.",
+    "common_mistake": "Croire que le propriétaire seul est responsable.",
+    "legal_ref": "loi 2022-04, L.98",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

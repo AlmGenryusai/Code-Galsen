@@ -1,0 +1,86 @@
+{
+  "id": "t05-c03",
+  "theme": "t05",
+  "sheets": [
+    {
+      "id": "t05-c03-f01",
+      "title": "Le permis nouvelle génération",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Le permis est une carte numérisée et sécurisée. Elle contient les empreintes du titulaire pour permettre un contrôle biométrique."
+        },
+        {
+          "type": "heading",
+          "text": "À retenir"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Chaque conducteur a un capital de points.",
+            "Le nombre de points au départ est fixé par décret.",
+            "Les points sont personnels : seules les autorités administratives et judiciaires peuvent les connaître."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Une carte sécurisée, un capital de points."
+        }
+      ]
+    },
+    {
+      "id": "t05-c03-f02",
+      "title": "Perdre et récupérer des points",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Certaines infractions font perdre des points. La liste et le barème sont fixés par décret."
+        },
+        {
+          "type": "heading",
+          "text": "Si les points baissent"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je peux en récupérer en suivant un stage de sensibilisation à la sécurité routière.",
+            "Si le capital tombe à zéro, le permis est invalidé."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Un permis invalidé ne permet plus de conduire."
+        },
+        {
+          "type": "memo",
+          "text": "Stage pour récupérer. Zéro point, permis invalidé."
+        }
+      ]
+    },
+    {
+      "id": "t05-c03-f03",
+      "title": "Suspension et annulation",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Un juge peut suspendre ou annuler un permis, en plus du retrait de points."
+        },
+        {
+          "type": "heading",
+          "text": "Conduire quand même"
+        },
+        {
+          "type": "text",
+          "text": "C'est un délit puni de prison et d'amende, sans circonstances atténuantes. Refuser de remettre un permis suspendu est puni de la même façon."
+        },
+        {
+          "type": "memo",
+          "text": "Permis suspendu : je ne conduis pas."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Loi 2022-04, L.5 à L.12, L.77, L.81",
+  "legal_status": "pending",
+  "status": "draft"
+}
