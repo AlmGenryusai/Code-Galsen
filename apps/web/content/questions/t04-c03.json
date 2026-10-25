@@ -32,7 +32,10 @@
     "explanation": "Une charrette avance lentement et l'animal peut s'écarter sans prévenir. Ralentissez, laissez de la place sur le côté et ne doublez que si la route est dégagée.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c03-0002",
@@ -68,7 +71,10 @@
     "common_mistake": "Se lancer sans avoir vu assez loin devant.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c03-0003",
@@ -104,7 +110,10 @@
     "common_mistake": "Klaxonner fort en dépassant.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c03-0004",
@@ -140,7 +149,10 @@
     "common_mistake": "Rouler trop vite pour la visibilité de la nuit.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c03-0005",
@@ -176,7 +188,10 @@
     "common_mistake": "Passer au milieu du troupeau.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c03-0006",
@@ -213,6 +228,9 @@
     "common_mistake": "Chasser les animaux au klaxon.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   }
 ]

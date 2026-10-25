@@ -32,7 +32,10 @@
     "explanation": "Le piéton engagé sur un passage piéton est prioritaire. Vous devez impérativement ralentir et lui céder le passage.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c01-0002",
@@ -68,7 +71,10 @@
     "common_mistake": "Compter sur le klaxon pour dégager la route.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c01-0003",
@@ -104,7 +110,10 @@
     "common_mistake": "Dépasser le car arrêté sans ralentir.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c01-0004",
@@ -140,7 +149,10 @@
     "common_mistake": "Rouler vite en pensant que les piétons voient la voiture.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c01-0005",
@@ -177,7 +189,10 @@
     "common_mistake": "Ne regarder que les piétons déjà engagés.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c01-0006",
@@ -223,7 +238,10 @@
     "common_mistake": "Croire que hors passage, on n'a plus à s'arrêter.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   },
   {
     "id": "t04-c01-0007",
@@ -259,6 +277,9 @@
     "common_mistake": "Presser le piéton pour gagner quelques secondes.",
     "legal_ref": null,
     "legal_status": "pending",
-    "status": "draft"
+    "status": "reviewed",
+    "review": {
+      "moniteur": "2026-10-25"
+    }
   }
 ]
