@@ -30,6 +30,15 @@
     --error:       6 64% 46%;    /* #C0392B — faute, erreur */
     --error-soft:  6 64% 93%;    /* #F8DED9 */
 
+    /* ── Charte 46 §3 ── */
+    --ink:        33 17% 10%;    /* #1F1B16 — texte principal */
+    --structure:  161 50% 24%;   /* #1F5E4A — en-têtes, barre du bas, lettre cochée */
+    --sand:       36 32% 87%;    /* #E8DFD2 — bordures, réponses non cochées */
+    --right:      132 49% 35%;   /* #2E8540 — juste */
+    --right-soft: 132 40% 92%;
+    --wrong:        3 71% 41%;   /* #B3261E — faux */
+    --wrong-soft:   3 60% 93%;
+
     /* Ombres discrètes — sensation papier (P15) */
     --shadow-1: 0 1px 0 rgba(31,26,23,.04), 0 1px 2px rgba(31,26,23,.04);
     --shadow-2: 0 1px 0 rgba(31,26,23,.05), 0 4px 12px -6px rgba(31,26,23,.08);
