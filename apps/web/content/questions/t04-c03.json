@@ -13,7 +13,7 @@
           },
           {
             "id": "B",
-            "text": "ralentir, garder distance latérale d'au moins 1,5 m et doubler avec prudence"
+            "text": "ralentir, garder distance latérale d'au moins 1 m et doubler avec prudence"
           },
           {
             "id": "C",
@@ -30,7 +30,7 @@
       }
     ],
     "explanation": "Une charrette avance lentement et l'animal peut s'écarter sans prévenir. Ralentissez, laissez de la place sur le côté et ne doublez que si la route est dégagée.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, art. 18-5",
     "legal_status": "pending",
     "status": "reviewed",
     "review": {
@@ -69,7 +69,7 @@
     ],
     "explanation": "Une charrette est lente et se déporte parfois. Il vous faut une longue vue dégagée pour finir le dépassement en sécurité.",
     "common_mistake": "Se lancer sans avoir vu assez loin devant.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, art. 13, 18 et 21",
     "legal_status": "pending",
     "status": "reviewed",
     "review": {
