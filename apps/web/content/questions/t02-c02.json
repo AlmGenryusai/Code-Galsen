@@ -1,0 +1,37 @@
+[
+  {
+    "id": "t02-c02-0001",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "parts": [
+      {
+        "text": "L'utilisation du téléphone tenu en main au volant est-elle autorisée au Sénégal ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Oui, à vitesse réduite"
+          },
+          {
+            "id": "B",
+            "text": "Oui, à l'arrêt"
+          },
+          {
+            "id": "C",
+            "text": "Non, c'est interdit et sanctionné"
+          },
+          {
+            "id": "D",
+            "text": "Oui, avec oreillette Bluetooth"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Tenir son téléphone en main au volant est strictement interdit et passible d'une amende, même à l'arrêt.",
+    "legal_ref": null,
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]
