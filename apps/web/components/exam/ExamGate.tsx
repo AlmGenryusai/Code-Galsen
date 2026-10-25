@@ -6,10 +6,10 @@ import { ExamView } from './ExamView'
 import { ACTIVATE_HREF, canAccess } from '@/lib/license/license'
 import { useLicense } from '@/lib/license/use-license'
 import { useProgress } from '@/lib/progress/use-progress'
-import type { Question } from '@/lib/quiz/types'
+import type { QuestionV2 } from '@/lib/quiz/types'
 
 /** 1er examen blanc libre, ensuite licence requise. Décision prise une fois à l'entrée. */
-export function ExamGate({ questions }: { questions: Question[] }) {
+export function ExamGate({ questions }: { questions: QuestionV2[] }) {
   const router = useRouter()
   const license = useLicense()
   const { progress, loaded } = useProgress()

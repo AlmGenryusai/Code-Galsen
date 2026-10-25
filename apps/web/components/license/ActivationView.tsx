@@ -4,6 +4,7 @@ import { useState, type FormEvent } from 'react'
 import Link from 'next/link'
 import { formatCode, isValidCode } from '@/lib/license/code'
 import { FREE_THEME } from '@/lib/license/license'
+import { themeTitle } from '@/lib/quiz/taxonomy'
 import { activate, type ActivationError } from '@/lib/license/activate'
 import { useLicense } from '@/lib/license/use-license'
 
@@ -104,7 +105,7 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
         ))}
       </ul>
       <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10 }}>
-        Version gratuite : thème {FREE_THEME} et 1 examen blanc.
+        Version gratuite : thème « {themeTitle(FREE_THEME)} » et 1 examen blanc.
       </p>
 
       <div style={{

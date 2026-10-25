@@ -1,8 +1,8 @@
 import { ExamGate } from '@/components/exam/ExamGate'
 import { getQuestions } from '@/lib/quiz/questions'
-import type { Question } from '@/lib/quiz/types'
+import type { QuestionV2 } from '@/lib/quiz/types'
 
-function shuffle(arr: Question[]): Question[] {
+function shuffle(arr: QuestionV2[]): QuestionV2[] {
   const a = [...arr]
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))

@@ -42,7 +42,9 @@ export function DashboardView({ data, questions }: Props) {
     : 0
   const examScore = progress.exams[0]?.score ?? null
   const examsTaken = progress.exams.length
-  const srsCountDue = countDue(Object.values(progress.srs))
+  // ids inconnus (anciennes questions) ignorés
+  const knownIds = new Set(questions.map((q) => q.id))
+  const srsCountDue = countDue(Object.values(progress.srs).filter((s) => knownIds.has(s.questionId)))
   const answersCount = Object.values(progress.answers).reduce((s, a) => s + a.correct + a.wrong, 0)
 
   const sublabel = `${answersCount} question${answersCount > 1 ? 's' : ''} répondue${answersCount > 1 ? 's' : ''} · ${examsTaken} examen${examsTaken > 1 ? 's' : ''} blanc${examsTaken > 1 ? 's' : ''} fait${examsTaken > 1 ? 's' : ''}`

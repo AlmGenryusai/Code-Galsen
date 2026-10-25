@@ -1,5 +1,6 @@
 import { DashboardView } from '@/components/dashboard/DashboardView'
 import { getQuestions, getThemes } from '@/lib/quiz/questions'
+import { themeTitle } from '@/lib/quiz/taxonomy'
 
 const THEME_COLORS = ['#c94b30', '#a03820', '#f5b033', '#4a6741', '#3a5a8a']
 
@@ -10,9 +11,9 @@ export default function DashboardPage() {
       data={{
         themes: getThemes().map(({ theme, count }, i) => ({
           id: theme,
-          icon: theme[0],
+          icon: themeTitle(theme)[0],
           color: THEME_COLORS[i % THEME_COLORS.length],
-          title: theme,
+          title: themeTitle(theme),
           questionsTotal: count,
         })),
       }}
