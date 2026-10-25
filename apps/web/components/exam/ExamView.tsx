@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { QuestionBody } from '@/components/quiz/QuestionBody'
-import { isCorrect, needsValidation, togglePick } from '@/lib/quiz/correction'
+import { isCorrect, togglePick } from '@/lib/quiz/correction'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
 import { useProgress } from '@/lib/progress/use-progress'
@@ -34,7 +34,6 @@ export function ExamView({ questions }: ExamViewProps) {
 
   const q = questions[index]
   const answered = submitted || timedOut
-  const validate = needsValidation(q)
   const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
   const isLast = index + 1 >= total
 
@@ -61,8 +60,7 @@ export function ExamView({ questions }: ExamViewProps) {
     if (answered) return
     const next = q.parts.map((_, i) => picked[i] ?? [])
     next[partIndex] = togglePick(q.parts[partIndex], next[partIndex], id)
-    if (validate) setPicked(next)
-    else submit(next)
+    setPicked(next)
   }
 
   function handleNext() {
@@ -190,15 +188,14 @@ export function ExamView({ questions }: ExamViewProps) {
         flex: 1,
         overflowY: 'auto',
         paddingTop: 4,
-        paddingLeft: 20,
-        paddingRight: 20,
-        paddingBottom: answered || validate ? 90 : 20,
+        // QuestionBody gère ses marges latérales (média pleine largeur)
+        paddingBottom: 'calc(90px + env(safe-area-inset-bottom))',
       }}>
         <QuestionBody question={q} picked={picked} revealed={answered} onPick={handlePick} />
 
         {/* Explication inline — bouton en position fixe bas */}
         {answered && (
-          <div style={{ marginTop: 16 }}>
+          <div style={{ padding: '16px 20px 0' }}>
             {timedOut && (
               <div style={{
                 padding: '10px 14px',
@@ -218,38 +215,36 @@ export function ExamView({ questions }: ExamViewProps) {
       </div>
 
       {/* Action bar — position fixe bas, toujours dans zone pouce */}
-      {(answered || validate) && (
-        <div style={{
-          position: 'fixed',
-          bottom: 0,
-          left: 0,
-          right: 0,
-          padding: '12px 20px',
-          paddingBottom: 'calc(12px + env(safe-area-inset-bottom))',
-          background: 'hsl(var(--bg))',
-          borderTop: '1px solid hsl(var(--border))',
-        }}>
-          <button
-            onClick={answered ? handleNext : () => submit(q.parts.map((_, i) => picked[i] ?? []))}
-            disabled={!answered && !ready}
-            style={{
-              width: '100%',
-              padding: '16px',
-              background: 'hsl(var(--primary))',
-              color: 'hsl(var(--text))',
-              border: 'none',
-              borderRadius: 'var(--radius)',
-              fontSize: 15,
-              fontWeight: 700,
-              fontFamily: 'var(--font-sans)',
-              cursor: !answered && !ready ? 'default' : 'pointer',
-              opacity: !answered && !ready ? 0.5 : 1,
-            }}
-          >
-            {!answered ? 'Valider' : isLast ? 'Voir les résultats' : 'Question suivante →'}
-          </button>
-        </div>
-      )}
+      <div style={{
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        padding: '12px 20px',
+        paddingBottom: 'calc(12px + env(safe-area-inset-bottom))',
+        background: 'hsl(var(--bg))',
+        borderTop: '1px solid hsl(var(--border))',
+      }}>
+        <button
+          onClick={answered ? handleNext : () => submit(q.parts.map((_, i) => picked[i] ?? []))}
+          disabled={!answered && !ready}
+          style={{
+            width: '100%',
+            padding: '16px',
+            background: 'hsl(var(--primary))',
+            color: 'hsl(var(--text))',
+            border: 'none',
+            borderRadius: 'var(--radius)',
+            fontSize: 15,
+            fontWeight: 700,
+            fontFamily: 'var(--font-sans)',
+            cursor: !answered && !ready ? 'default' : 'pointer',
+            opacity: !answered && !ready ? 0.5 : 1,
+          }}
+        >
+          {!answered ? 'Valider' : isLast ? 'Voir les résultats' : 'Question suivante →'}
+        </button>
+      </div>
     </div>
   )
 }

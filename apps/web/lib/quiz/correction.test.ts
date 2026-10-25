@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { isCorrect, needsValidation, togglePick } from './correction'
+import { answerKind, isCorrect, togglePick } from './correction'
 import type { Part, QuestionV2 } from './types'
 
 function question(...parts: Part[]): QuestionV2 {
@@ -63,10 +63,10 @@ describe('isCorrect — question double', () => {
   it('nombre de parties incorrect → faux', () => expect(isCorrect(q, [['B']])).toBe(false))
 })
 
-describe('needsValidation / togglePick', () => {
-  it('une bonne réponse, 1 partie → tap direct', () => expect(needsValidation(question(single))).toBe(false))
-  it('plusieurs bonnes réponses → validation', () => expect(needsValidation(question(multi))).toBe(true))
-  it('question double → validation', () => expect(needsValidation(question(single, yesNo))).toBe(true))
+describe('answerKind / togglePick', () => {
+  it('une bonne réponse, 1 partie → single', () => expect(answerKind(question(single))).toBe('single'))
+  it('plusieurs bonnes réponses → multi', () => expect(answerKind(question(multi))).toBe('multi'))
+  it('question double → double', () => expect(answerKind(question(single, yesNo))).toBe('double'))
   it('une bonne réponse : le tap remplace', () => expect(togglePick(single, ['A'], 'C')).toEqual(['C']))
   it('plusieurs bonnes réponses : le tap coche puis décoche', () => {
     expect(togglePick(multi, ['A'], 'B')).toEqual(['A', 'B'])

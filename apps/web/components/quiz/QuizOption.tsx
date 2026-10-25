@@ -7,71 +7,72 @@ interface QuizOptionProps {
   onSelect: () => void
 }
 
+const SR_ONLY = { position: 'absolute', width: 1, height: 1, overflow: 'hidden', clip: 'rect(0 0 0 0)', whiteSpace: 'nowrap' } as const
+
 export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
   const idle = state === 'idle' || state === 'checked'
 
   const bg =
-    state === 'correct' ? 'hsl(var(--success-soft))' :
-    state === 'wrong'   ? 'hsl(var(--error-soft))' :
-    state === 'checked' ? 'hsl(var(--surface-2))' :
+    state === 'correct' ? 'hsl(var(--right-soft))' :
+    state === 'wrong'   ? 'hsl(var(--wrong-soft))' :
     'hsl(var(--surface))'
 
   const border =
-    state === 'correct' ? '2px solid hsl(var(--success))' :
-    state === 'wrong'   ? '2px solid hsl(var(--error))' :
-    state === 'checked' ? '2px solid hsl(var(--primary))' :
-    '1.5px solid hsl(var(--border))'
+    state === 'correct' ? '2px solid hsl(var(--right))' :
+    state === 'wrong'   ? '2px solid hsl(var(--wrong))' :
+    state === 'checked' ? '2px solid hsl(var(--structure))' :
+    '1.5px solid hsl(var(--sand))'
 
-  const icon =
-    state === 'correct' ? '✓' :
-    state === 'wrong'   ? '✕' :
-    null
+  const squareBg =
+    state === 'correct' ? 'hsl(var(--right))' :
+    state === 'wrong'   ? 'hsl(var(--wrong))' :
+    state === 'checked' ? 'hsl(var(--structure))' :
+    'hsl(var(--sand))'
+
+  const squareColor = idle && state === 'idle' ? 'hsl(var(--ink))' : '#fff'
+
+  const mark = state === 'correct' ? '✓' : state === 'wrong' ? '✕' : null
 
   return (
     <button
       onClick={idle ? onSelect : undefined}
-      aria-pressed={state === 'checked'}
+      aria-pressed={idle ? state === 'checked' : undefined}
       disabled={state === 'disabled'}
       style={{
         display: 'flex',
         alignItems: 'center',
         gap: 12,
         width: '100%',
-        minHeight: 64,
-        padding: '14px 16px',
+        minHeight: 56,
+        padding: '10px 12px',
         background: bg,
         border,
         borderRadius: 'var(--radius)',
         textAlign: 'left',
         cursor: idle ? 'pointer' : 'default',
         WebkitTapHighlightColor: 'transparent',
+        opacity: state === 'disabled' ? 0.75 : 1,
       }}
     >
       <span style={{
         flexShrink: 0,
-        width: 28,
-        height: 28,
-        borderRadius: '50%',
-        background: idle ? 'hsl(var(--surface-2))' : 'transparent',
-        border: idle ? '1.5px solid hsl(var(--border-2))' : 'none',
+        width: 32,
+        height: 32,
+        borderRadius: 8,
+        background: squareBg,
+        color: squareColor,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        fontSize: 12,
+        fontSize: 16,
         fontWeight: 700,
-        fontFamily: 'var(--font-mono)',
-        color: 'hsl(var(--muted))',
       }}>
-        {icon ?? id}
+        {mark ?? id}
       </span>
-      <span style={{
-        fontSize: 15,
-        lineHeight: 1.4,
-        fontWeight: 500,
-        color: 'hsl(var(--text))',
-      }}>
+      <span style={{ fontSize: 16, lineHeight: 1.4, fontWeight: 500, color: 'hsl(var(--ink))' }}>
         {text}
       </span>
+      {mark && <span style={SR_ONLY}>{state === 'correct' ? ' (bonne réponse)' : ' (fausse)'}</span>}
     </button>
   )
 }
