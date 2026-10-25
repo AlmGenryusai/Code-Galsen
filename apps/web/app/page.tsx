@@ -1,5 +1,5 @@
 import { DashboardView } from '@/components/dashboard/DashboardView'
-import { getLessons } from '@/lib/lessons/lessons'
+import { allSheetIds } from '@/lib/lessons/lessons'
 import { getQuestions, getThemes } from '@/lib/quiz/questions'
 import { themeTitle } from '@/lib/quiz/taxonomy'
 
@@ -15,7 +15,7 @@ export default function DashboardPage() {
         })),
       }}
       questions={getQuestions().map(({ id, theme }) => ({ id, theme }))}
-      lessonIds={getLessons().map((l) => l.id)}
+      lessonIds={allSheetIds()}
     />
   )
 }

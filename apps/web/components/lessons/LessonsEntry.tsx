@@ -1,17 +1,20 @@
 'use client'
 
 import { useSearchParams } from 'next/navigation'
+import { ChapterView } from './ChapterView'
 import { LessonList } from './LessonList'
-import { LessonView } from './LessonView'
-import type { Lesson } from '@/lib/lessons/types'
+import { SheetView } from './SheetView'
+import { parseSheetParam } from '@/lib/lessons/lessons'
+import type { LessonFile } from '@/lib/lessons/types'
 
-interface Props {
-  lessons: Lesson[]
-}
-
-/** /fiches : la liste ; /fiches?c=<chapitre> : une fiche. Chapitre inconnu → la liste. */
-export function LessonsEntry({ lessons }: Props) {
-  const chapter = useSearchParams().get('c')
-  const lesson = lessons.find((l) => l.id === chapter)
-  return lesson ? <LessonView lesson={lesson} /> : <LessonList lessons={lessons} />
+/**
+ * /fiches : les thèmes ; ?c=<chapitre> : ses fiches ; ?c=…&f=N : la fiche N.
+ * Chapitre inconnu → les thèmes ; fiche inconnue → le chapitre.
+ */
+export function LessonsEntry({ lessons }: { lessons: LessonFile[] }) {
+  const params = useSearchParams()
+  const lesson = lessons.find((l) => l.id === params.get('c'))
+  if (!lesson) return <LessonList lessons={lessons} />
+  const n = parseSheetParam(params.get('f'), lesson.sheets.length)
+  return n === null ? <ChapterView lesson={lesson} /> : <SheetView lesson={lesson} n={n} />
 }

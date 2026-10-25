@@ -33,7 +33,7 @@ export interface Progress {
   exams: ExamAttempt[]                // plus récent en tête
   srs: Record<string, SrsState>       // file « mes erreurs », clé = id de question
   series: Record<string, SeriesResult> // dernière série par thème, clé = id de thème
-  lessons: Record<string, string>     // fiches lues : id de chapitre → date ISO de la 1re lecture
+  lessons: Record<string, string>     // fiches lues : id de fiche → date ISO de la 1re lecture
 }
 
 export interface WeakTheme {
@@ -51,6 +51,12 @@ export function emptyProgress(): Progress {
 
 function isObject(v: unknown): v is Record<string, unknown> {
   return typeof v === 'object' && v !== null && !Array.isArray(v)
+}
+
+/** Fiches lues : seules les entrées « clé → texte » sont gardées (les anciennes clés de chapitre ne correspondent à aucune fiche). */
+function parseLessons(raw: unknown): Progress['lessons'] {
+  if (!isObject(raw)) return {}
+  return Object.fromEntries(Object.entries(raw).filter(([, v]) => typeof v === 'string')) as Progress['lessons']
 }
 
 /** Relit la progression ; null, JSON invalide ou forme inattendue → progression vide. */
@@ -73,7 +79,7 @@ export function parseProgress(raw: string | null): Progress {
     // idem : progression enregistrée avant les séries
     series: isObject(data.series) ? (data.series as Progress['series']) : {},
     // idem : progression enregistrée avant les fiches
-    lessons: isObject(data.lessons) ? (data.lessons as Progress['lessons']) : {},
+    lessons: parseLessons(data.lessons),
   }
 }
 
@@ -117,9 +123,9 @@ export function withSeries(p: Progress, theme: string, result: SeriesResult): Pr
 }
 
 /** Marque une fiche lue ; la première date est conservée. */
-export function withLesson(p: Progress, chapter: string, now: Date): Progress {
-  if (p.lessons[chapter]) return p
-  return { ...p, lessons: { ...p.lessons, [chapter]: now.toISOString() } }
+export function withLesson(p: Progress, sheetId: string, now: Date): Progress {
+  if (p.lessons[sheetId]) return p
+  return { ...p, lessons: { ...p.lessons, [sheetId]: now.toISOString() } }
 }
 
 /** Taux d'erreur par thème (Σ fautes / Σ réponses), thèmes avec au moins une réponse, du plus faible au plus fort. */

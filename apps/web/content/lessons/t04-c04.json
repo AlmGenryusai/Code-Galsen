@@ -1,12 +1,22 @@
 {
   "id": "t04-c04",
   "theme": "t04",
-  "blocks": {
-    "rule": "Je me méfie des cars rapides, Ndiaga Ndiaye, bus et taxis qui s'arrêtent n'importe où pour prendre des clients. Je garde de la distance derrière eux.",
-    "why": "Un arrêt brusque devant moi, et des passagers qui descendent côté route.",
-    "situation": "Un Ndiaga Ndiaye freine d'un coup au bord de la route à Pikine. Des passagers descendent et traversent devant lui : je ralentis et je ne le dépasse pas sans voir.",
-    "trap": "Dépasser un car arrêté sans ralentir. Un piéton peut surgir devant le car."
-  },
+  "sheets": [
+    {
+      "id": "t04-c04-f01",
+      "title": "Cars rapides, Ndiaga : la distance",
+      "blocks": [
+        { "type": "heading", "text": "La règle" },
+        { "type": "text", "text": "Je me méfie des cars rapides, Ndiaga Ndiaye, bus et taxis qui s'arrêtent n'importe où pour prendre des clients. Je garde de la distance derrière eux." },
+        { "type": "heading", "text": "Pourquoi" },
+        { "type": "text", "text": "Un arrêt brusque devant moi, et des passagers qui descendent côté route." },
+        { "type": "heading", "text": "Sur la route" },
+        { "type": "text", "text": "Un Ndiaga Ndiaye freine d'un coup au bord de la route à Pikine. Des passagers descendent et traversent devant lui : je ralentis et je ne le dépasse pas sans voir." },
+        { "type": "heading", "text": "Le piège" },
+        { "type": "text", "text": "Dépasser un car arrêté sans ralentir. Un piéton peut surgir devant le car." }
+      ]
+    }
+  ],
   "legal_ref": null,
   "legal_status": "pending",
   "status": "draft"
