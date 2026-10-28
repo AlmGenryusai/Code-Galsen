@@ -85,7 +85,7 @@
           },
           {
             "id": "B",
-            "text": "coupe le moteur et serre le frein"
+            "text": "coupe le moteur et immobilise le véhicule"
           },
           {
             "id": "C",
@@ -113,11 +113,11 @@
     "chapter": "t07-c02",
     "parts": [
       {
-        "text": "Je monte dans ma voiture. Je m'assure d'abord :",
+        "text": "J'ouvre ma portière pour monter dans ma voiture. Je m'assure d'abord :",
         "options": [
           {
             "id": "A",
-            "text": "que la voie est libre"
+            "text": "que je peux l'ouvrir sans danger"
           },
           {
             "id": "B",
@@ -137,8 +137,8 @@
         ]
       }
     ],
-    "explanation": "On regarde avant d'entrer ou de sortir : des véhicules, des motos, des piétons peuvent passer.",
-    "common_mistake": "Monter sans regarder la circulation.",
+    "explanation": "On s'assure avant d'ouvrir la portière, pour entrer comme pour sortir : des véhicules, des motos, des piétons peuvent passer.",
+    "common_mistake": "Ouvrir sans regarder la circulation.",
     "legal_ref": "Décret 2004-13, art. 35",
     "legal_status": "pending",
     "status": "draft"
@@ -185,7 +185,7 @@
     "chapter": "t07-c02",
     "parts": [
       {
-        "text": "Je quitte mon véhicule plus de quelques minutes. Je :",
+        "text": "Je quitte mon véhicule. Je :",
         "options": [
           {
             "id": "A",

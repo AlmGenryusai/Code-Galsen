@@ -45,7 +45,7 @@
         "options": [
           {
             "id": "A",
-            "text": "un casque homologué"
+            "text": "un casque de sécurité"
           },
           {
             "id": "B",
@@ -65,9 +65,9 @@
         ]
       }
     ],
-    "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité conforme à un modèle agréé.",
+    "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité.",
     "common_mistake": "Croire que le casque ne concerne que le conducteur.",
-    "legal_ref": "Décret 2004-13, annexe D28",
+    "legal_ref": "Décret 2004-13, annexe D28 ; loi 2022-04, L.102 7°",
     "legal_status": "pending",
     "status": "draft"
   },
