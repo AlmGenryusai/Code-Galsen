@@ -47,7 +47,7 @@
     },
     "parts": [
       {
-        "text": "Un triangle inversé (pointe en bas) à fond blanc avec liséré rouge signifie :",
+        "text": "Un triangle inversé (pointe en bas) bordé de rouge signifie :",
         "options": [
           {
             "id": "A",
@@ -72,7 +72,7 @@
       }
     ],
     "explanation": "Le panneau \"Cédez le passage\" impose de laisser passer les usagers venant de la route croisée, sans arrêt obligatoire.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, annexe P3 (AB3) ; art. 28",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -107,7 +107,7 @@
       }
     ],
     "explanation": "La ligne continue au centre de la chaussée interdit formellement tout dépassement. Seule la ligne discontinue autorise le franchissement.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, art. 4 ; loi 2022-04, L.102 3°",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -142,7 +142,7 @@
       }
     ],
     "explanation": "Le feu orange annonce le passage au rouge. Freinez si vous le pouvez en toute sécurité ; sinon, franchissez prudemment l'intersection.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, annexe P7",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -219,7 +219,7 @@
       }
     ],
     "explanation": "Le STOP impose de vous arrêter complètement, même si la route semble libre, puis de céder le passage aux usagers qui arrivent.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (AB4)",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -458,7 +458,7 @@
     ],
     "explanation": "Ce panneau de danger annonce une intersection de deux routes sans autre indication. La règle de la droite s'applique.",
     "common_mistake": "Penser que la croix indique un passage à niveau.",
-    "legal_ref": "Décret 2004-13, annexe P3 (AB1)",
+    "legal_ref": "Décret 2004-13, annexe P3 (AB1) ; art. 28 al.1",
     "legal_status": "pending",
     "status": "draft",
     "media": {
