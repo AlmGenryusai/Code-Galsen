@@ -49,13 +49,12 @@
           "type": "list",
           "items": [
             "J'allume mes feux de détresse.",
-            "Je pose un triangle de pré-signalisation derrière mon véhicule.",
-            "Je fais descendre les passagers du côté sûr."
+            "Je pose un triangle de pré-signalisation derrière mon véhicule."
           ]
         },
         {
           "type": "text",
-          "text": "Même de jour, un véhicule arrêté peut être heurté. Beaucoup d'accidents sur les routes nationales viennent d'un véhicule en panne non signalé."
+          "text": "Même de jour, un véhicule arrêté peut être heurté."
         },
         {
           "type": "memo",

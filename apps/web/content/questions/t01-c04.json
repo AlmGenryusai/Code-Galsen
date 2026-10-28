@@ -5,7 +5,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "En agglomération, la vitesse maximale est :",
+        "text": "En agglomération, la vitesse maximale d'une voiture est :",
         "options": [
           {
             "id": "A",
@@ -41,7 +41,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "Aux abords d'une école, d'un hôpital ou d'une mosquée ou église, la vitesse maximale est :",
+        "text": "Aux abords d'une école, d'un hôpital ou d'une mosquée ou église, la vitesse maximale d'une voiture est :",
         "options": [
           {
             "id": "A",
@@ -77,7 +77,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "Sur autoroute, par temps normal, la vitesse maximale est :",
+        "text": "Sur autoroute, par temps normal, la vitesse maximale d'une voiture est :",
         "options": [
           {
             "id": "A",
@@ -113,7 +113,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "Sur une route à double sens sans séparateur central, par temps normal, je roule à :",
+        "text": "Sur une route à double sens sans séparateur central, par temps normal, ma voiture roule à :",
         "options": [
           {
             "id": "A",
@@ -149,7 +149,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "Il pleut sur une route à deux voies par sens, sans terre-plein. Ma vitesse maximale est :",
+        "text": "Au volant d'une voiture, il pleut sur une route à deux voies par sens, sans terre-plein. Ma vitesse maximale est :",
         "options": [
           {
             "id": "A",
@@ -185,7 +185,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "La visibilité est inférieure à 50 mètres (brouillard, poussière). Ma vitesse maximale est :",
+        "text": "Au volant d'une voiture, la visibilité est inférieure à 50 mètres (brouillard, poussière). Ma vitesse maximale est :",
         "options": [
           {
             "id": "A",
@@ -221,7 +221,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "Pour ma vitesse, je dois tenir compte de :",
+        "text": "Au volant d'une voiture, pour ma vitesse, je dois tenir compte de :",
         "options": [
           {
             "id": "A",
@@ -259,7 +259,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "Un panneau limite à 40 km/h sur une route où la loi permet 90. Je roule à :",
+        "text": "Un panneau limite à 40 km/h sur une route où la loi permet 90. En voiture, je roule à :",
         "options": [
           {
             "id": "A",

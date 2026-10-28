@@ -30,7 +30,7 @@
       }
     ],
     "explanation": "Règle de priorité à droite : le véhicule venant de droite est prioritaire à tout carrefour sans signalisation.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, art. 28",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -71,7 +71,7 @@
       }
     ],
     "explanation": "Sur une route prioritaire, les véhicules qui y circulent ont la priorité sur tous ceux venant des voies secondaires.",
-    "legal_ref": null,
+    "legal_ref": "Décret 2004-13, art. 1 ; art. 28 ; annexe P3 (AB6)",
     "legal_status": "pending",
     "status": "draft"
   },
