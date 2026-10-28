@@ -1,0 +1,65 @@
+{
+  "id": "t07-c02",
+  "theme": "t07",
+  "sheets": [
+    {
+      "id": "t07-c02-f01",
+      "title": "Descendre et monter en sécurité",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "La majorité des accidents de portière arrivent à l'arrêt."
+        },
+        {
+          "type": "heading",
+          "text": "Avant d'ouvrir"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je regarde dans le rétroviseur et derrière moi.",
+            "J'ouvre doucement.",
+            "Je fais descendre les passagers côté trottoir ou accotement."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Un enfant descend toujours côté trottoir, par la main."
+        },
+        {
+          "type": "memo",
+          "text": "Je regarde avant d'ouvrir."
+        }
+      ]
+    },
+    {
+      "id": "t07-c02-f02",
+      "title": "Quitter le véhicule",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Quand je m'éloigne, je laisse le véhicule en sécurité."
+        },
+        {
+          "type": "heading",
+          "text": "Je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je coupe le moteur.",
+            "Je serre le frein à main et j'engage une vitesse en pente.",
+            "Je ferme et j'emporte la clé."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Moteur coupé, frein serré, clé en poche."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 34, 35",
+  "legal_status": "pending",
+  "status": "draft"
+}

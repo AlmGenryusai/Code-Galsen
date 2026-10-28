@@ -1,0 +1,218 @@
+[
+  {
+    "id": "t07-c02-0001",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "parts": [
+      {
+        "text": "Avant d'ouvrir ma portière, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ouvre vite"
+          },
+          {
+            "id": "B",
+            "text": "regarde derrière moi"
+          },
+          {
+            "id": "C",
+            "text": "klaxonne"
+          },
+          {
+            "id": "D",
+            "text": "regarde mon téléphone"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On ne descend pas sans s'être assuré qu'on peut le faire sans danger : une moto ou un vélo peut passer.",
+    "common_mistake": "Ouvrir sans regarder.",
+    "legal_ref": "Décret 2004-13, art. 35",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c02-0002",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "parts": [
+      {
+        "text": "Quand je me gare au bord de la route, je fais descendre mes passagers :",
+        "options": [
+          {
+            "id": "A",
+            "text": "côté route"
+          },
+          {
+            "id": "B",
+            "text": "côté trottoir ou accotement"
+          },
+          {
+            "id": "C",
+            "text": "au milieu"
+          },
+          {
+            "id": "D",
+            "text": "en roulant"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le côté du trottoir ou de l'accotement est plus sûr : les passagers ne descendent pas dans la circulation.",
+    "common_mistake": "Faire descendre côté route.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c02-0003",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "parts": [
+      {
+        "text": "Avant de m'éloigner de mon véhicule, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "laisse le moteur tourner"
+          },
+          {
+            "id": "B",
+            "text": "coupe le moteur et serre le frein"
+          },
+          {
+            "id": "C",
+            "text": "laisse la clé sur le contact"
+          },
+          {
+            "id": "D",
+            "text": "laisse la portière ouverte"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Moteur coupé, véhicule immobilisé selon la pente : on évite qu'il bouge.",
+    "common_mistake": "Laisser le moteur tourner « une minute ».",
+    "legal_ref": "Décret 2004-13, art. 34",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c02-0004",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "parts": [
+      {
+        "text": "Je monte dans ma voiture. Je m'assure d'abord :",
+        "options": [
+          {
+            "id": "A",
+            "text": "que la voie est libre"
+          },
+          {
+            "id": "B",
+            "text": "que mon téléphone est chargé"
+          },
+          {
+            "id": "C",
+            "text": "que la radio marche"
+          },
+          {
+            "id": "D",
+            "text": "que tout le monde est assis"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "On regarde avant d'entrer ou de sortir : des véhicules, des motos, des piétons peuvent passer.",
+    "common_mistake": "Monter sans regarder la circulation.",
+    "legal_ref": "Décret 2004-13, art. 35",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c02-0005",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "parts": [
+      {
+        "text": "Je descends de ma voiture, un enfant est avec moi. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le laisse descendre seul côté route"
+          },
+          {
+            "id": "B",
+            "text": "lui tiens la main et descends côté trottoir"
+          },
+          {
+            "id": "C",
+            "text": "le laisse courir"
+          },
+          {
+            "id": "D",
+            "text": "l'oublie dans la voiture"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les enfants traversent sans regarder. On les fait descendre du bon côté et on les tient par la main.",
+    "common_mistake": "Laisser l'enfant descendre côté route.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c02-0006",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "parts": [
+      {
+        "text": "Je quitte mon véhicule plus de quelques minutes. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "laisse les fenêtres ouvertes"
+          },
+          {
+            "id": "B",
+            "text": "ferme et verrouille"
+          },
+          {
+            "id": "C",
+            "text": "laisse la clé"
+          },
+          {
+            "id": "D",
+            "text": "laisse le moteur"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On ferme le véhicule et on emporte la clé. C'est une règle de prudence, pas une obligation de loi.",
+    "common_mistake": "Laisser la clé sur le contact.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  }
+]

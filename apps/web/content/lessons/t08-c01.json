@@ -1,0 +1,67 @@
+{
+  "id": "t08-c01",
+  "theme": "t08",
+  "sheets": [
+    {
+      "id": "t08-c01-f01",
+      "title": "Les équipements obligatoires",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Un véhicule doit être en état de rouler en sécurité."
+        },
+        {
+          "type": "heading",
+          "text": "À contrôler"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deux rétroviseurs au moins.",
+            "Deux dispositifs de freinage : un principal et un de secours.",
+            "Des pneus aux sculptures visibles, sans déchirure profonde.",
+            "Un avertisseur sonore qui fonctionne."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Freins, pneus, rétroviseurs, avertisseur."
+        }
+      ]
+    },
+    {
+      "id": "t08-c01-f02",
+      "title": "Les voyants du tableau de bord",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Un voyant rouge signifie : je m'arrête dès que possible."
+        },
+        {
+          "type": "heading",
+          "text": "Les plus importants"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pression d'huile : j'arrête le moteur.",
+            "Température du moteur : je m'arrête et j'attends.",
+            "Frein : je fais contrôler avant de repartir.",
+            "Défaut d'ABS : le freinage normal marche, mais je fais contrôler."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Rouler avec un voyant rouge peut détruire le moteur ou rendre le freinage inefficace."
+        },
+        {
+          "type": "memo",
+          "text": "Rouge : j'arrête."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 66 ; loi 2022-04, L.22, L.23, L.66",
+  "legal_status": "pending",
+  "status": "draft"
+}

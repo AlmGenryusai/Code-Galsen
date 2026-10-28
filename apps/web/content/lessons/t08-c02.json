@@ -1,0 +1,74 @@
+{
+  "id": "t08-c02",
+  "theme": "t08",
+  "sheets": [
+    {
+      "id": "t08-c02-f01",
+      "title": "Entretien avant de partir",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Un contrôle de deux minutes évite beaucoup de pannes."
+        },
+        {
+          "type": "heading",
+          "text": "Je vérifie"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La pression des pneus.",
+            "Le niveau d'huile et d'eau.",
+            "Les feux et l'avertisseur.",
+            "Le carburant."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Pneus, huile, eau, feux."
+        }
+      ]
+    },
+    {
+      "id": "t08-c02-f02",
+      "title": "Chaleur, crevaison, panne",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "En saison chaude, les pannes de chauffe sont fréquentes."
+        },
+        {
+          "type": "heading",
+          "text": "Surchauffe"
+        },
+        {
+          "type": "text",
+          "text": "Je m'arrête à l'ombre, je coupe le moteur, j'attends. Je n'ouvre jamais le bouchon d'un radiateur chaud."
+        },
+        {
+          "type": "heading",
+          "text": "Crevaison"
+        },
+        {
+          "type": "text",
+          "text": "Je tiens le volant, je lève le pied, je freine doucement, puis je me range sur un sol plat."
+        },
+        {
+          "type": "heading",
+          "text": "Panne la nuit"
+        },
+        {
+          "type": "text",
+          "text": "Feux de détresse et triangle derrière le véhicule."
+        },
+        {
+          "type": "memo",
+          "text": "Chaleur : j'attends. Crevaison : je freine doucement."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 83",
+  "legal_status": "pending",
+  "status": "draft"
+}

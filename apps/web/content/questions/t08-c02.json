@@ -1,0 +1,222 @@
+[
+  {
+    "id": "t08-c02-0001",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "parts": [
+      {
+        "text": "Avant un long trajet, je vérifie :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la pression des pneus"
+          },
+          {
+            "id": "B",
+            "text": "le niveau d'huile"
+          },
+          {
+            "id": "C",
+            "text": "le niveau d'eau"
+          },
+          {
+            "id": "D",
+            "text": "la couleur de la voiture"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Pneus, huile, eau, freins et feux se vérifient avant de partir.",
+    "common_mistake": "Partir sans rien vérifier.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c02-0002",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "parts": [
+      {
+        "text": "Par forte chaleur, le moteur chauffe. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "roule plus vite"
+          },
+          {
+            "id": "B",
+            "text": "m'arrête à l'ombre et laisse refroidir"
+          },
+          {
+            "id": "C",
+            "text": "verse de l'eau froide sur le moteur chaud"
+          },
+          {
+            "id": "D",
+            "text": "ouvre le capot en roulant"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le choc thermique peut casser le moteur. On attend.",
+    "common_mistake": "Ouvrir le bouchon du radiateur chaud.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c02-0003",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "parts": [
+      {
+        "text": "J'ai un pneu crevé sur la route. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "freine brusquement"
+          },
+          {
+            "id": "B",
+            "text": "tiens fermement le volant et ralentis progressivement"
+          },
+          {
+            "id": "C",
+            "text": "tourne le volant fort"
+          },
+          {
+            "id": "D",
+            "text": "accélère"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On garde le volant, on lève le pied et on freine doucement avant de se ranger.",
+    "common_mistake": "Freiner brusquement.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c02-0004",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "parts": [
+      {
+        "text": "Pour changer une roue, je me gare :",
+        "options": [
+          {
+            "id": "A",
+            "text": "en pleine route"
+          },
+          {
+            "id": "B",
+            "text": "sur un sol plat et stable, loin de la circulation"
+          },
+          {
+            "id": "C",
+            "text": "dans une côte"
+          },
+          {
+            "id": "D",
+            "text": "sur le trottoir"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sol plat, loin de la route, véhicule immobilisé : on évite qu'il bouge ou qu'on soit heurté.",
+    "common_mistake": "Changer une roue sur la chaussée.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c02-0005",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "parts": [
+      {
+        "text": "Mon véhicule refuse de démarrer. Je pense d'abord à :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la batterie"
+          },
+          {
+            "id": "B",
+            "text": "le carburant"
+          },
+          {
+            "id": "C",
+            "text": "le démarreur"
+          },
+          {
+            "id": "D",
+            "text": "la couleur"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Batterie, carburant et démarreur sont les causes les plus fréquentes.",
+    "common_mistake": "Insister sans chercher la cause.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c02-0006",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "parts": [
+      {
+        "text": "Un véhicule en panne la nuit doit être signalé par :",
+        "options": [
+          {
+            "id": "A",
+            "text": "rien"
+          },
+          {
+            "id": "B",
+            "text": "ses feux de détresse et un triangle"
+          },
+          {
+            "id": "C",
+            "text": "un chiffon"
+          },
+          {
+            "id": "D",
+            "text": "la radio"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Feux de détresse et triangle de pré-signalisation évitent qu'un autre véhicule le heurte.",
+    "common_mistake": "Rester non signalé.",
+    "legal_ref": "Décret 2004-13, art. 83",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

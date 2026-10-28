@@ -1,0 +1,218 @@
+[
+  {
+    "id": "t08-c01-0001",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "parts": [
+      {
+        "text": "Un voyant rouge de pression d'huile s'allume. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "continue jusqu'à destination"
+          },
+          {
+            "id": "B",
+            "text": "m'arrête dès que possible et coupe le moteur"
+          },
+          {
+            "id": "C",
+            "text": "accélère"
+          },
+          {
+            "id": "D",
+            "text": "ignore"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sans huile, le moteur se détruit en quelques minutes. On s'arrête et on coupe.",
+    "common_mistake": "Rouler en espérant que ça passe.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c01-0002",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "parts": [
+      {
+        "text": "Le voyant de température de l'eau est rouge. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "continue"
+          },
+          {
+            "id": "B",
+            "text": "m'arrête et laisse refroidir"
+          },
+          {
+            "id": "C",
+            "text": "verse de l'eau froide sur le radiateur"
+          },
+          {
+            "id": "D",
+            "text": "ouvre le bouchon immédiatement"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un moteur trop chaud peut casser. On s'arrête, on coupe, on attend. On n'ouvre jamais un bouchon chaud.",
+    "common_mistake": "Ouvrir le bouchon du radiateur chaud.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c01-0003",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "parts": [
+      {
+        "text": "Un véhicule doit avoir au moins :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un rétroviseur"
+          },
+          {
+            "id": "B",
+            "text": "deux rétroviseurs"
+          },
+          {
+            "id": "C",
+            "text": "aucun rétroviseur"
+          },
+          {
+            "id": "D",
+            "text": "un rétroviseur à l'arrière"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un véhicule automobile doit être muni d'au moins deux miroirs rétroviseurs.",
+    "common_mistake": "Rouler avec un seul rétroviseur.",
+    "legal_ref": "Décret 2004-13, art. 66",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c01-0004",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "parts": [
+      {
+        "text": "Le freinage d'un véhicule doit pouvoir s'exercer par :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un seul dispositif"
+          },
+          {
+            "id": "B",
+            "text": "un dispositif principal et un dispositif de secours"
+          },
+          {
+            "id": "C",
+            "text": "aucun dispositif"
+          },
+          {
+            "id": "D",
+            "text": "le moteur seulement"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "La loi exige deux dispositifs de freinage indépendants : un principal et un de secours.",
+    "common_mistake": "Penser que le frein à main suffit toujours.",
+    "legal_ref": "loi 2022-04, L.23",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c01-0005",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "parts": [
+      {
+        "text": "Mes pneus doivent présenter :",
+        "options": [
+          {
+            "id": "A",
+            "text": "des sculptures apparentes"
+          },
+          {
+            "id": "B",
+            "text": "aucune sculpture"
+          },
+          {
+            "id": "C",
+            "text": "des déchirures profondes"
+          },
+          {
+            "id": "D",
+            "text": "des éléments métalliques saillants"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Les pneus doivent avoir des sculptures apparentes sur toute leur surface et aucune déchirure profonde.",
+    "common_mistake": "Rouler sur des pneus lisses.",
+    "legal_ref": "loi 2022-04, L.22",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t08-c01-0006",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "parts": [
+      {
+        "text": "Mon véhicule doit pouvoir émettre :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un signal sonore en cas de danger immédiat"
+          },
+          {
+            "id": "B",
+            "text": "de la musique"
+          },
+          {
+            "id": "C",
+            "text": "aucun son"
+          },
+          {
+            "id": "D",
+            "text": "un son continu"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "L'avertisseur sert à signaler un danger immédiat. Hors agglomération, il ne sert qu'à donner les avertissements nécessaires.",
+    "common_mistake": "Utiliser le klaxon à tout propos.",
+    "legal_ref": "loi 2022-04, L.66",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

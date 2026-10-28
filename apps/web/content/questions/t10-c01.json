@@ -1,0 +1,221 @@
+[
+  {
+    "id": "t10-c01-0001",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "parts": [
+      {
+        "text": "Pour consommer moins, j'anticipe :",
+        "options": [
+          {
+            "id": "A",
+            "text": "les feux"
+          },
+          {
+            "id": "B",
+            "text": "les ralentissements"
+          },
+          {
+            "id": "C",
+            "text": "les virages"
+          },
+          {
+            "id": "D",
+            "text": "rien"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Regarder loin permet de lever le pied plutôt que de freiner : moins de carburant, moins d'usure.",
+    "common_mistake": "Accélérer puis freiner fort.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t10-c01-0002",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "parts": [
+      {
+        "text": "Des pneus sous-gonflés :",
+        "options": [
+          {
+            "id": "A",
+            "text": "augmentent la consommation"
+          },
+          {
+            "id": "B",
+            "text": "diminuent la consommation"
+          },
+          {
+            "id": "C",
+            "text": "n'ont aucun effet"
+          },
+          {
+            "id": "D",
+            "text": "sont plus sûrs"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Un pneu mou chauffe, s'use et consomme plus. On vérifie la pression régulièrement.",
+    "common_mistake": "Rouler avec des pneus mous.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t10-c01-0003",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "parts": [
+      {
+        "text": "À l'arrêt prolongé, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "laisse tourner le moteur"
+          },
+          {
+            "id": "B",
+            "text": "coupe le moteur"
+          },
+          {
+            "id": "C",
+            "text": "accélère"
+          },
+          {
+            "id": "D",
+            "text": "klaxonne"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un moteur qui tourne pour rien consomme et pollue. Les véhicules doivent limiter la consommation et les émissions.",
+    "common_mistake": "Laisser tourner le moteur à l'arrêt.",
+    "legal_ref": "loi 2022-04, L.25",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t10-c01-0004",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "parts": [
+      {
+        "text": "Une charge inutile dans mon véhicule :",
+        "options": [
+          {
+            "id": "A",
+            "text": "augmente la consommation"
+          },
+          {
+            "id": "B",
+            "text": "n'a aucun effet"
+          },
+          {
+            "id": "C",
+            "text": "diminue la consommation"
+          },
+          {
+            "id": "D",
+            "text": "est obligatoire"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Plus un véhicule est lourd, plus il consomme. On retire ce qui ne sert pas.",
+    "common_mistake": "Garder des sacs dans le coffre.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t10-c01-0005",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "parts": [
+      {
+        "text": "Je conduis de façon économe en :",
+        "options": [
+          {
+            "id": "A",
+            "text": "accélérant doucement"
+          },
+          {
+            "id": "B",
+            "text": "gardant une vitesse stable"
+          },
+          {
+            "id": "C",
+            "text": "freinant à la dernière seconde"
+          },
+          {
+            "id": "D",
+            "text": "roulant en première"
+          }
+        ],
+        "correct": [
+          "A",
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Une conduite souple consomme moins et use moins le véhicule.",
+    "common_mistake": "Rouler en première vitesse.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t10-c01-0006",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "parts": [
+      {
+        "text": "Les émissions polluantes d'un véhicule :",
+        "options": [
+          {
+            "id": "A",
+            "text": "doivent être limitées"
+          },
+          {
+            "id": "B",
+            "text": "n'ont aucune importance"
+          },
+          {
+            "id": "C",
+            "text": "sont autorisées sans limite"
+          },
+          {
+            "id": "D",
+            "text": "sont permises en ville"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "La loi demande que les véhicules soient construits et utilisés pour limiter la consommation d'énergie et les émissions polluantes.",
+    "common_mistake": "Modifier le pot d'échappement.",
+    "legal_ref": "loi 2022-04, L.25",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

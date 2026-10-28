@@ -18,11 +18,19 @@ import t05c01 from '../../content/lessons/t05-c01.json'
 import t05c02 from '../../content/lessons/t05-c02.json'
 import t05c03 from '../../content/lessons/t05-c03.json'
 import t05c04 from '../../content/lessons/t05-c04.json'
+import t06c01 from '../../content/lessons/t06-c01.json'
+import t07c01 from '../../content/lessons/t07-c01.json'
+import t07c02 from '../../content/lessons/t07-c02.json'
+import t08c01 from '../../content/lessons/t08-c01.json'
+import t08c02 from '../../content/lessons/t08-c02.json'
+import t09c01 from '../../content/lessons/t09-c01.json'
+import t09c02 from '../../content/lessons/t09-c02.json'
+import t10c01 from '../../content/lessons/t10-c01.json'
 import { SHOW_DRAFTS } from '../quiz/questions'
 import type { Block, LessonFile, Sheet } from './types'
 
 // Un import par chapitre (le test de publication vérifie qu'aucun fichier n'est oublié).
-const ALL = [t01c01, t01c02, t01c03, t01c04, t01c05, t01c06, t02c01, t02c02, t03c01, t03c02, t03c03, t04c01, t04c02, t04c03, t04c04, t04c05, t05c01, t05c02, t05c03, t05c04] as LessonFile[]
+const ALL = [t01c01, t01c02, t01c03, t01c04, t01c05, t01c06, t02c01, t02c02, t03c01, t03c02, t03c03, t04c01, t04c02, t04c03, t04c04, t04c05, t05c01, t05c02, t05c03, t05c04, t06c01, t07c01, t07c02, t08c01, t08c02, t09c01, t09c02, t10c01] as LessonFile[]
 
 // Même interrupteur que les questions (doc 43 §4)
 export function getLessons(): LessonFile[] {

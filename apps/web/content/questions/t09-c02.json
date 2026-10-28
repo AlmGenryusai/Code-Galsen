@@ -1,0 +1,220 @@
+[
+  {
+    "id": "t09-c02-0001",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "parts": [
+      {
+        "text": "Un enfant en voiture voyage :",
+        "options": [
+          {
+            "id": "A",
+            "text": "sur les genoux du passager avant"
+          },
+          {
+            "id": "B",
+            "text": "attaché sur un siège adapté, à l'arrière"
+          },
+          {
+            "id": "C",
+            "text": "debout"
+          },
+          {
+            "id": "D",
+            "text": "sur le tableau de bord"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un enfant est mieux protégé attaché à l'arrière. Sur les genoux, il est écrasé en cas de choc.",
+    "common_mistake": "Tenir l'enfant dans les bras.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c02-0002",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "parts": [
+      {
+        "text": "Les passagers d'une moto doivent porter :",
+        "options": [
+          {
+            "id": "A",
+            "text": "un casque homologué"
+          },
+          {
+            "id": "B",
+            "text": "un foulard"
+          },
+          {
+            "id": "C",
+            "text": "rien"
+          },
+          {
+            "id": "D",
+            "text": "un chapeau"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité conforme à un modèle agréé.",
+    "common_mistake": "Croire que le casque ne concerne que le conducteur.",
+    "legal_ref": "Décret 2004-13, annexe D28",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c02-0003",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "parts": [
+      {
+        "text": "Je transporte plus de passagers que de places. C'est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "autorisé si c'est court"
+          },
+          {
+            "id": "B",
+            "text": "interdit"
+          },
+          {
+            "id": "C",
+            "text": "toléré en ville"
+          },
+          {
+            "id": "D",
+            "text": "sans risque"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le surnombre est interdit, y compris dans les voitures particulières.",
+    "common_mistake": "Charger tout le monde « pour une fois ».",
+    "legal_ref": "loi 2022-04, L.51",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c02-0004",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "parts": [
+      {
+        "text": "Un enfant de moins de 5 ans sur une moto doit être :",
+        "options": [
+          {
+            "id": "A",
+            "text": "tenu dans les bras"
+          },
+          {
+            "id": "B",
+            "text": "placé dans un siège à courroies fixé au véhicule"
+          },
+          {
+            "id": "C",
+            "text": "debout"
+          },
+          {
+            "id": "D",
+            "text": "entre les jambes"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le décret impose un siège ou une corbeille avec courroies, solidement fixé au véhicule.",
+    "common_mistake": "Porter l'enfant sur ses genoux.",
+    "legal_ref": "Décret 2004-13, annexe D27",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c02-0005",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "parts": [
+      {
+        "text": "Un passager me gêne en parlant fort. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "me retourne"
+          },
+          {
+            "id": "B",
+            "text": "reste concentré sur la route"
+          },
+          {
+            "id": "C",
+            "text": "lui réponds en le regardant"
+          },
+          {
+            "id": "D",
+            "text": "ferme les yeux"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le conducteur garde les yeux sur la route. S'il faut parler, on se range.",
+    "common_mistake": "Se retourner pour parler.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c02-0006",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "parts": [
+      {
+        "text": "Dans un véhicule de transport, les passagers ne montent pas :",
+        "options": [
+          {
+            "id": "A",
+            "text": "sur le toit"
+          },
+          {
+            "id": "B",
+            "text": "sur le marchepied"
+          },
+          {
+            "id": "C",
+            "text": "au-delà du nombre de places"
+          },
+          {
+            "id": "D",
+            "text": "assis"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Toit, marchepied et surnombre sont interdits.",
+    "common_mistake": "Charger sans compter.",
+    "legal_ref": "loi 2022-04, L.50 et L.51",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

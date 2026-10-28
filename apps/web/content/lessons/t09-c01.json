@@ -1,0 +1,65 @@
+{
+  "id": "t09-c01",
+  "theme": "t09",
+  "sheets": [
+    {
+      "id": "t09-c01-f01",
+      "title": "Ceinture et airbag",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "La ceinture sauve des vies, même à faible vitesse."
+        },
+        {
+          "type": "heading",
+          "text": "À retenir"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je l'attache à chaque trajet, même court.",
+            "Je demande à mes passagers d'attacher la leur.",
+            "L'airbag complète la ceinture, il ne la remplace pas."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Un passager non attaché peut devenir un projectile et blesser les autres."
+        },
+        {
+          "type": "memo",
+          "text": "Ceinture d'abord, airbag en plus."
+        }
+      ]
+    },
+    {
+      "id": "t09-c01-f02",
+      "title": "Freiner avec l'ABS",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "L'ABS empêche les roues de bloquer au freinage."
+        },
+        {
+          "type": "heading",
+          "text": "Au freinage d'urgence"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'appuie à fond sur la pédale et je la maintiens.",
+            "Je garde le volant pour contrôler la direction.",
+            "Je ne pompe pas."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Appuyer à fond, rester appuyé."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, annexe S2 et S3",
+  "legal_status": "pending",
+  "status": "draft"
+}
