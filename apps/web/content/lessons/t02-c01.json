@@ -48,8 +48,7 @@
         {
           "type": "list",
           "items": [
-            "Nuit sans éclairage public : feux de croisement ou de route.",
-            "Nuit avec bon éclairage public : les feux de position suffisent.",
+            "La nuit : feux de croisement ou de route.",
             "Je croise ou je suis de près un véhicule : feux de croisement, pour ne pas l'éblouir."
           ]
         },
@@ -103,7 +102,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 8, 18, 25, 82, 87, 89 ; loi 2022-04, L.66",
+  "legal_ref": "Décret 2004-13, art. 8, 18, 25, 82, 87, 89 ; loi 2022-04, L.62, L.66",
   "legal_status": "pending",
   "status": "draft"
 }

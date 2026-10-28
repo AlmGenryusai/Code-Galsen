@@ -24,11 +24,11 @@
         },
         {
           "type": "heading",
-          "text": "Matériaux fins"
+          "text": "Matériaux pulvérulents"
         },
         {
           "type": "text",
-          "text": "Sable, ciment, gravier fin : je les couvre d'une bâche étanche bien amarrée."
+          "text": "Je les couvre d'une bâche étanche bien amarrée."
         },
         {
           "type": "memo",
@@ -102,7 +102,7 @@
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.50 à L.56",
+  "legal_ref": "Loi 2022-04, L.50 à L.56 ; décret 2004-13, annexe I (art. I-39, I-40)",
   "legal_status": "pending",
   "status": "draft"
 }

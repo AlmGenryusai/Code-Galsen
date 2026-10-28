@@ -8,7 +8,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "L'alcool et les drogues ralentissent les réflexes et font mal juger les distances. Un seul verre peut déjà changer le temps de réaction."
+          "text": "L'alcool et les stupéfiants sont encadrés par la loi."
         },
         {
           "type": "heading",
@@ -17,7 +17,7 @@
         {
           "type": "list",
           "items": [
-            "Taux d'alcool : 0,20 g/L de sang, soit 0,10 mg/L d'air expiré.",
+            "Taux d'alcool : 0,20 g/L de sang ou 0,10 mg/L d'air expiré.",
             "Conduire en état d'ivresse manifeste ou sous l'emprise de stupéfiants est puni de la même façon.",
             "Les agents peuvent immobiliser le véhicule d'un conducteur manifestement ivre."
           ]
@@ -38,7 +38,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Utiliser le téléphone en main au volant est interdit. C'est aussi vrai à l'arrêt dans la circulation."
+          "text": "Utiliser le téléphone en main au volant est interdit. L'interdiction vise le véhicule en circulation."
         },
         {
           "type": "heading",
@@ -96,16 +96,16 @@
         },
         {
           "type": "text",
-          "text": "La loi ne cite pas la fatigue, mais elle réduit les réflexes comme l'alcool. Au premier signe de sommeil, je m'arrête dans un endroit sûr et je me repose."
+          "text": "La loi ne cite pas la fatigue. Au premier signe de sommeil, je m'arrête dans un endroit sûr et je me repose."
         },
         {
           "type": "memo",
-          "text": "Ceinture avant de démarrer. Casque pour tous sur la moto. Fatigue : je m'arrête."
+          "text": "Ceinture avant de démarrer. Casque pour les passagers de moto. Fatigue : je m'arrête."
         }
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.57, L.84 ; décret 2004-13, art. 112, annexes D28 et S2",
+  "legal_ref": "Loi 2022-04, L.57, L.84, L.87, L.102 ; décret 2004-13, art. 112, annexes D28, S2 et S3",
   "legal_status": "pending",
   "status": "draft"
 }

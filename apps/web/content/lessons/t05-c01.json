@@ -49,7 +49,7 @@
           "items": [
             "Je déclare la mise en circulation dans les 15 jours.",
             "Je reçois un certificat d'immatriculation et d'aptitude technique.",
-            "Un véhicule de transport passe la visite technique avant d'être mis en circulation."
+            "Un véhicule de transport passe la visite technique avant d'être mis en circulation, sauf s'il est neuf."
           ]
         },
         {
@@ -92,7 +92,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 44, 45, 107 ; loi 2022-04, L.4, L.44, L.47, L.85, L.86",
+  "legal_ref": "Décret 2004-13, art. 44, 45, 107 ; loi 2022-04, L.4, L.44, L.47, L.79, L.85, L.86, L.93, L.97",
   "legal_status": "pending",
   "status": "draft"
 }

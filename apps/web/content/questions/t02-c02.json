@@ -13,7 +13,7 @@
           },
           {
             "id": "B",
-            "text": "Oui, à l'arrêt"
+            "text": "Oui, si je le tiens d'une seule main"
           },
           {
             "id": "C",
@@ -29,8 +29,8 @@
         ]
       }
     ],
-    "explanation": "Tenir son téléphone en main au volant est strictement interdit et passible d'une amende, même à l'arrêt.",
-    "legal_ref": null,
+    "explanation": "Tenir son téléphone en main au volant d'un véhicule en circulation est strictement interdit et passible d'une amende.",
+    "legal_ref": "Loi 2022-04, L.57 al.1 ; L.87",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -100,7 +100,7 @@
         ]
       }
     ],
-    "explanation": "Le seuil est de 0,10 milligramme par litre d'air expiré, soit 0,20 g/L de sang.",
+    "explanation": "L.84 fixe deux seuils alternatifs : 0,20 g/L de sang ou 0,10 mg/L d'air expiré. Au contrôle de l'air expiré, c'est 0,10 mg/L.",
     "common_mistake": "Confondre le seuil sang et le seuil air.",
     "legal_ref": "loi 2022-04, L.84",
     "legal_status": "pending",

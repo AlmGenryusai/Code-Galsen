@@ -19,7 +19,7 @@
           "items": [
             "J'allume mes feux de croisement, même de jour.",
             "Je réduis ma vitesse, même si la route est droite.",
-            "Si je vois à moins de 50 mètres, je roule à 50 km/h maximum."
+            "En voiture, si je vois à moins de 50 mètres, je roule à 50 km/h maximum."
           ]
         },
         {
@@ -54,7 +54,7 @@
         },
         {
           "type": "text",
-          "text": "Après les premières pluies, la chaussée est plus glissante : la poussière et l'huile remontent."
+          "text": "Après les premières pluies, la chaussée est plus glissante."
         },
         {
           "type": "memo",
@@ -93,7 +93,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 13, 82 ; loi 2022-04, L.58",
+  "legal_ref": "Décret 2004-13, art. 13, 82, 83 ; loi 2022-04, L.58, L.62, L.63",
   "legal_status": "pending",
   "status": "draft"
 }

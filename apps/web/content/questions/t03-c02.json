@@ -41,7 +41,7 @@
     "chapter": "t03-c02",
     "parts": [
       {
-        "text": "Sur une autoroute, la vitesse maximale par temps normal est :",
+        "text": "Sur une autoroute, en voiture, la vitesse maximale par temps normal est :",
         "options": [
           {
             "id": "A",
@@ -65,7 +65,7 @@
         ]
       }
     ],
-    "explanation": "130 km/h par temps normal, 100 km/h par pluie, 50 km/h si l'on voit à moins de 50 m.",
+    "explanation": "Pour une voiture : 130 km/h par temps normal, 100 km/h par pluie, 50 km/h si l'on voit à moins de 50 m.",
     "common_mistake": "Dépasser 130 km/h « parce que la route est droite ».",
     "legal_ref": "loi 2022-04, L.58",
     "legal_status": "pending",
@@ -77,7 +77,7 @@
     "chapter": "t03-c02",
     "parts": [
       {
-        "text": "Il pleut sur l'autoroute. Ma vitesse maximale est :",
+        "text": "Il pleut sur l'autoroute. En voiture, ma vitesse maximale est :",
         "options": [
           {
             "id": "A",
@@ -101,7 +101,7 @@
         ]
       }
     ],
-    "explanation": "Par pluie ou autres précipitations, la limite sur autoroute passe à 100 km/h.",
+    "explanation": "Par pluie ou autres précipitations, la limite sur autoroute passe à 100 km/h pour une voiture.",
     "common_mistake": "Garder 130 km/h sous la pluie.",
     "legal_ref": "loi 2022-04, L.58",
     "legal_status": "pending",
