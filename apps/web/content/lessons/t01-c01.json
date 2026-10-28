@@ -117,6 +117,10 @@
     }
   ],
   "legal_ref": "Décret 2004-13, annexe P (P2 à P8) ; art. 28, 37, 38",
-  "legal_status": "pending",
-  "status": "draft"
+  "legal_status": "confirmed",
+  "status": "published",
+  "review": {
+    "moniteur": "2026-10-28",
+    "juriste": "2026-10-28"
+  }
 }

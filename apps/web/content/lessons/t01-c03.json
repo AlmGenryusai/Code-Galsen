@@ -114,6 +114,10 @@
     }
   ],
   "legal_ref": "Décret 2004-13, art. 3 à 6, 10, 11, 16, 17",
-  "legal_status": "pending",
-  "status": "draft"
+  "legal_status": "confirmed",
+  "status": "published",
+  "review": {
+    "moniteur": "2026-10-28",
+    "juriste": "2026-10-28"
+  }
 }

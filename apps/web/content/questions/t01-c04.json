@@ -32,8 +32,12 @@
     "explanation": "En agglomération, la limite est de 50 km/h. Un panneau peut imposer plus bas.",
     "common_mistake": "Rouler à 70 km/h dans une petite ville.",
     "legal_ref": "loi 2022-04, L.60",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c04-0002",
@@ -68,8 +72,12 @@
     "explanation": "Aux abords des établissements scolaires, hospitaliers et des édifices religieux, la limite est de 30 km/h.",
     "common_mistake": "Garder 50 km/h devant une école.",
     "legal_ref": "loi 2022-04, L.60",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c04-0003",
@@ -104,8 +112,12 @@
     "explanation": "Sur autoroute, la limite est de 130 km/h par temps normal, et 100 km/h par pluie.",
     "common_mistake": "Confondre avec la limite des routes nationales.",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c04-0004",
@@ -140,8 +152,12 @@
     "explanation": "Sur une route à double sens sans séparateur, la limite est de 90 km/h, et 70 km/h par pluie.",
     "common_mistake": "Rouler à 110 km/h sur une route étroite.",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c04-0005",
@@ -176,8 +192,12 @@
     "explanation": "Sur une section à au moins deux voies par sens, la limite passe de 100 à 80 km/h par pluie.",
     "common_mistake": "Garder la vitesse du beau temps.",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c04-0006",
@@ -212,8 +232,12 @@
     "explanation": "Quand on voit à moins de 50 m, la limite est de 50 km/h, quel que soit le type de route.",
     "common_mistake": "Penser que la limite ne dépend pas de la visibilité.",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c04-0007",
@@ -250,8 +274,12 @@
     "explanation": "La limite est un maximum, pas un objectif. On règle sa vitesse selon la circulation, les obstacles et ce qu'on voit.",
     "common_mistake": "Rouler toujours à la limite maximale.",
     "legal_ref": "Décret 2004-13, art. 13 et 14",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c04-0008",
@@ -286,7 +314,11 @@
     "explanation": "Le gestionnaire de la route peut baisser les limites. Le panneau s'impose.",
     "common_mistake": "Suivre la limite générale malgré le panneau.",
     "legal_ref": "loi 2022-04, L.58 ; Décret 2004-13, art. 14",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]

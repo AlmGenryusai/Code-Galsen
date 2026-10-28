@@ -67,8 +67,12 @@
     "explanation": "Seul, on garde la partie droite de la chaussée. Quand la vue est courte, il faut en plus laisser libre la partie gauche pour les véhicules d'en face.",
     "common_mistake": "Rouler au milieu pour « mieux voir ».",
     "legal_ref": "Décret 2004-13, art. 3",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c03-0003",
@@ -103,8 +107,12 @@
     "explanation": "Une ligne continue ne se franchit pas, et on ne roule pas dessus. Elle marque un risque que l'on ne voit pas.",
     "common_mistake": "Chevaucher la ligne dans un virage.",
     "legal_ref": "Décret 2004-13, art. 4",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c03-0004",
@@ -139,8 +147,12 @@
     "explanation": "Une ligne discontinue autorise à passer à gauche pour dépasser, ou pour traverser la chaussée si on tourne. Pas pour rouler à gauche sans raison.",
     "common_mistake": "Rouler à gauche sans raison parce que la ligne est discontinue.",
     "legal_ref": "Décret 2004-13, art. 5",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c03-0005",
@@ -175,8 +187,12 @@
     "explanation": "Quand les deux lignes sont accolées, c'est celle qui est du côté de ma file qui compte. Ici c'est la continue : je ne la franchis pas.",
     "common_mistake": "Se baser sur la discontinue qui est du mauvais côté.",
     "legal_ref": "Décret 2004-13, art. 6",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c03-0006",
@@ -211,8 +227,12 @@
     "explanation": "Tout obstacle fixe au milieu d'une chaussée ou d'un rond-point se contourne par la droite, comme la circulation.",
     "common_mistake": "Couper au plus court par la gauche.",
     "legal_ref": "Décret 2004-13, art. 10",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c03-0007",
@@ -247,8 +267,12 @@
     "explanation": "Chacun se serre à droite. Si la place manque, on utilise l'accotement plutôt que d'empiéter sur la gauche.",
     "common_mistake": "Rester au milieu en espérant que l'autre bouge.",
     "legal_ref": "Décret 2004-13, art. 16",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c03-0008",
@@ -283,8 +307,12 @@
     "explanation": "Chaque usager doit rester sur l'espace prévu pour sa catégorie. Le trottoir est pour les piétons.",
     "common_mistake": "Utiliser le trottoir « juste un moment ».",
     "legal_ref": "Décret 2004-13, art. 11",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c03-0009",
@@ -319,7 +347,11 @@
     "explanation": "Seul, on roule sur la voie la plus à droite et on ne chevauche pas les lignes. Les autres voies servent pour dépasser.",
     "common_mistake": "Rester sur la voie de gauche sans dépasser.",
     "legal_ref": "Décret 2004-13, art. 3",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]

@@ -73,8 +73,12 @@
     ],
     "explanation": "Le panneau \"Cédez le passage\" impose de laisser passer les usagers venant de la route croisée, sans arrêt obligatoire.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB3) ; art. 28",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0003",
@@ -143,8 +147,12 @@
     ],
     "explanation": "Le feu orange annonce le passage au rouge. Freinez si vous le pouvez en toute sécurité ; sinon, franchissez prudemment l'intersection.",
     "legal_ref": "Décret 2004-13, annexe P7",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0005",
@@ -179,8 +187,12 @@
     "explanation": "Les feux rouges clignotants sont réservés aux passages à niveau non gardés et aux aérodromes. Ils signifient arrêt absolu.",
     "common_mistake": "Passer en ralentissant.",
     "legal_ref": "Décret 2004-13, annexe P7",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0006",
@@ -220,8 +232,12 @@
     ],
     "explanation": "Le STOP impose de vous arrêter complètement, même si la route semble libre, puis de céder le passage aux usagers qui arrivent.",
     "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (AB4)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0007",
@@ -291,8 +307,12 @@
     "explanation": "Le losange jaune indique que vous êtes sur une route prioritaire. Aux intersections, les autres routes vous cèdent le passage.",
     "common_mistake": "Le confondre avec un panneau de danger.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB6)",
-    "legal_status": "pending",
-    "status": "draft",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    },
     "media": {
       "kind": "sign",
       "src": "route-prioritaire",
@@ -333,8 +353,12 @@
     "explanation": "Après ce panneau, la route n'est plus prioritaire. Les règles de la droite s'appliquent de nouveau aux intersections.",
     "common_mistake": "Croire que la priorité continue.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB7)",
-    "legal_status": "pending",
-    "status": "draft",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    },
     "media": {
       "kind": "sign",
       "src": "ab7",
@@ -375,8 +399,12 @@
     "explanation": "La flèche rouge montante représente ceux qui arrivent en face : ils passent d'abord. C'est à moi de leur céder le passage.",
     "common_mistake": "Lire la flèche montante comme la mienne.",
     "legal_ref": "Décret 2004-13, annexe P4 (B15)",
-    "legal_status": "pending",
-    "status": "draft",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    },
     "media": {
       "kind": "sign",
       "src": "b15",
@@ -417,8 +445,12 @@
     "explanation": "Sur ce panneau bleu, la flèche blanche montante est ma direction : j'ai la priorité sur le sens inverse (l'autre flèche, rouge, doit me laisser passer).",
     "common_mistake": "Confondre avec le panneau rond rouge.",
     "legal_ref": "Décret 2004-13, annexe P5 (C18)",
-    "legal_status": "pending",
-    "status": "draft",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    },
     "media": {
       "kind": "sign",
       "src": "c18",
@@ -459,8 +491,12 @@
     "explanation": "Ce panneau de danger annonce une intersection de deux routes sans autre indication. La règle de la droite s'applique.",
     "common_mistake": "Penser que la croix indique un passage à niveau.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB1) ; art. 28 al.1",
-    "legal_status": "pending",
-    "status": "draft",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    },
     "media": {
       "kind": "sign",
       "src": "priorite-droite",
@@ -501,8 +537,12 @@
     "explanation": "Celui qui est engagé dans un carrefour à sens giratoire a la priorité. Celui qui arrive attend un trou.",
     "common_mistake": "Entrer sans regarder.",
     "legal_ref": "Décret 2004-13, annexe P3 (A25) ; art. 28",
-    "legal_status": "pending",
-    "status": "draft",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    },
     "media": {
       "kind": "sign",
       "src": "sens-giratoire",
@@ -543,8 +583,12 @@
     "explanation": "Les signaux de danger sont de forme triangulaire, fond crème, bordés d'un listel rouge. Un danger se lit avant d'être près.",
     "common_mistake": "Chercher un fond blanc comme en Europe.",
     "legal_ref": "Décret 2004-13, annexe P3",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0015",
@@ -657,8 +701,12 @@
     "explanation": "Le feu rouge signifie l'interdiction de passer, même si la route paraît vide.",
     "common_mistake": "Passer au rouge quand personne ne vient.",
     "legal_ref": "Décret 2004-13, annexe P7",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0018",
@@ -693,8 +741,12 @@
     "explanation": "Le jaune annonce le rouge. On s'arrête, sauf si on est si près qu'on ne peut plus freiner dans de bonnes conditions de sécurité.",
     "common_mistake": "Accélérer pour « passer avant le rouge ».",
     "legal_ref": "Décret 2004-13, annexe P7",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0019",
@@ -729,8 +781,12 @@
     "explanation": "Le jaune clignotant attire l'attention sur un point dangereux : prudence, ralentir. Au carrefour avec feu orange clignotant, on cède à droite.",
     "common_mistake": "Le prendre pour un feu vert.",
     "legal_ref": "Décret 2004-13, annexe P7 ; art. 28",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0020",
@@ -765,8 +821,12 @@
     "explanation": "Les feux rouges clignotants sont réservés aux passages à niveau non gardés et aux aérodromes. Ils signifient arrêt absolu.",
     "common_mistake": "Penser que c'est un feu de carrefour.",
     "legal_ref": "Décret 2004-13, annexe P7",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0021",
@@ -801,8 +861,12 @@
     "explanation": "Les marques sur chaussée (lignes, passages piétons, flèches) sont jaunes.",
     "common_mistake": "Chercher du blanc comme en Europe.",
     "legal_ref": "Décret 2004-13, annexe P8",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c01-0022",
@@ -837,7 +901,11 @@
     "explanation": "Quand un agent habilité dirige la circulation, ses indications priment sur les feux et les panneaux.",
     "common_mistake": "Obéir au feu plutôt qu'à l'agent.",
     "legal_ref": "Décret 2004-13, art. 38",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]
