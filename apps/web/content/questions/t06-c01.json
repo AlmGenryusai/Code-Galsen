@@ -31,8 +31,8 @@
     ],
     "explanation": "Avant de secourir, on protège : feux de détresse, signalisation, éloigner les curieux. Un second accident aggraverait tout.",
     "common_mistake": "Courir vers la victime sans protéger la zone.",
-    "legal_ref": "Décret 2004-13, art. 83 ; loi 2022-04, L.64",
-    "legal_status": "pending",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
     "status": "draft"
   },
   {
@@ -41,15 +41,15 @@
     "chapter": "t06-c01",
     "parts": [
       {
-        "text": "Je suis impliqué dans un accident qui a fait des blessés. Je :",
+        "text": "Mon véhicule a causé un accident. Je :",
         "options": [
           {
             "id": "A",
-            "text": "m'enfuis"
+            "text": "continue ma route"
           },
           {
             "id": "B",
-            "text": "reste sur place et aide ou alerte"
+            "text": "m'arrête et reste sur place"
           },
           {
             "id": "C",
@@ -65,7 +65,7 @@
         ]
       }
     ],
-    "explanation": "S'enfuir est un délit grave. On s'arrête, on protège, on alerte et on aide.",
+    "explanation": "Le conducteur qui sait que son véhicule a causé ou occasionné un accident et ne s'arrête pas commet un délit. On s'arrête.",
     "common_mistake": "Fuir par peur.",
     "legal_ref": "loi 2022-04, L.82",
     "legal_status": "pending",

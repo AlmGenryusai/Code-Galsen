@@ -24,7 +24,7 @@
         },
         {
           "type": "memo",
-          "text": "Une place, une ceinture, un passager."
+          "text": "Une place, un passager ; une ceinture si la place en a une."
         }
       ]
     },
@@ -34,7 +34,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Sur une moto, le passager porte un casque homologué."
+          "text": "Sur une moto, le passager porte un casque de sécurité."
         },
         {
           "type": "heading",

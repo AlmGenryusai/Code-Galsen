@@ -8,7 +8,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Un contrôle de deux minutes évite beaucoup de pannes."
+          "text": "Avant de partir, je vérifie l'état de mon véhicule."
         },
         {
           "type": "heading",
@@ -34,10 +34,6 @@
       "title": "Chaleur, crevaison, panne",
       "blocks": [
         {
-          "type": "text",
-          "text": "En saison chaude, les pannes de chauffe sont fréquentes."
-        },
-        {
           "type": "heading",
           "text": "Surchauffe"
         },
@@ -55,11 +51,11 @@
         },
         {
           "type": "heading",
-          "text": "Panne la nuit"
+          "text": "Immobilisé sur la chaussée"
         },
         {
           "type": "text",
-          "text": "Feux de détresse et triangle derrière le véhicule."
+          "text": "Immobilisé sur la chaussée : feux de détresse et, s'il y a lieu, triangle de pré-signalisation."
         },
         {
           "type": "memo",
@@ -68,7 +64,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 83",
+  "legal_ref": "Décret 2004-13, art. 80, art. 83, annexe I (I-43 à I-45) ; loi 2022-04, L.66",
   "legal_status": "pending",
   "status": "draft"
 }

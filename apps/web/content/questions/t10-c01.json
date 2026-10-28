@@ -103,10 +103,10 @@
         ]
       }
     ],
-    "explanation": "Un moteur qui tourne pour rien consomme et pollue. Les véhicules doivent limiter la consommation et les émissions.",
+    "explanation": "Un moteur qui tourne pour rien consomme et pollue : le couper à l'arrêt prolongé est un bon réflexe.",
     "common_mistake": "Laisser tourner le moteur à l'arrêt.",
-    "legal_ref": "loi 2022-04, L.25",
-    "legal_status": "pending",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
     "status": "draft"
   },
   {
@@ -214,7 +214,7 @@
     ],
     "explanation": "La loi demande que les véhicules soient construits et utilisés pour limiter la consommation d'énergie et les émissions polluantes.",
     "common_mistake": "Modifier le pot d'échappement.",
-    "legal_ref": "loi 2022-04, L.25",
+    "legal_ref": "loi 2022-04, L.25, L.26 ; décret 2004-13, art. 60",
     "legal_status": "pending",
     "status": "draft"
   }
