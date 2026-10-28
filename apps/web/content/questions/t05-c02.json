@@ -32,8 +32,12 @@
     "explanation": "Toute précaution doit être prise pour que le chargement ne puisse blesser ou gêner personne.",
     "common_mistake": "Penser qu'un chargement tient tout seul.",
     "legal_ref": "loi 2022-04, L.54",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c02-0002",
@@ -68,8 +72,12 @@
     "explanation": "Chaînes, bâches et accessoires doivent être fixés pour ne jamais sortir du contour ni traîner sur le sol.",
     "common_mistake": "Laisser une bâche flotter au vent.",
     "legal_ref": "loi 2022-04, L.54",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c02-0003",
@@ -104,8 +112,12 @@
     "explanation": "Il ne doit pas dépasser de plus de 3 mètres l'arrière du véhicule ni dépasser à l'avant.",
     "common_mistake": "Charger de longues barres sans limite.",
     "legal_ref": "loi 2022-04, L.55",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c02-0004",
@@ -140,8 +152,12 @@
     "explanation": "Les matériaux pulvérulents doivent être solidement amarrés sous une bâche étanche pour ne pas s'envoler.",
     "common_mistake": "Rouler avec des matériaux pulvérulents non couverts.",
     "legal_ref": "loi 2022-04, L.54",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c02-0005",
@@ -176,8 +192,12 @@
     "explanation": "Il est interdit de transporter des passagers, y compris les apprentis chauffeurs, sur les marchepieds.",
     "common_mistake": "Laisser monter sur le marchepied quand le car est plein.",
     "legal_ref": "loi 2022-04, L.50",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c02-0006",
@@ -214,8 +234,12 @@
     "explanation": "Les passagers sur les toits ou les marchepieds sont interdits dans les véhicules de transport de personnes (L.50). Le surnombre est interdit aussi dans les véhicules particuliers (L.51).",
     "common_mistake": "Charger tout le monde « pour une fois ».",
     "legal_ref": "loi 2022-04, L.50 et L.51",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c02-0007",
@@ -250,8 +274,12 @@
     "explanation": "Il est interdit d'affecter une remorque au transport de personnes, public ou privé.",
     "common_mistake": "Faire monter des gens dans une remorque.",
     "legal_ref": "loi 2022-04, L.52",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c02-0008",
@@ -286,7 +314,11 @@
     "explanation": "Les enfants sont transportés assis s'ils ne sont pas accompagnés.",
     "common_mistake": "Laisser des enfants debout.",
     "legal_ref": "loi 2022-04, L.53",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]

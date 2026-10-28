@@ -32,8 +32,12 @@
     "explanation": "Sur autoroute, les vélos, les piétons et les engins à moteur de 50 cm³ ou moins sont interdits.",
     "common_mistake": "Prendre l'autoroute avec un cyclomoteur.",
     "legal_ref": "Décret 2004-13, art. 1",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c02-0002",
@@ -68,8 +72,12 @@
     "explanation": "Pour une voiture : 130 km/h par temps normal, 100 km/h par pluie, 50 km/h si l'on voit à moins de 50 m.",
     "common_mistake": "Dépasser 130 km/h « parce que la route est droite ».",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c02-0003",
@@ -104,8 +112,12 @@
     "explanation": "Par pluie ou autres précipitations, la limite sur autoroute passe à 100 km/h pour une voiture.",
     "common_mistake": "Garder 130 km/h sous la pluie.",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c02-0004",
@@ -140,8 +152,12 @@
     "explanation": "Cette bande n'est faite que pour l'arrêt en cas de nécessité absolue. On ne s'y arrête pas par confort.",
     "common_mistake": "S'arrêter sur la bande pour une pause.",
     "legal_ref": "loi 2022-04, L.2",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c02-0005",
@@ -212,8 +228,12 @@
     "explanation": "L'arrêt est obligatoire au poste de péage. On ralentit bien avant la barrière.",
     "common_mistake": "Arriver trop vite à la barrière.",
     "legal_ref": "Décret 2004-13, annexe P4 (B5c)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c02-0007",
@@ -248,8 +268,12 @@
     "explanation": "La voie d'accélération sert à prendre de la vitesse pour s'insérer sans gêner le trafic.",
     "common_mistake": "S'arrêter au bout de la bretelle.",
     "legal_ref": "loi 2022-04, L.2",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c02-0008",
@@ -284,7 +308,11 @@
     "explanation": "Une autoroute n'a pas de croisement à niveau : pas de feu, pas de carrefour, pas de voie ferrée à traverser.",
     "common_mistake": "Chercher un carrefour là où il n'y en a pas.",
     "legal_ref": "loi 2022-04, L.2",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]

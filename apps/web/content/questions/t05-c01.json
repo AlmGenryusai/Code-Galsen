@@ -70,8 +70,12 @@
     "explanation": "Le propriétaire doit adresser la déclaration de mise en circulation dans les quinze jours. Il reçoit un certificat d'immatriculation et d'aptitude technique.",
     "common_mistake": "Rouler des mois sans déclaration.",
     "legal_ref": "Décret 2004-13, art. 44 et 45",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c01-0003",
@@ -106,8 +110,12 @@
     "explanation": "Le certificat d'immatriculation porte la mention de fin de validité de la visite technique.",
     "common_mistake": "Chercher la date sur le permis.",
     "legal_ref": "Décret 2004-13, art. 45 et 107",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c01-0004",
@@ -142,8 +150,12 @@
     "explanation": "Tout véhicule employé au transport de personnes ou de marchandises passe d'abord une visite technique, puis aux dates fixées. Les véhicules neufs n'y sont pas soumis (L.47).",
     "common_mistake": "Faire circuler un car sans visite.",
     "legal_ref": "loi 2022-04, L.47",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c01-0005",
@@ -178,8 +190,12 @@
     "explanation": "Les véhicules automobiles, sauf motos et cyclomoteurs, portent deux plaques d'immatriculation.",
     "common_mistake": "Rouler sans plaque avant.",
     "legal_ref": "loi 2022-04, L.44",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c01-0006",
@@ -214,8 +230,12 @@
     "explanation": "Ne pas s'arrêter à la sommation claire d'un agent est un délit puni de prison et d'amende.",
     "common_mistake": "Fuir un contrôle.",
     "legal_ref": "loi 2022-04, L.85",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c01-0007",
@@ -250,8 +270,12 @@
     "explanation": "Le permis doit correspondre à la catégorie du véhicule et être en cours de validité, au nom du conducteur.",
     "common_mistake": "Conduire avec un permis d'une autre catégorie.",
     "legal_ref": "loi 2022-04, L.4 et L.79",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c01-0008",
@@ -286,7 +310,11 @@
     "explanation": "Donner un faux nom ou une fausse adresse après une infraction est puni de 6 mois à 3 ans de prison et d'une amende.",
     "common_mistake": "Mentir pour éviter une amende.",
     "legal_ref": "loi 2022-04, L.86",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]

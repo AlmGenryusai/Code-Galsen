@@ -32,8 +32,12 @@
     "explanation": "Le permis est une carte numérisée sécurisée qui contient les empreintes du titulaire pour permettre une vérification biométrique.",
     "common_mistake": "Penser que le permis est un simple papier.",
     "legal_ref": "loi 2022-04, L.5",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t05-c03-0002",
@@ -284,7 +288,11 @@
     "explanation": "Violer l'interdiction de conduire est puni de trois ans de prison et d'une amende, sans circonstances atténuantes.",
     "common_mistake": "Reprendre le volant « en cachette ».",
     "legal_ref": "loi 2022-04, L.81",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]
