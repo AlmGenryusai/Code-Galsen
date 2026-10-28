@@ -42,7 +42,8 @@ OTP SMS, Africa's Talking, JWT RS256 custom + single-session, PayDunya, Zustand,
 
 - **Aucun chiffre légal sans source.** Chaque question porte un `legal_ref` (article de loi ou décret).
 - Textes de référence : loi 2022-04 (nouveau code, décret d'application en attente), décret 2004-13 (en vigueur). Fiche de vérité : `refonte/27_fiche_regles_senegal.md`.
-- Valeurs non confirmées à ce jour : vitesses en agglomération et hors agglomération, taux d'alcool, format officiel de l'examen. **Ne pas inventer.** Laisser la question en `draft`.
+- Valeurs non confirmées à ce jour : vitesses en agglomération et hors agglomération, format officiel de l'examen. **Ne pas inventer.** Laisser la question en `draft`.
+- Taux d'alcool confirmé : loi 2022-04, L.84 (0,20 g/L de sang ou 0,10 mg/L d'air expiré), relu par Alfred le 2026-10-28.
 - Statut `published` seulement après relecture d'un moniteur et validation du juriste pour les items réglementaires.
 - Pédagogie : situations réelles (motos, charrettes, transports en commun), causalité, erreurs fréquentes, lecture rapide sur mobile. Pas de distracteurs absurdes.
 - `EXAM_CONFIG` reste paramétrable : ne pas afficher « conforme à l'examen officiel » tant que ce n'est pas confirmé.

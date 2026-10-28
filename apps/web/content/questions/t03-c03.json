@@ -32,8 +32,12 @@
     "explanation": "La loi limite à 30 km/h aux abords des établissements scolaires, hospitaliers et des édifices religieux.",
     "common_mistake": "Garder 50 km/h devant une école.",
     "legal_ref": "loi 2022-04, L.60",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c03-0002",
@@ -68,8 +72,12 @@
     "explanation": "Dans une aire piétonne, seuls les véhicules nécessaires à la desserte circulent, à l'allure du pas, et les piétons sont prioritaires.",
     "common_mistake": "Passer vite parce que la rue est vide.",
     "legal_ref": "loi 2022-04, L.2",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c03-0003",
@@ -104,8 +112,12 @@
     "explanation": "On obéit au garde et on ne gêne jamais la fermeture des barrières.",
     "common_mistake": "Passer sous la barrière qui descend.",
     "legal_ref": "Décret 2004-13, art. 12",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c03-0004",
@@ -140,8 +152,12 @@
     "explanation": "Le train a la priorité : on dégage la voie tout de suite pour lui laisser le passage.",
     "common_mistake": "S'arrêter sur les rails.",
     "legal_ref": "Décret 2004-13, art. 12",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c03-0005",
@@ -176,8 +192,12 @@
     "explanation": "On réduit sa vitesse en abordant les virages, les descentes rapides et l'approche des sommets de côte.",
     "common_mistake": "Prendre de la vitesse en descente.",
     "legal_ref": "Décret 2004-13, art. 13",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c03-0006",
@@ -212,8 +232,12 @@
     "explanation": "On ralentit sur les routes étroites, encombrées, ou bordées de maisons : des enfants, des animaux ou des piétons peuvent surgir.",
     "common_mistake": "Rouler vite dans un village.",
     "legal_ref": "Décret 2004-13, art. 13",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c03-0007",
@@ -248,8 +272,12 @@
     "explanation": "Les ralentisseurs sont signalés par un panneau de danger. On ralentit avant, pas sur l'obstacle.",
     "common_mistake": "Freiner brusquement sur le ralentisseur.",
     "legal_ref": "Décret 2004-13, annexe P3 (A2b)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c03-0008",

@@ -115,6 +115,10 @@
     }
   ],
   "legal_ref": "Décret 2004-13, art. 12, 13, 21, 33, annexe P3 ; loi 2022-04, L.2, L.60",
-  "legal_status": "pending",
-  "status": "draft"
+  "legal_status": "confirmed",
+  "status": "published",
+  "review": {
+    "moniteur": "2026-10-28",
+    "juriste": "2026-10-28"
+  }
 }

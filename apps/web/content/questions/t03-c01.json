@@ -32,8 +32,12 @@
     "explanation": "Par temps de brouillard, on allume les feux de croisement ou de route, même de jour. Les feux de croisement éblouissent moins dans la brume.",
     "common_mistake": "Rouler sans feux de jour.",
     "legal_ref": "Décret 2004-13, art. 82 ; loi 2022-04, L.62",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c01-0002",
@@ -68,8 +72,12 @@
     "explanation": "On doit réduire sa vitesse quand la visibilité est insuffisante. La limite n'est pas un objectif.",
     "common_mistake": "Rouler vite pour traverser plus vite.",
     "legal_ref": "Décret 2004-13, art. 13",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c01-0003",
@@ -104,8 +112,12 @@
     "explanation": "Quand la visibilité est inférieure à 50 m, la limite tombe à 50 km/h pour une voiture, sur toute route.",
     "common_mistake": "Garder la vitesse du beau temps.",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c01-0004",
@@ -140,8 +152,12 @@
     "explanation": "Poussière, sable, fumée ou forte pluie imposent une vitesse réduite. Un klaxon ne fait pas voir plus loin.",
     "common_mistake": "Accélérer pour s'en sortir.",
     "legal_ref": "Décret 2004-13, art. 13",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c01-0005",
@@ -176,8 +192,12 @@
     "explanation": "Les feux de croisement remplacent les feux de route quand on suit de près ou quand on croise, pour ne pas éblouir.",
     "common_mistake": "Rester en feux de route derrière un véhicule.",
     "legal_ref": "Décret 2004-13, art. 82",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t03-c01-0006",
@@ -286,7 +306,11 @@
     "explanation": "La limite est un maximum. Je la réduis selon les difficultés de la circulation, les obstacles prévisibles et la visibilité.",
     "common_mistake": "Rouler toujours à la limite.",
     "legal_ref": "Décret 2004-13, art. 13",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]
