@@ -1,0 +1,218 @@
+[
+  {
+    "id": "t09-c01-0001",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "parts": [
+      {
+        "text": "La ceinture de sécurité réduit :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le risque de blessure grave"
+          },
+          {
+            "id": "B",
+            "text": "la vitesse"
+          },
+          {
+            "id": "C",
+            "text": "la consommation"
+          },
+          {
+            "id": "D",
+            "text": "le bruit"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "En cas de choc, la ceinture retient le corps et évite la projection hors du siège.",
+    "common_mistake": "Penser qu'elle gêne en ville.",
+    "legal_ref": "Décret 2004-13, annexe S2",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c01-0002",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "parts": [
+      {
+        "text": "En cas de freinage d'urgence avec ABS, je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "pompe sur la pédale"
+          },
+          {
+            "id": "B",
+            "text": "appuie à fond et garde appuyé"
+          },
+          {
+            "id": "C",
+            "text": "relâche la pédale"
+          },
+          {
+            "id": "D",
+            "text": "tourne le volant"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "L'ABS empêche les roues de bloquer : on appuie fort et on laisse faire, en gardant le volant.",
+    "common_mistake": "Pomper sur le frein.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c01-0003",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "parts": [
+      {
+        "text": "L'airbag fonctionne le mieux avec :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la ceinture attachée"
+          },
+          {
+            "id": "B",
+            "text": "la ceinture détachée"
+          },
+          {
+            "id": "C",
+            "text": "un siège incliné"
+          },
+          {
+            "id": "D",
+            "text": "un enfant sur les genoux"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "L'airbag complète la ceinture, il ne la remplace pas.",
+    "common_mistake": "Compter sur l'airbag sans ceinture.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c01-0004",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "parts": [
+      {
+        "text": "Un passager arrière sans ceinture :",
+        "options": [
+          {
+            "id": "A",
+            "text": "est en sécurité"
+          },
+          {
+            "id": "B",
+            "text": "peut être projeté et blesser les autres"
+          },
+          {
+            "id": "C",
+            "text": "ne risque rien"
+          },
+          {
+            "id": "D",
+            "text": "est protégé par l'airbag"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un passager non attaché devient un projectile dans un choc.",
+    "common_mistake": "Croire que l'arrière est sûr sans ceinture.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c01-0005",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "parts": [
+      {
+        "text": "Un voyant de défaut d'ABS s'allume. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "ignore"
+          },
+          {
+            "id": "B",
+            "text": "fais contrôler le système"
+          },
+          {
+            "id": "C",
+            "text": "l'éteins"
+          },
+          {
+            "id": "D",
+            "text": "change de voiture"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le freinage normal marche, mais l'anti-blocage ne fonctionne plus. On fait contrôler.",
+    "common_mistake": "Ignorer un voyant de sécurité.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t09-c01-0006",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "parts": [
+      {
+        "text": "Je suis dispensé de ceinture si :",
+        "options": [
+          {
+            "id": "A",
+            "text": "j'ai un certificat médical de contre-indication"
+          },
+          {
+            "id": "B",
+            "text": "je roule doucement"
+          },
+          {
+            "id": "C",
+            "text": "je suis pressé"
+          },
+          {
+            "id": "D",
+            "text": "je suis passager arrière"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Seule une contre-indication médicale justifiée par un certificat dispense du port de la ceinture.",
+    "common_mistake": "S'en dispenser en ville.",
+    "legal_ref": "Décret 2004-13, annexe S3",
+    "legal_status": "pending",
+    "status": "draft"
+  }
+]

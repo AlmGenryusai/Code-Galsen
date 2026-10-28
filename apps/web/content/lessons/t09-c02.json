@@ -1,0 +1,61 @@
+{
+  "id": "t09-c02",
+  "theme": "t09",
+  "sheets": [
+    {
+      "id": "t09-c02-f01",
+      "title": "Enfants et passagers en voiture",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Un enfant voyage attaché, à l'arrière si possible."
+        },
+        {
+          "type": "heading",
+          "text": "À éviter"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tenir l'enfant sur les genoux.",
+            "Dépasser le nombre de places.",
+            "Transporter des passagers sur le toit ou le marchepied."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Une place, une ceinture, un passager."
+        }
+      ]
+    },
+    {
+      "id": "t09-c02-f02",
+      "title": "Motos : casque et siège enfant",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sur une moto, le passager porte un casque homologué."
+        },
+        {
+          "type": "heading",
+          "text": "Les enfants"
+        },
+        {
+          "type": "text",
+          "text": "Un enfant de moins de 5 ans doit être placé dans une corbeille ou un siège muni de courroies, solidement fixé au véhicule. Il ne se tient pas dans les bras du conducteur."
+        },
+        {
+          "type": "attention",
+          "text": "Un passager assis « en amazone » ou à califourchon sans dispositif est interdit."
+        },
+        {
+          "type": "memo",
+          "text": "Casque pour tous, siège pour les petits."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, annexe D27, D28 ; loi 2022-04, L.50, L.51",
+  "legal_status": "pending",
+  "status": "draft"
+}

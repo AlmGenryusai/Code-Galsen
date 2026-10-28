@@ -1,0 +1,78 @@
+{
+  "id": "t06-c01",
+  "theme": "t06",
+  "sheets": [
+    {
+      "id": "t06-c01-f01",
+      "title": "Protéger et alerter",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Face à un accident, l'ordre compte : protéger, alerter, secourir."
+        },
+        {
+          "type": "heading",
+          "text": "Protéger"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'arrête mon véhicule en sécurité et j'allume mes feux de détresse.",
+            "Je pose un triangle de pré-signalisation assez loin pour être vu à temps.",
+            "J'éloigne les curieux de la chaussée."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Alerter"
+        },
+        {
+          "type": "text",
+          "text": "Je donne le lieu précis, le nombre de victimes et leur état. Je réponds aux questions sans raccrocher en premier."
+        },
+        {
+          "type": "attention",
+          "text": "Fuir après un accident est un délit. Je reste sur place."
+        },
+        {
+          "type": "memo",
+          "text": "Protéger, alerter, secourir."
+        }
+      ]
+    },
+    {
+      "id": "t06-c01-f02",
+      "title": "Premiers gestes",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sans formation, je fais les gestes simples et je laisse les secouristes faire le reste."
+        },
+        {
+          "type": "heading",
+          "text": "Je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ne déplace pas une victime, sauf danger immédiat (feu, circulation).",
+            "Je ne retire pas le casque d'un motard.",
+            "J'appuie fortement sur une plaie qui saigne.",
+            "Je parle à la victime pour la rassurer."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Je ne donne ni à boire ni à manger à une victime grave."
+        },
+        {
+          "type": "memo",
+          "text": "Je protège, j'appelle, j'appuie sur la plaie."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, art. 83 ; loi 2022-04, L.64, L.82",
+  "legal_status": "pending",
+  "status": "draft"
+}

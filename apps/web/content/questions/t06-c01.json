@@ -1,0 +1,220 @@
+[
+  {
+    "id": "t06-c01-0001",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "parts": [
+      {
+        "text": "J'arrive sur un accident. Ma première action est de :",
+        "options": [
+          {
+            "id": "A",
+            "text": "m'approcher de la victime"
+          },
+          {
+            "id": "B",
+            "text": "protéger la zone pour éviter un second accident"
+          },
+          {
+            "id": "C",
+            "text": "filmer"
+          },
+          {
+            "id": "D",
+            "text": "partir"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Avant de secourir, on protège : feux de détresse, signalisation, éloigner les curieux. Un second accident aggraverait tout.",
+    "common_mistake": "Courir vers la victime sans protéger la zone.",
+    "legal_ref": "Décret 2004-13, art. 83 ; loi 2022-04, L.64",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t06-c01-0002",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "parts": [
+      {
+        "text": "Je suis impliqué dans un accident qui a fait des blessés. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "m'enfuis"
+          },
+          {
+            "id": "B",
+            "text": "reste sur place et aide ou alerte"
+          },
+          {
+            "id": "C",
+            "text": "pars chercher un ami"
+          },
+          {
+            "id": "D",
+            "text": "attends que tout le monde parte"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "S'enfuir est un délit grave. On s'arrête, on protège, on alerte et on aide.",
+    "common_mistake": "Fuir par peur.",
+    "legal_ref": "loi 2022-04, L.82",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t06-c01-0003",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "parts": [
+      {
+        "text": "Pour alerter les secours, j'indique :",
+        "options": [
+          {
+            "id": "A",
+            "text": "l'endroit précis"
+          },
+          {
+            "id": "B",
+            "text": "le nombre de victimes"
+          },
+          {
+            "id": "C",
+            "text": "l'état des victimes"
+          },
+          {
+            "id": "D",
+            "text": "rien du tout"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Les secours ont besoin d'un lieu précis, du nombre de victimes et de leur état. Mieux vaut un message clair et court.",
+    "common_mistake": "Appeler sans dire où l'on est.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t06-c01-0004",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "parts": [
+      {
+        "text": "Une victime est inconsciente, sans danger autour. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la secoue"
+          },
+          {
+            "id": "B",
+            "text": "ne la déplace pas et appelle les secours"
+          },
+          {
+            "id": "C",
+            "text": "la mets debout"
+          },
+          {
+            "id": "D",
+            "text": "lui donne à boire"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "On ne déplace pas une victime sans danger immédiat : on risque d'aggraver une lésion de la colonne.",
+    "common_mistake": "Déplacer une victime sans raison.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t06-c01-0005",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "parts": [
+      {
+        "text": "Un motard blessé porte un casque. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "lui retire le casque tout de suite"
+          },
+          {
+            "id": "B",
+            "text": "ne le retire pas sans nécessité"
+          },
+          {
+            "id": "C",
+            "text": "lui retire le casque en tirant fort"
+          },
+          {
+            "id": "D",
+            "text": "lui retire le casque pour le faire respirer"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Le casque protège la tête et la nuque. On ne l'enlève que si c'est vraiment nécessaire, par des secouristes.",
+    "common_mistake": "Retirer le casque en tirant.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t06-c01-0006",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "parts": [
+      {
+        "text": "Une victime saigne beaucoup d'une jambe. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "appuie fortement sur la plaie"
+          },
+          {
+            "id": "B",
+            "text": "attends les secours sans rien faire"
+          },
+          {
+            "id": "C",
+            "text": "lui donne à boire"
+          },
+          {
+            "id": "D",
+            "text": "la fais marcher"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Une pression forte et continue sur la plaie arrête la plupart des saignements, en attendant les secours.",
+    "common_mistake": "Attendre sans agir.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  }
+]

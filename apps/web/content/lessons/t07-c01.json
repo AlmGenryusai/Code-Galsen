@@ -1,0 +1,62 @@
+{
+  "id": "t07-c01",
+  "theme": "t07",
+  "sheets": [
+    {
+      "id": "t07-c01-f01",
+      "title": "S'installer correctement",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Un bon réglage évite la fatigue et améliore le contrôle de la voiture."
+        },
+        {
+          "type": "heading",
+          "text": "Avant de démarrer"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je règle mon siège pour atteindre les pédales à fond.",
+            "Je règle mes rétroviseurs pour voir la route sur les côtés et derrière.",
+            "Je règle l'appui-tête à hauteur de la tête.",
+            "J'attache ma ceinture."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Siège, rétroviseurs, appui-tête, ceinture."
+        }
+      ]
+    },
+    {
+      "id": "t07-c01-f02",
+      "title": "Ceinture et habitacle",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "La ceinture est obligatoire pour le conducteur et les places avant. Seule une contre-indication médicale, avec certificat, dispense."
+        },
+        {
+          "type": "heading",
+          "text": "L'habitacle"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je range ou je fixe tout ce qui peut rouler.",
+            "Je ne laisse rien près des pédales.",
+            "Je ne tiens rien dans la main en conduisant."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Rien sous les pédales, ceinture attachée."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Décret 2004-13, annexe S2 et S3",
+  "legal_status": "pending",
+  "status": "draft"
+}

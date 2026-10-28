@@ -1,0 +1,62 @@
+{
+  "id": "t10-c01",
+  "theme": "t10",
+  "sheets": [
+    {
+      "id": "t10-c01-f01",
+      "title": "Consommer moins",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Une conduite souple fait gagner du carburant et ménage la voiture."
+        },
+        {
+          "type": "heading",
+          "text": "Je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'anticipe pour lever le pied plutôt que freiner fort.",
+            "J'accélère doucement et je garde une vitesse stable.",
+            "Je garde mes pneus bien gonflés.",
+            "Je retire la charge inutile."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Souple, anticipé, léger."
+        }
+      ]
+    },
+    {
+      "id": "t10-c01-f02",
+      "title": "Polluer moins",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "La loi demande que les véhicules limitent leur consommation d'énergie et leurs émissions polluantes."
+        },
+        {
+          "type": "heading",
+          "text": "Je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je coupe le moteur à l'arrêt prolongé.",
+            "Je fais entretenir mon véhicule.",
+            "Je ne modifie pas le pot d'échappement."
+          ]
+        },
+        {
+          "type": "memo",
+          "text": "Moteur coupé à l'arrêt, véhicule entretenu."
+        }
+      ]
+    }
+  ],
+  "legal_ref": "Loi 2022-04, L.25",
+  "legal_status": "pending",
+  "status": "draft"
+}

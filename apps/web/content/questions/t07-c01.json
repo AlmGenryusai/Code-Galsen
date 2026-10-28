@@ -1,0 +1,220 @@
+[
+  {
+    "id": "t07-c01-0001",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "parts": [
+      {
+        "text": "Avant de démarrer, je règle :",
+        "options": [
+          {
+            "id": "A",
+            "text": "mon siège"
+          },
+          {
+            "id": "B",
+            "text": "mes rétroviseurs"
+          },
+          {
+            "id": "C",
+            "text": "mon appui-tête"
+          },
+          {
+            "id": "D",
+            "text": "la radio"
+          }
+        ],
+        "correct": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Siège, rétroviseurs, appui-tête et ceinture se règlent avant de rouler. Pas pendant.",
+    "common_mistake": "Régler en roulant.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c01-0002",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "parts": [
+      {
+        "text": "La ceinture de sécurité est obligatoire pour :",
+        "options": [
+          {
+            "id": "A",
+            "text": "le conducteur et les places avant"
+          },
+          {
+            "id": "B",
+            "text": "personne"
+          },
+          {
+            "id": "C",
+            "text": "les passagers arrière uniquement"
+          },
+          {
+            "id": "D",
+            "text": "les enfants"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le conducteur et les occupants des places avant doivent l'attacher. Seule une contre-indication médicale justifiée dispense.",
+    "common_mistake": "Attacher sa ceinture seulement sur longue route.",
+    "legal_ref": "Décret 2004-13, annexe S2 et S3",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c01-0003",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "parts": [
+      {
+        "text": "Mes bras, en tenant le volant, sont :",
+        "options": [
+          {
+            "id": "A",
+            "text": "tendus à fond"
+          },
+          {
+            "id": "B",
+            "text": "légèrement fléchis"
+          },
+          {
+            "id": "C",
+            "text": "collés au corps"
+          },
+          {
+            "id": "D",
+            "text": "au-dessus du volant"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Les bras légèrement fléchis permettent de tourner vite et sans fatigue.",
+    "common_mistake": "Conduire trop loin du volant.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c01-0004",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "parts": [
+      {
+        "text": "Les objets dans l'habitacle doivent être :",
+        "options": [
+          {
+            "id": "A",
+            "text": "posés près des pédales"
+          },
+          {
+            "id": "B",
+            "text": "rangés ou fixés"
+          },
+          {
+            "id": "C",
+            "text": "jetés sur la plage arrière"
+          },
+          {
+            "id": "D",
+            "text": "tenus dans la main"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un objet qui roule sous les pédales peut empêcher de freiner. Tout doit être rangé.",
+    "common_mistake": "Laisser une bouteille rouler.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c01-0005",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "parts": [
+      {
+        "text": "Mes rétroviseurs sont réglés :",
+        "options": [
+          {
+            "id": "A",
+            "text": "pour voir l'arrière de ma voiture"
+          },
+          {
+            "id": "B",
+            "text": "pour voir la route derrière et sur les côtés"
+          },
+          {
+            "id": "C",
+            "text": "vers le plafond"
+          },
+          {
+            "id": "D",
+            "text": "au hasard"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Un bon réglage montre la route derrière et sur les côtés, avec un minimum de carrosserie.",
+    "common_mistake": "Voir sa propre carrosserie au lieu de la route.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  },
+  {
+    "id": "t07-c01-0006",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "parts": [
+      {
+        "text": "Un appui-tête bien réglé :",
+        "options": [
+          {
+            "id": "A",
+            "text": "est à hauteur de la nuque et de la tête"
+          },
+          {
+            "id": "B",
+            "text": "est au niveau des épaules"
+          },
+          {
+            "id": "C",
+            "text": "est retiré"
+          },
+          {
+            "id": "D",
+            "text": "est posé devant"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "L'appui-tête protège la nuque en cas de choc par l'arrière. Il se règle à hauteur de la tête.",
+    "common_mistake": "Le baisser ou l'enlever.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "draft"
+  }
+]
