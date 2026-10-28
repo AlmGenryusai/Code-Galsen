@@ -116,6 +116,10 @@
     }
   ],
   "legal_ref": "Décret 2004-13, art. 13, 14 ; loi 2022-04, L.58, L.60",
-  "legal_status": "pending",
-  "status": "draft"
+  "legal_status": "confirmed",
+  "status": "published",
+  "review": {
+    "moniteur": "2026-10-28",
+    "juriste": "2026-10-28"
+  }
 }

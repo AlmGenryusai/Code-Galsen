@@ -31,8 +31,12 @@
     ],
     "explanation": "Règle de priorité à droite : le véhicule venant de droite est prioritaire à tout carrefour sans signalisation.",
     "legal_ref": "Décret 2004-13, art. 28",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0002",
@@ -72,8 +76,12 @@
     ],
     "explanation": "Sur une route prioritaire, les véhicules qui y circulent ont la priorité sur tous ceux venant des voies secondaires.",
     "legal_ref": "Décret 2004-13, art. 1 ; art. 28 ; annexe P3 (AB6)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0003",
@@ -108,8 +116,12 @@
     "explanation": "Sans signalisation, on cède le passage au conducteur qui vient de droite. La vitesse ou la taille du véhicule ne changent rien.",
     "common_mistake": "Croire que le plus rapide ou le plus gros passe en premier.",
     "legal_ref": "Décret 2004-13, art. 28",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0004",
@@ -144,8 +156,12 @@
     "explanation": "Le STOP impose un temps d'arrêt à la limite de l'intersection, puis il faut céder aux conducteurs de l'autre route, dans les deux sens.",
     "common_mistake": "Rouler au pas sans s'arrêter.",
     "legal_ref": "Décret 2004-13, art. 28",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0005",
@@ -180,8 +196,12 @@
     "explanation": "Ce panneau demande de laisser passer les conducteurs de l'autre route, qu'ils viennent de gauche ou de droite.",
     "common_mistake": "Ne regarder que le côté droit.",
     "legal_ref": "Décret 2004-13, art. 28",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0006",
@@ -216,8 +236,12 @@
     "explanation": "Dans un carrefour à sens giratoire obligatoire, le conducteur déjà engagé est prioritaire. Celui qui arrive doit attendre.",
     "common_mistake": "Penser que celui qui entre passe avant.",
     "legal_ref": "Décret 2004-13, art. 28",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0007",
@@ -252,8 +276,12 @@
     "explanation": "Les ambulances, pompiers, police et gendarmerie annonçant leur approche passent en priorité. Il faut céder, ralentir, et au besoin s'arrêter ou se garer.",
     "common_mistake": "Accélérer pour dégager le passage.",
     "legal_ref": "Décret 2004-13, art. 29",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0008",
@@ -288,8 +316,12 @@
     "explanation": "Il est interdit de couper un cortège en marche. Quand il est escorté, chacun s'arrête et laisse la chaussée libre.",
     "common_mistake": "Se glisser dans le cortège pour ne pas attendre.",
     "legal_ref": "Décret 2004-13, art. 30",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0009",
@@ -324,8 +356,12 @@
     "explanation": "Le train a toujours la priorité. Sans barrière, on ne s'engage qu'après avoir vérifié que le passage est sûr et qu'aucun train n'approche.",
     "common_mistake": "Se fier au véhicule qui précède.",
     "legal_ref": "Décret 2004-13, art. 12",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t01-c02-0010",

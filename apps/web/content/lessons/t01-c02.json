@@ -130,6 +130,10 @@
     }
   ],
   "legal_ref": "Décret 2004-13, art. 7, 12, 25, 28 à 30",
-  "legal_status": "pending",
-  "status": "draft"
+  "legal_status": "confirmed",
+  "status": "published",
+  "review": {
+    "moniteur": "2026-10-28",
+    "juriste": "2026-10-28"
+  }
 }
