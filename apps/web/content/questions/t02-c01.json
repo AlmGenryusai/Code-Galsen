@@ -185,15 +185,15 @@
     "chapter": "t02-c01",
     "parts": [
       {
-        "text": "La nuit, sur une route avec un bon éclairage public, je peux rouler avec :",
+        "text": "La nuit, sur une route avec un bon éclairage public, je dois rouler avec :",
         "options": [
           {
             "id": "A",
-            "text": "les feux de position seulement"
+            "text": "les feux de croisement ou de route"
           },
           {
             "id": "B",
-            "text": "aucun feu"
+            "text": "les feux de position seulement"
           },
           {
             "id": "C",
@@ -209,9 +209,9 @@
         ]
       }
     ],
-    "explanation": "Avec un éclairage public suffisant, on peut se contenter des feux de position. Sinon, feux de croisement ou de route.",
-    "common_mistake": "Rouler sans feux parce qu'on voit bien.",
-    "legal_ref": "Décret 2004-13, art. 82",
+    "explanation": "La nuit, on allume les feux de croisement ou de route, même avec un éclairage public (L.62). Les feux de position seuls ne suffisent pas.",
+    "common_mistake": "Croire que l'éclairage public dispense des feux de croisement.",
+    "legal_ref": "Loi 2022-04, L.62",
     "legal_status": "pending",
     "status": "draft"
   },

@@ -31,7 +31,7 @@
     ],
     "explanation": "Par temps de brouillard, on allume les feux de croisement ou de route, même de jour. Les feux de croisement éblouissent moins dans la brume.",
     "common_mistake": "Rouler sans feux de jour.",
-    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_ref": "Décret 2004-13, art. 82 ; loi 2022-04, L.62",
     "legal_status": "pending",
     "status": "draft"
   },
@@ -77,7 +77,7 @@
     "chapter": "t03-c01",
     "parts": [
       {
-        "text": "Je vois à moins de 50 mètres. Ma vitesse maximale est :",
+        "text": "En voiture, je vois à moins de 50 mètres. Ma vitesse maximale est :",
         "options": [
           {
             "id": "A",
@@ -101,7 +101,7 @@
         ]
       }
     ],
-    "explanation": "Quand la visibilité est inférieure à 50 m, la limite tombe à 50 km/h sur toute route.",
+    "explanation": "Quand la visibilité est inférieure à 50 m, la limite tombe à 50 km/h pour une voiture, sur toute route.",
     "common_mistake": "Garder la vitesse du beau temps.",
     "legal_ref": "loi 2022-04, L.58",
     "legal_status": "pending",
@@ -269,7 +269,7 @@
           },
           {
             "id": "C",
-            "text": "l'état de la route"
+            "text": "les difficultés de la circulation"
           },
           {
             "id": "D",
@@ -283,7 +283,7 @@
         ]
       }
     ],
-    "explanation": "La limite est un maximum. Je la réduis selon la circulation, la visibilité et l'état de la chaussée.",
+    "explanation": "La limite est un maximum. Je la réduis selon les difficultés de la circulation, les obstacles prévisibles et la visibilité.",
     "common_mistake": "Rouler toujours à la limite.",
     "legal_ref": "Décret 2004-13, art. 13",
     "legal_status": "pending",

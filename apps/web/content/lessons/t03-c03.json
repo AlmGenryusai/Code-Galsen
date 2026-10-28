@@ -66,7 +66,7 @@
         },
         {
           "type": "text",
-          "text": "Je dégage immédiatement la voie ferrée. Il est interdit de s'arrêter sur le passage ou de dépasser avant."
+          "text": "Je dégage immédiatement la voie ferrée. Il est interdit de stationner sur un passage à niveau, et de dépasser aux passages à niveau non gardés."
         },
         {
           "type": "attention",
@@ -114,7 +114,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 12, 13, annexe P3 ; loi 2022-04, L.2, L.60",
+  "legal_ref": "Décret 2004-13, art. 12, 13, 21, 33, annexe P3 ; loi 2022-04, L.2, L.60",
   "legal_status": "pending",
   "status": "draft"
 }

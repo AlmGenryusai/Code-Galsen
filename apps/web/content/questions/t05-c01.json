@@ -115,7 +115,7 @@
     "chapter": "t05-c01",
     "parts": [
       {
-        "text": "Un véhicule de transport de personnes ou de marchandises doit passer la visite technique :",
+        "text": "Un véhicule de transport de personnes ou de marchandises, hors véhicule neuf, doit passer la visite technique :",
         "options": [
           {
             "id": "A",
@@ -139,7 +139,7 @@
         ]
       }
     ],
-    "explanation": "Tout véhicule employé au transport de personnes ou de marchandises passe d'abord une visite technique, puis aux dates fixées.",
+    "explanation": "Tout véhicule employé au transport de personnes ou de marchandises passe d'abord une visite technique, puis aux dates fixées. Les véhicules neufs n'y sont pas soumis (L.47).",
     "common_mistake": "Faire circuler un car sans visite.",
     "legal_ref": "loi 2022-04, L.47",
     "legal_status": "pending",

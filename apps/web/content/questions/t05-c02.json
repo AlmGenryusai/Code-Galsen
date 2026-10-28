@@ -113,7 +113,7 @@
     "chapter": "t05-c02",
     "parts": [
       {
-        "text": "Je transporte du sable. Je dois :",
+        "text": "Je transporte des matériaux pulvérulents. Je dois :",
         "options": [
           {
             "id": "A",
@@ -138,7 +138,7 @@
       }
     ],
     "explanation": "Les matériaux pulvérulents doivent être solidement amarrés sous une bâche étanche pour ne pas s'envoler.",
-    "common_mistake": "Rouler avec un sable non couvert.",
+    "common_mistake": "Rouler avec des matériaux pulvérulents non couverts.",
     "legal_ref": "loi 2022-04, L.54",
     "legal_status": "pending",
     "status": "draft"
@@ -185,7 +185,7 @@
     "chapter": "t05-c02",
     "parts": [
       {
-        "text": "Je ne transporte pas de passagers :",
+        "text": "Dans un véhicule de transport de personnes, je ne transporte pas de passagers :",
         "options": [
           {
             "id": "A",
@@ -211,7 +211,7 @@
         ]
       }
     ],
-    "explanation": "Les passagers sur les toits, sur les marchepieds ou en surnombre sont interdits, y compris dans les véhicules particuliers.",
+    "explanation": "Les passagers sur les toits ou les marchepieds sont interdits dans les véhicules de transport de personnes (L.50). Le surnombre est interdit aussi dans les véhicules particuliers (L.51).",
     "common_mistake": "Charger tout le monde « pour une fois ».",
     "legal_ref": "loi 2022-04, L.50 et L.51",
     "legal_status": "pending",

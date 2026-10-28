@@ -25,7 +25,7 @@
         },
         {
           "type": "attention",
-          "text": "Si l'infraction cause un mort ou des blessés, les peines sont doublées."
+          "text": "Pour la conduite sans permis et la fuite après un accident, les peines sont doublées si l'infraction cause la mort ou des blessures."
         },
         {
           "type": "memo",
@@ -74,7 +74,7 @@
         {
           "type": "list",
           "items": [
-            "Le véhicule peut être immobilisé, mis en fourrière ou retiré de la circulation.",
+            "Le véhicule peut être immobilisé, puis consigné ou mis en fourrière.",
             "Gêner volontairement la circulation avec un obstacle est puni de 3 mois à 5 ans."
           ]
         },
@@ -89,7 +89,7 @@
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.78, L.82, L.85, L.86, L.87, L.94, L.96, L.98",
+  "legal_ref": "Loi 2022-04, L.78, L.82, L.85, L.86, L.87, L.94, L.96, L.98, L.102",
   "legal_status": "pending",
   "status": "draft"
 }

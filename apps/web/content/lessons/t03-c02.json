@@ -47,9 +47,9 @@
         {
           "type": "list",
           "items": [
-            "130 km/h par temps normal.",
-            "100 km/h par pluie.",
-            "50 km/h si je vois à moins de 50 mètres."
+            "Voiture : 130 km/h par temps normal.",
+            "Voiture : 100 km/h par pluie.",
+            "Voiture : 50 km/h si je vois à moins de 50 mètres."
           ]
         },
         {
@@ -62,7 +62,7 @@
         },
         {
           "type": "memo",
-          "text": "130, 100 sous la pluie, 50 dans la brume."
+          "text": "Voiture : 130, 100 sous la pluie, 50 dans la brume."
         }
       ]
     },
@@ -105,7 +105,7 @@
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.2, L.58 ; décret 2004-13, art. 1, 31, annexe P4",
+  "legal_ref": "Loi 2022-04, L.2, L.58 ; décret 2004-13, art. 1, 31, 36, annexe P4",
   "legal_status": "pending",
   "status": "draft"
 }
