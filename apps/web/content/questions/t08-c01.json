@@ -33,7 +33,10 @@
     "common_mistake": "Rouler en espérant que ça passe.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t08-c01-0002",
@@ -69,7 +72,10 @@
     "common_mistake": "Ouvrir le bouchon du radiateur chaud.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t08-c01-0003",
@@ -104,8 +110,12 @@
     "explanation": "Un véhicule automobile doit être muni d'au moins deux miroirs rétroviseurs.",
     "common_mistake": "Rouler avec un seul rétroviseur.",
     "legal_ref": "Décret 2004-13, art. 66",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t08-c01-0004",
@@ -140,8 +150,12 @@
     "explanation": "La loi exige deux dispositifs de freinage indépendants : un principal et un de secours.",
     "common_mistake": "Penser que le frein à main suffit toujours.",
     "legal_ref": "loi 2022-04, L.23",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t08-c01-0005",
@@ -176,8 +190,12 @@
     "explanation": "Les pneus doivent avoir des sculptures apparentes sur toute leur surface et aucune déchirure profonde.",
     "common_mistake": "Rouler sur des pneus lisses.",
     "legal_ref": "loi 2022-04, L.22",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t08-c01-0006",
@@ -212,7 +230,11 @@
     "explanation": "L'avertisseur sert à signaler un danger immédiat. Hors agglomération, il ne sert qu'à donner les avertissements nécessaires.",
     "common_mistake": "Utiliser le klaxon à tout propos.",
     "legal_ref": "loi 2022-04, L.66",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]

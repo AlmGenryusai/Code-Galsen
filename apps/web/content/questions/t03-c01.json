@@ -233,7 +233,10 @@
     "common_mistake": "Freiner brutalement sur route mouillée.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t03-c01-0007",
@@ -269,7 +272,10 @@
     "common_mistake": "Rester collé au véhicule devant.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t03-c01-0008",

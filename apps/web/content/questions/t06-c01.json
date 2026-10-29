@@ -33,7 +33,10 @@
     "common_mistake": "Courir vers la victime sans protéger la zone.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t06-c01-0002",
@@ -57,7 +60,7 @@
           },
           {
             "id": "D",
-            "text": "attends que tout le monde parte"
+            "text": "ralentis, regarde, puis repars"
           }
         ],
         "correct": [
@@ -68,8 +71,12 @@
     "explanation": "Le conducteur qui sait que son véhicule a causé ou occasionné un accident et ne s'arrête pas commet un délit. On s'arrête.",
     "common_mistake": "Fuir par peur.",
     "legal_ref": "loi 2022-04, L.82",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t06-c01-0003",

@@ -65,6 +65,10 @@
     }
   ],
   "legal_ref": "Décret 2004-13, art. 80, art. 83, annexe I (I-43 à I-45) ; loi 2022-04, L.66",
-  "legal_status": "pending",
-  "status": "draft"
+  "legal_status": "confirmed",
+  "status": "published",
+  "review": {
+    "moniteur": "2026-10-28",
+    "juriste": "2026-10-28"
+  }
 }

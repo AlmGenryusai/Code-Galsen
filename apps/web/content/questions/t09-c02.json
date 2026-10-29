@@ -33,7 +33,10 @@
     "common_mistake": "Tenir l'enfant dans les bras.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t09-c02-0002",
@@ -68,8 +71,12 @@
     "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité.",
     "common_mistake": "Croire que le casque ne concerne que le conducteur.",
     "legal_ref": "Décret 2004-13, annexe D28 ; loi 2022-04, L.102 7°",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t09-c02-0003",
@@ -104,8 +111,12 @@
     "explanation": "Le surnombre est interdit, y compris dans les voitures particulières.",
     "common_mistake": "Charger tout le monde « pour une fois ».",
     "legal_ref": "loi 2022-04, L.51",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t09-c02-0004",
@@ -140,8 +151,12 @@
     "explanation": "Le décret impose un siège ou une corbeille avec courroies, solidement fixé au véhicule.",
     "common_mistake": "Porter l'enfant sur ses genoux.",
     "legal_ref": "Décret 2004-13, annexe D27",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t09-c02-0005",
@@ -177,7 +192,10 @@
     "common_mistake": "Se retourner pour parler.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t09-c02-0006",
@@ -214,7 +232,11 @@
     "explanation": "Toit, marchepied et surnombre sont interdits.",
     "common_mistake": "Charger sans compter.",
     "legal_ref": "loi 2022-04, L.50 et L.51",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]

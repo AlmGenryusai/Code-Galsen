@@ -56,6 +56,10 @@
     }
   ],
   "legal_ref": "Décret 2004-13, annexe D27, D28 ; loi 2022-04, L.50, L.51",
-  "legal_status": "pending",
-  "status": "draft"
+  "legal_status": "confirmed",
+  "status": "published",
+  "review": {
+    "moniteur": "2026-10-28",
+    "juriste": "2026-10-28"
+  }
 }

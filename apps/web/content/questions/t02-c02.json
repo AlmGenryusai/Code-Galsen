@@ -312,7 +312,10 @@
     "common_mistake": "Lutter contre le sommeil sans s'arrêter.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t02-c02-0009",
