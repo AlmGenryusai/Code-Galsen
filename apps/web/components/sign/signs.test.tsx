@@ -5,6 +5,7 @@ import { renderToStaticMarkup } from 'react-dom/server'
 import { getQuestions } from '../../lib/quiz/questions'
 import { RoadSign } from './RoadSign'
 import { SIGNS } from './signs'
+import { FAMILIES } from './families'
 
 const questions = getQuestions()
 const SIGNS_DIR = join(__dirname, '../../public/signs')
@@ -14,14 +15,8 @@ describe('panneaux', () => {
   it.each(Object.keys(SIGNS))('%s se rend sans erreur, accessible', (id) => {
     const html = renderToStaticMarkup(<RoadSign id={id} />)
     const sign = SIGNS[id]
-    if (sign.file) {
-      expect(html).toContain(`src="/signs/${sign.file}.svg"`)
-      expect(html).toContain(`alt="${sign.label}"`)
-    } else {
-      expect(html).toContain('<svg')
-      expect(html).toContain('role="img"')
-      expect(html).toContain(`aria-label="${sign.label}"`)
-    }
+    expect(html).toContain(`src="/signs/${sign.file}.svg"`)
+    expect(html).toContain(`alt="${sign.label.replace(/'/g, '&#x27;')}"`)
   })
 
   it('chaque média `sign` du JSON existe dans signs.tsx', () => {
@@ -29,7 +24,13 @@ describe('panneaux', () => {
     expect(unknown.map((q) => q.id)).toEqual([])
   })
 
-  const files = Object.values(SIGNS).flatMap((s) => (s.file ? [s.file] : []))
+  it('chaque panneau d’une famille existe, sans doublon', () => {
+    const ids = FAMILIES.flatMap((f) => f.items)
+    expect(ids.filter((id) => !(id in SIGNS))).toEqual([])
+    expect(ids.filter((id, i) => ids.indexOf(id) !== i)).toEqual([])
+  })
+
+  const files = [...new Set(Object.values(SIGNS).map((s) => s.file))]
 
   it.each(files)('public/signs/%s.svg existe, ≤ 6 Ko, sans reste d’éditeur, précaché', (file) => {
     const path = join(SIGNS_DIR, `${file}.svg`)

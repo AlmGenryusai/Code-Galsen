@@ -1,0 +1,146 @@
+{
+  "families": [
+    {
+      "id": "priorite",
+      "title": "Priorité et intersections",
+      "free": true,
+      "items": [
+        "stop",
+        "ab3a",
+        "route-prioritaire",
+        "ab7",
+        "priorite-droite",
+        "ab2",
+        "sens-giratoire",
+        "b15",
+        "c18"
+      ]
+    },
+    {
+      "id": "danger",
+      "title": "Danger",
+      "items": [
+        "a1a",
+        "a1b",
+        "a1c",
+        "a1d",
+        "a2a",
+        "a2b",
+        "a3",
+        "a3a",
+        "a3b",
+        "a4",
+        "a7",
+        "a8",
+        "a13a",
+        "a13b",
+        "a14",
+        "a15a1",
+        "a15a2",
+        "a15b",
+        "a15c",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "a20",
+        "a21",
+        "a23",
+        "a24"
+      ]
+    },
+    {
+      "id": "interdiction-acces",
+      "title": "Interdiction : accès et circulation",
+      "items": [
+        "b1",
+        "b2a",
+        "b2b",
+        "b2c",
+        "b7a",
+        "b7b",
+        "b8",
+        "b9a",
+        "b9b",
+        "b9c",
+        "b9f",
+        "b9g",
+        "b9h",
+        "b16"
+      ]
+    },
+    {
+      "id": "interdiction-depassement",
+      "title": "Interdiction : dépassement et vitesse",
+      "items": [
+        "b3",
+        "b3a",
+        "b34",
+        "b34a",
+        "b14-30",
+        "b33-30",
+        "b31"
+      ]
+    },
+    {
+      "id": "interdiction-stationnement",
+      "title": "Arrêt et stationnement",
+      "items": [
+        "b6a1",
+        "b6d",
+        "b6b1",
+        "b5a",
+        "b5b",
+        "b5c"
+      ]
+    },
+    {
+      "id": "interdiction-gabarit",
+      "title": "Dimensions et chargement",
+      "items": [
+        "b10a",
+        "b11",
+        "b12",
+        "b13",
+        "b13a",
+        "b18a",
+        "b18b",
+        "b18c"
+      ]
+    },
+    {
+      "id": "obligation",
+      "title": "Obligation",
+      "items": [
+        "b21-1",
+        "b21-2",
+        "b21a1",
+        "b21a2",
+        "b21b",
+        "b21c1",
+        "b21c2",
+        "b21d1",
+        "b21d2",
+        "b21e",
+        "b22a",
+        "b22b",
+        "b22c",
+        "b25-30",
+        "b27a",
+        "b29vl"
+      ]
+    },
+    {
+      "id": "fin-obligation",
+      "title": "Fin d'obligation",
+      "items": [
+        "b40",
+        "b41",
+        "b42",
+        "b43-30",
+        "b49",
+        "b49vl"
+      ]
+    }
+  ]
+}
