@@ -32,8 +32,12 @@
     "explanation": "On ne descend pas sans s'être assuré qu'on peut le faire sans danger : une moto ou un vélo peut passer.",
     "common_mistake": "Ouvrir sans regarder.",
     "legal_ref": "Décret 2004-13, art. 35",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t07-c02-0002",
@@ -69,7 +73,10 @@
     "common_mistake": "Faire descendre côté route.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t07-c02-0003",
@@ -104,8 +111,12 @@
     "explanation": "Moteur coupé, véhicule immobilisé selon la pente : on évite qu'il bouge.",
     "common_mistake": "Laisser le moteur tourner « une minute ».",
     "legal_ref": "Décret 2004-13, art. 34",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t07-c02-0004",
@@ -140,8 +151,12 @@
     "explanation": "On s'assure avant d'ouvrir la portière, pour entrer comme pour sortir : des véhicules, des motos, des piétons peuvent passer.",
     "common_mistake": "Ouvrir sans regarder la circulation.",
     "legal_ref": "Décret 2004-13, art. 35",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t07-c02-0005",
@@ -177,7 +192,10 @@
     "common_mistake": "Laisser l'enfant descendre côté route.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t07-c02-0006",
@@ -213,6 +231,9 @@
     "common_mistake": "Laisser la clé sur le contact.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   }
 ]

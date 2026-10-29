@@ -35,7 +35,10 @@
     "common_mistake": "Régler en roulant.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t07-c01-0002",
@@ -70,8 +73,12 @@
     "explanation": "Le conducteur et les occupants des places avant doivent l'attacher. Seule une contre-indication médicale justifiée dispense.",
     "common_mistake": "Attacher sa ceinture seulement sur longue route.",
     "legal_ref": "Décret 2004-13, annexe S2 et S3",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   },
   {
     "id": "t07-c01-0003",
@@ -107,7 +114,10 @@
     "common_mistake": "Conduire trop loin du volant.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t07-c01-0004",
@@ -143,7 +153,10 @@
     "common_mistake": "Laisser une bouteille rouler.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t07-c01-0005",
@@ -179,7 +192,10 @@
     "common_mistake": "Voir sa propre carrosserie au lieu de la route.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t07-c01-0006",
@@ -215,6 +231,9 @@
     "common_mistake": "Le baisser ou l'enlever.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   }
 ]

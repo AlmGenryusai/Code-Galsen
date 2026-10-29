@@ -35,7 +35,10 @@
     "common_mistake": "Partir sans rien vérifier.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t08-c02-0002",
@@ -71,7 +74,10 @@
     "common_mistake": "Ouvrir le bouchon du radiateur chaud.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t08-c02-0003",
@@ -107,7 +113,10 @@
     "common_mistake": "Freiner brusquement.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t08-c02-0004",
@@ -143,7 +152,10 @@
     "common_mistake": "Changer une roue sur la chaussée.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t08-c02-0005",
@@ -181,7 +193,10 @@
     "common_mistake": "Insister sans chercher la cause.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t08-c02-0006",

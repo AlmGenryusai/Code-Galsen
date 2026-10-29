@@ -33,7 +33,10 @@
     "common_mistake": "Penser qu'elle gêne en ville.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t09-c01-0002",
@@ -69,7 +72,10 @@
     "common_mistake": "Pomper sur le frein.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t09-c01-0003",
@@ -105,7 +111,10 @@
     "common_mistake": "Compter sur l'airbag sans ceinture.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t09-c01-0004",
@@ -141,7 +150,10 @@
     "common_mistake": "Croire que l'arrière est sûr sans ceinture.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t09-c01-0005",
@@ -177,7 +189,10 @@
     "common_mistake": "Ignorer un voyant de sécurité.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "draft"
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28"
+    }
   },
   {
     "id": "t09-c01-0006",
@@ -212,7 +227,11 @@
     "explanation": "Seule une contre-indication médicale justifiée par un certificat dispense du port de la ceinture.",
     "common_mistake": "S'en dispenser en ville.",
     "legal_ref": "Décret 2004-13, annexe S3",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-28",
+      "juriste": "2026-10-28"
+    }
   }
 ]
