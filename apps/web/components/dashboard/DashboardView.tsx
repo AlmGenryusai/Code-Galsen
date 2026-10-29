@@ -97,6 +97,9 @@ export function DashboardView({ data, questions, lessonIds }: Props) {
             note={`${lessonsRead} / ${lessonIds.length} lues`}
             href="/fiches"
           />
+          <div style={{ gridColumn: '1 / -1' }}>
+            <HomeCard icon={<SheetsIcon />} title="Panneaux" note="Par famille" href="/panneaux" />
+          </div>
         </div>
 
         <ReviewChip count={srsCountDue} href={href({ kind: 'errors' })} locked={locked({ kind: 'errors' })} />

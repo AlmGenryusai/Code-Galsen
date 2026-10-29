@@ -1,115 +1,19 @@
-// Panneaux routiers. `file` : SVG Wikimedia nettoyé dans public/signs/ (précaché par sw.js).
-// Sans `file` : dessin inline provisoire, repère viewBox 0 0 100 100, à vérifier par un moniteur.
-
-import type { ReactElement } from 'react'
-
-const RED = '#C1121F'
-const BLUE = '#0B4EA2'
-const WHITE = '#FFFFFF'
-const BLACK = '#111111'
+// Panneaux routiers : SVG Wikimedia nettoyés dans public/signs/ (précachés par sw.js).
+// Jamais de dessin maison. Ajouter un panneau : fichier + ligne ici + id dans public/sw.js.
 
 export interface SignDef {
   label: string // sens du panneau, repris en alt
-  file?: string // SVG dans public/signs/ ; sinon dessin inline `draw`
-  draw?: () => ReactElement
-}
-
-/** Triangle de danger (pointe en haut) : bord rouge, fond blanc. Pictogramme dans la zone y 35–78. */
-function DangerTriangle({ children }: { children?: ReactElement | ReactElement[] }) {
-  return (
-    <g>
-      <polygon points="50,8.3 96,88 4,88" fill={RED} stroke={RED} strokeWidth={6} strokeLinejoin="round" />
-      <polygon points="50,24.2 82.2,80 17.8,80" fill={WHITE} />
-      {children}
-    </g>
-  )
-}
-
-/** Voiture vue de l'arrière, centrée en x (panneau « interdiction de dépasser »). */
-function CarRear({ x, color }: { x: number; color: string }) {
-  return (
-    <g fill={color}>
-      <polygon points={`${x - 7},47 ${x + 7},47 ${x + 9.5},56 ${x - 9.5},56`} />
-      <rect x={x - 11} y={55} width={22} height={13} rx={3} />
-      <rect x={x - 10} y={67} width={6} height={6} rx={1} />
-      <rect x={x + 4} y={67} width={6} height={6} rx={1} />
-    </g>
-  )
+  file: string // SVG dans public/signs/
 }
 
 export const SIGNS: Record<string, SignDef> = {
-
-  'cedez-le-passage': {
-    label: 'Cédez le passage',
-    draw: () => (
-      <g>
-        <polygon points="4,12 96,12 50,91.7" fill={RED} stroke={RED} strokeWidth={6} strokeLinejoin="round" />
-        <polygon points="21.5,22.1 78.5,22.1 50,71.5" fill={WHITE} />
-      </g>
-    ),
-  },
-
-  'sens-interdit': {
-    label: 'Sens interdit',
-    draw: () => (
-      <g>
-        <circle cx={50} cy={50} r={47} fill={RED} />
-        <rect x={18} y={41} width={64} height={18} fill={WHITE} />
-      </g>
-    ),
-  },
-
-  'interdiction-depasser': {
-    label: 'Interdiction de dépasser',
-    draw: () => (
-      <g>
-        <circle cx={50} cy={50} r={41.5} fill={WHITE} stroke={RED} strokeWidth={9} />
-        <CarRear x={37} color={RED} />
-        <CarRear x={63} color={BLACK} />
-      </g>
-    ),
-  },
-
-  'stationnement-interdit': {
-    label: 'Stationnement interdit',
-    draw: () => (
-      <g>
-        <circle cx={50} cy={50} r={43} fill={BLUE} stroke={RED} strokeWidth={8} />
-        <line x1={22.4} y1={22.4} x2={77.6} y2={77.6} stroke={RED} strokeWidth={8} />
-      </g>
-    ),
-  },
-
-  danger: {
-    label: 'Autre danger',
-    draw: () => (
-      <DangerTriangle>
-        <polygon points="45.5,38 54.5,38 52.5,64 47.5,64" fill={BLACK} />
-        <circle cx={50} cy={71.5} r={4.5} fill={BLACK} />
-      </DangerTriangle>
-    ),
-  },
-
-  'passage-pietons': {
-    label: 'Passage pour piétons',
-    draw: () => (
-      <DangerTriangle>
-        <circle cx={52} cy={40} r={4} fill={BLACK} />
-        <g stroke={BLACK} strokeWidth={4.5} strokeLinecap="round" fill="none">
-          <path d="M51,46 L48,60" />
-          <path d="M48,60 L42,71 M48,60 L56,70" />
-          <path d="M50,50 L43,56 M50,50 L57,55" />
-        </g>
-        <g fill={BLACK}>
-          <rect x={34} y={74} width={4} height={4} />
-          <rect x={41} y={74} width={4} height={4} />
-          <rect x={48} y={74} width={4} height={4} />
-          <rect x={55} y={74} width={4} height={4} />
-          <rect x={62} y={74} width={4} height={4} />
-        </g>
-      </DangerTriangle>
-    ),
-  },
+  // Panneaux déjà utilisés par les questions (ids stables)
+  'cedez-le-passage': { label: 'Cédez le passage', file: 'ab3a' },
+  'sens-interdit': { label: 'Sens interdit', file: 'b1' },
+  'interdiction-depasser': { label: 'Interdiction de dépasser', file: 'b3' },
+  'stationnement-interdit': { label: 'Stationnement interdit', file: 'b6a1' },
+  'autre-danger': { label: 'Autre danger', file: 'a14' },
+  'passage-pietons': { label: 'Passage pour piétons', file: 'a13b' },
 
   // Panneaux en fichier SVG
   stop: { label: 'Stop', file: 'ab4' },
@@ -134,4 +38,77 @@ export const SIGNS: Record<string, SignDef> = {
   b40: { label: 'Fin de piste ou bande cyclable obligatoire', file: 'b40' },
   b41: { label: 'Fin de chemin obligatoire pour piétons', file: 'b41' },
   b42: { label: 'Fin de chemin obligatoire pour cavaliers', file: 'b42' },
+
+  // Familles : danger (A), interdiction (B), obligation (B21, B22, B43), indication
+  'ab3a': { label: "Cédez le passage à l'intersection", file: 'ab3a' },
+  'a1a': { label: "Virage à droite", file: 'a1a' },
+  'a1b': { label: "Virage à gauche", file: 'a1b' },
+  'a1c': { label: "Succession de virages, le premier à droite", file: 'a1c' },
+  'a1d': { label: "Succession de virages, le premier à gauche", file: 'a1d' },
+  'a2a': { label: "Cassis ou dos d'âne", file: 'a2a' },
+  'a2b': { label: "Ralentisseur", file: 'a2b' },
+  'a3': { label: "Chaussée rétrécie", file: 'a3' },
+  'a3a': { label: "Chaussée rétrécie par la droite", file: 'a3a' },
+  'a3b': { label: "Chaussée rétrécie par la gauche", file: 'a3b' },
+  'a4': { label: "Chaussée glissante", file: 'a4' },
+  'a7': { label: "Passage à niveau avec barrières", file: 'a7' },
+  'a8': { label: "Passage à niveau sans barrières", file: 'a8' },
+  'a13a': { label: "Endroit fréquenté par des enfants", file: 'a13a' },
+  'a13b': { label: "Passage pour piétons", file: 'a13b' },
+  'a14': { label: "Autre danger", file: 'a14' },
+  'a15a1': { label: "Passage d'animaux domestiques (bovins)", file: 'a15a1' },
+  'a15a2': { label: "Passage d'animaux domestiques (ovins)", file: 'a15a2' },
+  'a15b': { label: "Passage d'animaux sauvages", file: 'a15b' },
+  'a15c': { label: "Passage de cavaliers", file: 'a15c' },
+  'a16': { label: "Descente dangereuse", file: 'a16' },
+  'a17': { label: "Feux tricolores", file: 'a17' },
+  'a18': { label: "Circulation à double sens", file: 'a18' },
+  'a19': { label: "Chute de pierres", file: 'a19' },
+  'a20': { label: "Débouché sur un quai ou une berge", file: 'a20' },
+  'a21': { label: "Passage de cyclistes", file: 'a21' },
+  'a23': { label: "Passage d'avions à basse altitude", file: 'a23' },
+  'a24': { label: "Vent latéral", file: 'a24' },
+  'b1': { label: "Sens interdit", file: 'b1' },
+  'b2a': { label: "Interdiction de tourner à gauche", file: 'b2a' },
+  'b2b': { label: "Interdiction de tourner à droite", file: 'b2b' },
+  'b2c': { label: "Demi-tour interdit", file: 'b2c' },
+  'b3': { label: "Interdiction de dépasser", file: 'b3' },
+  'b3a': { label: "Interdiction de dépasser pour les camions", file: 'b3a' },
+  'b34': { label: "Fin d'interdiction de dépasser", file: 'b34' },
+  'b34a': { label: "Fin d'interdiction de dépasser pour les camions", file: 'b34a' },
+  'b31': { label: "Fin de toutes les interdictions", file: 'b31' },
+  'b14-30': { label: "Limitation de vitesse (la limite est indiquée sur le panneau)", file: 'b14-30' },
+  'b33-30': { label: "Fin de limitation de vitesse", file: 'b33-30' },
+  'b6a1': { label: "Stationnement interdit", file: 'b6a1' },
+  'b6d': { label: "Arrêt et stationnement interdits", file: 'b6d' },
+  'b6b1': { label: "Zone à stationnement interdit", file: 'b6b1' },
+  'b5a': { label: "Arrêt obligatoire : gendarmerie", file: 'b5a' },
+  'b5b': { label: "Arrêt obligatoire : police", file: 'b5b' },
+  'b5c': { label: "Arrêt obligatoire : péage", file: 'b5c' },
+  'b7a': { label: "Accès interdit aux voitures et aux motos", file: 'b7a' },
+  'b7b': { label: "Accès interdit aux voitures, motos et cyclomoteurs", file: 'b7b' },
+  'b8': { label: "Accès interdit aux véhicules de transport de marchandises", file: 'b8' },
+  'b9a': { label: "Accès interdit aux piétons", file: 'b9a' },
+  'b9b': { label: "Accès interdit aux cycles", file: 'b9b' },
+  'b9c': { label: "Accès interdit aux véhicules à traction animale", file: 'b9c' },
+  'b9f': { label: "Accès interdit aux véhicules de transport en commun", file: 'b9f' },
+  'b9g': { label: "Accès interdit aux cyclomoteurs", file: 'b9g' },
+  'b9h': { label: "Accès interdit aux motos et motos légères", file: 'b9h' },
+  'b10a': { label: "Longueur maximale des véhicules (indiquée sur le panneau)", file: 'b10a' },
+  'b11': { label: "Largeur maximale des véhicules (indiquée sur le panneau)", file: 'b11' },
+  'b12': { label: "Hauteur maximale des véhicules (indiquée sur le panneau)", file: 'b12' },
+  'b13': { label: "Poids maximal des véhicules (indiqué sur le panneau)", file: 'b13' },
+  'b13a': { label: "Poids maximal par essieu (indiqué sur le panneau)", file: 'b13a' },
+  'b16': { label: "Avertisseurs sonores interdits", file: 'b16' },
+  'b18a': { label: "Accès interdit aux véhicules transportant des matières explosives", file: 'b18a' },
+  'b18b': { label: "Accès interdit aux véhicules transportant des produits polluants pour l'eau", file: 'b18b' },
+  'b18c': { label: "Accès interdit aux véhicules transportant des marchandises dangereuses", file: 'b18c' },
+  'b21d1': { label: "Direction obligatoire : tout droit ou à droite", file: 'b21d1' },
+  'b21d2': { label: "Direction obligatoire : tout droit ou à gauche", file: 'b21d2' },
+  'b21e': { label: "Direction obligatoire : à droite ou à gauche", file: 'b21e' },
+  'b22c': { label: "Piste ou chemin obligatoire pour cavaliers", file: 'b22c' },
+  'b43-30': { label: "Fin de vitesse minimale obligatoire", file: 'b43-30' },
+  'b29vl': { label: "Véhicules lents", file: 'b29vl' },
+  'b49vl': { label: "Fin de voie pour véhicules lents", file: 'b49vl' },
+  'b49': { label: "Fin d'allumage des feux", file: 'b49' },
 }

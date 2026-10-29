@@ -21,7 +21,7 @@ describe('MediaFrame', () => {
   it('panneau : SVG sur fond sable, 16:9', () => {
     const id = Object.keys(SIGNS)[0]
     const html = renderToStaticMarkup(<MediaFrame media={{ kind: 'sign', src: id, alt: '', credit: '' }} />)
-    expect(html).toContain('<svg')
+    expect(html).toContain('<img')
     expect(html).toContain('16 / 9')
     expect(html).toContain('--sand')
   })
