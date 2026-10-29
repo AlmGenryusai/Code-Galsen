@@ -24,6 +24,42 @@
           ]
         },
         {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b6a1",
+                "alt": "Stationnement interdit",
+                "credit": "Code Galsen"
+              },
+              "label": "Stationnement interdit"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b6d",
+                "alt": "Arrêt et stationnement interdits",
+                "credit": "Code Galsen"
+              },
+              "label": "Arrêt et stationnement interdits"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b6b1",
+                "alt": "Zone à stationnement interdit",
+                "credit": "Code Galsen"
+              },
+              "label": "Zone à stationnement interdit"
+            }
+          ]
+        },
+        {
           "type": "attention",
           "text": "Hors agglomération, je ne stationne pas sur la chaussée, sauf force majeure."
         },

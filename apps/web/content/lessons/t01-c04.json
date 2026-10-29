@@ -75,6 +75,33 @@
           "text": "Un panneau peut imposer une limite plus basse que celle de la loi. Je respecte le panneau."
         },
         {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b14-30",
+                "alt": "Limitation de vitesse (la limite est indiquée sur le panneau)",
+                "credit": "Code Galsen"
+              },
+              "label": "Limitation de vitesse (la limite est indiquée sur le panneau)"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b33-30",
+                "alt": "Fin de limitation de vitesse",
+                "credit": "Code Galsen"
+              },
+              "label": "Fin de limitation de vitesse"
+            }
+          ]
+        },
+        {
           "type": "memo",
           "text": "Je dois pouvoir m'arrêter dans ce que je vois."
         }

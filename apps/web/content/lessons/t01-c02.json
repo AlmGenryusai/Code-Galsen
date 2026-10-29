@@ -24,6 +24,33 @@
         },
         {
           "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "priorite-droite",
+                "alt": "Intersection avec priorité à droite",
+                "credit": "Code Galsen"
+              },
+              "label": "Intersection avec priorité à droite"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "ab2",
+                "alt": "Intersection avec une route prioritaire",
+                "credit": "Code Galsen"
+              },
+              "label": "Intersection avec une route prioritaire"
+            }
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Avant de m'engager"
         },
         {
@@ -71,6 +98,42 @@
         {
           "type": "text",
           "text": "Celui qui est déjà engagé dans le rond-point passe en premier. Celui qui arrive attend."
+        },
+        {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "stop",
+                "alt": "Stop",
+                "credit": "Code Galsen"
+              },
+              "label": "Stop"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "cedez-le-passage",
+                "alt": "Cédez le passage",
+                "credit": "Code Galsen"
+              },
+              "label": "Cédez le passage"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "sens-giratoire",
+                "alt": "Carrefour à sens giratoire",
+                "credit": "Code Galsen"
+              },
+              "label": "Carrefour à sens giratoire"
+            }
+          ]
         },
         {
           "type": "attention",
