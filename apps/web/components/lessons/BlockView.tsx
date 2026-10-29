@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { MediaFrame } from '../quiz/MediaFrame'
+import { RoadSign } from '../sign/RoadSign'
 import type { Block } from '@/lib/lessons/types'
 
 /** **gras** seulement ; tout le reste est du texte brut (React échappe). */
@@ -68,6 +69,17 @@ export function BlockView({ block }: { block: Block }) {
             </div>
           ))}
         </div>
+      )
+    case 'signs':
+      return (
+        <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '16px 12px', margin: '4px 0 16px', padding: 0, listStyle: 'none' }}>
+          {block.items.map((item, i) => (
+            <li key={i} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+              <RoadSign id={item.media.src} size={88} />
+              <p style={{ fontSize: 15, lineHeight: 1.4, color: 'hsl(var(--ink))', marginTop: 6, overflowWrap: 'anywhere' }}>{inline(item.label)}</p>
+            </li>
+          ))}
+        </ul>
       )
     case 'image':
       return (

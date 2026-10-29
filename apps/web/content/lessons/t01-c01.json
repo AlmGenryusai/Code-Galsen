@@ -15,51 +15,43 @@
           "text": "Les trois catégories"
         },
         {
-          "type": "table",
-          "head": [
-            "Famille",
-            "Forme"
-          ],
-          "rows": [
+          "type": "signs",
+          "items": [
             {
-              "label": "Danger",
-              "text": "Triangle, fond crème, bordé de rouge.",
               "media": {
                 "kind": "sign",
                 "src": "priorite-droite",
                 "alt": "Intersection avec priorité à droite",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Danger** : triangle, fond crème, bordé de rouge."
             },
             {
-              "label": "Interdiction",
-              "text": "Rond, fond blanc, bordé de rouge.",
               "media": {
                 "kind": "sign",
                 "src": "b15",
                 "alt": "Priorité au sens inverse : cédez le passage aux véhicules venant en face",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Interdiction** : rond, fond blanc, bordé de rouge."
             },
             {
-              "label": "Obligation",
-              "text": "Rond, fond bleu foncé, symbole blanc.",
               "media": {
                 "kind": "sign",
                 "src": "b21b",
                 "alt": "Direction obligatoire : tout droit",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Obligation** : rond, fond bleu foncé, symbole blanc."
             },
             {
-              "label": "Indication",
-              "text": "Rectangulaire ou carré, souvent bleu ou crème.",
               "media": {
                 "kind": "sign",
                 "src": "c18",
                 "alt": "Priorité par rapport au sens inverse",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Indication** : rectangulaire ou carré, souvent bleu ou crème."
             }
           ]
         },
@@ -94,88 +86,74 @@
           "text": "À connaître"
         },
         {
-          "type": "table",
-          "head": [
-            "Panneau",
-            "Ce que je fais"
-          ],
-          "rows": [
+          "type": "signs",
+          "items": [
             {
-              "label": "STOP",
-              "text": "Arrêt complet, puis céder le passage.",
               "media": {
                 "kind": "sign",
                 "src": "stop",
                 "alt": "Stop",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**STOP** : arrêt complet, puis céder le passage."
             },
             {
-              "label": "Cédez le passage",
-              "text": "Je laisse passer ceux de l'autre route."
-            },
-            {
-              "label": "Losange jaune",
-              "text": "Je suis sur une route prioritaire.",
               "media": {
                 "kind": "sign",
                 "src": "route-prioritaire",
                 "alt": "Route à caractère prioritaire",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Losange jaune** : je suis sur une route prioritaire."
             },
             {
-              "label": "Losange barré",
-              "text": "La priorité se termine.",
               "media": {
                 "kind": "sign",
                 "src": "ab7",
                 "alt": "Fin de route à caractère prioritaire",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Losange barré** : la priorité se termine."
             },
             {
-              "label": "Croix",
-              "text": "Intersection : règle de la droite, je cède à ma droite.",
               "media": {
                 "kind": "sign",
                 "src": "priorite-droite",
                 "alt": "Intersection avec priorité à droite",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Croix** : règle de la droite, je cède à ma droite."
             }
           ]
+        },
+        {
+          "type": "text",
+          "text": "**Cédez le passage** : je laisse passer ceux de l'autre route."
         },
         {
           "type": "heading",
           "text": "Sur route étroite"
         },
         {
-          "type": "table",
-          "head": [
-            "Panneau",
-            "Ce que je fais"
-          ],
-          "rows": [
+          "type": "signs",
+          "items": [
             {
-              "label": "Rond, flèche rouge",
-              "text": "Je cède le passage à ceux d'en face.",
               "media": {
                 "kind": "sign",
                 "src": "b15",
                 "alt": "Priorité au sens inverse : cédez le passage aux véhicules venant en face",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Rond, flèche rouge** : je cède le passage à ceux d'en face."
             },
             {
-              "label": "Carré bleu",
-              "text": "J'ai la priorité sur ceux d'en face.",
               "media": {
                 "kind": "sign",
                 "src": "c18",
                 "alt": "Priorité par rapport au sens inverse",
                 "credit": "Code Galsen"
-              }
+              },
+              "label": "**Carré bleu** : j'ai la priorité sur ceux d'en face."
             }
           ]
         },

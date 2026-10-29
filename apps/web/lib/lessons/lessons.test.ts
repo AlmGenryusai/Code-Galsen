@@ -20,6 +20,7 @@ const all = files.map((f) => ({
 function mediaOf(b: Block): (Media | undefined)[] {
   if (b.type === 'image') return [b.media]
   if (b.type === 'table') return b.rows.map((r) => r.media)
+  if (b.type === 'signs') return b.items.map((i) => i.media)
   return []
 }
 

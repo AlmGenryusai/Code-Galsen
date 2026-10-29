@@ -47,6 +47,13 @@ describe('BlockView', () => {
     expect(out).toContain('Une Jakarta')
   })
 
+  it('signs : grille de panneaux avec nom dessous', () => {
+    const out = html({ type: 'signs', items: [{ media: { kind: 'sign', src: 'stop', alt: 'Stop', credit: 'c' }, label: '**Stop** : arrêt' }] })
+    expect(out).toContain('auto-fill')
+    expect(out).toContain('<strong>Stop</strong>')
+    expect(out).not.toContain('overflow-x')
+  })
+
   it('image sans légende : pas de figcaption', () => {
     expect(html({ type: 'image', media: photo })).not.toContain('figcaption')
   })

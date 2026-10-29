@@ -10,6 +10,7 @@ export type Block =
   | { type: 'memo'; text: string } // encadré « AIDE-MÉMOIRE »
   | { type: 'table'; head: [string, string]; rows: { label: string; text: string; media?: Media }[] }
   | { type: 'image'; media: Media; caption?: string }
+  | { type: 'signs'; items: { media: Media; label: string }[] } // grille de panneaux, nom dessous, **gras** autorisé
 
 export interface Sheet {
   id: string // "t04-c01-f01", jamais réutilisé
