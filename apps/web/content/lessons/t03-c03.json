@@ -31,6 +31,24 @@
           "text": "Dans une aire piétonne, les piétons sont prioritaires. Les véhicules autorisés roulent à l'allure du pas."
         },
         {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a13a",
+                "alt": "Endroit fréquenté par des enfants",
+                "credit": "Code Galsen"
+              },
+              "label": "Endroit fréquenté par des enfants"
+            }
+          ]
+        },
+        {
           "type": "memo",
           "text": "École, hôpital, mosquée, église : 30 km/h."
         }
@@ -69,6 +87,33 @@
           "text": "Je dégage immédiatement la voie ferrée. Il est interdit de stationner sur un passage à niveau, et de dépasser aux passages à niveau non gardés."
         },
         {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a7",
+                "alt": "Passage à niveau avec barrières",
+                "credit": "Code Galsen"
+              },
+              "label": "Passage à niveau avec barrières"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a8",
+                "alt": "Passage à niveau sans barrières",
+                "credit": "Code Galsen"
+              },
+              "label": "Passage à niveau sans barrières"
+            }
+          ]
+        },
+        {
           "type": "attention",
           "text": "Je ne contourne jamais une barrière."
         },
@@ -102,6 +147,87 @@
         {
           "type": "text",
           "text": "Près d'un marché ou d'un arrêt de car, des piétons surgissent sans regarder."
+        },
+        {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a1a",
+                "alt": "Virage à droite",
+                "credit": "Code Galsen"
+              },
+              "label": "Virage à droite"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a1b",
+                "alt": "Virage à gauche",
+                "credit": "Code Galsen"
+              },
+              "label": "Virage à gauche"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a1c",
+                "alt": "Succession de virages, le premier à droite",
+                "credit": "Code Galsen"
+              },
+              "label": "Succession de virages, le premier à droite"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a1d",
+                "alt": "Succession de virages, le premier à gauche",
+                "credit": "Code Galsen"
+              },
+              "label": "Succession de virages, le premier à gauche"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a2a",
+                "alt": "Cassis ou dos d'âne",
+                "credit": "Code Galsen"
+              },
+              "label": "Cassis ou dos d'âne"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a2b",
+                "alt": "Ralentisseur",
+                "credit": "Code Galsen"
+              },
+              "label": "Ralentisseur"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a3",
+                "alt": "Chaussée rétrécie",
+                "credit": "Code Galsen"
+              },
+              "label": "Chaussée rétrécie"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a16",
+                "alt": "Descente dangereuse",
+                "credit": "Code Galsen"
+              },
+              "label": "Descente dangereuse"
+            }
+          ]
         },
         {
           "type": "attention",

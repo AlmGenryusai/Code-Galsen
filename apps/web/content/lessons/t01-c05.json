@@ -114,6 +114,42 @@
           "text": "Hors agglomération, les véhicules de plus de 3,5 t ou de plus de 8 m laissent au moins 50 m entre eux."
         },
         {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b3",
+                "alt": "Interdiction de dépasser",
+                "credit": "Code Galsen"
+              },
+              "label": "Interdiction de dépasser"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b3a",
+                "alt": "Interdiction de dépasser pour les camions",
+                "credit": "Code Galsen"
+              },
+              "label": "Interdiction de dépasser pour les camions"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b34",
+                "alt": "Fin d'interdiction de dépasser",
+                "credit": "Code Galsen"
+              },
+              "label": "Fin d'interdiction de dépasser"
+            }
+          ]
+        },
+        {
           "type": "memo",
           "text": "Pas de vue, pas de dépassement."
         }

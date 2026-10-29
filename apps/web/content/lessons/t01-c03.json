@@ -107,6 +107,33 @@
           "text": "Un obstacle fixe sur la chaussée se contourne par la droite, sauf panneau contraire."
         },
         {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b15",
+                "alt": "Priorité au sens inverse : cédez le passage aux véhicules venant en face",
+                "credit": "Code Galsen"
+              },
+              "label": "Priorité au sens inverse : cédez le passage aux véhicules venant en face"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "c18",
+                "alt": "Priorité par rapport au sens inverse",
+                "credit": "Code Galsen"
+              },
+              "label": "Priorité par rapport au sens inverse"
+            }
+          ]
+        },
+        {
           "type": "memo",
           "text": "Croiser : à droite. Contourner : à droite."
         }

@@ -25,6 +25,11 @@
         { "type": "list", "items": ["Je lève le pied dès que je vois le passage, pas au dernier moment.", "Si un piéton s'engage, je m'arrête et je lui laisse finir sa traversée.", "Je ne lui fais pas signe de passer devant moi si un autre véhicule peut arriver à côté."] },
         { "type": "heading", "text": "Devant une école" },
         { "type": "text", "text": "À la sortie des classes, les enfants courent, se poussent et traversent sans regarder. Un car ou un taxi arrêté me cache la vue : je ne vois pas ce qui sort de derrière." },
+        { "type": "heading", "text": "Panneaux à reconnaître" },
+        { "type": "signs", "items": [
+            { "media": { "kind": "sign", "src": "a13b", "alt": "Passage pour piétons", "credit": "Code Galsen" }, "label": "Passage pour piétons" },
+            { "media": { "kind": "sign", "src": "a13a", "alt": "Endroit fréquenté par des enfants", "credit": "Code Galsen" }, "label": "Endroit fréquenté par des enfants" }
+        ] },
         { "type": "attention", "text": "Un véhicule arrêté devant le passage cache les piétons. Je ralentis fort avant de le dépasser, même si la voie est libre." },
         { "type": "memo", "text": "Passage piéton ou école : je ralentis avant de voir le danger, pas après." }
       ]
