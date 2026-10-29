@@ -72,6 +72,8 @@ function blockText(b: Block): string {
       return [...b.head, ...b.rows.flatMap((r) => [r.label, r.text])].join(' ')
     case 'image':
       return b.caption ?? ''
+    case 'signs':
+      return b.items.map((i) => i.label).join(' ')
   }
 }
 
