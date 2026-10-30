@@ -173,7 +173,7 @@
           },
           {
             "id": "B",
-            "text": "me range sur la bande d'arrêt et signale mon véhicule"
+            "text": "me range hors des voies de circulation et signale mon véhicule"
           },
           {
             "id": "C",
@@ -192,8 +192,12 @@
     "explanation": "On quitte les voies de circulation, on allume les feux de détresse et on signale le véhicule de loin.",
     "common_mistake": "Rester sur la voie pour attendre.",
     "legal_ref": "loi 2022-04, L.2 ; Décret 2004-13, art. 31",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-30",
+      "juriste": "2026-10-30"
+    }
   },
   {
     "id": "t03-c02-0006",

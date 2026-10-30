@@ -235,8 +235,12 @@
     "explanation": "Le dépassement est interdit sans visibilité (virage, sommet de côte), aux passages à niveau non gardés et aux intersections.",
     "common_mistake": "Dépasser à l'approche d'une côte.",
     "legal_ref": "Décret 2004-13, art. 21 (al.1 à 3)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-30",
+      "juriste": "2026-10-30"
+    }
   },
   {
     "id": "t01-c05-0007",

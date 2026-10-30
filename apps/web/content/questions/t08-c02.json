@@ -208,7 +208,7 @@
         "options": [
           {
             "id": "A",
-            "text": "rien"
+            "text": "ses feux de position seulement"
           },
           {
             "id": "B",
@@ -216,11 +216,11 @@
           },
           {
             "id": "C",
-            "text": "un chiffon"
+            "text": "ses feux de croisement éteints pour économiser la batterie"
           },
           {
             "id": "D",
-            "text": "la radio"
+            "text": "un klaxon régulier"
           }
         ],
         "correct": [
@@ -231,7 +231,11 @@
     "explanation": "Feux de détresse et triangle de pré-signalisation évitent qu'un autre véhicule le heurte.",
     "common_mistake": "Rester non signalé.",
     "legal_ref": "Décret 2004-13, art. 80, art. 83, annexe I (I-43 à I-45)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-30",
+      "juriste": "2026-10-30"
+    }
   }
 ]
