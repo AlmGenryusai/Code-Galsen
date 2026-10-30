@@ -4,7 +4,7 @@ import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { TAXONOMY } from './taxonomy'
 import type { QuestionV2 } from './types'
-import { getQuestions, getThemes } from './questions'
+import { getQuestions, getThemes, SHOW_DRAFTS } from './questions'
 import { pickSeries, seriesCardSize } from './series'
 import { pickExamQuestions } from './exam'
 import { FREE_THEME } from '../license/license'
@@ -66,7 +66,7 @@ describe('content/questions/*.json', () => {
   })
 
   it('getQuestions() renvoie tout le contenu', () => {
-    expect(getQuestions().length).toBe(all.length)
+    expect(getQuestions().length).toBe(all.filter(({ q }) => SHOW_DRAFTS || q.status === 'published').length)
   })
 })
 

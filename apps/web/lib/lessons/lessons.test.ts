@@ -2,6 +2,7 @@
 import { describe, it, expect } from 'vitest'
 import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
+import { SHOW_DRAFTS } from '../quiz/questions'
 import { TAXONOMY } from '../quiz/taxonomy'
 import type { Media } from '../quiz/types'
 import { allSheetIds, getLessons, parseSheetParam, sheetMinutes, sheetWords, sheetHref } from './lessons'
@@ -92,8 +93,9 @@ describe('content/lessons/*.json', () => {
   )
 
   it('getLessons() renvoie tout le contenu', () => {
-    expect(getLessons().length).toBe(all.length)
-    expect(allSheetIds().length).toBe(all.reduce((n, { lesson }) => n + lesson.sheets.length, 0))
+    const visible = all.filter(({ lesson }) => SHOW_DRAFTS || lesson.status === 'published')
+    expect(getLessons().length).toBe(visible.length)
+    expect(allSheetIds().length).toBe(visible.reduce((n, { lesson }) => n + lesson.sheets.length, 0))
   })
 })
 
