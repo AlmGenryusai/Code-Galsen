@@ -34,7 +34,7 @@ const ALL = [t01c01, t01c02, t01c03, t01c04, t01c05, t01c06, t02c01, t02c02, t03
 
 // Doc 43 §4 : l'app n'affiche que les `published`. Tant qu'aucune question n'est relue,
 // on montre aussi les brouillons ; passer à false au lancement.
-export const SHOW_DRAFTS = true
+export const SHOW_DRAFTS = false
 
 export function getQuestions(theme?: string): QuestionV2[] {
   const visible = ALL.filter((q) => SHOW_DRAFTS || q.status === 'published')
