@@ -32,8 +32,12 @@
     "explanation": "Les panneaux d'interdiction sont ronds, à fond blanc bordé de rouge. Seul le sens interdit a un fond rouge entier. Les obligations sont sur fond bleu.",
     "common_mistake": "Croire que tous les panneaux à fond rouge sont des interdictions.",
     "legal_ref": "Décret 2004-13, annexe P4",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-30",
+      "juriste": "2026-10-30"
+    }
   },
   {
     "id": "t01-c01-0002",
@@ -112,8 +116,12 @@
     ],
     "explanation": "La ligne continue au centre de la chaussée interdit formellement tout dépassement. Seule la ligne discontinue autorise le franchissement.",
     "legal_ref": "Décret 2004-13, art. 4 ; loi 2022-04, L.102 3°",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-30",
+      "juriste": "2026-10-30"
+    }
   },
   {
     "id": "t01-c01-0004",
@@ -594,42 +602,6 @@
     }
   },
   {
-    "id": "t01-c01-0015",
-    "theme": "t01",
-    "chapter": "t01-c01",
-    "parts": [
-      {
-        "text": "Les panneaux d'interdiction (hors sens interdit) sont :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ronds, à fond blanc bordé de rouge"
-          },
-          {
-            "id": "B",
-            "text": "ronds, à fond bleu"
-          },
-          {
-            "id": "C",
-            "text": "triangulaires"
-          },
-          {
-            "id": "D",
-            "text": "carrés à fond jaune"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
-      }
-    ],
-    "explanation": "Les signaux d'interdiction ont le fond blanc et une bande rouge. Seul le sens interdit a le fond rouge entier avec un symbole blanc.",
-    "common_mistake": "Penser que tous les ronds à fond rouge interdisent.",
-    "legal_ref": "Décret 2004-13, annexe P4",
-    "legal_status": "pending",
-    "status": "draft"
-  },
-  {
     "id": "t01-c01-0016",
     "theme": "t01",
     "chapter": "t01-c01",
@@ -662,13 +634,17 @@
     "explanation": "Les signaux d'obligation ont le fond bleu foncé et les symboles blancs. Ils disent ce que l'on doit faire.",
     "common_mistake": "Le prendre pour une simple indication.",
     "legal_ref": "Décret 2004-13, annexe P4",
-    "legal_status": "pending",
-    "status": "draft",
+    "legal_status": "confirmed",
+    "status": "published",
     "media": {
       "kind": "sign",
       "src": "b21b",
       "alt": "Direction obligatoire : tout droit",
       "credit": "Code Galsen"
+    },
+    "review": {
+      "moniteur": "2026-10-30",
+      "juriste": "2026-10-30"
     }
   },
   {

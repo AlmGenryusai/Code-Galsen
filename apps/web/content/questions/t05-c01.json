@@ -17,7 +17,7 @@
           },
           {
             "id": "C",
-            "text": "l'attestation d'assurance"
+            "text": "ma carte d'électeur"
           },
           {
             "id": "D",
@@ -26,16 +26,19 @@
         ],
         "correct": [
           "A",
-          "B",
-          "C"
+          "B"
         ]
       }
     ],
-    "explanation": "Permis, certificat d'immatriculation (avec la mention de visite technique) et, selon le cas, assurance ou autorisation de transport.",
+    "explanation": "Permis et certificat d'immatriculation (avec la mention de visite technique).",
     "common_mistake": "Penser que le permis suffit.",
     "legal_ref": "Décret 2004-13, art. 107",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-10-30",
+      "juriste": "2026-10-30"
+    }
   },
   {
     "id": "t05-c01-0002",
