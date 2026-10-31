@@ -207,6 +207,12 @@
     "id": "t01-c02-0006",
     "theme": "t01",
     "chapter": "t01-c02",
+    "media": {
+      "kind": "photo",
+      "src": "p01.webp",
+      "alt": "Carrefour très chargé à Dakar : taxis, motos et piétons",
+      "credit": "Ruth Zurielly Jennings, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je suis déjà engagé dans un rond-point. Un véhicule veut y entrer. Qui passe en premier ?",

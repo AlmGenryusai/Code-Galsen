@@ -12,6 +12,7 @@ const EXTRA = [
   '/icons/icon-192.png',
   '/icons/icon-512.png',
   '/icons/maskable-512.png',
+  ...['p01', 'p04', 'p05', 'p06', 'p07', 'p08', 'p09', 'p10', 'p12', 'p13', 'p15', 'p17', 'p19'].map((id) => '/media/' + id + '.webp'),
   // panneaux (components/sign/signs.tsx)
   ...['a13a', 'a13b', 'a14', 'a15a1', 'a15a2', 'a15b', 'a15c', 'a16', 'a17', 'a18', 'a19', 'a1a', 'a1b', 'a1c', 'a1d', 'a20', 'a21', 'a23', 'a24', 'a2a', 'a2b', 'a3', 'a3a', 'a3b', 'a4', 'a7', 'a8', 'ab1', 'ab2', 'ab25', 'ab3a', 'ab4', 'ab6', 'ab7', 'b1', 'b10a', 'b11', 'b12', 'b13', 'b13a', 'b14-30', 'b15', 'b16', 'b18a', 'b18b', 'b18c', 'b21-1', 'b21-2', 'b21a1', 'b21a2', 'b21b', 'b21c1', 'b21c2', 'b21d1', 'b21d2', 'b21e', 'b22a', 'b22b', 'b22c', 'b25-30', 'b27a', 'b29vl', 'b2a', 'b2b', 'b2c', 'b3', 'b31', 'b33-30', 'b34', 'b34a', 'b3a', 'b40', 'b41', 'b42', 'b43-30', 'b49', 'b49vl', 'b5a', 'b5b', 'b5c', 'b6a1', 'b6b1', 'b6d', 'b7a', 'b7b', 'b8', 'b9a', 'b9b', 'b9c', 'b9f', 'b9g', 'b9h', 'c18', 'autoroute', 'fin-autoroute', 'c13a', 'c13b', 'c1a', 'ce15a', 'ce17', 'ce18', 'c62', 'c64d2', 'c5', 'c24a-3'].map((id) => '/signs/' + id + '.svg'),
 ]

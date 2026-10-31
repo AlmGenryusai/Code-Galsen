@@ -200,6 +200,12 @@
     "id": "t04-c04-0006",
     "theme": "t04",
     "chapter": "t04-c04",
+    "media": {
+      "kind": "photo",
+      "src": "p05.webp",
+      "alt": "Embouteillage à Dakar : bus et taxis serrés, piéton entre les véhicules",
+      "credit": "Ji-Elle, domaine public, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Un car arrêté me cache les piétons. Je peux le dépasser sans ralentir :",

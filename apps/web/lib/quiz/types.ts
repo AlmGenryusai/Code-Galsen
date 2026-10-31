@@ -13,7 +13,7 @@ export interface Part {
 
 export interface Media {
   kind: 'photo' | 'sign'
-  src: string // photo : chemin dans content/media/ ; sign : id d'un panneau de components/sign/signs.tsx
+  src: string // photo : fichier dans public/media/ ; sign : id d'un panneau de components/sign/signs.tsx
   alt: string
   credit: string
   marker?: { x: number; y: number } // % de l'image, 0-100

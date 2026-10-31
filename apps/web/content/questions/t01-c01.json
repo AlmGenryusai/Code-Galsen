@@ -851,6 +851,12 @@
     "id": "t01-c01-0022",
     "theme": "t01",
     "chapter": "t01-c01",
+    "media": {
+      "kind": "photo",
+      "src": "p04.webp",
+      "alt": "Agent de la circulation qui fait signe aux conducteurs sur une avenue",
+      "credit": "Mir koks, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Un agent de la circulation me fait signe de m'arrêter alors que le feu est vert. Je :",

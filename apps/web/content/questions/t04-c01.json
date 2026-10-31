@@ -200,6 +200,12 @@
     "id": "t04-c01-0006",
     "theme": "t04",
     "chapter": "t04-c01",
+    "media": {
+      "kind": "photo",
+      "src": "p08.webp",
+      "alt": "Piéton qui traverse une grande avenue hors passage piéton",
+      "credit": "Dike Chukwuma, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Un piéton traverse hors passage devant moi. Je peux passer sans ralentir :",
