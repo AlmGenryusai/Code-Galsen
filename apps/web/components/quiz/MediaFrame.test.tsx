@@ -45,5 +45,6 @@ describe('MediaFrame', () => {
     const bare = renderToStaticMarkup(<MediaFrame media={{ ...photo, marker: undefined, badge: undefined }} />)
     expect(bare).not.toContain('left:')
     expect(bare).not.toContain('Moto')
+    expect(bare).toContain('>test<')
   })
 })

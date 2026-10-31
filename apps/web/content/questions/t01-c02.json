@@ -3,6 +3,12 @@
     "id": "t01-c02-0001",
     "theme": "t01",
     "chapter": "t01-c02",
+    "media": {
+      "kind": "photo",
+      "src": "p01.webp",
+      "alt": "Carrefour très chargé à Dakar : taxis, motos et piétons",
+      "credit": "Ruth Zurielly Jennings, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "À un carrefour sans signalisation, qui est prioritaire ?",
@@ -327,6 +333,12 @@
     "id": "t01-c02-0009",
     "theme": "t01",
     "chapter": "t01-c02",
+    "media": {
+      "kind": "photo",
+      "src": "p15.webp",
+      "alt": "Voie ferrée sans barrière qui coupe la rue à Thiès",
+      "credit": "Babacar Dioum, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je m'approche d'une voie ferrée sans barrière. Je m'engage :",

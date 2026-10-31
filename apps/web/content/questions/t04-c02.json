@@ -41,6 +41,12 @@
     "id": "t04-c02-0002",
     "theme": "t04",
     "chapter": "t04-c02",
+    "media": {
+      "kind": "photo",
+      "src": "p06.webp",
+      "alt": "Moto avec un passager qui se glisse entre les véhicules dans un bouchon",
+      "credit": "JulianGrayscales, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Dans un bouchon, une moto remonte entre deux files. Je :",

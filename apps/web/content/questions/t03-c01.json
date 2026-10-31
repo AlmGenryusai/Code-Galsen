@@ -123,6 +123,12 @@
     "id": "t03-c01-0004",
     "theme": "t03",
     "chapter": "t03-c01",
+    "media": {
+      "kind": "photo",
+      "src": "p09.webp",
+      "alt": "Route poussiéreuse avec un camion devant : visibilité réduite",
+      "credit": "Jeff Attaway, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Sur la route, de la poussière ou du sable réduit ma vue. Je :",
@@ -203,6 +209,12 @@
     "id": "t03-c01-0006",
     "theme": "t03",
     "chapter": "t03-c01",
+    "media": {
+      "kind": "photo",
+      "src": "p10.webp",
+      "alt": "Rue inondée vue à travers une vitre sous la pluie",
+      "credit": "Bibiire1, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Après une forte pluie, la route est glissante. Pour freiner, je :",

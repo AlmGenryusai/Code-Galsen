@@ -48,6 +48,9 @@ export function MediaFrame({ media }: { media?: Media }) {
           }}
         />
       )}
+      <span style={{ position: 'absolute', right: 0, bottom: 0, maxWidth: '100%', padding: '2px 6px', background: 'rgba(0,0,0,0.55)', color: '#fff', fontSize: 11, lineHeight: 1.3 }}>
+        {media.credit}
+      </span>
       {media.badge && (
         <span style={{ position: 'absolute', top: 8, right: 8, padding: '4px 10px', borderRadius: 99, background: 'hsl(var(--ink))', color: '#fff', fontSize: 14, fontWeight: 700 }}>
           {BADGE_LABEL[media.badge]}
