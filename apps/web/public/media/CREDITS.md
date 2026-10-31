@@ -15,6 +15,5 @@ Photos issues de Wikimedia Commons, converties en WebP (800 px de large, sans ag
 | p13.webp | Clermont-Ferrand D 769 affectation de voies | Tabl-trai | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Clermont-Ferrand_D_769_affectation_de_voies.JPG |
 | p15.webp | Crossing in Thiès city | Babacar Dioum | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Crossing_in_Thi%C3%A8s_city.jpg |
 | p17.webp | Goats on the move | Edward Middleton | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Goats_on_the_move.jpg |
-| p19.webp | Sidewalk blocked by vehicle | דוד שי | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Sidewalk_blocked_by_vehicle.jpg |
 
 Modifications : redimensionnement et recompression pour toutes ; recadrage pour p12 et p13 (panneaux retirés) et p17 (premier plan retiré). Les versions modifiées des fichiers CC BY-SA restent sous la même licence (https://creativecommons.org/licenses/by-sa/4.0/, https://creativecommons.org/licenses/by-sa/3.0/). p09 : CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/).
