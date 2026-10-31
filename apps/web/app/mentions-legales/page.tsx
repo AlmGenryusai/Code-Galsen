@@ -2,12 +2,11 @@ import { LegalPage, H2 } from '@/components/LegalPage'
 
 export const metadata = { title: 'Mentions légales — Code Galsen' }
 
-// TODO(Alfred) : remplacer les [À COMPLÉTER] avant le lancement commercial
 export default function MentionsLegalesPage() {
   return (
     <LegalPage title="Mentions légales">
       <H2>Éditeur</H2>
-      <p>Code Galsen, édité par [À COMPLÉTER : nom ou raison sociale], [À COMPLÉTER : ville, Sénégal]. Contact : [À COMPLÉTER : WhatsApp ou e-mail].</p>
+      <p>Code Galsen, édité par Alfred Mane, Dakar, Sénégal. Contact : WhatsApp +221 77 744 04 00.</p>
       <H2>Hébergement</H2>
       <p>Application hébergée par Vercel Inc. Service d&apos;activation des codes : Supabase.</p>
       <H2>Nature du service</H2>
@@ -17,7 +16,7 @@ export default function MentionsLegalesPage() {
       <H2>Accès payant</H2>
       <p>4 900 FCFA pour 90 jours, payés par Wave. Le code d&apos;activation est personnel et lié à un appareil.</p>
       <H2>Propriété</H2>
-      <p>Les textes et questions sont la propriété de l&apos;éditeur. Les panneaux proviennent de Wikimedia Commons, sous leurs licences d&apos;origine.</p>
+      <p>Les textes et questions sont la propriété de l&apos;éditeur. Les panneaux et les photos proviennent de Wikimedia Commons, sous leurs licences d&apos;origine : l&apos;auteur et la licence de chaque photo sont indiqués sur la photo.</p>
     </LegalPage>
   )
 }

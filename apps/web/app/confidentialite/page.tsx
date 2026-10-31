@@ -13,7 +13,7 @@ export default function ConfidentialitePage() {
       <H2>Paiement et support</H2>
       <p>Le paiement se fait sur Wave, hors de l&apos;application. Le code est envoyé par WhatsApp : ton numéro est alors connu de l&apos;éditeur pour le support uniquement.</p>
       <H2>Tes droits</H2>
-      <p>Pour toute question ou demande de suppression, contacte-nous : [À COMPLÉTER : contact].</p>
+      <p>Pour toute question ou demande de suppression, écris-nous sur WhatsApp au +221 77 744 04 00.</p>
     </LegalPage>
   )
 }
