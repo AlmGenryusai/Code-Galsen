@@ -141,6 +141,20 @@
         "b49",
         "b49vl"
       ]
+    },
+    {
+      "id": "indication",
+      "title": "Indication : autoroute, parking, services",
+      "items": [
+        "autoroute",
+        "fin-autoroute",
+        "c13a",
+        "c13b",
+        "c1a",
+        "ce15a",
+        "ce17",
+        "ce18"
+      ]
     }
   ]
 }

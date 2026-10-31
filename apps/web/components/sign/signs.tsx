@@ -111,4 +111,14 @@ export const SIGNS: Record<string, SignDef> = {
   'b29vl': { label: "Véhicules lents", file: 'b29vl' },
   'b49vl': { label: "Fin de voie pour véhicules lents", file: 'b49vl' },
   'b49': { label: "Fin d'allumage des feux", file: 'b49' },
+
+  // Indication
+  'autoroute': { label: "Autoroute", file: 'autoroute' },
+  'fin-autoroute': { label: "Fin d'autoroute", file: 'fin-autoroute' },
+  'c13a': { label: "Voie sans issue (impasse)", file: 'c13a' },
+  'c13b': { label: "Voie sans issue sur le côté", file: 'c13b' },
+  'c1a': { label: "Parking", file: 'c1a' },
+  'ce15a': { label: "Station-service", file: 'ce15a' },
+  'ce17': { label: "Hôtel ou hébergement", file: 'ce17' },
+  'ce18': { label: "Café ou restaurant", file: 'ce18' },
 }
