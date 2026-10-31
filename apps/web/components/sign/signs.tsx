@@ -121,4 +121,8 @@ export const SIGNS: Record<string, SignDef> = {
   'ce15a': { label: "Station-service", file: 'ce15a' },
   'ce17': { label: "Hôtel ou hébergement", file: 'ce17' },
   'ce18': { label: "Café ou restaurant", file: 'ce18' },
+  'c62': { label: "Péage : ticket à prendre", file: 'c62' },
+  'c64d2': { label: "Télépéage", file: 'c64d2' },
+  'c5': { label: "Station de taxis", file: 'c5' },
+  'c24a-3': { label: "Voie réservée aux autobus, circulant en sens inverse", file: 'c24a-3' },
 }

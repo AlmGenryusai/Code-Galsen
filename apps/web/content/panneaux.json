@@ -144,7 +144,7 @@
     },
     {
       "id": "indication",
-      "title": "Indication : autoroute, parking, services",
+      "title": "Indication : autoroute, parking, services, péage",
       "items": [
         "autoroute",
         "fin-autoroute",
@@ -153,7 +153,11 @@
         "c1a",
         "ce15a",
         "ce17",
-        "ce18"
+        "ce18",
+        "c62",
+        "c64d2",
+        "c5",
+        "c24a-3"
       ]
     }
   ]
