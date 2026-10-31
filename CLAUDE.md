@@ -24,7 +24,7 @@ Git (JSON questions validées) → build → Next.js PWA (Vercel)
 - Next.js 14 App Router, TypeScript strict, Tailwind.
 - État : `useState` + hooks maison (`useProgress`). **Pas** de Zustand, React Query, Dexie.
 - Contenu : JSON dans le repo, format v2 (`docs/refonte/43_format_question_v2.md`), un fichier par chapitre dans `content/questions/`. Taxonomie : `lib/quiz/taxonomy.ts` (doc 42). Pas de CMS, pas de base de données pour le contenu.
-- Médias : photos WebP dans `content/media/` (largeur 800 px, ≤ 60 Ko) ; panneaux SVG inline (`components/sign/`) en attendant les photos.
+- Médias : photos WebP dans `public/media/` (largeur 800 px, ≤ 60 Ko) ; panneaux SVG inline (`components/sign/`) en attendant les photos.
 - Serveur : uniquement l'activation des licences. Rien d'autre côté backend en V1.
 
 ### Supprimé / reporté (ne pas réintroduire sans décision)
@@ -81,7 +81,8 @@ node scripts/generate-codes.mjs 50   # 50 codes (max 500) → codes/*.sql + .csv
 apps/web/
   app/          # routes : / , /quiz, /examen, /carnet, /profil
   components/   # dashboard, quiz, exam, carnet
-  content/      # questions/<chapitre>.json (source de vérité contenu), media/ (photos)
+  content/      # questions/<chapitre>.json (source de vérité contenu)
+  public/media/ # photos WebP + CREDITS.md
   lib/quiz/     # types.ts, taxonomy.ts, questions.ts, correction.ts, srs.ts, exam-config.ts, use-question-guards.ts
 supabase/       # (à réduire) migrations + fonction d'activation
 docs/           # specs historiques — l'ancienne archi y est décrite, elle n'est plus valide
