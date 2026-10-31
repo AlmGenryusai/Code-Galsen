@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { BottomNav } from '@/components/dashboard/BottomNav'
 
 export default function ProfilPage() {
@@ -16,6 +17,10 @@ export default function ProfilPage() {
         <p style={{ fontSize: 14, color: 'hsl(var(--muted))', textAlign: 'center' }}>
           Tes statistiques et paramètres arrivent bientôt.
         </p>
+        <nav style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, marginTop: 16 }}>
+          <Link href="/mentions-legales" style={{ minHeight: 44, lineHeight: '44px', fontSize: 14, color: 'hsl(var(--muted))' }}>Mentions légales</Link>
+          <Link href="/confidentialite" style={{ minHeight: 44, lineHeight: '44px', fontSize: 14, color: 'hsl(var(--muted))' }}>Confidentialité</Link>
+        </nav>
       </div>
       <BottomNav />
     </div>
