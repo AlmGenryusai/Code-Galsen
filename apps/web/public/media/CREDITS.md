@@ -6,7 +6,6 @@ Photos issues de Wikimedia Commons, converties en WebP (800 px de large, sans ag
 |---|---|---|---|---|
 | p01.webp | Busy intersection in Dakar, Senegal | Ruth Zurielly Jennings | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Busy_intersection_in_Dakar,_Senegal.jpg |
 | p04.webp | Traffic warden | Mir koks | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Traffic_warden.jpg |
-| p05.webp | TrafficJamDakar | Ji-Elle | Domaine public | https://commons.wikimedia.org/wiki/File:TrafficJamDakar.jpg |
 | p06.webp | Motorcycle in traffic | JulianGrayscales | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Motorcycle_in_traffic.jpg |
 | p08.webp | A pedestrian crossing a traffic by Dike Chukwuma | Dike Chukwuma | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:A_pedestrian_crossing_a_traffic_by_Dike_Chukwuma.jpg |
 | p09.webp | Road off road (5482125154) | Jeff Attaway | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Road_off_road_(5482125154).jpg |
