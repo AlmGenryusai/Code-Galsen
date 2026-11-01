@@ -39,6 +39,7 @@
       "title": "Piétons hors passage, la nuit",
       "blocks": [
         { "type": "text", "text": "Au Sénégal, beaucoup de gens marchent au bord de la route, ou la traversent là où ils en ont besoin : devant un marché, un arrêt de car, une boutique. Hors passage, ils restent des personnes fragiles que je dois éviter." },
+        { "type": "image", "media": { "kind": "photo", "src": "p08.webp", "alt": "Piéton qui traverse la chaussée hors passage", "credit": "Dike Chukwuma, CC BY-SA 4.0, via Wikimedia Commons", "badge": "pieton" }, "caption": "Piéton hors passage : je ralentis, il reste prioritaire sur ma vitesse." },
         { "type": "heading", "text": "Pourquoi c'est difficile la nuit" },
         { "type": "text", "text": "Le soir, un piéton vêtu de sombre se voit très tard dans les phares. Sur une route mal éclairée, je le découvre souvent quand il est déjà proche." },
         { "type": "heading", "text": "Ce que je fais" },

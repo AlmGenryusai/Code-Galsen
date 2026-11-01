@@ -34,6 +34,7 @@
       "title": "Troupeaux et animaux sur la route",
       "blocks": [
         { "type": "text", "text": "Dans beaucoup de régions, les troupeaux de moutons, de vaches ou de chèvres traversent la route, parfois tard dans la journée, parfois la nuit." },
+        { "type": "image", "media": { "kind": "photo", "src": "p17.webp", "alt": "Chèvres au bord de la route", "credit": "Edward Middleton, CC BY-SA 4.0, via Wikimedia Commons", "badge": "animal" }, "caption": "Animaux au bord de la route : je ralentis, l'un d'eux peut traverser." },
         { "type": "heading", "text": "Ce que je fais" },
         { "type": "list", "items": ["Je ralentis dès que je vois des animaux ou un berger au bord de la route.", "Je m'arrête si le troupeau traverse, sans le presser.", "Je n'essaie pas de passer au milieu : un animal peut partir dans n'importe quelle direction."] },
         { "type": "heading", "text": "La nuit" },

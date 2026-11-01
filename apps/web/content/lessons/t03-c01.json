@@ -11,6 +11,16 @@
           "text": "Quand je vois mal, je roule pour pouvoir m'arrêter dans ce que je vois."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p09.webp",
+            "alt": "Route poussiéreuse, voiture et camion devant",
+            "credit": "Jeff Attaway, CC BY 2.0, via Wikimedia Commons"
+          },
+          "caption": "Poussière : je vois moins loin, je ralentis et j'allume mes feux."
+        },
+        {
           "type": "heading",
           "text": "Ce que je fais"
         },
@@ -39,6 +49,16 @@
         {
           "type": "text",
           "text": "La pluie et le sable allongent la distance de freinage."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p10.webp",
+            "alt": "Chaussée inondée vue à travers une vitre mouillée",
+            "credit": "Bibiire1, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Chaussée inondée : freinage plus long, je laisse plus de distance."
         },
         {
           "type": "heading",
