@@ -237,7 +237,8 @@
         {
           "type": "memo",
           "text": "Virage, village, marché : je lève le pied."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p25.webp", "alt": "Camion de livraison sur une route étroite bordée de haies", "credit": "Eric Jones, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Route étroite : je ralentis et je suis prêt à m'arrêter pour croiser." }
       ]
     }
   ],
