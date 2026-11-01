@@ -48,7 +48,8 @@
         { "type": "heading", "text": "Ce que je fais" },
         { "type": "list", "items": ["Je ralentis dès que je vois un groupe de personnes au bord de la route.", "J'adapte ma vitesse à ce que mes phares me laissent voir.", "Je reste prêt à freiner ou à m'écarter, sans faire de mouvement brusque."] },
         { "type": "attention", "text": "Je ne suis pas prioritaire parce que le piéton traverse hors passage : je dois toujours pouvoir m'arrêter." },
-        { "type": "memo", "text": "Plus il fait sombre, plus je ralentis." }
+        { "type": "memo", "text": "Plus il fait sombre, plus je ralentis." },
+        { "type": "image", "media": {"kind": "photo", "src": "p37.webp", "alt": "Piéton qui traverse hors passage entre des voitures", "credit": "מקף־עברי, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Piéton hors passage : je ralentis, il peut surgir entre les voitures." }
       ]
     }
   ],

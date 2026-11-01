@@ -152,7 +152,8 @@
         {
           "type": "memo",
           "text": "Pas de vue, pas de dépassement."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p14.webp", "alt": "Virage avec ligne continue doublée, vue du conducteur", "credit": "Ann Cook, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Ligne continue : je ne dépasse pas." }
       ]
     }
   ],
