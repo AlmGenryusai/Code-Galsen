@@ -74,7 +74,9 @@
         {
           "type": "memo",
           "text": "Pas de panneau : je cède à droite."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p02.webp", "alt": "Rue sablonneuse à un croisement, sans panneau", "credit": "Olivier Flambeau, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Croisement sans panneau : je cherche qui arrive, je cède à droite." },
+        { "type": "image", "media": {"kind": "photo", "src": "p22.webp", "alt": "Sortie de station-service sur une route", "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Une sortie de station-service : je surveille ceux qui sortent." }
       ]
     },
     {
@@ -152,7 +154,10 @@
         {
           "type": "memo",
           "text": "STOP : j'arrête. Cédez : je laisse passer. Rond-point : l'engagé passe."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p03.webp", "alt": "Panneau STOP et ligne d'arrêt au sol", "credit": "LincolnGroup11, CC BY-SA 3.0, via Wikimedia Commons"}, "caption": "STOP : je m'arrête derrière la ligne, pas sur elle." },
+        { "type": "image", "media": {"kind": "photo", "src": "m04.webp", "alt": "Panneau STOP avec marquage au sol", "credit": "Marc Mongenet, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "STOP : panneau en haut, ligne d'arrêt au sol." },
+        { "type": "image", "media": {"kind": "photo", "src": "m05.webp", "alt": "Rond-point vu du ciel", "credit": "Arild Vågen, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Rond-point : j'entre en cédant aux véhicules déjà engagés." }
       ]
     },
     {

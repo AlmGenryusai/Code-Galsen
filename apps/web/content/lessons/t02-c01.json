@@ -30,7 +30,8 @@
         {
           "type": "memo",
           "text": "Je regarde, puis je signale, puis je bouge."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p28.webp", "alt": "Rétroviseur intérieur d'une voiture", "credit": "Bob Adams from Amanzimtoti, South Africa, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Je regarde mes rétroviseurs avant de bouger." }
       ]
     },
     {

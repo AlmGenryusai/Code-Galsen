@@ -101,7 +101,8 @@
         {
           "type": "memo",
           "text": "Ceinture avant de démarrer. Casque pour les passagers de moto. Fatigue : je m'arrête."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p30.webp", "alt": "Conduite sur une route sombre la nuit", "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "De nuit, la fatigue arrive vite : je m'arrête." }
       ]
     }
   ],

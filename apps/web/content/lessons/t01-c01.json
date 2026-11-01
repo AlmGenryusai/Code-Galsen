@@ -210,7 +210,9 @@
         {
           "type": "memo",
           "text": "Rouge, je m'arrête. L'agent passe avant le feu."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p21.webp", "alt": "Feu vert en flèche à un carrefour", "credit": "DanTD, CC BY 4.0, via Wikimedia Commons"}, "caption": "Un feu en flèche : je regarde bien ce qu'il autorise." },
+        { "type": "image", "media": {"kind": "photo", "src": "m06.webp", "alt": "Passage piéton", "credit": "Benoît Prieur, CC0, via Wikimedia Commons"}, "caption": "Passage piéton : je ralentis et je cède aux piétons." }
       ]
     }
   ],

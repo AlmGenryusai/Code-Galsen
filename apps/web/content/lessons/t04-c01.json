@@ -13,7 +13,8 @@
         { "type": "heading", "text": "Sur la route" },
         { "type": "text", "text": "Sortie d'école à Grand-Yoff, des enfants traversent entre deux cars rapides arrêtés. Je ne vois pas derrière les cars : je ralentis avant d'arriver à leur hauteur." },
         { "type": "heading", "text": "Le piège" },
-        { "type": "text", "text": "Croire qu'un piéton hors passage n'a pas la priorité et garder sa vitesse. On doit toujours éviter de le heurter." }
+        { "type": "text", "text": "Croire qu'un piéton hors passage n'a pas la priorité et garder sa vitesse. On doit toujours éviter de le heurter." },
+        { "type": "image", "media": {"kind": "photo", "src": "p34.webp", "alt": "Marché et circulation à Thiès", "credit": "Boydiop2, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Près des marchés, les piétons passent partout : je ralentis." }
       ]
     },
     {
@@ -31,7 +32,9 @@
             { "media": { "kind": "sign", "src": "a13a", "alt": "Endroit fréquenté par des enfants", "credit": "Code Galsen" }, "label": "Endroit fréquenté par des enfants" }
         ] },
         { "type": "attention", "text": "Un véhicule arrêté devant le passage cache les piétons. Je ralentis fort avant de le dépasser, même si la voie est libre." },
-        { "type": "memo", "text": "Passage piéton ou école : je ralentis avant de voir le danger, pas après." }
+        { "type": "memo", "text": "Passage piéton ou école : je ralentis avant de voir le danger, pas après." },
+        { "type": "image", "media": {"kind": "photo", "src": "p33.webp", "alt": "Enfants qui traversent la route", "credit": "Justin Doub, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Enfants près de la route : je ralentis, ils peuvent traverser." },
+        { "type": "image", "media": {"kind": "photo", "src": "p36.webp", "alt": "Voitures arrêtées à un passage piéton près d'une école", "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Je m'arrête pour laisser traverser les piétons." }
       ]
     },
     {

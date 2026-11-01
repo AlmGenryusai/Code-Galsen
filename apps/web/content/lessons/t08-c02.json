@@ -26,7 +26,8 @@
         {
           "type": "memo",
           "text": "Pneus, huile, eau, feux."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p49.webp", "alt": "Pneu usé jusqu'à la corde", "credit": "Paul.schrepfer, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Pneu usé : je le change avant de partir." }
       ]
     },
     {

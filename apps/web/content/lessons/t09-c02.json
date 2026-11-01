@@ -51,7 +51,8 @@
         {
           "type": "memo",
           "text": "Casque pour tous, siège pour les petits."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p39.webp", "alt": "Moto-taxi à Lagos", "credit": "Olasunkanmiariyo, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Moto : casque pour le conducteur et le passager." }
       ]
     }
   ],

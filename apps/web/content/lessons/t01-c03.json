@@ -29,7 +29,8 @@
         {
           "type": "memo",
           "text": "Droite, dans ma voie, sur la chaussée."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "m07.webp", "alt": "Flèches de sélection de voies sur la chaussée", "credit": "Tabl-trai, CC BY-SA 3.0, via Wikimedia Commons"}, "caption": "Les flèches au sol indiquent la direction de chaque voie." }
       ]
     },
     {
@@ -71,7 +72,10 @@
         {
           "type": "memo",
           "text": "Continue : je reste. Discontinue : je passe pour dépasser."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "m01.webp", "alt": "Ligne continue au centre de la chaussée", "credit": "GilPe, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Ligne continue : je ne la franchis pas." },
+        { "type": "image", "media": {"kind": "photo", "src": "m02.webp", "alt": "Ligne discontinue au centre de la chaussée", "credit": "GilPe, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Ligne discontinue : je peux la franchir si la route est libre." },
+        { "type": "image", "media": {"kind": "photo", "src": "m08.webp", "alt": "Zébras (lignes obliques) sur la chaussée", "credit": "GilPe, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Zébras : zone où je ne roule pas." }
       ]
     },
     {
@@ -136,7 +140,8 @@
         {
           "type": "memo",
           "text": "Croiser : à droite. Contourner : à droite."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p35.webp", "alt": "Panneaux de route barrée et de déviation", "credit": "Chabe01, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Route barrée : je suis la déviation." }
       ]
     }
   ],
