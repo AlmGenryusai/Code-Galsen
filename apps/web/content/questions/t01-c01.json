@@ -892,5 +892,77 @@
       "moniteur": "2026-10-28",
       "juriste": "2026-10-28"
     }
+  },
+  {
+    "id": "t01-c01-0023",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Dans quel ordre les couleurs d'un feu tricolore se succèdent-elles ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "vert, jaune, rouge"
+          },
+          {
+            "id": "B",
+            "text": "rouge, vert, jaune"
+          },
+          {
+            "id": "C",
+            "text": "vert, rouge, jaune"
+          },
+          {
+            "id": "D",
+            "text": "jaune, vert, rouge"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Les couleurs se succèdent dans l'ordre vert, jaune, rouge, puis de nouveau vert. Le jaune annonce donc toujours le rouge.",
+    "common_mistake": "Croire que le jaune annonce le vert.",
+    "legal_ref": "Décret 2004-13, annexe P7",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c01-0024",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "parts": [
+      {
+        "text": "Le feu est rouge, mais une flèche verte horizontale est allumée vers la droite. Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "tourne à droite au ralenti, en laissant passer les piétons engagés et sans gêner les véhicules de l'autre voie"
+          },
+          {
+            "id": "B",
+            "text": "tourne à droite sans ralentir : la flèche verte annule le feu rouge"
+          },
+          {
+            "id": "C",
+            "text": "continue tout droit, car la flèche autorise à passer"
+          },
+          {
+            "id": "D",
+            "text": "reste arrêté jusqu'au feu vert"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "La flèche verte permet seulement de tourner dans la voie située à droite, au ralenti. Je cède aux piétons engagés dans la traversée et je ne gêne pas la voie transversale.",
+    "common_mistake": "Prendre la flèche verte pour un feu vert complet.",
+    "legal_ref": "Décret 2004-13, annexe P7",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]

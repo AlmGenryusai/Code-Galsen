@@ -359,5 +359,41 @@
       "moniteur": "2026-10-28",
       "juriste": "2026-10-28"
     }
+  },
+  {
+    "id": "t01-c03-0010",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "parts": [
+      {
+        "text": "La chaussée a trois voies séparées par des lignes discontinues. Je veux dépasser : puis-je rouler sur la voie la plus à gauche ?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Oui, c'est la voie de dépassement"
+          },
+          {
+            "id": "B",
+            "text": "Non, elle est réservée en permanence aux usagers qui viennent en sens inverse"
+          },
+          {
+            "id": "C",
+            "text": "Oui, mais seulement de nuit"
+          },
+          {
+            "id": "D",
+            "text": "Oui, s'il n'y a personne en face"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Avec trois voies ou plus, la voie la plus à gauche est réservée aux usagers du sens inverse. Seule exception : quitter la route en tournant à gauche.",
+    "common_mistake": "Croire que la voie de gauche sert au dépassement, comme sur autoroute.",
+    "legal_ref": "Décret 2004-13, art. 5",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]
