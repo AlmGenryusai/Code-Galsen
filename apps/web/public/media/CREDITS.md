@@ -11,7 +11,6 @@ Photos issues de Wikimedia Commons, converties en WebP (800 px de large, sans ag
 | p09.webp | Road off road (5482125154) | Jeff Attaway | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Road_off_road_(5482125154).jpg |
 | p10.webp | Flooded expressway 4 | Bibiire1 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Flooded_expressway_4.jpg |
 | p12.webp | Gare Péage Crottet Autoroute A406 Crottet 7 | Chabe01 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gare_P%C3%A9age_Crottet_Autoroute_A406_Crottet_7.jpg |
-| p13.webp | Clermont-Ferrand D 769 affectation de voies | Tabl-trai | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Clermont-Ferrand_D_769_affectation_de_voies.JPG |
 | p15.webp | Crossing in Thiès city | Babacar Dioum | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Crossing_in_Thi%C3%A8s_city.jpg |
 | p17.webp | Goats on the move | Edward Middleton | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Goats_on_the_move.jpg |
 
