@@ -387,7 +387,11 @@
     "explanation": "Avec trois voies ou plus, la voie la plus à gauche est réservée aux usagers du sens inverse. Seule exception : quitter la route en tournant à gauche.",
     "common_mistake": "Croire que la voie de gauche sert au dépassement, comme sur autoroute.",
     "legal_ref": "Décret 2004-13, art. 5",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-01",
+      "juriste": "2026-11-01"
+    }
   }
 ]
