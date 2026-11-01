@@ -320,5 +320,113 @@
       "moniteur": "2026-10-28",
       "juriste": "2026-10-28"
     }
+  },
+  {
+    "id": "t01-c04-0009",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Au volant d'une voiture, je roule par temps normal sur une route à deux chaussées séparées par un terre-plein. Ma vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "130 km/h"
+          },
+          {
+            "id": "B",
+            "text": "110 km/h"
+          },
+          {
+            "id": "C",
+            "text": "100 km/h"
+          },
+          {
+            "id": "D",
+            "text": "90 km/h"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sur une route à chaussées séparées par un terre-plein, la limite est de 110 km/h par temps normal, et 90 km/h par pluie.",
+    "common_mistake": "Appliquer la limite de l'autoroute (130 km/h) parce que la route est large.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0010",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Au volant d'une voiture, il pleut sur une route à deux chaussées séparées par un terre-plein. Ma vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "110 km/h"
+          },
+          {
+            "id": "B",
+            "text": "100 km/h"
+          },
+          {
+            "id": "C",
+            "text": "90 km/h"
+          },
+          {
+            "id": "D",
+            "text": "80 km/h"
+          }
+        ],
+        "correct": [
+          "C"
+        ]
+      }
+    ],
+    "explanation": "Sur une route à chaussées séparées par un terre-plein, la limite passe de 110 à 90 km/h par pluie.",
+    "common_mistake": "Garder la vitesse du beau temps.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c04-0011",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "parts": [
+      {
+        "text": "Au volant d'une voiture, je roule par temps normal sur une route à deux voies par sens, sans terre-plein. Ma vitesse maximale est :",
+        "options": [
+          {
+            "id": "A",
+            "text": "110 km/h"
+          },
+          {
+            "id": "B",
+            "text": "100 km/h"
+          },
+          {
+            "id": "C",
+            "text": "90 km/h"
+          },
+          {
+            "id": "D",
+            "text": "80 km/h"
+          }
+        ],
+        "correct": [
+          "B"
+        ]
+      }
+    ],
+    "explanation": "Sur une section à au moins deux voies par sens sans terre-plein, la limite est de 100 km/h par temps normal, et 80 km/h par pluie.",
+    "common_mistake": "Confondre avec la route à terre-plein (110 km/h).",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]
