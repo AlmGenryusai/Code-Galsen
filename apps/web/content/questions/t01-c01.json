@@ -926,8 +926,12 @@
     "explanation": "Les couleurs se succèdent dans l'ordre vert, jaune, rouge, puis de nouveau vert. Le jaune annonce donc toujours le rouge.",
     "common_mistake": "Croire que le jaune annonce le vert.",
     "legal_ref": "Décret 2004-13, annexe P7",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-01",
+      "juriste": "2026-11-01"
+    }
   },
   {
     "id": "t01-c01-0024",
@@ -962,7 +966,11 @@
     "explanation": "La flèche verte permet seulement de tourner dans la voie située à droite, au ralenti. Je cède aux piétons engagés dans la traversée et je ne gêne pas la voie transversale.",
     "common_mistake": "Prendre la flèche verte pour un feu vert complet.",
     "legal_ref": "Décret 2004-13, annexe P7",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-01",
+      "juriste": "2026-11-01"
+    }
   }
 ]
