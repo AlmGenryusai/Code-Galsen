@@ -14,7 +14,8 @@
         { "type": "text", "text": "Bouchon sur la VDN, les Jakarta remontent entre les files et par la droite. Avant de me décaler, je tourne la tête." },
         { "type": "heading", "text": "Le piège" },
         { "type": "text", "text": "Se fier au seul rétroviseur. La moto qui arrive est souvent juste à côté, dans l'angle mort." },
-        { "type": "image", "media": {"kind": "photo", "src": "p38.webp", "alt": "Moto-taxi Jakarta transportant des matériaux", "credit": "Babacar Dioum, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Une moto peut surgir : je vérifie mon angle mort." }
+        { "type": "image", "media": {"kind": "photo", "src": "p38.webp", "alt": "Moto-taxi Jakarta transportant des matériaux", "credit": "Babacar Dioum, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Une moto peut surgir : je vérifie mon angle mort." },
+        { "type": "image", "media": {"kind": "photo", "src": "p20.webp", "alt": "Cycliste devant un SUV, caché par le montant de pare-brise", "credit": "World arm lamp (English Wikipedia), Domaine public, via Wikimedia Commons"}, "caption": "Le montant de pare-brise cache un cycliste : je me penche et je regarde avant de tourner." }
       ]
     },
     {
