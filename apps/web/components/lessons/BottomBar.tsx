@@ -1,7 +1,15 @@
 import Link from 'next/link'
 
-/** Barre fixe avec un seul bouton orange. */
-export function BottomBar({ href, children }: { href: string; children: string }) {
+/** Barre fixe avec un bouton orange, et un lien secondaire optionnel. */
+export function BottomBar({
+  href,
+  children,
+  secondary,
+}: {
+  href: string
+  children: string
+  secondary?: { href: string; label: string }
+}) {
   return (
     <div
       style={{
@@ -34,9 +42,27 @@ export function BottomBar({ href, children }: { href: string; children: string }
       >
         {children}
       </Link>
+      {secondary && (
+        <Link
+          href={secondary.href}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            minHeight: 44,
+            marginTop: 4,
+            color: 'hsl(var(--ink))',
+            fontSize: 15,
+            fontWeight: 600,
+            textDecoration: 'underline',
+          }}
+        >
+          {secondary.label}
+        </Link>
+      )}
     </div>
   )
 }
 
 /** Hauteur à réserver en bas de page pour ne pas masquer le contenu. */
-export const BOTTOM_BAR_SPACE = 'calc(72px + env(safe-area-inset-bottom) + 24px)'
+export const BOTTOM_BAR_SPACE = 'calc(120px + env(safe-area-inset-bottom) + 24px)'
