@@ -13,7 +13,8 @@
         { "type": "heading", "text": "Sur la route" },
         { "type": "text", "text": "À la sortie de Thiès, une charrette chargée roule sur le bord de la route. Le soir, je la vois tard : je ralentis dès que je la devine." },
         { "type": "heading", "text": "Le piège" },
-        { "type": "text", "text": "Klaxonner fort en dépassant. L'animal peut prendre peur et se jeter sur la route." }
+        { "type": "text", "text": "Klaxonner fort en dépassant. L'animal peut prendre peur et se jeter sur la route." },
+        { "type": "image", "media": {"kind": "photo", "src": "p40.webp", "alt": "Charrette tirée par des ânes", "credit": "VickyOmondi, CC0, via Wikimedia Commons"}, "caption": "Une charrette est lente et imprévisible : je ralentis." }
       ]
     },
     {

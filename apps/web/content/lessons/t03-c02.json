@@ -29,7 +29,8 @@
         {
           "type": "memo",
           "text": "Bretelle : j'accélère, je m'insère."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p11.webp", "alt": "Échangeur d'autoroute", "credit": "Velvet, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Voie d'insertion : je prends ma vitesse avant de m'insérer." }
       ]
     },
     {

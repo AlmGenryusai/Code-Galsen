@@ -33,7 +33,8 @@
         {
           "type": "memo",
           "text": "Amarré, couvert, rien qui traîne."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p44.webp", "alt": "Camion chargé à l'excès", "credit": "Amuzujoe, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Charge trop haute ou trop lourde : le camion devient instable." }
       ]
     },
     {

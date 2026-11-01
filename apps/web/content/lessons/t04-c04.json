@@ -26,7 +26,8 @@
         { "type": "heading", "text": "Ce que je fais" },
         { "type": "text", "text": "Je garde de la distance derrière un véhicule de transport en commun. Quand il s'arrête, je ralentis fort avant de le dépasser : je regarde d'abord s'il y a des piétons devant lui." },
         { "type": "attention", "text": "Le car me cache les gens qui traversent. Je ne dépasse pas un car arrêté à toute vitesse." },
-        { "type": "memo", "text": "Car arrêté : je ralentis, je regarde devant lui, puis je passe." }
+        { "type": "memo", "text": "Car arrêté : je ralentis, je regarde devant lui, puis je passe." },
+        { "type": "image", "media": {"kind": "photo", "src": "p42.webp", "alt": "Bus Dem Dikk à l'arrêt à Dakar", "credit": "Martin a1999a, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Un bus s'arrête : des passagers peuvent descendre devant moi." }
       ]
     },
     {
@@ -39,7 +40,9 @@
         { "type": "heading", "text": "Ce que je fais" },
         { "type": "list", "items": ["Je laisse de la place pour qu'il se rabatte.", "Je n'accélère pas pour le dépasser au moment où il signale.", "Quand j'utilise un taxi, je descends côté trottoir, pas côté route."] },
         { "type": "attention", "text": "Un taxi qui ralentit peut s'arrêter d'un coup. Je ne reste pas collé à lui." },
-        { "type": "memo", "text": "Un véhicule de transport qui ralentit va probablement s'arrêter." }
+        { "type": "memo", "text": "Un véhicule de transport qui ralentit va probablement s'arrêter." },
+        { "type": "image", "media": {"kind": "photo", "src": "p26.webp", "alt": "Taxi dans le centre-ville", "credit": "Babacar Dioum, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Un taxi peut s'arrêter sans prévenir : je garde ma distance." },
+        { "type": "image", "media": {"kind": "photo", "src": "p41.webp", "alt": "Arrêt de BRT à Dakar", "credit": "4MAPS, CC BY 4.0, via Wikimedia Commons"}, "caption": "Voie du BRT : je laisse la voie réservée aux bus." }
       ]
     }
   ],

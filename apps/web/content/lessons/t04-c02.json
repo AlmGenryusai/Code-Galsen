@@ -13,7 +13,8 @@
         { "type": "heading", "text": "Sur la route" },
         { "type": "text", "text": "Bouchon sur la VDN, les Jakarta remontent entre les files et par la droite. Avant de me décaler, je tourne la tête." },
         { "type": "heading", "text": "Le piège" },
-        { "type": "text", "text": "Se fier au seul rétroviseur. La moto qui arrive est souvent juste à côté, dans l'angle mort." }
+        { "type": "text", "text": "Se fier au seul rétroviseur. La moto qui arrive est souvent juste à côté, dans l'angle mort." },
+        { "type": "image", "media": {"kind": "photo", "src": "p38.webp", "alt": "Moto-taxi Jakarta transportant des matériaux", "credit": "Babacar Dioum, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Une moto peut surgir : je vérifie mon angle mort." }
       ]
     },
     {
@@ -41,7 +42,8 @@
         { "type": "heading", "text": "Tourner" },
         { "type": "text", "text": "Avant de tourner à droite ou de changer de direction, je regarde le côté vers lequel je vais. Une moto peut être là, dans l'angle mort, même si je ne l'ai pas vue dans le rétroviseur." },
         { "type": "attention", "text": "Mettre le clignotant ne donne pas la priorité : il avertit, mais je dois quand même regarder." },
-        { "type": "memo", "text": "Avant d'ouvrir ou de tourner : rétroviseur, puis épaule." }
+        { "type": "memo", "text": "Avant d'ouvrir ou de tourner : rétroviseur, puis épaule." },
+        { "type": "image", "media": {"kind": "photo", "src": "p47.webp", "alt": "Rue avec véhicules stationnés le long du trottoir", "credit": "Wikitarisch, CC BY 4.0, via Wikimedia Commons"}, "caption": "Avant d'ouvrir ma portière, je regarde derrière moi." }
       ]
     }
   ],

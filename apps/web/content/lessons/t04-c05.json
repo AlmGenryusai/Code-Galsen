@@ -26,7 +26,8 @@
         { "type": "heading", "text": "Quand il tourne" },
         { "type": "text", "text": "Pour tourner à droite, le camion se déporte d'abord à gauche, puis son arrière balaie le côté droit. Un véhicule glissé à sa droite se fait coincer." },
         { "type": "attention", "text": "Se glisser à droite d'un camion qui tourne est l'erreur la plus grave. Je reste derrière, loin." },
-        { "type": "memo", "text": "Si je ne vois pas ses rétroviseurs, il ne me voit pas." }
+        { "type": "memo", "text": "Si je ne vois pas ses rétroviseurs, il ne me voit pas." },
+        { "type": "image", "media": {"kind": "photo", "src": "p43.webp", "alt": "Camion-benne en marche arrière", "credit": "John Sutton, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Un camion qui recule ne me voit pas : je reste loin." }
       ]
     },
     {

@@ -45,7 +45,8 @@
         {
           "type": "memo",
           "text": "50 en ville, 30 devant une école, puis 130, 110, 100, 90 selon la route."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p24.webp", "alt": "Entrée d'agglomération avec panneau de limitation", "credit": "Kamil Czaiński, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "À l'entrée d'une agglomération, je lis le panneau et j'adapte ma vitesse." }
       ]
     },
     {

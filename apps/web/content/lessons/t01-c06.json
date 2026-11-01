@@ -95,7 +95,8 @@
         {
           "type": "memo",
           "text": "Détresse et triangle, avant tout autre geste."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p27.webp", "alt": "Voiture en panne sur le bas-côté", "credit": "ScoredBlock, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "En panne : je me mets sur le bas-côté et je signale mon véhicule." }
       ]
     },
     {

@@ -39,7 +39,8 @@
         {
           "type": "memo",
           "text": "Je vois mal : je ralentis et j'allume."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p31.webp", "alt": "Pare-brise sous la pluie", "credit": "Oregon Department of Transportation, CC BY 2.0, via Wikimedia Commons"}, "caption": "Sous la pluie, je vois moins et je freine plus tard : je ralentis." }
       ]
     },
     {
@@ -79,7 +80,8 @@
         {
           "type": "memo",
           "text": "Sol mouillé : plus de distance, moins de vitesse."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p23.webp", "alt": "Route recouverte de sable", "credit": "Anderson sady, CC BY-SA 3.0, via Wikimedia Commons"}, "caption": "Du sable sur la route : la chaussée glisse." }
       ]
     },
     {
@@ -109,7 +111,8 @@
         {
           "type": "memo",
           "text": "Nuit : j'éclaire, je n'éblouis pas."
-        }
+        },
+        { "type": "image", "media": {"kind": "photo", "src": "p18.webp", "alt": "Silhouette au bord de la route la nuit, dans les phares", "credit": "A S M Jobaer, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "De nuit, un piéton se voit tard : je ralentis." }
       ]
     }
   ],
