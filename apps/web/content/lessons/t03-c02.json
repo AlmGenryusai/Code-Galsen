@@ -83,6 +83,16 @@
           "text": "L'arrêt est obligatoire au poste. Je ralentis bien avant, je me mets dans la file et je reste à ma place."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p12.webp",
+            "alt": "Approche d'une gare de péage, couloirs séparés",
+            "credit": "Chabe01, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Je ralentis bien avant le péage et je choisis mon couloir tôt."
+        },
+        {
           "type": "heading",
           "text": "En panne"
         },

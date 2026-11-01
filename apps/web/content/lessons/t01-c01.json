@@ -198,6 +198,16 @@
           "text": "Si un agent dirige la circulation, ses ordres priment sur les feux et les panneaux."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p04.webp",
+            "alt": "Agent de la circulation qui fait signe aux voitures",
+            "credit": "Mir koks, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "L'agent fait signe : ses ordres passent avant le feu."
+        },
+        {
           "type": "memo",
           "text": "Rouge, je m'arrête. L'agent passe avant le feu."
         }

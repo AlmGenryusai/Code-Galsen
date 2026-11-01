@@ -21,6 +21,7 @@
       "title": "Remontée de file",
       "blocks": [
         { "type": "text", "text": "Dans un bouchon, les motos passent entre les files, à gauche comme à droite. C'est fréquent à Dakar, sur la VDN ou à Pikine, et un conducteur de voiture doit s'y attendre." },
+        { "type": "image", "media": { "kind": "photo", "src": "p06.webp", "alt": "Moto qui remonte la file à côté d'un minibus", "credit": "JulianGrayscales, CC BY-SA 4.0, via Wikimedia Commons", "badge": "moto" }, "caption": "Une moto remonte par la droite : je regarde avant de bouger." },
         { "type": "heading", "text": "Pourquoi c'est dangereux" },
         { "type": "text", "text": "Une moto qui remonte la file arrive vite et sans bruit pour moi. Elle apparaît d'un coup dans mon angle mort, au moment où je me décale." },
         { "type": "heading", "text": "Ce que je fais" },

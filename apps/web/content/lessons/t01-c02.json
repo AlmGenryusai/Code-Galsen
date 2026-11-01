@@ -23,6 +23,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p01.webp",
+            "alt": "Carrefour animé à Dakar, taxis et motos",
+            "credit": "Ruth Zurielly Jennings, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Carrefour chargé : je ralentis et je regarde à droite avant de m'engager."
+        },
+        {
           "type": "heading",
           "text": "Panneaux à reconnaître"
         },
@@ -176,6 +186,16 @@
         {
           "type": "text",
           "text": "Le train a toujours la priorité. S'il n'y a pas de barrière, je m'engage seulement après avoir vérifié qu'aucun train n'approche."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p15.webp",
+            "alt": "Voie ferrée sans barrière qui coupe la rue à Thiès",
+            "credit": "Babacar Dioum, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Pas de barrière : je regarde des deux côtés avant de traverser les rails."
         },
         {
           "type": "heading",
