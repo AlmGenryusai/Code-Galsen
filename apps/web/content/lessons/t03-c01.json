@@ -40,7 +40,8 @@
           "type": "memo",
           "text": "Je vois mal : je ralentis et j'allume."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p31.webp", "alt": "Pare-brise sous la pluie", "credit": "Oregon Department of Transportation, CC BY 2.0, via Wikimedia Commons"}, "caption": "Sous la pluie, je vois moins et je freine plus tard : je ralentis." }
+        { "type": "image", "media": {"kind": "photo", "src": "p31.webp", "alt": "Pare-brise sous la pluie", "credit": "Oregon Department of Transportation, CC BY 2.0, via Wikimedia Commons"}, "caption": "Sous la pluie, je vois moins et je freine plus tard : je ralentis." },
+        { "type": "image", "media": {"kind": "photo", "src": "p32.webp", "alt": "Voiture en face dans le brouillard, phares allumés", "credit": "Marek Ślusarczyk (Tupungato), CC BY 3.0, via Wikimedia Commons"}, "caption": "Brouillard : je ralentis et j'allume mes feux pour être vu." }
       ]
     },
     {
