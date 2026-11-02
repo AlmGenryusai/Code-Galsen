@@ -1,0 +1,13 @@
+﻿id;énoncé;photo à trouver (scène, sans donner la réponse);difficulté;pistes Commons;source (File:...);URL;licence;auteur;statut (trouvée / non trouvée / à reclasser);ce que montre la photo;pourquoi elle convient
+t03-c03-0008;Près d'un marché au bord de la route, je :;Marché au bord de la route avec piétons et étals, vue conducteur;moyen;Category:Pedestrian crossings | Category:Street markets;;;;;;;
+t05-c01-0001;À la demande d'un agent, je dois présenter :;Contrôle routier : agent qui demande les papiers à un conducteur;moyen;Category:Traffic police;;;;;;;
+t05-c01-0006;Un gendarme me fait signe de m'arrêter. Je :;Agent qui fait signe de s'arrêter au bord d'une route;facile;Category:Traffic police;;;;;;;
+t06-c01-0001;J'arrive sur un accident. Ma première action est de :;Accident de la route avec véhicules arrêtés, sans victime visible, vue conducteur qui arrive;difficile (sensible);;;;;;;;
+t06-c01-0002;Mon véhicule a causé un accident. Je :;Voiture impliquée dans une collision légère, conducteur qui descend;difficile (sensible);;;;;;;;
+t06-c01-0003;Pour alerter les secours, j'indique :;Personne qui téléphone aux secours sur le lieu d'un accident;difficile -> reclasser D si introuvable;;;;;;;;
+t06-c01-0004;Une victime est inconsciente, sans danger autour. Je :;Victime inconsciente allongée sur le bas-côté, mise en scène de secourisme;difficile (sensible);;;;;;;;
+t06-c01-0005;Un motard blessé porte un casque. Je :;Motard blessé avec casque au sol, mise en scène de secourisme;difficile (sensible);;;;;;;;
+t06-c01-0006;Une victime saigne beaucoup d'une jambe. Je :;Mise en scène de secourisme : compression d'une plaie à la jambe;difficile (sensible);;;;;;;;
+t07-c02-0001;Avant d'ouvrir ma portière, je :;Conducteur sur le point d'ouvrir sa portière, vue rétroviseur ou épaule;moyen;Category:Car doors opening | Category:Rear-view mirrors;;;;;;;
+t07-c02-0002;Quand je me gare au bord de la route, je fais descendre mes passagers :;Voiture garée au bord de la route, passagers qui descendent côté trottoir;moyen;Category:Parked cars on roadside;;;;;;;
+t07-c02-0003;Avant de m'éloigner de mon véhicule, je :;Conducteur qui quitte sa voiture, moteur coupé, frein à main;moyen;;;;;;;;

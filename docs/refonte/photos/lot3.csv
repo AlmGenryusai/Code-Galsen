@@ -1,0 +1,13 @@
+﻿id;énoncé;photo à trouver (scène, sans donner la réponse);difficulté;pistes Commons;source (File:...);URL;licence;auteur;statut (trouvée / non trouvée / à reclasser);ce que montre la photo;pourquoi elle convient
+t01-c04-0001;En agglomération, la vitesse maximale d'une voiture est :;Entrée d'agglomération avec panneau de localité, rue bordée de maisons;facile;;;;;;;;
+t01-c04-0002;Aux abords d'une école, d'un hôpital ou d'une mosquée ou église, la vitesse maximale d'une voiture est :;Abords d'une école avec enfants et panneau d'école, vue conducteur;facile;Category:School zones;;;;;;;
+t01-c04-0003;Sur autoroute, par temps normal, la vitesse maximale d'une voiture est :;Autoroute, temps clair, trafic fluide, vue conducteur;facile;Category:Motorways;;;;;;;
+t01-c04-0004;Sur une route à double sens sans séparateur central, par temps normal, ma voiture roule à :;Route à double sens sans séparateur central, temps clair;facile;;;;;;;;
+t01-c04-0005;Au volant d'une voiture, il pleut sur une route à deux voies par sens, sans terre-plein. Ma vitesse maximale est :;Route à deux voies par sens sans terre-plein sous la pluie, vue conducteur;moyen;Category:Roads in rain;;;;;;;
+t01-c04-0006;Au volant d'une voiture, la visibilité est inférieure à 50 mètres (brouillard, poussière). Ma vitesse maximale est :;Route dans le brouillard dense ou la poussière, visibilité très courte;facile;Category:Fog on roads;;;;;;;
+t01-c04-0008;Un panneau limite à 40 km/h sur une route où la loi permet 90. En voiture, je roule à :;Panneau de limitation 40 sur une route droite et large, vue conducteur;facile;;;;;;;;
+t01-c05-0001;Je croise un véhicule qui vient en face. Je me place :;Voiture qui arrive en face sur une route à deux sens, vue conducteur;facile;;;;;;;;
+t01-c05-0002;Avant de dépasser, je dois :;Voiture qui s'apprête à dépasser sur une route à double sens, route dégagée devant;facile;Category:Overtaking;;;;;;;
+t01-c05-0003;En dépassant un cycliste, un piéton ou une charrette, je laisse au moins :;Voiture qui dépasse un cycliste sur le bord de la route, vue conducteur;facile;Category:Cyclists on roads | Category:Overtaking;;;;;;;
+t01-c05-0004;Un véhicule va me dépasser. Je :;Voiture en dépassement derrière, vue rétroviseur, route à deux sens;moyen;Category:Rear-view mirrors | Category:Overtaking;;;;;;;
+t01-c05-0005;Le véhicule devant moi signale qu'il va tourner à gauche. Je le dépasse :;Véhicule devant avec clignotant gauche allumé, vue conducteur derrière;facile;"Category:Traffic lights; Category:Flashing traffic lights";;;;;;;

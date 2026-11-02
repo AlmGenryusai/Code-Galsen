@@ -1,0 +1,12 @@
+﻿id;énoncé;photo à trouver (scène, sans donner la réponse);difficulté;pistes Commons;source (File:...);URL;licence;auteur;statut (trouvée / non trouvée / à reclasser);ce que montre la photo;pourquoi elle convient
+t07-c02-0004;J'ouvre ma portière pour monter dans ma voiture. Je m'assure d'abord :;Main sur la poignée de portière, vue intérieure, rétroviseur;moyen;Category:Car doors opening | Category:Rear-view mirrors;;;;;;;
+t07-c02-0005;Je descends de ma voiture, un enfant est avec moi. Je :;Adulte et enfant qui descendent de voiture côté trottoir;moyen;;;;;;;;
+t07-c02-0006;Je quitte mon véhicule. Je :;Voiture verrouillée avec clés en main du conducteur qui s'éloigne;moyen;;;;;;;;
+t08-c01-0001;Un voyant rouge de pression d'huile s'allume. Je :;Tableau de bord avec voyant rouge de pression d'huile allumé;moyen;Category:Dashboards;;;;;;;
+t08-c01-0002;Le voyant de température de l'eau est rouge. Je :;Tableau de bord avec voyant rouge de température d'eau allumé;moyen;Category:Dashboards;;;;;;;
+t08-c02-0001;Avant un long trajet, je vérifie :;Conducteur qui contrôle les pneus ou le niveau d'huile avant un trajet;moyen;;;;;;;;
+t08-c02-0002;Par forte chaleur, le moteur chauffe. Je :;Voiture arrêtée à l'ombre, capot fumant ou ouvert, forte chaleur;moyen;;;;;;;;
+t08-c02-0004;Pour changer une roue, je me gare :;Changement de roue sur sol plat et stable, loin de la circulation;facile;;;;;;;;
+t08-c02-0005;Mon véhicule refuse de démarrer. Je pense d'abord à :;Conducteur qui tourne la clé, voiture qui ne démarre pas;difficile -> reclasser D si introuvable;;;;;;;;
+t08-c02-0006;Un véhicule en panne la nuit doit être signalé par :;Voiture en panne la nuit avec feux de détresse et triangle;moyen;"Category:Traffic lights; Category:Flashing traffic lights | Category:Night driving; Category:Headlights | Category:Broken down vehicles; Category:Warning triangles";;;;;;;
+t10-c01-0002;Des pneus sous-gonflés :;Pneu sous-gonflé comparé à un pneu normal, manomètre de pression;difficile -> reclasser D si introuvable;;;;;;;;

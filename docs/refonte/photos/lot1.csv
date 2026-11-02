@@ -1,0 +1,13 @@
+﻿id;énoncé;photo à trouver (scène, sans donner la réponse);difficulté;pistes Commons;source (File:...);URL;licence;auteur;statut (trouvée / non trouvée / à reclasser);ce que montre la photo;pourquoi elle convient
+t01-c01-0003;Le dépassement est interdit :;Route à double sens avec ligne continue au centre, vue conducteur derrière un véhicule lent;facile;Category:Road markings;;;;;;;
+t01-c01-0004;Que signifie un feu orange fixe ?;Feu tricolore à l'orange fixe, vu depuis le véhicule qui approche;facile;"Category:Traffic lights; Category:Flashing traffic lights";;;;;;;
+t01-c01-0005;Un feu rouge clignotant indique un passage à niveau non gardé. Je :;Feu rouge clignotant à un passage à niveau sans barrière, vue conducteur;moyen;"Category:Traffic lights; Category:Flashing traffic lights | Category:Level crossings";;;;;;;
+t01-c01-0017;Le feu rouge fixe signifie :;Approche d'un feu rouge fixe à un carrefour, vue conducteur (véhicule non arrêté);facile;"Category:Traffic lights; Category:Flashing traffic lights";;;;;;;
+t01-c01-0018;Le feu jaune fixe signifie :;Feu jaune fixe à un carrefour, vue conducteur qui approche;facile;"Category:Traffic lights; Category:Flashing traffic lights";;;;;;;
+t01-c01-0019;Un feu jaune clignotant signifie :;Feu jaune clignotant à un carrefour, vue conducteur;moyen;"Category:Traffic lights; Category:Flashing traffic lights";;;;;;;
+t01-c01-0020;Un feu rouge clignotant indique :;Feu rouge clignotant à un passage à niveau non gardé, vue conducteur;moyen;"Category:Traffic lights; Category:Flashing traffic lights | Category:Level crossings";;;;;;;
+t01-c01-0024;Le feu est rouge, mais une flèche verte horizontale est allumée vers la droite. Je :;Feu rouge avec flèche verte horizontale allumée vers la droite, vue conducteur;moyen;"Category:Traffic lights; Category:Flashing traffic lights";;;;;;;
+t01-c02-0003;À un carrefour sans signalisation, un véhicule arrive à ma droite. Je :;Carrefour sans panneau ni feu, un véhicule arrive par la droite, vue conducteur;facile;"Category:Traffic lights; Category:Flashing traffic lights";;;;;;;
+t01-c02-0004;Face à un panneau STOP, je dois :;Approche d'un panneau STOP et de sa ligne d'arrêt, vue conducteur;facile;Category:Stop signs | Category:Road markings;;;;;;;
+t01-c02-0005;Face à un panneau « Cédez le passage », je :;Approche d'un panneau Cédez le passage avec un autre véhicule sur la route croisée;facile;Category:Give way signs;;;;;;;
+t01-c02-0006;Je suis déjà engagé dans un rond-point. Un véhicule veut y entrer. Qui passe en premier ?;Rond-point avec deux véhicules en mouvement, un dans l'anneau et un à l'entrée, sans arrêt visible;moyen;Category:Roundabouts;;;;;;;
