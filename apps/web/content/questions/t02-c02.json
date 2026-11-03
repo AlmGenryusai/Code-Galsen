@@ -3,6 +3,12 @@
     "id": "t02-c02-0001",
     "theme": "t02",
     "chapter": "t02-c02",
+    "media": {
+      "kind": "photo",
+      "src": "q-t02-c02-0001.webp",
+      "alt": "Conducteur qui tient son téléphone en main en roulant",
+      "credit": "Ed Brown, CC BY-SA 2.5, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

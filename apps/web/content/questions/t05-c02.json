@@ -163,6 +163,12 @@
     "id": "t05-c02-0005",
     "theme": "t05",
     "chapter": "t05-c02",
+    "media": {
+      "kind": "photo",
+      "src": "q-t05-c02-0005.webp",
+      "alt": "Car rapide à Dakar, un homme debout sur le marchepied arrière",
+      "credit": "Lisa Coulaud, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

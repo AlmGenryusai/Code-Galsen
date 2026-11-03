@@ -162,6 +162,12 @@
     "id": "t04-c03-0005",
     "theme": "t04",
     "chapter": "t04-c03",
+    "media": {
+      "kind": "photo",
+      "src": "q-t04-c03-0005.webp",
+      "alt": "Troupeau de moutons qui traverse la route devant la voiture",
+      "credit": "Bikeboy, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

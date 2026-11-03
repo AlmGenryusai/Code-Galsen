@@ -83,6 +83,12 @@
     "id": "t09-c01-0003",
     "theme": "t09",
     "chapter": "t09-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t09-c01-0003.webp",
+      "alt": "Habitacle de voiture après un choc, airbags avant déployés",
+      "credit": "David Perez, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

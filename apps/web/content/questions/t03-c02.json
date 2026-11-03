@@ -270,6 +270,12 @@
     "id": "t03-c02-0008",
     "theme": "t03",
     "chapter": "t03-c02",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c04-0003.webp",
+      "alt": "Autoroute à deux voies séparées par une glissière",
+      "credit": "Anthony Levrot, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

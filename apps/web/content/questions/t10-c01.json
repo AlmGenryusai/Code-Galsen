@@ -85,6 +85,12 @@
     "id": "t10-c01-0003",
     "theme": "t10",
     "chapter": "t10-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t10-c01-0003.webp",
+      "alt": "Embouteillage de taxis et de bus à Dakar",
+      "credit": "Ji-Elle, domaine public, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

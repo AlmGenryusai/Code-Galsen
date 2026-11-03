@@ -255,6 +255,12 @@
     "id": "t03-c01-0007",
     "theme": "t03",
     "chapter": "t03-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t03-c01-0007.webp",
+      "alt": "Pluie sur le pare-brise, voiture devant sur une route mouillée",
+      "credit": "Shixart1985, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
