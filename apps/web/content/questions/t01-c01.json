@@ -127,6 +127,12 @@
     "id": "t01-c01-0004",
     "theme": "t01",
     "chapter": "t01-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0004.webp",
+      "alt": "Feu tricolore allumé à l'orange au-dessus d'une rue",
+      "credit": "Guillaume Baviere from Uppsala, Sweden, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Que signifie un feu orange fixe ?",
@@ -651,6 +657,12 @@
     "id": "t01-c01-0017",
     "theme": "t01",
     "chapter": "t01-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0017.webp",
+      "alt": "Carrefour en ville avec un feu tricolore au rouge",
+      "credit": "Sebleouf, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Le feu rouge fixe signifie :",
@@ -691,6 +703,12 @@
     "id": "t01-c01-0018",
     "theme": "t01",
     "chapter": "t01-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0018.webp",
+      "alt": "Route à deux voies avec un feu allumé au jaune",
+      "credit": "Phillip Perry, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Le feu jaune fixe signifie :",
@@ -731,6 +749,12 @@
     "id": "t01-c01-0019",
     "theme": "t01",
     "chapter": "t01-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0019.webp",
+      "alt": "Feu jaune allumé au bord d'une route",
+      "credit": "Xosema, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Un feu jaune clignotant signifie :",
@@ -937,6 +961,12 @@
     "id": "t01-c01-0024",
     "theme": "t01",
     "chapter": "t01-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0024.webp",
+      "alt": "Feu rouge allumé avec une flèche verte vers la droite",
+      "credit": "ŠJů, CC BY 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Le feu est rouge, mais une flèche verte horizontale est allumée vers la droite. Je :",

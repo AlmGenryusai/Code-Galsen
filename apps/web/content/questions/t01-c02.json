@@ -133,6 +133,12 @@
     "id": "t01-c02-0004",
     "theme": "t01",
     "chapter": "t01-c02",
+    "media": {
+      "kind": "photo",
+      "src": "p03.webp",
+      "alt": "Panneau STOP et marquage au sol à une intersection",
+      "credit": "LincolnGroup11, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Face à un panneau STOP, je dois :",
@@ -213,6 +219,12 @@
     "id": "t01-c02-0006",
     "theme": "t01",
     "chapter": "t01-c02",
+    "media": {
+      "kind": "photo",
+      "src": "m05.webp",
+      "alt": "Rond-point vu d'en haut avec des véhicules dans l'anneau et à l'entrée",
+      "credit": "Arild Vågen, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je suis déjà engagé dans un rond-point. Un véhicule veut y entrer. Qui passe en premier ?",
