@@ -41,8 +41,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -87,8 +87,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -133,8 +133,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -179,8 +179,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -225,8 +225,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -271,8 +271,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -281,7 +281,7 @@
     "chapter": "t01-c04",
     "parts": [
       {
-        "text": "Au volant d'une voiture, pour ma vitesse, je dois tenir compte de :",
+        "text": "Au volant d'une voiture, pour régler ma vitesse, je tiens compte de :",
         "options": [
           {
             "id": "A",
@@ -297,7 +297,7 @@
           },
           {
             "id": "D",
-            "text": "seulement de la limite"
+            "text": "la puissance de mon moteur"
           }
         ],
         "correct": [
@@ -313,8 +313,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -341,11 +341,11 @@
           },
           {
             "id": "C",
-            "text": "40 km/h maximum, la limite du panneau"
+            "text": "40 km/h, comme le panneau"
           },
           {
             "id": "D",
-            "text": "50 km/h"
+            "text": "50 km/h, avec une marge"
           }
         ],
         "correct": [
@@ -359,8 +359,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -396,8 +396,12 @@
     "explanation": "Sur une route à chaussées séparées par un terre-plein, la limite est de 110 km/h par temps normal, et 90 km/h par pluie.",
     "common_mistake": "Appliquer la limite de l'autoroute (130 km/h) parce que la route est large.",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
+    }
   },
   {
     "id": "t01-c04-0010",
@@ -432,8 +436,12 @@
     "explanation": "Sur une route à chaussées séparées par un terre-plein, la limite passe de 110 à 90 km/h par pluie.",
     "common_mistake": "Garder la vitesse du beau temps.",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
+    }
   },
   {
     "id": "t01-c04-0011",
@@ -468,7 +476,11 @@
     "explanation": "Sur une section à au moins deux voies par sens sans terre-plein, la limite est de 100 km/h par temps normal, et 80 km/h par pluie.",
     "common_mistake": "Confondre avec la route à terre-plein (110 km/h).",
     "legal_ref": "loi 2022-04, L.58",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
+    }
   }
 ]

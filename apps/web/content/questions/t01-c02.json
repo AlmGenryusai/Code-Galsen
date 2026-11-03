@@ -15,19 +15,19 @@
         "options": [
           {
             "id": "A",
-            "text": "Celui qui vient de gauche"
+            "text": "celui qui vient de gauche"
           },
           {
             "id": "B",
-            "text": "Celui qui vient de droite"
+            "text": "celui qui vient de droite"
           },
           {
             "id": "C",
-            "text": "Celui qui roule le plus vite"
+            "text": "celui qui roule le plus vite"
           },
           {
             "id": "D",
-            "text": "Celui qui klaxonne"
+            "text": "celui qui klaxonne en premier"
           }
         ],
         "correct": [
@@ -40,8 +40,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -60,19 +60,19 @@
         "options": [
           {
             "id": "A",
-            "text": "Le véhicule arrivant de droite"
+            "text": "le véhicule qui arrive de droite"
           },
           {
             "id": "B",
-            "text": "Le véhicule sur la route prioritaire"
+            "text": "celui de la route prioritaire"
           },
           {
             "id": "C",
-            "text": "Le premier arrivé"
+            "text": "le premier arrivé"
           },
           {
             "id": "D",
-            "text": "Le véhicule le plus lourd"
+            "text": "le véhicule le plus lourd"
           }
         ],
         "correct": [
@@ -85,8 +85,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -95,28 +95,9 @@
     "chapter": "t01-c02",
     "parts": [
       {
-        "text": "À un carrefour sans signalisation, un véhicule arrive à ma droite. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "passe en premier, je suis plus rapide"
-          },
-          {
-            "id": "B",
-            "text": "lui cède le passage"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne puis je passe"
-          },
-          {
-            "id": "D",
-            "text": "accélère pour passer avant lui"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "À un carrefour sans signalisation, un véhicule arrive à ma droite. Je lui cède le passage :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sans signalisation, on cède le passage au conducteur qui vient de droite. La vitesse ou la taille du véhicule ne changent rien.",
@@ -125,8 +106,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -153,7 +134,7 @@
           },
           {
             "id": "C",
-            "text": "klaxonner et passer"
+            "text": "klaxonner et passer en premier"
           },
           {
             "id": "D",
@@ -171,8 +152,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -189,15 +170,15 @@
           },
           {
             "id": "B",
-            "text": "passe, car je suis sur la route la plus large"
+            "text": "passe, car ma route est plus large"
           },
           {
             "id": "C",
-            "text": "céder le passage aux autres routes, dans les deux sens"
+            "text": "cède aux autres routes"
           },
           {
             "id": "D",
-            "text": "passe en klaxonnant"
+            "text": "passe en klaxonnant pour prévenir"
           }
         ],
         "correct": [
@@ -211,8 +192,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -239,11 +220,11 @@
           },
           {
             "id": "C",
-            "text": "moi, déjà engagé"
+            "text": "moi, car je suis déjà engagé"
           },
           {
             "id": "D",
-            "text": "celui qui klaxonne"
+            "text": "celui qui klaxonne le premier"
           }
         ],
         "correct": [
@@ -257,8 +238,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -275,11 +256,11 @@
           },
           {
             "id": "B",
-            "text": "réduis ma vitesse et me range pour la laisser passer"
+            "text": "me range pour la laisser passer"
           },
           {
             "id": "C",
-            "text": "continue sans changer ma vitesse"
+            "text": "garde ma vitesse en restant à droite"
           },
           {
             "id": "D",
@@ -297,8 +278,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -315,15 +296,15 @@
           },
           {
             "id": "B",
-            "text": "m'arrête immédiatement, en laissant toute la chaussée libre"
+            "text": "m'arrête, chaussée libre"
           },
           {
             "id": "C",
-            "text": "passe avant lui"
+            "text": "passe avant lui en accélérant"
           },
           {
             "id": "D",
-            "text": "me mets dans la file du cortège"
+            "text": "me place dans la file du cortège"
           }
         ],
         "correct": [
@@ -337,8 +318,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -361,7 +342,7 @@
           },
           {
             "id": "B",
-            "text": "seulement après m'être assuré qu'aucun train n'est annoncé"
+            "text": "après avoir vérifié qu'aucun train n'arrive"
           },
           {
             "id": "C",
@@ -383,8 +364,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -401,11 +382,11 @@
           },
           {
             "id": "B",
-            "text": "marquer un temps d'arrêt et céder le passage"
+            "text": "marque un temps d'arrêt et cède"
           },
           {
             "id": "C",
-            "text": "klaxonner et avancer"
+            "text": "klaxonner puis avancer doucement"
           },
           {
             "id": "D",
@@ -423,8 +404,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-30",
-      "juriste": "2026-10-30"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

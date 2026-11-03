@@ -48,15 +48,15 @@
           },
           {
             "id": "B",
-            "text": "sur la partie gauche pour voir plus loin"
+            "text": "sur la partie gauche, pour mieux voir"
           },
           {
             "id": "C",
-            "text": "sur la partie droite, en laissant la gauche libre"
+            "text": "sur la partie droite de la route"
           },
           {
             "id": "D",
-            "text": "sur l'accotement"
+            "text": "sur l'accotement, à petite vitesse"
           }
         ],
         "correct": [
@@ -70,8 +70,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -80,28 +80,9 @@
     "chapter": "t01-c03",
     "parts": [
       {
-        "text": "La chaussée est séparée en deux voies par une ligne continue. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "la franchis pour dépasser"
-          },
-          {
-            "id": "B",
-            "text": "ne la franchis pas et ne la chevauche pas"
-          },
-          {
-            "id": "C",
-            "text": "la chevauche si la route est vide"
-          },
-          {
-            "id": "D",
-            "text": "la franchis seulement la nuit"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Une ligne continue sépare les deux voies. Je peux la chevaucher si la route est vide :",
+        "correct": "no"
       }
     ],
     "explanation": "Une ligne continue ne se franchit pas, et on ne roule pas dessus. Elle marque un risque que l'on ne voit pas.",
@@ -110,8 +91,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -124,7 +105,7 @@
         "options": [
           {
             "id": "A",
-            "text": "pour dépasser ou pour traverser la chaussée"
+            "text": "pour dépasser ou traverser la chaussée"
           },
           {
             "id": "B",
@@ -136,7 +117,7 @@
           },
           {
             "id": "D",
-            "text": "jamais"
+            "text": "jamais, même pour dépasser"
           }
         ],
         "correct": [
@@ -150,8 +131,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -160,7 +141,7 @@
     "chapter": "t01-c03",
     "parts": [
       {
-        "text": "À ma gauche : une ligne continue collée à une ligne discontinue, la continue étant la plus proche de moi. Je :",
+        "text": "À ma gauche, une ligne continue est collée à une discontinue, la continue étant la plus proche de moi. Je :",
         "options": [
           {
             "id": "A",
@@ -168,7 +149,7 @@
           },
           {
             "id": "B",
-            "text": "ne peux pas franchir la continue"
+            "text": "ne la franchis pas"
           },
           {
             "id": "C",
@@ -176,7 +157,7 @@
           },
           {
             "id": "D",
-            "text": "la franchis de nuit"
+            "text": "la franchis seulement de nuit"
           }
         ],
         "correct": [
@@ -190,8 +171,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -212,11 +193,11 @@
           },
           {
             "id": "C",
-            "text": "du côté le plus court"
+            "text": "par le côté le plus court"
           },
           {
             "id": "D",
-            "text": "par le côté vide"
+            "text": "par le côté le plus dégagé"
           }
         ],
         "correct": [
@@ -230,8 +211,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -244,11 +225,11 @@
         "options": [
           {
             "id": "A",
-            "text": "reste au milieu"
+            "text": "reste au milieu de la route"
           },
           {
             "id": "B",
-            "text": "laisse la gauche libre et prends l'accotement si besoin"
+            "text": "laisse la gauche libre"
           },
           {
             "id": "C",
@@ -256,7 +237,7 @@
           },
           {
             "id": "D",
-            "text": "accélère"
+            "text": "accélère pour le croiser vite"
           }
         ],
         "correct": [
@@ -270,8 +251,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -280,28 +261,9 @@
     "chapter": "t01-c03",
     "parts": [
       {
-        "text": "Une moto peut-elle rouler sur le trottoir pour éviter un bouchon ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "oui, si elle roule doucement"
-          },
-          {
-            "id": "B",
-            "text": "oui, si elle klaxonne"
-          },
-          {
-            "id": "C",
-            "text": "non, sauf cas de force majeure"
-          },
-          {
-            "id": "D",
-            "text": "oui, s'il n'y a personne"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Une moto peut rouler sur le trottoir pour éviter un bouchon, sauf cas de force majeure :",
+        "correct": "no"
       }
     ],
     "explanation": "Chaque usager doit rester sur l'espace prévu pour sa catégorie. Le trottoir est pour les piétons.",
@@ -310,8 +272,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -336,7 +298,7 @@
           },
           {
             "id": "D",
-            "text": "sur la ligne"
+            "text": "sur la ligne entre deux voies"
           }
         ],
         "correct": [
@@ -350,8 +312,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -360,23 +322,23 @@
     "chapter": "t01-c03",
     "parts": [
       {
-        "text": "La chaussée a trois voies séparées par des lignes discontinues. Je veux dépasser : puis-je rouler sur la voie la plus à gauche ?",
+        "text": "La chaussée a trois voies séparées par des lignes discontinues. Je veux dépasser. La voie la plus à gauche :",
         "options": [
           {
             "id": "A",
-            "text": "Oui, c'est la voie de dépassement"
+            "text": "est la voie de dépassement"
           },
           {
             "id": "B",
-            "text": "Non, elle est réservée en permanence aux usagers qui viennent en sens inverse"
+            "text": "est réservée à ceux qui viennent en face"
           },
           {
             "id": "C",
-            "text": "Oui, mais seulement de nuit"
+            "text": "est ouverte la nuit seulement"
           },
           {
             "id": "D",
-            "text": "Oui, s'il n'y a personne en face"
+            "text": "est libre s'il n'y a personne en face"
           }
         ],
         "correct": [
@@ -390,8 +352,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-11-01",
-      "juriste": "2026-11-01"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

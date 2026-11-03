@@ -35,8 +35,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-30",
-      "juriste": "2026-10-30"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -80,8 +80,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -94,23 +94,23 @@
         "options": [
           {
             "id": "A",
-            "text": "Sur toute route en dehors des agglomérations"
+            "text": "de nuit uniquement, quelle que soit la route"
           },
           {
             "id": "B",
-            "text": "Lorsqu'une ligne continue sépare les voies"
+            "text": "sur toute route hors des agglomérations"
           },
           {
             "id": "C",
-            "text": "De nuit uniquement"
+            "text": "sur les routes nationales uniquement"
           },
           {
             "id": "D",
-            "text": "Uniquement sur les routes nationales"
+            "text": "là où une ligne continue sépare les voies"
           }
         ],
         "correct": [
-          "B"
+          "D"
         ]
       }
     ],
@@ -119,8 +119,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-30",
-      "juriste": "2026-10-30"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -135,23 +135,23 @@
     },
     "parts": [
       {
-        "text": "Que signifie un feu orange fixe ?",
+        "text": "Un feu orange fixe m'indique de :",
         "options": [
           {
             "id": "A",
-            "text": "Accélérer pour passer avant le rouge"
+            "text": "accélérer pour passer avant le rouge"
           },
           {
             "id": "B",
-            "text": "Freiner si possible, sinon franchir prudemment"
+            "text": "m'arrêter si je peux le faire en sécurité"
           },
           {
             "id": "C",
-            "text": "Même signification qu'un feu rouge"
+            "text": "m'arrêter dans tous les cas, comme au rouge"
           },
           {
             "id": "D",
-            "text": "Priorité aux piétons uniquement"
+            "text": "laisser la priorité aux piétons seulement"
           }
         ],
         "correct": [
@@ -164,8 +164,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -204,8 +204,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -220,7 +220,7 @@
     },
     "parts": [
       {
-        "text": "Un panneau STOP signifie que vous devez :",
+        "text": "Face à un panneau STOP, je dois :",
         "options": [
           {
             "id": "A",
@@ -228,15 +228,15 @@
           },
           {
             "id": "B",
-            "text": "marquer un arrêt complet puis céder le passage"
+            "text": "faire un arrêt complet puis céder"
           },
           {
             "id": "C",
-            "text": "tourner obligatoirement à droite"
+            "text": "tourner obligatoirement à droite avant"
           },
           {
             "id": "D",
-            "text": "klaxonner avant de passer"
+            "text": "klaxonner avant de m'engager ici"
           }
         ],
         "correct": [
@@ -249,8 +249,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -259,27 +259,27 @@
     "chapter": "t01-c01",
     "parts": [
       {
-        "text": "Au Sénégal, en zone interurbaine, des branches d'arbres déposées sur la chaussée signalent généralement :",
+        "text": "Au Sénégal, sur une route interurbaine, des branches d'arbre déposées sur la chaussée signalent généralement :",
         "options": [
           {
             "id": "A",
-            "text": "un mariage en cours"
+            "text": "un mariage en cours à proximité"
           },
           {
             "id": "B",
-            "text": "une panne ou un accident à proximité"
+            "text": "une zone de chasse ou de pâturage"
           },
           {
             "id": "C",
-            "text": "une zone de chasse"
+            "text": "un arrêt de car rapide"
           },
           {
             "id": "D",
-            "text": "un arrêt de car rapide"
+            "text": "une panne ou un accident devant"
           }
         ],
         "correct": [
-          "B"
+          "D"
         ]
       }
     ],
@@ -288,7 +288,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -301,19 +302,19 @@
         "options": [
           {
             "id": "A",
-            "text": "fin de la priorité"
+            "text": "la fin de la priorité pour moi"
           },
           {
             "id": "B",
-            "text": "route à caractère prioritaire"
+            "text": "une route prioritaire"
           },
           {
             "id": "C",
-            "text": "cédez le passage"
+            "text": "l'obligation de céder le passage"
           },
           {
             "id": "D",
-            "text": "zone de danger"
+            "text": "l'annonce d'une zone de danger"
           }
         ],
         "correct": [
@@ -326,15 +327,15 @@
     "legal_ref": "Décret 2004-13, annexe P3 (AB6)",
     "legal_status": "confirmed",
     "status": "published",
-    "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
-    },
     "media": {
       "kind": "sign",
       "src": "route-prioritaire",
       "alt": "Route à caractère prioritaire",
       "credit": "Code Galsen"
+    },
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -347,19 +348,19 @@
         "options": [
           {
             "id": "A",
-            "text": "début de priorité"
+            "text": "le début de la priorité"
           },
           {
             "id": "B",
-            "text": "fin du caractère prioritaire"
+            "text": "la fin de la priorité"
           },
           {
             "id": "C",
-            "text": "interdiction de stationner"
+            "text": "l'interdiction de stationner"
           },
           {
             "id": "D",
-            "text": "fin de ville"
+            "text": "la fin de l'agglomération"
           }
         ],
         "correct": [
@@ -372,15 +373,15 @@
     "legal_ref": "Décret 2004-13, annexe P3 (AB7)",
     "legal_status": "confirmed",
     "status": "published",
-    "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
-    },
     "media": {
       "kind": "sign",
       "src": "ab7",
       "alt": "Fin de route à caractère prioritaire",
       "credit": "Code Galsen"
+    },
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -397,15 +398,15 @@
           },
           {
             "id": "B",
-            "text": "je cède le passage aux véhicules venant en sens inverse"
+            "text": "je cède aux véhicules venant en face"
           },
           {
             "id": "C",
-            "text": "interdiction de dépasser"
+            "text": "il est interdit de dépasser ici"
           },
           {
             "id": "D",
-            "text": "route à sens unique"
+            "text": "la route est à sens unique"
           }
         ],
         "correct": [
@@ -418,15 +419,15 @@
     "legal_ref": "Décret 2004-13, annexe P4 (B15)",
     "legal_status": "confirmed",
     "status": "published",
-    "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
-    },
     "media": {
       "kind": "sign",
       "src": "b15",
       "alt": "Cédez le passage aux véhicules venant en sens inverse",
       "credit": "Code Galsen"
+    },
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -443,15 +444,15 @@
           },
           {
             "id": "B",
-            "text": "j'ai la priorité sur ceux qui viennent en face"
+            "text": "j'ai la priorité sur ceux d'en face"
           },
           {
             "id": "C",
-            "text": "route à sens unique"
+            "text": "la route est à sens unique"
           },
           {
             "id": "D",
-            "text": "fin de route prioritaire"
+            "text": "la route prioritaire se termine"
           }
         ],
         "correct": [
@@ -464,15 +465,15 @@
     "legal_ref": "Décret 2004-13, annexe P5 (C18)",
     "legal_status": "confirmed",
     "status": "published",
-    "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
-    },
     "media": {
       "kind": "sign",
       "src": "c18",
       "alt": "Priorité par rapport au sens inverse",
       "credit": "Code Galsen"
+    },
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -510,15 +511,15 @@
     "legal_ref": "Décret 2004-13, annexe P3 (AB1) ; art. 28 al.1",
     "legal_status": "confirmed",
     "status": "published",
-    "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
-    },
     "media": {
       "kind": "sign",
       "src": "priorite-droite",
       "alt": "Intersection de deux routes",
       "credit": "Code Galsen"
+    },
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -535,15 +536,15 @@
           },
           {
             "id": "B",
-            "text": "cède le passage à ceux déjà engagés"
+            "text": "cède à ceux déjà engagés"
           },
           {
             "id": "C",
-            "text": "klaxonne et entre"
+            "text": "klaxonne puis j'entre"
           },
           {
             "id": "D",
-            "text": "entre à toute vitesse"
+            "text": "entre vite pour ne pas gêner"
           }
         ],
         "correct": [
@@ -556,15 +557,15 @@
     "legal_ref": "Décret 2004-13, annexe P3 (A25) ; art. 28",
     "legal_status": "confirmed",
     "status": "published",
-    "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
-    },
     "media": {
       "kind": "sign",
       "src": "sens-giratoire",
       "alt": "Carrefour à sens giratoire",
       "credit": "Code Galsen"
+    },
+    "review": {
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -577,19 +578,19 @@
         "options": [
           {
             "id": "A",
-            "text": "ronds, à fond bleu"
+            "text": "ronds, à fond bleu foncé"
           },
           {
             "id": "B",
-            "text": "triangulaires, à fond crème bordés de rouge"
+            "text": "triangulaires, bordés de rouge"
           },
           {
             "id": "C",
-            "text": "carrés, à fond rouge"
+            "text": "carrés, à fond rouge uni"
           },
           {
             "id": "D",
-            "text": "rectangulaires, à fond vert"
+            "text": "rectangulaires, à fond vert clair"
           }
         ],
         "correct": [
@@ -603,8 +604,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -613,28 +614,9 @@
     "chapter": "t01-c01",
     "parts": [
       {
-        "text": "Un panneau rond à fond bleu foncé, avec un symbole blanc, indique :",
-        "options": [
-          {
-            "id": "A",
-            "text": "une obligation"
-          },
-          {
-            "id": "B",
-            "text": "une interdiction"
-          },
-          {
-            "id": "C",
-            "text": "un danger"
-          },
-          {
-            "id": "D",
-            "text": "une indication de ville"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Un panneau rond à fond bleu foncé, avec un symbole blanc, indique une obligation :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les signaux d'obligation ont le fond bleu foncé et les symboles blancs. Ils disent ce que l'on doit faire.",
@@ -649,8 +631,8 @@
       "credit": "Code Galsen"
     },
     "review": {
-      "moniteur": "2026-10-30",
-      "juriste": "2026-10-30"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -681,7 +663,7 @@
           },
           {
             "id": "D",
-            "text": "je cède à droite"
+            "text": "je cède le passage à droite"
           }
         ],
         "correct": [
@@ -695,8 +677,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -715,19 +697,19 @@
         "options": [
           {
             "id": "A",
-            "text": "accélérer"
+            "text": "j'accélère pour passer vite"
           },
           {
             "id": "B",
-            "text": "l'annonce du rouge : je m'arrête si je le peux"
+            "text": "le rouge arrive : je m'arrête si possible"
           },
           {
             "id": "C",
-            "text": "le même que le vert"
+            "text": "la même chose que le vert"
           },
           {
             "id": "D",
-            "text": "je cède à droite"
+            "text": "je cède à ceux de droite"
           }
         ],
         "correct": [
@@ -741,8 +723,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -761,19 +743,19 @@
         "options": [
           {
             "id": "A",
-            "text": "arrêt absolu"
+            "text": "un arrêt absolu"
           },
           {
             "id": "B",
-            "text": "prudence, ralentir"
+            "text": "la prudence : je ralentis"
           },
           {
             "id": "C",
-            "text": "priorité à droite sur tous"
+            "text": "la priorité à droite sur tous"
           },
           {
             "id": "D",
-            "text": "passage libre à pleine vitesse"
+            "text": "un passage libre, à pleine vitesse"
           }
         ],
         "correct": [
@@ -787,8 +769,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -801,23 +783,23 @@
         "options": [
           {
             "id": "A",
-            "text": "un passage à niveau non gardé ou un aérodrome : arrêt absolu"
-          },
-          {
-            "id": "B",
             "text": "un carrefour : je cède à droite"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "un chantier : je ralentis"
           },
           {
+            "id": "C",
+            "text": "un passage à niveau : arrêt absolu"
+          },
+          {
             "id": "D",
-            "text": "une zone scolaire"
+            "text": "une zone scolaire : je ralentis"
           }
         ],
         "correct": [
-          "A"
+          "C"
         ]
       }
     ],
@@ -827,8 +809,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -867,8 +849,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -883,28 +865,9 @@
     },
     "parts": [
       {
-        "text": "Un agent de la circulation me fait signe de m'arrêter alors que le feu est vert. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "passe, le feu est vert"
-          },
-          {
-            "id": "B",
-            "text": "m'arrête : l'agent prime sur la signalisation fixe"
-          },
-          {
-            "id": "C",
-            "text": "passe en klaxonnant"
-          },
-          {
-            "id": "D",
-            "text": "ralentis seulement"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Le feu est vert mais un agent me fait signe de m'arrêter. Je m'arrête :",
+        "correct": "yes"
       }
     ],
     "explanation": "Quand un agent habilité dirige la circulation, ses indications priment sur les feux et les panneaux.",
@@ -913,8 +876,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -923,7 +886,7 @@
     "chapter": "t01-c01",
     "parts": [
       {
-        "text": "Dans quel ordre les couleurs d'un feu tricolore se succèdent-elles ?",
+        "text": "Les couleurs d'un feu tricolore se succèdent dans l'ordre :",
         "options": [
           {
             "id": "A",
@@ -953,8 +916,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-11-01",
-      "juriste": "2026-11-01"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -973,19 +936,19 @@
         "options": [
           {
             "id": "A",
-            "text": "tourne à droite au ralenti, en laissant passer les piétons engagés et sans gêner les véhicules de l'autre voie"
+            "text": "tourne à droite au ralenti, en laissant passer les piétons"
           },
           {
             "id": "B",
-            "text": "tourne à droite sans ralentir : la flèche verte annule le feu rouge"
+            "text": "tourne à droite sans ralentir : la flèche annule le rouge"
           },
           {
             "id": "C",
-            "text": "continue tout droit, car la flèche autorise à passer"
+            "text": "continue tout droit : la flèche m'autorise à passer"
           },
           {
             "id": "D",
-            "text": "reste arrêté jusqu'au feu vert"
+            "text": "reste arrêté, même pour tourner, jusqu'au vert franc"
           }
         ],
         "correct": [
@@ -999,8 +962,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-11-01",
-      "juriste": "2026-11-01"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

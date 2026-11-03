@@ -5,28 +5,9 @@
     "chapter": "t02-c02",
     "parts": [
       {
-        "text": "L'utilisation du téléphone tenu en main au volant est-elle autorisée au Sénégal ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "Oui, à vitesse réduite"
-          },
-          {
-            "id": "B",
-            "text": "Oui, si je le tiens d'une seule main"
-          },
-          {
-            "id": "C",
-            "text": "Non, c'est interdit et sanctionné"
-          },
-          {
-            "id": "D",
-            "text": "Oui, avec oreillette Bluetooth"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Au Sénégal, je peux téléphoner au volant, le téléphone tenu en main, si je roule lentement :",
+        "correct": "no"
       }
     ],
     "explanation": "Tenir son téléphone en main au volant d'un véhicule en circulation est strictement interdit et passible d'une amende.",
@@ -34,8 +15,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -74,8 +55,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -114,8 +95,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -124,7 +105,7 @@
     "chapter": "t02-c02",
     "parts": [
       {
-        "text": "Conduire sous l'emprise de stupéfiants, c'est :",
+        "text": "Conduire sous l'emprise de stupéfiants est :",
         "options": [
           {
             "id": "A",
@@ -132,7 +113,7 @@
           },
           {
             "id": "B",
-            "text": "puni comme la conduite en état d'ivresse"
+            "text": "puni comme l'ivresse au volant"
           },
           {
             "id": "C",
@@ -140,7 +121,7 @@
           },
           {
             "id": "D",
-            "text": "permis de jour"
+            "text": "permis seulement de jour"
           }
         ],
         "correct": [
@@ -154,8 +135,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -164,28 +145,9 @@
     "chapter": "t02-c02",
     "parts": [
       {
-        "text": "Au volant, je peux porter un écouteur dans l'oreille :",
-        "options": [
-          {
-            "id": "A",
-            "text": "oui, pour la musique"
-          },
-          {
-            "id": "B",
-            "text": "non, sauf appareil de correction de surdité"
-          },
-          {
-            "id": "C",
-            "text": "oui, si le volume est bas"
-          },
-          {
-            "id": "D",
-            "text": "oui, sur autoroute"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Au volant, je peux porter un écouteur dans l'oreille, sauf appareil de correction de surdité :",
+        "correct": "no"
       }
     ],
     "explanation": "Le port à l'oreille d'un dispositif qui émet du son est interdit, sauf appareil correcteur de surdité.",
@@ -194,8 +156,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -234,8 +196,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -252,15 +214,15 @@
           },
           {
             "id": "B",
-            "text": "un foulard"
+            "text": "un foulard serré"
           },
           {
             "id": "C",
-            "text": "rien, s'ils roulent doucement"
+            "text": "un casque s'ils sont plusieurs"
           },
           {
             "id": "D",
-            "text": "un casque s'ils sont plusieurs"
+            "text": "rien, si la moto roule doucement"
           }
         ],
         "correct": [
@@ -274,8 +236,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -288,19 +250,19 @@
         "options": [
           {
             "id": "A",
-            "text": "ouvre la vitre et continue"
+            "text": "ouvre la vitre et je continue"
           },
           {
             "id": "B",
-            "text": "m'arrête dans un endroit sûr pour me reposer"
+            "text": "m'arrête en lieu sûr pour me reposer"
           },
           {
             "id": "C",
-            "text": "accélère pour arriver plus vite"
+            "text": "mets la radio plus fort pour rester éveillé"
           },
           {
             "id": "D",
-            "text": "mets la radio plus fort"
+            "text": "accélère pour arriver plus vite"
           }
         ],
         "correct": [
@@ -314,7 +276,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -331,15 +294,15 @@
           },
           {
             "id": "B",
-            "text": "le laisser repartir"
+            "text": "le laisser repartir après un avertissement"
           },
           {
             "id": "C",
-            "text": "le dispenser de contrôle"
+            "text": "le dispenser de tout contrôle"
           },
           {
             "id": "D",
-            "text": "l'autoriser à conduire jusqu'à chez lui"
+            "text": "l'autoriser à rouler jusque chez lui"
           }
         ],
         "correct": [
@@ -353,8 +316,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]
