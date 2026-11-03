@@ -5,27 +5,27 @@
     "chapter": "t04-c01",
     "parts": [
       {
-        "text": "Un piéton s'engage sur un passage piéton. Que faire ?",
+        "text": "Un piéton s'engage sur le passage piéton devant moi. Je :",
         "options": [
           {
             "id": "A",
-            "text": "Klaxonner pour l'avertir"
+            "text": "klaxonne brièvement pour l'avertir de ma présence"
           },
           {
             "id": "B",
-            "text": "Accélérer pour passer avant lui"
+            "text": "accélère légèrement pour passer avant lui"
           },
           {
             "id": "C",
-            "text": "Ralentir et lui céder le passage"
+            "text": "continue si la voie de droite est libre"
           },
           {
             "id": "D",
-            "text": "Continuer si la voie de droite est libre"
+            "text": "ralentis et m'arrête pour lui céder le passage"
           }
         ],
         "correct": [
-          "C"
+          "D"
         ]
       }
     ],
@@ -34,8 +34,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -48,7 +48,7 @@
         "options": [
           {
             "id": "A",
-            "text": "freine fort au dernier moment"
+            "text": "freine seulement s'ils traversent devant moi"
           },
           {
             "id": "B",
@@ -56,11 +56,11 @@
           },
           {
             "id": "C",
-            "text": "klaxonne pour qu'ils s'écartent"
+            "text": "klaxonne pour qu'ils restent sur le trottoir"
           },
           {
             "id": "D",
-            "text": "garde ma vitesse, ils savent regarder"
+            "text": "garde ma vitesse car ils regardent avant de traverser"
           }
         ],
         "correct": [
@@ -74,7 +74,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -87,23 +88,23 @@
         "options": [
           {
             "id": "A",
-            "text": "le dépasse vite pour libérer la route"
+            "text": "ralentis fortement : un piéton peut surgir devant lui"
           },
           {
             "id": "B",
-            "text": "ralentis fort : des piétons peuvent surgir devant lui"
+            "text": "le dépasse rapidement pour dégager la circulation"
           },
           {
             "id": "C",
-            "text": "klaxonne pour prévenir les piétons"
+            "text": "klaxonne pour prévenir les piétons de mon passage"
           },
           {
             "id": "D",
-            "text": "reste collé à lui sans regarder"
+            "text": "reste près de lui en surveillant seulement la route"
           }
         ],
         "correct": [
-          "B"
+          "A"
         ]
       }
     ],
@@ -113,8 +114,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -127,23 +128,23 @@
         "options": [
           {
             "id": "A",
-            "text": "passe près d'eux, ils m'ont vu"
+            "text": "passe près d'eux car ils m'ont sûrement vu"
           },
           {
             "id": "B",
-            "text": "éteins mes phares pour ne pas les éblouir"
+            "text": "garde ma vitesse en restant en feux de croisement"
           },
           {
             "id": "C",
-            "text": "klaxonne sans ralentir"
+            "text": "ralentis et m'écarte sans geste brusque"
           },
           {
             "id": "D",
-            "text": "ralentis et m'écarte sans geste brusque"
+            "text": "klaxonne sans ralentir pour les prévenir de loin"
           }
         ],
         "correct": [
-          "D"
+          "C"
         ]
       }
     ],
@@ -153,7 +154,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -166,24 +168,24 @@
         "options": [
           {
             "id": "A",
-            "text": "ceux qui attendent au bord"
+            "text": "seulement ceux déjà engagés sur les bandes"
           },
           {
             "id": "B",
-            "text": "ceux qui courent pour traverser"
+            "text": "ceux qui attendent au bord du trottoir"
           },
           {
             "id": "C",
-            "text": "seulement ceux déjà sur les bandes"
+            "text": "le trottoir d'en face seulement"
           },
           {
             "id": "D",
-            "text": "le trottoir d'en face seulement"
+            "text": "ceux qui s'apprêtent à courir pour traverser"
           }
         ],
         "correct": [
-          "A",
-          "B"
+          "B",
+          "D"
         ]
       }
     ],
@@ -193,7 +195,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -208,38 +211,14 @@
     },
     "parts": [
       {
-        "text": "Un piéton traverse hors passage devant moi. Je peux passer sans ralentir :",
-        "options": [
-          {
-            "id": "A",
-            "text": "OUI"
-          },
-          {
-            "id": "B",
-            "text": "NON"
-          }
-        ],
-        "correct": [
-          "B"
-        ],
-        "shuffle": false
+        "kind": "yesno",
+        "statement": "Un piéton traverse hors passage devant moi. Je peux passer sans ralentir :",
+        "correct": "no"
       },
       {
-        "text": "Je dois pouvoir m'arrêter s'il s'engage :",
-        "options": [
-          {
-            "id": "C",
-            "text": "OUI"
-          },
-          {
-            "id": "D",
-            "text": "NON"
-          }
-        ],
-        "correct": [
-          "C"
-        ],
-        "shuffle": false
+        "kind": "yesno",
+        "statement": "Je dois pouvoir m'arrêter s'il s'engage :",
+        "correct": "yes"
       }
     ],
     "explanation": "Hors passage, le piéton reste fragile. Vous devez toujours pouvoir l'éviter, même si vous n'avez pas la priorité.",
@@ -248,8 +227,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -258,28 +237,9 @@
     "chapter": "t04-c01",
     "parts": [
       {
-        "text": "Une femme avec un enfant dans les bras traverse lentement. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "la presse en m'approchant"
-          },
-          {
-            "id": "B",
-            "text": "passe derrière elle en accélérant"
-          },
-          {
-            "id": "C",
-            "text": "attends qu'elle ait fini de traverser"
-          },
-          {
-            "id": "D",
-            "text": "lui fais signe de courir"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Une femme avec un enfant dans les bras traverse lentement. Je peux passer derrière elle en accélérant :",
+        "correct": "no"
       }
     ],
     "explanation": "Une personne qui porte un enfant ne peut pas se hâter. La presser la met en danger, elle et l'enfant.",
@@ -288,8 +248,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

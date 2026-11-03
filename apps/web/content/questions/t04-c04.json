@@ -9,23 +9,23 @@
         "options": [
           {
             "id": "A",
-            "text": "colle son pare-chocs pour qu'il avance"
+            "text": "me rapproche de lui pour qu'il avance plus vite"
           },
           {
             "id": "B",
-            "text": "garde de la distance pour pouvoir freiner"
-          },
-          {
-            "id": "C",
             "text": "le double aussitôt par la droite"
           },
           {
+            "id": "C",
+            "text": "garde assez de distance pour pouvoir freiner"
+          },
+          {
             "id": "D",
-            "text": "klaxonne pour l'avertir"
+            "text": "klaxonne pour l'avertir de ma présence"
           }
         ],
         "correct": [
-          "B"
+          "C"
         ]
       }
     ],
@@ -35,7 +35,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -48,23 +49,23 @@
         "options": [
           {
             "id": "A",
-            "text": "le dépasse vite par la gauche"
+            "text": "ralentis et surveille si quelqu'un traverse devant lui"
           },
           {
             "id": "B",
-            "text": "klaxonne pour qu'ils se dépêchent"
+            "text": "le dépasse vite par la gauche pour ne pas attendre"
           },
           {
             "id": "C",
-            "text": "ralentis et regarde si quelqu'un traverse devant lui"
+            "text": "klaxonne pour que les passagers se dépêchent"
           },
           {
             "id": "D",
-            "text": "passe tout près des passagers"
+            "text": "passe tout près d'eux pour ne pas bloquer la route"
           }
         ],
         "correct": [
-          "C"
+          "A"
         ]
       }
     ],
@@ -74,7 +75,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -83,27 +85,27 @@
     "chapter": "t04-c04",
     "parts": [
       {
-        "text": "Un taxi ralentit sans raison et se déporte vers le bord. Il va probablement :",
+        "text": "Un taxi ralentit et se déporte vers le bord. Il va probablement :",
         "options": [
           {
             "id": "A",
-            "text": "tourner à gauche"
+            "text": "tourner à gauche sans clignotant"
           },
           {
             "id": "B",
-            "text": "faire demi-tour"
+            "text": "s'arrêter pour prendre un client"
           },
           {
             "id": "C",
-            "text": "accélérer"
+            "text": "faire demi-tour au milieu de la route"
           },
           {
             "id": "D",
-            "text": "s'arrêter pour un client"
+            "text": "accélérer pour me laisser passer"
           }
         ],
         "correct": [
-          "D"
+          "B"
         ]
       }
     ],
@@ -113,7 +115,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -122,28 +125,9 @@
     "chapter": "t04-c04",
     "parts": [
       {
-        "text": "Un bus Dakar Dem Dikk se rabat vers l'arrêt avec son clignotant. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "accélère pour passer avant lui"
-          },
-          {
-            "id": "B",
-            "text": "lui laisse la place de se rabattre"
-          },
-          {
-            "id": "C",
-            "text": "me colle à lui"
-          },
-          {
-            "id": "D",
-            "text": "klaxonne pour qu'il attende"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Un bus Dakar Dem Dikk se rabat vers l'arrêt avec son clignotant. Je dois lui laisser la place de se rabattre :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le bus a un long gabarit et se déporte avant de s'arrêter. Lui laisser la place évite l'accrochage.",
@@ -152,8 +136,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -166,24 +150,24 @@
         "options": [
           {
             "id": "A",
-            "text": "garde ma distance"
+            "text": "me colle à lui pour gagner du temps"
           },
           {
             "id": "B",
-            "text": "colle à lui pour gagner du temps"
+            "text": "garde ma distance"
           },
           {
             "id": "C",
-            "text": "regarde les piétons devant lui"
+            "text": "le double à chaque arrêt"
           },
           {
             "id": "D",
-            "text": "le double à chaque arrêt"
+            "text": "regarde les piétons devant lui"
           }
         ],
         "correct": [
-          "A",
-          "C"
+          "B",
+          "D"
         ]
       }
     ],
@@ -193,7 +177,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -202,38 +187,14 @@
     "chapter": "t04-c04",
     "parts": [
       {
-        "text": "Un car arrêté me cache les piétons. Je peux le dépasser sans ralentir :",
-        "options": [
-          {
-            "id": "A",
-            "text": "OUI"
-          },
-          {
-            "id": "B",
-            "text": "NON"
-          }
-        ],
-        "correct": [
-          "B"
-        ],
-        "shuffle": false
+        "kind": "yesno",
+        "statement": "Un piéton peut surgir devant le car arrêté qui me cache la vue :",
+        "correct": "yes"
       },
       {
-        "text": "Un piéton peut surgir devant le car :",
-        "options": [
-          {
-            "id": "C",
-            "text": "OUI"
-          },
-          {
-            "id": "D",
-            "text": "NON"
-          }
-        ],
-        "correct": [
-          "C"
-        ],
-        "shuffle": false
+        "kind": "yesno",
+        "statement": "Je peux dépasser ce car sans ralentir :",
+        "correct": "no"
       }
     ],
     "explanation": "Le car cache ce qui se passe devant lui. Ralentir avant de le dépasser vous laisse le temps de réagir.",
@@ -242,8 +203,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]
