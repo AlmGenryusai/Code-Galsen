@@ -68,3 +68,10 @@ export function scoreByTheme(items: { theme: string; correct: boolean }[]): Them
 export function targetScore(total: number): number {
   return Math.ceil((total * EXAM_CONFIG.passThresholdPct) / 100)
 }
+
+/** Navigation de la feuille Correction : index suivant, ou null après la dernière question (retour au débrief). */
+export function stepCorrection(index: number, total: number, dir: 1 | -1): number | null {
+  const next = index + dir
+  if (next >= total) return null
+  return Math.max(0, next)
+}

@@ -144,6 +144,45 @@ describe('QuestionCard — rendu', () => {
   })
 })
 
+describe('QuestionCard — variant exam / correction', () => {
+  const q = question(undefined, yes('no'))
+
+  it('exam : Valider sans n/total, ni bannière, ni explication, même si revealed', () => {
+    const out = html(q, { variant: 'exam', picked: [['B']], revealed: true })
+    expect(out).toContain('>Valider<')
+    expect(out).not.toContain('/10')
+    expect(out).not.toContain('Bonne réponse')
+    expect(out).not.toContain('Explication')
+  })
+
+  it('exam : Valider grisé tant que rien coché, Terminer sur la dernière', () => {
+    expect(html(q, { variant: 'exam' })).toContain('disabled')
+    expect(html(q, { variant: 'exam', index: 9, picked: [['B']] })).toContain('>Terminer<')
+  })
+
+  it('correction : pas de Valider, bannière + Explication, croix fermer', () => {
+    const out = html(q, { variant: 'correction', picked: [['A']], onClose: noop, onPrev: noop })
+    expect(out).not.toContain('Valider')
+    expect(out).toContain('Mauvaise réponse')
+    expect(out).toContain('Explication')
+    expect(out).toContain('Fermer la correction')
+    expect(out).toContain('>Précédent<')
+    expect(out).toContain('>Suivant<')
+  })
+
+  it('correction : Précédent désactivé sur la 1re, Terminer sur la dernière', () => {
+    const first = renderToStaticMarkup(<QuestionCard {...props(q, { variant: 'correction', index: 0 })} />)
+    expect(first).toMatch(/<button[^>]*disabled[^>]*>Précédent/)
+    const last = html(q, { variant: 'correction', index: 39, total: 40 })
+    expect(last).toContain('>Terminer<')
+    expect(last).not.toMatch(/<button[^>]*disabled[^>]*>Précédent/)
+  })
+
+  it('correction sans onClose : pas de croix', () => {
+    expect(html(q, { variant: 'correction' })).not.toContain('Fermer la correction')
+  })
+})
+
 describe('ExplanationPanel — dépliée', () => {
   it('explication, erreur fréquente puis bonnes réponses, dans cet ordre', () => {
     const out = renderToStaticMarkup(
