@@ -1,6 +1,6 @@
 import { LetterBadge, type BadgeState } from './LetterBadge'
 
-export type OptionState = 'idle' | 'checked' | 'correct' | 'wrong' | 'disabled'
+export type OptionState = 'idle' | 'checked' | 'correct' | 'missed' | 'wrong' | 'disabled'
 
 interface QuizOptionProps {
   id: string // 'A' | 'B' | 'C' | 'D' : la lettre affichée
@@ -21,11 +21,12 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
 
   const border =
     state === 'correct' ? '2px solid hsl(var(--right))' :
+    state === 'missed'  ? '2px dashed hsl(var(--right))' :
     state === 'wrong'   ? '2px solid hsl(var(--wrong))' :
     state === 'checked' ? '2px solid hsl(var(--structure))' :
     '1.5px solid hsl(var(--sand))'
 
-  const mark = state === 'correct' ? '✓' : state === 'wrong' ? '✕' : null
+  const mark = state === 'correct' || state === 'missed' ? '✓' : state === 'wrong' ? '✕' : null
   const badge: BadgeState = state === 'idle' || state === 'disabled' ? 'idle' : state
 
   return (
@@ -50,10 +51,22 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
       }}
     >
       <LetterBadge letter={id} state={badge} />
-      <span style={{ fontSize: 16, lineHeight: 1.4, fontWeight: 500, color: 'hsl(var(--ink))' }}>
+      <span
+        style={{
+          flex: 1,
+          fontSize: 16,
+          lineHeight: 1.4,
+          fontWeight: 500,
+          color: 'hsl(var(--ink))',
+          textDecoration: state === 'wrong' ? 'line-through' : undefined,
+        }}
+      >
         {text}
       </span>
-      {mark && <span style={SR_ONLY}>{state === 'correct' ? ' (bonne réponse)' : ' (fausse)'}</span>}
+      {state === 'missed' && (
+        <span style={{ fontSize: 14, fontWeight: 700, color: 'hsl(var(--right))', whiteSpace: 'nowrap' }}>à cocher</span>
+      )}
+      {mark && <span style={SR_ONLY}>{state === 'wrong' ? ' (fausse)' : state === 'missed' ? ' (bonne réponse non cochée)' : ' (bonne réponse)'}</span>}
     </button>
   )
 }

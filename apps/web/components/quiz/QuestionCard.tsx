@@ -24,7 +24,8 @@ const SHOW_DRAFT_BADGE = process.env.NODE_ENV !== 'production'
 
 function slotState(slot: Slot, isPicked: boolean, isRight: boolean, revealed: boolean): OptionState {
   if (!revealed) return isPicked ? 'checked' : 'idle'
-  return isRight ? 'correct' : isPicked ? 'wrong' : 'disabled'
+  if (isRight) return isPicked ? 'correct' : 'missed'
+  return isPicked ? 'wrong' : 'disabled'
 }
 
 /**
@@ -137,7 +138,7 @@ export function QuestionCard({ question: q, index, total, picked, revealed, onPi
               partSlotList.map((slot) => {
                 const isPicked = picked[pi]?.includes(slot.id) ?? false
                 const state = slotState(slot, isPicked, right[pi].includes(slot.id), revealed)
-                const badge: BadgeState = state === 'checked' || state === 'correct' || state === 'wrong' ? state : 'idle'
+                const badge: BadgeState = state === 'checked' || state === 'correct' || state === 'missed' || state === 'wrong' ? state : 'idle'
                 return (
                   <button
                     key={slot.id}
@@ -186,7 +187,7 @@ export function QuestionCard({ question: q, index, total, picked, revealed, onPi
             opacity: !revealed && !ready ? 0.5 : 1,
           }}
         >
-          {!revealed ? `Valider (${index + 1}/${total})` : isLast ? 'Voir les résultats' : 'Suivant'}
+          {!revealed ? `Valider (${index + 1}/${total})` : isLast ? 'Résultats' : 'Suivant'}
         </button>
       </div>
     </>

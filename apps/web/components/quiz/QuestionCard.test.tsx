@@ -111,8 +111,30 @@ describe('QuestionCard — rendu', () => {
     expect(html(question(undefined, yes('no')), { picked: [['A']], revealed: true })).toContain('Mauvaise réponse')
   })
 
-  it('dernière question : Voir les résultats', () => {
-    expect(html(question(undefined, yes('no')), { index: 9, revealed: true, picked: [['B']] })).toContain('Voir les résultats')
+  it('dernière question : bouton Résultats', () => {
+    const out = html(question(undefined, yes('no')), { index: 9, revealed: true, picked: [['B']] })
+    expect(out).toContain('>Résultats<')
+    expect(out).not.toContain('Voir les résultats')
+  })
+
+  it('le contenu défile au-dessus de la barre du bas (padding-bottom = barre + safe-area)', () => {
+    expect(html(question(undefined, yes('no')))).toContain('padding-bottom:calc(96px + env(safe-area-inset-bottom) + 16px)')
+  })
+
+  it('réponse manquée : juste mais non cochée = « à cocher », distincte de la bonne réponse cochée', () => {
+    const q = question(undefined, yes('no'))
+    const missed = html(q, { picked: [['A']], revealed: true })
+    expect(missed).toContain('à cocher')
+    expect(missed).toContain('line-through') // A cochée et fausse
+    const good = html(q, { picked: [['B']], revealed: true })
+    expect(good).not.toContain('à cocher')
+    expect(good).not.toContain('line-through')
+  })
+
+  it('timeout (rien coché) : la bonne réponse est « à cocher », jamais verte pleine', () => {
+    const out = html(question(undefined, yes('no')), { picked: [], revealed: true })
+    expect(out).toContain('à cocher')
+    expect(out).not.toContain('(bonne réponse)') // ni ✓ plein (SR) sur la case non cochée
   })
 
   it('shuffle actif : pastilles dans l’ordre affiché', () => {
