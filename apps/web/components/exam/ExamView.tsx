@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react'
 import { QuestionBody } from '@/components/quiz/QuestionBody'
+import { KIND_LABEL } from '@/components/quiz/kind-label'
 import { ExamDebrief, type ExamAnswer } from './ExamDebrief'
 import { answerKind, isCorrect, togglePick } from '@/lib/quiz/correction'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
@@ -12,7 +13,6 @@ import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
 
 const { timerSeconds: TIMER_SECONDS } = EXAM_CONFIG
 const BAR_HEIGHT = 72
-const KIND_LABEL = { single: 'Une seule réponse', multi: 'Plusieurs réponses', double: 'Question double' }
 
 interface ExamViewProps {
   questions: QuestionV2[]

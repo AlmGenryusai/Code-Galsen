@@ -1,3 +1,5 @@
+import { LetterBadge, type BadgeState } from './LetterBadge'
+
 export type OptionState = 'idle' | 'checked' | 'correct' | 'wrong' | 'disabled'
 
 interface QuizOptionProps {
@@ -23,15 +25,8 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
     state === 'checked' ? '2px solid hsl(var(--structure))' :
     '1.5px solid hsl(var(--sand))'
 
-  const squareBg =
-    state === 'correct' ? 'hsl(var(--right))' :
-    state === 'wrong'   ? 'hsl(var(--wrong))' :
-    state === 'checked' ? 'hsl(var(--structure))' :
-    'hsl(var(--sand))'
-
-  const squareColor = idle && state === 'idle' ? 'hsl(var(--ink))' : '#fff'
-
   const mark = state === 'correct' ? '✓' : state === 'wrong' ? '✕' : null
+  const badge: BadgeState = state === 'idle' || state === 'disabled' ? 'idle' : state
 
   return (
     <button
@@ -54,21 +49,7 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
         opacity: state === 'disabled' ? 0.75 : 1,
       }}
     >
-      <span style={{
-        flexShrink: 0,
-        width: 32,
-        height: 32,
-        borderRadius: 8,
-        background: squareBg,
-        color: squareColor,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: 16,
-        fontWeight: 700,
-      }}>
-        {mark ?? id}
-      </span>
+      <LetterBadge letter={id} state={badge} />
       <span style={{ fontSize: 16, lineHeight: 1.4, fontWeight: 500, color: 'hsl(var(--ink))' }}>
         {text}
       </span>

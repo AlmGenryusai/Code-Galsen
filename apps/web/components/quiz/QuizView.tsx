@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { QuestionBody } from './QuestionBody'
-import { answerKind, isCorrect, togglePick } from '@/lib/quiz/correction'
+import { QuestionCard } from './QuestionCard'
+import { isCorrect, togglePick } from '@/lib/quiz/correction'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
 import { useProgress } from '@/lib/progress/use-progress'
@@ -15,9 +15,6 @@ interface QuizViewProps {
   onFinish?: (score: number, total: number) => void // appelé une fois, à la dernière question
 }
 
-const BAR_HEIGHT = 72
-const KIND_LABEL = { single: 'Une seule réponse', multi: 'Plusieurs réponses', double: 'Question double' }
-
 export function QuizView({ questions, title, onFinish }: QuizViewProps) {
   const router = useRouter()
   const [index, setIndex] = useState(0)
@@ -28,7 +25,6 @@ export function QuizView({ questions, title, onFinish }: QuizViewProps) {
 
   const q = questions[index]
   const total = questions.length
-  const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
 
   const { tryAnswer, tryNavigate } = useQuestionGuards(index)
   const { recordAnswer } = useProgress()
@@ -137,55 +133,16 @@ export function QuizView({ questions, title, onFinish }: QuizViewProps) {
         }} />
       </div>
 
-      {/* Média + question + options — défile */}
-      <div style={{
-        flex: 1,
-        overflowY: 'auto',
-        // hauteur de la barre fixe du bas + zone sûre
-        paddingBottom: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom) + 16px)`,
-      }}>
-        <QuestionBody question={q} picked={picked} revealed={answered} onPick={handlePick} />
-      </div>
-
-      {/* Barre fixe du bas */}
-      <div style={{
-        position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
-        maxWidth: 430,
-        margin: '0 auto',
-        height: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom))`,
-        padding: '0 16px',
-        paddingBottom: 'env(safe-area-inset-bottom)',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        gap: 12,
-        background: 'hsl(var(--bg))',
-        borderTop: '1px solid hsl(var(--sand))',
-      }}>
-        <div style={{ fontSize: 14, fontWeight: 600, color: 'hsl(var(--ink))' }}>{KIND_LABEL[answerKind(q)]}</div>
-        <button
-          onClick={answered ? handleNext : () => submit(q.parts.map((_, i) => picked[i] ?? []))}
-          disabled={!answered && !ready}
-          style={{
-            minWidth: 140,
-            minHeight: 48,
-            padding: '0 24px',
-            background: 'hsl(var(--primary))',
-            color: 'hsl(var(--ink))',
-            border: 'none',
-            borderRadius: 'var(--radius)',
-            fontSize: 16,
-            fontWeight: 700,
-            fontFamily: 'var(--font-sans)',
-            opacity: !answered && !ready ? 0.5 : 1,
-          }}
-        >
-          {!answered ? 'Valider' : index + 1 >= total ? 'Voir les résultats' : 'Suivant'}
-        </button>
-      </div>
+      <QuestionCard
+        question={q}
+        index={index}
+        total={total}
+        picked={picked}
+        revealed={answered}
+        onPick={handlePick}
+        onSubmit={() => submit(q.parts.map((_, i) => picked[i] ?? []))}
+        onNext={handleNext}
+      />
     </div>
   )
 }

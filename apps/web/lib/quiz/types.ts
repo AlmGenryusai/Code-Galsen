@@ -4,12 +4,23 @@
 
 export type OptionId = 'A' | 'B' | 'C' | 'D'
 
-export interface Part {
+/** QCM : options en texte libre (défaut). Les 212 questions actuelles sont toutes de ce type. */
+export interface ChoicePart {
+  kind?: 'choice'
   text: string
   options: { id: OptionId; text: string }[] // 2 à 4
   correct: OptionId[] // au moins 1
   shuffle?: boolean // défaut true ; false pour OUI/NON et listes ordonnées
 }
+
+/** OUI/NON : pas d'options, les lettres sont calculées à l'affichage (lib/quiz/letters.ts). */
+export interface YesNoPart {
+  kind: 'yesno'
+  statement: string
+  correct: 'yes' | 'no'
+}
+
+export type Part = ChoicePart | YesNoPart
 
 export interface Media {
   kind: 'photo' | 'sign'
