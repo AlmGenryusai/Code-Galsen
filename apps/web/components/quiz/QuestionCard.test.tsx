@@ -111,14 +111,75 @@ describe('QuestionCard — rendu', () => {
     expect(html(question(undefined, yes('no')), { picked: [['A']], revealed: true })).toContain('Mauvaise réponse')
   })
 
-  it('dernière question : Voir les résultats', () => {
-    expect(html(question(undefined, yes('no')), { index: 9, revealed: true, picked: [['B']] })).toContain('Voir les résultats')
+  it('dernière question : bouton Résultats', () => {
+    const out = html(question(undefined, yes('no')), { index: 9, revealed: true, picked: [['B']] })
+    expect(out).toContain('>Résultats<')
+    expect(out).not.toContain('Voir les résultats')
+  })
+
+  it('le contenu défile au-dessus de la barre du bas (padding-bottom = barre + safe-area)', () => {
+    expect(html(question(undefined, yes('no')))).toContain('padding-bottom:calc(96px + env(safe-area-inset-bottom) + 16px)')
+  })
+
+  it('réponse manquée : juste mais non cochée = « à cocher », distincte de la bonne réponse cochée', () => {
+    const q = question(undefined, yes('no'))
+    const missed = html(q, { picked: [['A']], revealed: true })
+    expect(missed).toContain('à cocher')
+    expect(missed).toContain('line-through') // A cochée et fausse
+    const good = html(q, { picked: [['B']], revealed: true })
+    expect(good).not.toContain('à cocher')
+    expect(good).not.toContain('line-through')
+  })
+
+  it('timeout (rien coché) : la bonne réponse est « à cocher », jamais verte pleine', () => {
+    const out = html(question(undefined, yes('no')), { picked: [], revealed: true })
+    expect(out).toContain('à cocher')
+    expect(out).not.toContain('(bonne réponse)') // ni ✓ plein (SR) sur la case non cochée
   })
 
   it('shuffle actif : pastilles dans l’ordre affiché', () => {
     const out = html(question(undefined, choice), { orders: [['C', 'A', 'D', 'B']] })
     const labels = [...out.matchAll(/>([xyzw])<\/span>/g)].map((m) => m[1])
     expect(labels).toEqual(['z', 'x', 'w', 'y'])
+  })
+})
+
+describe('QuestionCard — variant exam / correction', () => {
+  const q = question(undefined, yes('no'))
+
+  it('exam : Valider sans n/total, ni bannière, ni explication, même si revealed', () => {
+    const out = html(q, { variant: 'exam', picked: [['B']], revealed: true })
+    expect(out).toContain('>Valider<')
+    expect(out).not.toContain('/10')
+    expect(out).not.toContain('Bonne réponse')
+    expect(out).not.toContain('Explication')
+  })
+
+  it('exam : Valider grisé tant que rien coché, Terminer sur la dernière', () => {
+    expect(html(q, { variant: 'exam' })).toContain('disabled')
+    expect(html(q, { variant: 'exam', index: 9, picked: [['B']] })).toContain('>Terminer<')
+  })
+
+  it('correction : pas de Valider, bannière + Explication, croix fermer', () => {
+    const out = html(q, { variant: 'correction', picked: [['A']], onClose: noop, onPrev: noop })
+    expect(out).not.toContain('Valider')
+    expect(out).toContain('Mauvaise réponse')
+    expect(out).toContain('Explication')
+    expect(out).toContain('Fermer la correction')
+    expect(out).toContain('>Précédent<')
+    expect(out).toContain('>Suivant<')
+  })
+
+  it('correction : Précédent désactivé sur la 1re, Terminer sur la dernière', () => {
+    const first = renderToStaticMarkup(<QuestionCard {...props(q, { variant: 'correction', index: 0 })} />)
+    expect(first).toMatch(/<button[^>]*disabled[^>]*>Précédent/)
+    const last = html(q, { variant: 'correction', index: 39, total: 40 })
+    expect(last).toContain('>Terminer<')
+    expect(last).not.toMatch(/<button[^>]*disabled[^>]*>Précédent/)
+  })
+
+  it('correction sans onClose : pas de croix', () => {
+    expect(html(q, { variant: 'correction' })).not.toContain('Fermer la correction')
   })
 })
 

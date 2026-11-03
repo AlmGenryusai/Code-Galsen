@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { pickExamQuestions, scoreByTheme, targetScore } from './exam'
+import { pickExamQuestions, scoreByTheme, targetScore, stepCorrection } from './exam'
 import type { QuestionV2 } from './types'
 
 function qs(theme: string, n: number): QuestionV2[] {
@@ -84,5 +84,21 @@ describe('targetScore', () => {
   it('80 % arrondi au-dessus', () => {
     expect(targetScore(40)).toBe(32)
     expect(targetScore(14)).toBe(12)
+  })
+})
+
+describe('stepCorrection', () => {
+  it('Suivant traverse les 40 questions puis ferme', () => {
+    let i: number | null = 0
+    const seen = [0]
+    while ((i = stepCorrection(i, 40, 1)) !== null) seen.push(i)
+    expect(seen).toEqual(Array.from({ length: 40 }, (_, k) => k))
+  })
+
+  it('Précédent revient jusqu’à 0 sans passer en négatif', () => {
+    let i = 39
+    for (let k = 0; k < 39; k++) i = stepCorrection(i, 40, -1) as number
+    expect(i).toBe(0)
+    expect(stepCorrection(0, 40, -1)).toBe(0)
   })
 })

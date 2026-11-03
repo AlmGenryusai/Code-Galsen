@@ -1,4 +1,4 @@
-export type BadgeState = 'idle' | 'checked' | 'correct' | 'wrong'
+export type BadgeState = 'idle' | 'checked' | 'correct' | 'wrong' | 'missed'
 
 interface LetterBadgeProps {
   letter: string // 'A' | 'B' | 'C' | 'D'
@@ -17,12 +17,12 @@ const STYLE: Record<string, { color: string; shape: 'circle' | 'square' | 'trian
 
 const POINTS = { triangle: '16,3 30,28 2,28', diamond: '16,2 30,16 16,30 2,16' }
 
-/** Pastille SVG : contour seul = libre, pleine = cochée, verte ✓ / rouge ✕ après correction. */
+/** Pastille SVG : contour seul = libre, pleine = cochée, verte ✓ / rouge ✕ après correction, contour vert ✓ = juste mais non cochée. */
 export function LetterBadge({ letter, state = 'idle', size = 32 }: LetterBadgeProps) {
   const { color: base, shape } = STYLE[letter] ?? STYLE.A
-  const color = state === 'correct' ? 'hsl(var(--right))' : state === 'wrong' ? 'hsl(var(--wrong))' : base
-  const filled = state !== 'idle'
-  const mark = state === 'correct' ? '✓' : state === 'wrong' ? '✕' : null
+  const color = state === 'correct' || state === 'missed' ? 'hsl(var(--right))' : state === 'wrong' ? 'hsl(var(--wrong))' : base
+  const filled = state !== 'idle' && state !== 'missed' // missed : contour vert, non rempli
+  const mark = state === 'correct' || state === 'missed' ? '✓' : state === 'wrong' ? '✕' : null
   const common = {
     fill: filled ? color : 'hsl(var(--surface))',
     stroke: color,

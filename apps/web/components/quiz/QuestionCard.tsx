@@ -16,22 +16,54 @@ interface QuestionCardProps {
   onPick: (partIndex: number, id: OptionId) => void // même handler pour l'énoncé et les cases du bas
   onSubmit: () => void
   onNext: () => void
+  variant?: 'quiz' | 'exam' | 'correction' // quiz : correction immédiate ; exam : sans correction ; correction : relecture
+  onPrev?: () => void // correction : question précédente
+  onClose?: () => void // correction : croix, retour au débrief
   orders?: OptionId[][] // ordre affiché des options par partie (mélange) ; défaut = ordre du JSON
 }
 
 export const BAR_HEIGHT = 96
 const SHOW_DRAFT_BADGE = process.env.NODE_ENV !== 'production'
 
+const ACTION = {
+  flex: 1,
+  minWidth: 0,
+  minHeight: 48,
+  padding: '0 12px',
+  background: 'hsl(var(--primary))',
+  color: 'hsl(var(--ink))',
+  border: 'none',
+  borderRadius: 'var(--radius)',
+  fontSize: 16,
+  fontWeight: 700,
+  fontFamily: 'var(--font-sans)',
+} as const
+
 function slotState(slot: Slot, isPicked: boolean, isRight: boolean, revealed: boolean): OptionState {
   if (!revealed) return isPicked ? 'checked' : 'idle'
-  return isRight ? 'correct' : isPicked ? 'wrong' : 'disabled'
+  if (isRight) return isPicked ? 'correct' : 'missed'
+  return isPicked ? 'wrong' : 'disabled'
 }
 
 /**
  * Carte question unique : image (zoom), énoncé, OUI/NON ou choix, barre du bas (cases A-D, Valider n/total),
  * puis correction. Aucun état local : la sélection vient de `picked`.
  */
-export function QuestionCard({ question: q, index, total, picked, revealed, onPick, onSubmit, onNext, orders }: QuestionCardProps) {
+export function QuestionCard({
+  question: q,
+  index,
+  total,
+  picked,
+  revealed: revealedProp,
+  onPick,
+  onSubmit,
+  onNext,
+  variant = 'quiz',
+  onPrev,
+  onClose,
+  orders,
+}: QuestionCardProps) {
+  const revealed = variant === 'correction' ? true : variant === 'exam' ? false : revealedProp
   const slots = partSlots(q, orders)
   const right = correctIds(q)
   const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
@@ -47,6 +79,27 @@ export function QuestionCard({ question: q, index, total, picked, revealed, onPi
           paddingBottom: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom) + 16px)`,
         }}
       >
+        {variant === 'correction' && onClose && (
+          <div style={{ position: 'sticky', top: 0, zIndex: 1, display: 'flex', justifyContent: 'flex-end', padding: '4px 8px 0' }}>
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label="Fermer la correction"
+              style={{
+                width: 44,
+                height: 44,
+                borderRadius: '50%',
+                border: '1px solid hsl(var(--sand))',
+                background: 'hsl(var(--bg))',
+                color: 'hsl(var(--ink))',
+                fontSize: 20,
+                fontWeight: 700,
+              }}
+            >
+              ✕
+            </button>
+          </div>
+        )}
         <ZoomableMedia media={q.media} />
 
         <div style={{ padding: '16px 20px 0' }}>
@@ -130,6 +183,7 @@ export function QuestionCard({ question: q, index, total, picked, revealed, onPi
           borderTop: '1px solid hsl(var(--sand))',
         }}
       >
+        {variant !== 'correction' && (
         <div>
           <div style={{ fontSize: 14, fontWeight: 600, color: 'hsl(var(--ink))', marginBottom: 4 }}>{KIND_LABEL[answerKind(q)]}</div>
           <div style={{ display: 'flex', gap: 2 }}>
@@ -137,7 +191,7 @@ export function QuestionCard({ question: q, index, total, picked, revealed, onPi
               partSlotList.map((slot) => {
                 const isPicked = picked[pi]?.includes(slot.id) ?? false
                 const state = slotState(slot, isPicked, right[pi].includes(slot.id), revealed)
-                const badge: BadgeState = state === 'checked' || state === 'correct' || state === 'wrong' ? state : 'idle'
+                const badge: BadgeState = state === 'checked' || state === 'correct' || state === 'missed' || state === 'wrong' ? state : 'idle'
                 return (
                   <button
                     key={slot.id}
@@ -166,28 +220,26 @@ export function QuestionCard({ question: q, index, total, picked, revealed, onPi
             )}
           </div>
         </div>
-        <button
-          type="button"
-          onClick={revealed ? onNext : onSubmit}
-          disabled={!revealed && !ready}
-          style={{
-            flex: 1,
-            minWidth: 0,
-            maxWidth: 180,
-            minHeight: 48,
-            padding: '0 12px',
-            background: 'hsl(var(--primary))',
-            color: 'hsl(var(--ink))',
-            border: 'none',
-            borderRadius: 'var(--radius)',
-            fontSize: 16,
-            fontWeight: 700,
-            fontFamily: 'var(--font-sans)',
-            opacity: !revealed && !ready ? 0.5 : 1,
-          }}
-        >
-          {!revealed ? `Valider (${index + 1}/${total})` : isLast ? 'Voir les résultats' : 'Suivant'}
-        </button>
+        )}
+        {variant === 'correction' ? (
+          <div style={{ display: 'flex', flex: 1, justifyContent: 'flex-end', gap: 8 }}>
+            <button type="button" onClick={onPrev} disabled={index === 0} style={{ ...ACTION, flex: 1, background: 'hsl(var(--surface))', border: '1.5px solid hsl(var(--sand))', opacity: index === 0 ? 0.5 : 1 }}>
+              Précédent
+            </button>
+            <button type="button" onClick={onNext} style={{ ...ACTION, flex: 1 }}>
+              {isLast ? 'Terminer' : 'Suivant'}
+            </button>
+          </div>
+        ) : (
+          <button
+            type="button"
+            onClick={revealed ? onNext : onSubmit}
+            disabled={!revealed && !ready}
+            style={{ ...ACTION, maxWidth: 180, opacity: !revealed && !ready ? 0.5 : 1 }}
+          >
+            {revealed ? (isLast ? 'Résultats' : 'Suivant') : variant === 'exam' ? (isLast ? 'Terminer' : 'Valider') : `Valider (${index + 1}/${total})`}
+          </button>
+        )}
       </div>
     </>
   )
