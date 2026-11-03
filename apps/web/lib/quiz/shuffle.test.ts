@@ -69,7 +69,7 @@ describe('répartition sur les questions publiées', () => {
   })
 
   // Thèmes réécrits au format examen : la plus longue ne doit pas être la bonne réponse trop souvent.
-  const REWRITTEN = ['t01', 't02', 't03', 't04']
+  const REWRITTEN = ['t01', 't02', 't03', 't04', 't05', 't06', 't07']
   it('thèmes réécrits : la bonne réponse est la plus longue dans moins de 40 % des cas', () => {
     let n = 0
     let longest = 0

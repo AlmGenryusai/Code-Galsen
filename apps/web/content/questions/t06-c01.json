@@ -13,15 +13,15 @@
           },
           {
             "id": "B",
-            "text": "protéger la zone pour éviter un second accident"
+            "text": "sécuriser la zone"
           },
           {
             "id": "C",
-            "text": "filmer"
+            "text": "filmer la scène pour les secours"
           },
           {
             "id": "D",
-            "text": "partir"
+            "text": "repartir pour appeler de plus loin"
           }
         ],
         "correct": [
@@ -35,7 +35,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -56,7 +57,7 @@
           },
           {
             "id": "C",
-            "text": "pars chercher un ami"
+            "text": "cherche un ami pour m'aider"
           },
           {
             "id": "D",
@@ -74,8 +75,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -100,7 +101,7 @@
           },
           {
             "id": "D",
-            "text": "rien du tout"
+            "text": "mon numéro de plaque seulement"
           }
         ],
         "correct": [
@@ -116,7 +117,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-29"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -129,19 +131,19 @@
         "options": [
           {
             "id": "A",
-            "text": "la secoue"
+            "text": "la secoue pour la réveiller"
           },
           {
             "id": "B",
-            "text": "ne la déplace pas et appelle les secours"
+            "text": "ne la déplace pas, j'appelle"
           },
           {
             "id": "C",
-            "text": "la mets debout"
+            "text": "la mets debout pour qu'elle respire"
           },
           {
             "id": "D",
-            "text": "lui donne à boire"
+            "text": "lui donne à boire un peu d'eau"
           }
         ],
         "correct": [
@@ -155,7 +157,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-29"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -164,28 +167,9 @@
     "chapter": "t06-c01",
     "parts": [
       {
-        "text": "Un motard blessé porte un casque. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "lui retire le casque tout de suite"
-          },
-          {
-            "id": "B",
-            "text": "ne le retire pas sans nécessité"
-          },
-          {
-            "id": "C",
-            "text": "lui retire le casque en tirant fort"
-          },
-          {
-            "id": "D",
-            "text": "lui retire le casque pour le faire respirer"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Un motard blessé porte un casque. Je le lui retire tout de suite pour qu'il respire :",
+        "correct": "no"
       }
     ],
     "explanation": "Le casque protège la tête et la nuque. On ne l'enlève que si c'est vraiment nécessaire, par des secouristes.",
@@ -194,7 +178,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-29"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -211,7 +196,7 @@
           },
           {
             "id": "B",
-            "text": "attends les secours sans rien faire"
+            "text": "attends les secours sans la toucher"
           },
           {
             "id": "C",
@@ -219,7 +204,7 @@
           },
           {
             "id": "D",
-            "text": "la fais marcher"
+            "text": "la fais marcher un peu"
           }
         ],
         "correct": [
@@ -233,7 +218,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-29"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

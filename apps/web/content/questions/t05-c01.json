@@ -13,15 +13,15 @@
           },
           {
             "id": "B",
-            "text": "le certificat d'immatriculation du véhicule"
+            "text": "le certificat d'immatriculation"
           },
           {
             "id": "C",
-            "text": "ma carte d'électeur"
+            "text": "ma carte d'électeur biométrique"
           },
           {
             "id": "D",
-            "text": "mon passeport"
+            "text": "mon passeport international en cours de validité"
           }
         ],
         "correct": [
@@ -36,8 +36,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-30",
-      "juriste": "2026-10-30"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -58,7 +58,7 @@
           },
           {
             "id": "C",
-            "text": "jamais"
+            "text": "dans un délai de 48 heures"
           },
           {
             "id": "D",
@@ -76,8 +76,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -94,15 +94,15 @@
           },
           {
             "id": "B",
-            "text": "sur le pare-brise uniquement"
+            "text": "sur le pare-brise du véhicule uniquement"
           },
           {
             "id": "C",
-            "text": "sur la plaque"
+            "text": "sur la plaque d'immatriculation arrière"
           },
           {
             "id": "D",
-            "text": "sur le permis"
+            "text": "sur le permis de conduire du titulaire"
           }
         ],
         "correct": [
@@ -116,8 +116,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -130,19 +130,19 @@
         "options": [
           {
             "id": "A",
-            "text": "avant sa mise en circulation"
+            "text": "avant sa mise en service"
           },
           {
             "id": "B",
-            "text": "seulement après un accident"
+            "text": "seulement après un accident grave"
           },
           {
             "id": "C",
-            "text": "jamais"
+            "text": "une seule fois, à l'achat"
           },
           {
             "id": "D",
-            "text": "tous les dix ans"
+            "text": "tous les dix ans, sans exception"
           }
         ],
         "correct": [
@@ -156,8 +156,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -170,15 +170,15 @@
         "options": [
           {
             "id": "A",
-            "text": "une plaque d'immatriculation à l'arrière seulement"
+            "text": "une plaque à l'arrière seulement"
           },
           {
             "id": "B",
-            "text": "deux plaques, à l'avant et à l'arrière"
+            "text": "deux plaques, avant et arrière"
           },
           {
             "id": "C",
-            "text": "aucune plaque"
+            "text": "une plaque sur le pare-brise"
           },
           {
             "id": "D",
@@ -196,8 +196,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -206,28 +206,9 @@
     "chapter": "t05-c01",
     "parts": [
       {
-        "text": "Un gendarme me fait signe de m'arrêter. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "continue"
-          },
-          {
-            "id": "B",
-            "text": "m'arrête"
-          },
-          {
-            "id": "C",
-            "text": "accélère"
-          },
-          {
-            "id": "D",
-            "text": "change de route"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Un gendarme me fait signe de m'arrêter. Je m'arrête :",
+        "correct": "yes"
       }
     ],
     "explanation": "Ne pas s'arrêter à la sommation claire d'un agent est un délit puni de prison et d'amende.",
@@ -236,8 +217,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -250,19 +231,19 @@
         "options": [
           {
             "id": "A",
-            "text": "valable pour la catégorie du véhicule"
+            "text": "valable pour la catégorie"
           },
           {
             "id": "B",
-            "text": "d'un autre pays seulement"
+            "text": "délivré par un autre pays seulement"
           },
           {
             "id": "C",
-            "text": "expiré mais non retiré"
+            "text": "expiré mais pas encore retiré"
           },
           {
             "id": "D",
-            "text": "emprunté à un ami"
+            "text": "prêté par un ami titulaire"
           }
         ],
         "correct": [
@@ -276,8 +257,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -286,28 +267,9 @@
     "chapter": "t05-c01",
     "parts": [
       {
-        "text": "Je donne un faux nom à un agent après une infraction. C'est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "permis"
-          },
-          {
-            "id": "B",
-            "text": "un délit puni de prison et d'amende"
-          },
-          {
-            "id": "C",
-            "text": "une simple erreur"
-          },
-          {
-            "id": "D",
-            "text": "sans conséquence"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je donne un faux nom à un agent après une infraction. C'est un délit puni de prison et d'amende :",
+        "correct": "yes"
       }
     ],
     "explanation": "Donner un faux nom ou une fausse adresse après une infraction est puni de 6 mois à 3 ans de prison et d'une amende.",
@@ -316,8 +278,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]
