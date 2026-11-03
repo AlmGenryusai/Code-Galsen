@@ -1,7 +1,8 @@
 import { MediaFrame } from './MediaFrame'
 import { QuizOption, type OptionState } from './QuizOption'
-import { isCorrect } from '@/lib/quiz/correction'
-import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
+import { isCorrect } from '../../lib/quiz/correction'
+import { correctIds, partSlots, partText } from '../../lib/quiz/letters'
+import type { OptionId, QuestionV2 } from '../../lib/quiz/types'
 
 interface QuestionBodyProps {
   question: QuestionV2
@@ -15,6 +16,8 @@ const SHOW_DRAFT_BADGE = process.env.NODE_ENV !== 'production'
 /** Média pleine largeur, parties avec options, correction. Sans bouton : Valider / Suivant sont dans la vue. */
 export function QuestionBody({ question: q, picked, revealed, onPick }: QuestionBodyProps) {
   const ok = revealed && isCorrect(q, picked)
+  const slots = partSlots(q)
+  const right = correctIds(q)
 
   return (
     <>
@@ -30,17 +33,17 @@ export function QuestionBody({ question: q, picked, revealed, onPick }: Question
         {q.parts.map((part, pi) => (
           <div key={pi} style={{ marginBottom: pi < q.parts.length - 1 ? 24 : 0 }}>
             <p style={{ fontSize: 18, fontWeight: 700, lineHeight: 1.4, color: 'hsl(var(--ink))', marginBottom: 12 }}>
-              {part.text}
+              {partText(part)}
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-              {part.options.map((opt) => {
+              {slots[pi].map((opt) => {
                 const isPicked = picked[pi]?.includes(opt.id) ?? false
-                const isRight = part.correct.includes(opt.id)
+                const isRight = right[pi].includes(opt.id)
                 const state: OptionState = !revealed
                   ? isPicked ? 'checked' : 'idle'
                   : isRight ? 'correct' : isPicked ? 'wrong' : 'disabled'
                 return (
-                  <QuizOption key={opt.id} id={opt.id} text={opt.text} state={state} onSelect={() => onPick(pi, opt.id)} />
+                  <QuizOption key={opt.id} id={opt.letter} text={opt.label} state={state} onSelect={() => onPick(pi, opt.id)} />
                 )
               })}
             </div>
