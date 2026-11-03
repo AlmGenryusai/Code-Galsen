@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { answerKind, isCorrect, togglePick } from './correction'
-import type { Part, QuestionV2 } from './types'
+import type { ChoicePart, Part, QuestionV2 } from './types'
 
 function question(...parts: Part[]): QuestionV2 {
   return {
@@ -15,7 +15,7 @@ function question(...parts: Part[]): QuestionV2 {
   }
 }
 
-const single: Part = {
+const single: ChoicePart = {
   text: 'x',
   options: [
     { id: 'A', text: 'a' },
@@ -24,8 +24,8 @@ const single: Part = {
   ],
   correct: ['B'],
 }
-const multi: Part = { ...single, correct: ['A', 'B'] }
-const yesNo: Part = {
+const multi: ChoicePart = { ...single, correct: ['A', 'B'] }
+const yesNo: ChoicePart = {
   text: 'y',
   options: [
     { id: 'C', text: 'OUI' },
@@ -71,5 +71,26 @@ describe('answerKind / togglePick', () => {
   it('plusieurs bonnes réponses : le tap coche puis décoche', () => {
     expect(togglePick(multi, ['A'], 'B')).toEqual(['A', 'B'])
     expect(togglePick(multi, ['A', 'B'], 'A')).toEqual(['B'])
+  })
+})
+
+describe('parties yesno (lettres calculées)', () => {
+  const oui: Part = { kind: 'yesno', statement: 's', correct: 'yes' }
+  const non: Part = { kind: 'yesno', statement: 's', correct: 'no' }
+
+  it('simple : OUI = A, NON = B', () => {
+    expect(isCorrect(question(oui), [['A']])).toBe(true)
+    expect(isCorrect(question(oui), [['B']])).toBe(false)
+    expect(isCorrect(question(non), [['B']])).toBe(true)
+  })
+  it('double : 2e partie = C / D', () => {
+    const q = question(oui, non)
+    expect(isCorrect(q, [['A'], ['D']])).toBe(true)
+    expect(isCorrect(q, [['A'], ['C']])).toBe(false)
+    expect(answerKind(q)).toBe('double')
+  })
+  it('simple : une seule réponse, tap remplace', () => {
+    expect(answerKind(question(oui))).toBe('single')
+    expect(togglePick(oui, ['A'], 'B')).toEqual(['B'])
   })
 })

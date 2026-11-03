@@ -32,6 +32,11 @@ function violations(file: string, q: QuestionV2): string[] {
   }
   if (q.parts.length < 1 || q.parts.length > 2) v.push('1 ou 2 parties attendues')
   for (const p of q.parts) {
+    if (p.kind === 'yesno') {
+      if (p.correct !== 'yes' && p.correct !== 'no') v.push('yesno : correct doit être "yes" ou "no"')
+      if (!p.statement?.trim()) v.push('yesno : statement manquant')
+      continue
+    }
     const ids = p.options.map((o) => o.id)
     if (ids.length < 2 || ids.length > 4) v.push('2 à 4 options par partie')
     if (new Set(ids).size !== ids.length) v.push('ids d’options en double')
