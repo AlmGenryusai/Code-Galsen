@@ -13,15 +13,15 @@
           },
           {
             "id": "B",
-            "text": "tomber sur la route"
+            "text": "tomber sur la route en roulant"
           },
           {
             "id": "C",
-            "text": "dépasser sans être amarré"
+            "text": "dépasser du véhicule sans être amarré"
           },
           {
             "id": "D",
-            "text": "traîner sur le sol"
+            "text": "traîner sur le sol derrière moi"
           }
         ],
         "correct": [
@@ -35,8 +35,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -49,11 +49,11 @@
         "options": [
           {
             "id": "A",
-            "text": "laissées flottantes"
+            "text": "laissées flottantes au vent"
           },
           {
             "id": "B",
-            "text": "fixées pour ne pas dépasser ni traîner"
+            "text": "fixées, sans rien qui traîne"
           },
           {
             "id": "C",
@@ -75,8 +75,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -101,7 +101,7 @@
           },
           {
             "id": "D",
-            "text": "sans limite"
+            "text": "la longueur qu'on veut"
           }
         ],
         "correct": [
@@ -115,8 +115,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -125,23 +125,23 @@
     "chapter": "t05-c02",
     "parts": [
       {
-        "text": "Je transporte des matériaux pulvérulents. Je dois :",
+        "text": "Je transporte des matériaux pulvérulents (sable, ciment). Je dois :",
         "options": [
           {
             "id": "A",
-            "text": "le laisser à l'air libre"
+            "text": "les laisser à l'air libre"
           },
           {
             "id": "B",
-            "text": "l'amarrer sous une bâche étanche"
+            "text": "les amarrer sous une bâche étanche"
           },
           {
             "id": "C",
-            "text": "rouler très vite"
+            "text": "rouler très vite pour limiter la poussière"
           },
           {
             "id": "D",
-            "text": "le mouiller"
+            "text": "les mouiller avant de partir"
           }
         ],
         "correct": [
@@ -155,8 +155,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -165,28 +165,9 @@
     "chapter": "t05-c02",
     "parts": [
       {
-        "text": "Dans un véhicule de transport de personnes, les passagers sur le marchepied sont :",
-        "options": [
-          {
-            "id": "A",
-            "text": "autorisés si le véhicule est lent"
-          },
-          {
-            "id": "B",
-            "text": "interdits, y compris les apprentis"
-          },
-          {
-            "id": "C",
-            "text": "autorisés en ville"
-          },
-          {
-            "id": "D",
-            "text": "autorisés si le car est plein"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Dans un véhicule de transport de personnes, les passagers peuvent monter sur le marchepied si le véhicule roule lentement :",
+        "correct": "no"
       }
     ],
     "explanation": "Il est interdit de transporter des passagers, y compris les apprentis chauffeurs, sur les marchepieds.",
@@ -195,8 +176,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -237,8 +218,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -247,28 +228,9 @@
     "chapter": "t05-c02",
     "parts": [
       {
-        "text": "Une remorque peut-elle transporter des passagers ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "oui, s'il y a des bancs"
-          },
-          {
-            "id": "B",
-            "text": "oui, sur courte distance"
-          },
-          {
-            "id": "C",
-            "text": "non, c'est interdit"
-          },
-          {
-            "id": "D",
-            "text": "oui, pour les enfants"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Une remorque peut transporter des passagers sur une courte distance :",
+        "correct": "no"
       }
     ],
     "explanation": "Il est interdit d'affecter une remorque au transport de personnes, public ou privé.",
@@ -277,8 +239,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -291,7 +253,7 @@
         "options": [
           {
             "id": "A",
-            "text": "debout"
+            "text": "debout dans l'allée"
           },
           {
             "id": "B",
@@ -299,11 +261,11 @@
           },
           {
             "id": "C",
-            "text": "sur le toit"
+            "text": "debout à l'arrière"
           },
           {
             "id": "D",
-            "text": "à l'arrière uniquement"
+            "text": "sur le toit"
           }
         ],
         "correct": [
@@ -317,8 +279,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

@@ -5,28 +5,9 @@
     "chapter": "t07-c02",
     "parts": [
       {
-        "text": "Avant d'ouvrir ma portière, je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ouvre vite"
-          },
-          {
-            "id": "B",
-            "text": "regarde derrière moi"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne"
-          },
-          {
-            "id": "D",
-            "text": "regarde mon téléphone"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Avant d'ouvrir ma portière, je regarde derrière moi :",
+        "correct": "yes"
       }
     ],
     "explanation": "On ne descend pas sans s'être assuré qu'on peut le faire sans danger : une moto ou un vélo peut passer.",
@@ -35,8 +16,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -57,11 +38,11 @@
           },
           {
             "id": "C",
-            "text": "au milieu"
+            "text": "au milieu de la chaussée"
           },
           {
             "id": "D",
-            "text": "en roulant"
+            "text": "pendant que je roule encore"
           }
         ],
         "correct": [
@@ -75,7 +56,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -92,7 +74,7 @@
           },
           {
             "id": "B",
-            "text": "coupe le moteur et immobilise le véhicule"
+            "text": "coupe le moteur et immobilise"
           },
           {
             "id": "C",
@@ -114,8 +96,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -128,7 +110,7 @@
         "options": [
           {
             "id": "A",
-            "text": "que je peux l'ouvrir sans danger"
+            "text": "que l'ouverture est sans danger"
           },
           {
             "id": "B",
@@ -136,7 +118,7 @@
           },
           {
             "id": "C",
-            "text": "que la radio marche"
+            "text": "que la radio fonctionne"
           },
           {
             "id": "D",
@@ -154,8 +136,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -172,15 +154,15 @@
           },
           {
             "id": "B",
-            "text": "lui tiens la main et descends côté trottoir"
+            "text": "lui tiens la main, côté trottoir"
           },
           {
             "id": "C",
-            "text": "le laisse courir"
+            "text": "le laisse courir devant moi"
           },
           {
             "id": "D",
-            "text": "l'oublie dans la voiture"
+            "text": "le laisse dans la voiture un instant seul"
           }
         ],
         "correct": [
@@ -194,7 +176,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -215,11 +198,11 @@
           },
           {
             "id": "C",
-            "text": "laisse la clé"
+            "text": "laisse la clé dessus"
           },
           {
             "id": "D",
-            "text": "laisse le moteur"
+            "text": "laisse le moteur tourner"
           }
         ],
         "correct": [
@@ -233,7 +216,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

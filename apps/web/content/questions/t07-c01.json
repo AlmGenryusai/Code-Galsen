@@ -21,7 +21,7 @@
           },
           {
             "id": "D",
-            "text": "la radio"
+            "text": "le volume de la radio"
           }
         ],
         "correct": [
@@ -37,7 +37,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -50,11 +51,11 @@
         "options": [
           {
             "id": "A",
-            "text": "le conducteur et les places avant"
+            "text": "les places avant"
           },
           {
             "id": "B",
-            "text": "personne"
+            "text": "personne en ville"
           },
           {
             "id": "C",
@@ -62,7 +63,7 @@
           },
           {
             "id": "D",
-            "text": "les enfants"
+            "text": "les enfants de moins de dix ans"
           }
         ],
         "correct": [
@@ -76,8 +77,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -102,7 +103,7 @@
           },
           {
             "id": "D",
-            "text": "au-dessus du volant"
+            "text": "posés sur le haut du volant"
           }
         ],
         "correct": [
@@ -116,7 +117,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -155,7 +157,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -172,15 +175,15 @@
           },
           {
             "id": "B",
-            "text": "pour voir la route derrière et sur les côtés"
+            "text": "pour voir derrière et sur les côtés"
           },
           {
             "id": "C",
-            "text": "vers le plafond"
+            "text": "vers le plafond de l'habitacle"
           },
           {
             "id": "D",
-            "text": "au hasard"
+            "text": "une fois pour toutes, au hasard"
           }
         ],
         "correct": [
@@ -194,7 +197,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -207,7 +211,7 @@
         "options": [
           {
             "id": "A",
-            "text": "est à hauteur de la nuque et de la tête"
+            "text": "est à hauteur de la tête"
           },
           {
             "id": "B",
@@ -215,11 +219,11 @@
           },
           {
             "id": "C",
-            "text": "est retiré"
+            "text": "est retiré pour mieux voir devant"
           },
           {
             "id": "D",
-            "text": "est posé devant"
+            "text": "est posé devant le siège avant"
           }
         ],
         "correct": [
@@ -233,7 +237,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

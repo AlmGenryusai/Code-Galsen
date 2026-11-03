@@ -9,23 +9,23 @@
         "options": [
           {
             "id": "A",
-            "text": "rien si on est prudent"
-          },
-          {
-            "id": "B",
             "text": "1 à 3 ans de prison et 100 000 à 1 000 000 FCFA"
           },
           {
+            "id": "B",
+            "text": "6 mois à 1 an de prison et 50 000 à 500 000 FCFA"
+          },
+          {
             "id": "C",
-            "text": "une simple amende de 5 000 FCFA"
+            "text": "une amende seule de 100 000 FCFA"
           },
           {
             "id": "D",
-            "text": "un avertissement"
+            "text": "un retrait de points sans amende"
           }
         ],
         "correct": [
-          "B"
+          "A"
         ]
       }
     ],
@@ -35,8 +35,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -45,28 +45,9 @@
     "chapter": "t05-c04",
     "parts": [
       {
-        "text": "Je cause un accident et je m'enfuis. C'est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "autorisé si personne ne m'a vu"
-          },
-          {
-            "id": "B",
-            "text": "un délit puni de 1 à 3 ans de prison"
-          },
-          {
-            "id": "C",
-            "text": "sans conséquence"
-          },
-          {
-            "id": "D",
-            "text": "permis si je préviens plus tard"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je cause un accident et je m'enfuis. C'est un délit puni de 1 à 3 ans de prison :",
+        "correct": "yes"
       }
     ],
     "explanation": "Fuir après un accident pour échapper à sa responsabilité est puni d'1 à 3 ans de prison et de 500 000 à 5 000 000 FCFA. En cas de morts ou blessés, les peines sont doublées.",
@@ -75,8 +56,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -89,19 +70,19 @@
         "options": [
           {
             "id": "A",
-            "text": "6 mois à 2 ans de prison et une amende"
+            "text": "6 mois à 2 ans de prison et amende"
           },
           {
             "id": "B",
-            "text": "rien"
+            "text": "une amende forfaitaire de principe"
           },
           {
             "id": "C",
-            "text": "un simple rappel"
+            "text": "un avertissement écrit du maire"
           },
           {
             "id": "D",
-            "text": "une prime"
+            "text": "un retrait de permis sans amende"
           }
         ],
         "correct": [
@@ -115,8 +96,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -129,7 +110,7 @@
         "options": [
           {
             "id": "A",
-            "text": "rien"
+            "text": "1 à 3 ans de prison et 100 000 à 1 000 000 FCFA"
           },
           {
             "id": "B",
@@ -137,11 +118,11 @@
           },
           {
             "id": "C",
-            "text": "1 000 FCFA"
+            "text": "une amende seule de 10 000 FCFA"
           },
           {
             "id": "D",
-            "text": "un sourire"
+            "text": "un avertissement oral"
           }
         ],
         "correct": [
@@ -155,8 +136,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -169,7 +150,7 @@
         "options": [
           {
             "id": "A",
-            "text": "le juge peut accorder un sursis"
+            "text": "le juge peut accorder un sursis complet"
           },
           {
             "id": "B",
@@ -177,11 +158,11 @@
           },
           {
             "id": "C",
-            "text": "l'amende est supprimée"
+            "text": "l'amende est ramenée à 50 000 FCFA"
           },
           {
             "id": "D",
-            "text": "c'est un simple accident"
+            "text": "la peine est réduite de moitié"
           }
         ],
         "correct": [
@@ -195,8 +176,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -209,19 +190,19 @@
         "options": [
           {
             "id": "A",
-            "text": "permis"
+            "text": "une contravention de 5 000 FCFA"
           },
           {
             "id": "B",
-            "text": "un délit puni de 3 mois à 5 ans de prison"
+            "text": "un délit puni de 3 mois à 5 ans"
           },
           {
             "id": "C",
-            "text": "une simple farce"
+            "text": "un délit puni d'une amende seule"
           },
           {
             "id": "D",
-            "text": "toléré la nuit"
+            "text": "toléré s'il est retiré vite"
           }
         ],
         "correct": [
@@ -235,8 +216,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -249,23 +230,23 @@
         "options": [
           {
             "id": "A",
-            "text": "autorisé"
+            "text": "puni de 3 à 6 mois de prison"
           },
           {
             "id": "B",
-            "text": "puni de 3 à 6 mois de prison et d'une amende"
+            "text": "puni d'un simple avertissement écrit"
           },
           {
             "id": "C",
-            "text": "sans sanction"
+            "text": "toléré sur route dégagée seulement"
           },
           {
             "id": "D",
-            "text": "conseillé"
+            "text": "autorisé après un contrôle technique"
           }
         ],
         "correct": [
-          "B"
+          "A"
         ]
       }
     ],
@@ -275,8 +256,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -289,19 +270,19 @@
         "options": [
           {
             "id": "A",
-            "text": "des infractions commises par lui en conduisant"
+            "text": "des infractions qu'il commet"
           },
           {
             "id": "B",
-            "text": "des infractions du passager"
+            "text": "des infractions de ses passagers"
           },
           {
             "id": "C",
-            "text": "de toutes les infractions de la ville"
+            "text": "de toutes les infractions du quartier"
           },
           {
             "id": "D",
-            "text": "seulement du propriétaire"
+            "text": "du seul propriétaire du véhicule"
           }
         ],
         "correct": [
@@ -315,8 +296,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

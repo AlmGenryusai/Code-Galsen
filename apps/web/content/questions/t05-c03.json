@@ -13,11 +13,11 @@
           },
           {
             "id": "B",
-            "text": "carte numérisée et sécurisée"
+            "text": "carte sécurisée"
           },
           {
             "id": "C",
-            "text": "carnet"
+            "text": "carnet de papier"
           },
           {
             "id": "D",
@@ -35,8 +35,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -261,28 +261,9 @@
     "chapter": "t05-c03",
     "parts": [
       {
-        "text": "Conduire malgré une suspension ou une annulation du permis est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "permis de nuit"
-          },
-          {
-            "id": "B",
-            "text": "un délit puni de prison et d'amende"
-          },
-          {
-            "id": "C",
-            "text": "toléré hors agglomération"
-          },
-          {
-            "id": "D",
-            "text": "sans risque"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Conduire malgré une suspension ou une annulation du permis est un délit puni de prison et d'amende :",
+        "correct": "yes"
       }
     ],
     "explanation": "Violer l'interdiction de conduire est puni de trois ans de prison et d'une amende, sans circonstances atténuantes.",
@@ -291,8 +272,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]
