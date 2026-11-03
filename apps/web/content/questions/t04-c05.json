@@ -9,23 +9,23 @@
         "options": [
           {
             "id": "A",
-            "text": "passe à sa droite pour gagner du temps"
-          },
-          {
-            "id": "B",
             "text": "reste derrière, à bonne distance"
           },
           {
+            "id": "B",
+            "text": "passe à sa droite pour gagner du temps"
+          },
+          {
             "id": "C",
-            "text": "me place juste à côté"
+            "text": "me place juste à côté de lui pour l'avertir"
           },
           {
             "id": "D",
-            "text": "klaxonne pour qu'il tourne vite"
+            "text": "klaxonne pour qu'il tourne plus vite"
           }
         ],
         "correct": [
-          "B"
+          "A"
         ]
       }
     ],
@@ -35,7 +35,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -44,28 +45,9 @@
     "chapter": "t04-c05",
     "parts": [
       {
-        "text": "Je ne vois pas les rétroviseurs du camion devant moi. Le chauffeur :",
-        "options": [
-          {
-            "id": "A",
-            "text": "me voit parfaitement"
-          },
-          {
-            "id": "B",
-            "text": "me voit grâce à ses phares"
-          },
-          {
-            "id": "C",
-            "text": "me voit si je klaxonne"
-          },
-          {
-            "id": "D",
-            "text": "ne me voit probablement pas"
-          }
-        ],
-        "correct": [
-          "D"
-        ]
+        "kind": "yesno",
+        "statement": "Je ne vois pas les rétroviseurs du camion devant moi. Son chauffeur peut ne pas me voir :",
+        "correct": "yes"
       }
     ],
     "explanation": "Si vous ne voyez pas ses rétroviseurs, il ne vous voit pas. Reculez pour réapparaître dans son champ de vision.",
@@ -74,7 +56,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -87,7 +70,7 @@
         "options": [
           {
             "id": "A",
-            "text": "freine en plein croisement"
+            "text": "freine en plein croisement pour le laisser passer"
           },
           {
             "id": "B",
@@ -95,15 +78,15 @@
           },
           {
             "id": "C",
-            "text": "ralentis avant et reste bien à droite"
+            "text": "accélère pour passer avant lui"
           },
           {
             "id": "D",
-            "text": "accélère pour passer avant lui"
+            "text": "ralentis avant et reste bien à droite"
           }
         ],
         "correct": [
-          "C"
+          "D"
         ]
       }
     ],
@@ -113,7 +96,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -130,20 +114,20 @@
           },
           {
             "id": "B",
-            "text": "que j'ai la place de me rabattre"
-          },
-          {
-            "id": "C",
             "text": "seulement qu'il est plus lent que moi"
           },
           {
+            "id": "C",
+            "text": "que j'ai la place de me rabattre ensuite"
+          },
+          {
             "id": "D",
-            "text": "que mon klaxon marche"
+            "text": "que mon klaxon fonctionne"
           }
         ],
         "correct": [
           "A",
-          "B"
+          "C"
         ]
       }
     ],
@@ -153,8 +137,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -163,28 +147,9 @@
     "chapter": "t04-c05",
     "parts": [
       {
-        "text": "Je suis juste derrière un camion très chargé. Je risque :",
-        "options": [
-          {
-            "id": "A",
-            "text": "rien, il freine doucement"
-          },
-          {
-            "id": "B",
-            "text": "de ne pas voir la route devant et de ne pas freiner à temps"
-          },
-          {
-            "id": "C",
-            "text": "d'être mieux vu par les autres"
-          },
-          {
-            "id": "D",
-            "text": "de gagner du temps"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je suis juste derrière un camion très chargé. Je risque de ne pas voir la route devant moi :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un camion cache la route et peut freiner fort. Plus de distance vous donne plus de vue et plus de temps pour freiner.",
@@ -193,7 +158,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

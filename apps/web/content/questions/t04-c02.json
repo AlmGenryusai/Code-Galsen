@@ -5,27 +5,27 @@
     "chapter": "t04-c02",
     "parts": [
       {
-        "text": "En présence d'un motocycliste à votre droite à un feu rouge, vous devez :",
+        "text": "À un feu rouge, un motocycliste est à ma droite. Au vert, je :",
         "options": [
           {
             "id": "A",
-            "text": "redémarrer rapidement pour le doubler"
+            "text": "redémarre vite pour le laisser derrière moi"
           },
           {
             "id": "B",
-            "text": "rester vigilant car il peut serrer à droite ou se faufiler"
+            "text": "me rabats à droite pour lui fermer le passage"
           },
           {
             "id": "C",
-            "text": "klaxonner pour le faire reculer"
+            "text": "reste vigilant : il peut serrer à droite ou se faufiler"
           },
           {
             "id": "D",
-            "text": "lui couper la route"
+            "text": "klaxonne pour qu'il recule avant de démarrer"
           }
         ],
         "correct": [
-          "B"
+          "C"
         ]
       }
     ],
@@ -34,7 +34,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -53,23 +54,23 @@
         "options": [
           {
             "id": "A",
-            "text": "me décale pour fermer le passage"
+            "text": "reste dans ma file sans me décaler"
           },
           {
             "id": "B",
-            "text": "reste bien dans ma file, sans me décaler"
+            "text": "me décale pour fermer le passage à la moto"
           },
           {
             "id": "C",
-            "text": "ouvre ma portière pour voir devant"
+            "text": "klaxonne pour qu'elle reprenne sa file"
           },
           {
             "id": "D",
-            "text": "accélère pour la devancer"
+            "text": "accélère dès que la file avance pour la devancer"
           }
         ],
         "correct": [
-          "B"
+          "A"
         ]
       }
     ],
@@ -79,7 +80,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -88,27 +90,27 @@
     "chapter": "t04-c02",
     "parts": [
       {
-        "text": "Je veux ouvrir ma portière côté route. Je dois d'abord :",
+        "text": "Avant d'ouvrir ma portière côté route, je dois d'abord :",
         "options": [
           {
             "id": "A",
-            "text": "ouvrir doucement puis regarder"
+            "text": "ouvrir doucement la portière, puis regarder derrière moi"
           },
           {
             "id": "B",
-            "text": "klaxonner pour prévenir"
+            "text": "klaxonner pour prévenir les usagers de mon arrêt"
           },
           {
             "id": "C",
-            "text": "regarder mon rétroviseur puis par-dessus l'épaule"
+            "text": "mettre mon clignotant gauche pour signaler que je sors"
           },
           {
             "id": "D",
-            "text": "mettre mon clignotant"
+            "text": "regarder mon rétroviseur puis par-dessus l'épaule"
           }
         ],
         "correct": [
-          "C"
+          "D"
         ]
       }
     ],
@@ -118,7 +120,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -131,15 +134,15 @@
         "options": [
           {
             "id": "A",
-            "text": "mon rétroviseur"
+            "text": "seulement que mon clignotant est allumé"
           },
           {
             "id": "B",
-            "text": "l'angle mort, par-dessus l'épaule"
+            "text": "mon rétroviseur"
           },
           {
             "id": "C",
-            "text": "seulement que mon clignotant est allumé"
+            "text": "l'angle mort, par-dessus l'épaule"
           },
           {
             "id": "D",
@@ -147,8 +150,8 @@
           }
         ],
         "correct": [
-          "A",
-          "B"
+          "B",
+          "C"
         ]
       }
     ],
@@ -158,7 +161,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -167,28 +171,9 @@
     "chapter": "t04-c02",
     "parts": [
       {
-        "text": "Une moto arrive vite à ma droite. Mon clignotant est allumé et je veux tourner. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "tourne, le clignotant me protège"
-          },
-          {
-            "id": "B",
-            "text": "accélère pour passer avant elle"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne puis tourne"
-          },
-          {
-            "id": "D",
-            "text": "regarde et la laisse passer si elle est proche"
-          }
-        ],
-        "correct": [
-          "D"
-        ]
+        "kind": "yesno",
+        "statement": "Une moto arrive vite à ma droite. Mon clignotant est allumé : je peux tourner devant elle :",
+        "correct": "no"
       }
     ],
     "explanation": "Le clignotant avertit, mais il ne donne aucune priorité. Une moto proche est difficile à éviter pour elle comme pour vous.",
@@ -197,7 +182,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -206,38 +192,14 @@
     "chapter": "t04-c02",
     "parts": [
       {
-        "text": "Je vois une moto dans mon rétroviseur gauche. Elle ne peut plus être dans mon angle mort à droite :",
-        "options": [
-          {
-            "id": "A",
-            "text": "OUI"
-          },
-          {
-            "id": "B",
-            "text": "NON"
-          }
-        ],
-        "correct": [
-          "B"
-        ],
-        "shuffle": false
+        "kind": "yesno",
+        "statement": "Je vois une moto dans mon rétroviseur gauche. Il n'y en a donc aucune dans mon angle mort à droite :",
+        "correct": "no"
       },
       {
-        "text": "Je regarde quand même par-dessus l'épaule avant de me décaler :",
-        "options": [
-          {
-            "id": "C",
-            "text": "OUI"
-          },
-          {
-            "id": "D",
-            "text": "NON"
-          }
-        ],
-        "correct": [
-          "C"
-        ],
-        "shuffle": false
+        "kind": "yesno",
+        "statement": "Je regarde quand même par-dessus l'épaule avant de me décaler :",
+        "correct": "yes"
       }
     ],
     "explanation": "Plusieurs motos peuvent circuler en même temps, des deux côtés. Chaque côté demande son propre contrôle.",
@@ -246,7 +208,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

@@ -5,27 +5,27 @@
     "chapter": "t04-c03",
     "parts": [
       {
-        "text": "Vous approchez d'une charrette tractée par un âne sur la chaussée. La bonne attitude est :",
+        "text": "Je rattrape une charrette tractée par un âne. Je :",
         "options": [
           {
             "id": "A",
-            "text": "doubler sans ralentir"
+            "text": "double sans ralentir si la route est dégagée"
           },
           {
             "id": "B",
-            "text": "ralentir, garder distance latérale d'au moins 1 m et doubler avec prudence"
+            "text": "klaxonne longuement pour que l'animal s'écarte"
           },
           {
             "id": "C",
-            "text": "klaxonner longuement pour effrayer l'animal"
+            "text": "ralentis, garde au moins 1 m de côté et double prudemment"
           },
           {
             "id": "D",
-            "text": "rester très près derrière la charrette"
+            "text": "reste collé derrière elle en attendant qu'elle s'arrête"
           }
         ],
         "correct": [
-          "B"
+          "C"
         ]
       }
     ],
@@ -34,8 +34,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -48,23 +48,23 @@
         "options": [
           {
             "id": "A",
-            "text": "que la route est dégagée loin devant"
+            "text": "que mon klaxon fonctionne bien"
           },
           {
             "id": "B",
-            "text": "que mon klaxon fonctionne"
+            "text": "que personne ne me suit de trop près"
           },
           {
             "id": "C",
-            "text": "que personne ne me suit"
+            "text": "que la route est dégagée assez loin devant"
           },
           {
             "id": "D",
-            "text": "que la charrette va ralentir pour moi"
+            "text": "que la charrette va ralentir pour me laisser passer"
           }
         ],
         "correct": [
-          "A"
+          "C"
         ]
       }
     ],
@@ -74,8 +74,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25",
-      "juriste": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -88,23 +88,23 @@
         "options": [
           {
             "id": "A",
-            "text": "garantir que le cheval s'écarte"
+            "text": "effrayer le cheval, qui peut se jeter sur la route"
           },
           {
             "id": "B",
-            "text": "calmer l'animal"
+            "text": "calmer l'animal en l'avertissant de ma présence"
           },
           {
             "id": "C",
-            "text": "ne rien changer"
+            "text": "garantir que le cheval s'écarte sans danger"
           },
           {
             "id": "D",
-            "text": "effrayer le cheval qui peut se jeter sur la route"
+            "text": "ne rien changer au comportement de l'animal"
           }
         ],
         "correct": [
-          "D"
+          "A"
         ]
       }
     ],
@@ -114,7 +114,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -127,7 +128,7 @@
         "options": [
           {
             "id": "A",
-            "text": "roule plus vite pour passer vite"
+            "text": "roule plus vite pour la dépasser au plus tôt"
           },
           {
             "id": "B",
@@ -135,15 +136,15 @@
           },
           {
             "id": "C",
-            "text": "règle ma vitesse pour m'arrêter dans mes phares"
+            "text": "m'approche pour mieux voir la charrette"
           },
           {
             "id": "D",
-            "text": "m'approche pour mieux la voir"
+            "text": "adapte ma vitesse pour pouvoir m'arrêter dans mes phares"
           }
         ],
         "correct": [
-          "C"
+          "D"
         ]
       }
     ],
@@ -153,7 +154,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -162,28 +164,9 @@
     "chapter": "t04-c03",
     "parts": [
       {
-        "text": "Un troupeau de moutons traverse devant moi. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "passe au milieu en roulant doucement"
-          },
-          {
-            "id": "B",
-            "text": "klaxonne en continu"
-          },
-          {
-            "id": "C",
-            "text": "m'arrête et attends que le passage soit libre"
-          },
-          {
-            "id": "D",
-            "text": "accélère pour passer avant"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Un troupeau de moutons traverse devant moi. Je peux passer doucement au milieu :",
+        "correct": "no"
       }
     ],
     "explanation": "Un animal peut partir dans n'importe quelle direction. Attendre que tout le troupeau soit passé évite de heurter celui qui traîne derrière.",
@@ -192,7 +175,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -207,7 +191,7 @@
     },
     "parts": [
       {
-        "text": "Face à des animaux sur la route, je peux :",
+        "text": "Face à des animaux sur la route, je dois :",
         "options": [
           {
             "id": "A",
@@ -219,16 +203,16 @@
           },
           {
             "id": "C",
-            "text": "rester prêt à m'arrêter"
+            "text": "rouler derrière eux pour les faire avancer"
           },
           {
             "id": "D",
-            "text": "rouler derrière eux pour les presser"
+            "text": "rester prêt à m'arrêter à tout moment"
           }
         ],
         "correct": [
           "A",
-          "C"
+          "D"
         ]
       }
     ],
@@ -238,7 +222,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-25"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]
