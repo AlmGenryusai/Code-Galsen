@@ -123,6 +123,12 @@
     "id": "t04-c04-0004",
     "theme": "t04",
     "chapter": "t04-c04",
+    "media": {
+      "kind": "photo",
+      "src": "p42.webp",
+      "alt": "Bus Dakar Dem Dikk arrêté le long du trottoir, porte ouverte",
+      "credit": "Martin a1999a, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

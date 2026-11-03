@@ -83,6 +83,12 @@
     "id": "t09-c02-0003",
     "theme": "t09",
     "chapter": "t09-c02",
+    "media": {
+      "kind": "photo",
+      "src": "q-t09-c02-0003.webp",
+      "alt": "Taxi surchargé, deux passagers debout à l'arrière sur le pare-chocs",
+      "credit": "Annabel Symington, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

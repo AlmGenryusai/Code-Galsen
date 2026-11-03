@@ -3,6 +3,12 @@
     "id": "t07-c02-0001",
     "theme": "t07",
     "chapter": "t07-c02",
+    "media": {
+      "kind": "photo",
+      "src": "q-t07-c02-0001.webp",
+      "alt": "Conductrice qui regarde derrière elle par la portière avant de l'ouvrir en grand",
+      "credit": "U.S. Army USAGW, Roland Schedel, domaine public, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

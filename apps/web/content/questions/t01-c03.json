@@ -78,6 +78,12 @@
     "id": "t01-c03-0003",
     "theme": "t01",
     "chapter": "t01-c03",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c03-0003.webp",
+      "alt": "Route de campagne vide, coupée au centre par une double ligne blanche continue",
+      "credit": "Ann Cook, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -259,6 +265,12 @@
     "id": "t01-c03-0008",
     "theme": "t01",
     "chapter": "t01-c03",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c03-0008.webp",
+      "alt": "Deux jeunes sur un scooter qui roule sur le trottoir, à côté d'un piéton",
+      "credit": "Paul Sableman, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
