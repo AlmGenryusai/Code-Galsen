@@ -35,8 +35,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -49,7 +49,7 @@
         "options": [
           {
             "id": "A",
-            "text": "à la limite autorisée"
+            "text": "sur la limite autorisée"
           },
           {
             "id": "B",
@@ -57,11 +57,11 @@
           },
           {
             "id": "C",
-            "text": "comme d'habitude"
+            "text": "sur celle du véhicule devant"
           },
           {
             "id": "D",
-            "text": "plus vite pour sortir du brouillard"
+            "text": "pour sortir du brouillard plus vite"
           }
         ],
         "correct": [
@@ -75,8 +75,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -101,7 +101,7 @@
           },
           {
             "id": "D",
-            "text": "la même qu'avant"
+            "text": "30 km/h"
           }
         ],
         "correct": [
@@ -115,8 +115,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -131,11 +131,11 @@
     },
     "parts": [
       {
-        "text": "Sur la route, de la poussière ou du sable réduit ma vue. Je :",
+        "text": "De la poussière ou du sable réduit ma vue sur la route. Je :",
         "options": [
           {
             "id": "A",
-            "text": "accélère"
+            "text": "accélère pour en sortir"
           },
           {
             "id": "B",
@@ -143,11 +143,11 @@
           },
           {
             "id": "C",
-            "text": "klaxonne tout le temps"
+            "text": "klaxonne en continu"
           },
           {
             "id": "D",
-            "text": "m'arrête au milieu de la route"
+            "text": "m'arrête sur la chaussée"
           }
         ],
         "correct": [
@@ -161,8 +161,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -187,7 +187,7 @@
           },
           {
             "id": "D",
-            "text": "aucun feu"
+            "text": "les feux de brouillard"
           }
         ],
         "correct": [
@@ -201,8 +201,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -229,11 +229,11 @@
           },
           {
             "id": "C",
-            "text": "freine d'un coup de volant"
+            "text": "freine en braquant le volant"
           },
           {
             "id": "D",
-            "text": "ne freine pas"
+            "text": "freine seulement au dernier moment"
           }
         ],
         "correct": [
@@ -247,7 +247,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -256,28 +257,9 @@
     "chapter": "t03-c01",
     "parts": [
       {
-        "text": "Sur une route mouillée, la distance avec le véhicule devant moi doit être :",
-        "options": [
-          {
-            "id": "A",
-            "text": "plus courte"
-          },
-          {
-            "id": "B",
-            "text": "la même"
-          },
-          {
-            "id": "C",
-            "text": "plus longue"
-          },
-          {
-            "id": "D",
-            "text": "sans importance"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Sur une route mouillée, je garde la même distance que sur route sèche avec le véhicule devant :",
+        "correct": "no"
       }
     ],
     "explanation": "L'eau allonge la distance de freinage. Il faut plus de place pour s'arrêter.",
@@ -286,7 +268,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -295,7 +278,7 @@
     "chapter": "t03-c01",
     "parts": [
       {
-        "text": "Je dois régler ma vitesse selon :",
+        "text": "Je règle ma vitesse selon :",
         "options": [
           {
             "id": "A",
@@ -311,7 +294,7 @@
           },
           {
             "id": "D",
-            "text": "seulement la limite affichée"
+            "text": "la seule limite affichée"
           }
         ],
         "correct": [
@@ -327,8 +310,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

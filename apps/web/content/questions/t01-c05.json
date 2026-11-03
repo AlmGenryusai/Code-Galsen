@@ -23,11 +23,11 @@
           },
           {
             "id": "C",
-            "text": "à gauche, pour qu'il me voie"
+            "text": "à gauche de ma voie"
           },
           {
             "id": "D",
-            "text": "sur l'accotement toujours"
+            "text": "sur l'accotement, toujours"
           }
         ],
         "correct": [
@@ -41,8 +41,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -57,28 +57,29 @@
     },
     "parts": [
       {
-        "text": "Avant de dépasser, je dois :",
+        "text": "Avant de dépasser, je :",
         "options": [
           {
             "id": "A",
-            "text": "avoir assez de place et de visibilité devant"
+            "text": "m'assure d'avoir de la place devant"
           },
           {
             "id": "B",
-            "text": "prévenir de mon intention"
+            "text": "préviens de mon intention"
           },
           {
             "id": "C",
-            "text": "m'assurer que personne ne me double"
+            "text": "vérifie que personne ne me dépasse déjà"
           },
           {
             "id": "D",
-            "text": "accélérer à fond"
+            "text": "accélère à fond dès le départ"
           }
         ],
         "correct": [
           "A",
-          "B"
+          "B",
+          "C"
         ]
       }
     ],
@@ -88,8 +89,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -128,8 +129,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -144,28 +145,9 @@
     },
     "parts": [
       {
-        "text": "Un véhicule va me dépasser. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "accélère pour rester devant"
-          },
-          {
-            "id": "B",
-            "text": "me serre à droite sans accélérer"
-          },
-          {
-            "id": "C",
-            "text": "me mets au milieu"
-          },
-          {
-            "id": "D",
-            "text": "klaxonne"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Un véhicule va me dépasser. Je me serre à droite sans accélérer :",
+        "correct": "yes"
       }
     ],
     "explanation": "Celui qui est dépassé se serre à droite, n'accélère pas et au besoin ralentit pour raccourcir le dépassement.",
@@ -174,8 +156,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -184,28 +166,9 @@
     "chapter": "t01-c05",
     "parts": [
       {
-        "text": "Le véhicule devant moi signale qu'il va tourner à gauche. Je le dépasse :",
-        "options": [
-          {
-            "id": "A",
-            "text": "à gauche"
-          },
-          {
-            "id": "B",
-            "text": "à droite, c'est même obligatoire"
-          },
-          {
-            "id": "C",
-            "text": "pas du tout"
-          },
-          {
-            "id": "D",
-            "text": "en klaxonnant sans changer de côté"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Le véhicule devant moi signale qu'il va tourner à gauche. Je dois le dépasser par la droite :",
+        "correct": "yes"
       }
     ],
     "explanation": "Quand le conducteur devant signale qu'il tourne à gauche, on le dépasse par la droite.",
@@ -214,8 +177,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -236,17 +199,17 @@
           },
           {
             "id": "C",
-            "text": "à une intersection (sauf route prioritaire)"
+            "text": "sur une longue ligne droite dégagée"
           },
           {
             "id": "D",
-            "text": "sur une longue ligne droite dégagée"
+            "text": "à une intersection (sauf route prioritaire)"
           }
         ],
         "correct": [
           "A",
           "B",
-          "C"
+          "D"
         ]
       }
     ],
@@ -256,8 +219,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-30",
-      "juriste": "2026-10-30"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -266,7 +229,7 @@
     "chapter": "t01-c05",
     "parts": [
       {
-        "text": "Un véhicule en panne bloque ma voie. Les voitures arrivent en face. Je :",
+        "text": "Un véhicule en panne bloque ma voie. Des voitures arrivent en face. Je :",
         "options": [
           {
             "id": "A",
@@ -274,15 +237,15 @@
           },
           {
             "id": "B",
-            "text": "laisse passer les véhicules d'en face avant"
+            "text": "laisse passer ceux d'en face avant"
           },
           {
             "id": "C",
-            "text": "klaxonne et fonce"
+            "text": "klaxonne et je fonce"
           },
           {
             "id": "D",
-            "text": "m'arrête au milieu"
+            "text": "m'arrête au milieu de la route"
           }
         ],
         "correct": [
@@ -296,8 +259,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -314,15 +277,15 @@
           },
           {
             "id": "B",
-            "text": "ralentis et m'arrête au besoin pour la laisser passer"
+            "text": "ralentis et m'arrête au besoin"
           },
           {
             "id": "C",
-            "text": "klaxonne"
+            "text": "klaxonne pour la prévenir"
           },
           {
             "id": "D",
-            "text": "accélère pour passer avant"
+            "text": "accélère pour passer avant elle"
           }
         ],
         "correct": [
@@ -336,8 +299,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -376,8 +339,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

@@ -9,7 +9,7 @@
         "options": [
           {
             "id": "A",
-            "text": "sur la chaussée, en face"
+            "text": "sur la chaussée, face au sens de la route"
           },
           {
             "id": "B",
@@ -21,7 +21,7 @@
           },
           {
             "id": "D",
-            "text": "n'importe où"
+            "text": "n'importe où, feux allumés"
           }
         ],
         "correct": [
@@ -35,8 +35,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -45,11 +45,11 @@
     "chapter": "t01-c06",
     "parts": [
       {
-        "text": "Hors agglomération, je suis arrêté sur la chaussée à cause d'une panne grave. Je dois signaler mon véhicule avec :",
+        "text": "Hors agglomération, je suis arrêté sur la chaussée à cause d'une panne grave. Je signale mon véhicule avec :",
         "options": [
           {
             "id": "A",
-            "text": "des feux de détresse"
+            "text": "mes feux de détresse"
           },
           {
             "id": "B",
@@ -57,11 +57,11 @@
           },
           {
             "id": "C",
-            "text": "rien, il est visible"
+            "text": "un simple coup de klaxon"
           },
           {
             "id": "D",
-            "text": "un simple coup de klaxon"
+            "text": "rien : mon véhicule est visible"
           }
         ],
         "correct": [
@@ -76,8 +76,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -94,7 +94,7 @@
           },
           {
             "id": "B",
-            "text": "d'une intersection quand on voit mal"
+            "text": "d'une intersection mal dégagée"
           },
           {
             "id": "C",
@@ -102,7 +102,7 @@
           },
           {
             "id": "D",
-            "text": "d'un arbre"
+            "text": "d'un arbre isolé"
           }
         ],
         "correct": [
@@ -118,8 +118,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -128,28 +128,9 @@
     "chapter": "t01-c06",
     "parts": [
       {
-        "text": "Puis-je stationner sur un passage à niveau ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "oui, brièvement"
-          },
-          {
-            "id": "B",
-            "text": "oui, si le train est loin"
-          },
-          {
-            "id": "C",
-            "text": "non, jamais"
-          },
-          {
-            "id": "D",
-            "text": "oui, avec les feux de détresse"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je peux stationner un instant sur un passage à niveau si le train est loin :",
+        "correct": "no"
       }
     ],
     "explanation": "Il est interdit de stationner sur une partie de route traversée à niveau par une voie ferrée.",
@@ -158,8 +139,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -176,7 +157,7 @@
           },
           {
             "id": "B",
-            "text": "coupe le moteur et m'assure qu'il ne bougera pas"
+            "text": "coupe le moteur, vérifie qu'il est immobile"
           },
           {
             "id": "C",
@@ -184,7 +165,7 @@
           },
           {
             "id": "D",
-            "text": "laisse la clé dessus"
+            "text": "laisse la clé sur le contact"
           }
         ],
         "correct": [
@@ -198,8 +179,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -208,28 +189,9 @@
     "chapter": "t01-c06",
     "parts": [
       {
-        "text": "Avant d'ouvrir ma portière ou de descendre :",
-        "options": [
-          {
-            "id": "A",
-            "text": "je regarde si la voie est libre"
-          },
-          {
-            "id": "B",
-            "text": "j'ouvre rapidement"
-          },
-          {
-            "id": "C",
-            "text": "j'ouvre et je regarde ensuite"
-          },
-          {
-            "id": "D",
-            "text": "je prévois un passager pour regarder"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Avant d'ouvrir ma portière, je regarde si la voie est libre :",
+        "correct": "yes"
       }
     ],
     "explanation": "On ne descend pas et on n'ouvre pas la portière sans s'être assuré qu'on peut le faire sans danger, pour les motos et les cyclistes.",
@@ -238,8 +200,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -256,7 +218,7 @@
           },
           {
             "id": "B",
-            "text": "sur l'accotement, en dégageant la chaussée"
+            "text": "sur l'accotement"
           },
           {
             "id": "C",
@@ -264,7 +226,7 @@
           },
           {
             "id": "D",
-            "text": "devant une entrée d'immeuble"
+            "text": "devant l'entrée d'un immeuble"
           }
         ],
         "correct": [
@@ -278,8 +240,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -296,15 +258,15 @@
           },
           {
             "id": "B",
-            "text": "préviens avec le clignotant et ne gêne personne"
+            "text": "mets mon clignotant et ne gêne personne"
           },
           {
             "id": "C",
-            "text": "klaxonne et démarre"
+            "text": "klaxonne puis je démarre"
           },
           {
             "id": "D",
-            "text": "pars en trombe"
+            "text": "pars vite pour dégager la place"
           }
         ],
         "correct": [
@@ -318,8 +280,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]
