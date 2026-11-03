@@ -183,6 +183,7 @@ export function QuestionCard({
           borderTop: '1px solid hsl(var(--sand))',
         }}
       >
+        {variant !== 'correction' && (
         <div>
           <div style={{ fontSize: 14, fontWeight: 600, color: 'hsl(var(--ink))', marginBottom: 4 }}>{KIND_LABEL[answerKind(q)]}</div>
           <div style={{ display: 'flex', gap: 2 }}>
@@ -219,12 +220,13 @@ export function QuestionCard({
             )}
           </div>
         </div>
+        )}
         {variant === 'correction' ? (
           <div style={{ display: 'flex', flex: 1, justifyContent: 'flex-end', gap: 8 }}>
-            <button type="button" onClick={onPrev} disabled={index === 0} style={{ ...ACTION, background: 'hsl(var(--surface))', border: '1.5px solid hsl(var(--sand))', opacity: index === 0 ? 0.5 : 1 }}>
+            <button type="button" onClick={onPrev} disabled={index === 0} style={{ ...ACTION, flex: 1, background: 'hsl(var(--surface))', border: '1.5px solid hsl(var(--sand))', opacity: index === 0 ? 0.5 : 1 }}>
               Précédent
             </button>
-            <button type="button" onClick={onNext} style={ACTION}>
+            <button type="button" onClick={onNext} style={{ ...ACTION, flex: 1 }}>
               {isLast ? 'Terminer' : 'Suivant'}
             </button>
           </div>
