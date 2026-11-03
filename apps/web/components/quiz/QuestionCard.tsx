@@ -1,5 +1,6 @@
 import { ZoomableMedia } from './ZoomableMedia'
 import { ExplanationPanel } from './ExplanationPanel'
+import { orderFor } from '../../lib/quiz/shuffle'
 import { LetterBadge, type BadgeState } from './LetterBadge'
 import { QuizOption, type OptionState } from './QuizOption'
 import { KIND_LABEL } from './kind-label'
@@ -61,9 +62,10 @@ export function QuestionCard({
   variant = 'quiz',
   onPrev,
   onClose,
-  orders,
+  orders: ordersProp,
 }: QuestionCardProps) {
   const revealed = variant === 'correction' ? true : variant === 'exam' ? false : revealedProp
+  const orders = ordersProp ?? orderFor(q) // mélange déterministe (graine = id)
   const slots = partSlots(q, orders)
   const right = correctIds(q)
   const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
