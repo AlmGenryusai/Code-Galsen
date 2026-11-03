@@ -1,19 +1,19 @@
 import type { Metadata, Viewport } from 'next'
-import { Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
+import localFont from 'next/font/local'
 import { RegisterServiceWorker } from '@/components/RegisterServiceWorker'
 import './globals.css'
 
-// P12: une seule famille variable, subset latin, display swap
-const sans = Plus_Jakarta_Sans({
-  subsets: ['latin'],
-  weight: ['400', '600', '700', '800'],
+// P12: polices auto-hébergées (variables, subset latin), display swap — pas d'appel Google Fonts au build
+const sans = localFont({
+  src: './fonts/plus-jakarta-sans-latin.woff2',
+  weight: '400 800',
   variable: '--font-sans',
   display: 'swap',
 })
 
-const mono = JetBrains_Mono({
-  subsets: ['latin'],
-  weight: ['500', '600'],
+const mono = localFont({
+  src: './fonts/jetbrains-mono-latin.woff2',
+  weight: '500 600',
   variable: '--font-mono',
   display: 'swap',
 })
