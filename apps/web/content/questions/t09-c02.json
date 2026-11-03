@@ -13,15 +13,15 @@
           },
           {
             "id": "B",
-            "text": "attaché sur un siège adapté, à l'arrière"
+            "text": "attaché sur un siège adapté"
           },
           {
             "id": "C",
-            "text": "debout"
+            "text": "debout entre les sièges avant"
           },
           {
             "id": "D",
-            "text": "sur le tableau de bord"
+            "text": "sur la plage arrière"
           }
         ],
         "correct": [
@@ -35,7 +35,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -52,15 +53,15 @@
           },
           {
             "id": "B",
-            "text": "un foulard"
+            "text": "un foulard serré"
           },
           {
             "id": "C",
-            "text": "rien"
+            "text": "un chapeau rigide"
           },
           {
             "id": "D",
-            "text": "un chapeau"
+            "text": "rien s'ils roulent doucement"
           }
         ],
         "correct": [
@@ -74,8 +75,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -84,28 +85,9 @@
     "chapter": "t09-c02",
     "parts": [
       {
-        "text": "Je transporte plus de passagers que de places. C'est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "autorisé si c'est court"
-          },
-          {
-            "id": "B",
-            "text": "interdit"
-          },
-          {
-            "id": "C",
-            "text": "toléré en ville"
-          },
-          {
-            "id": "D",
-            "text": "sans risque"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je transporte plus de passagers que de places. C'est interdit :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le surnombre est interdit, y compris dans les voitures particulières.",
@@ -114,8 +96,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -132,15 +114,15 @@
           },
           {
             "id": "B",
-            "text": "placé dans un siège à courroies fixé au véhicule"
+            "text": "placé dans un siège à courroies"
           },
           {
             "id": "C",
-            "text": "debout"
+            "text": "debout devant le conducteur de la moto"
           },
           {
             "id": "D",
-            "text": "entre les jambes"
+            "text": "assis entre les jambes du conducteur"
           }
         ],
         "correct": [
@@ -154,8 +136,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -168,7 +150,7 @@
         "options": [
           {
             "id": "A",
-            "text": "me retourne"
+            "text": "me retourne pour lui répondre"
           },
           {
             "id": "B",
@@ -180,7 +162,7 @@
           },
           {
             "id": "D",
-            "text": "ferme les yeux"
+            "text": "ferme un instant les yeux"
           }
         ],
         "correct": [
@@ -194,7 +176,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -219,7 +202,7 @@
           },
           {
             "id": "D",
-            "text": "assis"
+            "text": "assis sur une place prévue à cet effet"
           }
         ],
         "correct": [
@@ -235,8 +218,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

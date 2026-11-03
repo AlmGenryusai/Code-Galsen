@@ -21,7 +21,7 @@
           },
           {
             "id": "D",
-            "text": "la couleur de la voiture"
+            "text": "la couleur de la carrosserie"
           }
         ],
         "correct": [
@@ -37,7 +37,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -50,7 +51,7 @@
         "options": [
           {
             "id": "A",
-            "text": "roule plus vite"
+            "text": "roule plus vite pour le refroidir"
           },
           {
             "id": "B",
@@ -76,7 +77,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -85,7 +87,7 @@
     "chapter": "t08-c02",
     "parts": [
       {
-        "text": "J'ai un pneu crevé sur la route. Je :",
+        "text": "J'ai un pneu qui éclate en roulant. Je :",
         "options": [
           {
             "id": "A",
@@ -93,7 +95,7 @@
           },
           {
             "id": "B",
-            "text": "tiens fermement le volant et ralentis progressivement"
+            "text": "tiens le volant et ralentis"
           },
           {
             "id": "C",
@@ -101,7 +103,7 @@
           },
           {
             "id": "D",
-            "text": "accélère"
+            "text": "accélère pour garder le contrôle"
           }
         ],
         "correct": [
@@ -115,7 +117,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -128,19 +131,19 @@
         "options": [
           {
             "id": "A",
-            "text": "en pleine route"
+            "text": "en pleine route, feux allumés"
           },
           {
             "id": "B",
-            "text": "sur un sol plat et stable, loin de la circulation"
+            "text": "sur un sol plat, à l'écart"
           },
           {
             "id": "C",
-            "text": "dans une côte"
+            "text": "dans une côte, frein serré"
           },
           {
             "id": "D",
-            "text": "sur le trottoir"
+            "text": "sur le trottoir, devant un commerce"
           }
         ],
         "correct": [
@@ -154,7 +157,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -179,7 +183,7 @@
           },
           {
             "id": "D",
-            "text": "la couleur"
+            "text": "la couleur de la peinture"
           }
         ],
         "correct": [
@@ -195,7 +199,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -216,7 +221,7 @@
           },
           {
             "id": "C",
-            "text": "ses feux de croisement éteints pour économiser la batterie"
+            "text": "ses feux de croisement éteints pour la batterie"
           },
           {
             "id": "D",
@@ -234,8 +239,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-30",
-      "juriste": "2026-10-30"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]
