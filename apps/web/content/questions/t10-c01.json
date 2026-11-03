@@ -21,7 +21,7 @@
           },
           {
             "id": "D",
-            "text": "rien"
+            "text": "rien : je freine au dernier moment"
           }
         ],
         "correct": [
@@ -37,7 +37,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -54,15 +55,15 @@
           },
           {
             "id": "B",
-            "text": "diminuent la consommation"
+            "text": "diminuent la consommation d'essence"
           },
           {
             "id": "C",
-            "text": "n'ont aucun effet"
+            "text": "n'ont aucun effet sur elle"
           },
           {
             "id": "D",
-            "text": "sont plus sûrs"
+            "text": "sont plus sûrs en ville"
           }
         ],
         "correct": [
@@ -76,7 +77,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -85,28 +87,9 @@
     "chapter": "t10-c01",
     "parts": [
       {
-        "text": "À l'arrêt prolongé, je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "laisse tourner le moteur"
-          },
-          {
-            "id": "B",
-            "text": "coupe le moteur"
-          },
-          {
-            "id": "C",
-            "text": "accélère"
-          },
-          {
-            "id": "D",
-            "text": "klaxonne"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "À l'arrêt prolongé, je coupe le moteur :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un moteur qui tourne pour rien consomme et pollue : le couper à l'arrêt prolongé est un bon réflexe.",
@@ -115,7 +98,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -124,28 +108,9 @@
     "chapter": "t10-c01",
     "parts": [
       {
-        "text": "Une charge inutile dans mon véhicule :",
-        "options": [
-          {
-            "id": "A",
-            "text": "augmente la consommation"
-          },
-          {
-            "id": "B",
-            "text": "n'a aucun effet"
-          },
-          {
-            "id": "C",
-            "text": "diminue la consommation"
-          },
-          {
-            "id": "D",
-            "text": "est obligatoire"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Une charge inutile dans mon véhicule augmente la consommation :",
+        "correct": "yes"
       }
     ],
     "explanation": "Plus un véhicule est lourd, plus il consomme. On retire ce qui ne sert pas.",
@@ -154,7 +119,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -179,7 +145,7 @@
           },
           {
             "id": "D",
-            "text": "roulant en première"
+            "text": "roulant toujours en première"
           }
         ],
         "correct": [
@@ -194,7 +160,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -215,7 +182,7 @@
           },
           {
             "id": "C",
-            "text": "sont autorisées sans limite"
+            "text": "sont libres hors agglomération"
           },
           {
             "id": "D",
@@ -233,8 +200,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]

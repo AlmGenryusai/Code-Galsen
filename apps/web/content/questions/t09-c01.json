@@ -13,15 +13,15 @@
           },
           {
             "id": "B",
-            "text": "la vitesse"
+            "text": "la vitesse du véhicule"
           },
           {
             "id": "C",
-            "text": "la consommation"
+            "text": "la consommation de carburant"
           },
           {
             "id": "D",
-            "text": "le bruit"
+            "text": "le bruit dans l'habitacle"
           }
         ],
         "correct": [
@@ -35,7 +35,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -44,7 +45,7 @@
     "chapter": "t09-c01",
     "parts": [
       {
-        "text": "En cas de freinage d'urgence avec ABS, je :",
+        "text": "En freinage d'urgence avec ABS, je :",
         "options": [
           {
             "id": "A",
@@ -52,15 +53,15 @@
           },
           {
             "id": "B",
-            "text": "appuie à fond et garde appuyé"
+            "text": "appuie à fond sans relâcher"
           },
           {
             "id": "C",
-            "text": "relâche la pédale"
+            "text": "relâche la pédale à mi-course"
           },
           {
             "id": "D",
-            "text": "tourne le volant"
+            "text": "tourne le volant en freinant"
           }
         ],
         "correct": [
@@ -74,7 +75,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -83,28 +85,9 @@
     "chapter": "t09-c01",
     "parts": [
       {
-        "text": "L'airbag fonctionne le mieux avec :",
-        "options": [
-          {
-            "id": "A",
-            "text": "la ceinture attachée"
-          },
-          {
-            "id": "B",
-            "text": "la ceinture détachée"
-          },
-          {
-            "id": "C",
-            "text": "un siège incliné"
-          },
-          {
-            "id": "D",
-            "text": "un enfant sur les genoux"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "L'airbag protège le mieux quand la ceinture est attachée :",
+        "correct": "yes"
       }
     ],
     "explanation": "L'airbag complète la ceinture, il ne la remplace pas.",
@@ -113,7 +96,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -122,28 +106,9 @@
     "chapter": "t09-c01",
     "parts": [
       {
-        "text": "Un passager arrière sans ceinture :",
-        "options": [
-          {
-            "id": "A",
-            "text": "est en sécurité"
-          },
-          {
-            "id": "B",
-            "text": "peut être projeté et blesser les autres"
-          },
-          {
-            "id": "C",
-            "text": "ne risque rien"
-          },
-          {
-            "id": "D",
-            "text": "est protégé par l'airbag"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Un passager arrière sans ceinture peut être projeté et blesser les autres :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un passager non attaché devient un projectile dans un choc.",
@@ -152,7 +117,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -165,7 +131,7 @@
         "options": [
           {
             "id": "A",
-            "text": "ignore"
+            "text": "l'ignore, les freins marchent"
           },
           {
             "id": "B",
@@ -173,7 +139,7 @@
           },
           {
             "id": "C",
-            "text": "l'éteins"
+            "text": "l'éteins en débranchant"
           },
           {
             "id": "D",
@@ -191,7 +157,8 @@
     "legal_status": "not_regulatory",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   },
   {
@@ -204,15 +171,15 @@
         "options": [
           {
             "id": "A",
-            "text": "j'ai un certificat médical de contre-indication"
+            "text": "j'ai un certificat médical"
           },
           {
             "id": "B",
-            "text": "je roule doucement"
+            "text": "je roule doucement en agglomération"
           },
           {
             "id": "C",
-            "text": "je suis pressé"
+            "text": "je suis pressé et sur un trajet très court"
           },
           {
             "id": "D",
@@ -230,8 +197,8 @@
     "legal_status": "confirmed",
     "status": "published",
     "review": {
-      "moniteur": "2026-10-28",
-      "juriste": "2026-10-28"
+      "moniteur": "2026-11-03",
+      "juriste": "2026-11-03"
     }
   }
 ]
