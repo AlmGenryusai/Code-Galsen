@@ -1,10 +1,9 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
-import { QuestionBody } from '@/components/quiz/QuestionBody'
-import { KIND_LABEL } from '@/components/quiz/kind-label'
+import { QuestionCard } from '@/components/quiz/QuestionCard'
 import { ExamDebrief, type ExamAnswer } from './ExamDebrief'
-import { answerKind, isCorrect, togglePick } from '@/lib/quiz/correction'
+import { isCorrect, togglePick } from '@/lib/quiz/correction'
 import { EXAM_CONFIG } from '@/lib/quiz/exam-config'
 import { targetScore } from '@/lib/quiz/exam'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
@@ -12,7 +11,6 @@ import { useProgress } from '@/lib/progress/use-progress'
 import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
 
 const { timerSeconds: TIMER_SECONDS } = EXAM_CONFIG
-const BAR_HEIGHT = 72
 
 interface ExamViewProps {
   questions: QuestionV2[]
@@ -32,7 +30,6 @@ export function ExamView({ questions }: ExamViewProps) {
   const { recordAnswer, recordExam } = useProgress()
 
   const q = questions[index]
-  const ready = q ? q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0) : false
   const isLast = index + 1 >= total
 
   function finishQuestion(given: OptionId[][], timedOut: boolean) {
@@ -97,52 +94,17 @@ export function ExamView({ questions }: ExamViewProps) {
         }} />
       </div>
 
-      <div style={{
-        flex: 1,
-        overflowY: 'auto',
-        paddingBottom: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom) + 16px)`,
-      }}>
-        <QuestionBody question={q} picked={picked} revealed={false} onPick={handlePick} />
-      </div>
-
-      <div style={{
-        position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
-        maxWidth: 430,
-        margin: '0 auto',
-        height: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom))`,
-        padding: '0 16px',
-        paddingBottom: 'env(safe-area-inset-bottom)',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        gap: 12,
-        background: 'hsl(var(--bg))',
-        borderTop: '1px solid hsl(var(--sand))',
-      }}>
-        <div style={{ fontSize: 14, fontWeight: 600, color: 'hsl(var(--ink))' }}>{KIND_LABEL[answerKind(q)]}</div>
-        <button
-          onClick={() => finishQuestion(q.parts.map((_, i) => picked[i] ?? []), false)}
-          disabled={!ready}
-          style={{
-            minWidth: 140,
-            minHeight: 48,
-            padding: '0 24px',
-            background: 'hsl(var(--primary))',
-            color: 'hsl(var(--ink))',
-            border: 'none',
-            borderRadius: 'var(--radius)',
-            fontSize: 16,
-            fontWeight: 700,
-            fontFamily: 'var(--font-sans)',
-            opacity: ready ? 1 : 0.5,
-          }}
-        >
-          {isLast ? 'Terminer' : 'Valider'}
-        </button>
-      </div>
+      <QuestionCard
+        question={q}
+        index={index}
+        total={total}
+        picked={picked}
+        revealed={false}
+        variant="exam"
+        onPick={handlePick}
+        onSubmit={() => finishQuestion(q.parts.map((_, i) => picked[i] ?? []), false)}
+        onNext={() => {}}
+      />
     </div>
   )
 }

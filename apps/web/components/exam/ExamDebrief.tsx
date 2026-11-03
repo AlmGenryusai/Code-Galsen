@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { QuestionBody } from '@/components/quiz/QuestionBody'
-import { scoreByTheme, targetScore } from '@/lib/quiz/exam'
+import { CorrectionSheet } from './CorrectionSheet'
+import { scoreByTheme, stepCorrection, targetScore } from '@/lib/quiz/exam'
 import { themeTitle } from '@/lib/quiz/taxonomy'
 import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
 
@@ -11,6 +11,7 @@ export interface ExamAnswer {
   picked: OptionId[][]
   correct: boolean
   timedOut: boolean
+  orders?: OptionId[][] // ordre affiché des options ; absent = ordre du JSON
 }
 
 interface ExamDebriefProps {
@@ -18,7 +19,6 @@ interface ExamDebriefProps {
   answers: ExamAnswer[] // même ordre que `questions`
 }
 
-const BAR_HEIGHT = 72
 const SAFE_BOTTOM = 'calc(24px + env(safe-area-inset-bottom))'
 
 const headerStyle = {
@@ -71,36 +71,14 @@ export function ExamDebrief({ questions, answers }: ExamDebriefProps) {
   const themes = scoreByTheme(questions.map((q, i) => ({ theme: q.theme, correct: answers[i].correct })))
 
   if (open !== null) {
-    const q = questions[open]
-    const a = answers[open]
     return (
-      <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', display: 'flex', flexDirection: 'column' }}>
-        <div style={{ ...headerStyle, padding: '4px 16px 4px 8px' }}>
-          <button
-            onClick={() => setOpen(null)}
-            style={{ background: 'none', border: 'none', color: 'inherit', fontSize: 28, lineHeight: 1, minWidth: 44, minHeight: 48 }}
-            aria-label="Retour au débrief"
-          >
-            ‹
-          </button>
-          <div style={{ flex: 1, fontSize: 16, fontWeight: 700 }}>Question {open + 1} / {total}</div>
-        </div>
-        <div style={{ flex: 1, overflowY: 'auto', paddingBottom: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom) + 16px)` }}>
-          {a.timedOut && (
-            <p style={{ padding: '12px 20px 0', fontSize: 15, fontWeight: 600, color: 'hsl(var(--wrong))' }}>Temps écoulé</p>
-          )}
-          <QuestionBody question={q} picked={a.picked} revealed onPick={() => {}} />
-        </div>
-        <div style={{
-          position: 'fixed', bottom: 0, left: 0, right: 0, maxWidth: 430, margin: '0 auto',
-          height: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom))`,
-          padding: '0 16px', paddingBottom: 'env(safe-area-inset-bottom)',
-          display: 'flex', alignItems: 'center',
-          background: 'hsl(var(--bg))', borderTop: '1px solid hsl(var(--sand))',
-        }}>
-          <button onClick={() => setOpen(null)} style={primaryButton}>Retour au débrief</button>
-        </div>
-      </div>
+      <CorrectionSheet
+        questions={questions}
+        answers={answers}
+        index={open}
+        onStep={(dir) => setOpen(stepCorrection(open, total, dir))}
+        onClose={() => setOpen(null)}
+      />
     )
   }
 
