@@ -3,6 +3,12 @@
     "id": "t01-c04-0001",
     "theme": "t01",
     "chapter": "t01-c04",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c04-0001.webp",
+      "alt": "Entrée d'une petite ville avec son panneau de nom, rue bordée de maisons",
+      "credit": "Tabl-trai, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "En agglomération, la vitesse maximale d'une voiture est :",
@@ -43,6 +49,12 @@
     "id": "t01-c04-0002",
     "theme": "t01",
     "chapter": "t01-c04",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c04-0002.webp",
+      "alt": "Rue de village avec un panneau signalant des enfants",
+      "credit": "Tabl-trai, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Aux abords d'une école, d'un hôpital ou d'une mosquée ou église, la vitesse maximale d'une voiture est :",
@@ -83,6 +95,12 @@
     "id": "t01-c04-0003",
     "theme": "t01",
     "chapter": "t01-c04",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c04-0003.webp",
+      "alt": "Autoroute par temps clair avec peu de circulation",
+      "credit": "Anthony Levrot, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Sur autoroute, par temps normal, la vitesse maximale d'une voiture est :",
@@ -123,6 +141,12 @@
     "id": "t01-c04-0004",
     "theme": "t01",
     "chapter": "t01-c04",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c04-0004.webp",
+      "alt": "Route de campagne à double sens par temps clair",
+      "credit": "Tabl-trai, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Sur une route à double sens sans séparateur central, par temps normal, ma voiture roule à :",
@@ -163,6 +187,12 @@
     "id": "t01-c04-0005",
     "theme": "t01",
     "chapter": "t01-c04",
+    "media": {
+      "kind": "photo",
+      "src": "p31.webp",
+      "alt": "Conduite sous la pluie, essuie-glaces en marche",
+      "credit": "Oregon Department of Transportation, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Au volant d'une voiture, il pleut sur une route à deux voies par sens, sans terre-plein. Ma vitesse maximale est :",
@@ -203,6 +233,12 @@
     "id": "t01-c04-0006",
     "theme": "t01",
     "chapter": "t01-c04",
+    "media": {
+      "kind": "photo",
+      "src": "p32.webp",
+      "alt": "Phares d'une voiture dans un brouillard épais",
+      "credit": "Marek Ślusarczyk (Tupungato), CC BY 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Au volant d'une voiture, la visibilité est inférieure à 50 mètres (brouillard, poussière). Ma vitesse maximale est :",
@@ -285,6 +321,12 @@
     "id": "t01-c04-0008",
     "theme": "t01",
     "chapter": "t01-c04",
+    "media": {
+      "kind": "photo",
+      "src": "p24.webp",
+      "alt": "Panneau de limitation à 40 au bord d'une route",
+      "credit": "Kamil Czaiński, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Un panneau limite à 40 km/h sur une route où la loi permet 90. En voiture, je roule à :",

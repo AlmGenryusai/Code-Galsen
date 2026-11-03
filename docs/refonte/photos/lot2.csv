@@ -1,0 +1,13 @@
+﻿id;énoncé;photo à trouver (scène, sans donner la réponse);difficulté;pistes Commons;source (File:...);URL;licence;auteur;statut (trouvée / non trouvée / à reclasser);ce que montre la photo;pourquoi elle convient
+t01-c02-0007;Une ambulance avec sirène arrive derrière moi. Je :;Ambulance gyrophare allumé visible derrière dans le rétroviseur, route à 2 voies;moyen;Category:Ambulances in use | Category:Rear-view mirrors;;;;;;;
+t01-c02-0008;Un cortège officiel escorté par la police arrive. Je :;Cortège de véhicules escortés par police ou gendarmerie approchant sur la route;moyen;Category:Police escorts;;;;;;;
+t01-c02-0010;Je sors d'une cour ou d'un chemin privé vers la route. Je dois :;Sortie d'un chemin privé ou d'une cour vers une route fréquentée, vue depuis la sortie;moyen;;;;;;;;
+t01-c03-0002;La route n'a qu'une voie et je ne vois pas loin devant. Je roule :;Route étroite à une seule voie avec virage, visibilité réduite, vue conducteur;facile;Category:Blind curves;;;;;;;
+t01-c03-0003;La chaussée est séparée en deux voies par une ligne continue. Je :;Chaussée à deux sens séparée par une ligne continue, véhicule lent devant, vue conducteur;facile;Category:Road markings;;;;;;;
+t01-c03-0004;Une ligne discontinue est à ma gauche. Je peux la franchir :;Chaussée à deux voies séparées par ligne discontinue, camion lent devant, vue conducteur;facile;Category:Road markings | Category:Trucks on roads;;;;;;;
+t01-c03-0005;À ma gauche : une ligne continue collée à une ligne discontinue, la continue étant la plus proche de moi. Je :;Ligne mixte (continue d'un côté, discontinue de l'autre) vue de la voie du conducteur;difficile (m03 jamais trouvée);Category:Road markings;;;;;;;
+t01-c03-0006;Un monument est au milieu d'une place. Sauf panneau contraire, je le contourne :;Place avec monument ou îlot central, véhicules qui le contournent;moyen;;;;;;;;
+t01-c03-0007;Je croise un véhicule sur une route à une seule voie. Je :;Route à une seule voie, deux véhicules qui se croisent;moyen;;;;;;;;
+t01-c03-0008;Une moto peut-elle rouler sur le trottoir pour éviter un bouchon ?;Moto qui roule sur le trottoir au milieu d'un bouchon en ville;moyen;;;;;;;;
+t01-c03-0009;Sur une chaussée à plusieurs voies, je circule :;Chaussée à plusieurs voies dans le même sens, vue conducteur;facile;;;;;;;;
+t01-c03-0010;La chaussée a trois voies séparées par des lignes discontinues. Je veux dépasser : puis-je rouler sur la voie la plus à gauche ?;Route à trois voies séparées par lignes discontinues, vue conducteur;moyen;Category:Road markings;;;;;;;

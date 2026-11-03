@@ -1,0 +1,13 @@
+﻿id;énoncé;photo à trouver (scène, sans donner la réponse);difficulté;pistes Commons;source (File:...);URL;licence;auteur;statut (trouvée / non trouvée / à reclasser);ce que montre la photo;pourquoi elle convient
+t03-c02-0002;Sur une autoroute, en voiture, la vitesse maximale par temps normal est :;Autoroute dégagée par temps clair, vue conducteur;facile;Category:Motorways;;;;;;;
+t03-c02-0003;Il pleut sur l'autoroute. En voiture, ma vitesse maximale est :;Autoroute sous la pluie, vue conducteur;facile;Category:Motorways | Category:Roads in rain;;;;;;;
+t03-c02-0004;La bande d'arrêt d'urgence sert à :;Bande d'arrêt d'urgence sur une autoroute, vue conducteur;facile;Category:Motorways;;;;;;;
+t03-c02-0005;Je suis en panne sur l'autoroute. Je :;Voiture en panne sur autoroute, feux de détresse, conducteur et passagers derrière la glissière;moyen;"Category:Traffic lights; Category:Flashing traffic lights | Category:Motorways | Category:Broken down vehicles; Category:Warning triangles";;;;;;;
+t03-c02-0007;Sur une bretelle d'insertion, j'accélère pour :;Bretelle d'insertion sur autoroute, voiture qui s'intègre au trafic;facile;Category:Motorways;;;;;;;
+t03-c03-0001;Aux abords d'une école, d'un hôpital ou d'un lieu de culte, la vitesse maximale est :;Abords d'une école, d'un hôpital ou d'un lieu de culte, vue conducteur;facile;Category:School zones;;;;;;;
+t03-c03-0002;Dans une aire piétonne, les véhicules autorisés roulent :;Aire piétonne avec véhicule autorisé qui roule au pas;moyen;Category:Pedestrian crossings | Category:Pedestrian zones;;;;;;;
+t03-c03-0003;Un passage à niveau a des barrières. Je :;Passage à niveau avec barrières fermées et train qui approche, vue conducteur;moyen;Category:Level crossings;;;;;;;
+t03-c03-0004;Je suis sur une voie ferrée et un train approche. Je :;Véhicule arrêté sur une voie ferrée, train visible au loin;difficile;Category:Level crossings;;;;;;;
+t03-c03-0005;Dans une descente rapide ou à l'approche d'un virage, je :;Route en forte descente avec virage serré en contrebas, vue conducteur;facile;Category:Blind curves;;;;;;;
+t03-c03-0006;Sur une route étroite, encombrée ou bordée d'habitations, je roule :;Rue étroite, encombrée et bordée d'habitations, vue conducteur;facile;;;;;;;;
+t03-c03-0007;Un panneau triangulaire annonce un ralentisseur de type dos d'âne. Je :;Dos d'âne avec panneau triangulaire d'annonce, vue conducteur;facile;Category:Speed bumps;;;;;;;

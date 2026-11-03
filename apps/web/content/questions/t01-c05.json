@@ -3,6 +3,12 @@
     "id": "t01-c05-0001",
     "theme": "t01",
     "chapter": "t01-c05",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c05-0001.webp",
+      "alt": "Car qui arrive en face sur une route à double sens",
+      "credit": "WILLAV-FR, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je croise un véhicule qui vient en face. Je me place :",
@@ -43,6 +49,12 @@
     "id": "t01-c05-0002",
     "theme": "t01",
     "chapter": "t01-c05",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c05-0002.webp",
+      "alt": "Dépassement d'un camion sur une route à double sens",
+      "credit": "BrokenSphere, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Avant de dépasser, je dois :",
@@ -124,6 +136,12 @@
     "id": "t01-c05-0004",
     "theme": "t01",
     "chapter": "t01-c05",
+    "media": {
+      "kind": "photo",
+      "src": "p28.webp",
+      "alt": "Véhicule qui approche, vu dans le rétroviseur",
+      "credit": "Bob Adams from Amanzimtoti, South Africa, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Un véhicule va me dépasser. Je :",
