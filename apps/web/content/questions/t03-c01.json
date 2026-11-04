@@ -4,6 +4,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Il y a du brouillard.",
+    "media": {
+      "kind": "photo",
+      "src": "s06.webp",
+      "alt": "Phares d'un véhicule dans un épais brouillard",
+      "credit": "Tupungato, CC BY 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je roule avec :",
@@ -41,6 +47,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Je roule dans le brouillard.",
+    "media": {
+      "kind": "photo",
+      "src": "s06.webp",
+      "alt": "Phares d'un véhicule dans un épais brouillard",
+      "credit": "Tupungato, CC BY 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -63,6 +75,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "En voiture, je vois à moins de 50 mètres.",
+    "media": {
+      "kind": "photo",
+      "src": "s06.webp",
+      "alt": "Phares d'un véhicule dans un épais brouillard",
+      "credit": "Tupungato, CC BY 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

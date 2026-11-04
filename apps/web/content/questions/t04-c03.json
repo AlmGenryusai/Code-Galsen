@@ -4,6 +4,13 @@
     "theme": "t04",
     "chapter": "t04-c03",
     "context": "Je rattrape une charrette tractée par un âne.",
+    "media": {
+      "kind": "photo",
+      "src": "s13.webp",
+      "alt": "Charrette lourdement chargée tirée par deux ânes sur une route goudronnée",
+      "credit": "NigerTZai, CC BY-SA 4.0, Wikimedia Commons",
+      "badge": "charrette"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -25,6 +32,13 @@
     "theme": "t04",
     "chapter": "t04-c03",
     "context": "Je veux dépasser une charrette.",
+    "media": {
+      "kind": "photo",
+      "src": "s13.webp",
+      "alt": "Charrette lourdement chargée tirée par deux ânes sur une route goudronnée",
+      "credit": "NigerTZai, CC BY-SA 4.0, Wikimedia Commons",
+      "badge": "charrette"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -47,6 +61,13 @@
     "theme": "t04",
     "chapter": "t04-c03",
     "context": "Je dépasse une charrette.",
+    "media": {
+      "kind": "photo",
+      "src": "s13.webp",
+      "alt": "Charrette lourdement chargée tirée par deux ânes sur une route goudronnée",
+      "credit": "NigerTZai, CC BY-SA 4.0, Wikimedia Commons",
+      "badge": "charrette"
+    },
     "parts": [
       {
         "kind": "yesno",

@@ -63,6 +63,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Un passage à niveau a des barrières. Le train est loin.",
+    "media": {
+      "kind": "photo",
+      "src": "s04.webp",
+      "alt": "Passage à niveau à barrières et panneaux de limitation",
+      "credit": "Mcivory, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

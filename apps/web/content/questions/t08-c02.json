@@ -91,6 +91,12 @@
     "theme": "t08",
     "chapter": "t08-c02",
     "context": "Je change une roue.",
+    "media": {
+      "kind": "photo",
+      "src": "s18.webp",
+      "alt": "Deux hommes changent une roue de pick-up au bord d'une route",
+      "credit": "David Gubler, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
