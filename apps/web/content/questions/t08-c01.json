@@ -3,30 +3,12 @@
     "id": "t08-c01-0001",
     "theme": "t08",
     "chapter": "t08-c01",
+    "context": "Le voyant rouge de pression d'huile s'allume.",
     "parts": [
       {
-        "text": "Le voyant rouge de pression d'huile s'allume. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "continue jusqu'à destination"
-          },
-          {
-            "id": "B",
-            "text": "m'arrête vite et coupe le moteur"
-          },
-          {
-            "id": "C",
-            "text": "accélère pour chauffer l'huile"
-          },
-          {
-            "id": "D",
-            "text": "l'ignore si le moteur tourne bien"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je continue jusqu'à destination :",
+        "correct": "no"
       }
     ],
     "explanation": "Sans huile, le moteur se détruit en quelques minutes. On s'arrête et on coupe.",
@@ -43,25 +25,22 @@
     "id": "t08-c01-0002",
     "theme": "t08",
     "chapter": "t08-c01",
+    "context": "Le voyant de température de l'eau est rouge.",
     "parts": [
       {
-        "text": "Le voyant de température de l'eau est rouge. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "continue en roulant doucement"
+            "text": "continue doucement"
           },
           {
             "id": "B",
-            "text": "m'arrête et laisse refroidir"
+            "text": "m'arrête, laisse refroidir"
           },
           {
             "id": "C",
-            "text": "verse de l'eau froide sur le radiateur"
-          },
-          {
-            "id": "D",
-            "text": "ouvre le bouchon tout de suite"
+            "text": "verse de l'eau froide"
           }
         ],
         "correct": [
@@ -85,28 +64,9 @@
     "chapter": "t08-c01",
     "parts": [
       {
-        "text": "Un véhicule doit avoir au moins :",
-        "options": [
-          {
-            "id": "A",
-            "text": "un rétroviseur"
-          },
-          {
-            "id": "B",
-            "text": "deux rétroviseurs"
-          },
-          {
-            "id": "C",
-            "text": "un rétroviseur à l'arrière"
-          },
-          {
-            "id": "D",
-            "text": "aucun rétroviseur si je regarde derrière"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Un véhicule doit avoir au moins deux rétroviseurs :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un véhicule automobile doit être muni d'au moins deux miroirs rétroviseurs.",
@@ -123,30 +83,12 @@
     "id": "t08-c01-0004",
     "theme": "t08",
     "chapter": "t08-c01",
+    "context": "Le freinage d'un véhicule.",
     "parts": [
       {
-        "text": "Le freinage d'un véhicule doit pouvoir s'exercer par :",
-        "options": [
-          {
-            "id": "A",
-            "text": "un seul dispositif de freinage"
-          },
-          {
-            "id": "B",
-            "text": "un dispositif principal et un de secours"
-          },
-          {
-            "id": "C",
-            "text": "le frein moteur uniquement"
-          },
-          {
-            "id": "D",
-            "text": "le frein à main uniquement, au besoin"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Un seul dispositif de freinage suffit :",
+        "correct": "no"
       }
     ],
     "explanation": "La loi exige deux dispositifs de freinage indépendants : un principal et un de secours.",
@@ -163,30 +105,12 @@
     "id": "t08-c01-0005",
     "theme": "t08",
     "chapter": "t08-c01",
+    "context": "Je regarde mes pneus.",
     "parts": [
       {
-        "text": "Mes pneus doivent présenter :",
-        "options": [
-          {
-            "id": "A",
-            "text": "des sculptures apparentes"
-          },
-          {
-            "id": "B",
-            "text": "aucune sculpture, pour mieux adhérer"
-          },
-          {
-            "id": "C",
-            "text": "des déchirures profondes"
-          },
-          {
-            "id": "D",
-            "text": "des éléments métalliques saillants"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Ils doivent présenter des sculptures apparentes :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les pneus doivent avoir des sculptures apparentes sur toute leur surface et aucune déchirure profonde.",
@@ -213,15 +137,11 @@
           },
           {
             "id": "B",
-            "text": "de la musique à fort volume"
+            "text": "de la musique forte"
           },
           {
             "id": "C",
-            "text": "un son continu dans les villes"
-          },
-          {
-            "id": "D",
-            "text": "aucun son en agglomération"
+            "text": "un son continu en ville"
           }
         ],
         "correct": [
