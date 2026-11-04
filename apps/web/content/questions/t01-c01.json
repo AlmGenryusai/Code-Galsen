@@ -3,30 +3,12 @@
     "id": "t01-c01-0001",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un panneau rond, fond blanc, bordé de rouge.",
     "parts": [
       {
-        "text": "Un panneau rond, fond blanc, bordé de rouge, signifie :",
-        "options": [
-          {
-            "id": "A",
-            "text": "une obligation"
-          },
-          {
-            "id": "B",
-            "text": "un danger"
-          },
-          {
-            "id": "C",
-            "text": "une interdiction"
-          },
-          {
-            "id": "D",
-            "text": "une simple indication"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Il signifie une interdiction :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les panneaux d'interdiction sont ronds, à fond blanc bordé de rouge. Seul le sens interdit a un fond rouge entier. Les obligations sont sur fond bleu.",
@@ -43,6 +25,7 @@
     "id": "t01-c01-0002",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un triangle inversé (pointe en bas) bordé de rouge.",
     "media": {
       "kind": "sign",
       "src": "cedez-le-passage",
@@ -51,7 +34,7 @@
     },
     "parts": [
       {
-        "text": "Un triangle inversé (pointe en bas) bordé de rouge signifie :",
+        "text": "Il signifie :",
         "options": [
           {
             "id": "A",
@@ -64,10 +47,6 @@
           {
             "id": "C",
             "text": "Sens interdit"
-          },
-          {
-            "id": "D",
-            "text": "Zone de danger"
           }
         ],
         "correct": [
@@ -88,30 +67,12 @@
     "id": "t01-c01-0003",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Une ligne continue sépare les voies.",
     "parts": [
       {
-        "text": "Le dépassement est interdit :",
-        "options": [
-          {
-            "id": "A",
-            "text": "de nuit uniquement, quelle que soit la route"
-          },
-          {
-            "id": "B",
-            "text": "sur toute route hors des agglomérations"
-          },
-          {
-            "id": "C",
-            "text": "sur les routes nationales uniquement"
-          },
-          {
-            "id": "D",
-            "text": "là où une ligne continue sépare les voies"
-          }
-        ],
-        "correct": [
-          "D"
-        ]
+        "kind": "yesno",
+        "statement": "Le dépassement est interdit :",
+        "correct": "yes"
       }
     ],
     "explanation": "La ligne continue au centre de la chaussée interdit formellement tout dépassement. Seule la ligne discontinue autorise le franchissement.",
@@ -127,6 +88,7 @@
     "id": "t01-c01-0004",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Le feu passe à l'orange fixe.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c01-0004.webp",
@@ -135,23 +97,19 @@
     },
     "parts": [
       {
-        "text": "Un feu orange fixe m'indique de :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "accélérer pour passer avant le rouge"
+            "text": "accélère pour passer"
           },
           {
             "id": "B",
-            "text": "m'arrêter si je peux le faire en sécurité"
+            "text": "m'arrête si possible"
           },
           {
             "id": "C",
-            "text": "m'arrêter dans tous les cas, comme au rouge"
-          },
-          {
-            "id": "D",
-            "text": "laisser la priorité aux piétons seulement"
+            "text": "m'arrête dans tous les cas"
           }
         ],
         "correct": [
@@ -172,30 +130,12 @@
     "id": "t01-c01-0005",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un feu rouge clignotant annonce un passage à niveau non gardé.",
     "parts": [
       {
-        "text": "Un feu rouge clignotant indique un passage à niveau non gardé. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ralentis et passe prudemment"
-          },
-          {
-            "id": "B",
-            "text": "m'arrête : arrêt absolu"
-          },
-          {
-            "id": "C",
-            "text": "cède à droite et passe"
-          },
-          {
-            "id": "D",
-            "text": "passe si la route est libre"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je m'arrête, arrêt absolu :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les feux rouges clignotants sont réservés aux passages à niveau non gardés et aux aérodromes. Ils signifient arrêt absolu.",
@@ -212,6 +152,7 @@
     "id": "t01-c01-0006",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Je suis face à un panneau STOP.",
     "media": {
       "kind": "sign",
       "src": "stop",
@@ -220,28 +161,9 @@
     },
     "parts": [
       {
-        "text": "Face à un panneau STOP, je dois :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ralentir et passer si la voie est libre"
-          },
-          {
-            "id": "B",
-            "text": "faire un arrêt complet puis céder"
-          },
-          {
-            "id": "C",
-            "text": "tourner obligatoirement à droite avant"
-          },
-          {
-            "id": "D",
-            "text": "klaxonner avant de m'engager ici"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je fais un arrêt complet puis je cède :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le STOP impose de vous arrêter complètement, même si la route semble libre, puis de céder le passage aux usagers qui arrivent.",
@@ -257,29 +179,26 @@
     "id": "t01-c01-0007",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Sur une route interurbaine, des branches d'arbre sont posées sur la chaussée.",
     "parts": [
       {
-        "text": "Au Sénégal, sur une route interurbaine, des branches d'arbre déposées sur la chaussée signalent généralement :",
+        "text": "Elles signalent généralement :",
         "options": [
           {
             "id": "A",
-            "text": "un mariage en cours à proximité"
+            "text": "un mariage à proximité"
           },
           {
             "id": "B",
-            "text": "une zone de chasse ou de pâturage"
-          },
-          {
-            "id": "C",
             "text": "un arrêt de car rapide"
           },
           {
-            "id": "D",
-            "text": "une panne ou un accident devant"
+            "id": "C",
+            "text": "une panne ou un accident"
           }
         ],
         "correct": [
-          "D"
+          "C"
         ]
       }
     ],
@@ -296,30 +215,12 @@
     "id": "t01-c01-0008",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un losange jaune.",
     "parts": [
       {
-        "text": "Ce panneau (losange jaune) signifie :",
-        "options": [
-          {
-            "id": "A",
-            "text": "la fin de la priorité pour moi"
-          },
-          {
-            "id": "B",
-            "text": "une route prioritaire"
-          },
-          {
-            "id": "C",
-            "text": "l'obligation de céder le passage"
-          },
-          {
-            "id": "D",
-            "text": "l'annonce d'une zone de danger"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Il indique une route prioritaire :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le losange jaune indique que vous êtes sur une route prioritaire. Aux intersections, les autres routes vous cèdent le passage.",
@@ -342,30 +243,12 @@
     "id": "t01-c01-0009",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un losange jaune barré de noir.",
     "parts": [
       {
-        "text": "Ce losange jaune barré de noir signifie :",
-        "options": [
-          {
-            "id": "A",
-            "text": "le début de la priorité"
-          },
-          {
-            "id": "B",
-            "text": "la fin de la priorité"
-          },
-          {
-            "id": "C",
-            "text": "l'interdiction de stationner"
-          },
-          {
-            "id": "D",
-            "text": "la fin de l'agglomération"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Il indique le début de la priorité :",
+        "correct": "no"
       }
     ],
     "explanation": "Après ce panneau, la route n'est plus prioritaire. Les règles de la droite s'appliquent de nouveau aux intersections.",
@@ -388,30 +271,12 @@
     "id": "t01-c01-0010",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un panneau rond blanc et rouge, avec une flèche rouge qui monte.",
     "parts": [
       {
-        "text": "Ce panneau rond blanc et rouge, avec une flèche rouge qui monte, signifie :",
-        "options": [
-          {
-            "id": "A",
-            "text": "j'ai la priorité sur ceux d'en face"
-          },
-          {
-            "id": "B",
-            "text": "je cède aux véhicules venant en face"
-          },
-          {
-            "id": "C",
-            "text": "il est interdit de dépasser ici"
-          },
-          {
-            "id": "D",
-            "text": "la route est à sens unique"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je cède aux véhicules en face :",
+        "correct": "yes"
       }
     ],
     "explanation": "La flèche rouge montante représente ceux qui arrivent en face : ils passent d'abord. C'est à moi de leur céder le passage.",
@@ -434,30 +299,12 @@
     "id": "t01-c01-0011",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un panneau bleu carré, avec la flèche blanche qui monte.",
     "parts": [
       {
-        "text": "Ce panneau bleu carré, avec la flèche blanche qui monte, signifie :",
-        "options": [
-          {
-            "id": "A",
-            "text": "je cède le passage à ceux d'en face"
-          },
-          {
-            "id": "B",
-            "text": "j'ai la priorité sur ceux d'en face"
-          },
-          {
-            "id": "C",
-            "text": "la route est à sens unique"
-          },
-          {
-            "id": "D",
-            "text": "la route prioritaire se termine"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je cède à ceux d'en face :",
+        "correct": "no"
       }
     ],
     "explanation": "Sur ce panneau bleu, la flèche blanche montante est votre direction : vous avez la priorité sur le sens inverse (l'autre flèche, rouge, doit vous laisser passer).",
@@ -480,9 +327,10 @@
     "id": "t01-c01-0012",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un triangle avec une croix noire.",
     "parts": [
       {
-        "text": "Ce triangle avec une croix noire annonce :",
+        "text": "Il annonce :",
         "options": [
           {
             "id": "A",
@@ -490,15 +338,11 @@
           },
           {
             "id": "B",
-            "text": "une intersection de deux routes"
+            "text": "une intersection"
           },
           {
             "id": "C",
             "text": "un rond-point"
-          },
-          {
-            "id": "D",
-            "text": "une route prioritaire"
           }
         ],
         "correct": [
@@ -526,13 +370,14 @@
     "id": "t01-c01-0013",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un triangle avec trois flèches en cercle.",
     "parts": [
       {
-        "text": "Ce triangle avec trois flèches en cercle annonce un rond-point. Au rond-point, je :",
+        "text": "Au rond-point, je :",
         "options": [
           {
             "id": "A",
-            "text": "passe avant ceux déjà engagés"
+            "text": "passe avant ceux engagés"
           },
           {
             "id": "B",
@@ -541,10 +386,6 @@
           {
             "id": "C",
             "text": "klaxonne puis j'entre"
-          },
-          {
-            "id": "D",
-            "text": "entre vite pour ne pas gêner"
           }
         ],
         "correct": [
@@ -574,28 +415,9 @@
     "chapter": "t01-c01",
     "parts": [
       {
-        "text": "Les panneaux qui annoncent un danger sont :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ronds, à fond bleu foncé"
-          },
-          {
-            "id": "B",
-            "text": "triangulaires, bordés de rouge"
-          },
-          {
-            "id": "C",
-            "text": "carrés, à fond rouge uni"
-          },
-          {
-            "id": "D",
-            "text": "rectangulaires, à fond vert clair"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Les panneaux de danger sont ronds, à fond bleu :",
+        "correct": "no"
       }
     ],
     "explanation": "Les signaux de danger sont de forme triangulaire, fond crème, bordés d'un listel rouge. Un danger se lit avant d'être près.",
@@ -612,10 +434,11 @@
     "id": "t01-c01-0016",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un panneau rond à fond bleu foncé, avec un symbole blanc.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Un panneau rond à fond bleu foncé, avec un symbole blanc, indique une obligation :",
+        "statement": "Il indique une obligation :",
         "correct": "yes"
       }
     ],
@@ -639,6 +462,7 @@
     "id": "t01-c01-0017",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Le feu est rouge fixe.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c01-0017.webp",
@@ -647,11 +471,11 @@
     },
     "parts": [
       {
-        "text": "Le feu rouge fixe signifie :",
+        "text": "Il signifie :",
         "options": [
           {
             "id": "A",
-            "text": "je peux passer si la route est vide"
+            "text": "je passe si c'est vide"
           },
           {
             "id": "B",
@@ -660,10 +484,6 @@
           {
             "id": "C",
             "text": "je ralentis seulement"
-          },
-          {
-            "id": "D",
-            "text": "je cède le passage à droite"
           }
         ],
         "correct": [
@@ -685,6 +505,7 @@
     "id": "t01-c01-0018",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Le feu est jaune fixe.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c01-0018.webp",
@@ -693,28 +514,9 @@
     },
     "parts": [
       {
-        "text": "Le feu jaune fixe signifie :",
-        "options": [
-          {
-            "id": "A",
-            "text": "j'accélère pour passer vite"
-          },
-          {
-            "id": "B",
-            "text": "le rouge arrive : je m'arrête si possible"
-          },
-          {
-            "id": "C",
-            "text": "la même chose que le vert"
-          },
-          {
-            "id": "D",
-            "text": "je cède à ceux de droite"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je m'arrête si possible :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le jaune annonce le rouge. On s'arrête, sauf si on est si près qu'on ne peut plus freiner dans de bonnes conditions de sécurité.",
@@ -731,6 +533,7 @@
     "id": "t01-c01-0019",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Le feu jaune clignote.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c01-0019.webp",
@@ -739,7 +542,7 @@
     },
     "parts": [
       {
-        "text": "Un feu jaune clignotant signifie :",
+        "text": "Il signifie :",
         "options": [
           {
             "id": "A",
@@ -751,11 +554,7 @@
           },
           {
             "id": "C",
-            "text": "la priorité à droite sur tous"
-          },
-          {
-            "id": "D",
-            "text": "un passage libre, à pleine vitesse"
+            "text": "un passage à pleine vitesse"
           }
         ],
         "correct": [
@@ -777,29 +576,26 @@
     "id": "t01-c01-0020",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Un feu rouge clignotant.",
     "parts": [
       {
-        "text": "Un feu rouge clignotant indique :",
+        "text": "Il annonce :",
         "options": [
           {
             "id": "A",
-            "text": "un carrefour : je cède à droite"
+            "text": "un carrefour à priorité"
           },
           {
             "id": "B",
-            "text": "un chantier : je ralentis"
+            "text": "un passage à niveau"
           },
           {
             "id": "C",
-            "text": "un passage à niveau : arrêt absolu"
-          },
-          {
-            "id": "D",
-            "text": "une zone scolaire : je ralentis"
+            "text": "une zone scolaire"
           }
         ],
         "correct": [
-          "C"
+          "B"
         ]
       }
     ],
@@ -817,25 +613,22 @@
     "id": "t01-c01-0021",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Au Sénégal.",
     "parts": [
       {
-        "text": "Au Sénégal, les lignes et marques sur la chaussée sont de couleur :",
+        "text": "Les marques sur la chaussée sont :",
         "options": [
           {
             "id": "A",
-            "text": "blanche"
+            "text": "blanches"
           },
           {
             "id": "B",
-            "text": "jaune"
+            "text": "jaunes"
           },
           {
             "id": "C",
-            "text": "rouge"
-          },
-          {
-            "id": "D",
-            "text": "verte"
+            "text": "rouges"
           }
         ],
         "correct": [
@@ -857,6 +650,7 @@
     "id": "t01-c01-0022",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Le feu est vert, mais un agent me fait signe de m'arrêter.",
     "media": {
       "kind": "photo",
       "src": "p04.webp",
@@ -866,7 +660,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Le feu est vert mais un agent me fait signe de m'arrêter. Je m'arrête :",
+        "statement": "Je m'arrête :",
         "correct": "yes"
       }
     ],
@@ -886,28 +680,9 @@
     "chapter": "t01-c01",
     "parts": [
       {
-        "text": "Les couleurs d'un feu tricolore se succèdent dans l'ordre :",
-        "options": [
-          {
-            "id": "A",
-            "text": "vert, jaune, rouge"
-          },
-          {
-            "id": "B",
-            "text": "rouge, vert, jaune"
-          },
-          {
-            "id": "C",
-            "text": "vert, rouge, jaune"
-          },
-          {
-            "id": "D",
-            "text": "jaune, vert, rouge"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Un feu tricolore passe du vert au rouge, puis au jaune :",
+        "correct": "no"
       }
     ],
     "explanation": "Les couleurs se succèdent dans l'ordre vert, jaune, rouge, puis de nouveau vert. Le jaune annonce donc toujours le rouge.",
@@ -924,6 +699,7 @@
     "id": "t01-c01-0024",
     "theme": "t01",
     "chapter": "t01-c01",
+    "context": "Le feu est rouge, mais une flèche verte horizontale est allumée vers la droite.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c01-0024.webp",
@@ -932,28 +708,9 @@
     },
     "parts": [
       {
-        "text": "Le feu est rouge, mais une flèche verte horizontale est allumée vers la droite. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "tourne à droite au ralenti, en laissant passer les piétons"
-          },
-          {
-            "id": "B",
-            "text": "tourne à droite sans ralentir : la flèche annule le rouge"
-          },
-          {
-            "id": "C",
-            "text": "continue tout droit : la flèche m'autorise à passer"
-          },
-          {
-            "id": "D",
-            "text": "reste arrêté, même pour tourner, jusqu'au vert franc"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Je tourne à droite au ralenti, piétons prioritaires :",
+        "correct": "yes"
       }
     ],
     "explanation": "La flèche verte permet seulement de tourner dans la voie située à droite, au ralenti. Cédez aux piétons engagés dans la traversée et ne gênez pas la voie transversale.",

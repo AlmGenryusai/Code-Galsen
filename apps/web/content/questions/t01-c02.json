@@ -3,6 +3,7 @@
     "id": "t01-c02-0001",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Je suis à un carrefour sans signalisation.",
     "media": {
       "kind": "photo",
       "src": "p01.webp",
@@ -11,28 +12,9 @@
     },
     "parts": [
       {
-        "text": "À un carrefour sans signalisation, qui est prioritaire ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "celui qui vient de gauche"
-          },
-          {
-            "id": "B",
-            "text": "celui qui vient de droite"
-          },
-          {
-            "id": "C",
-            "text": "celui qui roule le plus vite"
-          },
-          {
-            "id": "D",
-            "text": "celui qui klaxonne en premier"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Celui qui vient de gauche est prioritaire :",
+        "correct": "no"
       }
     ],
     "explanation": "Règle de priorité à droite : le véhicule venant de droite est prioritaire à tout carrefour sans signalisation.",
@@ -48,6 +30,7 @@
     "id": "t01-c02-0002",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Je roule sur une route signalée prioritaire, à une intersection.",
     "media": {
       "kind": "sign",
       "src": "route-prioritaire",
@@ -56,28 +39,9 @@
     },
     "parts": [
       {
-        "text": "Sur une route signalée comme prioritaire, qui a la priorité à une intersection ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "le véhicule qui arrive de droite"
-          },
-          {
-            "id": "B",
-            "text": "celui de la route prioritaire"
-          },
-          {
-            "id": "C",
-            "text": "le premier arrivé"
-          },
-          {
-            "id": "D",
-            "text": "le véhicule le plus lourd"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "J'ai la priorité sur les autres routes :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur une route prioritaire, les véhicules qui y circulent ont la priorité sur tous ceux venant des voies secondaires.",
@@ -93,10 +57,11 @@
     "id": "t01-c02-0003",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "À un carrefour sans signalisation, un véhicule arrive à ma droite.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "À un carrefour sans signalisation, un véhicule arrive à ma droite. Je lui cède le passage :",
+        "statement": "Je lui cède le passage :",
         "correct": "yes"
       }
     ],
@@ -114,6 +79,7 @@
     "id": "t01-c02-0004",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Je suis face à un panneau STOP.",
     "media": {
       "kind": "photo",
       "src": "p03.webp",
@@ -122,28 +88,9 @@
     },
     "parts": [
       {
-        "text": "Face à un panneau STOP, je dois :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ralentir sans m'arrêter si la route est vide"
-          },
-          {
-            "id": "B",
-            "text": "m'arrêter à la limite, puis céder le passage"
-          },
-          {
-            "id": "C",
-            "text": "klaxonner et passer en premier"
-          },
-          {
-            "id": "D",
-            "text": "céder seulement si je vois un véhicule"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je ralentis sans m'arrêter si la route est vide :",
+        "correct": "no"
       }
     ],
     "explanation": "Le STOP impose un temps d'arrêt à la limite de l'intersection, puis il faut céder aux conducteurs de l'autre route, dans les deux sens.",
@@ -160,29 +107,26 @@
     "id": "t01-c02-0005",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Je suis face à un panneau « Cédez le passage ».",
     "parts": [
       {
-        "text": "Face à un panneau « Cédez le passage », je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "m'arrête toujours, même route vide"
+            "text": "m'arrête toujours"
           },
           {
             "id": "B",
-            "text": "passe, car ma route est plus large"
-          },
-          {
-            "id": "C",
             "text": "cède aux autres routes"
           },
           {
-            "id": "D",
-            "text": "passe en klaxonnant pour prévenir"
+            "id": "C",
+            "text": "passe en klaxonnant"
           }
         ],
         "correct": [
-          "C"
+          "B"
         ]
       }
     ],
@@ -200,6 +144,7 @@
     "id": "t01-c02-0006",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Je suis déjà engagé dans un rond-point. Un véhicule veut y entrer.",
     "media": {
       "kind": "photo",
       "src": "m05.webp",
@@ -208,28 +153,9 @@
     },
     "parts": [
       {
-        "text": "Je suis déjà engagé dans un rond-point. Un véhicule veut y entrer. Qui passe en premier ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "lui, car il arrive vite"
-          },
-          {
-            "id": "B",
-            "text": "le plus gros des deux"
-          },
-          {
-            "id": "C",
-            "text": "moi, car je suis déjà engagé"
-          },
-          {
-            "id": "D",
-            "text": "celui qui klaxonne le premier"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je passe en premier :",
+        "correct": "yes"
       }
     ],
     "explanation": "Dans un carrefour à sens giratoire obligatoire, le conducteur déjà engagé est prioritaire. Celui qui arrive doit attendre.",
@@ -246,9 +172,10 @@
     "id": "t01-c02-0007",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Une ambulance avec sirène arrive derrière moi.",
     "parts": [
       {
-        "text": "Une ambulance avec sirène arrive derrière moi. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
@@ -256,15 +183,11 @@
           },
           {
             "id": "B",
-            "text": "me range pour la laisser passer"
+            "text": "me range pour la laisser"
           },
           {
             "id": "C",
-            "text": "garde ma vitesse en restant à droite"
-          },
-          {
-            "id": "D",
-            "text": "me mets au milieu de la route"
+            "text": "reste au milieu"
           }
         ],
         "correct": [
@@ -286,9 +209,10 @@
     "id": "t01-c02-0008",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Un cortège officiel escorté par la police arrive.",
     "parts": [
       {
-        "text": "Un cortège officiel escorté par la police arrive. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
@@ -301,10 +225,6 @@
           {
             "id": "C",
             "text": "passe avant lui en accélérant"
-          },
-          {
-            "id": "D",
-            "text": "me place dans la file du cortège"
           }
         ],
         "correct": [
@@ -326,6 +246,7 @@
     "id": "t01-c02-0009",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Je m'approche d'une voie ferrée sans barrière.",
     "media": {
       "kind": "photo",
       "src": "p15.webp",
@@ -334,28 +255,9 @@
     },
     "parts": [
       {
-        "text": "Je m'approche d'une voie ferrée sans barrière. Je m'engage :",
-        "options": [
-          {
-            "id": "A",
-            "text": "si je n'entends pas de train"
-          },
-          {
-            "id": "B",
-            "text": "après avoir vérifié qu'aucun train n'arrive"
-          },
-          {
-            "id": "C",
-            "text": "en accélérant pour passer vite"
-          },
-          {
-            "id": "D",
-            "text": "si le véhicule devant moi est passé"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je m'engage si je n'entends pas de train :",
+        "correct": "no"
       }
     ],
     "explanation": "Le train a toujours la priorité. Sans barrière, on ne s'engage qu'après avoir vérifié que le passage est sûr et qu'aucun train n'approche.",
@@ -372,30 +274,12 @@
     "id": "t01-c02-0010",
     "theme": "t01",
     "chapter": "t01-c02",
+    "context": "Je sors d'un chemin privé vers la route.",
     "parts": [
       {
-        "text": "Je sors d'une cour ou d'un chemin privé vers la route. Je dois :",
-        "options": [
-          {
-            "id": "A",
-            "text": "m'engager vite, les autres me verront"
-          },
-          {
-            "id": "B",
-            "text": "marque un temps d'arrêt et cède"
-          },
-          {
-            "id": "C",
-            "text": "klaxonner puis avancer doucement"
-          },
-          {
-            "id": "D",
-            "text": "passer si la route paraît libre à gauche"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je m'engage vite, les autres me verront :",
+        "correct": "no"
       }
     ],
     "explanation": "Celui qui débouche d'un immeuble ou d'un chemin privé s'arrête d'abord et cède le passage aux usagers de la route.",
