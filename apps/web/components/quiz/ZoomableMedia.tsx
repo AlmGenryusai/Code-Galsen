@@ -43,7 +43,7 @@ export function ZoomableMedia({ media }: { media?: Media }) {
 
   return (
     <div style={{ position: 'relative' }}>
-      <MediaFrame media={media} />
+      <MediaFrame media={media} hideCredit />
       <button
         type="button"
         onClick={() => setOpen(true)}
@@ -91,6 +91,11 @@ export function ZoomableMedia({ media }: { media?: Media }) {
           ) : (
             // eslint-disable-next-line @next/next/no-img-element
             <img src={`/media/${media.src}`} alt={media.alt} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+          )}
+          {media.kind !== 'sign' && media.credit && (
+            <span style={{ position: 'absolute', left: 0, right: 0, bottom: 0, padding: '8px 12px', background: 'rgba(0,0,0,0.6)', color: '#fff', fontSize: 12, lineHeight: 1.3 }}>
+              {media.credit}
+            </span>
           )}
           <button ref={closeRef} type="button" onClick={() => setOpen(false)} aria-label="Fermer" style={CLOSE_STYLE}>
             ✕

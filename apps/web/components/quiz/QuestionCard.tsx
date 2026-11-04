@@ -2,7 +2,7 @@ import { ZoomableMedia } from './ZoomableMedia'
 import { ExplanationPanel } from './ExplanationPanel'
 import { orderFor } from '../../lib/quiz/shuffle'
 import { LetterBadge, type BadgeState } from './LetterBadge'
-import { QuizOption, type OptionState } from './QuizOption'
+import { AnswerLine, type OptionState } from './AnswerLine'
 import { KIND_LABEL } from './kind-label'
 import { answerKind, isCorrect } from '../../lib/quiz/correction'
 import { correctIds, correctLettersText, partSlots, partText, type Slot } from '../../lib/quiz/letters'
@@ -23,7 +23,15 @@ interface QuestionCardProps {
   orders?: OptionId[][] // ordre affiché des options par partie (mélange) ; défaut = ordre du JSON
 }
 
-export const BAR_HEIGHT = 96
+const TILE = 56
+const CORRECTION_BAR = 96
+
+/** Hauteur de la barre du bas : libellé, grille A-D (2 colonnes), bouton Valider. */
+function barHeight(variant: string, slotCount: number): number {
+  if (variant === 'correction') return CORRECTION_BAR
+  const rows = Math.max(1, Math.ceil(slotCount / 2))
+  return 8 + 20 + 6 + rows * TILE + (rows - 1) * 8 + 10 + 52 + 8
+}
 const SHOW_DRAFT_BADGE = process.env.NODE_ENV !== 'production'
 
 const ACTION = {
@@ -71,6 +79,7 @@ export function QuestionCard({
   const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
   const ok = revealed && isCorrect(q, picked)
   const isLast = index + 1 >= total
+  const bar = barHeight(variant, slots.reduce((n, s) => n + s.length, 0))
 
   return (
     <>
@@ -78,7 +87,7 @@ export function QuestionCard({
         style={{
           flex: 1,
           overflowY: 'auto',
-          paddingBottom: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom) + 16px)`,
+          paddingBottom: `calc(${bar}px + env(safe-area-inset-bottom) + 16px)`,
         }}
       >
         {variant === 'correction' && onClose && (
@@ -113,23 +122,23 @@ export function QuestionCard({
             const isYesNo = part.kind === 'yesno'
             return (
               <div key={pi} style={{ marginBottom: pi < q.parts.length - 1 ? 24 : 0 }}>
-                <p style={{ fontSize: 18, fontWeight: 700, lineHeight: 1.4, color: 'hsl(var(--ink))', marginBottom: 12 }}>
+                <p style={{ fontSize: 20, fontWeight: 600, lineHeight: 1.35, color: 'hsl(var(--ink))', marginBottom: 8 }}>
                   {partText(part)}
                 </p>
                 <div
                   style={
                     isYesNo
-                      ? { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }
-                      : { display: 'flex', flexDirection: 'column', gap: 10 }
+                      ? { display: 'grid', gridTemplateColumns: '1fr 1fr', columnGap: 20 }
+                      : { display: 'flex', flexDirection: 'column' }
                   }
                 >
                   {slots[pi].map((slot) => (
-                    <QuizOption
+                    <AnswerLine
                       key={slot.id}
-                      id={slot.letter}
+                      letter={slot.letter}
                       text={slot.label}
                       state={slotState(slot, picked[pi]?.includes(slot.id) ?? false, right[pi].includes(slot.id), revealed)}
-                      onSelect={() => onPick(pi, slot.id)}
+                      mono={variant === 'exam'}
                     />
                   ))}
                 </div>
@@ -174,54 +183,73 @@ export function QuestionCard({
           right: 0,
           maxWidth: 430,
           margin: '0 auto',
-          height: `calc(${BAR_HEIGHT}px + env(safe-area-inset-bottom))`,
+          height: `calc(${bar}px + env(safe-area-inset-bottom))`,
           padding: '8px 12px',
           paddingBottom: 'calc(8px + env(safe-area-inset-bottom))',
           display: 'flex',
-          alignItems: 'flex-end',
-          justifyContent: 'space-between',
-          gap: 8,
+          flexDirection: variant === 'correction' ? 'row' : 'column',
+          alignItems: variant === 'correction' ? 'flex-end' : 'stretch',
+          gap: 10,
           background: 'hsl(var(--bg))',
           borderTop: '1px solid hsl(var(--sand))',
         }}
       >
         {variant !== 'correction' && (
-        <div>
-          <div style={{ fontSize: 14, fontWeight: 600, color: 'hsl(var(--ink))', marginBottom: 4 }}>{KIND_LABEL[answerKind(q)]}</div>
-          <div style={{ display: 'flex', gap: 2 }}>
-            {slots.flatMap((partSlotList, pi) =>
-              partSlotList.map((slot) => {
-                const isPicked = picked[pi]?.includes(slot.id) ?? false
-                const state = slotState(slot, isPicked, right[pi].includes(slot.id), revealed)
-                const badge: BadgeState = state === 'checked' || state === 'correct' || state === 'missed' || state === 'wrong' ? state : 'idle'
-                return (
-                  <button
-                    key={slot.id}
-                    type="button"
-                    data-slot={`${pi}:${slot.id}`}
-                    aria-label={`Case ${slot.letter}`}
-                    aria-pressed={revealed ? undefined : isPicked}
-                    disabled={revealed}
-                    onClick={() => onPick(pi, slot.id)}
-                    style={{
-                      width: 44,
-                      height: 44,
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      background: 'none',
-                      border: 'none',
-                      padding: 0,
-                      WebkitTapHighlightColor: 'transparent',
-                    }}
-                  >
-                    <LetterBadge letter={slot.letter} state={badge} />
-                  </button>
-                )
-              }),
-            )}
+          <div style={{ flex: 1 }}>
+            <div style={{ fontSize: 16, fontWeight: 600, color: 'hsl(var(--ink))', textAlign: 'center', marginBottom: 6 }}>{KIND_LABEL[answerKind(q)]}</div>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
+              {slots.flatMap((partSlotList, pi) =>
+                partSlotList.map((slot) => {
+                  const isPicked = picked[pi]?.includes(slot.id) ?? false
+                  const state = slotState(slot, isPicked, right[pi].includes(slot.id), revealed)
+                  const badge: BadgeState = state === 'checked' || state === 'correct' || state === 'missed' || state === 'wrong' ? state : 'idle'
+                  return (
+                    <button
+                      key={slot.id}
+                      type="button"
+                      data-slot={`${pi}:${slot.id}`}
+                      aria-label={`Case ${slot.letter}`}
+                      aria-pressed={revealed ? undefined : isPicked}
+                      disabled={revealed}
+                      onClick={() => onPick(pi, slot.id)}
+                      style={{
+                        height: TILE,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: 14,
+                        background: isPicked && !revealed ? 'hsl(var(--sand))' : 'hsl(var(--surface))',
+                        border: isPicked && !revealed ? '2px solid hsl(var(--structure))' : '1.5px solid hsl(var(--sand))',
+                        borderRadius: 'var(--radius)',
+                        padding: 0,
+                        WebkitTapHighlightColor: 'transparent',
+                      }}
+                    >
+                      <LetterBadge letter={slot.letter} state={badge} mono={variant === 'exam'} />
+                      <span
+                        aria-hidden="true"
+                        style={{
+                          width: 24,
+                          height: 24,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          borderRadius: 6,
+                          border: '1.5px solid hsl(var(--muted))',
+                          background: isPicked ? 'hsl(var(--structure))' : 'transparent',
+                          color: '#fff',
+                          fontSize: 16,
+                          lineHeight: 1,
+                        }}
+                      >
+                        {isPicked ? '✓' : ''}
+                      </span>
+                    </button>
+                  )
+                }),
+              )}
+            </div>
           </div>
-        </div>
         )}
         {variant === 'correction' ? (
           <div style={{ display: 'flex', flex: 1, justifyContent: 'flex-end', gap: 8 }}>
@@ -237,7 +265,7 @@ export function QuestionCard({
             type="button"
             onClick={revealed ? onNext : onSubmit}
             disabled={!revealed && !ready}
-            style={{ ...ACTION, maxWidth: 180, opacity: !revealed && !ready ? 0.5 : 1 }}
+            style={{ ...ACTION, flex: 'none', width: '100%', minHeight: 52, opacity: !revealed && !ready ? 0.5 : 1 }}
           >
             {revealed ? (isLast ? 'Résultats' : 'Suivant') : variant === 'exam' ? (isLast ? 'Terminer' : 'Valider') : `Valider (${index + 1}/${total})`}
           </button>

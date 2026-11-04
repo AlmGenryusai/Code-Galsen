@@ -95,7 +95,7 @@ describe('QuestionCard — rendu', () => {
   })
 
   it('cibles ≥ 44 px (cases du bas)', () => {
-    expect(html(question(undefined, yes('no')))).toContain('width:44px;height:44px')
+    expect(html(question(undefined, yes('no')))).toContain('height:56px')
   })
 
   it('après validation : bonne réponse + lien Explication, pas encore dépliée', () => {
@@ -118,7 +118,7 @@ describe('QuestionCard — rendu', () => {
   })
 
   it('le contenu défile au-dessus de la barre du bas (padding-bottom = barre + safe-area)', () => {
-    expect(html(question(undefined, yes('no')))).toContain('padding-bottom:calc(96px + env(safe-area-inset-bottom) + 16px)')
+    expect(html(question(undefined, yes('no')))).toContain('padding-bottom:calc(160px + env(safe-area-inset-bottom) + 16px)')
   })
 
   it('réponse manquée : juste mais non cochée = « à cocher », distincte de la bonne réponse cochée', () => {
@@ -204,36 +204,34 @@ describe('ExplanationPanel — dépliée', () => {
   })
 })
 
-describe('QuestionCard — une seule source d’état OUI/NON', () => {
+describe('QuestionCard — lignes de réponse et cases du bas', () => {
   const q = question(undefined, yes('no'), yes('yes'))
 
-  it('cocher via le bouton de l’énoncé coche aussi la case du bas (même état)', () => {
-    const out = html(q, { picked: [['A'], []] })
-    const pressed = out.match(/aria-pressed="true"/g) ?? []
-    expect(pressed).toHaveLength(2) // bouton OUI de l’énoncé + case A du bas
-    expect(out).toMatch(/aria-label="Case A" aria-pressed="true"/)
+  it('les lignes de réponse ne sont pas cliquables : seules les cases du bas cochent', () => {
+    const tree = QuestionCard(props(q))
+    const options = find(tree, (el) => typeof (el.props as { onSelect?: unknown }).onSelect === 'function')
+    expect(options).toHaveLength(0)
+    expect(html(q)).toContain('data-line="A"')
   })
 
-  it('énoncé et case du bas appellent le même handler avec les mêmes arguments', () => {
+  it('une case cochée apparaît cochée en bas et marquée sur sa ligne', () => {
+    const out = html(q, { picked: [['A'], []] })
+    expect(out).toMatch(/aria-label="Case A" aria-pressed="true"/)
+    expect(out).toContain('▶')
+  })
+
+  it('les cases du bas appellent onPick avec la partie et l’id', () => {
     const onPick = vi.fn()
     const tree = QuestionCard(props(q, { onPick }))
-    const options = find(tree, (el) => typeof (el.props as { onSelect?: unknown }).onSelect === 'function')
     const boxes = find(tree, (el) => typeof (el.props as { 'data-slot'?: unknown })['data-slot'] === 'string')
-    expect(options).toHaveLength(4)
     expect(boxes).toHaveLength(4)
-    options.forEach((el, i) => {
-      ;(el.props as { onSelect: () => void }).onSelect()
-      ;(boxes[i].props as { onClick: () => void }).onClick()
-    })
-    const calls = onPick.mock.calls
-    expect(calls).toHaveLength(8)
-    for (let i = 0; i < 8; i += 2) expect(calls[i]).toEqual(calls[i + 1])
-    expect(calls.slice(0, 8).filter((_, i) => i % 2 === 0)).toEqual([[0, 'A'], [0, 'B'], [1, 'C'], [1, 'D']])
+    boxes.forEach((el) => (el.props as { onClick: () => void }).onClick())
+    expect(onPick.mock.calls).toEqual([[0, 'A'], [0, 'B'], [1, 'C'], [1, 'D']])
   })
 
-  it('cibles ≥ 44 px côté énoncé (minHeight 56) et côté barre (44)', () => {
+  it('cases du bas de 56 px, grille à 2 colonnes', () => {
     const out = html(q)
-    expect(out).toContain('min-height:56px')
-    expect(out).toContain('width:44px;height:44px')
+    expect(out).toContain('height:56px')
+    expect(out).toContain('grid-template-columns:1fr 1fr')
   })
 })

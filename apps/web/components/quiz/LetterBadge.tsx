@@ -4,6 +4,7 @@ interface LetterBadgeProps {
   letter: string // 'A' | 'B' | 'C' | 'D'
   state?: BadgeState
   size?: number
+  mono?: boolean // examen : une seule couleur et une seule forme
 }
 
 // Forme + couleur propres à chaque lettre : la lettre n'est jamais le seul repère.
@@ -18,8 +19,8 @@ const STYLE: Record<string, { color: string; shape: 'circle' | 'square' | 'trian
 const POINTS = { triangle: '16,3 30,28 2,28', diamond: '16,2 30,16 16,30 2,16' }
 
 /** Pastille SVG : contour seul = libre, pleine = cochée, verte ✓ / rouge ✕ après correction, contour vert ✓ = juste mais non cochée. */
-export function LetterBadge({ letter, state = 'idle', size = 32 }: LetterBadgeProps) {
-  const { color: base, shape } = STYLE[letter] ?? STYLE.A
+export function LetterBadge({ letter, state = 'idle', size = 32, mono = false }: LetterBadgeProps) {
+  const { color: base, shape } = mono ? { ...STYLE.A, shape: 'square' as const } : (STYLE[letter] ?? STYLE.A)
   const color = state === 'correct' || state === 'missed' ? 'hsl(var(--right))' : state === 'wrong' ? 'hsl(var(--wrong))' : base
   const filled = state !== 'idle' && state !== 'missed' // missed : contour vert, non rempli
   const mark = state === 'correct' || state === 'missed' ? '✓' : state === 'wrong' ? '✕' : null
