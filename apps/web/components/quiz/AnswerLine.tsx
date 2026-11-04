@@ -35,7 +35,7 @@ export function AnswerLine({ letter, text, state, mono }: AnswerLineProps) {
       )}
       <span
         style={{
-          fontSize: 18,
+          fontSize: 13,
           lineHeight: 1.35,
           fontWeight: 400,
           paddingBottom: 6,

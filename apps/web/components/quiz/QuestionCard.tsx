@@ -23,14 +23,14 @@ interface QuestionCardProps {
   orders?: OptionId[][] // ordre affiché des options par partie (mélange) ; défaut = ordre du JSON
 }
 
-const TILE = 56
+const TILE = 48
 const CORRECTION_BAR = 96
 
 /** Hauteur de la barre du bas : libellé, grille A-D (2 colonnes), bouton Valider. */
 function barHeight(variant: string, slotCount: number): number {
   if (variant === 'correction') return CORRECTION_BAR
   const rows = Math.max(1, Math.ceil(slotCount / 2))
-  return 8 + 20 + 6 + rows * TILE + (rows - 1) * 8 + 10 + 52 + 8
+  return 8 + 20 + 6 + rows * TILE + (rows - 1) * 8 + 10 + 48 + 8
 }
 const SHOW_DRAFT_BADGE = process.env.NODE_ENV !== 'production'
 
@@ -114,6 +114,9 @@ export function QuestionCard({
         <ZoomableMedia media={q.media} />
 
         <div style={{ padding: '16px 20px 0' }}>
+          {q.context && (
+            <p style={{ fontSize: 13, lineHeight: 1.35, color: 'hsl(var(--muted))', marginBottom: 8 }}>{q.context}</p>
+          )}
           {SHOW_DRAFT_BADGE && q.status === 'draft' && (
             <div style={{ marginBottom: 8, fontSize: 14, fontWeight: 700, color: 'hsl(var(--muted))' }}>Brouillon</div>
           )}
@@ -122,7 +125,7 @@ export function QuestionCard({
             const isYesNo = part.kind === 'yesno'
             return (
               <div key={pi} style={{ marginBottom: pi < q.parts.length - 1 ? 24 : 0 }}>
-                <p style={{ fontSize: 20, fontWeight: 600, lineHeight: 1.35, color: 'hsl(var(--ink))', marginBottom: 8 }}>
+                <p style={{ fontSize: 16, fontWeight: 600, lineHeight: 1.35, color: 'hsl(var(--ink))', marginBottom: 4 }}>
                   {partText(part)}
                 </p>
                 <div
@@ -196,7 +199,7 @@ export function QuestionCard({
       >
         {variant !== 'correction' && (
           <div style={{ flex: 1 }}>
-            <div style={{ fontSize: 16, fontWeight: 600, color: 'hsl(var(--ink))', textAlign: 'center', marginBottom: 6 }}>{KIND_LABEL[answerKind(q)]}</div>
+            <div style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--ink))', textAlign: 'center', marginBottom: 6 }}>{KIND_LABEL[answerKind(q)]}</div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
               {slots.flatMap((partSlotList, pi) =>
                 partSlotList.map((slot) => {
@@ -265,7 +268,7 @@ export function QuestionCard({
             type="button"
             onClick={revealed ? onNext : onSubmit}
             disabled={!revealed && !ready}
-            style={{ ...ACTION, flex: 'none', width: '100%', minHeight: 52, opacity: !revealed && !ready ? 0.5 : 1 }}
+            style={{ ...ACTION, flex: 'none', width: '100%', minHeight: 48, opacity: !revealed && !ready ? 0.5 : 1 }}
           >
             {revealed ? (isLast ? 'Résultats' : 'Suivant') : variant === 'exam' ? (isLast ? 'Terminer' : 'Valider') : `Valider (${index + 1}/${total})`}
           </button>

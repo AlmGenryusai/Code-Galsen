@@ -3,25 +3,26 @@
     "id": "t04-c05-0001",
     "theme": "t04",
     "chapter": "t04-c05",
+    "context": "Un camion va tourner à droite, je suis derrière.",
     "parts": [
       {
-        "text": "Un camion va tourner à droite, je suis derrière lui. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "reste derrière, à bonne distance"
+            "text": "reste derrière, à distance"
           },
           {
             "id": "B",
-            "text": "passe à sa droite pour gagner du temps"
+            "text": "passe à sa droite"
           },
           {
             "id": "C",
-            "text": "me place juste à côté de lui pour l'avertir"
+            "text": "me place juste à côté"
           },
           {
             "id": "D",
-            "text": "klaxonne pour qu'il tourne plus vite"
+            "text": "klaxonne pour qu'il tourne vite"
           }
         ],
         "correct": [
@@ -43,6 +44,7 @@
     "id": "t04-c05-0002",
     "theme": "t04",
     "chapter": "t04-c05",
+    "context": "Je ne vois pas les rétroviseurs du camion devant moi.",
     "media": {
       "kind": "photo",
       "src": "p25.webp",
@@ -52,7 +54,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Je ne vois pas les rétroviseurs du camion devant moi. Son chauffeur peut ne pas me voir :",
+        "statement": "Son chauffeur peut ne pas me voir :",
         "correct": "yes"
       }
     ],
@@ -70,25 +72,26 @@
     "id": "t04-c05-0003",
     "theme": "t04",
     "chapter": "t04-c05",
+    "context": "Sur une route étroite, un camion arrive en face.",
     "parts": [
       {
-        "text": "Sur une route étroite, un camion arrive en face. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "freine en plein croisement pour le laisser passer"
+            "text": "freine en plein croisement"
           },
           {
             "id": "B",
-            "text": "mords sur le bas-côté sans ralentir"
+            "text": "mords sur le bas-côté"
           },
           {
             "id": "C",
-            "text": "accélère pour passer avant lui"
+            "text": "accélère pour passer avant"
           },
           {
             "id": "D",
-            "text": "ralentis avant et reste bien à droite"
+            "text": "ralentis et reste à droite"
           }
         ],
         "correct": [
@@ -110,25 +113,26 @@
     "id": "t04-c05-0004",
     "theme": "t04",
     "chapter": "t04-c05",
+    "context": "Je veux dépasser un camion.",
     "parts": [
       {
-        "text": "Pour dépasser un camion en sécurité, je vérifie :",
+        "text": "Je vérifie :",
         "options": [
           {
             "id": "A",
-            "text": "que rien ne vient en face"
+            "text": "que rien ne vient"
           },
           {
             "id": "B",
-            "text": "seulement qu'il est plus lent que moi"
+            "text": "qu'il est plus lent"
           },
           {
             "id": "C",
-            "text": "que j'ai la place de me rabattre ensuite"
+            "text": "que je peux me rabattre"
           },
           {
             "id": "D",
-            "text": "que mon klaxon fonctionne"
+            "text": "que mon klaxon marche"
           }
         ],
         "correct": [
@@ -151,6 +155,7 @@
     "id": "t04-c05-0005",
     "theme": "t04",
     "chapter": "t04-c05",
+    "context": "Je suis juste derrière un camion très chargé.",
     "media": {
       "kind": "photo",
       "src": "p44.webp",
@@ -160,7 +165,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Je suis juste derrière un camion très chargé. Je risque de ne pas voir la route devant moi :",
+        "statement": "Je risque de ne pas voir la route :",
         "correct": "yes"
       }
     ],

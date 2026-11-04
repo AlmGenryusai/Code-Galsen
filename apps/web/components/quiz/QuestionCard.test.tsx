@@ -58,6 +58,13 @@ describe('QuestionCard — rendu', () => {
     expect(out.indexOf('<img')).toBeLessThan(out.indexOf('Je peux passer'))
   })
 
+  it('affiche la phrase de contexte avant l’énoncé', () => {
+    const q = { ...question(undefined, yes('no')), context: 'Un piéton traverse devant moi.' }
+    const out = html(q)
+    expect(out).toContain('Un piéton traverse devant moi.')
+    expect(out.indexOf('Un piéton traverse')).toBeLessThan(out.indexOf('Je peux passer'))
+  })
+
   it('yesno : OUI/NON, pas d’options en texte libre', () => {
     const out = html(question(undefined, yes('no')))
     expect(out).toContain('OUI')
@@ -95,7 +102,7 @@ describe('QuestionCard — rendu', () => {
   })
 
   it('cibles ≥ 44 px (cases du bas)', () => {
-    expect(html(question(undefined, yes('no')))).toContain('height:56px')
+    expect(html(question(undefined, yes('no')))).toContain('height:48px')
   })
 
   it('après validation : bonne réponse + lien Explication, pas encore dépliée', () => {
@@ -118,7 +125,7 @@ describe('QuestionCard — rendu', () => {
   })
 
   it('le contenu défile au-dessus de la barre du bas (padding-bottom = barre + safe-area)', () => {
-    expect(html(question(undefined, yes('no')))).toContain('padding-bottom:calc(160px + env(safe-area-inset-bottom) + 16px)')
+    expect(html(question(undefined, yes('no')))).toContain('padding-bottom:calc(148px + env(safe-area-inset-bottom) + 16px)')
   })
 
   it('réponse manquée : juste mais non cochée = « à cocher », distincte de la bonne réponse cochée', () => {
@@ -229,9 +236,9 @@ describe('QuestionCard — lignes de réponse et cases du bas', () => {
     expect(onPick.mock.calls).toEqual([[0, 'A'], [0, 'B'], [1, 'C'], [1, 'D']])
   })
 
-  it('cases du bas de 56 px, grille à 2 colonnes', () => {
+  it('cases du bas de 48 px, grille à 2 colonnes', () => {
     const out = html(q)
-    expect(out).toContain('height:56px')
+    expect(out).toContain('height:48px')
     expect(out).toContain('grid-template-columns:1fr 1fr')
   })
 })

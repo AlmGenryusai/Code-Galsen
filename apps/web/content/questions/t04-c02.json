@@ -3,25 +3,26 @@
     "id": "t04-c02-0001",
     "theme": "t04",
     "chapter": "t04-c02",
+    "context": "À un feu rouge, un motocycliste est à ma droite. Le feu passe au vert.",
     "parts": [
       {
-        "text": "À un feu rouge, un motocycliste est à ma droite. Au vert, je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "redémarre vite pour le laisser derrière moi"
+            "text": "redémarre vite"
           },
           {
             "id": "B",
-            "text": "me rabats à droite pour lui fermer le passage"
+            "text": "lui ferme le passage"
           },
           {
             "id": "C",
-            "text": "reste vigilant : il peut serrer à droite ou se faufiler"
+            "text": "surveille sa trajectoire"
           },
           {
             "id": "D",
-            "text": "klaxonne pour qu'il recule avant de démarrer"
+            "text": "klaxonne pour qu'il recule"
           }
         ],
         "correct": [
@@ -42,6 +43,7 @@
     "id": "t04-c02-0002",
     "theme": "t04",
     "chapter": "t04-c02",
+    "context": "Dans un bouchon, une moto remonte entre deux files.",
     "media": {
       "kind": "photo",
       "src": "p06.webp",
@@ -50,23 +52,23 @@
     },
     "parts": [
       {
-        "text": "Dans un bouchon, une moto remonte entre deux files. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "reste dans ma file sans me décaler"
+            "text": "reste dans ma file"
           },
           {
             "id": "B",
-            "text": "me décale pour fermer le passage à la moto"
+            "text": "me décale pour la bloquer"
           },
           {
             "id": "C",
-            "text": "klaxonne pour qu'elle reprenne sa file"
+            "text": "klaxonne pour qu'elle se rabatte"
           },
           {
             "id": "D",
-            "text": "accélère dès que la file avance pour la devancer"
+            "text": "accélère pour la devancer"
           }
         ],
         "correct": [
@@ -88,25 +90,26 @@
     "id": "t04-c02-0003",
     "theme": "t04",
     "chapter": "t04-c02",
+    "context": "Je m'arrête et je veux ouvrir ma portière côté route.",
     "parts": [
       {
-        "text": "Avant d'ouvrir ma portière côté route, je dois d'abord :",
+        "text": "D'abord, je :",
         "options": [
           {
             "id": "A",
-            "text": "ouvrir doucement la portière, puis regarder derrière moi"
+            "text": "ouvre doucement, puis regarde"
           },
           {
             "id": "B",
-            "text": "klaxonner pour prévenir les usagers de mon arrêt"
+            "text": "klaxonne"
           },
           {
             "id": "C",
-            "text": "mettre mon clignotant gauche pour signaler que je sors"
+            "text": "mets mon clignotant gauche"
           },
           {
             "id": "D",
-            "text": "regarder mon rétroviseur puis par-dessus l'épaule"
+            "text": "regarde le rétroviseur et l'épaule"
           }
         ],
         "correct": [
@@ -128,13 +131,14 @@
     "id": "t04-c02-0004",
     "theme": "t04",
     "chapter": "t04-c02",
+    "context": "Je veux me décaler sur le côté.",
     "parts": [
       {
-        "text": "Avant de me décaler sur le côté, je vérifie :",
+        "text": "Je vérifie :",
         "options": [
           {
             "id": "A",
-            "text": "seulement que mon clignotant est allumé"
+            "text": "mon clignotant seulement"
           },
           {
             "id": "B",
@@ -146,7 +150,7 @@
           },
           {
             "id": "D",
-            "text": "que la moto m'a vu dans son rétroviseur"
+            "text": "que la moto m'a vu"
           }
         ],
         "correct": [
@@ -169,10 +173,11 @@
     "id": "t04-c02-0005",
     "theme": "t04",
     "chapter": "t04-c02",
+    "context": "Une moto arrive vite à ma droite. Mon clignotant est allumé.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Une moto arrive vite à ma droite. Mon clignotant est allumé : je peux tourner devant elle :",
+        "statement": "Je peux tourner devant elle :",
         "correct": "no"
       }
     ],
@@ -190,15 +195,16 @@
     "id": "t04-c02-0006",
     "theme": "t04",
     "chapter": "t04-c02",
+    "context": "Je vois une moto dans mon rétroviseur gauche.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Je vois une moto dans mon rétroviseur gauche. Il n'y en a donc aucune dans mon angle mort à droite :",
+        "statement": "Aucune moto n'est dans mon angle mort droit :",
         "correct": "no"
       },
       {
         "kind": "yesno",
-        "statement": "Je regarde quand même par-dessus l'épaule avant de me décaler :",
+        "statement": "Je regarde quand même par-dessus l'épaule :",
         "correct": "yes"
       }
     ],
