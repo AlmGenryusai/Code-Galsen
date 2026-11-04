@@ -1,29 +1,12 @@
-import Link from 'next/link'
-import { BottomNav } from '@/components/dashboard/BottomNav'
+import { ProfilView } from '@/components/dashboard/ProfilView'
+import { allSheetIds } from '@/lib/lessons/lessons'
 
+// Statique : NEXT_PUBLIC_* inlinée au build
 export default function ProfilPage() {
   return (
-    <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', paddingBottom: 80 }}>
-      <div style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: 'calc(100dvh - 80px)',
-        gap: 12,
-        padding: '0 24px',
-      }}>
-        <h1 style={{ fontSize: 20, fontWeight: 700, color: 'hsl(var(--text))' }}>Profil</h1>
-        <p style={{ fontSize: 14, color: 'hsl(var(--muted))', textAlign: 'center' }}>
-          Tes statistiques et paramètres arrivent bientôt.
-        </p>
-        <nav style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, marginTop: 16 }}>
-          <Link href="/mentions-legales" style={{ minHeight: 44, lineHeight: '44px', fontSize: 14, color: 'hsl(var(--muted))' }}>Mentions légales</Link>
-          <Link href="/credits" style={{ minHeight: 44, lineHeight: '44px', fontSize: 14, color: 'hsl(var(--muted))' }}>Crédits photos</Link>
-          <Link href="/confidentialite" style={{ minHeight: 44, lineHeight: '44px', fontSize: 14, color: 'hsl(var(--muted))' }}>Confidentialité</Link>
-        </nav>
-      </div>
-      <BottomNav />
-    </div>
+    <ProfilView
+      supportWhatsapp={process.env.NEXT_PUBLIC_SUPPORT_WHATSAPP ?? ''}
+      sheetTotal={allSheetIds().length}
+    />
   )
 }
