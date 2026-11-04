@@ -66,7 +66,7 @@
           },
           {
             "id": "D",
-            "text": "ma plaque seulement"
+            "text": "mon numéro de plaque seulement"
           }
         ],
         "correct": [
@@ -141,7 +141,7 @@
         "options": [
           {
             "id": "A",
-            "text": "appuie fortement sur la plaie"
+            "text": "appuie sur la plaie"
           },
           {
             "id": "B",

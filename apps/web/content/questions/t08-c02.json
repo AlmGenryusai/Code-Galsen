@@ -3,9 +3,10 @@
     "id": "t08-c02-0001",
     "theme": "t08",
     "chapter": "t08-c02",
+    "context": "Avant un long trajet.",
     "parts": [
       {
-        "text": "Avant un long trajet, je vérifie :",
+        "text": "Je vérifie :",
         "options": [
           {
             "id": "A",
@@ -45,30 +46,12 @@
     "id": "t08-c02-0002",
     "theme": "t08",
     "chapter": "t08-c02",
+    "context": "Par forte chaleur, le moteur chauffe.",
     "parts": [
       {
-        "text": "Par forte chaleur, le moteur chauffe. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "roule plus vite pour le refroidir"
-          },
-          {
-            "id": "B",
-            "text": "m'arrête à l'ombre et laisse refroidir"
-          },
-          {
-            "id": "C",
-            "text": "verse de l'eau froide sur le moteur chaud"
-          },
-          {
-            "id": "D",
-            "text": "ouvre le capot en roulant"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je roule plus vite pour le refroidir :",
+        "correct": "no"
       }
     ],
     "explanation": "Le choc thermique peut casser le moteur. On attend.",
@@ -85,30 +68,12 @@
     "id": "t08-c02-0003",
     "theme": "t08",
     "chapter": "t08-c02",
+    "context": "Un pneu éclate en roulant.",
     "parts": [
       {
-        "text": "J'ai un pneu qui éclate en roulant. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "freine brusquement"
-          },
-          {
-            "id": "B",
-            "text": "tiens le volant et ralentis"
-          },
-          {
-            "id": "C",
-            "text": "tourne le volant fort"
-          },
-          {
-            "id": "D",
-            "text": "accélère pour garder le contrôle"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je freine brusquement :",
+        "correct": "no"
       }
     ],
     "explanation": "On garde le volant, on lève le pied et on freine doucement avant de se ranger.",
@@ -125,30 +90,12 @@
     "id": "t08-c02-0004",
     "theme": "t08",
     "chapter": "t08-c02",
+    "context": "Je change une roue.",
     "parts": [
       {
-        "text": "Pour changer une roue, je me gare :",
-        "options": [
-          {
-            "id": "A",
-            "text": "en pleine route, feux allumés"
-          },
-          {
-            "id": "B",
-            "text": "sur un sol plat, à l'écart"
-          },
-          {
-            "id": "C",
-            "text": "dans une côte, frein serré"
-          },
-          {
-            "id": "D",
-            "text": "sur le trottoir, devant un commerce"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je me gare sur un sol plat, à l'écart :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sol plat, loin de la route, véhicule immobilisé : on évite qu'il bouge ou qu'on soit heurté.",
@@ -165,9 +112,10 @@
     "id": "t08-c02-0005",
     "theme": "t08",
     "chapter": "t08-c02",
+    "context": "Mon véhicule refuse de démarrer.",
     "parts": [
       {
-        "text": "Mon véhicule refuse de démarrer. Je pense d'abord à :",
+        "text": "Je pense d'abord à :",
         "options": [
           {
             "id": "A",
@@ -183,7 +131,7 @@
           },
           {
             "id": "D",
-            "text": "la couleur de la peinture"
+            "text": "la peinture"
           }
         ],
         "correct": [
@@ -207,30 +155,12 @@
     "id": "t08-c02-0006",
     "theme": "t08",
     "chapter": "t08-c02",
+    "context": "Mon véhicule est en panne la nuit.",
     "parts": [
       {
-        "text": "Un véhicule en panne la nuit doit être signalé par :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ses feux de position seulement"
-          },
-          {
-            "id": "B",
-            "text": "ses feux de détresse et un triangle"
-          },
-          {
-            "id": "C",
-            "text": "ses feux de croisement éteints pour la batterie"
-          },
-          {
-            "id": "D",
-            "text": "un klaxon régulier"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je le signale par mes feux de détresse et un triangle :",
+        "correct": "yes"
       }
     ],
     "explanation": "Feux de détresse et triangle de pré-signalisation évitent qu'un autre véhicule le heurte.",

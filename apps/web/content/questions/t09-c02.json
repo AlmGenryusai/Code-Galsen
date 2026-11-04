@@ -9,19 +9,15 @@
         "options": [
           {
             "id": "A",
-            "text": "sur les genoux du passager avant"
+            "text": "sur les genoux du passager"
           },
           {
             "id": "B",
-            "text": "attaché sur un siège adapté"
+            "text": "dans un siège adapté"
           },
           {
             "id": "C",
-            "text": "debout entre les sièges avant"
-          },
-          {
-            "id": "D",
-            "text": "sur la plage arrière"
+            "text": "debout entre les sièges"
           }
         ],
         "correct": [
@@ -43,30 +39,12 @@
     "id": "t09-c02-0002",
     "theme": "t09",
     "chapter": "t09-c02",
+    "context": "Je suis passager d'une moto.",
     "parts": [
       {
-        "text": "Les passagers d'une moto doivent porter :",
-        "options": [
-          {
-            "id": "A",
-            "text": "un casque de sécurité"
-          },
-          {
-            "id": "B",
-            "text": "un foulard serré"
-          },
-          {
-            "id": "C",
-            "text": "un chapeau rigide"
-          },
-          {
-            "id": "D",
-            "text": "rien s'ils roulent doucement"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Je peux rouler sans casque si je roule doucement :",
+        "correct": "no"
       }
     ],
     "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité.",
@@ -83,6 +61,7 @@
     "id": "t09-c02-0003",
     "theme": "t09",
     "chapter": "t09-c02",
+    "context": "Je transporte plus de passagers que de places.",
     "media": {
       "kind": "photo",
       "src": "q-t09-c02-0003.webp",
@@ -92,7 +71,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Je transporte plus de passagers que de places. C'est interdit :",
+        "statement": "C'est interdit :",
         "correct": "yes"
       }
     ],
@@ -110,9 +89,10 @@
     "id": "t09-c02-0004",
     "theme": "t09",
     "chapter": "t09-c02",
+    "context": "Un enfant de moins de 5 ans est sur une moto.",
     "parts": [
       {
-        "text": "Un enfant de moins de 5 ans sur une moto doit être :",
+        "text": "Il est :",
         "options": [
           {
             "id": "A",
@@ -120,15 +100,11 @@
           },
           {
             "id": "B",
-            "text": "placé dans un siège à courroies"
+            "text": "dans un siège à courroies"
           },
           {
             "id": "C",
-            "text": "debout devant le conducteur de la moto"
-          },
-          {
-            "id": "D",
-            "text": "assis entre les jambes du conducteur"
+            "text": "debout devant le conducteur"
           }
         ],
         "correct": [
@@ -150,30 +126,12 @@
     "id": "t09-c02-0005",
     "theme": "t09",
     "chapter": "t09-c02",
+    "context": "Un passager me gêne en parlant fort.",
     "parts": [
       {
-        "text": "Un passager me gêne en parlant fort. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "me retourne pour lui répondre"
-          },
-          {
-            "id": "B",
-            "text": "reste concentré sur la route"
-          },
-          {
-            "id": "C",
-            "text": "lui réponds en le regardant"
-          },
-          {
-            "id": "D",
-            "text": "ferme un instant les yeux"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je me retourne pour lui répondre :",
+        "correct": "no"
       }
     ],
     "explanation": "Le conducteur garde les yeux sur la route. S'il faut parler, on se range.",
@@ -190,9 +148,10 @@
     "id": "t09-c02-0006",
     "theme": "t09",
     "chapter": "t09-c02",
+    "context": "Véhicule de transport de passagers.",
     "parts": [
       {
-        "text": "Dans un véhicule de transport, les passagers ne montent pas :",
+        "text": "Les passagers ne montent pas :",
         "options": [
           {
             "id": "A",
@@ -208,7 +167,7 @@
           },
           {
             "id": "D",
-            "text": "assis sur une place prévue à cet effet"
+            "text": "sur une place prévue à cet effet"
           }
         ],
         "correct": [

@@ -67,7 +67,7 @@
           },
           {
             "id": "C",
-            "text": "vérifie que personne ne me dépasse"
+            "text": "regarde si on me dépasse"
           },
           {
             "id": "D",
@@ -217,11 +217,11 @@
         "options": [
           {
             "id": "A",
-            "text": "passe en premier"
+            "text": "passe, je suis plus près"
           },
           {
             "id": "B",
-            "text": "laisse passer ceux d'en face"
+            "text": "cède à ceux d'en face"
           },
           {
             "id": "C",

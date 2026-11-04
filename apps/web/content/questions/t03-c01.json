@@ -18,7 +18,7 @@
           },
           {
             "id": "C",
-            "text": "les feux de route"
+            "text": "les feux de route, toujours"
           }
         ],
         "correct": [
@@ -170,7 +170,7 @@
           },
           {
             "id": "C",
-            "text": "freine au dernier moment"
+            "text": "freine fort au dernier moment"
           }
         ],
         "correct": [
@@ -239,7 +239,7 @@
           },
           {
             "id": "D",
-            "text": "la seule limite affichée"
+            "text": "uniquement la limite affichée"
           }
         ],
         "correct": [
