@@ -3,30 +3,12 @@
     "id": "t01-c06-0001",
     "theme": "t01",
     "chapter": "t01-c06",
+    "context": "Hors agglomération, ma voiture est en panne.",
     "parts": [
       {
-        "text": "Hors agglomération, ma voiture est en panne. Je la mets :",
-        "options": [
-          {
-            "id": "A",
-            "text": "sur la chaussée, face au sens de la route"
-          },
-          {
-            "id": "B",
-            "text": "sur l'accotement si je peux"
-          },
-          {
-            "id": "C",
-            "text": "sur la ligne centrale"
-          },
-          {
-            "id": "D",
-            "text": "n'importe où, feux allumés"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je la mets sur l'accotement si je peux :",
+        "correct": "yes"
       }
     ],
     "explanation": "Hors agglomération, on ne stationne pas sur la chaussée, sauf cas de force majeure ou accotement impraticable.",
@@ -43,9 +25,10 @@
     "id": "t01-c06-0002",
     "theme": "t01",
     "chapter": "t01-c06",
+    "context": "Hors agglomération, je suis arrêté sur la chaussée à cause d'une panne grave.",
     "parts": [
       {
-        "text": "Hors agglomération, je suis arrêté sur la chaussée à cause d'une panne grave. Je signale mon véhicule avec :",
+        "text": "Je signale mon véhicule avec :",
         "options": [
           {
             "id": "A",
@@ -61,7 +44,7 @@
           },
           {
             "id": "D",
-            "text": "rien : mon véhicule est visible"
+            "text": "rien : il est visible"
           }
         ],
         "correct": [
@@ -84,6 +67,7 @@
     "id": "t01-c06-0003",
     "theme": "t01",
     "chapter": "t01-c06",
+    "context": "Je cherche où me garer.",
     "parts": [
       {
         "text": "Je ne me gare pas près :",
@@ -126,6 +110,7 @@
     "id": "t01-c06-0004",
     "theme": "t01",
     "chapter": "t01-c06",
+    "context": "Le train est loin.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c06-0004.webp",
@@ -135,7 +120,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Je peux stationner un instant sur un passage à niveau si le train est loin :",
+        "statement": "Je peux stationner un instant sur un passage à niveau :",
         "correct": "no"
       }
     ],
@@ -153,30 +138,12 @@
     "id": "t01-c06-0005",
     "theme": "t01",
     "chapter": "t01-c06",
+    "context": "Je m'éloigne de mon véhicule garé.",
     "parts": [
       {
-        "text": "Avant de m'éloigner de mon véhicule garé, je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "laisse le moteur tourner"
-          },
-          {
-            "id": "B",
-            "text": "coupe le moteur, vérifie qu'il est immobile"
-          },
-          {
-            "id": "C",
-            "text": "laisse la portière ouverte"
-          },
-          {
-            "id": "D",
-            "text": "laisse la clé sur le contact"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je laisse le moteur tourner :",
+        "correct": "no"
       }
     ],
     "explanation": "On coupe le moteur et on s'assure que l'immobilisation est suffisante selon la pente et les conditions.",
@@ -193,6 +160,7 @@
     "id": "t01-c06-0006",
     "theme": "t01",
     "chapter": "t01-c06",
+    "context": "J'ouvre ma portière.",
     "media": {
       "kind": "photo",
       "src": "q-t07-c02-0001.webp",
@@ -202,7 +170,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Avant d'ouvrir ma portière, je regarde si la voie est libre :",
+        "statement": "Je regarde d'abord si la voie est libre :",
         "correct": "yes"
       }
     ],
@@ -220,30 +188,12 @@
     "id": "t01-c06-0007",
     "theme": "t01",
     "chapter": "t01-c06",
+    "context": "Je me gare.",
     "parts": [
       {
-        "text": "Où dois-je ranger mon véhicule en stationnement ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "au milieu de la route"
-          },
-          {
-            "id": "B",
-            "text": "sur l'accotement"
-          },
-          {
-            "id": "C",
-            "text": "sur le trottoir"
-          },
-          {
-            "id": "D",
-            "text": "devant l'entrée d'un immeuble"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je range mon véhicule sur le trottoir :",
+        "correct": "no"
       }
     ],
     "explanation": "On range sur l'accotement pour dégager au maximum la chaussée, sans gêner la circulation ni l'accès aux immeubles.",
@@ -260,9 +210,10 @@
     "id": "t01-c06-0008",
     "theme": "t01",
     "chapter": "t01-c06",
+    "context": "Je repars après un stationnement.",
     "parts": [
       {
-        "text": "Je repars après un stationnement. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
@@ -270,15 +221,11 @@
           },
           {
             "id": "B",
-            "text": "mets mon clignotant et ne gêne personne"
+            "text": "mets mon clignotant"
           },
           {
             "id": "C",
-            "text": "klaxonne puis je démarre"
-          },
-          {
-            "id": "D",
-            "text": "pars vite pour dégager la place"
+            "text": "klaxonne puis démarre"
           }
         ],
         "correct": [

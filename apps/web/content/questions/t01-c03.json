@@ -38,9 +38,10 @@
     "id": "t01-c03-0002",
     "theme": "t01",
     "chapter": "t01-c03",
+    "context": "La route n'a qu'une voie et je ne vois pas loin devant.",
     "parts": [
       {
-        "text": "La route n'a qu'une voie et je ne vois pas loin devant. Je roule :",
+        "text": "Je roule :",
         "options": [
           {
             "id": "A",
@@ -48,15 +49,11 @@
           },
           {
             "id": "B",
-            "text": "sur la partie gauche, pour mieux voir"
+            "text": "sur la partie gauche"
           },
           {
             "id": "C",
-            "text": "sur la partie droite de la route"
-          },
-          {
-            "id": "D",
-            "text": "sur l'accotement, à petite vitesse"
+            "text": "sur la partie droite"
           }
         ],
         "correct": [
@@ -78,6 +75,7 @@
     "id": "t01-c03-0003",
     "theme": "t01",
     "chapter": "t01-c03",
+    "context": "Une ligne continue sépare les deux voies.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c03-0003.webp",
@@ -87,7 +85,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Une ligne continue sépare les deux voies. Je peux la chevaucher si la route est vide :",
+        "statement": "Je peux la chevaucher si la route est vide :",
         "correct": "no"
       }
     ],
@@ -105,30 +103,12 @@
     "id": "t01-c03-0004",
     "theme": "t01",
     "chapter": "t01-c03",
+    "context": "Une ligne discontinue est à ma gauche.",
     "parts": [
       {
-        "text": "Une ligne discontinue est à ma gauche. Je peux la franchir :",
-        "options": [
-          {
-            "id": "A",
-            "text": "pour dépasser ou traverser la chaussée"
-          },
-          {
-            "id": "B",
-            "text": "quand je m'ennuie derrière un camion"
-          },
-          {
-            "id": "C",
-            "text": "seulement en agglomération"
-          },
-          {
-            "id": "D",
-            "text": "jamais, même pour dépasser"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Je peux la franchir pour dépasser :",
+        "correct": "yes"
       }
     ],
     "explanation": "Une ligne discontinue autorise à passer à gauche pour dépasser, ou pour traverser la chaussée si on tourne. Pas pour rouler à gauche sans raison.",
@@ -145,30 +125,12 @@
     "id": "t01-c03-0005",
     "theme": "t01",
     "chapter": "t01-c03",
+    "context": "À ma gauche, une ligne continue est collée à une discontinue, la continue étant la plus proche de moi.",
     "parts": [
       {
-        "text": "À ma gauche, une ligne continue est collée à une discontinue, la continue étant la plus proche de moi. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "la franchis pour dépasser"
-          },
-          {
-            "id": "B",
-            "text": "ne la franchis pas"
-          },
-          {
-            "id": "C",
-            "text": "la franchis si la route est vide"
-          },
-          {
-            "id": "D",
-            "text": "la franchis seulement de nuit"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je la franchis pour dépasser :",
+        "correct": "no"
       }
     ],
     "explanation": "Quand les deux lignes sont accolées, c'est celle qui est du côté de votre file qui compte. Ici c'est la continue : vous ne la franchissez pas.",
@@ -185,9 +147,10 @@
     "id": "t01-c03-0006",
     "theme": "t01",
     "chapter": "t01-c03",
+    "context": "Un monument est au milieu d'une place, sans panneau.",
     "parts": [
       {
-        "text": "Un monument est au milieu d'une place. Sauf panneau contraire, je le contourne :",
+        "text": "Je le contourne :",
         "options": [
           {
             "id": "A",
@@ -199,11 +162,7 @@
           },
           {
             "id": "C",
-            "text": "par le côté le plus court"
-          },
-          {
-            "id": "D",
-            "text": "par le côté le plus dégagé"
+            "text": "par le plus court"
           }
         ],
         "correct": [
@@ -225,30 +184,12 @@
     "id": "t01-c03-0007",
     "theme": "t01",
     "chapter": "t01-c03",
+    "context": "Je croise un véhicule sur une route à une seule voie.",
     "parts": [
       {
-        "text": "Je croise un véhicule sur une route à une seule voie. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "reste au milieu de la route"
-          },
-          {
-            "id": "B",
-            "text": "laisse la gauche libre"
-          },
-          {
-            "id": "C",
-            "text": "m'arrête sans bouger"
-          },
-          {
-            "id": "D",
-            "text": "accélère pour le croiser vite"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je laisse la gauche libre :",
+        "correct": "yes"
       }
     ],
     "explanation": "Chacun se serre à droite. Si la place manque, on utilise l'accotement plutôt que d'empiéter sur la gauche.",
@@ -292,9 +233,10 @@
     "id": "t01-c03-0009",
     "theme": "t01",
     "chapter": "t01-c03",
+    "context": "La chaussée a plusieurs voies.",
     "parts": [
       {
-        "text": "Sur une chaussée à plusieurs voies, je circule :",
+        "text": "Je circule :",
         "options": [
           {
             "id": "A",
@@ -307,10 +249,6 @@
           {
             "id": "C",
             "text": "sur la voie la plus à gauche"
-          },
-          {
-            "id": "D",
-            "text": "sur la ligne entre deux voies"
           }
         ],
         "correct": [
@@ -332,30 +270,12 @@
     "id": "t01-c03-0010",
     "theme": "t01",
     "chapter": "t01-c03",
+    "context": "La chaussée a trois voies séparées par des lignes discontinues. Je veux dépasser.",
     "parts": [
       {
-        "text": "La chaussée a trois voies séparées par des lignes discontinues. Je veux dépasser. La voie la plus à gauche :",
-        "options": [
-          {
-            "id": "A",
-            "text": "est la voie de dépassement"
-          },
-          {
-            "id": "B",
-            "text": "est réservée à ceux qui viennent en face"
-          },
-          {
-            "id": "C",
-            "text": "est ouverte la nuit seulement"
-          },
-          {
-            "id": "D",
-            "text": "est libre s'il n'y a personne en face"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "La voie de gauche est réservée à ceux qui viennent en face :",
+        "correct": "yes"
       }
     ],
     "explanation": "Avec trois voies ou plus, la voie la plus à gauche est réservée aux usagers du sens inverse. Seule exception : quitter la route en tournant à gauche.",

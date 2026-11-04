@@ -3,6 +3,7 @@
     "id": "t01-c05-0001",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Je croise un véhicule qui vient en face.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c05-0001.webp",
@@ -11,7 +12,7 @@
     },
     "parts": [
       {
-        "text": "Je croise un véhicule qui vient en face. Je me place :",
+        "text": "Je me place :",
         "options": [
           {
             "id": "A",
@@ -24,10 +25,6 @@
           {
             "id": "C",
             "text": "à gauche de ma voie"
-          },
-          {
-            "id": "D",
-            "text": "sur l'accotement, toujours"
           }
         ],
         "correct": [
@@ -49,6 +46,7 @@
     "id": "t01-c05-0002",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Je vais dépasser.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c05-0002.webp",
@@ -57,11 +55,11 @@
     },
     "parts": [
       {
-        "text": "Avant de dépasser, je :",
+        "text": "Avant, je :",
         "options": [
           {
             "id": "A",
-            "text": "m'assure d'avoir de la place devant"
+            "text": "m'assure d'avoir de la place"
           },
           {
             "id": "B",
@@ -69,7 +67,7 @@
           },
           {
             "id": "C",
-            "text": "vérifie que personne ne me dépasse déjà"
+            "text": "vérifie que personne ne me dépasse"
           },
           {
             "id": "D",
@@ -97,30 +95,12 @@
     "id": "t01-c05-0003",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Je dépasse un cycliste, un piéton ou une charrette.",
     "parts": [
       {
-        "text": "En dépassant un cycliste, un piéton ou une charrette, je laisse au moins :",
-        "options": [
-          {
-            "id": "A",
-            "text": "20 cm"
-          },
-          {
-            "id": "B",
-            "text": "50 cm"
-          },
-          {
-            "id": "C",
-            "text": "1 mètre"
-          },
-          {
-            "id": "D",
-            "text": "3 mètres"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je laisse au moins 1 mètre :",
+        "correct": "yes"
       }
     ],
     "explanation": "La distance minimale est de 1 mètre pour un piéton, un cycle, un cavalier, un animal ou un véhicule hippomobile.",
@@ -137,6 +117,7 @@
     "id": "t01-c05-0004",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Un véhicule va me dépasser.",
     "media": {
       "kind": "photo",
       "src": "p28.webp",
@@ -146,7 +127,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Un véhicule va me dépasser. Je me serre à droite sans accélérer :",
+        "statement": "Je me serre à droite sans accélérer :",
         "correct": "yes"
       }
     ],
@@ -164,10 +145,11 @@
     "id": "t01-c05-0005",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Le véhicule devant moi signale qu'il va tourner à gauche.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Le véhicule devant moi signale qu'il va tourner à gauche. Je dois le dépasser par la droite :",
+        "statement": "Je dois le dépasser par la droite :",
         "correct": "yes"
       }
     ],
@@ -185,6 +167,7 @@
     "id": "t01-c05-0006",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Je veux dépasser.",
     "parts": [
       {
         "text": "Je ne dépasse pas :",
@@ -195,15 +178,15 @@
           },
           {
             "id": "B",
-            "text": "à l'approche d'un sommet de côte"
+            "text": "près d'un sommet de côte"
           },
           {
             "id": "C",
-            "text": "sur une longue ligne droite dégagée"
+            "text": "sur une ligne droite dégagée"
           },
           {
             "id": "D",
-            "text": "à une intersection (sauf route prioritaire)"
+            "text": "à une intersection (sauf prioritaire)"
           }
         ],
         "correct": [
@@ -227,25 +210,22 @@
     "id": "t01-c05-0007",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Un véhicule en panne bloque ma voie. Des voitures arrivent en face.",
     "parts": [
       {
-        "text": "Un véhicule en panne bloque ma voie. Des voitures arrivent en face. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "passe en premier, je suis plus près"
+            "text": "passe en premier"
           },
           {
             "id": "B",
-            "text": "laisse passer ceux d'en face avant"
+            "text": "laisse passer ceux d'en face"
           },
           {
             "id": "C",
-            "text": "klaxonne et je fonce"
-          },
-          {
-            "id": "D",
-            "text": "m'arrête au milieu de la route"
+            "text": "klaxonne et fonce"
           }
         ],
         "correct": [
@@ -267,30 +247,12 @@
     "id": "t01-c05-0008",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Je conduis un camion de 2,5 m de large sur une route étroite et je croise une voiture.",
     "parts": [
       {
-        "text": "Je conduis un camion de 2,5 m de large sur une route étroite. En croisant une voiture, je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "avance, la voiture se débrouille"
-          },
-          {
-            "id": "B",
-            "text": "ralentis et m'arrête au besoin"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne pour la prévenir"
-          },
-          {
-            "id": "D",
-            "text": "accélère pour passer avant elle"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "J'avance, la voiture se débrouille :",
+        "correct": "no"
       }
     ],
     "explanation": "Un véhicule de plus de 2,10 m de large ou 8 m de long doit ralentir ou s'arrêter pour laisser passer les plus petits.",
@@ -307,30 +269,12 @@
     "id": "t01-c05-0009",
     "theme": "t01",
     "chapter": "t01-c05",
+    "context": "Hors agglomération, deux camions de plus de 3,5 tonnes se suivent.",
     "parts": [
       {
-        "text": "Hors agglomération, deux camions de plus de 3,5 tonnes se suivent. L'écart minimum est de :",
-        "options": [
-          {
-            "id": "A",
-            "text": "10 mètres"
-          },
-          {
-            "id": "B",
-            "text": "25 mètres"
-          },
-          {
-            "id": "C",
-            "text": "50 mètres"
-          },
-          {
-            "id": "D",
-            "text": "100 mètres"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "L'écart minimum est de 50 mètres :",
+        "correct": "yes"
       }
     ],
     "explanation": "Hors agglomération, les véhicules de plus de 3,5 t ou de plus de 8 m doivent laisser au moins 50 m entre eux.",

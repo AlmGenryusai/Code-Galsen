@@ -3,6 +3,7 @@
     "id": "t01-c04-0001",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Je roule en voiture en agglomération.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c04-0001.webp",
@@ -11,28 +12,9 @@
     },
     "parts": [
       {
-        "text": "En agglomération, la vitesse maximale d'une voiture est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "30 km/h"
-          },
-          {
-            "id": "B",
-            "text": "50 km/h"
-          },
-          {
-            "id": "C",
-            "text": "70 km/h"
-          },
-          {
-            "id": "D",
-            "text": "90 km/h"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 50 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "En agglomération, la limite est de 50 km/h. Un panneau peut imposer plus bas.",
@@ -49,6 +31,7 @@
     "id": "t01-c04-0002",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Je roule en voiture aux abords d'une école, d'un hôpital ou d'une mosquée ou église.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c04-0002.webp",
@@ -57,28 +40,9 @@
     },
     "parts": [
       {
-        "text": "Aux abords d'une école, d'un hôpital ou d'une mosquée ou église, la vitesse maximale d'une voiture est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "50 km/h"
-          },
-          {
-            "id": "B",
-            "text": "40 km/h"
-          },
-          {
-            "id": "C",
-            "text": "30 km/h"
-          },
-          {
-            "id": "D",
-            "text": "20 km/h"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 40 km/h :",
+        "correct": "no"
       }
     ],
     "explanation": "Aux abords des établissements scolaires, hospitaliers et des édifices religieux, la limite est de 30 km/h.",
@@ -95,6 +59,7 @@
     "id": "t01-c04-0003",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Je roule en voiture sur autoroute, par temps normal.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c04-0003.webp",
@@ -103,28 +68,9 @@
     },
     "parts": [
       {
-        "text": "Sur autoroute, par temps normal, la vitesse maximale d'une voiture est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "90 km/h"
-          },
-          {
-            "id": "B",
-            "text": "110 km/h"
-          },
-          {
-            "id": "C",
-            "text": "120 km/h"
-          },
-          {
-            "id": "D",
-            "text": "130 km/h"
-          }
-        ],
-        "correct": [
-          "D"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 130 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur autoroute, la limite est de 130 km/h par temps normal, et 100 km/h par pluie.",
@@ -141,6 +87,7 @@
     "id": "t01-c04-0004",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Je roule en voiture, par temps normal, sur une route à double sens sans séparateur central.",
     "media": {
       "kind": "photo",
       "src": "q-t01-c04-0004.webp",
@@ -149,28 +96,9 @@
     },
     "parts": [
       {
-        "text": "Sur une route à double sens sans séparateur central, par temps normal, ma voiture roule à :",
-        "options": [
-          {
-            "id": "A",
-            "text": "90 km/h maximum"
-          },
-          {
-            "id": "B",
-            "text": "110 km/h maximum"
-          },
-          {
-            "id": "C",
-            "text": "130 km/h maximum"
-          },
-          {
-            "id": "D",
-            "text": "70 km/h maximum"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 110 km/h :",
+        "correct": "no"
       }
     ],
     "explanation": "Sur une route à double sens sans séparateur, la limite est de 90 km/h, et 70 km/h par pluie.",
@@ -187,6 +115,7 @@
     "id": "t01-c04-0005",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Au volant d'une voiture, il pleut sur une route à deux voies par sens, sans terre-plein.",
     "media": {
       "kind": "photo",
       "src": "p31.webp",
@@ -195,28 +124,9 @@
     },
     "parts": [
       {
-        "text": "Au volant d'une voiture, il pleut sur une route à deux voies par sens, sans terre-plein. Ma vitesse maximale est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "100 km/h"
-          },
-          {
-            "id": "B",
-            "text": "90 km/h"
-          },
-          {
-            "id": "C",
-            "text": "80 km/h"
-          },
-          {
-            "id": "D",
-            "text": "70 km/h"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 80 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur une section à au moins deux voies par sens, la limite passe de 100 à 80 km/h par pluie.",
@@ -233,6 +143,7 @@
     "id": "t01-c04-0006",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Au volant d'une voiture, la visibilité est inférieure à 50 mètres.",
     "media": {
       "kind": "photo",
       "src": "p32.webp",
@@ -241,27 +152,23 @@
     },
     "parts": [
       {
-        "text": "Au volant d'une voiture, la visibilité est inférieure à 50 mètres (brouillard, poussière). Ma vitesse maximale est :",
+        "text": "Ma vitesse maximale est :",
         "options": [
           {
             "id": "A",
-            "text": "la même que d'habitude"
-          },
-          {
-            "id": "B",
             "text": "70 km/h"
           },
           {
-            "id": "C",
+            "id": "B",
             "text": "50 km/h"
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "90 km/h"
           }
         ],
         "correct": [
-          "C"
+          "B"
         ]
       }
     ],
@@ -279,9 +186,10 @@
     "id": "t01-c04-0007",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Au volant d'une voiture, je règle ma vitesse.",
     "parts": [
       {
-        "text": "Au volant d'une voiture, pour régler ma vitesse, je tiens compte de :",
+        "text": "Je tiens compte de :",
         "options": [
           {
             "id": "A",
@@ -297,7 +205,7 @@
           },
           {
             "id": "D",
-            "text": "la puissance de mon moteur"
+            "text": "la puissance du moteur"
           }
         ],
         "correct": [
@@ -321,6 +229,7 @@
     "id": "t01-c04-0008",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Un panneau limite à 40 km/h sur une route où la loi permet 90. Je suis en voiture.",
     "media": {
       "kind": "photo",
       "src": "p24.webp",
@@ -329,28 +238,9 @@
     },
     "parts": [
       {
-        "text": "Un panneau limite à 40 km/h sur une route où la loi permet 90. En voiture, je roule à :",
-        "options": [
-          {
-            "id": "A",
-            "text": "90 km/h, c'est la loi"
-          },
-          {
-            "id": "B",
-            "text": "60 km/h, entre les deux"
-          },
-          {
-            "id": "C",
-            "text": "40 km/h, comme le panneau"
-          },
-          {
-            "id": "D",
-            "text": "50 km/h, avec une marge"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je roule à 90 km/h, c'est la loi :",
+        "correct": "no"
       }
     ],
     "explanation": "Le gestionnaire de la route peut baisser les limites. Le panneau s'impose.",
@@ -367,30 +257,12 @@
     "id": "t01-c04-0009",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Au volant d'une voiture, par temps normal, je roule sur une route à deux chaussées séparées par un terre-plein.",
     "parts": [
       {
-        "text": "Au volant d'une voiture, je roule par temps normal sur une route à deux chaussées séparées par un terre-plein. Ma vitesse maximale est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "130 km/h"
-          },
-          {
-            "id": "B",
-            "text": "110 km/h"
-          },
-          {
-            "id": "C",
-            "text": "100 km/h"
-          },
-          {
-            "id": "D",
-            "text": "90 km/h"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 110 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur une route à chaussées séparées par un terre-plein, la limite est de 110 km/h par temps normal, et 90 km/h par pluie.",
@@ -407,30 +279,12 @@
     "id": "t01-c04-0010",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Au volant d'une voiture, il pleut sur une route à deux chaussées séparées par un terre-plein.",
     "parts": [
       {
-        "text": "Au volant d'une voiture, il pleut sur une route à deux chaussées séparées par un terre-plein. Ma vitesse maximale est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "110 km/h"
-          },
-          {
-            "id": "B",
-            "text": "100 km/h"
-          },
-          {
-            "id": "C",
-            "text": "90 km/h"
-          },
-          {
-            "id": "D",
-            "text": "80 km/h"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 100 km/h :",
+        "correct": "no"
       }
     ],
     "explanation": "Sur une route à chaussées séparées par un terre-plein, la limite passe de 110 à 90 km/h par pluie.",
@@ -447,30 +301,12 @@
     "id": "t01-c04-0011",
     "theme": "t01",
     "chapter": "t01-c04",
+    "context": "Au volant d'une voiture, par temps normal, je roule sur une route à deux voies par sens, sans terre-plein.",
     "parts": [
       {
-        "text": "Au volant d'une voiture, je roule par temps normal sur une route à deux voies par sens, sans terre-plein. Ma vitesse maximale est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "110 km/h"
-          },
-          {
-            "id": "B",
-            "text": "100 km/h"
-          },
-          {
-            "id": "C",
-            "text": "90 km/h"
-          },
-          {
-            "id": "D",
-            "text": "80 km/h"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 100 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur une section à au moins deux voies par sens sans terre-plein, la limite est de 100 km/h par temps normal, et 80 km/h par pluie.",
