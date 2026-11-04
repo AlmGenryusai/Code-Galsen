@@ -11,7 +11,7 @@ const BADGE_LABEL: Record<NonNullable<Media['badge']>, string> = {
 }
 
 /** Zone média 16:9 pleine largeur : panneau SVG sur sable, ou photo avec repère et picto. Pas de média : rien. */
-export function MediaFrame({ media, hideCredit = false }: { media?: Media; hideCredit?: boolean }) {
+export function MediaFrame({ media, hideCredit = false, hideBadge = false }: { media?: Media; hideCredit?: boolean; hideBadge?: boolean }) {
   if (!media) return null
 
   if (media.kind === 'sign') {
@@ -53,7 +53,7 @@ export function MediaFrame({ media, hideCredit = false }: { media?: Media; hideC
           {media.credit}
         </span>
       )}
-      {media.badge && (
+      {media.badge && !hideBadge && (
         <span style={{ position: 'absolute', top: 8, right: 8, padding: '4px 10px', borderRadius: 99, background: 'hsl(var(--ink))', color: '#fff', fontSize: 14, fontWeight: 700 }}>
           {BADGE_LABEL[media.badge]}
         </span>
