@@ -5,28 +5,9 @@
     "chapter": "t03-c02",
     "parts": [
       {
-        "text": "Les autoroutes sont réservées aux véhicules à moteur de cylindrée supérieure à :",
-        "options": [
-          {
-            "id": "A",
-            "text": "50 cm³"
-          },
-          {
-            "id": "B",
-            "text": "125 cm³"
-          },
-          {
-            "id": "C",
-            "text": "250 cm³"
-          },
-          {
-            "id": "D",
-            "text": "500 cm³"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Les autoroutes sont réservées aux véhicules de cylindrée supérieure à 50 cm³ :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur autoroute, les vélos, les piétons et les engins à moteur de 50 cm³ ou moins sont interdits.",
@@ -43,30 +24,12 @@
     "id": "t03-c02-0002",
     "theme": "t03",
     "chapter": "t03-c02",
+    "context": "Je roule en voiture sur autoroute, par temps normal.",
     "parts": [
       {
-        "text": "Sur une autoroute, en voiture, la vitesse maximale par temps normal est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "90 km/h"
-          },
-          {
-            "id": "B",
-            "text": "110 km/h"
-          },
-          {
-            "id": "C",
-            "text": "130 km/h"
-          },
-          {
-            "id": "D",
-            "text": "150 km/h"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 150 km/h :",
+        "correct": "no"
       }
     ],
     "explanation": "Pour une voiture : 130 km/h par temps normal, 100 km/h par pluie, 50 km/h si l'on voit à moins de 50 m.",
@@ -83,30 +46,12 @@
     "id": "t03-c02-0003",
     "theme": "t03",
     "chapter": "t03-c02",
+    "context": "Il pleut sur l'autoroute. Je suis en voiture.",
     "parts": [
       {
-        "text": "Il pleut sur l'autoroute. En voiture, ma vitesse maximale est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "100 km/h"
-          },
-          {
-            "id": "B",
-            "text": "130 km/h"
-          },
-          {
-            "id": "C",
-            "text": "110 km/h"
-          },
-          {
-            "id": "D",
-            "text": "70 km/h"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 110 km/h :",
+        "correct": "no"
       }
     ],
     "explanation": "Par pluie ou autres précipitations, la limite sur autoroute passe à 100 km/h pour une voiture.",
@@ -123,6 +68,7 @@
     "id": "t03-c02-0004",
     "theme": "t03",
     "chapter": "t03-c02",
+    "context": "Sur autoroute.",
     "parts": [
       {
         "text": "La bande d'arrêt d'urgence sert à :",
@@ -133,19 +79,15 @@
           },
           {
             "id": "B",
-            "text": "téléphoner tranquillement"
+            "text": "m'arrêter en cas de nécessité"
           },
           {
             "id": "C",
-            "text": "m'arrêter en cas de nécessité absolue"
-          },
-          {
-            "id": "D",
             "text": "dépasser un véhicule lent"
           }
         ],
         "correct": [
-          "C"
+          "B"
         ]
       }
     ],
@@ -163,30 +105,12 @@
     "id": "t03-c02-0005",
     "theme": "t03",
     "chapter": "t03-c02",
+    "context": "Je suis en panne sur l'autoroute.",
     "parts": [
       {
-        "text": "Je suis en panne sur l'autoroute. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "reste dans mon véhicule, sur la voie"
-          },
-          {
-            "id": "B",
-            "text": "me range hors des voies et signale mon véhicule"
-          },
-          {
-            "id": "C",
-            "text": "descends et marche sur la chaussée"
-          },
-          {
-            "id": "D",
-            "text": "repars lentement avec mes feux de détresse"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je reste dans mon véhicule, sur la voie :",
+        "correct": "no"
       }
     ],
     "explanation": "On quitte les voies de circulation, on allume les feux de détresse et on signale le véhicule de loin.",
@@ -203,6 +127,7 @@
     "id": "t03-c02-0006",
     "theme": "t03",
     "chapter": "t03-c02",
+    "context": "J'arrive à un poste de péage.",
     "media": {
       "kind": "photo",
       "src": "p12.webp",
@@ -212,7 +137,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Au poste de péage, je dois m'arrêter :",
+        "statement": "Je dois m'arrêter :",
         "correct": "yes"
       }
     ],
@@ -230,30 +155,12 @@
     "id": "t03-c02-0007",
     "theme": "t03",
     "chapter": "t03-c02",
+    "context": "Je suis sur une bretelle d'insertion.",
     "parts": [
       {
-        "text": "Sur une bretelle d'insertion, j'accélère pour :",
-        "options": [
-          {
-            "id": "A",
-            "text": "m'arrêter en bout de voie"
-          },
-          {
-            "id": "B",
-            "text": "m'intégrer à la vitesse du trafic"
-          },
-          {
-            "id": "C",
-            "text": "dépasser sur la bande d'arrêt"
-          },
-          {
-            "id": "D",
-            "text": "couper la route aux voitures"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "J'accélère pour m'intégrer à la vitesse du trafic :",
+        "correct": "yes"
       }
     ],
     "explanation": "La voie d'accélération sert à prendre de la vitesse pour s'insérer sans gêner le trafic.",

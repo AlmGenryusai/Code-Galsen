@@ -3,6 +3,7 @@
     "id": "t02-c02-0001",
     "theme": "t02",
     "chapter": "t02-c02",
+    "context": "Au Sénégal.",
     "media": {
       "kind": "photo",
       "src": "q-t02-c02-0001.webp",
@@ -12,7 +13,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Au Sénégal, je peux téléphoner au volant, le téléphone tenu en main, si je roule lentement :",
+        "statement": "Je peux téléphoner au volant, téléphone en main, si je roule lentement :",
         "correct": "no"
       }
     ],
@@ -29,30 +30,12 @@
     "id": "t02-c02-0002",
     "theme": "t02",
     "chapter": "t02-c02",
+    "context": "Au Sénégal, on parle du taux d'alcool dans le sang.",
     "parts": [
       {
-        "text": "Au Sénégal, à partir de quel taux d'alcool dans le sang est-on en infraction ?",
-        "options": [
-          {
-            "id": "A",
-            "text": "0,05 g/L"
-          },
-          {
-            "id": "B",
-            "text": "0,20 g/L"
-          },
-          {
-            "id": "C",
-            "text": "0,50 g/L"
-          },
-          {
-            "id": "D",
-            "text": "0,80 g/L"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "L'infraction commence à 0,20 g/L :",
+        "correct": "yes"
       }
     ],
     "explanation": "La loi 2022-04 fixe 0,20 g/L dans le sang. Mieux vaut ne pas boire du tout avant de conduire.",
@@ -69,30 +52,12 @@
     "id": "t02-c02-0003",
     "theme": "t02",
     "chapter": "t02-c02",
+    "context": "Je passe un contrôle de l'air expiré.",
     "parts": [
       {
-        "text": "Au contrôle de l'air expiré, le seuil d'alcool est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "0,10 mg/L"
-          },
-          {
-            "id": "B",
-            "text": "0,25 mg/L"
-          },
-          {
-            "id": "C",
-            "text": "0,40 mg/L"
-          },
-          {
-            "id": "D",
-            "text": "0,80 mg/L"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Le seuil est de 0,25 mg/L :",
+        "correct": "no"
       }
     ],
     "explanation": "L.84 fixe deux seuils alternatifs : 0,20 g/L de sang ou 0,10 mg/L d'air expiré. Au contrôle de l'air expiré, c'est 0,10 mg/L.",
@@ -115,7 +80,7 @@
         "options": [
           {
             "id": "A",
-            "text": "toléré s'il n'y a pas d'accident"
+            "text": "toléré sans accident"
           },
           {
             "id": "B",
@@ -123,11 +88,7 @@
           },
           {
             "id": "C",
-            "text": "permis sur de courtes distances"
-          },
-          {
-            "id": "D",
-            "text": "permis seulement de jour"
+            "text": "permis sur courte distance"
           }
         ],
         "correct": [
@@ -170,30 +131,12 @@
     "id": "t02-c02-0006",
     "theme": "t02",
     "chapter": "t02-c02",
+    "context": "Ceinture de sécurité.",
     "parts": [
       {
-        "text": "La ceinture de sécurité est obligatoire :",
-        "options": [
-          {
-            "id": "A",
-            "text": "pour le conducteur et les places avant"
-          },
-          {
-            "id": "B",
-            "text": "pour les passagers arrière seulement"
-          },
-          {
-            "id": "C",
-            "text": "seulement hors agglomération"
-          },
-          {
-            "id": "D",
-            "text": "seulement sur autoroute"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Elle est obligatoire pour les places arrière seulement :",
+        "correct": "no"
       }
     ],
     "explanation": "Le conducteur et les occupants des places avant doivent la porter. Seule une contre-indication médicale justifiée par un certificat dispense.",
@@ -210,30 +153,12 @@
     "id": "t02-c02-0007",
     "theme": "t02",
     "chapter": "t02-c02",
+    "context": "Je suis passager d'une moto.",
     "parts": [
       {
-        "text": "Les passagers d'une moto doivent porter :",
-        "options": [
-          {
-            "id": "A",
-            "text": "un casque homologué"
-          },
-          {
-            "id": "B",
-            "text": "un foulard serré"
-          },
-          {
-            "id": "C",
-            "text": "un casque s'ils sont plusieurs"
-          },
-          {
-            "id": "D",
-            "text": "rien, si la moto roule doucement"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Je dois porter un casque homologué :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité conforme à un modèle agréé.",
@@ -250,25 +175,22 @@
     "id": "t02-c02-0008",
     "theme": "t02",
     "chapter": "t02-c02",
+    "context": "Je suis très fatigué et je somnole au volant.",
     "parts": [
       {
-        "text": "Je suis très fatigué et je somnole au volant. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "ouvre la vitre et je continue"
+            "text": "ouvre la vitre et continue"
           },
           {
             "id": "B",
-            "text": "m'arrête en lieu sûr pour me reposer"
+            "text": "m'arrête en lieu sûr"
           },
           {
             "id": "C",
-            "text": "mets la radio plus fort pour rester éveillé"
-          },
-          {
-            "id": "D",
-            "text": "accélère pour arriver plus vite"
+            "text": "monte la radio"
           }
         ],
         "correct": [
@@ -290,25 +212,22 @@
     "id": "t02-c02-0009",
     "theme": "t02",
     "chapter": "t02-c02",
+    "context": "Un conducteur est manifestement ivre.",
     "parts": [
       {
-        "text": "Un conducteur est manifestement ivre. Les agents peuvent :",
+        "text": "Les agents peuvent :",
         "options": [
           {
             "id": "A",
-            "text": "prescrire l'immobilisation du véhicule"
+            "text": "immobiliser son véhicule"
           },
           {
             "id": "B",
-            "text": "le laisser repartir après un avertissement"
+            "text": "le laisser repartir"
           },
           {
             "id": "C",
-            "text": "le dispenser de tout contrôle"
-          },
-          {
-            "id": "D",
-            "text": "l'autoriser à rouler jusque chez lui"
+            "text": "l'autoriser à rouler chez lui"
           }
         ],
         "correct": [

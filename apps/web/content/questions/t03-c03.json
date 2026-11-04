@@ -3,30 +3,12 @@
     "id": "t03-c03-0001",
     "theme": "t03",
     "chapter": "t03-c03",
+    "context": "Je roule aux abords d'une école, d'un hôpital ou d'un lieu de culte.",
     "parts": [
       {
-        "text": "Aux abords d'une école, d'un hôpital ou d'un lieu de culte, la vitesse maximale est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "30 km/h"
-          },
-          {
-            "id": "B",
-            "text": "50 km/h"
-          },
-          {
-            "id": "C",
-            "text": "70 km/h"
-          },
-          {
-            "id": "D",
-            "text": "20 km/h"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 50 km/h :",
+        "correct": "no"
       }
     ],
     "explanation": "La loi limite à 30 km/h aux abords des établissements scolaires, hospitaliers et des édifices religieux.",
@@ -43,9 +25,10 @@
     "id": "t03-c03-0002",
     "theme": "t03",
     "chapter": "t03-c03",
+    "context": "Je suis dans une aire piétonne.",
     "parts": [
       {
-        "text": "Dans une aire piétonne, les véhicules autorisés roulent :",
+        "text": "Les véhicules autorisés roulent :",
         "options": [
           {
             "id": "A",
@@ -58,10 +41,6 @@
           {
             "id": "C",
             "text": "en klaxonnant"
-          },
-          {
-            "id": "D",
-            "text": "à 30 km/h"
           }
         ],
         "correct": [
@@ -83,30 +62,12 @@
     "id": "t03-c03-0003",
     "theme": "t03",
     "chapter": "t03-c03",
+    "context": "Un passage à niveau a des barrières. Le train est loin.",
     "parts": [
       {
-        "text": "Un passage à niveau a des barrières. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "les contourne si le train est loin"
-          },
-          {
-            "id": "B",
-            "text": "obéis au garde sans gêner la fermeture"
-          },
-          {
-            "id": "C",
-            "text": "passe vite avant la fermeture"
-          },
-          {
-            "id": "D",
-            "text": "klaxonne pour qu'on m'ouvre"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je les contourne :",
+        "correct": "no"
       }
     ],
     "explanation": "On obéit au garde et on ne gêne jamais la fermeture des barrières.",
@@ -123,30 +84,12 @@
     "id": "t03-c03-0004",
     "theme": "t03",
     "chapter": "t03-c03",
+    "context": "Je suis sur une voie ferrée et un train approche.",
     "parts": [
       {
-        "text": "Je suis sur une voie ferrée et un train approche. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "m'arrête sur place"
-          },
-          {
-            "id": "B",
-            "text": "dégage la voie immédiatement"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne pour être vu"
-          },
-          {
-            "id": "D",
-            "text": "recule doucement"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je dégage la voie immédiatement :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le train a la priorité : on dégage la voie tout de suite pour lui laisser le passage.",
@@ -163,30 +106,12 @@
     "id": "t03-c03-0005",
     "theme": "t03",
     "chapter": "t03-c03",
+    "context": "Je descends une pente rapide, un virage approche.",
     "parts": [
       {
-        "text": "Dans une descente rapide ou à l'approche d'un virage, je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "accélère"
-          },
-          {
-            "id": "B",
-            "text": "ralentis"
-          },
-          {
-            "id": "C",
-            "text": "rétrograde et accélère"
-          },
-          {
-            "id": "D",
-            "text": "coupe le moteur"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je ralentis :",
+        "correct": "yes"
       }
     ],
     "explanation": "On réduit sa vitesse en abordant les virages, les descentes rapides et l'approche des sommets de côte.",
@@ -203,9 +128,10 @@
     "id": "t03-c03-0006",
     "theme": "t03",
     "chapter": "t03-c03",
+    "context": "La route est étroite, encombrée ou bordée d'habitations.",
     "parts": [
       {
-        "text": "Sur une route étroite, encombrée ou bordée d'habitations, je roule :",
+        "text": "Je roule :",
         "options": [
           {
             "id": "A",
@@ -218,10 +144,6 @@
           {
             "id": "C",
             "text": "au milieu de la route"
-          },
-          {
-            "id": "D",
-            "text": "à la limite autorisée"
           }
         ],
         "correct": [
@@ -243,9 +165,10 @@
     "id": "t03-c03-0007",
     "theme": "t03",
     "chapter": "t03-c03",
+    "context": "Un panneau triangulaire annonce un dos d'âne.",
     "parts": [
       {
-        "text": "Un panneau triangulaire annonce un dos d'âne. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
@@ -258,10 +181,6 @@
           {
             "id": "C",
             "text": "klaxonne avant de passer"
-          },
-          {
-            "id": "D",
-            "text": "change de voie"
           }
         ],
         "correct": [
@@ -283,30 +202,12 @@
     "id": "t03-c03-0008",
     "theme": "t03",
     "chapter": "t03-c03",
+    "context": "Je passe près d'un marché au bord de la route.",
     "parts": [
       {
-        "text": "Près d'un marché au bord de la route, je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "roule à vitesse normale"
-          },
-          {
-            "id": "B",
-            "text": "reste attentif et je ralentis"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne en continu"
-          },
-          {
-            "id": "D",
-            "text": "fonce pour passer"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je reste attentif et je ralentis :",
+        "correct": "yes"
       }
     ],
     "explanation": "Beaucoup de gens, des marchandises et des véhicules arrêtés : des piétons peuvent traverser sans regarder.",
