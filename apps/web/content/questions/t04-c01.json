@@ -3,29 +3,26 @@
     "id": "t04-c01-0001",
     "theme": "t04",
     "chapter": "t04-c01",
+    "context": "Un piéton s'engage sur le passage devant moi.",
     "parts": [
       {
-        "text": "Un piéton s'engage sur le passage piéton devant moi. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "klaxonne brièvement pour l'avertir de ma présence"
+            "text": "klaxonne pour l'avertir"
           },
           {
             "id": "B",
-            "text": "accélère légèrement pour passer avant lui"
+            "text": "accélère pour passer avant"
           },
           {
             "id": "C",
-            "text": "continue si la voie de droite est libre"
-          },
-          {
-            "id": "D",
-            "text": "ralentis et m'arrête pour lui céder le passage"
+            "text": "ralentis et m'arrête"
           }
         ],
         "correct": [
-          "D"
+          "C"
         ]
       }
     ],
@@ -42,29 +39,30 @@
     "id": "t04-c01-0002",
     "theme": "t04",
     "chapter": "t04-c01",
+    "context": "Devant l'école, des enfants courent vers la route.",
     "parts": [
       {
-        "text": "Devant l'école, des enfants courent vers la route. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "freine seulement s'ils traversent devant moi"
+            "text": "ralentis tout de suite"
           },
           {
             "id": "B",
-            "text": "ralentis dès que je les vois, prêt à m'arrêter"
+            "text": "garde ma vitesse"
           },
           {
             "id": "C",
-            "text": "klaxonne pour qu'ils restent sur le trottoir"
+            "text": "klaxonne pour les arrêter"
           },
           {
             "id": "D",
-            "text": "garde ma vitesse car ils regardent avant de traverser"
+            "text": "freine s'ils traversent"
           }
         ],
         "correct": [
-          "B"
+          "A"
         ]
       }
     ],
@@ -82,29 +80,30 @@
     "id": "t04-c01-0003",
     "theme": "t04",
     "chapter": "t04-c01",
+    "context": "Un car est arrêté juste avant un passage piéton.",
     "parts": [
       {
-        "text": "Un car est arrêté juste avant un passage piéton. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "ralentis fortement : un piéton peut surgir devant lui"
+            "text": "le dépasse vite"
           },
           {
             "id": "B",
-            "text": "le dépasse rapidement pour dégager la circulation"
+            "text": "ralentis fortement"
           },
           {
             "id": "C",
-            "text": "klaxonne pour prévenir les piétons de mon passage"
+            "text": "klaxonne en passant"
           },
           {
             "id": "D",
-            "text": "reste près de lui en surveillant seulement la route"
+            "text": "reste près de lui"
           }
         ],
         "correct": [
-          "A"
+          "B"
         ]
       }
     ],
@@ -122,25 +121,26 @@
     "id": "t04-c01-0004",
     "theme": "t04",
     "chapter": "t04-c01",
+    "context": "La nuit, un groupe marche au bord d'une route peu éclairée.",
     "parts": [
       {
-        "text": "La nuit, sur une route peu éclairée, un groupe marche au bord. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "passe près d'eux car ils m'ont sûrement vu"
+            "text": "passe près d'eux"
           },
           {
             "id": "B",
-            "text": "garde ma vitesse en restant en feux de croisement"
+            "text": "garde ma vitesse"
           },
           {
             "id": "C",
-            "text": "ralentis et m'écarte sans geste brusque"
+            "text": "ralentis et m'écarte"
           },
           {
             "id": "D",
-            "text": "klaxonne sans ralentir pour les prévenir de loin"
+            "text": "klaxonne sans ralentir"
           }
         ],
         "correct": [
@@ -162,17 +162,18 @@
     "id": "t04-c01-0005",
     "theme": "t04",
     "chapter": "t04-c01",
+    "context": "J'approche d'un passage piéton.",
     "parts": [
       {
-        "text": "Devant un passage piéton, je regarde aussi :",
+        "text": "Je surveille aussi :",
         "options": [
           {
             "id": "A",
-            "text": "seulement ceux déjà engagés sur les bandes"
+            "text": "ceux déjà engagés seulement"
           },
           {
             "id": "B",
-            "text": "ceux qui attendent au bord du trottoir"
+            "text": "ceux qui attendent au bord"
           },
           {
             "id": "C",
@@ -180,7 +181,7 @@
           },
           {
             "id": "D",
-            "text": "ceux qui s'apprêtent à courir pour traverser"
+            "text": "ceux qui s'apprêtent à courir"
           }
         ],
         "correct": [
@@ -203,6 +204,7 @@
     "id": "t04-c01-0006",
     "theme": "t04",
     "chapter": "t04-c01",
+    "context": "Un piéton traverse hors passage devant moi.",
     "media": {
       "kind": "photo",
       "src": "p08.webp",
@@ -212,12 +214,12 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Un piéton traverse hors passage devant moi. Je peux passer sans ralentir :",
+        "statement": "Je peux passer sans ralentir :",
         "correct": "no"
       },
       {
         "kind": "yesno",
-        "statement": "Je dois pouvoir m'arrêter s'il s'engage :",
+        "statement": "Je dois pouvoir m'arrêter :",
         "correct": "yes"
       }
     ],
@@ -235,10 +237,11 @@
     "id": "t04-c01-0007",
     "theme": "t04",
     "chapter": "t04-c01",
+    "context": "Une femme avec un enfant dans les bras traverse lentement.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Une femme avec un enfant dans les bras traverse lentement. Je peux passer derrière elle en accélérant :",
+        "statement": "Je peux passer derrière elle en accélérant :",
         "correct": "no"
       }
     ],

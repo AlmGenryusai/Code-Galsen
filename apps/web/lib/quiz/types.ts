@@ -35,6 +35,7 @@ export interface QuestionV2 {
   id: string // "t04-c02-0007" : chapitre + numéro, jamais réutilisé
   theme: string // "t04"
   chapter: string // "t04-c02"
+  context?: string // 1 phrase courte avant l'énoncé (la situation)
   media?: Media
   parts: [Part] | [Part, Part]
   explanation: string

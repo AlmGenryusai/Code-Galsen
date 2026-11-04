@@ -3,25 +3,26 @@
     "id": "t04-c04-0001",
     "theme": "t04",
     "chapter": "t04-c04",
+    "context": "Un car rapide s'arrête brusquement devant moi.",
     "parts": [
       {
-        "text": "Un car rapide s'arrête brusquement devant moi pour des clients. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "me rapproche de lui pour qu'il avance plus vite"
+            "text": "me rapproche de lui"
           },
           {
             "id": "B",
-            "text": "le double aussitôt par la droite"
+            "text": "le double par la droite"
           },
           {
             "id": "C",
-            "text": "garde assez de distance pour pouvoir freiner"
+            "text": "garde de la distance"
           },
           {
             "id": "D",
-            "text": "klaxonne pour l'avertir de ma présence"
+            "text": "klaxonne pour l'avertir"
           }
         ],
         "correct": [
@@ -43,29 +44,30 @@
     "id": "t04-c04-0002",
     "theme": "t04",
     "chapter": "t04-c04",
+    "context": "Un Ndiaga Ndiaye est arrêté, des passagers descendent.",
     "parts": [
       {
-        "text": "Un Ndiaga Ndiaye est arrêté, des passagers descendent. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "ralentis et surveille si quelqu'un traverse devant lui"
+            "text": "le double vite"
           },
           {
             "id": "B",
-            "text": "le dépasse vite par la gauche pour ne pas attendre"
+            "text": "ralentis et surveille"
           },
           {
             "id": "C",
-            "text": "klaxonne pour que les passagers se dépêchent"
+            "text": "klaxonne pour les presser"
           },
           {
             "id": "D",
-            "text": "passe tout près d'eux pour ne pas bloquer la route"
+            "text": "passe tout près d'eux"
           }
         ],
         "correct": [
-          "A"
+          "B"
         ]
       }
     ],
@@ -83,29 +85,30 @@
     "id": "t04-c04-0003",
     "theme": "t04",
     "chapter": "t04-c04",
+    "context": "Un taxi ralentit et se déporte vers le bord.",
     "parts": [
       {
-        "text": "Un taxi ralentit et se déporte vers le bord. Il va probablement :",
+        "text": "Il va probablement :",
         "options": [
           {
             "id": "A",
-            "text": "tourner à gauche sans clignotant"
+            "text": "tourner sans clignotant"
           },
           {
             "id": "B",
-            "text": "s'arrêter pour prendre un client"
+            "text": "faire demi-tour"
           },
           {
             "id": "C",
-            "text": "faire demi-tour au milieu de la route"
+            "text": "accélérer pour me laisser passer"
           },
           {
             "id": "D",
-            "text": "accélérer pour me laisser passer"
+            "text": "se garer pour un client"
           }
         ],
         "correct": [
-          "B"
+          "D"
         ]
       }
     ],
@@ -123,6 +126,7 @@
     "id": "t04-c04-0004",
     "theme": "t04",
     "chapter": "t04-c04",
+    "context": "Un bus Dakar Dem Dikk se rabat vers l'arrêt, clignotant allumé.",
     "media": {
       "kind": "photo",
       "src": "p42.webp",
@@ -132,7 +136,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Un bus Dakar Dem Dikk se rabat vers l'arrêt avec son clignotant. Je dois lui laisser la place de se rabattre :",
+        "statement": "Je dois lui laisser la place :",
         "correct": "yes"
       }
     ],
@@ -150,13 +154,14 @@
     "id": "t04-c04-0005",
     "theme": "t04",
     "chapter": "t04-c04",
+    "context": "Je roule derrière un car rapide qui s'arrête souvent.",
     "parts": [
       {
-        "text": "Derrière un car rapide qui s'arrête souvent, je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "me colle à lui pour gagner du temps"
+            "text": "me colle à lui"
           },
           {
             "id": "B",
@@ -168,7 +173,7 @@
           },
           {
             "id": "D",
-            "text": "regarde les piétons devant lui"
+            "text": "surveille les piétons devant"
           }
         ],
         "correct": [
@@ -191,15 +196,16 @@
     "id": "t04-c04-0006",
     "theme": "t04",
     "chapter": "t04-c04",
+    "context": "Un car est arrêté et me cache la vue.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Un piéton peut surgir devant le car arrêté qui me cache la vue :",
+        "statement": "Un piéton peut surgir devant lui :",
         "correct": "yes"
       },
       {
         "kind": "yesno",
-        "statement": "Je peux dépasser ce car sans ralentir :",
+        "statement": "Je peux le dépasser sans ralentir :",
         "correct": "no"
       }
     ],

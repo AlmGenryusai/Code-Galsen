@@ -3,25 +3,26 @@
     "id": "t04-c03-0001",
     "theme": "t04",
     "chapter": "t04-c03",
+    "context": "Je rattrape une charrette tractée par un âne.",
     "parts": [
       {
-        "text": "Je rattrape une charrette tractée par un âne. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "double sans ralentir si la route est dégagée"
+            "text": "double sans ralentir"
           },
           {
             "id": "B",
-            "text": "klaxonne longuement pour que l'animal s'écarte"
+            "text": "klaxonne pour qu'elle s'écarte"
           },
           {
             "id": "C",
-            "text": "ralentis, garde au moins 1 m de côté et double prudemment"
+            "text": "ralentis et double prudemment"
           },
           {
             "id": "D",
-            "text": "reste collé derrière elle en attendant qu'elle s'arrête"
+            "text": "reste collé derrière elle"
           }
         ],
         "correct": [
@@ -42,25 +43,26 @@
     "id": "t04-c03-0002",
     "theme": "t04",
     "chapter": "t04-c03",
+    "context": "Je veux dépasser une charrette.",
     "parts": [
       {
-        "text": "Je veux dépasser une charrette. Avant, je vérifie :",
+        "text": "Avant, je vérifie :",
         "options": [
           {
             "id": "A",
-            "text": "que mon klaxon fonctionne bien"
+            "text": "que mon klaxon marche"
           },
           {
             "id": "B",
-            "text": "que personne ne me suit de trop près"
+            "text": "que personne ne me colle"
           },
           {
             "id": "C",
-            "text": "que la route est dégagée assez loin devant"
+            "text": "que la route est dégagée"
           },
           {
             "id": "D",
-            "text": "que la charrette va ralentir pour me laisser passer"
+            "text": "qu'elle va ralentir pour moi"
           }
         ],
         "correct": [
@@ -82,29 +84,30 @@
     "id": "t04-c03-0003",
     "theme": "t04",
     "chapter": "t04-c03",
+    "context": "Je dépasse une charrette.",
     "parts": [
       {
-        "text": "En dépassant une charrette, un klaxon fort peut :",
+        "text": "Un klaxon fort peut :",
         "options": [
           {
             "id": "A",
-            "text": "effrayer le cheval, qui peut se jeter sur la route"
+            "text": "calmer l'animal"
           },
           {
             "id": "B",
-            "text": "calmer l'animal en l'avertissant de ma présence"
+            "text": "effrayer le cheval"
           },
           {
             "id": "C",
-            "text": "garantir que le cheval s'écarte sans danger"
+            "text": "le faire s'écarter sans danger"
           },
           {
             "id": "D",
-            "text": "ne rien changer au comportement de l'animal"
+            "text": "ne rien changer"
           }
         ],
         "correct": [
-          "A"
+          "B"
         ]
       }
     ],
@@ -122,25 +125,26 @@
     "id": "t04-c03-0004",
     "theme": "t04",
     "chapter": "t04-c03",
+    "context": "La nuit, une charrette sans feux roule au bord. Je la vois tard.",
     "parts": [
       {
-        "text": "La nuit, une charrette sans feux roule au bord de la route. Je la vois tard. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
-            "text": "roule plus vite pour la dépasser au plus tôt"
+            "text": "roule plus vite pour passer"
           },
           {
             "id": "B",
-            "text": "fais confiance au cocher, il connaît la route"
+            "text": "fais confiance au cocher"
           },
           {
             "id": "C",
-            "text": "m'approche pour mieux voir la charrette"
+            "text": "m'approche pour mieux voir"
           },
           {
             "id": "D",
-            "text": "adapte ma vitesse pour pouvoir m'arrêter dans mes phares"
+            "text": "ralentis pour pouvoir m'arrêter"
           }
         ],
         "correct": [
@@ -162,6 +166,7 @@
     "id": "t04-c03-0005",
     "theme": "t04",
     "chapter": "t04-c03",
+    "context": "Un troupeau de moutons traverse devant moi.",
     "media": {
       "kind": "photo",
       "src": "q-t04-c03-0005.webp",
@@ -171,7 +176,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Un troupeau de moutons traverse devant moi. Je peux passer doucement au milieu :",
+        "statement": "Je peux passer doucement au milieu :",
         "correct": "no"
       }
     ],
@@ -189,6 +194,7 @@
     "id": "t04-c03-0006",
     "theme": "t04",
     "chapter": "t04-c03",
+    "context": "Des animaux sont sur la route devant moi.",
     "media": {
       "kind": "photo",
       "src": "p17.webp",
@@ -197,23 +203,23 @@
     },
     "parts": [
       {
-        "text": "Face à des animaux sur la route, je dois :",
+        "text": "Je dois :",
         "options": [
           {
             "id": "A",
-            "text": "ralentir dès que je les vois"
+            "text": "ralentir tout de suite"
           },
           {
             "id": "B",
-            "text": "klaxonner fort pour les chasser"
+            "text": "klaxonner fort"
           },
           {
             "id": "C",
-            "text": "rouler derrière eux pour les faire avancer"
+            "text": "rouler derrière eux"
           },
           {
             "id": "D",
-            "text": "rester prêt à m'arrêter à tout moment"
+            "text": "rester prêt à m'arrêter"
           }
         ],
         "correct": [
