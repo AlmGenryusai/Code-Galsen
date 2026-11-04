@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   title: 'Code Galsen',
   description: 'Prépare ton permis de conduire au Sénégal/UEMOA',
   manifest: '/manifest.json',
+  icons: { apple: '/icons/apple-touch-icon.png' },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',

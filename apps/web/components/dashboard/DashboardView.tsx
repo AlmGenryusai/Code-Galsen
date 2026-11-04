@@ -4,6 +4,7 @@ import { PassChip } from './PassChip'
 import { HomeCard } from './HomeCard'
 import { ReviewChip } from './ReviewChip'
 import { ThemeRow } from './ThemeRow'
+import { InstallHint } from './InstallHint'
 import { BottomNav } from './BottomNav'
 import { ExamIcon, SeriesIcon, SheetsIcon, TrainingIcon } from './Icons'
 import { themeProgress, type QuestionRef } from '@/lib/progress/progress'
@@ -66,6 +67,7 @@ export function DashboardView({ data, questions, lessonIds }: Props) {
         <span style={{ fontSize: 18, fontWeight: 800 }}>Code Galsen</span>
         {license.loaded && <PassChip license={license} />}
       </header>
+      <InstallHint />
 
       <div style={{ padding: '20px 20px 0', display: 'flex', flexDirection: 'column', gap: 12 }}>
         <div>

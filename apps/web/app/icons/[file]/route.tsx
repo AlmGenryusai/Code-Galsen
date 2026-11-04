@@ -7,6 +7,8 @@ const ICONS = {
   'icon-192.png': { size: 192, maskable: false },
   'icon-512.png': { size: 512, maskable: false },
   'maskable-512.png': { size: 512, maskable: true },
+  // iOS : icône d'écran d'accueil, fond plein (iOS arrondit lui-même)
+  'apple-touch-icon.png': { size: 180, maskable: true },
 } as const
 
 type IconFile = keyof typeof ICONS
