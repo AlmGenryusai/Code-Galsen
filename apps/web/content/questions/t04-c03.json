@@ -6,28 +6,9 @@
     "context": "Je rattrape une charrette tractée par un âne.",
     "parts": [
       {
-        "text": "Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "double sans ralentir"
-          },
-          {
-            "id": "B",
-            "text": "klaxonne pour qu'elle s'écarte"
-          },
-          {
-            "id": "C",
-            "text": "ralentis et double prudemment"
-          },
-          {
-            "id": "D",
-            "text": "reste collé derrière elle"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je peux doubler sans ralentir :",
+        "correct": "no"
       }
     ],
     "explanation": "Une charrette avance lentement et l'animal peut s'écarter sans prévenir. Ralentissez, laissez de la place sur le côté et ne doublez que si la route est dégagée.",
@@ -46,28 +27,9 @@
     "context": "Je veux dépasser une charrette.",
     "parts": [
       {
-        "text": "Avant, je vérifie :",
-        "options": [
-          {
-            "id": "A",
-            "text": "que mon klaxon marche"
-          },
-          {
-            "id": "B",
-            "text": "que personne ne me colle"
-          },
-          {
-            "id": "C",
-            "text": "que la route est dégagée"
-          },
-          {
-            "id": "D",
-            "text": "qu'elle va ralentir pour moi"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je vérifie que la route est dégagée devant :",
+        "correct": "yes"
       }
     ],
     "explanation": "Une charrette est lente et se déporte parfois. Il vous faut une longue vue dégagée pour finir le dépassement en sécurité.",
@@ -87,28 +49,9 @@
     "context": "Je dépasse une charrette.",
     "parts": [
       {
-        "text": "Un klaxon fort peut :",
-        "options": [
-          {
-            "id": "A",
-            "text": "calmer l'animal"
-          },
-          {
-            "id": "B",
-            "text": "effrayer le cheval"
-          },
-          {
-            "id": "C",
-            "text": "le faire s'écarter sans danger"
-          },
-          {
-            "id": "D",
-            "text": "ne rien changer"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Un klaxon fort peut effrayer le cheval :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un animal surpris peut bondir d'un côté ou de l'autre. Mieux vaut ralentir, laisser de l'espace et dépasser sans bruit.",

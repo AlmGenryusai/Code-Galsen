@@ -6,24 +6,9 @@
     "context": "Un piéton s'engage sur le passage devant moi.",
     "parts": [
       {
-        "text": "Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "klaxonne pour l'avertir"
-          },
-          {
-            "id": "B",
-            "text": "accélère pour passer avant"
-          },
-          {
-            "id": "C",
-            "text": "ralentis et m'arrête"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je dois m'arrêter pour le laisser passer :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le piéton engagé sur un passage piéton est prioritaire. Vous devez impérativement ralentir et lui céder le passage.",
@@ -42,28 +27,9 @@
     "context": "Devant l'école, des enfants courent vers la route.",
     "parts": [
       {
-        "text": "Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ralentis tout de suite"
-          },
-          {
-            "id": "B",
-            "text": "garde ma vitesse"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne pour les arrêter"
-          },
-          {
-            "id": "D",
-            "text": "freine s'ils traversent"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Je garde ma vitesse :",
+        "correct": "no"
       }
     ],
     "explanation": "Les enfants jugent mal la vitesse et traversent sans prévenir. Ralentir tôt vous laisse le temps de vous arrêter.",
@@ -83,28 +49,9 @@
     "context": "Un car est arrêté juste avant un passage piéton.",
     "parts": [
       {
-        "text": "Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "le dépasse vite"
-          },
-          {
-            "id": "B",
-            "text": "ralentis fortement"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne en passant"
-          },
-          {
-            "id": "D",
-            "text": "reste près de lui"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je peux le dépasser vite :",
+        "correct": "no"
       }
     ],
     "explanation": "Le car vous cache les piétons qui traversent devant lui. Vous les verrez trop tard si vous passez vite.",
@@ -124,28 +71,9 @@
     "context": "La nuit, un groupe marche au bord d'une route peu éclairée.",
     "parts": [
       {
-        "text": "Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "passe près d'eux"
-          },
-          {
-            "id": "B",
-            "text": "garde ma vitesse"
-          },
-          {
-            "id": "C",
-            "text": "ralentis et m'écarte"
-          },
-          {
-            "id": "D",
-            "text": "klaxonne sans ralentir"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je ralentis et je m'écarte :",
+        "correct": "yes"
       }
     ],
     "explanation": "La nuit, un piéton en vêtements sombres se voit très tard. Une vitesse réduite vous laisse le temps de réagir.",

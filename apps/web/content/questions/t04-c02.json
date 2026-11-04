@@ -6,28 +6,9 @@
     "context": "À un feu rouge, un motocycliste est à ma droite. Le feu passe au vert.",
     "parts": [
       {
-        "text": "Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "redémarre vite"
-          },
-          {
-            "id": "B",
-            "text": "lui ferme le passage"
-          },
-          {
-            "id": "C",
-            "text": "surveille sa trajectoire"
-          },
-          {
-            "id": "D",
-            "text": "klaxonne pour qu'il recule"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Au vert, je surveille sa trajectoire :",
+        "correct": "yes"
       }
     ],
     "explanation": "Une moto peut se faufiler entre les files ou serrer à droite au feu. Restez attentif avant de démarrer ou de tourner : elle est difficile à voir.",
@@ -52,28 +33,9 @@
     },
     "parts": [
       {
-        "text": "Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "reste dans ma file"
-          },
-          {
-            "id": "B",
-            "text": "me décale pour la bloquer"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne pour qu'elle se rabatte"
-          },
-          {
-            "id": "D",
-            "text": "accélère pour la devancer"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Je me décale pour la bloquer :",
+        "correct": "no"
       }
     ],
     "explanation": "Un décalage brusque coupe la route à la moto qui arrive. En restant droit, vous restez prévisible.",
@@ -93,28 +55,9 @@
     "context": "Je m'arrête et je veux ouvrir ma portière côté route.",
     "parts": [
       {
-        "text": "D'abord, je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "ouvre doucement, puis regarde"
-          },
-          {
-            "id": "B",
-            "text": "klaxonne"
-          },
-          {
-            "id": "C",
-            "text": "mets mon clignotant gauche"
-          },
-          {
-            "id": "D",
-            "text": "regarde le rétroviseur et l'épaule"
-          }
-        ],
-        "correct": [
-          "D"
-        ]
+        "kind": "yesno",
+        "statement": "Je regarde derrière moi avant d'ouvrir :",
+        "correct": "yes"
       }
     ],
     "explanation": "Une moto qui passe près de votre portière n'a pas le temps de l'éviter. Le contrôle visuel doit se faire avant d'ouvrir.",

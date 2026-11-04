@@ -6,28 +6,9 @@
     "context": "Un car rapide s'arrête brusquement devant moi.",
     "parts": [
       {
-        "text": "Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "me rapproche de lui"
-          },
-          {
-            "id": "B",
-            "text": "le double par la droite"
-          },
-          {
-            "id": "C",
-            "text": "garde de la distance"
-          },
-          {
-            "id": "D",
-            "text": "klaxonne pour l'avertir"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je me rapproche de lui :",
+        "correct": "no"
       }
     ],
     "explanation": "Les cars et taxis freinent vite et se rabattent sans prévenir. Une bonne distance vous laisse le temps de vous arrêter.",
@@ -96,19 +77,15 @@
           },
           {
             "id": "B",
-            "text": "faire demi-tour"
-          },
-          {
-            "id": "C",
             "text": "accélérer pour me laisser passer"
           },
           {
-            "id": "D",
+            "id": "C",
             "text": "se garer pour un client"
           }
         ],
         "correct": [
-          "D"
+          "C"
         ]
       }
     ],
