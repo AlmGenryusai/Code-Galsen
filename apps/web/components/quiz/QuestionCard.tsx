@@ -115,7 +115,7 @@ export function QuestionCard({
 
         <div style={{ padding: '16px 20px 0' }}>
           {q.context && (
-            <p style={{ fontSize: 13, lineHeight: 1.35, color: 'hsl(var(--muted))', marginBottom: 8 }}>{q.context}</p>
+            <p style={{ fontSize: 16, fontWeight: 600, lineHeight: 1.35, color: 'hsl(var(--ink))', marginBottom: 8 }}>{q.context}</p>
           )}
           {SHOW_DRAFT_BADGE && q.status === 'draft' && (
             <div style={{ marginBottom: 8, fontSize: 14, fontWeight: 700, color: 'hsl(var(--muted))' }}>Brouillon</div>
