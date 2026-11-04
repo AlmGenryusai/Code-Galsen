@@ -19,6 +19,7 @@ export default function ProfilPage() {
         </p>
         <nav style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4, marginTop: 16 }}>
           <Link href="/mentions-legales" style={{ minHeight: 44, lineHeight: '44px', fontSize: 14, color: 'hsl(var(--muted))' }}>Mentions légales</Link>
+          <Link href="/credits" style={{ minHeight: 44, lineHeight: '44px', fontSize: 14, color: 'hsl(var(--muted))' }}>Crédits photos</Link>
           <Link href="/confidentialite" style={{ minHeight: 44, lineHeight: '44px', fontSize: 14, color: 'hsl(var(--muted))' }}>Confidentialité</Link>
         </nav>
       </div>
