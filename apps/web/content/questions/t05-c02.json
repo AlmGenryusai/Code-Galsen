@@ -3,30 +3,12 @@
     "id": "t05-c02-0001",
     "theme": "t05",
     "chapter": "t05-c02",
+    "context": "Je transporte un chargement.",
     "parts": [
       {
-        "text": "Un chargement ne doit :",
-        "options": [
-          {
-            "id": "A",
-            "text": "causer ni dommage ni danger"
-          },
-          {
-            "id": "B",
-            "text": "tomber sur la route en roulant"
-          },
-          {
-            "id": "C",
-            "text": "dépasser du véhicule sans être amarré"
-          },
-          {
-            "id": "D",
-            "text": "traîner sur le sol derrière moi"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Il peut dépasser du véhicule sans être amarré :",
+        "correct": "no"
       }
     ],
     "explanation": "Toute précaution doit être prise pour que le chargement ne puisse blesser ou gêner personne.",
@@ -43,13 +25,14 @@
     "id": "t05-c02-0002",
     "theme": "t05",
     "chapter": "t05-c02",
+    "context": "Les chaînes et bâches d'un chargement.",
     "parts": [
       {
-        "text": "Les chaînes et bâches d'un chargement doivent être :",
+        "text": "Elles doivent être :",
         "options": [
           {
             "id": "A",
-            "text": "laissées flottantes au vent"
+            "text": "laissées au vent"
           },
           {
             "id": "B",
@@ -58,10 +41,6 @@
           {
             "id": "C",
             "text": "enlevées en ville"
-          },
-          {
-            "id": "D",
-            "text": "accrochées aux feux"
           }
         ],
         "correct": [
@@ -83,30 +62,12 @@
     "id": "t05-c02-0003",
     "theme": "t05",
     "chapter": "t05-c02",
+    "context": "Un chargement de grande longueur dépasse à l'arrière.",
     "parts": [
       {
-        "text": "Un chargement de grande longueur peut dépasser à l'arrière de :",
-        "options": [
-          {
-            "id": "A",
-            "text": "1 mètre"
-          },
-          {
-            "id": "B",
-            "text": "3 mètres au plus"
-          },
-          {
-            "id": "C",
-            "text": "5 mètres"
-          },
-          {
-            "id": "D",
-            "text": "la longueur qu'on veut"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Il peut dépasser de 5 mètres :",
+        "correct": "no"
       }
     ],
     "explanation": "Il ne doit pas dépasser de plus de 3 mètres l'arrière du véhicule ni dépasser à l'avant.",
@@ -123,25 +84,22 @@
     "id": "t05-c02-0004",
     "theme": "t05",
     "chapter": "t05-c02",
+    "context": "Je transporte du sable ou du ciment.",
     "parts": [
       {
-        "text": "Je transporte des matériaux pulvérulents (sable, ciment). Je dois :",
+        "text": "Je les :",
         "options": [
           {
             "id": "A",
-            "text": "les laisser à l'air libre"
+            "text": "laisse à l'air libre"
           },
           {
             "id": "B",
-            "text": "les amarrer sous une bâche étanche"
+            "text": "amarre sous bâche étanche"
           },
           {
             "id": "C",
-            "text": "rouler très vite pour limiter la poussière"
-          },
-          {
-            "id": "D",
-            "text": "les mouiller avant de partir"
+            "text": "mouille avant de partir"
           }
         ],
         "correct": [
@@ -163,6 +121,7 @@
     "id": "t05-c02-0005",
     "theme": "t05",
     "chapter": "t05-c02",
+    "context": "Je conduis un véhicule de transport de personnes.",
     "media": {
       "kind": "photo",
       "src": "q-t05-c02-0005.webp",
@@ -172,7 +131,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Dans un véhicule de transport de personnes, les passagers peuvent monter sur le marchepied si le véhicule roule lentement :",
+        "statement": "Les passagers peuvent monter sur le marchepied si je roule lentement :",
         "correct": "no"
       }
     ],
@@ -190,9 +149,10 @@
     "id": "t05-c02-0006",
     "theme": "t05",
     "chapter": "t05-c02",
+    "context": "Je conduis un véhicule de transport de personnes.",
     "parts": [
       {
-        "text": "Dans un véhicule de transport de personnes, je ne transporte pas de passagers :",
+        "text": "Je ne transporte pas de passagers :",
         "options": [
           {
             "id": "A",
@@ -232,10 +192,11 @@
     "id": "t05-c02-0007",
     "theme": "t05",
     "chapter": "t05-c02",
+    "context": "Je tracte une remorque.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Une remorque peut transporter des passagers sur une courte distance :",
+        "statement": "Elle peut transporter des passagers sur courte distance :",
         "correct": "no"
       }
     ],
@@ -253,30 +214,12 @@
     "id": "t05-c02-0008",
     "theme": "t05",
     "chapter": "t05-c02",
+    "context": "Dans un car scolaire, des enfants non accompagnés voyagent.",
     "parts": [
       {
-        "text": "Dans un car scolaire, les enfants non accompagnés sont transportés :",
-        "options": [
-          {
-            "id": "A",
-            "text": "debout dans l'allée"
-          },
-          {
-            "id": "B",
-            "text": "assis"
-          },
-          {
-            "id": "C",
-            "text": "debout à l'arrière"
-          },
-          {
-            "id": "D",
-            "text": "sur le toit"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Ils sont transportés assis :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les enfants sont transportés assis s'ils ne sont pas accompagnés.",
