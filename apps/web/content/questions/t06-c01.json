@@ -3,30 +3,12 @@
     "id": "t06-c01-0001",
     "theme": "t06",
     "chapter": "t06-c01",
+    "context": "J'arrive sur un accident.",
     "parts": [
       {
-        "text": "J'arrive sur un accident. Ma première action est de :",
-        "options": [
-          {
-            "id": "A",
-            "text": "m'approcher de la victime"
-          },
-          {
-            "id": "B",
-            "text": "sécuriser la zone"
-          },
-          {
-            "id": "C",
-            "text": "filmer la scène pour les secours"
-          },
-          {
-            "id": "D",
-            "text": "repartir pour appeler de plus loin"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Ma première action est de sécuriser la zone :",
+        "correct": "yes"
       }
     ],
     "explanation": "Avant de secourir, on protège : feux de détresse, signalisation, éloigner les curieux. Un second accident aggraverait tout.",
@@ -43,30 +25,12 @@
     "id": "t06-c01-0002",
     "theme": "t06",
     "chapter": "t06-c01",
+    "context": "Mon véhicule a causé un accident.",
     "parts": [
       {
-        "text": "Mon véhicule a causé un accident. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "continue ma route"
-          },
-          {
-            "id": "B",
-            "text": "m'arrête et reste sur place"
-          },
-          {
-            "id": "C",
-            "text": "cherche un ami pour m'aider"
-          },
-          {
-            "id": "D",
-            "text": "ralentis, regarde, puis repars"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je continue ma route :",
+        "correct": "no"
       }
     ],
     "explanation": "Le conducteur qui sait que son véhicule a causé ou occasionné un accident et ne s'arrête pas commet un délit. On s'arrête.",
@@ -83,9 +47,10 @@
     "id": "t06-c01-0003",
     "theme": "t06",
     "chapter": "t06-c01",
+    "context": "J'alerte les secours.",
     "parts": [
       {
-        "text": "Pour alerter les secours, j'indique :",
+        "text": "J'indique :",
         "options": [
           {
             "id": "A",
@@ -101,7 +66,7 @@
           },
           {
             "id": "D",
-            "text": "mon numéro de plaque seulement"
+            "text": "ma plaque seulement"
           }
         ],
         "correct": [
@@ -125,30 +90,12 @@
     "id": "t06-c01-0004",
     "theme": "t06",
     "chapter": "t06-c01",
+    "context": "Une victime est inconsciente, sans danger autour.",
     "parts": [
       {
-        "text": "Une victime est inconsciente, sans danger autour. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "la secoue pour la réveiller"
-          },
-          {
-            "id": "B",
-            "text": "ne la déplace pas, j'appelle"
-          },
-          {
-            "id": "C",
-            "text": "la mets debout pour qu'elle respire"
-          },
-          {
-            "id": "D",
-            "text": "lui donne à boire un peu d'eau"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je ne la déplace pas et j'appelle :",
+        "correct": "yes"
       }
     ],
     "explanation": "On ne déplace pas une victime sans danger immédiat : on risque d'aggraver une lésion de la colonne.",
@@ -165,10 +112,11 @@
     "id": "t06-c01-0005",
     "theme": "t06",
     "chapter": "t06-c01",
+    "context": "Un motard blessé porte un casque.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Un motard blessé porte un casque. Je le lui retire tout de suite pour qu'il respire :",
+        "statement": "Je le lui retire tout de suite :",
         "correct": "no"
       }
     ],
@@ -186,9 +134,10 @@
     "id": "t06-c01-0006",
     "theme": "t06",
     "chapter": "t06-c01",
+    "context": "Une victime saigne beaucoup d'une jambe.",
     "parts": [
       {
-        "text": "Une victime saigne beaucoup d'une jambe. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
@@ -196,15 +145,11 @@
           },
           {
             "id": "B",
-            "text": "attends les secours sans la toucher"
+            "text": "attends sans la toucher"
           },
           {
             "id": "C",
             "text": "lui donne à boire"
-          },
-          {
-            "id": "D",
-            "text": "la fais marcher un peu"
           }
         ],
         "correct": [

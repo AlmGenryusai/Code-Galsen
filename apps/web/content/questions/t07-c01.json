@@ -3,9 +3,10 @@
     "id": "t07-c01-0001",
     "theme": "t07",
     "chapter": "t07-c01",
+    "context": "Avant de démarrer.",
     "parts": [
       {
-        "text": "Avant de démarrer, je règle :",
+        "text": "Je règle :",
         "options": [
           {
             "id": "A",
@@ -45,30 +46,12 @@
     "id": "t07-c01-0002",
     "theme": "t07",
     "chapter": "t07-c01",
+    "context": "Ceinture de sécurité.",
     "parts": [
       {
-        "text": "La ceinture de sécurité est obligatoire pour :",
-        "options": [
-          {
-            "id": "A",
-            "text": "les places avant"
-          },
-          {
-            "id": "B",
-            "text": "personne en ville"
-          },
-          {
-            "id": "C",
-            "text": "les passagers arrière uniquement"
-          },
-          {
-            "id": "D",
-            "text": "les enfants de moins de dix ans"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Elle est obligatoire pour les places avant :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le conducteur et les occupants des places avant doivent l'attacher. Seule une contre-indication médicale justifiée dispense.",
@@ -85,9 +68,10 @@
     "id": "t07-c01-0003",
     "theme": "t07",
     "chapter": "t07-c01",
+    "context": "Je tiens le volant.",
     "parts": [
       {
-        "text": "Mes bras, en tenant le volant, sont :",
+        "text": "Mes bras sont :",
         "options": [
           {
             "id": "A",
@@ -100,10 +84,6 @@
           {
             "id": "C",
             "text": "collés au corps"
-          },
-          {
-            "id": "D",
-            "text": "posés sur le haut du volant"
           }
         ],
         "correct": [
@@ -125,30 +105,12 @@
     "id": "t07-c01-0004",
     "theme": "t07",
     "chapter": "t07-c01",
+    "context": "Des objets sont dans l'habitacle.",
     "parts": [
       {
-        "text": "Les objets dans l'habitacle doivent être :",
-        "options": [
-          {
-            "id": "A",
-            "text": "posés près des pédales"
-          },
-          {
-            "id": "B",
-            "text": "rangés ou fixés"
-          },
-          {
-            "id": "C",
-            "text": "jetés sur la plage arrière"
-          },
-          {
-            "id": "D",
-            "text": "tenus dans la main"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je les laisse près des pédales :",
+        "correct": "no"
       }
     ],
     "explanation": "Un objet qui roule sous les pédales peut empêcher de freiner. Tout doit être rangé.",
@@ -165,30 +127,12 @@
     "id": "t07-c01-0005",
     "theme": "t07",
     "chapter": "t07-c01",
+    "context": "Je règle mes rétroviseurs.",
     "parts": [
       {
-        "text": "Mes rétroviseurs sont réglés :",
-        "options": [
-          {
-            "id": "A",
-            "text": "pour voir l'arrière de ma voiture"
-          },
-          {
-            "id": "B",
-            "text": "pour voir derrière et sur les côtés"
-          },
-          {
-            "id": "C",
-            "text": "vers le plafond de l'habitacle"
-          },
-          {
-            "id": "D",
-            "text": "une fois pour toutes, au hasard"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Ils servent à voir derrière et sur les côtés :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un bon réglage montre la route derrière et sur les côtés, avec un minimum de carrosserie.",
@@ -205,30 +149,12 @@
     "id": "t07-c01-0006",
     "theme": "t07",
     "chapter": "t07-c01",
+    "context": "Mon appui-tête est bien réglé.",
     "parts": [
       {
-        "text": "Un appui-tête bien réglé :",
-        "options": [
-          {
-            "id": "A",
-            "text": "est à hauteur de la tête"
-          },
-          {
-            "id": "B",
-            "text": "est au niveau des épaules"
-          },
-          {
-            "id": "C",
-            "text": "est retiré pour mieux voir devant"
-          },
-          {
-            "id": "D",
-            "text": "est posé devant le siège avant"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Il est à hauteur de la tête :",
+        "correct": "yes"
       }
     ],
     "explanation": "L'appui-tête protège la nuque en cas de choc par l'arrière. Il se règle à hauteur de la tête.",

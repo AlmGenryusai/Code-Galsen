@@ -3,6 +3,7 @@
     "id": "t07-c02-0001",
     "theme": "t07",
     "chapter": "t07-c02",
+    "context": "J'ouvre ma portière.",
     "media": {
       "kind": "photo",
       "src": "q-t07-c02-0001.webp",
@@ -12,7 +13,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Avant d'ouvrir ma portière, je regarde derrière moi :",
+        "statement": "Je regarde derrière moi avant :",
         "correct": "yes"
       }
     ],
@@ -30,9 +31,10 @@
     "id": "t07-c02-0002",
     "theme": "t07",
     "chapter": "t07-c02",
+    "context": "Je me gare au bord de la route.",
     "parts": [
       {
-        "text": "Quand je me gare au bord de la route, je fais descendre mes passagers :",
+        "text": "Mes passagers descendent :",
         "options": [
           {
             "id": "A",
@@ -44,11 +46,7 @@
           },
           {
             "id": "C",
-            "text": "au milieu de la chaussée"
-          },
-          {
-            "id": "D",
-            "text": "pendant que je roule encore"
+            "text": "pendant que je roule"
           }
         ],
         "correct": [
@@ -70,30 +68,12 @@
     "id": "t07-c02-0003",
     "theme": "t07",
     "chapter": "t07-c02",
+    "context": "Je m'éloigne de mon véhicule.",
     "parts": [
       {
-        "text": "Avant de m'éloigner de mon véhicule, je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "laisse le moteur tourner"
-          },
-          {
-            "id": "B",
-            "text": "coupe le moteur et immobilise"
-          },
-          {
-            "id": "C",
-            "text": "laisse la clé sur le contact"
-          },
-          {
-            "id": "D",
-            "text": "laisse la portière ouverte"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je laisse le moteur tourner :",
+        "correct": "no"
       }
     ],
     "explanation": "Moteur coupé, véhicule immobilisé selon la pente : on évite qu'il bouge.",
@@ -110,30 +90,12 @@
     "id": "t07-c02-0004",
     "theme": "t07",
     "chapter": "t07-c02",
+    "context": "Je monte dans ma voiture.",
     "parts": [
       {
-        "text": "J'ouvre ma portière pour monter dans ma voiture. Je m'assure d'abord :",
-        "options": [
-          {
-            "id": "A",
-            "text": "que l'ouverture est sans danger"
-          },
-          {
-            "id": "B",
-            "text": "que mon téléphone est chargé"
-          },
-          {
-            "id": "C",
-            "text": "que la radio fonctionne"
-          },
-          {
-            "id": "D",
-            "text": "que tout le monde est assis"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Je m'assure d'abord que l'ouverture est sans danger :",
+        "correct": "yes"
       }
     ],
     "explanation": "On s'assure avant d'ouvrir la portière, pour entrer comme pour sortir : des véhicules, des motos, des piétons peuvent passer.",
@@ -150,30 +112,12 @@
     "id": "t07-c02-0005",
     "theme": "t07",
     "chapter": "t07-c02",
+    "context": "Je descends de ma voiture avec un enfant.",
     "parts": [
       {
-        "text": "Je descends de ma voiture, un enfant est avec moi. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "le laisse descendre seul côté route"
-          },
-          {
-            "id": "B",
-            "text": "lui tiens la main, côté trottoir"
-          },
-          {
-            "id": "C",
-            "text": "le laisse courir devant moi"
-          },
-          {
-            "id": "D",
-            "text": "le laisse dans la voiture un instant seul"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je le laisse descendre seul côté route :",
+        "correct": "no"
       }
     ],
     "explanation": "Les enfants traversent sans regarder. On les fait descendre du bon côté et on les tient par la main.",
@@ -190,9 +134,10 @@
     "id": "t07-c02-0006",
     "theme": "t07",
     "chapter": "t07-c02",
+    "context": "Je quitte mon véhicule.",
     "parts": [
       {
-        "text": "Je quitte mon véhicule. Je :",
+        "text": "Je :",
         "options": [
           {
             "id": "A",
@@ -205,10 +150,6 @@
           {
             "id": "C",
             "text": "laisse la clé dessus"
-          },
-          {
-            "id": "D",
-            "text": "laisse le moteur tourner"
           }
         ],
         "correct": [

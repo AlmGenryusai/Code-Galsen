@@ -3,13 +3,14 @@
     "id": "t05-c01-0001",
     "theme": "t05",
     "chapter": "t05-c01",
+    "context": "Un agent me contrôle.",
     "parts": [
       {
-        "text": "À la demande d'un agent, je dois présenter :",
+        "text": "Je présente :",
         "options": [
           {
             "id": "A",
-            "text": "mon permis de conduire"
+            "text": "mon permis"
           },
           {
             "id": "B",
@@ -17,11 +18,11 @@
           },
           {
             "id": "C",
-            "text": "ma carte d'électeur biométrique"
+            "text": "ma carte d'électeur"
           },
           {
             "id": "D",
-            "text": "mon passeport international en cours de validité"
+            "text": "mon passeport"
           }
         ],
         "correct": [
@@ -44,24 +45,21 @@
     "id": "t05-c01-0002",
     "theme": "t05",
     "chapter": "t05-c01",
+    "context": "J'achète un véhicule mis en circulation pour la première fois.",
     "parts": [
       {
-        "text": "Après l'achat d'un véhicule mis en circulation pour la première fois, je déclare sa mise en circulation :",
+        "text": "Je déclare sa mise en circulation :",
         "options": [
           {
             "id": "A",
-            "text": "dans un délai de 15 jours"
+            "text": "sous 15 jours"
           },
           {
             "id": "B",
-            "text": "dans un délai d'un an"
+            "text": "sous un an"
           },
           {
             "id": "C",
-            "text": "dans un délai de 48 heures"
-          },
-          {
-            "id": "D",
             "text": "seulement si on me le demande"
           }
         ],
@@ -84,9 +82,10 @@
     "id": "t05-c01-0003",
     "theme": "t05",
     "chapter": "t05-c01",
+    "context": "La visite technique.",
     "parts": [
       {
-        "text": "La date de fin de validité de la visite technique figure :",
+        "text": "Sa date de fin figure :",
         "options": [
           {
             "id": "A",
@@ -94,15 +93,11 @@
           },
           {
             "id": "B",
-            "text": "sur le pare-brise du véhicule uniquement"
+            "text": "sur la plaque arrière"
           },
           {
             "id": "C",
-            "text": "sur la plaque d'immatriculation arrière"
-          },
-          {
-            "id": "D",
-            "text": "sur le permis de conduire du titulaire"
+            "text": "sur mon permis"
           }
         ],
         "correct": [
@@ -124,30 +119,12 @@
     "id": "t05-c01-0004",
     "theme": "t05",
     "chapter": "t05-c01",
+    "context": "Je conduis un véhicule de transport de personnes ou de marchandises, hors véhicule neuf.",
     "parts": [
       {
-        "text": "Un véhicule de transport de personnes ou de marchandises, hors véhicule neuf, doit passer la visite technique :",
-        "options": [
-          {
-            "id": "A",
-            "text": "avant sa mise en service"
-          },
-          {
-            "id": "B",
-            "text": "seulement après un accident grave"
-          },
-          {
-            "id": "C",
-            "text": "une seule fois, à l'achat"
-          },
-          {
-            "id": "D",
-            "text": "tous les dix ans, sans exception"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "La visite technique n'est nécessaire qu'après un accident :",
+        "correct": "no"
       }
     ],
     "explanation": "Tout véhicule employé au transport de personnes ou de marchandises passe d'abord une visite technique, puis aux dates fixées. Les véhicules neufs n'y sont pas soumis (L.47).",
@@ -170,7 +147,7 @@
         "options": [
           {
             "id": "A",
-            "text": "une plaque à l'arrière seulement"
+            "text": "une plaque à l'arrière"
           },
           {
             "id": "B",
@@ -178,10 +155,6 @@
           },
           {
             "id": "C",
-            "text": "une plaque sur le pare-brise"
-          },
-          {
-            "id": "D",
             "text": "une plaque sur le toit"
           }
         ],
@@ -204,10 +177,11 @@
     "id": "t05-c01-0006",
     "theme": "t05",
     "chapter": "t05-c01",
+    "context": "Un gendarme me fait signe de m'arrêter.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Un gendarme me fait signe de m'arrêter. Je m'arrête :",
+        "statement": "Je m'arrête :",
         "correct": "yes"
       }
     ],
@@ -225,30 +199,12 @@
     "id": "t05-c01-0007",
     "theme": "t05",
     "chapter": "t05-c01",
+    "context": "Je conduis une voiture.",
     "parts": [
       {
-        "text": "Pour conduire une voiture, mon permis doit être :",
-        "options": [
-          {
-            "id": "A",
-            "text": "valable pour la catégorie"
-          },
-          {
-            "id": "B",
-            "text": "délivré par un autre pays seulement"
-          },
-          {
-            "id": "C",
-            "text": "expiré mais pas encore retiré"
-          },
-          {
-            "id": "D",
-            "text": "prêté par un ami titulaire"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Mon permis expiré mais non retiré suffit :",
+        "correct": "no"
       }
     ],
     "explanation": "Le permis doit correspondre à la catégorie du véhicule et être en cours de validité, au nom du conducteur.",
@@ -265,10 +221,11 @@
     "id": "t05-c01-0008",
     "theme": "t05",
     "chapter": "t05-c01",
+    "context": "Après une infraction, je donne un faux nom à un agent.",
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Je donne un faux nom à un agent après une infraction. C'est un délit puni de prison et d'amende :",
+        "statement": "C'est un délit puni de prison et d'amende :",
         "correct": "yes"
       }
     ],
