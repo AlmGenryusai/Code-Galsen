@@ -3,30 +3,12 @@
     "id": "t02-c01-0001",
     "theme": "t02",
     "chapter": "t02-c01",
+    "context": "Je veux changer de direction.",
     "parts": [
       {
-        "text": "Avant de changer de direction, je dois d'abord :",
-        "options": [
-          {
-            "id": "A",
-            "text": "klaxonner pour prévenir les autres"
-          },
-          {
-            "id": "B",
-            "text": "mettre le clignotant et tourner aussitôt"
-          },
-          {
-            "id": "C",
-            "text": "ralentir et tourner en regardant devant"
-          },
-          {
-            "id": "D",
-            "text": "vérifier que c'est sans danger, puis prévenir"
-          }
-        ],
-        "correct": [
-          "D"
-        ]
+        "kind": "yesno",
+        "statement": "Je vérifie que c'est sans danger, puis je préviens :",
+        "correct": "yes"
       }
     ],
     "explanation": "On regarde d'abord si la manœuvre est possible, puis on prévient avec le clignotant. Le clignotant seul ne remplace pas le regard.",
@@ -43,9 +25,10 @@
     "id": "t02-c01-0002",
     "theme": "t02",
     "chapter": "t02-c01",
+    "context": "Un cycliste tend le bras horizontalement vers la gauche.",
     "parts": [
       {
-        "text": "Un cycliste tend le bras horizontalement vers la gauche. Il va :",
+        "text": "Il va :",
         "options": [
           {
             "id": "A",
@@ -57,11 +40,7 @@
           },
           {
             "id": "C",
-            "text": "s'arrêter sur le bord"
-          },
-          {
-            "id": "D",
-            "text": "ralentir sans tourner"
+            "text": "s'arrêter"
           }
         ],
         "correct": [
@@ -83,13 +62,14 @@
     "id": "t02-c01-0003",
     "theme": "t02",
     "chapter": "t02-c01",
+    "context": "De nuit, hors agglomération, je veux dépasser.",
     "parts": [
       {
-        "text": "De nuit, hors agglomération, je veux dépasser. Je préviens celui que je dépasse avec :",
+        "text": "Je préviens avec :",
         "options": [
           {
             "id": "A",
-            "text": "l'avertisseur sonore seul"
+            "text": "l'avertisseur seul"
           },
           {
             "id": "B",
@@ -98,10 +78,6 @@
           {
             "id": "C",
             "text": "les feux de détresse"
-          },
-          {
-            "id": "D",
-            "text": "les feux de brouillard"
           }
         ],
         "correct": [
@@ -125,28 +101,9 @@
     "chapter": "t02-c01",
     "parts": [
       {
-        "text": "J'utilise mon avertisseur sonore :",
-        "options": [
-          {
-            "id": "A",
-            "text": "pour saluer un autre conducteur"
-          },
-          {
-            "id": "B",
-            "text": "pour presser celui qui me gêne"
-          },
-          {
-            "id": "C",
-            "text": "pour donner un avertissement nécessaire"
-          },
-          {
-            "id": "D",
-            "text": "en continu dans un embouteillage"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "J'utilise mon avertisseur pour presser celui qui me gêne :",
+        "correct": "no"
       }
     ],
     "explanation": "Le klaxon est réservé aux avertissements nécessaires. En agglomération, les signaux doivent être brefs et très modérés.",
@@ -163,13 +120,14 @@
     "id": "t02-c01-0005",
     "theme": "t02",
     "chapter": "t02-c01",
+    "context": "En ville, la nuit, je veux avertir un usager.",
     "parts": [
       {
-        "text": "En ville, la nuit, pour avertir un autre usager, je privilégie :",
+        "text": "Je privilégie :",
         "options": [
           {
             "id": "A",
-            "text": "le klaxon, plusieurs fois"
+            "text": "le klaxon répété"
           },
           {
             "id": "B",
@@ -178,10 +136,6 @@
           {
             "id": "C",
             "text": "les feux de détresse"
-          },
-          {
-            "id": "D",
-            "text": "les feux de brouillard"
           }
         ],
         "correct": [
@@ -203,30 +157,12 @@
     "id": "t02-c01-0006",
     "theme": "t02",
     "chapter": "t02-c01",
+    "context": "La nuit, la route est bien éclairée.",
     "parts": [
       {
-        "text": "La nuit, sur une route bien éclairée, je roule avec :",
-        "options": [
-          {
-            "id": "A",
-            "text": "les feux de position seulement"
-          },
-          {
-            "id": "B",
-            "text": "les feux de détresse"
-          },
-          {
-            "id": "C",
-            "text": "les feux de croisement ou de route"
-          },
-          {
-            "id": "D",
-            "text": "les feux de brouillard"
-          }
-        ],
-        "correct": [
-          "C"
-        ]
+        "kind": "yesno",
+        "statement": "Je roule avec les feux de position seulement :",
+        "correct": "no"
       }
     ],
     "explanation": "La nuit, on allume les feux de croisement ou de route, même avec un éclairage public (L.62). Les feux de position seuls ne suffisent pas.",
@@ -243,30 +179,12 @@
     "id": "t02-c01-0007",
     "theme": "t02",
     "chapter": "t02-c01",
+    "context": "Je croise un véhicule la nuit.",
     "parts": [
       {
-        "text": "Je croise un véhicule la nuit. Je mets :",
-        "options": [
-          {
-            "id": "A",
-            "text": "les feux de route"
-          },
-          {
-            "id": "B",
-            "text": "les feux de croisement"
-          },
-          {
-            "id": "C",
-            "text": "les feux de brouillard"
-          },
-          {
-            "id": "D",
-            "text": "les feux de position"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je mets mes feux de croisement :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les feux de croisement remplacent les feux de route à chaque croisement et quand on suit de près un autre véhicule. Sinon on éblouit.",
@@ -283,30 +201,12 @@
     "id": "t02-c01-0008",
     "theme": "t02",
     "chapter": "t02-c01",
+    "context": "Je m'approche d'un carrefour.",
     "parts": [
       {
-        "text": "Je m'approche d'un carrefour. Je dois d'abord :",
-        "options": [
-          {
-            "id": "A",
-            "text": "accélérer pour passer avant les autres"
-          },
-          {
-            "id": "B",
-            "text": "vérifier que la route à croiser est libre"
-          },
-          {
-            "id": "C",
-            "text": "klaxonner pour annoncer mon passage"
-          },
-          {
-            "id": "D",
-            "text": "garder ma vitesse en suivant le véhicule devant"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je vérifie d'abord que la route à croiser est libre :",
+        "correct": "yes"
       }
     ],
     "explanation": "On regarde et on modère son allure, d'autant plus que la visibilité est faible. On annonce son approche si nécessaire.",

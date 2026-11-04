@@ -3,9 +3,10 @@
     "id": "t03-c01-0001",
     "theme": "t03",
     "chapter": "t03-c01",
+    "context": "Il y a du brouillard.",
     "parts": [
       {
-        "text": "Il y a du brouillard. Je roule avec :",
+        "text": "Je roule avec :",
         "options": [
           {
             "id": "A",
@@ -18,10 +19,6 @@
           {
             "id": "C",
             "text": "les feux de route"
-          },
-          {
-            "id": "D",
-            "text": "les feux de détresse"
           }
         ],
         "correct": [
@@ -43,30 +40,12 @@
     "id": "t03-c01-0002",
     "theme": "t03",
     "chapter": "t03-c01",
+    "context": "Je roule dans le brouillard.",
     "parts": [
       {
-        "text": "Dans le brouillard, je règle ma vitesse :",
-        "options": [
-          {
-            "id": "A",
-            "text": "sur la limite autorisée"
-          },
-          {
-            "id": "B",
-            "text": "pour pouvoir m'arrêter dans ce que je vois"
-          },
-          {
-            "id": "C",
-            "text": "sur celle du véhicule devant"
-          },
-          {
-            "id": "D",
-            "text": "pour sortir du brouillard plus vite"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "Je règle ma vitesse pour pouvoir m'arrêter dans ce que je vois :",
+        "correct": "yes"
       }
     ],
     "explanation": "On doit réduire sa vitesse quand la visibilité est insuffisante. La limite n'est pas un objectif.",
@@ -83,30 +62,12 @@
     "id": "t03-c01-0003",
     "theme": "t03",
     "chapter": "t03-c01",
+    "context": "En voiture, je vois à moins de 50 mètres.",
     "parts": [
       {
-        "text": "En voiture, je vois à moins de 50 mètres. Ma vitesse maximale est :",
-        "options": [
-          {
-            "id": "A",
-            "text": "50 km/h"
-          },
-          {
-            "id": "B",
-            "text": "70 km/h"
-          },
-          {
-            "id": "C",
-            "text": "90 km/h"
-          },
-          {
-            "id": "D",
-            "text": "30 km/h"
-          }
-        ],
-        "correct": [
-          "A"
-        ]
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 70 km/h :",
+        "correct": "no"
       }
     ],
     "explanation": "Quand la visibilité est inférieure à 50 m, la limite tombe à 50 km/h pour une voiture, sur toute route.",
@@ -123,6 +84,7 @@
     "id": "t03-c01-0004",
     "theme": "t03",
     "chapter": "t03-c01",
+    "context": "De la poussière réduit ma vue sur la route.",
     "media": {
       "kind": "photo",
       "src": "p09.webp",
@@ -131,28 +93,9 @@
     },
     "parts": [
       {
-        "text": "De la poussière ou du sable réduit ma vue sur la route. Je :",
-        "options": [
-          {
-            "id": "A",
-            "text": "accélère pour en sortir"
-          },
-          {
-            "id": "B",
-            "text": "ralentis et reste prudent"
-          },
-          {
-            "id": "C",
-            "text": "klaxonne en continu"
-          },
-          {
-            "id": "D",
-            "text": "m'arrête sur la chaussée"
-          }
-        ],
-        "correct": [
-          "B"
-        ]
+        "kind": "yesno",
+        "statement": "J'accélère pour en sortir :",
+        "correct": "no"
       }
     ],
     "explanation": "Poussière, sable, fumée ou forte pluie imposent une vitesse réduite. Un klaxon ne fait pas voir plus loin.",
@@ -169,9 +112,10 @@
     "id": "t03-c01-0005",
     "theme": "t03",
     "chapter": "t03-c01",
+    "context": "La nuit, je suis de près un autre véhicule.",
     "parts": [
       {
-        "text": "La nuit, je suis de près un autre véhicule. Je mets :",
+        "text": "Je mets :",
         "options": [
           {
             "id": "A",
@@ -183,10 +127,6 @@
           },
           {
             "id": "C",
-            "text": "les feux de détresse"
-          },
-          {
-            "id": "D",
             "text": "les feux de brouillard"
           }
         ],
@@ -209,6 +149,7 @@
     "id": "t03-c01-0006",
     "theme": "t03",
     "chapter": "t03-c01",
+    "context": "Après une forte pluie, la route est glissante.",
     "media": {
       "kind": "photo",
       "src": "p10.webp",
@@ -217,23 +158,19 @@
     },
     "parts": [
       {
-        "text": "Après une forte pluie, la route est glissante. Pour freiner, je :",
+        "text": "Pour freiner, je :",
         "options": [
           {
             "id": "A",
-            "text": "freine fort et d'un coup"
+            "text": "freine fort d'un coup"
           },
           {
             "id": "B",
-            "text": "freine tôt et progressivement"
+            "text": "freine tôt, progressivement"
           },
           {
             "id": "C",
-            "text": "freine en braquant le volant"
-          },
-          {
-            "id": "D",
-            "text": "freine seulement au dernier moment"
+            "text": "freine au dernier moment"
           }
         ],
         "correct": [
@@ -255,6 +192,7 @@
     "id": "t03-c01-0007",
     "theme": "t03",
     "chapter": "t03-c01",
+    "context": "La route est mouillée.",
     "media": {
       "kind": "photo",
       "src": "q-t03-c01-0007.webp",
@@ -264,7 +202,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Sur une route mouillée, je garde la même distance que sur route sèche avec le véhicule devant :",
+        "statement": "Je garde la même distance que sur route sèche :",
         "correct": "no"
       }
     ],
@@ -282,9 +220,10 @@
     "id": "t03-c01-0008",
     "theme": "t03",
     "chapter": "t03-c01",
+    "context": "Je règle ma vitesse.",
     "parts": [
       {
-        "text": "Je règle ma vitesse selon :",
+        "text": "Je tiens compte de :",
         "options": [
           {
             "id": "A",
@@ -296,7 +235,7 @@
           },
           {
             "id": "C",
-            "text": "les difficultés de la circulation"
+            "text": "la circulation"
           },
           {
             "id": "D",
