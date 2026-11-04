@@ -113,7 +113,7 @@ export function QuestionCard({
             const isYesNo = part.kind === 'yesno'
             return (
               <div key={pi} style={{ marginBottom: pi < q.parts.length - 1 ? 24 : 0 }}>
-                <p style={{ fontSize: 18, fontWeight: 700, lineHeight: 1.4, color: 'hsl(var(--ink))', marginBottom: 12 }}>
+                <p style={{ fontSize: 20, fontWeight: 600, lineHeight: 1.35, color: 'hsl(var(--ink))', marginBottom: 12 }}>
                   {partText(part)}
                 </p>
                 <div
@@ -130,6 +130,7 @@ export function QuestionCard({
                       text={slot.label}
                       state={slotState(slot, picked[pi]?.includes(slot.id) ?? false, right[pi].includes(slot.id), revealed)}
                       onSelect={() => onPick(pi, slot.id)}
+                      mono={variant === 'exam'}
                     />
                   ))}
                 </div>
@@ -215,7 +216,7 @@ export function QuestionCard({
                       WebkitTapHighlightColor: 'transparent',
                     }}
                   >
-                    <LetterBadge letter={slot.letter} state={badge} />
+                    <LetterBadge letter={slot.letter} state={badge} mono={variant === 'exam'} />
                   </button>
                 )
               }),

@@ -7,11 +7,12 @@ interface QuizOptionProps {
   text: string
   state: OptionState
   onSelect: () => void
+  mono?: boolean
 }
 
 const SR_ONLY = { position: 'absolute', width: 1, height: 1, overflow: 'hidden', clip: 'rect(0 0 0 0)', whiteSpace: 'nowrap' } as const
 
-export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
+export function QuizOption({ id, text, state, onSelect, mono }: QuizOptionProps) {
   const idle = state === 'idle' || state === 'checked'
 
   const bg =
@@ -50,11 +51,11 @@ export function QuizOption({ id, text, state, onSelect }: QuizOptionProps) {
         opacity: state === 'disabled' ? 0.75 : 1,
       }}
     >
-      <LetterBadge letter={id} state={badge} />
+      <LetterBadge letter={id} state={badge} mono={mono} />
       <span
         style={{
           flex: 1,
-          fontSize: 16,
+          fontSize: 18,
           lineHeight: 1.4,
           fontWeight: 500,
           color: 'hsl(var(--ink))',
