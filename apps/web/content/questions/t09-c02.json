@@ -13,7 +13,7 @@
           },
           {
             "id": "B",
-            "text": "attaché sur un siège adapté"
+            "text": "dans un siège adapté"
           },
           {
             "id": "C",
@@ -100,7 +100,7 @@
           },
           {
             "id": "B",
-            "text": "placé dans un siège à courroies"
+            "text": "dans un siège à courroies"
           },
           {
             "id": "C",
@@ -167,7 +167,7 @@
           },
           {
             "id": "D",
-            "text": "sur une place prévue"
+            "text": "sur une place prévue à cet effet"
           }
         ],
         "correct": [

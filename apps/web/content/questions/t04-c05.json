@@ -10,7 +10,7 @@
         "options": [
           {
             "id": "A",
-            "text": "reste derrière, à distance"
+            "text": "reste derrière lui"
           },
           {
             "id": "B",
@@ -128,7 +128,7 @@
           },
           {
             "id": "D",
-            "text": "que mon klaxon marche"
+            "text": "que mon klaxon marche bien"
           }
         ],
         "correct": [

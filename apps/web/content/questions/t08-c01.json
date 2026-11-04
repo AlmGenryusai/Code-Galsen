@@ -36,7 +36,7 @@
           },
           {
             "id": "B",
-            "text": "m'arrête, laisse refroidir"
+            "text": "m'arrête et attends"
           },
           {
             "id": "C",
@@ -133,7 +133,7 @@
         "options": [
           {
             "id": "A",
-            "text": "un signal sonore si danger"
+            "text": "un signal sonore"
           },
           {
             "id": "B",

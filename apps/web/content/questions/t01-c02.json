@@ -114,7 +114,7 @@
         "options": [
           {
             "id": "A",
-            "text": "m'arrête toujours"
+            "text": "m'arrête toujours, même vide"
           },
           {
             "id": "B",

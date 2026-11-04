@@ -37,16 +37,16 @@
         "text": "Il signifie :",
         "options": [
           {
-            "id": "A",
-            "text": "Arrêt obligatoire"
-          },
-          {
             "id": "B",
             "text": "Cédez le passage"
           },
           {
             "id": "C",
             "text": "Sens interdit"
+          },
+          {
+            "id": "A",
+            "text": "Arrêt obligatoire"
           }
         ],
         "correct": [
@@ -100,16 +100,16 @@
         "text": "Je :",
         "options": [
           {
-            "id": "A",
-            "text": "accélère pour passer"
-          },
-          {
             "id": "B",
             "text": "m'arrête si possible"
           },
           {
             "id": "C",
             "text": "m'arrête dans tous les cas"
+          },
+          {
+            "id": "A",
+            "text": "accélère pour passer"
           }
         ],
         "correct": [
@@ -185,16 +185,16 @@
         "text": "Elles signalent généralement :",
         "options": [
           {
-            "id": "A",
-            "text": "un mariage à proximité"
+            "id": "C",
+            "text": "une panne, un accident"
           },
           {
             "id": "B",
             "text": "un arrêt de car rapide"
           },
           {
-            "id": "C",
-            "text": "une panne ou un accident"
+            "id": "A",
+            "text": "un mariage à proximité"
           }
         ],
         "correct": [
@@ -333,16 +333,16 @@
         "text": "Il annonce :",
         "options": [
           {
-            "id": "A",
-            "text": "un passage à niveau"
-          },
-          {
             "id": "B",
             "text": "une intersection"
           },
           {
             "id": "C",
             "text": "un rond-point"
+          },
+          {
+            "id": "A",
+            "text": "un passage à niveau"
           }
         ],
         "correct": [
@@ -376,16 +376,16 @@
         "text": "Au rond-point, je :",
         "options": [
           {
-            "id": "A",
-            "text": "passe avant ceux engagés"
-          },
-          {
             "id": "B",
             "text": "cède à ceux déjà engagés"
           },
           {
             "id": "C",
             "text": "klaxonne puis j'entre"
+          },
+          {
+            "id": "A",
+            "text": "passe avant ceux engagés"
           }
         ],
         "correct": [
@@ -479,7 +479,7 @@
           },
           {
             "id": "B",
-            "text": "l'interdiction de passer"
+            "text": "l'arrêt obligatoire"
           },
           {
             "id": "C",
