@@ -460,7 +460,7 @@
         ]
       }
     ],
-    "explanation": "Sur ce panneau bleu, la flèche blanche montante est ma direction : j'ai la priorité sur le sens inverse (l'autre flèche, rouge, doit me laisser passer).",
+    "explanation": "Sur ce panneau bleu, la flèche blanche montante est votre direction : vous avez la priorité sur le sens inverse (l'autre flèche, rouge, doit vous laisser passer).",
     "common_mistake": "Confondre avec le panneau rond rouge.",
     "legal_ref": "Décret 2004-13, annexe P5 (C18)",
     "legal_status": "confirmed",
@@ -956,7 +956,7 @@
         ]
       }
     ],
-    "explanation": "La flèche verte permet seulement de tourner dans la voie située à droite, au ralenti. Je cède aux piétons engagés dans la traversée et je ne gêne pas la voie transversale.",
+    "explanation": "La flèche verte permet seulement de tourner dans la voie située à droite, au ralenti. Cédez aux piétons engagés dans la traversée et ne gênez pas la voie transversale.",
     "common_mistake": "Prendre la flèche verte pour un feu vert complet.",
     "legal_ref": "Décret 2004-13, annexe P7",
     "legal_status": "confirmed",
