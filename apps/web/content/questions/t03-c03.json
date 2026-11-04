@@ -107,6 +107,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Je descends une pente rapide, un virage approche.",
+    "media": {
+      "kind": "photo",
+      "src": "s32.webp",
+      "alt": "Route de montagne étroite avec un virage sans visibilité",
+      "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

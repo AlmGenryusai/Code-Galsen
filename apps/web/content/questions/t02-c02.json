@@ -53,6 +53,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "Je passe un contrôle de l'air expiré.",
+    "media": {
+      "kind": "photo",
+      "src": "s25.webp",
+      "alt": "Agent qui tend un éthylotest à un conducteur",
+      "credit": "KOMUnews, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -213,6 +219,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "Un conducteur est manifestement ivre.",
+    "media": {
+      "kind": "photo",
+      "src": "s25.webp",
+      "alt": "Agent qui tend un éthylotest à un conducteur",
+      "credit": "KOMUnews, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Les agents peuvent :",

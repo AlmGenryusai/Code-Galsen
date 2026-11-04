@@ -85,6 +85,12 @@
     "theme": "t05",
     "chapter": "t05-c04",
     "context": "Je téléphone en main au volant, ou je ne respecte pas les règles de feux et de pré-signalisation.",
+    "media": {
+      "kind": "photo",
+      "src": "s26.webp",
+      "alt": "Conducteur qui tient son téléphone en main au volant",
+      "credit": "Airman 1st Class Alexxis Pons Abascal, domaine public, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

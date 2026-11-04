@@ -4,6 +4,13 @@
     "theme": "t04",
     "chapter": "t04-c04",
     "context": "Un car rapide s'arrête brusquement devant moi.",
+    "media": {
+      "kind": "photo",
+      "src": "s15.webp",
+      "alt": "Car rapide et Ndiaye Ndiaye à l'arrêt dans une gare routière",
+      "credit": "HaguardDuNord, CC BY-SA 3.0, Wikimedia Commons",
+      "badge": "bus"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -26,6 +33,13 @@
     "theme": "t04",
     "chapter": "t04-c04",
     "context": "Un Ndiaga Ndiaye est arrêté, des passagers descendent.",
+    "media": {
+      "kind": "photo",
+      "src": "s15.webp",
+      "alt": "Car rapide et Ndiaye Ndiaye à l'arrêt dans une gare routière",
+      "credit": "HaguardDuNord, CC BY-SA 3.0, Wikimedia Commons",
+      "badge": "bus"
+    },
     "parts": [
       {
         "text": "Je :",
@@ -132,6 +146,13 @@
     "theme": "t04",
     "chapter": "t04-c04",
     "context": "Je roule derrière un car rapide qui s'arrête souvent.",
+    "media": {
+      "kind": "photo",
+      "src": "s15.webp",
+      "alt": "Car rapide et Ndiaye Ndiaye à l'arrêt dans une gare routière",
+      "credit": "HaguardDuNord, CC BY-SA 3.0, Wikimedia Commons",
+      "badge": "bus"
+    },
     "parts": [
       {
         "text": "Je :",
