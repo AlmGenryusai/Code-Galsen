@@ -4,6 +4,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "Je veux changer de direction.",
+    "media": {
+      "kind": "photo",
+      "src": "u10.webp",
+      "alt": "Commande de clignotant orange allumée dans l'habitacle, de nuit",
+      "credit": "Mathias Reding, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -180,6 +186,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "Je croise un véhicule la nuit.",
+    "media": {
+      "kind": "photo",
+      "src": "u08.webp",
+      "alt": "Deux phares de véhicule allumés la nuit, vus de face",
+      "credit": "Marcus Bellamy, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",

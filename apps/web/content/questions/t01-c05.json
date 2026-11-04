@@ -146,6 +146,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Le véhicule devant moi signale qu'il va tourner à gauche.",
+    "media": {
+      "kind": "photo",
+      "src": "u09.webp",
+      "alt": "Rétroviseur extérieur d'une voiture rouge avec clignotant orange allumé",
+      "credit": "Dmytro Vynohradov, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
