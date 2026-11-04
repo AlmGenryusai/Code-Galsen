@@ -91,7 +91,18 @@ Photos issues de Wikimedia Commons, converties en WebP (800 px de large, sans ag
 | s06.webp | 07 Driving in fog - car in low visibility dangerous weather conditions | Tupungato | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:07_Driving_in_fog_-_car_in_low_visibility_dangerous_weather_conditions.jpg |
 | s05.webp | Rainy road (Unsplash) | Noah Silliman | CC0 | https://commons.wikimedia.org/wiki/File:Rainy_road_(Unsplash).jpg |
 | s04.webp | Automatic level crossing with height restrictions | Mcivory | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Automatic_level_crossing_with_height_restrictions.jpg |
-
+| u01.webp | Deux secouristes maintiennent la tête d'une personne allongée sur l'herbe | Frederick Shaw | Unsplash License | https://unsplash.com |
+| u02.webp | Berline blanche roulant en ville, chargement empilé sur le toit et dans le coffre ouvert | Marcin Simonides | Unsplash License | https://unsplash.com |
+| u03.webp | Vieille berline bleue vue de dos, matelas et couettes empilés sur le toit | Anatoly Maltsev | Unsplash License | https://unsplash.com |
+| u04.webp | Vue aérienne d'une bretelle d'autoroute qui rejoint la voie principale | Bernd Dittrich | Unsplash License | https://unsplash.com |
+| u05.webp | Vue aérienne d'un échangeur d'autoroute à plusieurs niveaux | Robert Noreiko | Unsplash License | https://unsplash.com |
+| u06.webp | Route mouillée dans la brume, un camion arrive en face d'un véhicule aux feux allumés | Prashant Gautam | Unsplash License | https://unsplash.com |
+| u07.webp | Deux camions de transport de conteneurs côte à côte sur une route droite | Sweder Breet | Unsplash License | https://unsplash.com |
+| u08.webp | Deux phares de véhicule allumés la nuit, vus de face | Marcus Bellamy | Unsplash License | https://unsplash.com |
+| u09.webp | Rétroviseur extérieur d'une voiture rouge avec clignotant orange allumé | Dmytro Vynohradov | Unsplash License | https://unsplash.com |
+| u10.webp | Commande de clignotant orange allumée dans l'habitacle, de nuit | Mathias Reding | Unsplash License | https://unsplash.com |
 Modifications : redimensionnement et recompression pour toutes ; recadrage pour p12 et p13 (panneaux retirés), p17 (premier plan retiré), p26, p27, p29, p30, p41, p49 et m06 (format paysage ou carré) ; léger lissage avant compression possible pour p16, p24, p35, p43, p47, m01, m02, m04, m06 et m08 (textures de chaussée, plafond 60 Ko). Les versions modifiées des fichiers CC BY-SA restent sous la même licence (https://creativecommons.org/licenses/by-sa/4.0/, https://creativecommons.org/licenses/by-sa/3.0/, https://creativecommons.org/licenses/by-sa/2.0/). CC BY : https://creativecommons.org/licenses/by/4.0/, https://creativecommons.org/licenses/by/2.0/ (p09, p31, p46, p48, p50). CC0 (p29, p40, m06) : aucune obligation, crédit donné par courtoisie. Recadrage pour q-t01-c01-0004, q-t01-c01-0019, q-t01-c01-0024. Lot OUI/NON : redimensionnement et recompression ; plaque floutée pour q-t01-c06-0004, q-t05-c02-0005 et q-t09-c02-0003 ; CC BY-SA 2.5 (q-t02-c02-0001) : https://creativecommons.org/licenses/by-sa/2.5/.
 
 Modifications (s02, s10, s15, s25, s26, s31, s32) : redimensionnement 800 px et recompression ; léger lissage avant compression pour s32 (plafond 60 Ko). Licences : CC BY-SA 4.0, CC BY-SA 3.0, CC BY 2.0, domaine public (s26).
+
+Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : redimensionnement 800 px et recompression, aucun autre changement.

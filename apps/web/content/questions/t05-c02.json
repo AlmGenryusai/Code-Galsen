@@ -4,6 +4,12 @@
     "theme": "t05",
     "chapter": "t05-c02",
     "context": "Je transporte un chargement.",
+    "media": {
+      "kind": "photo",
+      "src": "u02.webp",
+      "alt": "Berline blanche roulant en ville, chargement empilé sur le toit et dans le coffre ouvert",
+      "credit": "Marcin Simonides, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -26,6 +32,12 @@
     "theme": "t05",
     "chapter": "t05-c02",
     "context": "Les chaînes et bâches d'un chargement.",
+    "media": {
+      "kind": "photo",
+      "src": "u03.webp",
+      "alt": "Vieille berline bleue vue de dos, matelas et couettes empilés sur le toit",
+      "credit": "Anatoly Maltsev, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "text": "Elles doivent être :",

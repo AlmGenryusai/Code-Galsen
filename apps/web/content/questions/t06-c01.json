@@ -91,6 +91,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Une victime est inconsciente, sans danger autour.",
+    "media": {
+      "kind": "photo",
+      "src": "u01.webp",
+      "alt": "Deux secouristes maintiennent la tête d'une personne allongée sur l'herbe",
+      "credit": "Frederick Shaw, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",

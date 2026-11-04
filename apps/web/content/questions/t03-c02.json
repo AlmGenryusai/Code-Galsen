@@ -25,6 +25,12 @@
     "theme": "t03",
     "chapter": "t03-c02",
     "context": "Je roule en voiture sur autoroute, par temps normal.",
+    "media": {
+      "kind": "photo",
+      "src": "u05.webp",
+      "alt": "Vue aérienne d'un échangeur d'autoroute à plusieurs niveaux",
+      "credit": "Robert Noreiko, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -156,6 +162,12 @@
     "theme": "t03",
     "chapter": "t03-c02",
     "context": "Je suis sur une bretelle d'insertion.",
+    "media": {
+      "kind": "photo",
+      "src": "u04.webp",
+      "alt": "Vue aérienne d'une bretelle d'autoroute qui rejoint la voie principale",
+      "credit": "Bernd Dittrich, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
