@@ -39,6 +39,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "La route n'a qu'une voie et je ne vois pas loin devant.",
+    "media": {
+      "kind": "photo",
+      "src": "s32.webp",
+      "alt": "Route de montagne étroite avec un virage sans visibilité",
+      "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je roule :",
@@ -104,6 +110,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "Une ligne discontinue est à ma gauche.",
+    "media": {
+      "kind": "photo",
+      "src": "s02.webp",
+      "alt": "Route de campagne avec une ligne continue collée à une ligne discontinue",
+      "credit": "Roulex 45, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -126,6 +138,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "À ma gauche, une ligne continue est collée à une discontinue, la continue étant la plus proche de moi.",
+    "media": {
+      "kind": "photo",
+      "src": "s02.webp",
+      "alt": "Route de campagne avec une ligne continue collée à une ligne discontinue",
+      "credit": "Roulex 45, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -185,6 +203,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "Je croise un véhicule sur une route à une seule voie.",
+    "media": {
+      "kind": "photo",
+      "src": "s32.webp",
+      "alt": "Route de montagne étroite avec un virage sans visibilité",
+      "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

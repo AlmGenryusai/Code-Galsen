@@ -173,6 +173,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Une ambulance avec sirène arrive derrière moi.",
+    "media": {
+      "kind": "photo",
+      "src": "s31.webp",
+      "alt": "Ambulance qui avance en ville avec ses feux bleus",
+      "credit": "Chris Sampson, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je :",

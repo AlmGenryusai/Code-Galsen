@@ -4,6 +4,12 @@
     "theme": "t04",
     "chapter": "t04-c01",
     "context": "Un piéton s'engage sur le passage devant moi.",
+    "media": {
+      "kind": "photo",
+      "src": "s10.webp",
+      "alt": "Passage piéton surélevé à l'entrée d'une rue, panneau 30",
+      "credit": "Tabl-trai, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -91,6 +97,12 @@
     "theme": "t04",
     "chapter": "t04-c01",
     "context": "J'approche d'un passage piéton.",
+    "media": {
+      "kind": "photo",
+      "src": "s10.webp",
+      "alt": "Passage piéton surélevé à l'entrée d'une rue, panneau 30",
+      "credit": "Tabl-trai, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je surveille aussi :",
