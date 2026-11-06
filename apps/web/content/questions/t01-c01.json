@@ -738,6 +738,12 @@
     "id": "t01-c01-0023",
     "theme": "t01",
     "chapter": "t01-c01",
+    "media": {
+      "kind": "photo",
+      "src": "n-S03-1.webp",
+      "alt": "Feu rouge en ville au crépuscule, voitures à l'arrêt",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

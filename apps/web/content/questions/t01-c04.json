@@ -300,6 +300,12 @@
     "theme": "t01",
     "chapter": "t01-c04",
     "context": "Au volant d'une voiture, il pleut sur une route à deux chaussées séparées par un terre-plein.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S05-1.webp",
+      "alt": "Route mouillée sous la pluie, risque d'aquaplaning",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

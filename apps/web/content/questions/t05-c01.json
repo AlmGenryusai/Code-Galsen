@@ -4,6 +4,12 @@
     "theme": "t05",
     "chapter": "t05-c01",
     "context": "Un agent me contrôle.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S24-1.webp",
+      "alt": "Agent de police municipale qui contrôle un conducteur à sa vitre",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je présente :",
@@ -183,6 +189,12 @@
     "theme": "t05",
     "chapter": "t05-c01",
     "context": "Un gendarme me fait signe de m'arrêter.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S24-1.webp",
+      "alt": "Agent de police municipale qui contrôle un conducteur à sa vitre",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

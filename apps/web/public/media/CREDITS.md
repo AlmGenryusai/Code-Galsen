@@ -111,5 +111,17 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 | g02.webp | Main qui pose un triangle de présignalisation sur la route, véhicule bleu à l'arrière-plan | El Jundi | Pexels License | https://www.pexels.com |
 | g03.webp | Conducteur qui tient et boucle sa ceinture de sécurité dans l'habitacle | Tim Samuel | Pexels License | https://www.pexels.com |
 | g04.webp | Mécanicien qui contrôle la pression d'un pneu avec un manomètre | Andrea Piacquadio | Pexels License | https://www.pexels.com |
+| n-S03-1.webp | Feu rouge en ville au crépuscule, voitures à l'arrêt | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S05-1.webp | Route mouillée sous la pluie, risque d'aquaplaning | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S10-1.webp | Piétons qui traversent sur un passage piéton | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S10-2.webp | Voitures arrêtées à un passage piéton | Pexels | Pexels License | https://www.pexels.com |
+| n-S11-1.webp | Enfants avec cartables devant une école | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S16-1.webp | Autoroute à plusieurs voies | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S20-1.webp | Conducteur qui boucle sa ceinture de sécurité | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S20-7.webp | Conducteur qui s'attache au poste de conduite | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S22-1.webp | Conducteur qui ouvre sa portière de la main opposée en se retournant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S24-1.webp | Agent de police municipale qui contrôle un conducteur à sa vitre | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S25-1.webp | Conducteur d'une voiture après avoir bu de l'alcool | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.
+n-*.webp : redimensionnement 800 px et recompression WebP, aucun autre changement.

@@ -36,6 +36,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "Au Sénégal, on parle du taux d'alcool dans le sang.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S25-1.webp",
+      "alt": "Conducteur d'une voiture après avoir bu de l'alcool",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -158,6 +164,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "Ceinture de sécurité.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S20-1.webp",
+      "alt": "Conducteur qui boucle sa ceinture de sécurité",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
