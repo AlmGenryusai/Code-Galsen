@@ -75,7 +75,7 @@
     "common_mistake": "Dépasser un car arrêté à vitesse normale.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -112,7 +112,7 @@
     "common_mistake": "Ne pas lire le comportement du taxi.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -226,5 +226,66 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t04-c04-0007",
+    "theme": "t04",
+    "chapter": "t04-c04",
+    "context": "Un Ndiaga Ndiaye est arrêté, des passagers descendent.",
+    "media": {
+      "kind": "photo",
+      "src": "s15.webp",
+      "alt": "Car rapide et Ndiaye Ndiaye à l'arrêt dans une gare routière",
+      "credit": "HaguardDuNord, CC BY-SA 3.0, Wikimedia Commons",
+      "badge": "bus"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis et je surveille :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je le double vite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Des passagers descendent côté route et traversent souvent devant le véhicule. Ils ne regardent pas toujours la circulation.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Dépasser un car arrêté à vitesse normale."
+  },
+  {
+    "id": "t04-c04-0008",
+    "theme": "t04",
+    "chapter": "t04-c04",
+    "context": "Un taxi ralentit et se déporte vers le bord.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il va probablement se garer pour un client :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il va accélérer pour me laisser passer :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Un taxi qui ralentit et se déporte cherche ou prend un client. Il peut s'arrêter d'un coup, sans clignotant.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Ne pas lire le comportement du taxi."
   }
 ]
