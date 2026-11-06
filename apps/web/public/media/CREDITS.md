@@ -114,6 +114,22 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 
 | Fichier | Description | Auteur | Licence | Source |
 | --- | --- | --- | --- | --- |
+
+| n-Bautoroute.webp | Autoroute vue depuis le poste de conduite, voitures devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bceinture1.webp | Ceinture de sécurité bouclée sur une personne assise | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bceinture2.webp | Main qui attrape la ceinture pour la boucler | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Benceinte.webp | Ceinture de sécurité portée par une femme enceinte | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bexces.webp | Tableau de bord de nuit, gyrophares de police devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bfeux.webp | Feu rouge en ville, voiture à l'arrêt | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bfleche.webp | Route de campagne avec flèche de rabattement et ligne discontinue | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bgiratoire.webp | Rond-point vu du dessus avec passages piétons | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bphare.webp | Phare brisé après un accident | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bpietons.webp | Passage piéton dans une rue de ville bordée de voitures garées | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bpluie.webp | Gouttes de pluie sur un pare-brise, voiture devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bpneu.webp | Sculptures d'un pneu en gros plan | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bretro.webp | Rétroviseur extérieur avec la route derrière | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bsiegeenfant.webp | Adulte qui attache un enfant dans un siège auto | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Btongs.webp | Pied en tongs sur la pédale d'une voiture | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S02-1.webp | Route à plusieurs voies vue depuis une voiture | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S02-2.webp | Route à deux voies avec ligne continue au centre | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S02-4.webp | Route vue depuis l'habitacle, véhicule devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |

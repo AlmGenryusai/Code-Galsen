@@ -31,6 +31,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Mon véhicule a causé un accident.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bphare.webp",
+      "alt": "Phare brisé après un accident",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

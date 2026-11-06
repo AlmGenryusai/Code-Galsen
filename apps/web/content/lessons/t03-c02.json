@@ -83,6 +83,16 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Dans la circulation dense, je garde mes distances."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bautoroute.webp",
+            "alt": "Autoroute vue depuis le poste de conduite, voitures devant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Sur autoroute, je garde mes distances."
         }
       ]
     },

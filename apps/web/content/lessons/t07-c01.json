@@ -36,6 +36,26 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Trop loin du volant, je ne contrôle plus bien."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bretro.webp",
+            "alt": "Rétroviseur extérieur avec la route derrière",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je règle mes rétroviseurs avant de partir."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Btongs.webp",
+            "alt": "Pied en tongs sur la pédale d'une voiture",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Pas de tongs ni de sandales au volant."
         }
       ]
     },
@@ -72,6 +92,16 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Ceinture bouclée avant de démarrer."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bceinture2.webp",
+            "alt": "Main qui attrape la ceinture pour la boucler",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je boucle ma ceinture avant de rouler."
         }
       ]
     }

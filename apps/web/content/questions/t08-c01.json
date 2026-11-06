@@ -133,6 +133,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Je regarde mes pneus.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bpneu.webp",
+      "alt": "Sculptures d'un pneu en gros plan",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

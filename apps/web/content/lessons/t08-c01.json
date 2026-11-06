@@ -36,6 +36,16 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Le triangle fait partie de l'équipement à bord."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bpneu.webp",
+            "alt": "Sculptures d'un pneu en gros plan",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Les sculptures du pneu évacuent l'eau."
         }
       ]
     },
