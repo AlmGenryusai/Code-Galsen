@@ -16,6 +16,11 @@
         "kind": "yesno",
         "statement": "Je me rapproche de lui :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je garde une bonne distance pour pouvoir m'arrêter :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les cars et taxis freinent vite et se rabattent sans prévenir. Une bonne distance vous laisse le temps de vous arrêter.",
@@ -129,6 +134,11 @@
         "kind": "yesno",
         "statement": "Je dois lui laisser la place :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux accélérer pour passer avant lui :",
+        "correct": "no"
       }
     ],
     "explanation": "Le bus a un long gabarit et se déporte avant de s'arrêter. Lui laisser la place évite l'accrochage.",
