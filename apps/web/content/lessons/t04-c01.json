@@ -6,50 +6,202 @@
       "id": "t04-c01-f01",
       "title": "Piétons : la règle de base",
       "blocks": [
-        { "type": "heading", "text": "La règle" },
-        { "type": "text", "text": "Je cède le passage au piéton qui traverse ou s'engage sur un passage piéton. Hors passage, je ralentis et je reste prêt à m'arrêter." },
-        { "type": "heading", "text": "Pourquoi" },
-        { "type": "text", "text": "Un piéton n'a aucune protection. À faible vitesse, je m'arrête à temps ; plus vite, le choc peut être mortel." },
-        { "type": "heading", "text": "Sur la route" },
-        { "type": "text", "text": "Sortie d'école à Grand-Yoff, des enfants traversent entre deux cars rapides arrêtés. Je ne vois pas derrière les cars : je ralentis avant d'arriver à leur hauteur." },
-        { "type": "heading", "text": "Le piège" },
-        { "type": "text", "text": "Croire qu'un piéton hors passage n'a pas la priorité et garder sa vitesse. On doit toujours éviter de le heurter." },
-        { "type": "image", "media": {"kind": "photo", "src": "p34.webp", "alt": "Marché et circulation à Thiès", "credit": "Boydiop2, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Près des marchés, les piétons passent partout : je ralentis." }
+        {
+          "type": "heading",
+          "text": "La règle"
+        },
+        {
+          "type": "text",
+          "text": "Je cède le passage au piéton qui traverse ou s'engage sur un passage piéton. Hors passage, je ralentis et je reste prêt à m'arrêter."
+        },
+        {
+          "type": "heading",
+          "text": "Pourquoi"
+        },
+        {
+          "type": "text",
+          "text": "Un piéton n'a aucune protection. À faible vitesse, je m'arrête à temps ; plus vite, le choc peut être mortel."
+        },
+        {
+          "type": "heading",
+          "text": "Sur la route"
+        },
+        {
+          "type": "text",
+          "text": "Sortie d'école à Grand-Yoff, des enfants traversent entre deux cars rapides arrêtés. Je ne vois pas derrière les cars : je ralentis avant d'arriver à leur hauteur."
+        },
+        {
+          "type": "heading",
+          "text": "Le piège"
+        },
+        {
+          "type": "text",
+          "text": "Croire qu'un piéton hors passage n'a pas la priorité et garder sa vitesse. On doit toujours éviter de le heurter."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p34.webp",
+            "alt": "Marché et circulation à Thiès",
+            "credit": "Boydiop2, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Près des marchés, les piétons passent partout : je ralentis."
+        }
       ]
     },
     {
       "id": "t04-c01-f02",
       "title": "Passage piéton et sortie d'école",
       "blocks": [
-        { "type": "text", "text": "Devant un passage piéton, je ne regarde pas seulement la bande blanche. Je regarde les gens autour : ceux qui attendent au bord, ceux qui courent pour traverser, ceux qui poussent une charrette ou portent un enfant." },
-        { "type": "heading", "text": "Ce que je fais" },
-        { "type": "list", "items": ["Je lève le pied dès que je vois le passage, pas au dernier moment.", "Si un piéton s'engage, je m'arrête et je lui laisse finir sa traversée.", "Je ne lui fais pas signe de passer devant moi si un autre véhicule peut arriver à côté."] },
-        { "type": "heading", "text": "Devant une école" },
-        { "type": "text", "text": "À la sortie des classes, les enfants courent, se poussent et traversent sans regarder. Un car ou un taxi arrêté me cache la vue : je ne vois pas ce qui sort de derrière." },
-        { "type": "heading", "text": "Panneaux à reconnaître" },
-        { "type": "signs", "items": [
-            { "media": { "kind": "sign", "src": "a13b", "alt": "Passage pour piétons", "credit": "Code Galsen" }, "label": "Passage pour piétons" },
-            { "media": { "kind": "sign", "src": "a13a", "alt": "Endroit fréquenté par des enfants", "credit": "Code Galsen" }, "label": "Endroit fréquenté par des enfants" }
-        ] },
-        { "type": "attention", "text": "Un véhicule arrêté devant le passage cache les piétons. Je ralentis fort avant de le dépasser, même si la voie est libre." },
-        { "type": "memo", "text": "Passage piéton ou école : je ralentis avant de voir le danger, pas après." },
-        { "type": "image", "media": {"kind": "photo", "src": "p33.webp", "alt": "Enfants qui traversent la route", "credit": "Justin Doub, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Enfants près de la route : je ralentis, ils peuvent traverser." },
-        { "type": "image", "media": {"kind": "photo", "src": "p36.webp", "alt": "Voitures arrêtées à un passage piéton près d'une école", "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Je m'arrête pour laisser traverser les piétons." }
+        {
+          "type": "text",
+          "text": "Devant un passage piéton, je ne regarde pas seulement la bande blanche. Je regarde les gens autour : ceux qui attendent au bord, ceux qui courent pour traverser, ceux qui poussent une charrette ou portent un enfant."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je lève le pied dès que je vois le passage, pas au dernier moment.",
+            "Si un piéton s'engage, je m'arrête et je lui laisse finir sa traversée.",
+            "Je ne lui fais pas signe de passer devant moi si un autre véhicule peut arriver à côté."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Devant une école"
+        },
+        {
+          "type": "text",
+          "text": "À la sortie des classes, les enfants courent, se poussent et traversent sans regarder. Un car ou un taxi arrêté me cache la vue : je ne vois pas ce qui sort de derrière."
+        },
+        {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a13b",
+                "alt": "Passage pour piétons",
+                "credit": "Code Galsen"
+              },
+              "label": "Passage pour piétons"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "a13a",
+                "alt": "Endroit fréquenté par des enfants",
+                "credit": "Code Galsen"
+              },
+              "label": "Endroit fréquenté par des enfants"
+            }
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Un véhicule arrêté devant le passage cache les piétons. Je ralentis fort avant de le dépasser, même si la voie est libre."
+        },
+        {
+          "type": "memo",
+          "text": "Passage piéton ou école : je ralentis avant de voir le danger, pas après."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p33.webp",
+            "alt": "Enfants qui traversent la route",
+            "credit": "Justin Doub, CC BY-SA 2.0, via Wikimedia Commons"
+          },
+          "caption": "Enfants près de la route : je ralentis, ils peuvent traverser."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p36.webp",
+            "alt": "Voitures arrêtées à un passage piéton près d'une école",
+            "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"
+          },
+          "caption": "Je m'arrête pour laisser traverser les piétons."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bpietons.webp",
+            "alt": "Passage piéton dans une rue de ville bordée de voitures garées",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Passage piéton : je ralentis et je regarde des deux côtés."
+        }
       ]
     },
     {
       "id": "t04-c01-f03",
       "title": "Piétons hors passage, la nuit",
       "blocks": [
-        { "type": "text", "text": "Au Sénégal, beaucoup de gens marchent au bord de la route, ou la traversent là où ils en ont besoin : devant un marché, un arrêt de car, une boutique. Hors passage, ils restent des personnes fragiles que je dois éviter." },
-        { "type": "image", "media": { "kind": "photo", "src": "p08.webp", "alt": "Piéton qui traverse la chaussée hors passage", "credit": "Dike Chukwuma, CC BY-SA 4.0, via Wikimedia Commons", "badge": "pieton" }, "caption": "Piéton hors passage : je ralentis, il reste prioritaire sur ma vitesse." },
-        { "type": "heading", "text": "Pourquoi c'est difficile la nuit" },
-        { "type": "text", "text": "Le soir, un piéton vêtu de sombre se voit très tard dans les phares. Sur une route mal éclairée, je le découvre souvent quand il est déjà proche." },
-        { "type": "heading", "text": "Ce que je fais" },
-        { "type": "list", "items": ["Je ralentis dès que je vois un groupe de personnes au bord de la route.", "J'adapte ma vitesse à ce que mes phares me laissent voir.", "Je reste prêt à freiner ou à m'écarter, sans faire de mouvement brusque."] },
-        { "type": "attention", "text": "Je ne suis pas prioritaire parce que le piéton traverse hors passage : je dois toujours pouvoir m'arrêter." },
-        { "type": "memo", "text": "Plus il fait sombre, plus je ralentis." },
-        { "type": "image", "media": {"kind": "photo", "src": "p37.webp", "alt": "Piéton qui traverse hors passage entre des voitures", "credit": "מקף־עברי, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Piéton hors passage : je ralentis, il peut surgir entre les voitures." }
+        {
+          "type": "text",
+          "text": "Au Sénégal, beaucoup de gens marchent au bord de la route, ou la traversent là où ils en ont besoin : devant un marché, un arrêt de car, une boutique. Hors passage, ils restent des personnes fragiles que je dois éviter."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p08.webp",
+            "alt": "Piéton qui traverse la chaussée hors passage",
+            "credit": "Dike Chukwuma, CC BY-SA 4.0, via Wikimedia Commons",
+            "badge": "pieton"
+          },
+          "caption": "Piéton hors passage : je ralentis, il reste prioritaire sur ma vitesse."
+        },
+        {
+          "type": "heading",
+          "text": "Pourquoi c'est difficile la nuit"
+        },
+        {
+          "type": "text",
+          "text": "Le soir, un piéton vêtu de sombre se voit très tard dans les phares. Sur une route mal éclairée, je le découvre souvent quand il est déjà proche."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ralentis dès que je vois un groupe de personnes au bord de la route.",
+            "J'adapte ma vitesse à ce que mes phares me laissent voir.",
+            "Je reste prêt à freiner ou à m'écarter, sans faire de mouvement brusque."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Je ne suis pas prioritaire parce que le piéton traverse hors passage : je dois toujours pouvoir m'arrêter."
+        },
+        {
+          "type": "memo",
+          "text": "Plus il fait sombre, plus je ralentis."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p37.webp",
+            "alt": "Piéton qui traverse hors passage entre des voitures",
+            "credit": "מקף־עברי, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Piéton hors passage : je ralentis, il peut surgir entre les voitures."
+        }
       ]
     }
   ],

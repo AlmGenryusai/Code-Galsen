@@ -38,7 +38,26 @@
           "type": "memo",
           "text": "Protéger, alerter, secourir."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p45.webp", "alt": "Accident de deux voitures avec triangle posé sur la chaussée", "credit": "ŠJů, CC BY-SA 3.0, via Wikimedia Commons"}, "caption": "Accident : je protège la zone, puis j'alerte les secours." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p45.webp",
+            "alt": "Accident de deux voitures avec triangle posé sur la chaussée",
+            "credit": "ŠJů, CC BY-SA 3.0, via Wikimedia Commons"
+          },
+          "caption": "Accident : je protège la zone, puis j'alerte les secours."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bphare.webp",
+            "alt": "Phare brisé après un accident",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Après un accident, je protège et j'alerte."
+        }
       ]
     },
     {

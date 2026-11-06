@@ -59,6 +59,26 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Voyant de ceinture : quelqu'un n'est pas attaché."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bceinture1.webp",
+            "alt": "Ceinture de sécurité bouclée sur une personne assise",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Ceinture bouclée, sangle bien positionnée."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Benceinte.webp",
+            "alt": "Ceinture de sécurité portée par une femme enceinte",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "La ceinture se porte aussi pendant la grossesse."
         }
       ]
     },

@@ -30,6 +30,16 @@
         {
           "type": "memo",
           "text": "Pas de permis, fuite, refus : délits."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bexces.webp",
+            "alt": "Tableau de bord de nuit, gyrophares de police devant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Excès de vitesse : une infraction grave."
         }
       ]
     },

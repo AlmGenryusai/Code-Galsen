@@ -150,6 +150,12 @@
     "theme": "t07",
     "chapter": "t07-c01",
     "context": "Je règle mes rétroviseurs.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bretro.webp",
+      "alt": "Rétroviseur extérieur avec la route derrière",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

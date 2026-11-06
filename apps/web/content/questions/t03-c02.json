@@ -102,6 +102,12 @@
     "theme": "t03",
     "chapter": "t03-c02",
     "context": "Sur autoroute.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bautoroute.webp",
+      "alt": "Autoroute vue depuis le poste de conduite, voitures devant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "La bande d'arrêt d'urgence sert à :",

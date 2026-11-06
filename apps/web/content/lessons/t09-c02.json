@@ -35,6 +35,16 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Un enfant voyage attaché à l'arrière."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bsiegeenfant.webp",
+            "alt": "Adulte qui attache un enfant dans un siège auto",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Un enfant est attaché dans un dispositif adapté."
         }
       ]
     },
