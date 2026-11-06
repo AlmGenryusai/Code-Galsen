@@ -224,6 +224,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "Je suis très fatigué et je somnole au volant.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2crepuscule.webp",
+      "alt": "Conducteur au volant à la tombée de la nuit, camion devant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je :",

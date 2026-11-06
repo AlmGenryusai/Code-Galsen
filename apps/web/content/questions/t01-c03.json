@@ -181,6 +181,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "Un monument est au milieu d'une place, sans panneau.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2giratoire.webp",
+      "alt": "Rond-point vu du dessus, îlot central à contourner par la droite",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je le contourne :",

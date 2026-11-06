@@ -81,6 +81,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-V2voyants.webp",
+            "alt": "Tableau de bord avec plusieurs voyants allumés",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Les voyants s'allument au tableau de bord : je les reconnais avant de partir."
+        },
+        {
           "type": "attention",
           "text": "Rouler avec un voyant rouge peut détruire le moteur ou rendre le freinage inefficace."
         },

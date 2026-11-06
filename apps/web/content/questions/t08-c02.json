@@ -47,6 +47,12 @@
     "theme": "t08",
     "chapter": "t08-c02",
     "context": "Par forte chaleur, le moteur chauffe.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2panne.webp",
+      "alt": "Conducteur au téléphone devant sa voiture en panne, capot ouvert",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -74,6 +80,12 @@
     "theme": "t08",
     "chapter": "t08-c02",
     "context": "Un pneu éclate en roulant.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2rouesecours.webp",
+      "alt": "Changement de roue au bord de la route, pneu au sol",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -134,6 +146,12 @@
     "theme": "t08",
     "chapter": "t08-c02",
     "context": "Mon véhicule refuse de démarrer.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2panne.webp",
+      "alt": "Conducteur au téléphone devant sa voiture en panne, capot ouvert",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je pense d'abord à :",

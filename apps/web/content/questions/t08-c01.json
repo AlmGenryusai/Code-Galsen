@@ -106,6 +106,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Le freinage d'un véhicule.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2frein.webp",
+      "alt": "Pied qui appuie sur la pédale de frein",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

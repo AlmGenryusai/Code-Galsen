@@ -265,6 +265,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Je règle ma vitesse.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2compteur.webp",
+      "alt": "Compteur de vitesse de nuit",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je tiens compte de :",

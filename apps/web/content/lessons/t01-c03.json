@@ -109,6 +109,16 @@
           "caption": "Zébras : zone où je ne roule pas."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-V2chevrons.webp",
+            "alt": "Marquage en chevrons blancs sur une chaussée, route de campagne",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Marquage en chevrons au sol."
+        },
+        {
           "type": "memo",
           "text": "Continue : je reste. Discontinue : je passe pour dépasser."
         }

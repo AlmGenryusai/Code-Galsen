@@ -196,6 +196,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-V2pangiratoire.webp",
+            "alt": "Panneau triangulaire de rond-point et panneau rond bleu de sens giratoire",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "À gauche, le panneau annonce un rond-point ; à droite, le panneau rond bleu indique le sens à suivre."
+        },
+        {
           "type": "attention",
           "text": "Rouler au pas devant un STOP sans s'arrêter reste une faute."
         },

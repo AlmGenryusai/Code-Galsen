@@ -3,6 +3,12 @@
     "id": "t09-c02-0001",
     "theme": "t09",
     "chapter": "t09-c02",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2siegebebe.webp",
+      "alt": "Enfant attaché dans un siège auto à l'arrière",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Un enfant en voiture voyage :",
@@ -137,6 +143,12 @@
     "theme": "t09",
     "chapter": "t09-c02",
     "context": "Un passager me gêne en parlant fort.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2passagers.webp",
+      "alt": "Passagers qui parlent fort et s'agitent autour du conducteur",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

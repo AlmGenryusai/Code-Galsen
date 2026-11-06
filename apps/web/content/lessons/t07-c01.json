@@ -100,6 +100,16 @@
           "caption": "Je boucle ma ceinture avant de rouler."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-V2voyantceinture.webp",
+            "alt": "Voyant rouge de ceinture de sécurité au tableau de bord",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Le voyant de ceinture rappelle de s'attacher."
+        },
+        {
           "type": "memo",
           "text": "Rien sous les pédales, ceinture attachée."
         }
