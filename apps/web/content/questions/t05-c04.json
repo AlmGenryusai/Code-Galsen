@@ -128,6 +128,12 @@
     "theme": "t05",
     "chapter": "t05-c04",
     "context": "Téléphone en main ou feux non respectés causent un accident mortel.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2telephone.webp",
+      "alt": "Conducteur qui tient son téléphone en main en roulant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

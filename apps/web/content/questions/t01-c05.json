@@ -238,6 +238,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Un véhicule en panne bloque ma voie. Des voitures arrivent en face.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2depanneuse.webp",
+      "alt": "Voiture en panne chargée sur une dépanneuse",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je :",

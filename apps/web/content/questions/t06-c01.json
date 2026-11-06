@@ -4,6 +4,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "J'arrive sur un accident.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2accident.webp",
+      "alt": "Accident entre deux voitures, un conducteur se tient la nuque",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

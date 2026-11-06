@@ -180,5 +180,17 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 | n-Xvitesse-1.webp | Tableau de bord de nuit, gyrophares de police devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-Xvitesse-2.webp | Voiture qui roule vite en ville, flou de mouvement | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-Bdistance.webp | Schéma de la distance d'arrêt : temps de réaction puis freinage | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2abs.webp | Tableau de bord avec le voyant ABS allumé | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2accident.webp | Accident entre deux voitures, un conducteur se tient la nuque | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2compteur.webp | Compteur de vitesse de nuit | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2crepuscule.webp | Conducteur au volant à la tombée de la nuit, camion devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2depanneuse.webp | Voiture en panne chargée sur une dépanneuse | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2frein.webp | Pied qui appuie sur la pédale de frein | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2giratoire.webp | Rond-point vu du dessus, îlot central à contourner par la droite | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2panne.webp | Conducteur au téléphone devant sa voiture en panne, capot ouvert | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2passagers.webp | Passagers qui parlent fort et s'agitent autour du conducteur | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2rouesecours.webp | Changement de roue au bord de la route, pneu au sol | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2siegebebe.webp | Enfant attaché dans un siège auto à l'arrière | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2telephone.webp | Conducteur qui tient son téléphone en main en roulant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.

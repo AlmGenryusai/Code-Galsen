@@ -197,6 +197,12 @@
     "theme": "t01",
     "chapter": "t01-c04",
     "context": "Au volant d'une voiture, je règle ma vitesse.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2compteur.webp",
+      "alt": "Compteur de vitesse de nuit",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je tiens compte de :",

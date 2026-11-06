@@ -37,6 +37,12 @@
     "theme": "t09",
     "chapter": "t09-c01",
     "context": "Freinage d'urgence, mon véhicule a l'ABS.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2frein.webp",
+      "alt": "Pied qui appuie sur la pédale de frein",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -130,6 +136,12 @@
     "theme": "t09",
     "chapter": "t09-c01",
     "context": "Un voyant de défaut d'ABS s'allume.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2abs.webp",
+      "alt": "Tableau de bord avec le voyant ABS allumé",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je :",
