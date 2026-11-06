@@ -125,6 +125,11 @@
         "kind": "yesno",
         "statement": "La visite technique n'est nécessaire qu'après un accident :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les véhicules neufs n'y sont pas soumis :",
+        "correct": "yes"
       }
     ],
     "explanation": "Tout véhicule employé au transport de personnes ou de marchandises passe d'abord une visite technique, puis aux dates fixées. Les véhicules neufs n'y sont pas soumis (L.47).",
@@ -183,6 +188,11 @@
         "kind": "yesno",
         "statement": "Je m'arrête :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Ne pas m'arrêter à la sommation d'un agent est un délit :",
+        "correct": "yes"
       }
     ],
     "explanation": "Ne pas s'arrêter à la sommation claire d'un agent est un délit puni de prison et d'amende.",
@@ -205,6 +215,11 @@
         "kind": "yesno",
         "statement": "Mon permis expiré mais non retiré suffit :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Mon permis doit correspondre à la catégorie du véhicule :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le permis doit correspondre à la catégorie du véhicule et être en cours de validité, au nom du conducteur.",
@@ -227,6 +242,11 @@
         "kind": "yesno",
         "statement": "C'est un délit puni de prison et d'amende :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je risque seulement un avertissement :",
+        "correct": "no"
       }
     ],
     "explanation": "Donner un faux nom ou une fausse adresse après une infraction est puni de 6 mois à 3 ans de prison et d'une amende.",

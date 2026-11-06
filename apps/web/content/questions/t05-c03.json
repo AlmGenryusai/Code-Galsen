@@ -260,6 +260,11 @@
         "kind": "yesno",
         "statement": "Conduire malgré une suspension ou une annulation du permis est un délit puni de prison et d'amende :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il existe des circonstances atténuantes :",
+        "correct": "no"
       }
     ],
     "explanation": "Violer l'interdiction de conduire est puni de trois ans de prison et d'une amende, sans circonstances atténuantes.",

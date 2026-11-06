@@ -15,6 +15,11 @@
         "kind": "yesno",
         "statement": "Il peut dépasser du véhicule sans être amarré :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Mon chargement ne doit gêner personne :",
+        "correct": "yes"
       }
     ],
     "explanation": "Toute précaution doit être prise pour que le chargement ne puisse blesser ou gêner personne.",
@@ -79,6 +84,11 @@
       {
         "kind": "yesno",
         "statement": "Il peut dépasser de 5 mètres :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il peut dépasser à l'avant :",
         "correct": "no"
       }
     ],
@@ -145,6 +155,11 @@
         "kind": "yesno",
         "statement": "Les passagers peuvent monter sur le marchepied si je roule lentement :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les apprentis chauffeurs peuvent monter sur le marchepied :",
+        "correct": "no"
       }
     ],
     "explanation": "Il est interdit de transporter des passagers, y compris les apprentis chauffeurs, sur les marchepieds.",
@@ -210,6 +225,11 @@
         "kind": "yesno",
         "statement": "Elle peut transporter des passagers sur courte distance :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux affecter une remorque au transport privé de personnes :",
+        "correct": "no"
       }
     ],
     "explanation": "Il est interdit d'affecter une remorque au transport de personnes, public ou privé.",
@@ -232,6 +252,11 @@
         "kind": "yesno",
         "statement": "Ils sont transportés assis :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Ils peuvent voyager debout :",
+        "correct": "no"
       }
     ],
     "explanation": "Les enfants sont transportés assis s'ils ne sont pas accompagnés.",
