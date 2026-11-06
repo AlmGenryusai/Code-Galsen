@@ -179,5 +179,6 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 | n-Xstationnement-6.webp | Schéma du stationnement en bataille, marche avant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-Xvitesse-1.webp | Tableau de bord de nuit, gyrophares de police devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-Xvitesse-2.webp | Voiture qui roule vite en ville, flou de mouvement | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Bdistance.webp | Schéma de la distance d'arrêt : temps de réaction puis freinage | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.

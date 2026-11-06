@@ -23,6 +23,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p16.webp",
+            "alt": "Ralentisseur sur la chaussée",
+            "credit": "Андрей Романенко, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Un ralentisseur : je ralentis avant, pas dessus."
+        },
+        {
           "type": "heading",
           "text": "Aire piétonne"
         },
@@ -51,8 +61,7 @@
         {
           "type": "memo",
           "text": "École, hôpital, mosquée, église : 30 km/h."
-        },
-        { "type": "image", "media": {"kind": "photo", "src": "p16.webp", "alt": "Ralentisseur sur la chaussée", "credit": "Андрей Романенко, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Un ralentisseur : je ralentis avant, pas dessus." }
+        }
       ]
     },
     {
@@ -146,6 +155,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p25.webp",
+            "alt": "Camion de livraison sur une route étroite bordée de haies",
+            "credit": "Eric Jones, CC BY-SA 2.0, via Wikimedia Commons"
+          },
+          "caption": "Route étroite : je ralentis et je suis prêt à m'arrêter pour croiser."
+        },
+        {
           "type": "text",
           "text": "Près d'un marché ou d'un arrêt de car, des piétons surgissent sans regarder."
         },
@@ -237,8 +256,7 @@
         {
           "type": "memo",
           "text": "Virage, village, marché : je lève le pied."
-        },
-        { "type": "image", "media": {"kind": "photo", "src": "p25.webp", "alt": "Camion de livraison sur une route étroite bordée de haies", "credit": "Eric Jones, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Route étroite : je ralentis et je suis prêt à m'arrêter pour croiser." }
+        }
       ]
     }
   ],

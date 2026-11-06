@@ -11,6 +11,16 @@
           "text": "L'alcool et les stupéfiants sont encadrés par la loi."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S25-2.webp",
+            "alt": "Agent qui contrôle un conducteur avec un éthylotest",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Un agent peut contrôler l'air expiré."
+        },
+        {
           "type": "heading",
           "text": "Ce que dit la loi"
         },
@@ -23,24 +33,6 @@
           ]
         },
         {
-          "type": "attention",
-          "text": "Conduire avec 0,20 g/L est déjà une infraction. Je ne bois pas avant de conduire."
-        },
-        {
-          "type": "memo",
-          "text": "Je conduis ou je bois, pas les deux."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S25-2.webp",
-            "alt": "Agent qui contrôle un conducteur avec un éthylotest",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Un agent peut contrôler l'air expiré."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -51,6 +43,10 @@
           "caption": "Cannabis et conduite ne vont pas ensemble."
         },
         {
+          "type": "attention",
+          "text": "Conduire avec 0,20 g/L est déjà une infraction. Je ne bois pas avant de conduire."
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -59,6 +55,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Stupéfiants et fatigue réduisent les réflexes."
+        },
+        {
+          "type": "memo",
+          "text": "Je conduis ou je bois, pas les deux."
         }
       ]
     },
@@ -113,6 +113,16 @@
           "text": "Elle est obligatoire pour le conducteur et les places avant. Seule une contre-indication médicale, avec certificat, dispense."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p30.webp",
+            "alt": "Conduite sur une route sombre la nuit",
+            "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "De nuit, la fatigue arrive vite : je m'arrête."
+        },
+        {
           "type": "heading",
           "text": "Le casque"
         },
@@ -129,20 +139,6 @@
           "text": "La loi ne cite pas la fatigue. Au premier signe de sommeil, je m'arrête dans un endroit sûr et je me repose."
         },
         {
-          "type": "memo",
-          "text": "Ceinture avant de démarrer. Casque pour les passagers de moto. Fatigue : je m'arrête."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p30.webp",
-            "alt": "Conduite sur une route sombre la nuit",
-            "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "De nuit, la fatigue arrive vite : je m'arrête."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -151,6 +147,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Fatigué, je m'arrête au lieu de forcer."
+        },
+        {
+          "type": "memo",
+          "text": "Ceinture avant de démarrer. Casque pour les passagers de moto. Fatigue : je m'arrête."
         }
       ]
     }

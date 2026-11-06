@@ -11,6 +11,16 @@
           "text": "Je me gare de façon à gêner le moins possible la circulation."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xstationnement-2.webp",
+            "alt": "Parking plein vu d'en haut",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je me gare à un emplacement autorisé."
+        },
+        {
           "type": "heading",
           "text": "Règles"
         },
@@ -22,6 +32,16 @@
             "Je ne me gare pas près d'un virage, d'un sommet de côte ou d'une intersection quand la visibilité est mauvaise.",
             "Je ne stationne jamais sur un passage à niveau."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xstationnement-3.webp",
+            "alt": "Schéma du créneau, à droite et à gauche",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Le créneau, côté droit et côté gauche."
         },
         {
           "type": "heading",
@@ -64,30 +84,6 @@
           "text": "Hors agglomération, je ne stationne pas sur la chaussée, sauf force majeure."
         },
         {
-          "type": "memo",
-          "text": "Gêner le moins possible : accotement, loin des virages."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Xstationnement-2.webp",
-            "alt": "Parking plein vu d'en haut",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Je me gare à un emplacement autorisé."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Xstationnement-3.webp",
-            "alt": "Schéma du créneau, à droite et à gauche",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Le créneau, côté droit et côté gauche."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -116,6 +112,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Stationnement en bataille, marche avant."
+        },
+        {
+          "type": "memo",
+          "text": "Gêner le moins possible : accotement, loin des virages."
         }
       ]
     },
@@ -126,6 +126,16 @@
         {
           "type": "text",
           "text": "Si je dois m'arrêter sur la chaussée parce que mon véhicule est en panne, je protège les autres."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p27.webp",
+            "alt": "Voiture en panne sur le bas-côté",
+            "credit": "ScoredBlock, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "En panne : je me mets sur le bas-côté et je signale mon véhicule."
         },
         {
           "type": "heading",
@@ -145,16 +155,6 @@
         {
           "type": "memo",
           "text": "Détresse et triangle, avant tout autre geste."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p27.webp",
-            "alt": "Voiture en panne sur le bas-côté",
-            "credit": "ScoredBlock, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "En panne : je me mets sur le bas-côté et je signale mon véhicule."
         }
       ]
     },

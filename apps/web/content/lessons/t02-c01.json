@@ -11,6 +11,16 @@
           "text": "Avant de tourner, de me déporter ou de ralentir fortement, je regarde d'abord si c'est possible. Ensuite seulement, j'avertis les autres."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p28.webp",
+            "alt": "Rétroviseur intérieur d'une voiture",
+            "credit": "Bob Adams from Amanzimtoti, South Africa, CC BY-SA 2.0, via Wikimedia Commons"
+          },
+          "caption": "Je regarde mes rétroviseurs avant de bouger."
+        },
+        {
           "type": "heading",
           "text": "Les gestes"
         },
@@ -30,16 +40,6 @@
         {
           "type": "memo",
           "text": "Je regarde, puis je signale, puis je bouge."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p28.webp",
-            "alt": "Rétroviseur intérieur d'une voiture",
-            "credit": "Bob Adams from Amanzimtoti, South Africa, CC BY-SA 2.0, via Wikimedia Commons"
-          },
-          "caption": "Je regarde mes rétroviseurs avant de bouger."
         }
       ]
     },
@@ -50,6 +50,16 @@
         {
           "type": "text",
           "text": "Mes feux servent à voir et à être vu. L'avertisseur sert à prévenir d'un danger, pas à presser les autres."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S07-3.webp",
+            "alt": "Phare avant d'une voiture",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Les feux : je vérifie qu'ils fonctionnent."
         },
         {
           "type": "heading",
@@ -63,28 +73,6 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "L'avertisseur"
-        },
-        {
-          "type": "text",
-          "text": "Je l'utilise seulement pour un avertissement nécessaire. En ville, je fais bref et modéré. La nuit, je préfère un signal lumineux."
-        },
-        {
-          "type": "memo",
-          "text": "Feux de croisement quand je croise. Klaxon seulement si c'est nécessaire."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S07-3.webp",
-            "alt": "Phare avant d'une voiture",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Les feux : je vérifie qu'ils fonctionnent."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -95,6 +83,14 @@
           "caption": "Le voyant indique que les feux de route sont allumés."
         },
         {
+          "type": "heading",
+          "text": "L'avertisseur"
+        },
+        {
+          "type": "text",
+          "text": "Je l'utilise seulement pour un avertissement nécessaire. En ville, je fais bref et modéré. La nuit, je préfère un signal lumineux."
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -103,6 +99,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Le klaxon sert à avertir, pas à s'énerver."
+        },
+        {
+          "type": "memo",
+          "text": "Feux de croisement quand je croise. Klaxon seulement si c'est nécessaire."
         }
       ]
     },
@@ -128,6 +128,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S08-1.webp",
+            "alt": "Mains sur le volant à l'approche d'un carrefour",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "À l'approche d'un carrefour, je garde les deux mains sur le volant."
+        },
+        {
           "type": "text",
           "text": "En dépassant, je préviens celui que je dépasse : de jour avec l'avertisseur, de nuit avec des appels de phares."
         },
@@ -138,16 +148,6 @@
         {
           "type": "memo",
           "text": "Je vois avant d'arriver."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S08-1.webp",
-            "alt": "Mains sur le volant à l'approche d'un carrefour",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "À l'approche d'un carrefour, je garde les deux mains sur le volant."
         }
       ]
     }

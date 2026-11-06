@@ -15,6 +15,16 @@
           "text": "Je cède le passage au piéton qui traverse ou s'engage sur un passage piéton. Hors passage, je ralentis et je reste prêt à m'arrêter."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p34.webp",
+            "alt": "Marché et circulation à Thiès",
+            "credit": "Boydiop2, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Près des marchés, les piétons passent partout : je ralentis."
+        },
+        {
           "type": "heading",
           "text": "Pourquoi"
         },
@@ -37,16 +47,6 @@
         {
           "type": "text",
           "text": "Croire qu'un piéton hors passage n'a pas la priorité et garder sa vitesse. On doit toujours éviter de le heurter."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p34.webp",
-            "alt": "Marché et circulation à Thiès",
-            "credit": "Boydiop2, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "Près des marchés, les piétons passent partout : je ralentis."
         }
       ]
     },
@@ -59,6 +59,16 @@
           "text": "Devant un passage piéton, je ne regarde pas seulement la bande blanche. Je regarde les gens autour : ceux qui attendent au bord, ceux qui courent pour traverser, ceux qui poussent une charrette ou portent un enfant."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p33.webp",
+            "alt": "Enfants qui traversent la route",
+            "credit": "Justin Doub, CC BY-SA 2.0, via Wikimedia Commons"
+          },
+          "caption": "Enfants près de la route : je ralentis, ils peuvent traverser."
+        },
+        {
           "type": "heading",
           "text": "Ce que je fais"
         },
@@ -69,6 +79,16 @@
             "Si un piéton s'engage, je m'arrête et je lui laisse finir sa traversée.",
             "Je ne lui fais pas signe de passer devant moi si un autre véhicule peut arriver à côté."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p36.webp",
+            "alt": "Voitures arrêtées à un passage piéton près d'une école",
+            "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"
+          },
+          "caption": "Je m'arrête pour laisser traverser les piétons."
         },
         {
           "type": "heading",
@@ -110,30 +130,6 @@
           "text": "Un véhicule arrêté devant le passage cache les piétons. Je ralentis fort avant de le dépasser, même si la voie est libre."
         },
         {
-          "type": "memo",
-          "text": "Passage piéton ou école : je ralentis avant de voir le danger, pas après."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p33.webp",
-            "alt": "Enfants qui traversent la route",
-            "credit": "Justin Doub, CC BY-SA 2.0, via Wikimedia Commons"
-          },
-          "caption": "Enfants près de la route : je ralentis, ils peuvent traverser."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p36.webp",
-            "alt": "Voitures arrêtées à un passage piéton près d'une école",
-            "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"
-          },
-          "caption": "Je m'arrête pour laisser traverser les piétons."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -142,6 +138,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Passage piéton : je ralentis et je regarde des deux côtés."
+        },
+        {
+          "type": "memo",
+          "text": "Passage piéton ou école : je ralentis avant de voir le danger, pas après."
         }
       ]
     },
@@ -189,10 +189,6 @@
           "text": "Je ne suis pas prioritaire parce que le piéton traverse hors passage : je dois toujours pouvoir m'arrêter."
         },
         {
-          "type": "memo",
-          "text": "Plus il fait sombre, plus je ralentis."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -201,6 +197,10 @@
             "credit": "מקף־עברי, CC BY-SA 4.0, via Wikimedia Commons"
           },
           "caption": "Piéton hors passage : je ralentis, il peut surgir entre les voitures."
+        },
+        {
+          "type": "memo",
+          "text": "Plus il fait sombre, plus je ralentis."
         }
       ]
     }

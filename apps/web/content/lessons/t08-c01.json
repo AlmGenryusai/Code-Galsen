@@ -11,6 +11,16 @@
           "text": "Un véhicule doit être en état de rouler en sécurité."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S17-1.webp",
+            "alt": "Triangle de signalisation sur la chaussée",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Le triangle fait partie de l'équipement à bord."
+        },
+        {
           "type": "heading",
           "text": "À contrôler"
         },
@@ -24,20 +34,6 @@
           ]
         },
         {
-          "type": "memo",
-          "text": "Freins, pneus, rétroviseurs, avertisseur."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S17-1.webp",
-            "alt": "Triangle de signalisation sur la chaussée",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Le triangle fait partie de l'équipement à bord."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -46,6 +42,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Les sculptures du pneu évacuent l'eau."
+        },
+        {
+          "type": "memo",
+          "text": "Freins, pneus, rétroviseurs, avertisseur."
         }
       ]
     },
@@ -56,6 +56,16 @@
         {
           "type": "text",
           "text": "Un voyant rouge signifie : je m'arrête dès que possible."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p48.webp",
+            "alt": "Voyants allumés sur un tableau de bord",
+            "credit": "Shixart1985, CC BY 2.0, via Wikimedia Commons"
+          },
+          "caption": "Un voyant s'allume : je ne l'ignore pas."
         },
         {
           "type": "heading",
@@ -77,16 +87,6 @@
         {
           "type": "memo",
           "text": "Rouge : j'arrête."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p48.webp",
-            "alt": "Voyants allumés sur un tableau de bord",
-            "credit": "Shixart1985, CC BY 2.0, via Wikimedia Commons"
-          },
-          "caption": "Un voyant s'allume : je ne l'ignore pas."
         }
       ]
     }

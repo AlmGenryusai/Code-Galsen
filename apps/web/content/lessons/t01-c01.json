@@ -172,6 +172,16 @@
           "text": "Les feux ont trois couleurs, toujours dans le même ordre : vert, jaune, rouge."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p04.webp",
+            "alt": "Agent de la circulation qui fait signe aux voitures",
+            "credit": "Mir koks, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "L'agent fait signe : ses ordres passent avant le feu."
+        },
+        {
           "type": "heading",
           "text": "Les feux"
         },
@@ -186,32 +196,6 @@
           ]
         },
         {
-          "type": "heading",
-          "text": "Les marques"
-        },
-        {
-          "type": "text",
-          "text": "Au Sénégal, les lignes, passages piétons et flèches sont de couleur **jaune**."
-        },
-        {
-          "type": "attention",
-          "text": "Si un agent dirige la circulation, ses ordres priment sur les feux et les panneaux."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p04.webp",
-            "alt": "Agent de la circulation qui fait signe aux voitures",
-            "credit": "Mir koks, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "L'agent fait signe : ses ordres passent avant le feu."
-        },
-        {
-          "type": "memo",
-          "text": "Rouge, je m'arrête. L'agent passe avant le feu."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -222,6 +206,14 @@
           "caption": "Un feu en flèche : je regarde bien ce qu'il autorise."
         },
         {
+          "type": "heading",
+          "text": "Les marques"
+        },
+        {
+          "type": "text",
+          "text": "Au Sénégal, les lignes, passages piétons et flèches sont de couleur **jaune**."
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -230,6 +222,10 @@
             "credit": "Benoît Prieur, CC0, via Wikimedia Commons"
           },
           "caption": "Passage piéton : je ralentis et je cède aux piétons."
+        },
+        {
+          "type": "attention",
+          "text": "Si un agent dirige la circulation, ses ordres priment sur les feux et les panneaux."
         },
         {
           "type": "image",
@@ -250,6 +246,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Feu rouge : je m'arrête."
+        },
+        {
+          "type": "memo",
+          "text": "Rouge, je m'arrête. L'agent passe avant le feu."
         }
       ]
     }

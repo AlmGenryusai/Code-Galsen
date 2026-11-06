@@ -11,6 +11,16 @@
           "text": "Certaines infractions sont des délits : prison et amende."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bexces.webp",
+            "alt": "Tableau de bord de nuit, gyrophares de police devant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Excès de vitesse : une infraction grave."
+        },
+        {
           "type": "heading",
           "text": "Quelques exemples"
         },
@@ -30,16 +40,6 @@
         {
           "type": "memo",
           "text": "Pas de permis, fuite, refus : délits."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Bexces.webp",
-            "alt": "Tableau de bord de nuit, gyrophares de police devant",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Excès de vitesse : une infraction grave."
         }
       ]
     },
@@ -50,6 +50,16 @@
         {
           "type": "text",
           "text": "Des infractions « courantes » sont aussi des délits."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xvitesse-1.webp",
+            "alt": "Tableau de bord de nuit, gyrophares de police devant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Les agents contrôlent aussi la vitesse."
         },
         {
           "type": "heading",
@@ -66,16 +76,6 @@
         {
           "type": "memo",
           "text": "Un geste au volant peut devenir un délit."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Xvitesse-1.webp",
-            "alt": "Tableau de bord de nuit, gyrophares de police devant",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Les agents contrôlent aussi la vitesse."
         }
       ]
     },

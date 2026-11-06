@@ -24,10 +24,6 @@
           ]
         },
         {
-          "type": "memo",
-          "text": "Souple, anticipé, léger."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -36,6 +32,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "J'accélère en douceur pour consommer moins."
+        },
+        {
+          "type": "memo",
+          "text": "Souple, anticipé, léger."
         }
       ]
     },

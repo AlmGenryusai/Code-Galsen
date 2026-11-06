@@ -11,6 +11,16 @@
           "text": "À une intersection, la règle de base est simple : **je cède le passage à celui qui vient de ma droite** quand rien d'autre n'est indiqué."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p01.webp",
+            "alt": "Carrefour animé à Dakar, taxis et motos",
+            "credit": "Ruth Zurielly Jennings, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Carrefour chargé : je ralentis et je regarde à droite avant de m'engager."
+        },
+        {
           "type": "heading",
           "text": "Quand la règle de la droite s'applique"
         },
@@ -26,11 +36,11 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "p01.webp",
-            "alt": "Carrefour animé à Dakar, taxis et motos",
-            "credit": "Ruth Zurielly Jennings, CC BY-SA 4.0, via Wikimedia Commons"
+            "src": "p02.webp",
+            "alt": "Rue sablonneuse à un croisement, sans panneau",
+            "credit": "Olivier Flambeau, CC BY-SA 4.0, via Wikimedia Commons"
           },
-          "caption": "Carrefour chargé : je ralentis et je regarde à droite avant de m'engager."
+          "caption": "Croisement sans panneau : je cherche qui arrive, je cède à droite."
         },
         {
           "type": "heading",
@@ -68,24 +78,6 @@
           "text": "Je regarde que la route que je vais croiser est libre, et je ralentis d'autant plus que je vois mal."
         },
         {
-          "type": "attention",
-          "text": "Le plus gros ou le plus rapide n'a pas de priorité en plus. Celui de droite passe, même si c'est une petite moto."
-        },
-        {
-          "type": "memo",
-          "text": "Pas de panneau : je cède à droite."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p02.webp",
-            "alt": "Rue sablonneuse à un croisement, sans panneau",
-            "credit": "Olivier Flambeau, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "Croisement sans panneau : je cherche qui arrive, je cède à droite."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -94,6 +86,14 @@
             "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"
           },
           "caption": "Une sortie de station-service : je surveille ceux qui sortent."
+        },
+        {
+          "type": "attention",
+          "text": "Le plus gros ou le plus rapide n'a pas de priorité en plus. Celui de droite passe, même si c'est une petite moto."
+        },
+        {
+          "type": "memo",
+          "text": "Pas de panneau : je cède à droite."
         }
       ]
     },
@@ -114,6 +114,16 @@
           "text": "Je m'arrête à la limite de l'intersection, même si je ne vois personne. Puis je cède aux conducteurs de l'autre route, dans les deux sens."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p03.webp",
+            "alt": "Panneau STOP et ligne d'arrêt au sol",
+            "credit": "LincolnGroup11, CC BY-SA 3.0, via Wikimedia Commons"
+          },
+          "caption": "STOP : je m'arrête derrière la ligne, pas sur elle."
+        },
+        {
           "type": "heading",
           "text": "Cédez le passage"
         },
@@ -122,12 +132,32 @@
           "text": "Je laisse passer ceux de l'autre route, qu'ils viennent de gauche ou de droite. Je ralentis, je m'arrête si nécessaire."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "m04.webp",
+            "alt": "Panneau STOP avec marquage au sol",
+            "credit": "Marc Mongenet, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "STOP : panneau en haut, ligne d'arrêt au sol."
+        },
+        {
           "type": "heading",
           "text": "Rond-point"
         },
         {
           "type": "text",
           "text": "Celui qui est déjà engagé dans le rond-point passe en premier. Celui qui arrive attend."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "m05.webp",
+            "alt": "Rond-point vu du ciel",
+            "credit": "Arild Vågen, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Rond-point : j'entre en cédant aux véhicules déjà engagés."
         },
         {
           "type": "heading",
@@ -170,40 +200,6 @@
           "text": "Rouler au pas devant un STOP sans s'arrêter reste une faute."
         },
         {
-          "type": "memo",
-          "text": "STOP : j'arrête. Cédez : je laisse passer. Rond-point : l'engagé passe."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p03.webp",
-            "alt": "Panneau STOP et ligne d'arrêt au sol",
-            "credit": "LincolnGroup11, CC BY-SA 3.0, via Wikimedia Commons"
-          },
-          "caption": "STOP : je m'arrête derrière la ligne, pas sur elle."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "m04.webp",
-            "alt": "Panneau STOP avec marquage au sol",
-            "credit": "Marc Mongenet, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "STOP : panneau en haut, ligne d'arrêt au sol."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "m05.webp",
-            "alt": "Rond-point vu du ciel",
-            "credit": "Arild Vågen, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "Rond-point : j'entre en cédant aux véhicules déjà engagés."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -212,6 +208,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Rond-point vu du dessus."
+        },
+        {
+          "type": "memo",
+          "text": "STOP : j'arrête. Cédez : je laisse passer. Rond-point : l'engagé passe."
         }
       ]
     },
@@ -222,6 +222,16 @@
         {
           "type": "text",
           "text": "Certains passent avant tout le monde, quelle que soit la route."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p15.webp",
+            "alt": "Voie ferrée sans barrière qui coupe la rue à Thiès",
+            "credit": "Babacar Dioum, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Pas de barrière : je regarde des deux côtés avant de traverser les rails."
         },
         {
           "type": "heading",
@@ -246,16 +256,6 @@
         {
           "type": "text",
           "text": "Le train a toujours la priorité. S'il n'y a pas de barrière, je m'engage seulement après avoir vérifié qu'aucun train n'approche."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p15.webp",
-            "alt": "Voie ferrée sans barrière qui coupe la rue à Thiès",
-            "credit": "Babacar Dioum, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "Pas de barrière : je regarde des deux côtés avant de traverser les rails."
         },
         {
           "type": "heading",

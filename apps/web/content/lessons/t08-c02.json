@@ -11,6 +11,16 @@
           "text": "Avant de partir, je vérifie l'état de mon véhicule."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p49.webp",
+            "alt": "Pneu usé jusqu'à la corde",
+            "credit": "Paul.schrepfer, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Pneu usé : je le change avant de partir."
+        },
+        {
           "type": "heading",
           "text": "Je vérifie"
         },
@@ -22,20 +32,6 @@
             "Les feux et l'avertisseur.",
             "Le carburant."
           ]
-        },
-        {
-          "type": "memo",
-          "text": "Pneus, huile, eau, feux."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p49.webp",
-            "alt": "Pneu usé jusqu'à la corde",
-            "credit": "Paul.schrepfer, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "Pneu usé : je le change avant de partir."
         },
         {
           "type": "image",
@@ -76,6 +72,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Capot levé : je contrôle les niveaux à froid."
+        },
+        {
+          "type": "memo",
+          "text": "Pneus, huile, eau, feux."
         }
       ]
     },
