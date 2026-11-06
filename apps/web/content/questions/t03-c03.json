@@ -9,6 +9,11 @@
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 50 km/h :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "50 km/h reste permis à ces abords :",
+        "correct": "no"
       }
     ],
     "explanation": "La loi limite à 30 km/h aux abords des établissements scolaires, hospitaliers et des édifices religieux.",
@@ -74,6 +79,11 @@
         "kind": "yesno",
         "statement": "Je les contourne :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je gêne la fermeture si le train est loin :",
+        "correct": "no"
       }
     ],
     "explanation": "On obéit au garde et on ne gêne jamais la fermeture des barrières.",
@@ -96,6 +106,11 @@
         "kind": "yesno",
         "statement": "Je dégage la voie immédiatement :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je reste sur la voie le temps de vérifier :",
+        "correct": "no"
       }
     ],
     "explanation": "Le train a la priorité : on dégage la voie tout de suite pour lui laisser le passage.",
@@ -124,6 +139,11 @@
         "kind": "yesno",
         "statement": "Je ralentis :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'aborde les virages à pleine vitesse :",
+        "correct": "no"
       }
     ],
     "explanation": "On réduit sa vitesse en abordant les virages, les descentes rapides et l'approche des sommets de côte.",
@@ -219,6 +239,11 @@
       {
         "kind": "yesno",
         "statement": "Je reste attentif et je ralentis :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Des piétons peuvent traverser sans regarder :",
         "correct": "yes"
       }
     ],

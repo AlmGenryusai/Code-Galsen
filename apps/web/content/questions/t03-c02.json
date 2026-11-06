@@ -8,6 +8,11 @@
         "kind": "yesno",
         "statement": "Les autoroutes sont réservées aux véhicules de cylindrée supérieure à 50 cm³ :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les vélos et les piétons y sont interdits :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur autoroute, les vélos, les piétons et les engins à moteur de 50 cm³ ou moins sont interdits.",
@@ -36,6 +41,11 @@
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 150 km/h :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Par pluie, la limite est de 100 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "Pour une voiture : 130 km/h par temps normal, 100 km/h par pluie, 50 km/h si l'on voit à moins de 50 m.",
@@ -58,6 +68,11 @@
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 110 km/h :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Par temps normal, la limite est de 130 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "Par pluie ou autres précipitations, la limite sur autoroute passe à 100 km/h pour une voiture.",
@@ -117,6 +132,11 @@
         "kind": "yesno",
         "statement": "Je reste dans mon véhicule, sur la voie :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'allume mes feux de détresse :",
+        "correct": "yes"
       }
     ],
     "explanation": "On quitte les voies de circulation, on allume les feux de détresse et on signale le véhicule de loin.",
@@ -145,6 +165,11 @@
         "kind": "yesno",
         "statement": "Je dois m'arrêter :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe sans m'arrêter au péage :",
+        "correct": "no"
       }
     ],
     "explanation": "L'arrêt est obligatoire au poste de péage. On ralentit bien avant la barrière.",
@@ -173,6 +198,11 @@
         "kind": "yesno",
         "statement": "J'accélère pour m'intégrer à la vitesse du trafic :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis sur la voie d'accélération :",
+        "correct": "no"
       }
     ],
     "explanation": "La voie d'accélération sert à prendre de la vitesse pour s'insérer sans gêner le trafic.",
@@ -199,6 +229,11 @@
       {
         "kind": "yesno",
         "statement": "Sur autoroute, il peut y avoir des passages à niveau :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Une voie ferrée peut traverser l'autoroute :",
         "correct": "no"
       }
     ],

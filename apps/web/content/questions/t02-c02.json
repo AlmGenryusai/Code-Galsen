@@ -15,6 +15,11 @@
         "kind": "yesno",
         "statement": "Je peux téléphoner au volant, téléphone en main, si je roule lentement :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Tenir son téléphone en main est passible d'une amende :",
+        "correct": "yes"
       }
     ],
     "explanation": "Tenir son téléphone en main au volant d'un véhicule en circulation est strictement interdit et passible d'une amende.",
@@ -35,6 +40,11 @@
       {
         "kind": "yesno",
         "statement": "L'infraction commence à 0,20 g/L :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Mieux vaut ne pas boire du tout avant de conduire :",
         "correct": "yes"
       }
     ],
@@ -64,6 +74,11 @@
         "kind": "yesno",
         "statement": "Le seuil est de 0,25 mg/L :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Au contrôle de l'air expiré, le seuil est de 0,10 mg/L :",
+        "correct": "yes"
       }
     ],
     "explanation": "L.84 fixe deux seuils alternatifs : 0,20 g/L de sang ou 0,10 mg/L d'air expiré. Au contrôle de l'air expiré, c'est 0,10 mg/L.",
@@ -121,6 +136,11 @@
         "kind": "yesno",
         "statement": "Au volant, je peux porter un écouteur dans l'oreille, sauf appareil de correction de surdité :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un écouteur est autorisé sans appareil de surdité :",
+        "correct": "no"
       }
     ],
     "explanation": "Le port à l'oreille d'un dispositif qui émet du son est interdit, sauf appareil correcteur de surdité.",
@@ -143,6 +163,11 @@
         "kind": "yesno",
         "statement": "Elle est obligatoire pour les places arrière seulement :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Seule une contre-indication médicale justifiée dispense :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le conducteur et les occupants des places avant doivent la porter. Seule une contre-indication médicale justifiée par un certificat dispense.",
@@ -165,6 +190,11 @@
         "kind": "yesno",
         "statement": "Je dois porter un casque homologué :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Seul le conducteur doit porter un casque :",
+        "correct": "no"
       }
     ],
     "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité conforme à un modèle agréé.",
