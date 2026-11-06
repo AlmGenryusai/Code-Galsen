@@ -11,6 +11,16 @@
           "text": "La ceinture sauve des vies, même à faible vitesse."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S20-4.webp",
+            "alt": "Zone de l'airbag sur le tableau de bord",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "L'airbag se trouve derrière cette zone du tableau de bord."
+        },
+        {
           "type": "heading",
           "text": "À retenir"
         },
@@ -23,24 +33,6 @@
           ]
         },
         {
-          "type": "attention",
-          "text": "Un passager non attaché peut devenir un projectile et blesser les autres."
-        },
-        {
-          "type": "memo",
-          "text": "Ceinture d'abord, airbag en plus."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S20-4.webp",
-            "alt": "Zone de l'airbag sur le tableau de bord",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "L'airbag se trouve derrière cette zone du tableau de bord."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -49,6 +41,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "L'étiquette rappelle les consignes de sécurité de l'airbag."
+        },
+        {
+          "type": "attention",
+          "text": "Un passager non attaché peut devenir un projectile et blesser les autres."
         },
         {
           "type": "image",
@@ -79,6 +75,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "La ceinture se porte aussi pendant la grossesse."
+        },
+        {
+          "type": "memo",
+          "text": "Ceinture d'abord, airbag en plus."
         }
       ]
     },

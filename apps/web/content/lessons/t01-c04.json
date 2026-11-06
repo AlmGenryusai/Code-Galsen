@@ -11,6 +11,16 @@
           "text": "La vitesse maximale dépend du lieu et du temps."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p24.webp",
+            "alt": "Entrée d'agglomération avec panneau de limitation",
+            "credit": "Kamil Czaiński, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "À l'entrée d'une agglomération, je lis le panneau et j'adapte ma vitesse."
+        },
+        {
           "type": "heading",
           "text": "En agglomération"
         },
@@ -45,16 +55,6 @@
         {
           "type": "memo",
           "text": "50 en ville, 30 devant une école, puis 130, 110, 100, 90 selon la route."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p24.webp",
-            "alt": "Entrée d'agglomération avec panneau de limitation",
-            "credit": "Kamil Czaiński, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "À l'entrée d'une agglomération, je lis le panneau et j'adapte ma vitesse."
         }
       ]
     },
@@ -65,6 +65,16 @@
         {
           "type": "text",
           "text": "La limite est un maximum, pas un objectif. Je règle ma vitesse selon ce que je vois et ce qui peut arriver."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xvitesse-2.webp",
+            "alt": "Voiture qui roule vite en ville, flou de mouvement",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "En ville, la vitesse réduit le temps pour réagir."
         },
         {
           "type": "heading",
@@ -79,6 +89,16 @@
             "J'aborde un virage, une descente, une intersection ou un sommet de côte.",
             "Je croise ou dépasse des piétons, des animaux ou un convoi arrêté."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bdistance.webp",
+            "alt": "Schéma de la distance d'arrêt : temps de réaction puis freinage",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Distance d'arrêt = temps de réaction + freinage."
         },
         {
           "type": "attention",
@@ -114,26 +134,6 @@
         {
           "type": "memo",
           "text": "Je dois pouvoir m'arrêter dans ce que je vois."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Xvitesse-2.webp",
-            "alt": "Voiture qui roule vite en ville, flou de mouvement",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "En ville, la vitesse réduit le temps pour réagir."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Bdistance.webp",
-            "alt": "Schéma de la distance d'arrêt : temps de réaction puis freinage",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Distance d'arrêt = temps de réaction + freinage."
         }
       ]
     },

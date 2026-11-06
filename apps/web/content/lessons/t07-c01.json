@@ -11,6 +11,16 @@
           "text": "Un bon réglage évite la fatigue et améliore le contrôle de la voiture."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S21-1.webp",
+            "alt": "Conductrice aux bras tendus, trop loin du volant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Trop loin du volant, je ne contrôle plus bien."
+        },
+        {
           "type": "heading",
           "text": "Avant de démarrer"
         },
@@ -22,20 +32,6 @@
             "Je règle l'appui-tête à hauteur de la tête.",
             "J'attache ma ceinture."
           ]
-        },
-        {
-          "type": "memo",
-          "text": "Siège, rétroviseurs, appui-tête, ceinture."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S21-1.webp",
-            "alt": "Conductrice aux bras tendus, trop loin du volant",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Trop loin du volant, je ne contrôle plus bien."
         },
         {
           "type": "image",
@@ -56,6 +52,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Pas de tongs ni de sandales au volant."
+        },
+        {
+          "type": "memo",
+          "text": "Siège, rétroviseurs, appui-tête, ceinture."
         }
       ]
     },
@@ -66,6 +66,16 @@
         {
           "type": "text",
           "text": "La ceinture est obligatoire pour le conducteur et les places avant. Seule une contre-indication médicale, avec certificat, dispense."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S20-3.webp",
+            "alt": "Conductrice souriante, ceinture bouclée, au volant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Ceinture bouclée avant de démarrer."
         },
         {
           "type": "heading",
@@ -80,20 +90,6 @@
           ]
         },
         {
-          "type": "memo",
-          "text": "Rien sous les pédales, ceinture attachée."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S20-3.webp",
-            "alt": "Conductrice souriante, ceinture bouclée, au volant",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Ceinture bouclée avant de démarrer."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -102,6 +98,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Je boucle ma ceinture avant de rouler."
+        },
+        {
+          "type": "memo",
+          "text": "Rien sous les pédales, ceinture attachée."
         }
       ]
     }

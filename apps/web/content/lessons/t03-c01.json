@@ -33,14 +33,6 @@
           ]
         },
         {
-          "type": "attention",
-          "text": "Je ne klaxonne pas pour « voir plus loin » : ça ne change pas ma visibilité."
-        },
-        {
-          "type": "memo",
-          "text": "Je vois mal : je ralentis et j'allume."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -49,6 +41,10 @@
             "credit": "Oregon Department of Transportation, CC BY 2.0, via Wikimedia Commons"
           },
           "caption": "Sous la pluie, je vois moins et je freine plus tard : je ralentis."
+        },
+        {
+          "type": "attention",
+          "text": "Je ne klaxonne pas pour « voir plus loin » : ça ne change pas ma visibilité."
         },
         {
           "type": "image",
@@ -69,6 +65,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Sous la pluie, la visibilité baisse."
+        },
+        {
+          "type": "memo",
+          "text": "Je vois mal : je ralentis et j'allume."
         }
       ]
     },
@@ -103,14 +103,6 @@
           ]
         },
         {
-          "type": "text",
-          "text": "Après les premières pluies, la chaussée est plus glissante."
-        },
-        {
-          "type": "memo",
-          "text": "Sol mouillé : plus de distance, moins de vitesse."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -121,6 +113,10 @@
           "caption": "Du sable sur la route : la chaussée glisse."
         },
         {
+          "type": "text",
+          "text": "Après les premières pluies, la chaussée est plus glissante."
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -129,6 +125,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Sous la pluie, des essuie-glaces en bon état."
+        },
+        {
+          "type": "memo",
+          "text": "Sol mouillé : plus de distance, moins de vitesse."
         }
       ]
     },
@@ -153,14 +153,6 @@
           ]
         },
         {
-          "type": "attention",
-          "text": "Je règle ma vitesse sur la portée de mes phares : si je ne peux pas m'arrêter dans ce que j'éclaire, je roule trop vite."
-        },
-        {
-          "type": "memo",
-          "text": "Nuit : j'éclaire, je n'éblouis pas."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -169,6 +161,14 @@
             "credit": "A S M Jobaer, CC BY-SA 4.0, via Wikimedia Commons"
           },
           "caption": "De nuit, un piéton se voit tard : je ralentis."
+        },
+        {
+          "type": "attention",
+          "text": "Je règle ma vitesse sur la portée de mes phares : si je ne peux pas m'arrêter dans ce que j'éclaire, je roule trop vite."
+        },
+        {
+          "type": "memo",
+          "text": "Nuit : j'éclaire, je n'éblouis pas."
         }
       ]
     }

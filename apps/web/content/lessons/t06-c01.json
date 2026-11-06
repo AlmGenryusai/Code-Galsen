@@ -11,6 +11,16 @@
           "text": "Face à un accident, l'ordre compte : protéger, alerter, secourir."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p45.webp",
+            "alt": "Accident de deux voitures avec triangle posé sur la chaussée",
+            "credit": "ŠJů, CC BY-SA 3.0, via Wikimedia Commons"
+          },
+          "caption": "Accident : je protège la zone, puis j'alerte les secours."
+        },
+        {
           "type": "heading",
           "text": "Protéger"
         },
@@ -35,20 +45,6 @@
           "text": "Fuir après un accident est un délit. Je reste sur place."
         },
         {
-          "type": "memo",
-          "text": "Protéger, alerter, secourir."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p45.webp",
-            "alt": "Accident de deux voitures avec triangle posé sur la chaussée",
-            "credit": "ŠJů, CC BY-SA 3.0, via Wikimedia Commons"
-          },
-          "caption": "Accident : je protège la zone, puis j'alerte les secours."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -57,6 +53,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Après un accident, je protège et j'alerte."
+        },
+        {
+          "type": "memo",
+          "text": "Protéger, alerter, secourir."
         }
       ]
     },

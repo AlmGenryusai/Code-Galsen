@@ -27,10 +27,6 @@
           "text": "Sur la voie d'accélération, je prends de la vitesse pour m'insérer sans gêner. Je ne m'arrête pas au bout de la bretelle."
         },
         {
-          "type": "memo",
-          "text": "Bretelle : j'accélère, je m'insère."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -39,6 +35,10 @@
             "credit": "Velvet, CC BY-SA 4.0, via Wikimedia Commons"
           },
           "caption": "Voie d'insertion : je prends ma vitesse avant de m'insérer."
+        },
+        {
+          "type": "memo",
+          "text": "Bretelle : j'accélère, je m'insère."
         }
       ]
     },
@@ -49,6 +49,16 @@
         {
           "type": "text",
           "text": "Les limites sont plus hautes, les erreurs plus graves."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S16-2.webp",
+            "alt": "Circulation dense sur l'autoroute",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Dans la circulation dense, je garde mes distances."
         },
         {
           "type": "heading",
@@ -63,6 +73,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bautoroute.webp",
+            "alt": "Autoroute vue depuis le poste de conduite, voitures devant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Sur autoroute, je garde mes distances."
+        },
+        {
           "type": "text",
           "text": "Hors agglomération, les véhicules de plus de 3,5 tonnes ou de plus de 8 mètres laissent au moins 50 mètres entre eux."
         },
@@ -73,26 +93,6 @@
         {
           "type": "memo",
           "text": "Voiture : 130, 100 sous la pluie, 50 dans la brume."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S16-2.webp",
-            "alt": "Circulation dense sur l'autoroute",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Dans la circulation dense, je garde mes distances."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Bautoroute.webp",
-            "alt": "Autoroute vue depuis le poste de conduite, voitures devant",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Sur autoroute, je garde mes distances."
         }
       ]
     },
