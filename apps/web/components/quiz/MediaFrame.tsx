@@ -11,19 +11,20 @@ const BADGE_LABEL: Record<NonNullable<Media['badge']>, string> = {
 }
 
 /** Zone média 16:9 pleine largeur : panneau SVG sur sable, ou photo avec repère et picto. Pas de média : rien. */
-export function MediaFrame({ media, hideCredit = false, hideBadge = false }: { media?: Media; hideCredit?: boolean; hideBadge?: boolean }) {
+export function MediaFrame({ media, hideCredit = false, hideBadge = false, rounded = false }: { media?: Media; hideCredit?: boolean; hideBadge?: boolean; rounded?: boolean }) {
   if (!media) return null
+  const radius = rounded ? 'var(--radius)' : undefined
 
   if (media.kind === 'sign') {
     return (
-      <div style={{ aspectRatio: '16 / 9', width: '100%', background: 'hsl(var(--sand))', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ aspectRatio: '16 / 9', width: '100%', background: 'hsl(var(--sand))', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: radius, overflow: 'hidden' }}>
         <RoadSign id={media.src} size={96} />
       </div>
     )
   }
 
   return (
-    <div style={{ position: 'relative', aspectRatio: '16 / 9', width: '100%', background: 'hsl(var(--sand))', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', aspectRatio: '16 / 9', width: '100%', background: 'hsl(var(--sand))', overflow: 'hidden', borderRadius: radius }}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/media/${media.src}`}

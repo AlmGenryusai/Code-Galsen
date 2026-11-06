@@ -111,7 +111,11 @@ export function QuestionCard({
             </button>
           </div>
         )}
-        <ZoomableMedia media={q.media} />
+        {q.media ? (
+          <div style={{ padding: '4px 12px 0' }}>
+            <ZoomableMedia media={q.media} />
+          </div>
+        ) : null}
 
         <div style={{ padding: '16px 20px 0' }}>
           {q.context && (
