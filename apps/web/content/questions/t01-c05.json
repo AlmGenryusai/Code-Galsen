@@ -189,6 +189,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Je veux dépasser.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-4.webp",
+      "alt": "Route vue depuis l'habitacle, véhicule devant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je ne dépasse pas :",

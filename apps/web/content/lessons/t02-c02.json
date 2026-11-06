@@ -29,6 +29,36 @@
         {
           "type": "memo",
           "text": "Je conduis ou je bois, pas les deux."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S25-2.webp",
+            "alt": "Agent qui contrôle un conducteur avec un éthylotest",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Un agent peut contrôler l'air expiré."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S25-6.webp",
+            "alt": "Main tenant un joint sur un volant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Cannabis et conduite ne vont pas ensemble."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S25-7.webp",
+            "alt": "Conducteur et passagère somnolents dans une voiture",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Stupéfiants et fatigue réduisent les réflexes."
         }
       ]
     },
@@ -102,7 +132,26 @@
           "type": "memo",
           "text": "Ceinture avant de démarrer. Casque pour les passagers de moto. Fatigue : je m'arrête."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p30.webp", "alt": "Conduite sur une route sombre la nuit", "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "De nuit, la fatigue arrive vite : je m'arrête." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p30.webp",
+            "alt": "Conduite sur une route sombre la nuit",
+            "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "De nuit, la fatigue arrive vite : je m'arrête."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xfatigue-1.webp",
+            "alt": "Conductrice affalée sur le volant sous la pluie",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Fatigué, je m'arrête au lieu de forcer."
+        }
       ]
     }
   ],

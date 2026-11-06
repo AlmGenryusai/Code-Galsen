@@ -63,6 +63,12 @@
     "theme": "t04",
     "chapter": "t04-c02",
     "context": "Je m'arrête et je veux ouvrir ma portière côté route.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S22-1.webp",
+      "alt": "Conducteur qui ouvre sa portière de la main opposée en se retournant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

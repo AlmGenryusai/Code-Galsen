@@ -31,7 +31,16 @@
           "type": "memo",
           "text": "Je regarde, puis je signale, puis je bouge."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p28.webp", "alt": "Rétroviseur intérieur d'une voiture", "credit": "Bob Adams from Amanzimtoti, South Africa, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Je regarde mes rétroviseurs avant de bouger." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p28.webp",
+            "alt": "Rétroviseur intérieur d'une voiture",
+            "credit": "Bob Adams from Amanzimtoti, South Africa, CC BY-SA 2.0, via Wikimedia Commons"
+          },
+          "caption": "Je regarde mes rétroviseurs avant de bouger."
+        }
       ]
     },
     {
@@ -64,6 +73,36 @@
         {
           "type": "memo",
           "text": "Feux de croisement quand je croise. Klaxon seulement si c'est nécessaire."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S07-3.webp",
+            "alt": "Phare avant d'une voiture",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Les feux : je vérifie qu'ils fonctionnent."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S07-2.webp",
+            "alt": "Symbole du feu de route au tableau de bord",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Le voyant indique que les feux de route sont allumés."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xklaxon-1.webp",
+            "alt": "Main qui appuie sur le klaxon au centre du volant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Le klaxon sert à avertir, pas à s'énerver."
         }
       ]
     },
@@ -99,6 +138,16 @@
         {
           "type": "memo",
           "text": "Je vois avant d'arriver."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S08-1.webp",
+            "alt": "Mains sur le volant à l'approche d'un carrefour",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "À l'approche d'un carrefour, je garde les deux mains sur le volant."
         }
       ]
     }

@@ -36,6 +36,12 @@
     "theme": "t04",
     "chapter": "t04-c01",
     "context": "Devant l'école, des enfants courent vers la route.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S11-1.webp",
+      "alt": "Enfants avec cartables devant une école",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -63,6 +69,12 @@
     "theme": "t04",
     "chapter": "t04-c01",
     "context": "Un car est arrêté juste avant un passage piéton.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S10-2.webp",
+      "alt": "Voitures arrêtées à un passage piéton",
+      "credit": "Pexels"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -198,6 +210,12 @@
     "theme": "t04",
     "chapter": "t04-c01",
     "context": "Une femme avec un enfant dans les bras traverse lentement.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S10-1.webp",
+      "alt": "Piétons qui traversent sur un passage piéton",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

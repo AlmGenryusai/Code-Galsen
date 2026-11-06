@@ -4,6 +4,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Je roule aux abords d'une école, d'un hôpital ou d'un lieu de culte.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S11-1.webp",
+      "alt": "Enfants avec cartables devant une école",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

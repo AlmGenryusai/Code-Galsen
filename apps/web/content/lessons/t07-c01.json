@@ -26,6 +26,16 @@
         {
           "type": "memo",
           "text": "Siège, rétroviseurs, appui-tête, ceinture."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S21-1.webp",
+            "alt": "Conductrice aux bras tendus, trop loin du volant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Trop loin du volant, je ne contrôle plus bien."
         }
       ]
     },
@@ -52,6 +62,16 @@
         {
           "type": "memo",
           "text": "Rien sous les pédales, ceinture attachée."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S20-3.webp",
+            "alt": "Conductrice souriante, ceinture bouclée, au volant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Ceinture bouclée avant de démarrer."
         }
       ]
     }

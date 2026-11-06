@@ -137,6 +137,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "En ville, la nuit, je veux avertir un usager.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S07-3.webp",
+      "alt": "Phare avant d'une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je privilégie :",

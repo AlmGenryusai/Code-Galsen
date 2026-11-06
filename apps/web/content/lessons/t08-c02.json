@@ -27,7 +27,56 @@
           "type": "memo",
           "text": "Pneus, huile, eau, feux."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p49.webp", "alt": "Pneu usé jusqu'à la corde", "credit": "Paul.schrepfer, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Pneu usé : je le change avant de partir." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p49.webp",
+            "alt": "Pneu usé jusqu'à la corde",
+            "credit": "Paul.schrepfer, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Pneu usé : je le change avant de partir."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xentretien-1.webp",
+            "alt": "Huile moteur versée dans un entonnoir, capot ouvert",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je vérifie et complète le niveau d'huile."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xentretien-2.webp",
+            "alt": "Liquide de refroidissement versé dans le réservoir",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je vérifie le liquide de refroidissement."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xentretien-3.webp",
+            "alt": "Remplissage du réservoir de liquide de refroidissement",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je complète le niveau quand il est bas."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xentretien-4.webp",
+            "alt": "Compartiment moteur, capot levé",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Capot levé : je contrôle les niveaux à froid."
+        }
       ]
     },
     {

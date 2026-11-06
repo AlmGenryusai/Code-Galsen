@@ -4,6 +4,12 @@
     "theme": "t07",
     "chapter": "t07-c01",
     "context": "Avant de démarrer.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S21-2.webp",
+      "alt": "Ceinture de sécurité vue depuis le poste de conduite",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je règle :",
@@ -47,6 +53,12 @@
     "theme": "t07",
     "chapter": "t07-c01",
     "context": "Ceinture de sécurité.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S20-7.webp",
+      "alt": "Conducteur qui s'attache au poste de conduite",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

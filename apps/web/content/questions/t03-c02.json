@@ -3,6 +3,12 @@
     "id": "t03-c02-0001",
     "theme": "t03",
     "chapter": "t03-c02",
+    "media": {
+      "kind": "photo",
+      "src": "n-S16-1.webp",
+      "alt": "Autoroute à plusieurs voies",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -63,6 +69,12 @@
     "theme": "t03",
     "chapter": "t03-c02",
     "context": "Il pleut sur l'autoroute. Je suis en voiture.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S05-1.webp",
+      "alt": "Route mouillée sous la pluie, risque d'aquaplaning",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

@@ -56,6 +56,16 @@
         {
           "type": "memo",
           "text": "Un geste au volant peut devenir un délit."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xvitesse-1.webp",
+            "alt": "Tableau de bord de nuit, gyrophares de police devant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Les agents contrôlent aussi la vitesse."
         }
       ]
     },

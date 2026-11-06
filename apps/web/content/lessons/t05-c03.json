@@ -54,6 +54,16 @@
         {
           "type": "memo",
           "text": "Stage pour récupérer. Zéro point, permis invalidé."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xpoints-1.webp",
+            "alt": "Conducteur vu de dos, en contre-jour",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Chaque infraction a des conséquences sur mon permis."
         }
       ]
     },

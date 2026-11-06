@@ -25,6 +25,16 @@
         {
           "type": "memo",
           "text": "Une place, un passager ; une ceinture si la place en a une."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S20-2.webp",
+            "alt": "Enfant attaché sur la banquette arrière",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Un enfant voyage attaché à l'arrière."
         }
       ]
     },
@@ -52,7 +62,16 @@
           "type": "memo",
           "text": "Casque pour tous, siège pour les petits."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p39.webp", "alt": "Moto-taxi à Lagos", "credit": "Olasunkanmiariyo, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Moto : casque pour le conducteur et le passager." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p39.webp",
+            "alt": "Moto-taxi à Lagos",
+            "credit": "Olasunkanmiariyo, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Moto : casque pour le conducteur et le passager."
+        }
       ]
     }
   ],

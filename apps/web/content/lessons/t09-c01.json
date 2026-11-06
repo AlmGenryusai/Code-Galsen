@@ -29,6 +29,36 @@
         {
           "type": "memo",
           "text": "Ceinture d'abord, airbag en plus."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S20-4.webp",
+            "alt": "Zone de l'airbag sur le tableau de bord",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "L'airbag se trouve derrière cette zone du tableau de bord."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S20-5.webp",
+            "alt": "Étiquette d'avertissement airbag",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "L'étiquette rappelle les consignes de sécurité de l'airbag."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S20-6.webp",
+            "alt": "Voyant rouge de ceinture au tableau de bord",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Voyant de ceinture : quelqu'un n'est pas attaché."
         }
       ]
     },

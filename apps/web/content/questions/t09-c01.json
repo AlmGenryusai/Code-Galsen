@@ -4,6 +4,12 @@
     "theme": "t09",
     "chapter": "t09-c01",
     "context": "Ceinture de sécurité.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S20-7.webp",
+      "alt": "Conducteur qui s'attache au poste de conduite",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

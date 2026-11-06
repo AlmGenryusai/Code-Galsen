@@ -177,6 +177,12 @@
     "theme": "t08",
     "chapter": "t08-c02",
     "context": "Mon véhicule est en panne la nuit.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S17-1.webp",
+      "alt": "Triangle de signalisation sur la chaussée, voiture arrêtée derrière",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
