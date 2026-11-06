@@ -57,7 +57,7 @@
     "explanation": "Sur une route prioritaire, les véhicules qui y circulent ont la priorité sur tous ceux venant des voies secondaires.",
     "legal_ref": "Décret 2004-13, art. 1 ; art. 28 ; annexe P3 (AB6)",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -84,7 +84,7 @@
     "common_mistake": "Croire que le plus rapide ou le plus gros passe en premier.",
     "legal_ref": "Décret 2004-13, art. 28",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -117,7 +117,7 @@
     "common_mistake": "Rouler au pas sans s'arrêter.",
     "legal_ref": "Décret 2004-13, art. 28",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -154,7 +154,7 @@
     "common_mistake": "Ne regarder que le côté droit.",
     "legal_ref": "Décret 2004-13, art. 28",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -187,7 +187,7 @@
     "common_mistake": "Penser que celui qui entre passe avant.",
     "legal_ref": "Décret 2004-13, art. 28",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -358,8 +358,12 @@
     ],
     "explanation": "Sur une route prioritaire, les véhicules qui y circulent ont la priorité sur ceux venant des voies secondaires.",
     "legal_ref": "Décret 2004-13, art. 1 ; art. 28 ; annexe P3 (AB6)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c02-0012",
@@ -396,9 +400,13 @@
     ],
     "explanation": "Le STOP impose un temps d'arrêt à la limite de l'intersection, puis il faut céder aux conducteurs de l'autre route.",
     "legal_ref": "Décret 2004-13, art. 28",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Rouler au pas sans s'arrêter."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Rouler au pas sans s'arrêter.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c02-0013",
@@ -425,9 +433,13 @@
     ],
     "explanation": "Mon panneau me demande de céder aux autres routes ; celui qui a le STOP doit s'arrêter, puis céder.",
     "legal_ref": "Décret 2004-13, art. 28",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Ne regarder que le côté droit."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Ne regarder que le côté droit.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c02-0014",
@@ -454,9 +466,13 @@
     ],
     "explanation": "Sans signalisation, on cède au conducteur qui vient de droite. La largeur de la rue ou la taille du véhicule ne comptent pas.",
     "legal_ref": "Décret 2004-13, art. 28",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Croire que la rue la plus large passe."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Croire que la rue la plus large passe.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c02-0015",
@@ -493,8 +509,12 @@
     ],
     "explanation": "Dans un carrefour à sens giratoire, le conducteur déjà engagé est prioritaire. Celui qui arrive attend un trou.",
     "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (A25)",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Confondre avec la priorité à droite ou avec le STOP."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Confondre avec la priorité à droite ou avec le STOP.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   }
 ]
