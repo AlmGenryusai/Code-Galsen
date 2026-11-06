@@ -58,6 +58,11 @@
         "kind": "yesno",
         "statement": "Je règle ma vitesse pour pouvoir m'arrêter dans ce que je vois :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "La limite de vitesse n'est pas un objectif :",
+        "correct": "yes"
       }
     ],
     "explanation": "On doit réduire sa vitesse quand la visibilité est insuffisante. La limite n'est pas un objectif.",
@@ -86,6 +91,11 @@
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 70 km/h :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Avec moins de 50 m de visibilité, la limite est de 50 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "Quand la visibilité est inférieure à 50 m, la limite tombe à 50 km/h pour une voiture, sur toute route.",
@@ -113,6 +123,11 @@
       {
         "kind": "yesno",
         "statement": "J'accélère pour en sortir :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un klaxon me fait voir plus loin :",
         "correct": "no"
       }
     ],
@@ -222,6 +237,11 @@
         "kind": "yesno",
         "statement": "Je garde la même distance que sur route sèche :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "L'eau allonge la distance de freinage :",
+        "correct": "yes"
       }
     ],
     "explanation": "L'eau allonge la distance de freinage. Il faut plus de place pour s'arrêter.",

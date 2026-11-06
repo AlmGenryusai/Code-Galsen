@@ -15,6 +15,11 @@
         "kind": "yesno",
         "statement": "Je vérifie que c'est sans danger, puis je préviens :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le clignotant seul remplace le regard :",
+        "correct": "no"
       }
     ],
     "explanation": "On regarde d'abord si la manœuvre est possible, puis on prévient avec le clignotant. Le clignotant seul ne remplace pas le regard.",
@@ -110,6 +115,11 @@
         "kind": "yesno",
         "statement": "J'utilise mon avertisseur pour presser celui qui me gêne :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le klaxon est réservé aux avertissements nécessaires :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le klaxon est réservé aux avertissements nécessaires. En agglomération, les signaux doivent être brefs et très modérés.",
@@ -169,6 +179,11 @@
         "kind": "yesno",
         "statement": "Je roule avec les feux de position seulement :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Même avec éclairage public, j'allume mes feux :",
+        "correct": "yes"
       }
     ],
     "explanation": "La nuit, on allume les feux de croisement ou de route, même avec un éclairage public (L.62). Les feux de position seuls ne suffisent pas.",
@@ -197,6 +212,11 @@
         "kind": "yesno",
         "statement": "Je mets mes feux de croisement :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je garde mes feux de route en croisant :",
+        "correct": "no"
       }
     ],
     "explanation": "Les feux de croisement remplacent les feux de route à chaque croisement et quand on suit de près un autre véhicule. Sinon on éblouit.",
@@ -218,6 +238,11 @@
       {
         "kind": "yesno",
         "statement": "Je vérifie d'abord que la route à croiser est libre :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'annonce mon approche si nécessaire :",
         "correct": "yes"
       }
     ],
