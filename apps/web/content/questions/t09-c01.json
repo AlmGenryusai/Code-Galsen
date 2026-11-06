@@ -91,6 +91,12 @@
     "theme": "t09",
     "chapter": "t09-c01",
     "context": "Un passager arrière n'a pas de ceinture.",
+    "media": {
+      "kind": "photo",
+      "src": "g03.webp",
+      "alt": "Conducteur qui tient et boucle sa ceinture de sécurité dans l'habitacle",
+      "credit": "Tim Samuel, Pexels License, Pexels"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -154,6 +160,12 @@
     "id": "t09-c01-0006",
     "theme": "t09",
     "chapter": "t09-c01",
+    "media": {
+      "kind": "photo",
+      "src": "g03.webp",
+      "alt": "Conducteur qui tient et boucle sa ceinture de sécurité dans l'habitacle",
+      "credit": "Tim Samuel, Pexels License, Pexels"
+    },
     "parts": [
       {
         "kind": "yesno",

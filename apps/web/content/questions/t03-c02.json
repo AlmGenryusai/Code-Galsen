@@ -127,6 +127,12 @@
     "theme": "t03",
     "chapter": "t03-c02",
     "context": "Je suis en panne sur l'autoroute.",
+    "media": {
+      "kind": "photo",
+      "src": "g01.webp",
+      "alt": "Triangle de présignalisation posé au bord d'une route, une voiture arrive au loin",
+      "credit": "Lucas Pezeta, Pexels License, Pexels"
+    },
     "parts": [
       {
         "kind": "yesno",

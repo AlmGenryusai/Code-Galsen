@@ -47,6 +47,12 @@
     "theme": "t10",
     "chapter": "t10-c01",
     "context": "Mes pneus sont sous-gonflés.",
+    "media": {
+      "kind": "photo",
+      "src": "g04.webp",
+      "alt": "Mécanicien qui contrôle la pression d'un pneu avec un manomètre",
+      "credit": "Andrea Piacquadio, Pexels License, Pexels"
+    },
     "parts": [
       {
         "kind": "yesno",
