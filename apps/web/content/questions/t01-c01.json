@@ -20,7 +20,7 @@
     "common_mistake": "Croire que tous les panneaux à fond rouge sont des interdictions.",
     "legal_ref": "Décret 2004-13, annexe P4",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -62,7 +62,7 @@
     "explanation": "Le panneau \"Cédez le passage\" impose de laisser passer les usagers venant de la route croisée, sans arrêt obligatoire.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB3) ; art. 28",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -136,7 +136,7 @@
     "explanation": "Le feu orange annonce le passage au rouge. Freinez si vous le pouvez en toute sécurité ; sinon, franchissez prudemment l'intersection.",
     "legal_ref": "Décret 2004-13, annexe P7",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -163,7 +163,7 @@
     "common_mistake": "Passer en ralentissant.",
     "legal_ref": "Décret 2004-13, annexe P7",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -502,7 +502,7 @@
     "common_mistake": "Le prendre pour une simple indication.",
     "legal_ref": "Décret 2004-13, annexe P4",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "media": {
       "kind": "sign",
       "src": "b21b",
@@ -551,7 +551,7 @@
     "common_mistake": "Passer au rouge quand personne ne vient.",
     "legal_ref": "Décret 2004-13, annexe P7",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -584,7 +584,7 @@
     "common_mistake": "Accélérer pour « passer avant le rouge ».",
     "legal_ref": "Décret 2004-13, annexe P7",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -627,7 +627,7 @@
     "common_mistake": "Le prendre pour un feu vert.",
     "legal_ref": "Décret 2004-13, annexe P7 ; art. 28",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -664,7 +664,7 @@
     "common_mistake": "Penser que c'est un feu de carrefour.",
     "legal_ref": "Décret 2004-13, annexe P7",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -990,6 +990,230 @@
     ],
     "explanation": "Le STOP impose de s'arrêter complètement, même si la route semble libre, puis de céder le passage.",
     "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (AB4)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
+  },
+  {
+    "id": "t01-c01-0031",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "J'arrive à un carrefour, le feu passe à l'orange fixe.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0004.webp",
+      "alt": "Feu tricolore allumé à l'orange au-dessus d'une rue",
+      "credit": "Guillaume Baviere from Uppsala, Sweden, CC BY-SA 2.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête si je peux le faire sans danger :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'accélère pour passer avant le rouge :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le feu orange annonce le passage au rouge. Freinez si vous le pouvez en toute sécurité ; sinon, franchissez prudemment l'intersection.",
+    "legal_ref": "Décret 2004-13, annexe P7",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
+  },
+  {
+    "id": "t01-c01-0032",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Le feu est rouge fixe, la route est vide.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0017.webp",
+      "alt": "Carrefour en ville avec un feu tricolore au rouge",
+      "credit": "Sebleouf, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je passe, personne n'arrive :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le feu rouge signifie l'interdiction de passer, même si la route paraît vide.",
+    "legal_ref": "Décret 2004-13, annexe P7",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Passer au rouge quand personne ne vient."
+  },
+  {
+    "id": "t01-c01-0033",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Le feu jaune clignote à l'intersection.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0019.webp",
+      "alt": "Feu jaune allumé au bord d'une route",
+      "credit": "Xosema, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis et je fais attention :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête complètement :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le jaune clignotant attire l'attention sur un point dangereux : prudence, ralentir. Au carrefour avec feu orange clignotant, on cède à droite.",
+    "legal_ref": "Décret 2004-13, annexe P7 ; art. 28",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Le prendre pour un feu vert."
+  },
+  {
+    "id": "t01-c01-0034",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "J'approche d'une voie ferrée. Un feu rouge clignote.",
+    "media": {
+      "kind": "photo",
+      "src": "p15.webp",
+      "alt": "Voie ferrée sans barrière qui coupe la rue à Thiès",
+      "credit": "Babacar Dioum, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête, arrêt absolu :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe lentement si je ne vois pas de train :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Les feux rouges clignotants sont réservés aux passages à niveau non gardés et aux aérodromes. Ils signifient arrêt absolu.",
+    "legal_ref": "Décret 2004-13, annexe P7",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Passer en ralentissant."
+  },
+  {
+    "id": "t01-c01-0035",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau devant moi.",
+    "media": {
+      "kind": "sign",
+      "src": "b21b",
+      "alt": "Direction obligatoire : tout droit",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je dois aller tout droit :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il m'avertit d'un danger :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Les signaux d'obligation ont le fond bleu foncé et les symboles blancs. Ils disent ce que l'on doit faire.",
+    "legal_ref": "Décret 2004-13, annexe P4",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Le prendre pour une simple indication."
+  },
+  {
+    "id": "t01-c01-0036",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau devant moi.",
+    "media": {
+      "kind": "sign",
+      "src": "interdiction-depasser",
+      "alt": "Interdiction de dépasser",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il m'interdit de dépasser :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il m'oblige à rouler tout droit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Les panneaux d'interdiction sont ronds, à fond blanc bordé de rouge. Seul le sens interdit a un fond rouge entier. Les obligations sont sur fond bleu.",
+    "legal_ref": "Décret 2004-13, annexe P4",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Croire que tous les panneaux à fond rouge sont des interdictions."
+  },
+  {
+    "id": "t01-c01-0037",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Ce panneau est devant moi à l'intersection.",
+    "media": {
+      "kind": "sign",
+      "src": "cedez-le-passage",
+      "alt": "Cédez le passage",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je cède aux conducteurs de l'autre route :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête toujours, même si la route est vide :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le panneau \"Cédez le passage\" impose de laisser passer les usagers venant de la route croisée, sans arrêt obligatoire.",
+    "legal_ref": "Décret 2004-13, annexe P3 (AB3) ; art. 28",
     "legal_status": "confirmed",
     "status": "published",
     "review": {
