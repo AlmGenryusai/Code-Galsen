@@ -9,6 +9,11 @@
         "kind": "yesno",
         "statement": "Il signifie une interdiction :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les obligations sont sur fond rouge :",
+        "correct": "no"
       }
     ],
     "explanation": "Les panneaux d'interdiction sont ronds, à fond blanc bordé de rouge. Seul le sens interdit a un fond rouge entier. Les obligations sont sur fond bleu.",
@@ -73,6 +78,11 @@
         "kind": "yesno",
         "statement": "Le dépassement est interdit :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux franchir la ligne continue pour dépasser vite :",
+        "correct": "no"
       }
     ],
     "explanation": "La ligne continue au centre de la chaussée interdit formellement tout dépassement. Seule la ligne discontinue autorise le franchissement.",
@@ -136,6 +146,11 @@
         "kind": "yesno",
         "statement": "Je m'arrête, arrêt absolu :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il m'autorise à passer lentement :",
+        "correct": "no"
       }
     ],
     "explanation": "Les feux rouges clignotants sont réservés aux passages à niveau non gardés et aux aérodromes. Ils signifient arrêt absolu.",
@@ -164,6 +179,11 @@
         "kind": "yesno",
         "statement": "Je fais un arrêt complet puis je cède :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe sans m'arrêter si la route semble libre :",
+        "correct": "no"
       }
     ],
     "explanation": "Le STOP impose de vous arrêter complètement, même si la route semble libre, puis de céder le passage aux usagers qui arrivent.",
@@ -221,6 +241,11 @@
         "kind": "yesno",
         "statement": "Il indique une route prioritaire :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les autres routes passent avant moi :",
+        "correct": "no"
       }
     ],
     "explanation": "Le losange jaune indique que vous êtes sur une route prioritaire. Aux intersections, les autres routes vous cèdent le passage.",
@@ -249,6 +274,11 @@
         "kind": "yesno",
         "statement": "Il indique le début de la priorité :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Après ce panneau, la route n'est plus prioritaire :",
+        "correct": "yes"
       }
     ],
     "explanation": "Après ce panneau, la route n'est plus prioritaire. Les règles de la droite s'appliquent de nouveau aux intersections.",
@@ -277,6 +307,11 @@
         "kind": "yesno",
         "statement": "Je cède aux véhicules en face :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe avant les véhicules en face :",
+        "correct": "no"
       }
     ],
     "explanation": "La flèche rouge montante représente ceux qui arrivent en face : ils passent d'abord. C'est à moi de leur céder le passage.",
@@ -305,6 +340,11 @@
         "kind": "yesno",
         "statement": "Je cède à ceux d'en face :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe avant le sens inverse :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur ce panneau bleu, la flèche blanche montante est votre direction : vous avez la priorité sur le sens inverse (l'autre flèche, rouge, doit vous laisser passer).",
@@ -418,6 +458,11 @@
         "kind": "yesno",
         "statement": "Les panneaux de danger sont ronds, à fond bleu :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les panneaux de danger sont triangulaires :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les signaux de danger sont de forme triangulaire, fond crème, bordés d'un listel rouge. Un danger se lit avant d'être près.",
@@ -440,6 +485,11 @@
         "kind": "yesno",
         "statement": "Il indique une obligation :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il m'indique seulement un danger :",
+        "correct": "no"
       }
     ],
     "explanation": "Les signaux d'obligation ont le fond bleu foncé et les symboles blancs. Ils disent ce que l'on doit faire.",
@@ -517,6 +567,11 @@
         "kind": "yesno",
         "statement": "Je m'arrête si possible :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le jaune m'autorise à accélérer :",
+        "correct": "no"
       }
     ],
     "explanation": "Le jaune annonce le rouge. On s'arrête, sauf si on est si près qu'on ne peut plus freiner dans de bonnes conditions de sécurité.",
@@ -662,6 +717,11 @@
         "kind": "yesno",
         "statement": "Je m'arrête :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le feu vert l'emporte sur l'agent :",
+        "correct": "no"
       }
     ],
     "explanation": "Quand un agent habilité dirige la circulation, ses indications priment sur les feux et les panneaux.",
@@ -682,6 +742,11 @@
       {
         "kind": "yesno",
         "statement": "Un feu tricolore passe du vert au rouge, puis au jaune :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Après le jaune vient le vert :",
         "correct": "no"
       }
     ],
@@ -710,6 +775,11 @@
       {
         "kind": "yesno",
         "statement": "Je tourne à droite au ralenti, piétons prioritaires :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je cède aux piétons engagés dans la traversée :",
         "correct": "yes"
       }
     ],

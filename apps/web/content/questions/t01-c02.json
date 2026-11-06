@@ -15,6 +15,11 @@
         "kind": "yesno",
         "statement": "Celui qui vient de gauche est prioritaire :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Celui qui vient de droite est prioritaire :",
+        "correct": "yes"
       }
     ],
     "explanation": "Règle de priorité à droite : le véhicule venant de droite est prioritaire à tout carrefour sans signalisation.",
@@ -42,6 +47,11 @@
         "kind": "yesno",
         "statement": "J'ai la priorité sur les autres routes :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un véhicule d'une route secondaire me cède le passage :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur une route prioritaire, les véhicules qui y circulent ont la priorité sur tous ceux venant des voies secondaires.",
@@ -63,6 +73,11 @@
         "kind": "yesno",
         "statement": "Je lui cède le passage :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un véhicule plus gros passe avant moi :",
+        "correct": "no"
       }
     ],
     "explanation": "Sans signalisation, on cède le passage au conducteur qui vient de droite. La vitesse ou la taille du véhicule ne changent rien.",
@@ -90,6 +105,11 @@
       {
         "kind": "yesno",
         "statement": "Je ralentis sans m'arrêter si la route est vide :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe si la route semble vide :",
         "correct": "no"
       }
     ],
@@ -156,6 +176,11 @@
         "kind": "yesno",
         "statement": "Je passe en premier :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Celui qui entre dans le rond-point passe avant moi :",
+        "correct": "no"
       }
     ],
     "explanation": "Dans un carrefour à sens giratoire obligatoire, le conducteur déjà engagé est prioritaire. Celui qui arrive doit attendre.",
@@ -264,6 +289,11 @@
         "kind": "yesno",
         "statement": "Je m'engage si je n'entends pas de train :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le train a toujours la priorité :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le train a toujours la priorité. Sans barrière, on ne s'engage qu'après avoir vérifié que le passage est sûr et qu'aucun train n'approche.",
@@ -286,6 +316,11 @@
         "kind": "yesno",
         "statement": "Je m'engage vite, les autres me verront :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête d'abord et je cède le passage :",
+        "correct": "yes"
       }
     ],
     "explanation": "Celui qui débouche d'un immeuble ou d'un chemin privé s'arrête d'abord et cède le passage aux usagers de la route.",

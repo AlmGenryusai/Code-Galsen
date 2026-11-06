@@ -9,6 +9,11 @@
         "kind": "yesno",
         "statement": "Je la mets sur l'accotement si je peux :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je la laisse sur la chaussée sans raison :",
+        "correct": "no"
       }
     ],
     "explanation": "Hors agglomération, on ne stationne pas sur la chaussée, sauf cas de force majeure ou accotement impraticable.",
@@ -122,6 +127,11 @@
         "kind": "yesno",
         "statement": "Je peux stationner un instant sur un passage à niveau :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le stationnement est interdit sur un passage à niveau :",
+        "correct": "yes"
       }
     ],
     "explanation": "Il est interdit de stationner sur une partie de route traversée à niveau par une voie ferrée.",
@@ -144,6 +154,11 @@
         "kind": "yesno",
         "statement": "Je laisse le moteur tourner :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je coupe le moteur avant de m'éloigner :",
+        "correct": "yes"
       }
     ],
     "explanation": "On coupe le moteur et on s'assure que l'immobilisation est suffisante selon la pente et les conditions.",
@@ -172,6 +187,11 @@
         "kind": "yesno",
         "statement": "Je regarde d'abord si la voie est libre :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je descends sans regarder derrière moi :",
+        "correct": "no"
       }
     ],
     "explanation": "On ne descend pas et on n'ouvre pas la portière sans s'être assuré qu'on peut le faire sans danger, pour les motos et les cyclistes.",
@@ -194,6 +214,11 @@
         "kind": "yesno",
         "statement": "Je range mon véhicule sur le trottoir :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je range sur l'accotement pour dégager la chaussée :",
+        "correct": "yes"
       }
     ],
     "explanation": "On range sur l'accotement pour dégager au maximum la chaussée, sans gêner la circulation ni l'accès aux immeubles.",

@@ -15,6 +15,11 @@
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 50 km/h :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un panneau peut imposer une limite plus basse :",
+        "correct": "yes"
       }
     ],
     "explanation": "En agglomération, la limite est de 50 km/h. Un panneau peut imposer plus bas.",
@@ -70,6 +75,11 @@
       {
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 130 km/h :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Par pluie, la limite passe à 100 km/h :",
         "correct": "yes"
       }
     ],
@@ -241,6 +251,11 @@
         "kind": "yesno",
         "statement": "Je roule à 90 km/h, c'est la loi :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le panneau s'impose :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le gestionnaire de la route peut baisser les limites. Le panneau s'impose.",
@@ -262,6 +277,11 @@
       {
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 110 km/h :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Par pluie, la limite passe à 90 km/h :",
         "correct": "yes"
       }
     ],
@@ -285,6 +305,11 @@
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 100 km/h :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Par temps normal, la limite est de 110 km/h :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sur une route à chaussées séparées par un terre-plein, la limite passe de 110 à 90 km/h par pluie.",
@@ -306,6 +331,11 @@
       {
         "kind": "yesno",
         "statement": "Ma vitesse maximale est de 100 km/h :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Par pluie, la limite passe à 80 km/h :",
         "correct": "yes"
       }
     ],

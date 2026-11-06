@@ -101,6 +101,11 @@
         "kind": "yesno",
         "statement": "Je laisse au moins 1 mètre :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux frôler un cycliste :",
+        "correct": "no"
       }
     ],
     "explanation": "La distance minimale est de 1 mètre pour un piéton, un cycle, un cavalier, un animal ou un véhicule hippomobile.",
@@ -129,6 +134,11 @@
         "kind": "yesno",
         "statement": "Je me serre à droite sans accélérer :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'accélère pour raccourcir le dépassement :",
+        "correct": "no"
       }
     ],
     "explanation": "Celui qui est dépassé se serre à droite, n'accélère pas et au besoin ralentit pour raccourcir le dépassement.",
@@ -157,6 +167,11 @@
         "kind": "yesno",
         "statement": "Je dois le dépasser par la droite :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je le dépasse par la gauche :",
+        "correct": "no"
       }
     ],
     "explanation": "Quand le conducteur devant signale qu'il tourne à gauche, on le dépasse par la droite.",
@@ -259,6 +274,11 @@
         "kind": "yesno",
         "statement": "J'avance, la voiture se débrouille :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je dois ralentir ou m'arrêter pour la laisser passer :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un véhicule de plus de 2,10 m de large ou 8 m de long doit ralentir ou s'arrêter pour laisser passer les plus petits.",
@@ -280,6 +300,11 @@
       {
         "kind": "yesno",
         "statement": "L'écart minimum est de 50 mètres :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Cet écart vaut aussi pour les véhicules de plus de 8 m :",
         "correct": "yes"
       }
     ],

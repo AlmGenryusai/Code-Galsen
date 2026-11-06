@@ -93,6 +93,11 @@
         "kind": "yesno",
         "statement": "Je peux la chevaucher si la route est vide :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Une ligne continue ne se franchit pas :",
+        "correct": "yes"
       }
     ],
     "explanation": "Une ligne continue ne se franchit pas, et on ne roule pas dessus. Elle marque un risque que l'on ne voit pas.",
@@ -121,6 +126,11 @@
         "kind": "yesno",
         "statement": "Je peux la franchir pour dépasser :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Elle me permet de rouler à gauche sans raison :",
+        "correct": "no"
       }
     ],
     "explanation": "Une ligne discontinue autorise à passer à gauche pour dépasser, ou pour traverser la chaussée si on tourne. Pas pour rouler à gauche sans raison.",
@@ -149,6 +159,11 @@
         "kind": "yesno",
         "statement": "Je la franchis pour dépasser :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "C'est la ligne côté de ma file qui compte :",
+        "correct": "yes"
       }
     ],
     "explanation": "Quand les deux lignes sont accolées, c'est celle qui est du côté de votre file qui compte. Ici c'est la continue : vous ne la franchissez pas.",
@@ -214,6 +229,11 @@
         "kind": "yesno",
         "statement": "Je laisse la gauche libre :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'utilise l'accotement si la place manque :",
+        "correct": "yes"
       }
     ],
     "explanation": "Chacun se serre à droite. Si la place manque, on utilise l'accotement plutôt que d'empiéter sur la gauche.",
@@ -241,6 +261,11 @@
         "kind": "yesno",
         "statement": "Une moto peut rouler sur le trottoir pour éviter un bouchon, sauf cas de force majeure :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le trottoir est réservé aux piétons :",
+        "correct": "yes"
       }
     ],
     "explanation": "Chaque usager doit rester sur l'espace prévu pour sa catégorie. Le trottoir est pour les piétons.",
@@ -300,6 +325,11 @@
         "kind": "yesno",
         "statement": "La voie de gauche est réservée à ceux qui viennent en face :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux dépasser par la voie de gauche :",
+        "correct": "no"
       }
     ],
     "explanation": "Avec trois voies ou plus, la voie la plus à gauche est réservée aux usagers du sens inverse. Seule exception : quitter la route en tournant à gauche.",
