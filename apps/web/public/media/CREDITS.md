@@ -106,3 +106,10 @@ Modifications : redimensionnement et recompression pour toutes ; recadrage pour 
 Modifications (s02, s10, s15, s25, s26, s31, s32) : redimensionnement 800 px et recompression ; léger lissage avant compression pour s32 (plafond 60 Ko). Licences : CC BY-SA 4.0, CC BY-SA 3.0, CC BY 2.0, domaine public (s26).
 
 Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : redimensionnement 800 px et recompression, aucun autre changement.
+
+| g01.webp | Triangle de présignalisation posé au bord d'une route, une voiture arrive au loin | Lucas Pezeta | Pexels License | https://www.pexels.com |
+| g02.webp | Main qui pose un triangle de présignalisation sur la route, véhicule bleu à l'arrière-plan | El Jundi | Pexels License | https://www.pexels.com |
+| g03.webp | Conducteur qui tient et boucle sa ceinture de sécurité dans l'habitacle | Tim Samuel | Pexels License | https://www.pexels.com |
+| g04.webp | Mécanicien qui contrôle la pression d'un pneu avec un manomètre | Andrea Piacquadio | Pexels License | https://www.pexels.com |
+
+Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.

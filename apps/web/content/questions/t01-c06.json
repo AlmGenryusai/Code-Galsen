@@ -4,6 +4,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Hors agglomération, ma voiture est en panne.",
+    "media": {
+      "kind": "photo",
+      "src": "g02.webp",
+      "alt": "Main qui pose un triangle de présignalisation sur la route, véhicule bleu à l'arrière-plan",
+      "credit": "El Jundi, Pexels License, Pexels"
+    },
     "parts": [
       {
         "kind": "yesno",
