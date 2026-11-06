@@ -123,6 +123,16 @@
           "caption": "De nuit, la fatigue arrive vite : je m'arrête."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-V2bouclage.webp",
+            "alt": "Passager qui boucle sa ceinture de sécurité",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je boucle ma ceinture avant de démarrer."
+        },
+        {
           "type": "heading",
           "text": "Le casque"
         },

@@ -108,6 +108,16 @@
           "text": "Immobilisé sur la chaussée : feux de détresse et, s'il y a lieu, triangle de pré-signalisation."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-V2anneau.webp",
+            "alt": "Anneau de remorquage sorti du pare-chocs d'une voiture",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "L'anneau de remorquage sert à se faire tracter."
+        },
+        {
           "type": "memo",
           "text": "Chaleur : j'attends. Crevaison : je freine doucement."
         }

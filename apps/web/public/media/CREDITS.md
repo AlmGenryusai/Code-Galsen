@@ -192,5 +192,12 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 | n-V2rouesecours.webp | Changement de roue au bord de la route, pneu au sol | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-V2siegebebe.webp | Enfant attaché dans un siège auto à l'arrière | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-V2telephone.webp | Conducteur qui tient son téléphone en main en roulant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2voyants.webp | Tableau de bord avec plusieurs voyants allumés | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2voyantceinture.webp | Voyant rouge de ceinture de sécurité au tableau de bord | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2bouclage.webp | Passager qui boucle sa ceinture de sécurité | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2enfants.webp | Deux enfants assis à l'arrière d'une voiture, vus depuis l'habitacle | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2pangiratoire.webp | Panneau triangulaire de rond-point et panneau rond bleu de sens giratoire | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2anneau.webp | Anneau de remorquage sorti du pare-chocs d'une voiture | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-V2chevrons.webp | Marquage en chevrons blancs sur une chaussée, route de campagne | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.

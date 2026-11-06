@@ -36,6 +36,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n-V2enfants.webp",
+            "alt": "Deux enfants assis à l'arrière d'une voiture, vus depuis l'habitacle",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Les enfants voyagent assis, à l'arrière si possible."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-Bsiegeenfant.webp",
             "alt": "Adulte qui attache un enfant dans un siège auto",
             "credit": "Source inconnue (Google Images)"
