@@ -124,6 +124,16 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "En ville, la vitesse réduit le temps pour réagir."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bdistance.webp",
+            "alt": "Schéma de la distance d'arrêt : temps de réaction puis freinage",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Distance d'arrêt = temps de réaction + freinage."
         }
       ]
     },
