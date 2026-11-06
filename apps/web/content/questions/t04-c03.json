@@ -16,6 +16,11 @@
         "kind": "yesno",
         "statement": "Je peux doubler sans ralentir :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je laisse de la place sur le côté en doublant :",
+        "correct": "yes"
       }
     ],
     "explanation": "Une charrette avance lentement et l'animal peut s'écarter sans prévenir. Ralentissez, laissez de la place sur le côté et ne doublez que si la route est dégagée.",
@@ -44,6 +49,11 @@
         "kind": "yesno",
         "statement": "Je vérifie que la route est dégagée devant :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux doubler dans un virage sans visibilité :",
+        "correct": "no"
       }
     ],
     "explanation": "Une charrette est lente et se déporte parfois. Il vous faut une longue vue dégagée pour finir le dépassement en sécurité.",
@@ -73,6 +83,11 @@
         "kind": "yesno",
         "statement": "Un klaxon fort peut effrayer le cheval :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un animal surpris reste toujours immobile :",
+        "correct": "no"
       }
     ],
     "explanation": "Un animal surpris peut bondir d'un côté ou de l'autre. Mieux vaut ralentir, laisser de l'espace et dépasser sans bruit.",
@@ -142,6 +157,11 @@
         "kind": "yesno",
         "statement": "Je peux passer doucement au milieu :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'attends que tout le troupeau soit passé :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un animal peut partir dans n'importe quelle direction. Attendre que tout le troupeau soit passé évite de heurter celui qui traîne derrière.",

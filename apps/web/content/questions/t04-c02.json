@@ -9,6 +9,11 @@
         "kind": "yesno",
         "statement": "Au vert, je surveille sa trajectoire :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Elle ne peut pas se faufiler à droite au feu :",
+        "correct": "no"
       }
     ],
     "explanation": "Une moto peut se faufiler entre les files ou serrer à droite au feu. Restez attentif avant de démarrer ou de tourner : elle est difficile à voir.",
@@ -36,6 +41,11 @@
         "kind": "yesno",
         "statement": "Je me décale pour la bloquer :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Rester droit me rend prévisible pour la moto :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un décalage brusque coupe la route à la moto qui arrive. En restant droit, vous restez prévisible.",
@@ -58,6 +68,11 @@
         "kind": "yesno",
         "statement": "Je regarde derrière moi avant d'ouvrir :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux ouvrir d'abord et regarder ensuite :",
+        "correct": "no"
       }
     ],
     "explanation": "Une moto qui passe près de votre portière n'a pas le temps de l'éviter. Le contrôle visuel doit se faire avant d'ouvrir.",
@@ -122,6 +137,11 @@
         "kind": "yesno",
         "statement": "Je peux tourner devant elle :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je laisse passer la moto avant de tourner :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le clignotant avertit, mais il ne donne aucune priorité. Une moto proche est difficile à éviter pour elle comme pour vous.",

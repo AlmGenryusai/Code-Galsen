@@ -52,6 +52,11 @@
         "kind": "yesno",
         "statement": "Son chauffeur peut ne pas me voir :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je me rapproche pour qu'il me voie :",
+        "correct": "no"
       }
     ],
     "explanation": "Si vous ne voyez pas ses rétroviseurs, il ne vous voit pas. Reculez pour réapparaître dans son champ de vision.",
@@ -174,6 +179,11 @@
       {
         "kind": "yesno",
         "statement": "Je risque de ne pas voir la route :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Plus de distance me donne plus de vue :",
         "correct": "yes"
       }
     ],

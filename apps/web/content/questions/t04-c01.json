@@ -15,6 +15,11 @@
         "kind": "yesno",
         "statement": "Je dois m'arrêter pour le laisser passer :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux klaxonner pour qu'il se dépêche :",
+        "correct": "no"
       }
     ],
     "explanation": "Le piéton engagé sur un passage piéton est prioritaire. Vous devez impérativement ralentir et lui céder le passage.",
@@ -36,6 +41,11 @@
         "kind": "yesno",
         "statement": "Je garde ma vitesse :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je me prépare à freiner dès que je les vois :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les enfants jugent mal la vitesse et traversent sans prévenir. Ralentir tôt vous laisse le temps de vous arrêter.",
@@ -58,6 +68,11 @@
         "kind": "yesno",
         "statement": "Je peux le dépasser vite :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un piéton peut surgir devant le car :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le car vous cache les piétons qui traversent devant lui. Vous les verrez trop tard si vous passez vite.",
@@ -80,6 +95,11 @@
         "kind": "yesno",
         "statement": "Je ralentis et je m'écarte :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux rouler comme en plein jour :",
+        "correct": "no"
       }
     ],
     "explanation": "La nuit, un piéton en vêtements sombres se voit très tard. Une vitesse réduite vous laisse le temps de réagir.",
@@ -183,6 +203,11 @@
         "kind": "yesno",
         "statement": "Je peux passer derrière elle en accélérant :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je lui laisse le temps de finir de traverser :",
+        "correct": "yes"
       }
     ],
     "explanation": "Une personne qui porte un enfant ne peut pas se hâter. La presser la met en danger, elle et l'enfant.",
