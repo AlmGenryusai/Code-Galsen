@@ -43,7 +43,7 @@ export function ZoomableMedia({ media }: { media?: Media }) {
 
   return (
     <div style={{ position: 'relative' }}>
-      <MediaFrame media={media} hideCredit />
+      <MediaFrame media={media} hideCredit rounded />
       <button
         type="button"
         onClick={() => setOpen(true)}

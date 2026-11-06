@@ -65,7 +65,7 @@ export function BlockView({ block }: { block: Block }) {
                 <div style={{ padding: '8px 12px', fontWeight: 700, overflowWrap: 'anywhere' }}>{row.label}</div>
                 <div style={{ padding: '8px 12px', overflowWrap: 'anywhere' }}>{inline(row.text)}</div>
               </div>
-              {row.media && <MediaFrame media={row.media} hideCredit hideBadge />}
+              {row.media && <MediaFrame media={row.media} hideCredit hideBadge rounded />}
             </div>
           ))}
         </div>
@@ -84,7 +84,7 @@ export function BlockView({ block }: { block: Block }) {
     case 'image':
       return (
         <figure style={{ margin: '0 0 16px' }}>
-          <MediaFrame media={block.media} hideCredit hideBadge />
+          <MediaFrame media={block.media} hideCredit hideBadge rounded />
           {block.caption && (
             <figcaption style={{ fontSize: 14, lineHeight: 1.4, color: 'hsl(var(--muted))', marginTop: 6 }}>
               {block.caption}
