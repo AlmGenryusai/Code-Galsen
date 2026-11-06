@@ -52,6 +52,11 @@
         "kind": "yesno",
         "statement": "Elle est obligatoire pour les places avant :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Seule une contre-indication médicale justifiée dispense :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le conducteur et les occupants des places avant doivent l'attacher. Seule une contre-indication médicale justifiée dispense.",
@@ -111,6 +116,11 @@
         "kind": "yesno",
         "statement": "Je les laisse près des pédales :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un objet sous les pédales peut empêcher de freiner :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un objet qui roule sous les pédales peut empêcher de freiner. Tout doit être rangé.",
@@ -133,6 +143,11 @@
         "kind": "yesno",
         "statement": "Ils servent à voir derrière et sur les côtés :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je laisse beaucoup de carrosserie dans le rétroviseur :",
+        "correct": "no"
       }
     ],
     "explanation": "Un bon réglage montre la route derrière et sur les côtés, avec un minimum de carrosserie.",
@@ -155,6 +170,11 @@
         "kind": "yesno",
         "statement": "Il est à hauteur de la tête :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il se règle à hauteur des épaules :",
+        "correct": "no"
       }
     ],
     "explanation": "L'appui-tête protège la nuque en cas de choc par l'arrière. Il se règle à hauteur de la tête.",

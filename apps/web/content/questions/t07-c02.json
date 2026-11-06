@@ -15,6 +15,11 @@
         "kind": "yesno",
         "statement": "Je regarde derrière moi avant :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Une moto ou un vélo peut passer près de ma portière :",
+        "correct": "yes"
       }
     ],
     "explanation": "On ne descend pas sans s'être assuré qu'on peut le faire sans danger : une moto ou un vélo peut passer.",
@@ -74,6 +79,11 @@
         "kind": "yesno",
         "statement": "Je laisse le moteur tourner :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'immobilise mon véhicule selon la pente :",
+        "correct": "yes"
       }
     ],
     "explanation": "Moteur coupé, véhicule immobilisé selon la pente : on évite qu'il bouge.",
@@ -96,6 +106,11 @@
         "kind": "yesno",
         "statement": "Je m'assure d'abord que l'ouverture est sans danger :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je regarde seulement en sortant, pas en entrant :",
+        "correct": "no"
       }
     ],
     "explanation": "On s'assure avant d'ouvrir la portière, pour entrer comme pour sortir : des véhicules, des motos, des piétons peuvent passer.",
@@ -118,6 +133,11 @@
         "kind": "yesno",
         "statement": "Je le laisse descendre seul côté route :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je tiens l'enfant par la main :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les enfants traversent sans regarder. On les fait descendre du bon côté et on les tient par la main.",
