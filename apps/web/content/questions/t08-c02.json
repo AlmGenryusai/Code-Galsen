@@ -52,6 +52,11 @@
         "kind": "yesno",
         "statement": "Je roule plus vite pour le refroidir :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un choc thermique peut casser le moteur :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le choc thermique peut casser le moteur. On attend.",
@@ -74,6 +79,11 @@
         "kind": "yesno",
         "statement": "Je freine brusquement :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je garde le volant et je lève le pied :",
+        "correct": "yes"
       }
     ],
     "explanation": "On garde le volant, on lève le pied et on freine doucement avant de se ranger.",
@@ -102,6 +112,11 @@
         "kind": "yesno",
         "statement": "Je me gare sur un sol plat, à l'écart :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je change la roue au bord de la route :",
+        "correct": "no"
       }
     ],
     "explanation": "Sol plat, loin de la route, véhicule immobilisé : on évite qu'il bouge ou qu'on soit heurté.",
@@ -167,6 +182,11 @@
         "kind": "yesno",
         "statement": "Je le signale par mes feux de détresse et un triangle :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je laisse mon véhicule sans signalisation :",
+        "correct": "no"
       }
     ],
     "explanation": "Feux de détresse et triangle de pré-signalisation évitent qu'un autre véhicule le heurte.",

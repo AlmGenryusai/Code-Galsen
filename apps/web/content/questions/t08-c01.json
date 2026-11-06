@@ -9,6 +9,11 @@
         "kind": "yesno",
         "statement": "Je continue jusqu'à destination :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Sans huile, le moteur se détruit :",
+        "correct": "yes"
       }
     ],
     "explanation": "Sans huile, le moteur se détruit en quelques minutes. On s'arrête et on coupe.",
@@ -67,6 +72,11 @@
         "kind": "yesno",
         "statement": "Un véhicule doit avoir au moins deux rétroviseurs :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un seul rétroviseur suffit :",
+        "correct": "no"
       }
     ],
     "explanation": "Un véhicule automobile doit être muni d'au moins deux miroirs rétroviseurs.",
@@ -89,6 +99,11 @@
         "kind": "yesno",
         "statement": "Un seul dispositif de freinage suffit :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il faut un dispositif principal et un de secours :",
+        "correct": "yes"
       }
     ],
     "explanation": "La loi exige deux dispositifs de freinage indépendants : un principal et un de secours.",
@@ -111,6 +126,11 @@
         "kind": "yesno",
         "statement": "Ils doivent présenter des sculptures apparentes :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Une déchirure profonde est tolérée :",
+        "correct": "no"
       }
     ],
     "explanation": "Les pneus doivent avoir des sculptures apparentes sur toute leur surface et aucune déchirure profonde.",
