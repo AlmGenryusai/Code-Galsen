@@ -71,7 +71,7 @@
     "common_mistake": "Rouler au milieu pour « mieux voir ».",
     "legal_ref": "Décret 2004-13, art. 3",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -213,7 +213,7 @@
     "common_mistake": "Couper au plus court par la gauche.",
     "legal_ref": "Décret 2004-13, art. 10",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -321,7 +321,7 @@
     "common_mistake": "Rester sur la voie de gauche sans dépasser.",
     "legal_ref": "Décret 2004-13, art. 3",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -353,5 +353,94 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t01-c03-0011",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "La route n'a qu'une voie et je ne vois pas loin devant.",
+    "media": {
+      "kind": "photo",
+      "src": "s32.webp",
+      "alt": "Route de montagne étroite avec un virage sans visibilité",
+      "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je roule sur la partie droite de la chaussée :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je roule au milieu pour mieux voir :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Seul, on garde la partie droite de la chaussée. Quand la vue est courte, il faut en plus laisser libre la partie gauche pour les véhicules d'en face.",
+    "legal_ref": "Décret 2004-13, art. 3",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Rouler au milieu pour « mieux voir »."
+  },
+  {
+    "id": "t01-c03-0012",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "Un monument est au milieu d'une place, sans panneau.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2giratoire.webp",
+      "alt": "Rond-point vu du dessus, îlot central à contourner par la droite",
+      "credit": "Source inconnue (Google Images)"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je le contourne par la droite :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Tout obstacle fixe au milieu d'une chaussée ou d'un rond-point se contourne par la droite, comme la circulation.",
+    "legal_ref": "Décret 2004-13, art. 10",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Couper au plus court par la gauche."
+  },
+  {
+    "id": "t01-c03-0013",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "La chaussée a plusieurs voies.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-1.webp",
+      "alt": "Route à plusieurs voies vue depuis une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je circule sur la voie la plus à droite :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Seul, on roule sur la voie la plus à droite et on ne chevauche pas les lignes. Les autres voies servent pour dépasser.",
+    "legal_ref": "Décret 2004-13, art. 3",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Rester sur la voie de gauche sans dépasser."
   }
 ]

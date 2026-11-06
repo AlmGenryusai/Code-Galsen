@@ -227,7 +227,7 @@
     "common_mistake": "Dépasser à l'approche d'une côte.",
     "legal_ref": "Décret 2004-13, art. 21 (al.1 à 3)",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -329,5 +329,71 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t01-c05-0010",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Je croise un véhicule qui vient en face.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c05-0001.webp",
+      "alt": "Car qui arrive en face sur une route à double sens",
+      "credit": "WILLAV-FR, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je me place à droite de ma voie :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je me place à gauche de ma voie :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Les croisements se font à droite. Chacun se serre sur sa droite pour laisser de la place.",
+    "legal_ref": "Décret 2004-13, art. 15 à 17",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Rouler au milieu en croisant."
+  },
+  {
+    "id": "t01-c05-0011",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Je veux dépasser.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-4.webp",
+      "alt": "Route vue depuis l'habitacle, véhicule devant",
+      "credit": "Source inconnue (Google Images)"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Dans un virage sans visibilité, je dépasse :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Près d'un sommet de côte, je dépasse :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le dépassement est interdit sans visibilité (virage, sommet de côte), aux passages à niveau non gardés et aux intersections.",
+    "legal_ref": "Décret 2004-13, art. 21 (al.1 à 3)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Dépasser à l'approche d'une côte."
   }
 ]
