@@ -146,6 +146,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "La nuit, je suis de près un autre véhicule.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S07-4.webp",
+      "alt": "Feu arrière d'une voiture de nuit",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je mets :",

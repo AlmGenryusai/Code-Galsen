@@ -73,6 +73,12 @@
     "theme": "t01",
     "chapter": "t01-c01",
     "context": "Une ligne continue sépare les voies.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-2.webp",
+      "alt": "Route à deux voies avec ligne continue au centre",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

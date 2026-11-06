@@ -111,17 +111,26 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 | g02.webp | Main qui pose un triangle de présignalisation sur la route, véhicule bleu à l'arrière-plan | El Jundi | Pexels License | https://www.pexels.com |
 | g03.webp | Conducteur qui tient et boucle sa ceinture de sécurité dans l'habitacle | Tim Samuel | Pexels License | https://www.pexels.com |
 | g04.webp | Mécanicien qui contrôle la pression d'un pneu avec un manomètre | Andrea Piacquadio | Pexels License | https://www.pexels.com |
+| n-S02-1.webp | Route à plusieurs voies vue depuis une voiture | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S02-2.webp | Route à deux voies avec ligne continue au centre | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S02-4.webp | Route vue depuis l'habitacle, véhicule devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S03-1.webp | Feu rouge en ville au crépuscule, voitures à l'arrêt | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S05-1.webp | Route mouillée sous la pluie, risque d'aquaplaning | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S07-3.webp | Phare avant d'une voiture | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S07-4.webp | Feu arrière d'une voiture de nuit | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S10-1.webp | Piétons qui traversent sur un passage piéton | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
-| n-S10-2.webp | Voitures arrêtées à un passage piéton | Pexels | Pexels License | https://www.pexels.com |
+| n-S10-2.webp | Voitures arrêtées à un passage piéton | Pexels | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S11-1.webp | Enfants avec cartables devant une école | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S16-1.webp | Autoroute à plusieurs voies | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S17-1.webp | Triangle de signalisation sur la chaussée, voiture arrêtée derrière | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S17-2.webp | Triangle de signalisation posé sur la route derrière une voiture en panne | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S20-1.webp | Conducteur qui boucle sa ceinture de sécurité | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S20-7.webp | Conducteur qui s'attache au poste de conduite | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S21-2.webp | Ceinture de sécurité vue depuis le poste de conduite | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S22-1.webp | Conducteur qui ouvre sa portière de la main opposée en se retournant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S23-1.webp | Voyant rouge de pression d'huile au tableau de bord | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S23-2.webp | Voyant rouge de température du liquide de refroidissement | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S24-1.webp | Agent de police municipale qui contrôle un conducteur à sa vitre | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S25-1.webp | Conducteur d'une voiture après avoir bu de l'alcool | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.
-n-*.webp : redimensionnement 800 px et recompression WebP, aucun autre changement.

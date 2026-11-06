@@ -283,6 +283,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "La chaussée a plusieurs voies.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-1.webp",
+      "alt": "Route à plusieurs voies vue depuis une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je circule :",

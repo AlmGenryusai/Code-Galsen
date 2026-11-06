@@ -37,6 +37,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Hors agglomération, je suis arrêté sur la chaussée à cause d'une panne grave.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S17-2.webp",
+      "alt": "Triangle de signalisation posé sur la route derrière une voiture en panne",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je signale mon véhicule avec :",

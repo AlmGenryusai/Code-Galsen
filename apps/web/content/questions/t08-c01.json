@@ -4,6 +4,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Le voyant rouge de pression d'huile s'allume.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S23-1.webp",
+      "alt": "Voyant rouge de pression d'huile au tableau de bord",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -31,6 +37,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Le voyant de température de l'eau est rouge.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S23-2.webp",
+      "alt": "Voyant rouge de température du liquide de refroidissement",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je :",
