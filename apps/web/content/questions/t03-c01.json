@@ -36,7 +36,7 @@
     "common_mistake": "Rouler sans feux de jour.",
     "legal_ref": "Décret 2004-13, art. 82 ; loi 2022-04, L.62",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -178,7 +178,7 @@
     "common_mistake": "Rester en feux de route derrière un véhicule.",
     "legal_ref": "Décret 2004-13, art. 82",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -221,7 +221,7 @@
     "common_mistake": "Freiner brutalement sur route mouillée.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -308,5 +308,104 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t03-c01-0009",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Il y a du brouillard.",
+    "media": {
+      "kind": "photo",
+      "src": "s06.webp",
+      "alt": "Phares d'un véhicule dans un épais brouillard",
+      "credit": "Tupungato, CC BY 3.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je roule avec les feux de croisement :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je roule avec les feux de route :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Par temps de brouillard, on allume les feux de croisement ou de route, même de jour. Les feux de croisement éblouissent moins dans la brume.",
+    "legal_ref": "Décret 2004-13, art. 82 ; loi 2022-04, L.62",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Rouler sans feux de jour."
+  },
+  {
+    "id": "t03-c01-0010",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "La nuit, je suis de près un autre véhicule.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S07-4.webp",
+      "alt": "Feu arrière d'une voiture de nuit",
+      "credit": "Source inconnue (Google Images)"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je mets les feux de croisement :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je garde les feux de route :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Les feux de croisement remplacent les feux de route quand on suit de près ou quand on croise, pour ne pas éblouir.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Rester en feux de route derrière un véhicule."
+  },
+  {
+    "id": "t03-c01-0011",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Après une forte pluie, la route est glissante.",
+    "media": {
+      "kind": "photo",
+      "src": "p10.webp",
+      "alt": "Rue inondée vue à travers une vitre sous la pluie",
+      "credit": "Bibiire1, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je freine tôt et progressivement :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je freine fort au dernier moment :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Sur sol mouillé, la distance de freinage augmente. Freiner tôt et doucement évite le dérapage.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Freiner brutalement sur route mouillée."
   }
 ]

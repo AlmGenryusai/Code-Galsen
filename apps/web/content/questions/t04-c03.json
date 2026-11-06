@@ -135,7 +135,7 @@
     "common_mistake": "Rouler trop vite pour la visibilité de la nuit.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -221,5 +221,32 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t04-c03-0007",
+    "theme": "t04",
+    "chapter": "t04-c03",
+    "context": "La nuit, une charrette sans feux roule au bord. Je la vois tard.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis, prêt à m'arrêter :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je fais confiance au cocher :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Une charrette sans feux ne se voit qu'au dernier moment. Rouler à une vitesse où vous pouvez vous arrêter dans vos phares évite le choc.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Rouler trop vite pour la visibilité de la nuit."
   }
 ]

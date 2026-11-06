@@ -63,7 +63,7 @@
     "common_mistake": "Faire descendre côté route.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -181,10 +181,59 @@
     "common_mistake": "Laisser la clé sur le contact.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t07-c02-0007",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "context": "Je me gare au bord de la route.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mes passagers descendent côté trottoir :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Ils descendent côté route :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le côté du trottoir ou de l'accotement est plus sûr : les passagers ne descendent pas dans la circulation.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Faire descendre côté route."
+  },
+  {
+    "id": "t07-c02-0008",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "context": "Je quitte mon véhicule.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je laisse la clé sur le contact :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "On ferme le véhicule et on emporte la clé. C'est une règle de prudence, pas une obligation de loi.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Laisser la clé sur le contact."
   }
 ]

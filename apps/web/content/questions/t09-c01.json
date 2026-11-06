@@ -168,7 +168,7 @@
     "common_mistake": "Ignorer un voyant de sécurité.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -205,5 +205,38 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t09-c01-0007",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "context": "Un voyant de défaut d'ABS s'allume.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2abs.webp",
+      "alt": "Tableau de bord avec le voyant ABS allumé",
+      "credit": "Source inconnue (Google Images)"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je fais contrôler l'ABS :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'ignore le voyant, le freinage marche :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le freinage normal marche, mais l'anti-blocage ne fonctionne plus. On fait contrôler.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Ignorer un voyant de sécurité."
   }
 ]

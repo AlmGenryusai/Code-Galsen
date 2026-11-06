@@ -63,7 +63,7 @@
     "common_mistake": "Confondre le bras tendu avec le bras levé.",
     "legal_ref": "Décret 2004-13, art. 8",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -100,7 +100,7 @@
     "common_mistake": "Klaxonner la nuit.",
     "legal_ref": "Décret 2004-13, art. 18",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -169,7 +169,7 @@
     "common_mistake": "Klaxonner la nuit pour tout.",
     "legal_ref": "Décret 2004-13, art. 89",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -261,5 +261,87 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t02-c01-0009",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Un cycliste tend le bras horizontalement vers la gauche.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il va s'arrêter :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le bras étendu horizontalement indique le côté où l'on tourne. Le bras levé indique le côté opposé, le bras baissé un ralentissement ou un arrêt.",
+    "legal_ref": "Décret 2004-13, art. 8",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Confondre le bras tendu avec le bras levé."
+  },
+  {
+    "id": "t02-c01-0010",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "De nuit, hors agglomération, je veux dépasser.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je préviens avec des appels de phares :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je préviens avec les feux de détresse :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "De nuit ou hors agglomération, on alterne les feux de route et de croisement. Le clignotant prévient ceux qui suivent ou croisent.",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Klaxonner la nuit."
+  },
+  {
+    "id": "t02-c01-0011",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "En ville, la nuit, je veux avertir un usager.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S07-3.webp",
+      "alt": "Phare avant d'une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je privilégie un signal lumineux :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je klaxonne de façon répétée :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Entre le coucher et le lever du jour, on avertit par signal optique. Le klaxon n'est utilisé qu'en cas d'absolue nécessité.",
+    "legal_ref": "Décret 2004-13, art. 89",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Klaxonner la nuit pour tout."
   }
 ]

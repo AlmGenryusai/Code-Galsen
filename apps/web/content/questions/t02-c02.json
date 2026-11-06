@@ -256,7 +256,7 @@
     "common_mistake": "Lutter contre le sommeil sans s'arrêter.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -299,10 +299,76 @@
     "common_mistake": "Croire qu'on peut repartir « doucement ».",
     "legal_ref": "Décret 2004-13, art. 112 ; loi 2022-04, L.84",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t02-c02-0010",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "context": "Je somnole au volant.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2crepuscule.webp",
+      "alt": "Conducteur au volant à la tombée de la nuit, camion devant",
+      "credit": "Source inconnue (Google Images)"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête en lieu sûr :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'ouvre la vitre et je continue :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "La fatigue réduit les réflexes comme l'alcool. Seul un arrêt dans un lieu sûr permet de récupérer.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Lutter contre le sommeil sans s'arrêter."
+  },
+  {
+    "id": "t02-c02-0011",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "context": "Un conducteur est manifestement ivre.",
+    "media": {
+      "kind": "photo",
+      "src": "s25.webp",
+      "alt": "Agent qui tend un éthylotest à un conducteur",
+      "credit": "KOMUnews, CC BY 2.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Les agents peuvent immobiliser son véhicule :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il repart s'il habite à côté :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "En cas d'ivresse manifeste, l'immobilisation du véhicule peut être prescrite en plus des sanctions pénales.",
+    "legal_ref": "Décret 2004-13, art. 112 ; loi 2022-04, L.84",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Croire qu'on peut repartir « doucement »."
   }
 ]

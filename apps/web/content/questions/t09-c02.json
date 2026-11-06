@@ -35,7 +35,7 @@
     "common_mistake": "Tenir l'enfant dans les bras.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -213,5 +213,38 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t09-c02-0007",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "context": "J'emmène un enfant en voiture.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2siegebebe.webp",
+      "alt": "Enfant attaché dans un siège auto à l'arrière",
+      "credit": "Source inconnue (Google Images)"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il voyage dans un siège adapté :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il voyage sur les genoux du passager :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Un enfant est mieux protégé attaché à l'arrière. Sur les genoux, il est écrasé en cas de choc.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Tenir l'enfant dans les bras."
   }
 ]

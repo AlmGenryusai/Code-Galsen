@@ -30,7 +30,7 @@
     "common_mistake": "Se glisser à droite d'un camion qui tourne.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -110,7 +110,7 @@
     "common_mistake": "Freiner au moment même du croisement.",
     "legal_ref": null,
     "legal_status": "not_regulatory",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -196,5 +196,60 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t04-c05-0006",
+    "theme": "t04",
+    "chapter": "t04-c05",
+    "context": "Un camion va tourner à droite, je suis derrière.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je passe à sa droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Un camion qui tourne à droite se déporte d'abord à gauche. Son arrière balaie ensuite la droite : un véhicule à ce moment-là est coincé.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Se glisser à droite d'un camion qui tourne."
+  },
+  {
+    "id": "t04-c05-0007",
+    "theme": "t04",
+    "chapter": "t04-c05",
+    "context": "Sur une route étroite, un camion arrive en face.",
+    "media": {
+      "kind": "photo",
+      "src": "u06.webp",
+      "alt": "Route mouillée dans la brume, un camion arrive en face d'un véhicule aux feux allumés",
+      "credit": "Prashant Gautam, Unsplash License, Unsplash"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis et je reste à droite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je mords sur le bas-côté :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Un camion prend beaucoup de place et déplace de l'air. Ralentir avant le croisement vous évite un freinage brusque au mauvais moment.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    },
+    "common_mistake": "Freiner au moment même du croisement."
   }
 ]
