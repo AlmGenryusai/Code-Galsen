@@ -804,5 +804,173 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t01-c01-0025",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je roule, ce panneau est devant moi.",
+    "media": {
+      "kind": "sign",
+      "src": "route-prioritaire",
+      "alt": "Route à caractère prioritaire",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Un véhicule arrive à ma gauche : je passe avant lui :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un véhicule arrive à ma droite : je lui cède :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le losange jaune indique une route prioritaire : aux intersections, les autres routes me cèdent le passage, à gauche comme à droite.",
+    "legal_ref": "Décret 2004-13, annexe P3 (AB6)",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Croire que la priorité à droite joue encore."
+  },
+  {
+    "id": "t01-c01-0026",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je viens de dépasser ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "ab7",
+      "alt": "Fin de route à caractère prioritaire",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je garde ma priorité à la prochaine intersection :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un véhicule arrive à ma droite : je lui cède :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Après ce panneau, la route n'est plus prioritaire. La règle de la droite s'applique de nouveau aux intersections.",
+    "legal_ref": "Décret 2004-13, annexe P3 (AB7)",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Croire que la priorité continue."
+  },
+  {
+    "id": "t01-c01-0027",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Route étroite. Ce panneau est de mon côté, un véhicule arrive en face.",
+    "media": {
+      "kind": "sign",
+      "src": "b15",
+      "alt": "Cédez le passage aux véhicules venant en sens inverse",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je lui cède le passage :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "La flèche rouge montante représente ceux qui arrivent en face : ils passent d'abord. C'est à moi de leur céder le passage.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B15)",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Lire la flèche montante comme la mienne."
+  },
+  {
+    "id": "t01-c01-0028",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Route étroite. Ce panneau est de mon côté, un véhicule arrive en face.",
+    "media": {
+      "kind": "sign",
+      "src": "c18",
+      "alt": "Priorité par rapport au sens inverse",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je passe avant lui :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il passe avant moi, il est plus gros :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "La flèche blanche montante est ma direction : j'ai la priorité sur le sens inverse. La taille du véhicule ne change rien.",
+    "legal_ref": "Décret 2004-13, annexe P5 (C18)",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Confondre avec le panneau rond rouge."
+  },
+  {
+    "id": "t01-c01-0029",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "J'arrive à une intersection. Ce panneau est devant moi.",
+    "media": {
+      "kind": "sign",
+      "src": "priorite-droite",
+      "alt": "Intersection avec priorité à droite",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je cède à un véhicule qui arrive à ma droite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un véhicule arrive à ma gauche : je lui cède :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Ce panneau de danger annonce une intersection sans autre indication : la règle de la droite s'applique.",
+    "legal_ref": "Décret 2004-13, annexe P3 (AB1) ; art. 28 al.1",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Penser que la croix indique un passage à niveau."
+  },
+  {
+    "id": "t01-c01-0030",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Face à ce panneau, la route semble libre.",
+    "media": {
+      "kind": "sign",
+      "src": "stop",
+      "alt": "Stop",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête complètement :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe si je suis arrivé en premier :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le STOP impose de s'arrêter complètement, même si la route semble libre, puis de céder le passage.",
+    "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (AB4)",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]

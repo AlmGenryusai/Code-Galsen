@@ -332,5 +332,169 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t01-c02-0011",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Je roule sur cette route. Une voiture arrive à gauche, une autre à droite.",
+    "media": {
+      "kind": "sign",
+      "src": "route-prioritaire",
+      "alt": "Route à caractère prioritaire",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je cède à celle de gauche :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je cède à celle de droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Sur une route prioritaire, les véhicules qui y circulent ont la priorité sur ceux venant des voies secondaires.",
+    "legal_ref": "Décret 2004-13, art. 1 ; art. 28 ; annexe P3 (AB6)",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t01-c02-0012",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Une voiture arrive sur l'autre route.",
+    "media": {
+      "kind": "sign",
+      "src": "stop",
+      "alt": "Stop",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "text": "Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "m'arrête, puis je cède"
+          },
+          {
+            "id": "B",
+            "text": "ralentis et je passe"
+          },
+          {
+            "id": "C",
+            "text": "m'arrête si elle est proche"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Le STOP impose un temps d'arrêt à la limite de l'intersection, puis il faut céder aux conducteurs de l'autre route.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Rouler au pas sans s'arrêter."
+  },
+  {
+    "id": "t01-c02-0013",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Moi : ce panneau. L'autre route : un STOP.",
+    "media": {
+      "kind": "sign",
+      "src": "cedez-le-passage",
+      "alt": "Cédez le passage",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je cède le passage :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "L'autre conducteur passe sans s'arrêter :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Mon panneau me demande de céder aux autres routes ; celui qui a le STOP doit s'arrêter, puis céder.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Ne regarder que le côté droit."
+  },
+  {
+    "id": "t01-c02-0014",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Carrefour sans panneau. Un taxi arrive à ma droite.",
+    "media": {
+      "kind": "photo",
+      "src": "p01.webp",
+      "alt": "Carrefour très chargé à Dakar : taxis, motos et piétons",
+      "credit": "Ruth Zurielly Jennings, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Le taxi passe avant moi :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe, ma rue est plus large :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Sans signalisation, on cède au conducteur qui vient de droite. La largeur de la rue ou la taille du véhicule ne comptent pas.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Croire que la rue la plus large passe."
+  },
+  {
+    "id": "t01-c02-0015",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Une voiture est déjà dans le rond-point.",
+    "media": {
+      "kind": "sign",
+      "src": "sens-giratoire",
+      "alt": "Carrefour à sens giratoire",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "text": "Je :",
+        "options": [
+          {
+            "id": "A",
+            "text": "lui cède le passage"
+          },
+          {
+            "id": "B",
+            "text": "passe : priorité à droite"
+          },
+          {
+            "id": "C",
+            "text": "marque l'arrêt complet"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "Dans un carrefour à sens giratoire, le conducteur déjà engagé est prioritaire. Celui qui arrive attend un trou.",
+    "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (A25)",
+    "legal_status": "pending",
+    "status": "draft",
+    "common_mistake": "Confondre avec la priorité à droite ou avec le STOP."
   }
 ]
