@@ -9,6 +9,11 @@
         "kind": "yesno",
         "statement": "Ma première action est de sécuriser la zone :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je secours d'abord sans signaliser :",
+        "correct": "no"
       }
     ],
     "explanation": "Avant de secourir, on protège : feux de détresse, signalisation, éloigner les curieux. Un second accident aggraverait tout.",
@@ -31,6 +36,11 @@
         "kind": "yesno",
         "statement": "Je continue ma route :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Ne pas m'arrêter est un délit :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le conducteur qui sait que son véhicule a causé ou occasionné un accident et ne s'arrête pas commet un délit. On s'arrête.",
@@ -102,6 +112,11 @@
         "kind": "yesno",
         "statement": "Je ne la déplace pas et j'appelle :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux la déplacer sans danger autour :",
+        "correct": "no"
       }
     ],
     "explanation": "On ne déplace pas une victime sans danger immédiat : on risque d'aggraver une lésion de la colonne.",
@@ -124,6 +139,11 @@
         "kind": "yesno",
         "statement": "Je le lui retire tout de suite :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le casque protège la tête et la nuque :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le casque protège la tête et la nuque. On ne l'enlève que si c'est vraiment nécessaire, par des secouristes.",

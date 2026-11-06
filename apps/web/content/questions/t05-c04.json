@@ -9,6 +9,11 @@
         "kind": "yesno",
         "statement": "Je risque 1 à 3 ans de prison et 100 000 à 1 000 000 FCFA :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Si l'infraction cause des blessures, les peines sont doublées :",
+        "correct": "yes"
       }
     ],
     "explanation": "C'est un délit : 1 à 3 ans de prison et 100 000 à 1 000 000 FCFA d'amende. Si l'infraction cause la mort ou des blessures corporelles, les peines sont doublées.",
@@ -30,6 +35,11 @@
       {
         "kind": "yesno",
         "statement": "C'est un délit puni de 1 à 3 ans de prison :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "En cas de morts ou blessés, les peines sont doublées :",
         "correct": "yes"
       }
     ],
@@ -96,6 +106,11 @@
         "kind": "yesno",
         "statement": "J'encours 1 à 3 ans de prison et 100 000 à 1 000 000 FCFA :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Ces infractions sont punies de 3 à 6 mois de prison :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les infractions L.57 à L.64 sont punies de 3 à 6 mois de prison et de 50 000 à 500 000 FCFA.",
@@ -117,6 +132,11 @@
       {
         "kind": "yesno",
         "statement": "Le juge peut accorder un sursis complet :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "L'amende peut descendre sous 200 000 FCFA :",
         "correct": "no"
       }
     ],
@@ -140,6 +160,11 @@
         "kind": "yesno",
         "statement": "C'est une contravention de 5 000 FCFA :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "C'est puni de prison :",
+        "correct": "yes"
       }
     ],
     "explanation": "Gêner volontairement la circulation en plaçant un obstacle est puni de 3 mois à 5 ans de prison et de 50 000 à 1 000 000 FCFA.",
@@ -162,6 +187,11 @@
         "kind": "yesno",
         "statement": "C'est puni de 3 à 6 mois de prison :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Cette modification est une simple tolérance :",
+        "correct": "no"
       }
     ],
     "explanation": "Modifier le dispositif de limitation de vitesse est puni de 3 à 6 mois de prison et de 50 000 à 500 000 FCFA.",
