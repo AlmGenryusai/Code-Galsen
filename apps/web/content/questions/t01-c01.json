@@ -195,7 +195,7 @@
     "explanation": "Le STOP impose de vous arrêter complètement, même si la route semble libre, puis de céder le passage aux usagers qui arrivent.",
     "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (AB4)",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "review": {
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
@@ -258,7 +258,7 @@
     "common_mistake": "Le confondre avec un panneau de danger.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB6)",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "media": {
       "kind": "sign",
       "src": "route-prioritaire",
@@ -291,7 +291,7 @@
     "common_mistake": "Croire que la priorité continue.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB7)",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "media": {
       "kind": "sign",
       "src": "ab7",
@@ -324,7 +324,7 @@
     "common_mistake": "Lire la flèche montante comme la mienne.",
     "legal_ref": "Décret 2004-13, annexe P4 (B15)",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "media": {
       "kind": "sign",
       "src": "b15",
@@ -357,7 +357,7 @@
     "common_mistake": "Confondre avec le panneau rond rouge.",
     "legal_ref": "Décret 2004-13, annexe P5 (C18)",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "media": {
       "kind": "sign",
       "src": "c18",
@@ -400,7 +400,7 @@
     "common_mistake": "Penser que la croix indique un passage à niveau.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB1) ; art. 28 al.1",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "media": {
       "kind": "sign",
       "src": "priorite-droite",
@@ -443,7 +443,7 @@
     "common_mistake": "Entrer sans regarder.",
     "legal_ref": "Décret 2004-13, annexe P3 (A25) ; art. 28",
     "legal_status": "confirmed",
-    "status": "published",
+    "status": "reviewed",
     "media": {
       "kind": "sign",
       "src": "sens-giratoire",
@@ -830,9 +830,13 @@
     ],
     "explanation": "Le losange jaune indique une route prioritaire : aux intersections, les autres routes me cèdent le passage, à gauche comme à droite.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB6)",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Croire que la priorité à droite joue encore."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Croire que la priorité à droite joue encore.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c01-0026",
@@ -859,9 +863,13 @@
     ],
     "explanation": "Après ce panneau, la route n'est plus prioritaire. La règle de la droite s'applique de nouveau aux intersections.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB7)",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Croire que la priorité continue."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Croire que la priorité continue.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c01-0027",
@@ -883,9 +891,13 @@
     ],
     "explanation": "La flèche rouge montante représente ceux qui arrivent en face : ils passent d'abord. C'est à moi de leur céder le passage.",
     "legal_ref": "Décret 2004-13, annexe P4 (B15)",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Lire la flèche montante comme la mienne."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Lire la flèche montante comme la mienne.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c01-0028",
@@ -912,9 +924,13 @@
     ],
     "explanation": "La flèche blanche montante est ma direction : j'ai la priorité sur le sens inverse. La taille du véhicule ne change rien.",
     "legal_ref": "Décret 2004-13, annexe P5 (C18)",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Confondre avec le panneau rond rouge."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Confondre avec le panneau rond rouge.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c01-0029",
@@ -941,9 +957,13 @@
     ],
     "explanation": "Ce panneau de danger annonce une intersection sans autre indication : la règle de la droite s'applique.",
     "legal_ref": "Décret 2004-13, annexe P3 (AB1) ; art. 28 al.1",
-    "legal_status": "pending",
-    "status": "draft",
-    "common_mistake": "Penser que la croix indique un passage à niveau."
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Penser que la croix indique un passage à niveau.",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   },
   {
     "id": "t01-c01-0030",
@@ -970,7 +990,11 @@
     ],
     "explanation": "Le STOP impose de s'arrêter complètement, même si la route semble libre, puis de céder le passage.",
     "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (AB4)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-06",
+      "juriste": "2026-11-06"
+    }
   }
 ]
