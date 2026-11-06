@@ -30,7 +30,16 @@
           "type": "memo",
           "text": "Bretelle : j'accélère, je m'insère."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p11.webp", "alt": "Échangeur d'autoroute", "credit": "Velvet, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "Voie d'insertion : je prends ma vitesse avant de m'insérer." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p11.webp",
+            "alt": "Échangeur d'autoroute",
+            "credit": "Velvet, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Voie d'insertion : je prends ma vitesse avant de m'insérer."
+        }
       ]
     },
     {
@@ -64,6 +73,16 @@
         {
           "type": "memo",
           "text": "Voiture : 130, 100 sous la pluie, 50 dans la brume."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S16-2.webp",
+            "alt": "Circulation dense sur l'autoroute",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Dans la circulation dense, je garde mes distances."
         }
       ]
     },

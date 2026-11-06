@@ -111,26 +111,57 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 | g02.webp | Main qui pose un triangle de présignalisation sur la route, véhicule bleu à l'arrière-plan | El Jundi | Pexels License | https://www.pexels.com |
 | g03.webp | Conducteur qui tient et boucle sa ceinture de sécurité dans l'habitacle | Tim Samuel | Pexels License | https://www.pexels.com |
 | g04.webp | Mécanicien qui contrôle la pression d'un pneu avec un manomètre | Andrea Piacquadio | Pexels License | https://www.pexels.com |
+
+| Fichier | Description | Auteur | Licence | Source |
+| --- | --- | --- | --- | --- |
 | n-S02-1.webp | Route à plusieurs voies vue depuis une voiture | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S02-2.webp | Route à deux voies avec ligne continue au centre | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S02-4.webp | Route vue depuis l'habitacle, véhicule devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S03-1.webp | Feu rouge en ville au crépuscule, voitures à l'arrêt | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S05-1.webp | Route mouillée sous la pluie, risque d'aquaplaning | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S07-2.webp | Symbole du feu de route au tableau de bord | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S07-3.webp | Phare avant d'une voiture | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S07-4.webp | Feu arrière d'une voiture de nuit | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S08-1.webp | Mains sur le volant à l'approche d'un carrefour | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S10-1.webp | Piétons qui traversent sur un passage piéton | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
-| n-S10-2.webp | Voitures arrêtées à un passage piéton | Pexels | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S10-2.webp | Voitures arrêtées à un passage piéton | Pexels | Pexels License | https://www.pexels.com |
 | n-S11-1.webp | Enfants avec cartables devant une école | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S16-1.webp | Autoroute à plusieurs voies | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
-| n-S17-1.webp | Triangle de signalisation sur la chaussée, voiture arrêtée derrière | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S16-2.webp | Circulation dense sur l'autoroute | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S17-1.webp | Triangle de signalisation sur la chaussée | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S17-2.webp | Triangle de signalisation posé sur la route derrière une voiture en panne | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S20-1.webp | Conducteur qui boucle sa ceinture de sécurité | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S20-2.webp | Enfant attaché sur la banquette arrière | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S20-3.webp | Conductrice souriante, ceinture bouclée, au volant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S20-4.webp | Zone de l'airbag sur le tableau de bord | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S20-5.webp | Étiquette d'avertissement airbag | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S20-6.webp | Voyant rouge de ceinture au tableau de bord | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S20-7.webp | Conducteur qui s'attache au poste de conduite | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S21-1.webp | Conductrice aux bras tendus, trop loin du volant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S21-2.webp | Ceinture de sécurité vue depuis le poste de conduite | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S22-1.webp | Conducteur qui ouvre sa portière de la main opposée en se retournant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S23-1.webp | Voyant rouge de pression d'huile au tableau de bord | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S23-2.webp | Voyant rouge de température du liquide de refroidissement | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S24-1.webp | Agent de police municipale qui contrôle un conducteur à sa vitre | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 | n-S25-1.webp | Conducteur d'une voiture après avoir bu de l'alcool | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S25-2.webp | Agent qui contrôle un conducteur avec un éthylotest | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S25-6.webp | Main tenant un joint sur un volant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-S25-7.webp | Conducteur et passagère somnolents dans une voiture | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xentretien-1.webp | Huile moteur versée dans un entonnoir, capot ouvert | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xentretien-2.webp | Liquide de refroidissement versé dans le réservoir | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xentretien-3.webp | Remplissage du réservoir de liquide de refroidissement | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xentretien-4.webp | Compartiment moteur, capot levé | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xessuie-1.webp | Essuie-glace sur un pare-brise mouillé | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xfatigue-1.webp | Conductrice affalée sur le volant sous la pluie | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xklaxon-1.webp | Main qui appuie sur le klaxon au centre du volant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xpoints-1.webp | Conducteur vu de dos, en contre-jour | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xpuissance-1.webp | Pied sur l'accélérateur | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xstationnement-2.webp | Parking plein vu d'en haut | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xstationnement-3.webp | Schéma du créneau, à droite et à gauche | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xstationnement-4.webp | Schéma du stationnement en épi, marche avant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xstationnement-5.webp | Schéma du stationnement en épi, marche arrière | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xstationnement-6.webp | Schéma du stationnement en bataille, marche avant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xvitesse-1.webp | Tableau de bord de nuit, gyrophares de police devant | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
+| n-Xvitesse-2.webp | Voiture qui roule vite en ville, flou de mouvement | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.

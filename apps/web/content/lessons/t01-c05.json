@@ -74,6 +74,16 @@
         {
           "type": "memo",
           "text": "Je vois, je préviens, je dépasse à gauche."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S02-4.webp",
+            "alt": "Route vue depuis l'habitacle, véhicule devant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Avant de dépasser, je regarde loin devant."
         }
       ]
     },
@@ -153,7 +163,16 @@
           "type": "memo",
           "text": "Pas de vue, pas de dépassement."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p14.webp", "alt": "Virage avec ligne continue doublée, vue du conducteur", "credit": "Ann Cook, CC BY-SA 2.0, via Wikimedia Commons"}, "caption": "Ligne continue : je ne dépasse pas." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p14.webp",
+            "alt": "Virage avec ligne continue doublée, vue du conducteur",
+            "credit": "Ann Cook, CC BY-SA 2.0, via Wikimedia Commons"
+          },
+          "caption": "Ligne continue : je ne dépasse pas."
+        }
       ]
     }
   ],

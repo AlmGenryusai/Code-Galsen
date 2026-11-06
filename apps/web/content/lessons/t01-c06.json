@@ -66,6 +66,56 @@
         {
           "type": "memo",
           "text": "Gêner le moins possible : accotement, loin des virages."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xstationnement-2.webp",
+            "alt": "Parking plein vu d'en haut",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je me gare à un emplacement autorisé."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xstationnement-3.webp",
+            "alt": "Schéma du créneau, à droite et à gauche",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Le créneau, côté droit et côté gauche."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xstationnement-4.webp",
+            "alt": "Schéma du stationnement en épi, marche avant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Stationnement en épi, marche avant."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xstationnement-5.webp",
+            "alt": "Schéma du stationnement en épi, marche arrière",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Stationnement en épi, marche arrière."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xstationnement-6.webp",
+            "alt": "Schéma du stationnement en bataille, marche avant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Stationnement en bataille, marche avant."
         }
       ]
     },
@@ -96,7 +146,16 @@
           "type": "memo",
           "text": "Détresse et triangle, avant tout autre geste."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p27.webp", "alt": "Voiture en panne sur le bas-côté", "credit": "ScoredBlock, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "En panne : je me mets sur le bas-côté et je signale mon véhicule." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p27.webp",
+            "alt": "Voiture en panne sur le bas-côté",
+            "credit": "ScoredBlock, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "En panne : je me mets sur le bas-côté et je signale mon véhicule."
+        }
       ]
     },
     {

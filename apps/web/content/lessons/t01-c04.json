@@ -46,7 +46,16 @@
           "type": "memo",
           "text": "50 en ville, 30 devant une école, puis 130, 110, 100, 90 selon la route."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p24.webp", "alt": "Entrée d'agglomération avec panneau de limitation", "credit": "Kamil Czaiński, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "À l'entrée d'une agglomération, je lis le panneau et j'adapte ma vitesse." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p24.webp",
+            "alt": "Entrée d'agglomération avec panneau de limitation",
+            "credit": "Kamil Czaiński, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "À l'entrée d'une agglomération, je lis le panneau et j'adapte ma vitesse."
+        }
       ]
     },
     {
@@ -105,6 +114,16 @@
         {
           "type": "memo",
           "text": "Je dois pouvoir m'arrêter dans ce que je vois."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xvitesse-2.webp",
+            "alt": "Voiture qui roule vite en ville, flou de mouvement",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "En ville, la vitesse réduit le temps pour réagir."
         }
       ]
     },

@@ -40,8 +40,26 @@
           "type": "memo",
           "text": "Je vois mal : je ralentis et j'allume."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p31.webp", "alt": "Pare-brise sous la pluie", "credit": "Oregon Department of Transportation, CC BY 2.0, via Wikimedia Commons"}, "caption": "Sous la pluie, je vois moins et je freine plus tard : je ralentis." },
-        { "type": "image", "media": {"kind": "photo", "src": "p32.webp", "alt": "Voiture en face dans le brouillard, phares allumés", "credit": "Marek Ślusarczyk (Tupungato), CC BY 3.0, via Wikimedia Commons"}, "caption": "Brouillard : je ralentis et j'allume mes feux pour être vu." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p31.webp",
+            "alt": "Pare-brise sous la pluie",
+            "credit": "Oregon Department of Transportation, CC BY 2.0, via Wikimedia Commons"
+          },
+          "caption": "Sous la pluie, je vois moins et je freine plus tard : je ralentis."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p32.webp",
+            "alt": "Voiture en face dans le brouillard, phares allumés",
+            "credit": "Marek Ślusarczyk (Tupungato), CC BY 3.0, via Wikimedia Commons"
+          },
+          "caption": "Brouillard : je ralentis et j'allume mes feux pour être vu."
+        }
       ]
     },
     {
@@ -82,7 +100,26 @@
           "type": "memo",
           "text": "Sol mouillé : plus de distance, moins de vitesse."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p23.webp", "alt": "Route recouverte de sable", "credit": "Anderson sady, CC BY-SA 3.0, via Wikimedia Commons"}, "caption": "Du sable sur la route : la chaussée glisse." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p23.webp",
+            "alt": "Route recouverte de sable",
+            "credit": "Anderson sady, CC BY-SA 3.0, via Wikimedia Commons"
+          },
+          "caption": "Du sable sur la route : la chaussée glisse."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xessuie-1.webp",
+            "alt": "Essuie-glace sur un pare-brise mouillé",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Sous la pluie, des essuie-glaces en bon état."
+        }
       ]
     },
     {
@@ -113,7 +150,16 @@
           "type": "memo",
           "text": "Nuit : j'éclaire, je n'éblouis pas."
         },
-        { "type": "image", "media": {"kind": "photo", "src": "p18.webp", "alt": "Silhouette au bord de la route la nuit, dans les phares", "credit": "A S M Jobaer, CC BY-SA 4.0, via Wikimedia Commons"}, "caption": "De nuit, un piéton se voit tard : je ralentis." }
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p18.webp",
+            "alt": "Silhouette au bord de la route la nuit, dans les phares",
+            "credit": "A S M Jobaer, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "De nuit, un piéton se voit tard : je ralentis."
+        }
       ]
     }
   ],
