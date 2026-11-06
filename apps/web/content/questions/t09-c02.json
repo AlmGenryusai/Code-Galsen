@@ -45,6 +45,11 @@
         "kind": "yesno",
         "statement": "Je peux rouler sans casque si je roule doucement :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les passagers de vélomoteur portent aussi un casque :",
+        "correct": "yes"
       }
     ],
     "explanation": "Les passagers de motocycles et de vélomoteurs doivent porter un casque de sécurité.",
@@ -73,6 +78,11 @@
         "kind": "yesno",
         "statement": "C'est interdit :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le surnombre est permis dans une voiture particulière :",
+        "correct": "no"
       }
     ],
     "explanation": "Le surnombre est interdit, y compris dans les voitures particulières.",
@@ -132,6 +142,11 @@
         "kind": "yesno",
         "statement": "Je me retourne pour lui répondre :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Si je dois parler, je me range :",
+        "correct": "yes"
       }
     ],
     "explanation": "Le conducteur garde les yeux sur la route. S'il faut parler, on se range.",

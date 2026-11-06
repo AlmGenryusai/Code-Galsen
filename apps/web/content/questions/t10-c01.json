@@ -52,6 +52,11 @@
         "kind": "yesno",
         "statement": "Ma consommation augmente :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un pneu mou s'use plus vite :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un pneu mou chauffe, s'use et consomme plus. On vérifie la pression régulièrement.",
@@ -80,6 +85,11 @@
         "kind": "yesno",
         "statement": "Je coupe le moteur :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un moteur qui tourne pour rien pollue :",
+        "correct": "yes"
       }
     ],
     "explanation": "Un moteur qui tourne pour rien consomme et pollue : le couper à l'arrêt prolongé est un bon réflexe.",
@@ -102,6 +112,11 @@
         "kind": "yesno",
         "statement": "La consommation augmente :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je garde les charges inutiles dans le coffre :",
+        "correct": "no"
       }
     ],
     "explanation": "Plus un véhicule est lourd, plus il consomme. On retire ce qui ne sert pas.",
@@ -164,6 +179,11 @@
         "kind": "yesno",
         "statement": "Les émissions polluantes sont libres hors agglomération :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "La loi demande de limiter les émissions polluantes :",
+        "correct": "yes"
       }
     ],
     "explanation": "La loi demande que les véhicules soient construits et utilisés pour limiter la consommation d'énergie et les émissions polluantes.",
