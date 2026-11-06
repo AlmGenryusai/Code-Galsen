@@ -9,6 +9,11 @@
         "kind": "yesno",
         "statement": "Elle réduit le risque de blessure grave :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "En cas de choc, elle évite la projection hors du siège :",
+        "correct": "yes"
       }
     ],
     "explanation": "En cas de choc, la ceinture retient le corps et évite la projection hors du siège.",
@@ -31,6 +36,11 @@
         "kind": "yesno",
         "statement": "Je pompe sur la pédale :",
         "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je garde le volant en appuyant fort :",
+        "correct": "yes"
       }
     ],
     "explanation": "L'ABS empêche les roues de bloquer : on appuie fort et on laisse faire, en gardant le volant.",
@@ -59,6 +69,11 @@
         "kind": "yesno",
         "statement": "Il protège le mieux quand la ceinture est attachée :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "L'airbag remplace la ceinture :",
+        "correct": "no"
       }
     ],
     "explanation": "L'airbag complète la ceinture, il ne la remplace pas.",
@@ -80,6 +95,11 @@
       {
         "kind": "yesno",
         "statement": "Il peut être projeté et blesser les autres :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un passager non attaché devient un projectile :",
         "correct": "yes"
       }
     ],
@@ -139,6 +159,11 @@
         "kind": "yesno",
         "statement": "Je suis dispensé de ceinture si j'ai un certificat médical :",
         "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un simple avis d'un proche suffit :",
+        "correct": "no"
       }
     ],
     "explanation": "Seule une contre-indication médicale justifiée par un certificat dispense du port de la ceinture.",
