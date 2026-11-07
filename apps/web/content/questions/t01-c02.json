@@ -657,6 +657,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Une voiture de police, sirène en marche, me suit dans un bouchon.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LC01.webp",
+      "alt": "Fourgon de pompiers et véhicules d'urgence arrêtés sur le bas-côté d'une route",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -780,6 +786,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Un convoi militaire traverse le carrefour.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB02.webp",
+      "alt": "Convoi de camions militaires sur une route",
+      "credit": "The U.S. Army, Public domain, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

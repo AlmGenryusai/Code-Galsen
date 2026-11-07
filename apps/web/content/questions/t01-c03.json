@@ -226,9 +226,9 @@
     "context": "Je croise un véhicule sur une route à une seule voie.",
     "media": {
       "kind": "photo",
-      "src": "s32.webp",
-      "alt": "Route de montagne étroite avec un virage sans visibilité",
-      "credit": "Pasztilla aka Attila Terbócs, CC BY-SA 4.0, Wikimedia Commons"
+      "src": "n-LC02.webp",
+      "alt": "Camion et voiture qui se croisent sur une route étroite sans marquage central",
+      "credit": "Source inconnue (Google Images)"
     },
     "parts": [
       {
@@ -400,8 +400,8 @@
     "context": "Un monument est au milieu d'une place, sans panneau.",
     "media": {
       "kind": "photo",
-      "src": "n-V2giratoire.webp",
-      "alt": "Rond-point vu du dessus, îlot central à contourner par la droite",
+      "src": "n-LC03.webp",
+      "alt": "Entrée d'un giratoire avec panneau cédez-le-passage",
       "credit": "Source inconnue (Google Images)"
     },
     "parts": [
@@ -544,6 +544,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "Je roule en voiture. Une piste cyclable longe la route bouchée.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB05.webp",
+      "alt": "Bande cyclable libre le long d'une file de voitures à l'arrêt",
+      "credit": "Raysonho @ Open Grid Scheduler / Grid Engine, CC0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

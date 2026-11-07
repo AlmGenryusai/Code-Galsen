@@ -228,6 +228,12 @@
     "theme": "t08",
     "chapter": "t08-c02",
     "context": "Mon pare-brise est fendu devant mes yeux.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB22.webp",
+      "alt": "Pare-brise fissuré vu depuis le poste de conduite",
+      "credit": "runran from An island in the stream, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

@@ -343,6 +343,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Ma voiture fume beaucoup à l'échappement.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB23.webp",
+      "alt": "Camion rejetant une fumée d'échappement",
+      "credit": "Matthew Paul Argall, CC BY 2.0, Flickr"
+    },
     "parts": [
       {
         "kind": "yesno",
