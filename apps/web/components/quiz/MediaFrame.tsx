@@ -24,13 +24,13 @@ export function MediaFrame({ media, hideCredit = false, hideBadge = false, round
   }
 
   return (
-    <div style={{ position: 'relative', aspectRatio: '16 / 9', width: '100%', background: 'hsl(var(--sand))', overflow: 'hidden', borderRadius: radius }}>
+    <div style={{ position: 'relative', aspectRatio: '16 / 9', width: '100%', background: media.fit === 'contain' ? '#fff' : 'hsl(var(--sand))', overflow: 'hidden', borderRadius: radius }}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/media/${media.src}`}
         alt={media.alt}
         loading="lazy"
-        style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+        style={{ width: '100%', height: '100%', objectFit: media.fit === 'contain' ? 'contain' : 'cover', display: 'block' }}
       />
       {media.marker && (
         <span

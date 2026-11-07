@@ -28,6 +28,7 @@ export interface Media {
   alt: string
   credit: string
   marker?: { x: number; y: number } // % de l'image, 0-100
+  fit?: 'contain' // illustration à fond blanc : image entière, jamais rognée
   badge?: 'moto' | 'pieton' | 'charrette' | 'bus' | 'camion' | 'animal'
 }
 
