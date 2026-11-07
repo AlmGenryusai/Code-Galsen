@@ -241,6 +241,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Un de mes feux stop ne s'allume plus.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S07-4.webp",
+      "alt": "Feu arrière d'une voiture de nuit",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -283,6 +289,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Mon compteur de vitesse ne marche plus.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2compteur.webp",
+      "alt": "Compteur de vitesse de nuit",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -351,6 +363,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "J'allume mes feux de croisement.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S07-3.webp",
+      "alt": "Phare avant d'une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -393,6 +411,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Mes feux de croisement ne s'allument pas.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S07-3.webp",
+      "alt": "Phare avant d'une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -414,6 +438,12 @@
     "theme": "t08",
     "chapter": "t08-c01",
     "context": "Un seul de mes feux arrière rouges marche.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S07-4.webp",
+      "alt": "Feu arrière d'une voiture de nuit",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

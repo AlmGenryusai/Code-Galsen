@@ -309,6 +309,12 @@
     "theme": "t03",
     "chapter": "t03-c02",
     "context": "Je m'insère sur l'autoroute depuis la bretelle.",
+    "media": {
+      "kind": "photo",
+      "src": "u04.webp",
+      "alt": "Vue aérienne d'une bretelle d'autoroute qui rejoint la voie principale",
+      "credit": "Bernd Dittrich, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -336,6 +342,12 @@
     "theme": "t03",
     "chapter": "t03-c02",
     "context": "Sur autoroute, j'ai dépassé. La voie de droite est libre.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S16-1.webp",
+      "alt": "Autoroute à plusieurs voies",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -378,6 +390,12 @@
     "theme": "t03",
     "chapter": "t03-c02",
     "context": "Sur autoroute, la voie de gauche roule lentement.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bautoroute.webp",
+      "alt": "Autoroute vue depuis le poste de conduite, voitures devant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

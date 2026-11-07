@@ -413,6 +413,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Forte pluie, en plein jour.",
+    "media": {
+      "kind": "photo",
+      "src": "p31.webp",
+      "alt": "Conduite sous la pluie, essuie-glaces en marche",
+      "credit": "Oregon Department of Transportation, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "J'allume :",
@@ -470,6 +476,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Les phares d'en face m'éblouissent.",
+    "media": {
+      "kind": "photo",
+      "src": "u08.webp",
+      "alt": "Deux phares de véhicule allumés la nuit, vus de face",
+      "credit": "Marcus Bellamy, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -491,6 +503,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Il pleut fort. Mes essuie-glaces ne nettoient plus bien.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Xessuie-1.webp",
+      "alt": "Essuie-glace sur un pare-brise mouillé",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -512,6 +530,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Une grande flaque couvre la route.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S05-1.webp",
+      "alt": "Route mouillée sous la pluie, risque d'aquaplaning",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -537,6 +561,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Je sors d'une route inondée. Mes freins sont mouillés.",
+    "media": {
+      "kind": "photo",
+      "src": "p10.webp",
+      "alt": "Rue inondée vue à travers une vitre sous la pluie",
+      "credit": "Bibiire1, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -557,6 +587,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "De nuit, je roule sur une piste sans éclairage.",
+    "media": {
+      "kind": "photo",
+      "src": "p30.webp",
+      "alt": "Conduite sur une route sombre la nuit",
+      "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je règle ma vitesse sur :",
@@ -593,6 +629,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Je dépasse un camion sur une route mouillée.",
+    "media": {
+      "kind": "photo",
+      "src": "u06.webp",
+      "alt": "Route mouillée dans la brume, un camion arrive en face d'un véhicule aux feux allumés",
+      "credit": "Prashant Gautam, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -614,6 +656,12 @@
     "theme": "t03",
     "chapter": "t03-c01",
     "context": "Il fait nuit et un piéton marche au bord, sans lumière.",
+    "media": {
+      "kind": "photo",
+      "src": "p18.webp",
+      "alt": "Silhouette au bord de la route la nuit, dans les phares",
+      "credit": "A S M Jobaer, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

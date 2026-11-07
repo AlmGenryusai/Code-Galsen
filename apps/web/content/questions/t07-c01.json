@@ -294,6 +294,12 @@
     "theme": "t07",
     "chapter": "t07-c01",
     "context": "J'attache ma ceinture.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S20-1.webp",
+      "alt": "Conducteur qui boucle sa ceinture de sécurité",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

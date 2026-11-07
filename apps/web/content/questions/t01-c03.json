@@ -332,6 +332,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "La chaussée a trois voies séparées par des lignes discontinues. Je veux dépasser.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-1.webp",
+      "alt": "Route à plusieurs voies vue depuis une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -448,6 +454,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "Je vais tourner à droite.",
+    "media": {
+      "kind": "photo",
+      "src": "u10.webp",
+      "alt": "Commande de clignotant orange allumée dans l'habitacle, de nuit",
+      "credit": "Mathias Reding, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -474,6 +486,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "Je vais tourner à gauche sur une route à double sens.",
+    "media": {
+      "kind": "photo",
+      "src": "p29.webp",
+      "alt": "Petite voiture qui tourne à gauche à un carrefour",
+      "credit": "Retired electrician, CC0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -578,6 +596,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "Je suis seul sur une route à deux voies dans mon sens.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-1.webp",
+      "alt": "Route à plusieurs voies vue depuis une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

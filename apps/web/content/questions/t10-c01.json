@@ -4,6 +4,12 @@
     "theme": "t10",
     "chapter": "t10-c01",
     "context": "Je veux consommer moins.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Xpuissance-1.webp",
+      "alt": "Pied sur l'accélérateur",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "J'anticipe :",

@@ -376,6 +376,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "J'ai bu deux bières il y a une heure.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S25-1.webp",
+      "alt": "Conducteur d'une voiture après avoir bu de l'alcool",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -402,6 +408,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "Mon téléphone sonne pendant que je roule.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2telephone.webp",
+      "alt": "Conducteur qui tient son téléphone en main en roulant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -428,6 +440,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "Je prends un médicament qui donne sommeil.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S25-7.webp",
+      "alt": "Conducteur et passagère somnolents dans une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -453,6 +471,12 @@
     "theme": "t02",
     "chapter": "t02-c02",
     "context": "Je conduis depuis trois heures sans pause.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Xfatigue-1.webp",
+      "alt": "Conductrice affalée sur le volant sous la pluie",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

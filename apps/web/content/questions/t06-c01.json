@@ -237,6 +237,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Accident avec blessés graves. Aucun danger ne menace.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2accident.webp",
+      "alt": "Accident entre deux voitures, un conducteur se tient la nuque",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -258,6 +264,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Je suis témoin d'un accident grave.",
+    "media": {
+      "kind": "photo",
+      "src": "p45.webp",
+      "alt": "Accident de deux voitures avec triangle posé sur la chaussée",
+      "credit": "ŠJů, CC BY-SA 3.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -284,6 +296,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Après un accident grave, je ramasse les débris pour dégager.",
+    "media": {
+      "kind": "photo",
+      "src": "p45.webp",
+      "alt": "Accident de deux voitures avec triangle posé sur la chaussée",
+      "credit": "ŠJů, CC BY-SA 3.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

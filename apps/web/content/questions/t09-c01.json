@@ -244,6 +244,12 @@
     "theme": "t09",
     "chapter": "t09-c01",
     "context": "Ma ceinture est très lâche.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bceinture1.webp",
+      "alt": "Ceinture de sécurité bouclée sur une personne assise",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -264,6 +270,12 @@
     "theme": "t09",
     "chapter": "t09-c01",
     "context": "Ma voiture a l'ABS. La route est mouillée.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2abs.webp",
+      "alt": "Tableau de bord avec le voyant ABS allumé",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
