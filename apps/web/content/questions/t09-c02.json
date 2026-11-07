@@ -176,6 +176,12 @@
     "theme": "t09",
     "chapter": "t09-c02",
     "context": "Véhicule de transport de passagers.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t05-c02-0006.webp",
+      "alt": "Minibus bleu avec des passagers assis sur le toit",
+      "credit": "Kateryna Serdiuk, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Les passagers ne montent pas :",

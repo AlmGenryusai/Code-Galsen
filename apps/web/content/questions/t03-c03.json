@@ -241,6 +241,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Je passe près d'un marché au bord de la route.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t03-c03-0008.webp",
+      "alt": "Rue de marché animée, piétons et moto sur la chaussée",
+      "credit": "Thiam Babel Design, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

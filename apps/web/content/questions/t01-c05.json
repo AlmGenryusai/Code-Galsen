@@ -281,6 +281,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Je conduis un camion de 2,5 m de large sur une route étroite et je croise une voiture.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c05-0008.webp",
+      "alt": "Route étroite bordée de haies, un camion arrive en face",
+      "credit": "Christine Johnstone, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

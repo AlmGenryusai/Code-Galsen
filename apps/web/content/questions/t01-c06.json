@@ -221,6 +221,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Je me gare.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c06-0007.webp",
+      "alt": "Voiture garée en travers d'un trottoir dans une rue en ville",
+      "credit": "Herzi Pinki, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
