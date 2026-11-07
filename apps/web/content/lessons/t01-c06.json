@@ -80,6 +80,10 @@
           ]
         },
         {
+          "type": "text",
+          "text": "Je regarde le trait rouge : **une barre**, stationnement interdit. **Une croix**, arrêt et stationnement interdits."
+        },
+        {
           "type": "attention",
           "text": "Hors agglomération, je ne stationne pas sur la chaussée, sauf force majeure."
         },
