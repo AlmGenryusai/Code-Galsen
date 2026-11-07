@@ -201,5 +201,151 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t10-c01-0007",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "context": "Je roule vite, fenêtres grandes ouvertes.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "La consommation augmente :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "À vitesse élevée, les fenêtres ouvertes freinent la voiture : elle consomme plus.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t10-c01-0008",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "context": "La climatisation tourne à fond.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Elle augmente la consommation :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "La climatisation demande de l'énergie au moteur. Utilisez-la avec modération.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t10-c01-0009",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "context": "Je change de vitesse.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je passe tôt le rapport supérieur :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Un moteur qui tourne moins vite consomme moins.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t10-c01-0010",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "context": "Le matin, je démarre ma voiture.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je pars doucement sans attendre :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je laisse chauffer longtemps à l'arrêt :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le moteur chauffe mieux en roulant doucement qu'au ralenti, qui consomme et pollue pour rien.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t10-c01-0011",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "context": "Une galerie de toit vide reste montée.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Elle augmente la consommation :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Une galerie freine la voiture dans l'air. Démontez-la si elle ne sert pas.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t10-c01-0012",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "context": "Je roule à 130 km/h au lieu de 110 km/h.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je consomme plus :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "La consommation grimpe vite avec la vitesse.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t10-c01-0013",
+    "theme": "t10",
+    "chapter": "t10-c01",
+    "context": "Mon pot d'échappement fume noir.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je fais régler le moteur :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Une fumée noire signale un moteur mal réglé, qui pollue et consomme plus.",
+    "legal_ref": "Décret 2004-13, art. 59",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

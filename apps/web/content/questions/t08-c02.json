@@ -222,5 +222,89 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t08-c02-0007",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "context": "Mon pare-brise est fendu devant mes yeux.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je le fais changer :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Le pare-brise ne doit pas déformer la vue de la route.",
+    "legal_ref": "Décret 2004-13, art. 62 et 63",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c02-0008",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "context": "Je n'ai qu'un triangle dans le coffre.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est suffisant :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Tout véhicule automobile doit avoir en permanence deux triangles de pré-signalisation.",
+    "legal_ref": "Décret 2004-13, art. 80",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c02-0009",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "context": "Un de mes pneus est lisse sur une bande.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux rouler :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Les sculptures doivent être apparentes sur toute la surface de roulement.",
+    "legal_ref": "Décret 2004-13, art. 91",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c02-0010",
+    "theme": "t08",
+    "chapter": "t08-c02",
+    "context": "La saison des pluies arrive.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je vérifie mes essuie-glaces :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "L'essuie-glace doit permettre de voir distinctement la route.",
+    "legal_ref": "Décret 2004-13, art. 64",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

@@ -246,5 +246,68 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Tenir l'enfant dans les bras."
+  },
+  {
+    "id": "t09-c02-0008",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "context": "Sur ma moto, mon passager pose les pieds sur les pédales.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est permis :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le passager doit avoir des repose-pieds. Les pédales n'en tiennent pas lieu.",
+    "legal_ref": "Décret 2004-13, annexe D27",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t09-c02-0009",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "context": "Mon passager de moto s'assoit sur le porte-bagages.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est permis :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le porte-bagages ne remplace pas un siège aménagé pour le passager.",
+    "legal_ref": "Décret 2004-13, annexe D27",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t09-c02-0010",
+    "theme": "t09",
+    "chapter": "t09-c02",
+    "context": "Je conduis une moto et je veux porter mon enfant devant moi.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est permis :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le transport d'un enfant porté par le conducteur est interdit.",
+    "legal_ref": "Décret 2004-13, annexe D27",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

@@ -887,5 +887,57 @@
       "moniteur": "2026-11-07",
       "juriste": "2026-11-07"
     }
+  },
+  {
+    "id": "t01-c02-0029",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Je dois tourner à gauche au carrefour. Une voiture arrive en face, tout droit.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je lui cède le passage :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe, je tourne vite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Pour tourner à gauche, on cède aux véhicules qui viennent en face.",
+    "legal_ref": "Décret 2004-13, art. 27",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0030",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Carrefour sans panneau. Une voiture arrive à ma gauche.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je passe avant elle :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je lui cède, elle est plus grosse :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Sans signalisation, on cède à celui qui vient de droite. Ici personne ne vient de droite.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]
