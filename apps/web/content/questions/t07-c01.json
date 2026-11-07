@@ -183,6 +183,12 @@
     "theme": "t07",
     "chapter": "t07-c01",
     "context": "Mon appui-tête est bien réglé.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB34.webp",
+      "alt": "Appuie-tête de siège de voiture",
+      "credit": "Thomas doerfer, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -210,6 +216,12 @@
     "theme": "t07",
     "chapter": "t07-c01",
     "context": "Je tiens le volant.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB35.webp",
+      "alt": "Mains du conducteur sur le volant",
+      "credit": "Nino Ubezio eastplane, CC0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -273,6 +285,12 @@
     "theme": "t07",
     "chapter": "t07-c01",
     "context": "Avant de partir, mes vitres sont couvertes de poussière.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB20.webp",
+      "alt": "Pare-brise couvert de poussière",
+      "credit": "Shizhao, CC BY 2.5, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

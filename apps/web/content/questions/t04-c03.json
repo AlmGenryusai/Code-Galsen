@@ -227,6 +227,12 @@
     "theme": "t04",
     "chapter": "t04-c03",
     "context": "La nuit, une charrette sans feux roule au bord. Je la vois tard.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB03.webp",
+      "alt": "Charrette tirée par un âne dans une rue (Dakhla)",
+      "credit": "D-Stanley, CC BY 2.0, Flickr"
+    },
     "parts": [
       {
         "kind": "yesno",

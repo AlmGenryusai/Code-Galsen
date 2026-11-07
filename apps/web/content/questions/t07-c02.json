@@ -241,6 +241,12 @@
     "theme": "t07",
     "chapter": "t07-c02",
     "context": "Je me gare en pente, puis je m'éloigne.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB19.webp",
+      "alt": "Voitures garées dans une rue en forte pente",
+      "credit": "Gordon Brown, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -262,6 +268,12 @@
     "theme": "t07",
     "chapter": "t07-c02",
     "context": "Mon passager arrière veut descendre côté route.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB21.webp",
+      "alt": "Portière de voiture ouverte sur une bande cyclable",
+      "credit": "Richard Drdul, CC BY-SA 2.0, Flickr"
+    },
     "parts": [
       {
         "kind": "yesno",
