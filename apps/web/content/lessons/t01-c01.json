@@ -175,6 +175,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n-Ffeu-tricolore.webp",
+            "alt": "Feu tricolore qui passe du vert au orange puis au rouge",
+            "credit": "Source inconnue (site d'auto-école)"
+          },
+          "caption": "Toujours le même ordre : vert, orange, rouge."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p04.webp",
             "alt": "Agent de la circulation qui fait signe aux voitures",
             "credit": "Mir koks, CC BY-SA 4.0, via Wikimedia Commons"
@@ -199,9 +209,9 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "n-Cfeu-vert.webp",
+            "src": "n-Ffeu-vert.webp",
             "alt": "Feu vert",
-            "credit": "Source inconnue (Google Images)"
+            "credit": "Source inconnue (site d'auto-école)"
           },
           "caption": "Feu vert : voie libre."
         },
@@ -209,19 +219,19 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "q-t01-c01-0019.webp",
-            "alt": "Feu jaune allumé",
-            "credit": "Xosema, CC BY-SA 4.0, via Wikimedia Commons"
+            "src": "n-Ffeu-orange.webp",
+            "alt": "Feu orange",
+            "credit": "Source inconnue (site d'auto-école)"
           },
-          "caption": "Feu jaune : j'annonce l'arrêt."
+          "caption": "Feu orange : j'annonce l'arrêt."
         },
         {
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "n-Bfeux.webp",
-            "alt": "Feu rouge en ville, voiture à l'arrêt",
-            "credit": "Source inconnue (Google Images)"
+            "src": "n-Ffeu-rouge.webp",
+            "alt": "Feu rouge",
+            "credit": "Source inconnue (site d'auto-école)"
           },
           "caption": "Feu rouge : je m'arrête."
         },
@@ -229,11 +239,21 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "p21.webp",
-            "alt": "Feu vert en flèche à un carrefour",
-            "credit": "DanTD, CC BY 4.0, via Wikimedia Commons"
+            "src": "n-Ffeu-clignotant.webp",
+            "alt": "Feu orange clignotant",
+            "credit": "Source inconnue (site d'auto-école)"
           },
-          "caption": "Un feu en flèche : je regarde bien ce qu'il autorise."
+          "caption": "Feu orange clignotant : je ralentis, prudence."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Ffeu-fleches.webp",
+            "alt": "Feux à flèches : rouge, vert puis orange",
+            "credit": "Source inconnue (site d'auto-école)"
+          },
+          "caption": "Feux à flèches : je regarde bien ce qu'ils autorisent."
         },
         {
           "type": "heading",
