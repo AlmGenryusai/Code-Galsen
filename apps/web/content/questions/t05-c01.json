@@ -222,6 +222,12 @@
     "theme": "t05",
     "chapter": "t05-c01",
     "context": "Je conduis une voiture.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t05-c01-0007.webp",
+      "alt": "Contrôle routier : un policier parle à un conducteur à côté de son pick-up",
+      "credit": "shankar s., CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -249,6 +255,12 @@
     "theme": "t05",
     "chapter": "t05-c01",
     "context": "Après une infraction, je donne un faux nom à un agent.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t05-c01-0007.webp",
+      "alt": "Contrôle routier : un policier parle à un conducteur à côté de son pick-up",
+      "credit": "shankar s., CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

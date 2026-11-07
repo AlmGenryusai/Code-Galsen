@@ -84,6 +84,8 @@ Photos issues de Wikimedia Commons, converties en WebP (800 px de large, sans ag
 | q-t03-c03-0008.webp | De retour au marché avec un sachet de légumes à la main | Thiam Babel Design | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:De_retour_au_march%C3%A9_avec_un_sachet_de_l%C3%A9gumes_%C3%A0_la_main.jpg |
 | q-t05-c02-0006.webp | A bus in Touba | Kateryna Serdiuk | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:A_bus_in_Touba.jpg |
 | q-t08-c01-0003.webp | " 11 - ITALY - strut - Fiat GP Montante | Andrea Pavanello | CC BY-SA 3.0 IT | https://commons.wikimedia.org/wiki/File:%22_11_-_ITALY_-_strut_-_Fiat_GP_Montante.JPG |
+| q-t05-c01-0007.webp | A dubious police check on the way back from Chiang Rai | shankar s. | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:A_dubious_police_check_on_the_way_back_from_Chiang_Rai.jpg |
+| q-t10-c01-0004.webp | Moscow, Ford Focus Mk III with roof box, Aug 2025 01 | Retired electrician | CC0 | https://commons.wikimedia.org/wiki/File:Moscow,_Ford_Focus_Mk_III_with_roof_box,_Aug_2025_01.jpg |
 | q-t10-c01-0003.webp | TrafficJamDakar | Ji-Elle | Domaine public | https://commons.wikimedia.org/wiki/File:TrafficJamDakar.jpg |
 | s02.webp | Ligne d'annonce non rectiligne | Roulex 45 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ligne_d%27annonce_non_rectiligne.JPG |
 | s10.webp | Place Jean-Moulin depuis l'avenue des Graviers (Abrest) | Tabl-trai | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Place_Jean-Moulin_depuis_l%27avenue_des_Graviers_(Abrest)_2024-09-01.JPG |
@@ -208,4 +210,4 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.
 
-Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) : redimensionnement 800 px et recompression ; plaque floutée pour q-t01-c06-0007. CC BY-SA 3.0 IT (q-t08-c01-0003) : https://creativecommons.org/licenses/by-sa/3.0/it/.
+Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) : redimensionnement 800 px et recompression ; plaques floutées pour q-t01-c06-0007 et q-t05-c01-0007. CC BY 2.0 (q-t05-c01-0007) : https://creativecommons.org/licenses/by/2.0/. CC0 (q-t10-c01-0004) : crédit donné par courtoisie. CC BY-SA 3.0 IT (q-t08-c01-0003) : https://creativecommons.org/licenses/by-sa/3.0/it/.
