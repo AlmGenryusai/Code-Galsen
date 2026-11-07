@@ -211,7 +211,6 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.
 
 Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) : redimensionnement 800 px et recompression ; plaques floutées pour q-t01-c06-0007 et q-t05-c01-0007. CC BY 2.0 (q-t05-c01-0007) : https://creativecommons.org/licenses/by/2.0/. CC0 (q-t10-c01-0004) : crédit donné par courtoisie. CC BY-SA 3.0 IT (q-t08-c01-0003) : https://creativecommons.org/licenses/by-sa/3.0/it/.
-| n-LB01.webp | Two police car accidents | Gamma Man | CC BY 2.0 | https://www.flickr.com/photos/51625243@N06/5266704311 |
 | n-LB02.webp | Flickr - The U.S. Army - Convoy Operations.jpg | The U.S. Army | Public domain | https://commons.wikimedia.org/wiki/File:Flickr_-_The_U.S._Army_-_Convoy_Operations.jpg |
 | n-LB03.webp | Donkey Cart, Dakhla | D-Stanley | CC BY 2.0 | https://www.flickr.com/photos/79721788@N00/6810158421 |
 | n-LB04.webp | Glen Mona, open level crossing - geograph.org.uk - 4619004.j | Mike Faherty | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Glen_Mona,_open_level_crossing_-_geograph.org.uk_-_4619004.jpg |
@@ -237,3 +236,12 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | n-LB33.webp | USMC-0800114-M-1909N-015.jpg | U.S. Marine Corps | Public domain | https://commons.wikimedia.org/wiki/File:USMC-0800114-M-1909N-015.jpg |
 | n-LB34.webp | Kopfstütze.jpg | Thomas doerfer | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Kopfst%C3%BCtze.jpg |
 | n-LB35.webp | Watch your street (Unsplash).jpg | Nino Ubezio eastplane | CC0 | https://commons.wikimedia.org/wiki/File:Watch_your_street_(Unsplash).jpg |
+| n-LC01.webp | Fourgon de pompiers et véhicules d'urgence arrêtés sur le ba | Source inconnue | Inconnue (Google Images) | - |
+| n-LC02.webp | Camion et voiture qui se croisent sur une route étroite sans | Source inconnue | Inconnue (Google Images) | - |
+| n-LC03.webp | Entrée d'un giratoire avec panneau cédez-le-passage (logo re | Source inconnue | Inconnue (Google Images) | - |
+| n-LC04.webp | Feu tricolore au rouge sous un pont | Source inconnue | Inconnue (Google Images) | - |
+| n-LC05.webp | Circulation sur voie rapide au crépuscule, feux arrière allu | Source inconnue | Inconnue (Google Images) | - |
+| n-LC06.webp | Conducteur qui souffle dans un éthylotest électronique | Source inconnue | Inconnue (Google Images) | - |
+| n-LC07.webp | Bouteille de bière ouverte au volant | Source inconnue | Inconnue (Google Images) | - |
+| n-LC08.webp | Deux cyclistes côte à côte, taxi en arrière-plan | Source inconnue | Inconnue (Google Images) | - |
+| n-LC09.webp | File de voitures garées le long du trottoir en ville (logo r | Source inconnue | Inconnue (Google Images) | - |
