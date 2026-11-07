@@ -238,5 +238,66 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Ignorer un voyant de sécurité."
+  },
+  {
+    "id": "t09-c01-0008",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "context": "Ma ceinture est très lâche.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Elle me protège moins :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Une ceinture lâche laisse le corps avancer avant de le retenir : le choc est plus fort.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t09-c01-0009",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "context": "Ma voiture a l'ABS. La route est mouillée.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Ma distance de freinage reste plus longue :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "L'ABS garde la direction possible pendant le freinage. Il ne raccourcit pas la distance sur sol mouillé.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t09-c01-0010",
+    "theme": "t09",
+    "chapter": "t09-c01",
+    "context": "Je roule en ville pour un trajet court.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux ne pas boucler ma ceinture :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "La ceinture est obligatoire, même pour un court trajet.",
+    "legal_ref": "Décret 2004-13, annexe S3",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

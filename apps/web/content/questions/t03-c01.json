@@ -587,5 +587,52 @@
       "moniteur": "2026-11-07",
       "juriste": "2026-11-07"
     }
+  },
+  {
+    "id": "t03-c01-0019",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Je dépasse un camion sur une route mouillée.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je risque d'être aspergé et de perdre la vue :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Le camion projette de l'eau. Gardez de la distance et soyez prêt à lever le pied.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c01-0020",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Il fait nuit et un piéton marche au bord, sans lumière.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je le vois très tard :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je roule comme de jour :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Un piéton sans lumière se voit tard. La nuit, on règle sa vitesse sur ce qu'on voit.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

@@ -568,5 +568,52 @@
       "moniteur": "2026-11-07",
       "juriste": "2026-11-07"
     }
+  },
+  {
+    "id": "t02-c01-0021",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Le conducteur devant moi étend le bras gauche à l'horizontale.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il va tourner à gauche :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il va tourner à droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le bras étendu à l'horizontale indique le côté du virage, sans clignotant.",
+    "legal_ref": "Décret 2004-13, art. 8",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0022",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Je klaxonne longuement dans un embouteillage.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mon klaxon est autorisé :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le klaxon sert seulement à donner les avertissements nécessaires, et brièvement en ville.",
+    "legal_ref": "Décret 2004-13, art. 87 et 89",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

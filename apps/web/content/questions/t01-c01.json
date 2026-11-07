@@ -2533,5 +2533,534 @@
       "moniteur": "2026-11-07",
       "juriste": "2026-11-07"
     }
+  },
+  {
+    "id": "t01-c01-0079",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "a1a",
+      "alt": "Virage à droite",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il annonce un virage à droite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il annonce un virage à gauche :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Triangle de danger : virage à droite. Vous ralentissez avant d'y entrer.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A1a) ; art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0080",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "a1d",
+      "alt": "Succession de virages, le premier à gauche",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il annonce une succession de virages :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le premier virage est à droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Succession de virages dont le premier est à gauche. On lit toujours le premier virage.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A1d)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0081",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "a2a",
+      "alt": "Cassis ou dos d",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il annonce un dos d'âne :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux garder ma vitesse :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Cassis ou dos d'âne : on ralentit avant, sinon le choc abîme la voiture et fait perdre le contrôle.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A2a) ; art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0082",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "a2b",
+      "alt": "Ralentisseur",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il annonce un ralentisseur :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "C'est un panneau d'interdiction :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Ralentisseur de type dos d'âne. C'est un panneau de danger, pas une interdiction.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A2b)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0083",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "a3",
+      "alt": "Chaussée rétrécie",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "La chaussée se rétrécit des deux côtés :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je dois m'arrêter :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Chaussée rétrécie : la route devient plus étroite. On ralentit et on surveille les véhicules en face.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A3)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0084",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "b2b",
+      "alt": "Interdiction de tourner à droite",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il interdit de tourner à droite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il interdit de tourner à gauche :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Interdiction de tourner à droite : même si la rue est libre.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B2b)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0085",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "b34a",
+      "alt": "Fin d",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il met fin à l'interdiction de dépasser pour les camions :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les voitures n'avaient pas le droit de dépasser :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Fin d'interdiction de dépasser pour les poids lourds. La première interdiction visait les camions seulement.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B34a)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0086",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "b6b1",
+      "alt": "Zone à stationnement interdit",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Le stationnement est interdit dans toute la zone :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête seulement devant ce panneau :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Zone à stationnement interdit : l'interdiction s'applique jusqu'au panneau de sortie de zone.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B6b1)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0087",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je conduis une voiture ordinaire.",
+    "media": {
+      "kind": "sign",
+      "src": "b7a",
+      "alt": "Accès interdit aux voitures et aux motos",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux entrer ici :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Accès interdit aux voitures et aux motos.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B7a)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0088",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je suis à vélo.",
+    "media": {
+      "kind": "sign",
+      "src": "b9b",
+      "alt": "Accès interdit aux cycles",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux entrer ici :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Accès interdit aux cycles.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B9b)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0089",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je conduis un cyclomoteur.",
+    "media": {
+      "kind": "sign",
+      "src": "b9g",
+      "alt": "Accès interdit aux cyclomoteurs",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux entrer ici :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Une voiture peut entrer :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Accès interdit aux cyclomoteurs seulement. Les voitures passent.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B9g)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0090",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je conduis un camion de 12 mètres.",
+    "media": {
+      "kind": "sign",
+      "src": "b10a",
+      "alt": "Longueur maximale des véhicules (indiquée sur le panneau)",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je regarde la longueur indiquée sur le panneau :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Limitation de longueur : si votre véhicule dépasse, vous ne passez pas.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B10)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0091",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Mon camion est très chargé.",
+    "media": {
+      "kind": "sign",
+      "src": "b13",
+      "alt": "Poids maximal des véhicules (indiqué sur le panneau)",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je regarde le poids indiqué sur le panneau :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le poids à vide suffit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Limitation de poids : on compte le poids total en charge.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B13)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0092",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "b21-1",
+      "alt": "Direction obligatoire : à droite",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je dois tourner à droite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux aller tout droit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Direction obligatoire à droite : panneau bleu rond, il oblige.",
+    "legal_ref": "Décret 2004-13, annexe P4",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0093",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "b21-2",
+      "alt": "Direction obligatoire : à gauche",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je dois tourner à gauche :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux tourner à droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Direction obligatoire à gauche. Panneau d'obligation : fond bleu.",
+    "legal_ref": "Décret 2004-13, annexe P4",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0094",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "b22a",
+      "alt": "Piste ou bande cyclable obligatoire",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Ce panneau me réserve une voie :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Ce panneau est une obligation :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Piste ou bande cyclable obligatoire : elle est réservée aux cycles. Une voiture n'y roule pas.",
+    "legal_ref": "Décret 2004-13, annexe P4",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c01-0095",
+    "theme": "t01",
+    "chapter": "t01-c01",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "c13b",
+      "alt": "Voie sans issue sur le côté",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Cette route est sans issue :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux faire demi-tour plus loin :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Voie sans issue sur le côté : la route se termine. Le demi-tour sera nécessaire.",
+    "legal_ref": "Décret 2004-13, annexe P5 (C13)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

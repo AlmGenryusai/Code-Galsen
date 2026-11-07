@@ -235,5 +235,199 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Ouvrir le bouchon du radiateur chaud."
+  },
+  {
+    "id": "t08-c01-0008",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "Un de mes feux stop ne s'allume plus.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je le fais réparer :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Le feu stop prévient ceux qui suivent que vous freinez.",
+    "legal_ref": "Décret 2004-13, art. 76",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c01-0009",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "Je veux poser une publicité lumineuse sur ma voiture.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est permis :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Toute publicité lumineuse ou réfléchissante est interdite sur les véhicules.",
+    "legal_ref": "Décret 2004-13, art. 84",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c01-0010",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "Mon compteur de vitesse ne marche plus.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux rouler ainsi :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "L'indicateur de vitesse doit être en bon état de fonctionnement.",
+    "legal_ref": "Décret 2004-13, art. 67",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c01-0011",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "Je veux enlever le silencieux de mon pot.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est interdit :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "L'échappement libre est formellement interdit.",
+    "legal_ref": "Décret 2004-13, art. 60",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c01-0012",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "Ma voiture fume beaucoup à l'échappement.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je la fais réparer :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "La fumée est tolérée hors agglomération :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Un véhicule ne doit pas émettre de fumée qui gêne ou pollue, où qu'il roule.",
+    "legal_ref": "Décret 2004-13, art. 59",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c01-0013",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "J'allume mes feux de croisement.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Les feux de route s'éteignent :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "L'allumage des feux de croisement éteint automatiquement les feux de route.",
+    "legal_ref": "Décret 2004-13, art. 72",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c01-0014",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "L'éclairage de ma plaque arrière est grillé.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux rouler la nuit ainsi :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "La nuit, la plaque arrière doit être éclairée.",
+    "legal_ref": "Décret 2004-13, art. 75",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c01-0015",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "Mes feux de croisement ne s'allument pas.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux rouler la nuit avec mes feux de détresse :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Les feux de détresse ne remplacent pas l'éclairage de route. Il faut des feux de croisement ou de route.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t08-c01-0016",
+    "theme": "t08",
+    "chapter": "t08-c01",
+    "context": "Un seul de mes feux arrière rouges marche.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux rouler la nuit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Un véhicule doit avoir deux feux rouges arrière, visibles à 150 m.",
+    "legal_ref": "Décret 2004-13, art. 73",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]
