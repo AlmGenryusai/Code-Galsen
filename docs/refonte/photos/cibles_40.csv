@@ -1,0 +1,24 @@
+id;scene
+t01-c02-0008;Cortège de véhicules escortés par police ou gendarmerie approchant sur la route
+t01-c02-0010;Sortie d'un chemin privé ou d'une cour vers une route fréquentée, vue depuis la sortie
+t01-c03-0010;Route à trois voies séparées par lignes discontinues, vue conducteur
+t01-c05-0003;Voiture qui dépasse un cycliste sur le bord de la route, vue conducteur
+t01-c05-0008;Camion large qui croise une voiture sur une route étroite
+t01-c05-0009;Deux camions qui se suivent sur route interurbaine, vue conducteur derrière
+t01-c06-0007;Voiture garée correctement sur l'accotement en bord de route
+t02-c01-0006;Route de nuit avec bon éclairage public, vue conducteur
+t02-c01-0008;Approche d'un carrefour avec route croisée à droite et à gauche, vue conducteur
+t03-c03-0004;Véhicule arrêté sur une voie ferrée, train visible au loin
+t03-c03-0008;Marché au bord de la route avec piétons et étals, vue conducteur
+t06-c01-0003;Personne qui téléphone aux secours sur le lieu d'un accident
+t06-c01-0005;Motard blessé avec casque au sol, mise en scène de secourisme
+t07-c02-0003;Conducteur qui quitte sa voiture, moteur coupé, frein à main
+t07-c02-0004;Main sur la poignée de portière, vue intérieure, rétroviseur
+t07-c02-0005;Adulte et enfant qui descendent de voiture côté trottoir
+t08-c02-0001;Conducteur qui contrôle les pneus ou le niveau d'huile avant un trajet
+t04-c01-0004;Groupe de piétons qui marchent au bord d'une route peu éclairée la nuit
+t04-c02-0001;Voiture arrêtée au feu rouge avec une moto serrée sur sa droite
+t04-c02-0004;Vue par-dessus l'épaule du conducteur, angle mort, moto qui remonte
+t04-c02-0005;Voiture clignotant droit allumé avec moto qui arrive vite à droite
+t04-c02-0006;Rétroviseur extérieur gauche avec une moto visible, voiture sur route
+t04-c04-0006;Car arrêté qui masque des piétons près d'un passage, vue conducteur

@@ -79,6 +79,12 @@
     "id": "t08-c01-0003",
     "theme": "t08",
     "chapter": "t08-c01",
+    "media": {
+      "kind": "photo",
+      "src": "q-t08-c01-0003.webp",
+      "alt": "Rétroviseur extérieur vu depuis le siège conducteur",
+      "credit": "Andrea Pavanello, CC BY-SA 3.0 IT, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

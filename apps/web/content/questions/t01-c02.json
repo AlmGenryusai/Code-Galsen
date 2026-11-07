@@ -241,6 +241,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Un cortège officiel escorté par la police arrive.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c02-0008.webp",
+      "alt": "Rue dégagée, policier sur la chaussée, cortège escorté de motos de police au loin",
+      "credit": "Tim Evanson, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je :",

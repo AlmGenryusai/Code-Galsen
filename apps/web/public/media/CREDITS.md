@@ -78,6 +78,12 @@ Photos issues de Wikimedia Commons, converties en WebP (800 px de large, sans ag
 | q-t07-c02-0001.webp | Garrison celebrates Bike Safety Month, Part 3 – How motorists can protect cyclists in traffic (7200751) | U.S. Army USAGW, Roland Schedel | Domaine public | https://commons.wikimedia.org/wiki/File:Garrison_celebrates_Bike_Safety_Month,_Part_3_%E2%80%93_How_motorists_can_protect_cyclists_in_traffic_(7200751).jpg |
 | q-t09-c01-0003.webp | Renault Laguna 01 airbag by-dpc | David Perez | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Renault_Laguna_01_airbag_by-dpc.jpg |
 | q-t09-c02-0003.webp | Flickr - stringer bel - Overloaded car in west Africa | Annabel Symington | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Flickr_-_stringer_bel_-_Overloaded_car_in_west_Africa.jpg |
+| q-t01-c02-0008.webp | Police escort for Clinton motorcade 01 - Akron Ohio - 2016-10-03 (30018178961) | Tim Evanson | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Police_escort_for_Clinton_motorcade_01_-_Akron_Ohio_-_2016-10-03_(30018178961).jpg |
+| q-t01-c05-0008.webp | Narrow road, normal-sized lorry - geograph.org.uk - 5299783 | Christine Johnstone | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Narrow_road,_normal-sized_lorry_-_geograph.org.uk_-_5299783.jpg |
+| q-t01-c06-0007.webp | Car on sidewalk, Kenyongasse, Vienna | Herzi Pinki | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Car_on_sidewalk,_Kenyongasse,_Vienna.jpg |
+| q-t03-c03-0008.webp | De retour au marché avec un sachet de légumes à la main | Thiam Babel Design | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:De_retour_au_march%C3%A9_avec_un_sachet_de_l%C3%A9gumes_%C3%A0_la_main.jpg |
+| q-t05-c02-0006.webp | A bus in Touba | Kateryna Serdiuk | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:A_bus_in_Touba.jpg |
+| q-t08-c01-0003.webp | " 11 - ITALY - strut - Fiat GP Montante | Andrea Pavanello | CC BY-SA 3.0 IT | https://commons.wikimedia.org/wiki/File:%22_11_-_ITALY_-_strut_-_Fiat_GP_Montante.JPG |
 | q-t10-c01-0003.webp | TrafficJamDakar | Ji-Elle | Domaine public | https://commons.wikimedia.org/wiki/File:TrafficJamDakar.jpg |
 | s02.webp | Ligne d'annonce non rectiligne | Roulex 45 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Ligne_d%27annonce_non_rectiligne.JPG |
 | s10.webp | Place Jean-Moulin depuis l'avenue des Graviers (Abrest) | Tabl-trai | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Place_Jean-Moulin_depuis_l%27avenue_des_Graviers_(Abrest)_2024-09-01.JPG |
@@ -201,3 +207,5 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 | n-V2chevrons.webp | Marquage en chevrons blancs sur une chaussée, route de campagne | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-06 | - |
 
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.
+
+Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) : redimensionnement 800 px et recompression ; plaque floutée pour q-t01-c06-0007. CC BY-SA 3.0 IT (q-t08-c01-0003) : https://creativecommons.org/licenses/by-sa/3.0/it/.
