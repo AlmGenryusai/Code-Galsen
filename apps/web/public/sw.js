@@ -118,7 +118,8 @@ self.addEventListener('fetch', (event) => {
 
   if (request.mode === 'navigate') {
     event.respondWith(networkFirstPage(event))
-  } else if (url.pathname.startsWith('/_next/static/') || EXTRA.includes(url.pathname)) {
+  } else if (url.pathname.startsWith('/_next/static/') || url.pathname.startsWith('/media/') || EXTRA.includes(url.pathname)) {
+    // /media/ : photos mises en cache à la 1re vue (pas de précache : ~7 Mo)
     event.respondWith(cacheFirst(request))
   }
 })
