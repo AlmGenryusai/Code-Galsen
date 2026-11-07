@@ -219,6 +219,12 @@
     "theme": "t10",
     "chapter": "t10-c01",
     "context": "Je roule vite, fenêtres grandes ouvertes.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LD06-1.webp",
+      "alt": "Bras du conducteur posé sur la portière, vitre ouverte",
+      "credit": "cogdogblog, CC0, Flickr"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -316,6 +322,12 @@
     "theme": "t10",
     "chapter": "t10-c01",
     "context": "Une galerie de toit vide reste montée.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LD05-1.webp",
+      "alt": "Coccinelle VW avec galerie de toit vide",
+      "credit": "dave_7, CC BY 2.0, Flickr"
+    },
     "parts": [
       {
         "kind": "yesno",
