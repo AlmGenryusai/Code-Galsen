@@ -404,6 +404,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Hors agglomération, je veux faire une pause.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB17.webp",
+      "alt": "Aire de repos d'autoroute avec bancs et tables",
+      "credit": "François GOGLINS, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -430,6 +436,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Le seul accotement est une piste réservée aux cycles.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB05.webp",
+      "alt": "Bande cyclable libre le long d'une file de voitures à l'arrêt",
+      "credit": "Raysonho @ Open Grid Scheduler / Grid Engine, CC0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

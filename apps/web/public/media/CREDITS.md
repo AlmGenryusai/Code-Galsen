@@ -211,3 +211,29 @@ Modifications (u01 à u10, Unsplash License, https://unsplash.com/license) : red
 Modifications (g01 à g04, Pexels License, https://www.pexels.com/license/) : recadrage 4:3 pour g02 et g03, redimensionnement 800 px et recompression, aucun autre changement.
 
 Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) : redimensionnement 800 px et recompression ; plaques floutées pour q-t01-c06-0007 et q-t05-c01-0007. CC BY 2.0 (q-t05-c01-0007) : https://creativecommons.org/licenses/by/2.0/. CC0 (q-t10-c01-0004) : crédit donné par courtoisie. CC BY-SA 3.0 IT (q-t08-c01-0003) : https://creativecommons.org/licenses/by-sa/3.0/it/.
+| n-LB01.webp | Two police car accidents | Gamma Man | CC BY 2.0 | https://www.flickr.com/photos/51625243@N06/5266704311 |
+| n-LB02.webp | Flickr - The U.S. Army - Convoy Operations.jpg | The U.S. Army | Public domain | https://commons.wikimedia.org/wiki/File:Flickr_-_The_U.S._Army_-_Convoy_Operations.jpg |
+| n-LB03.webp | Donkey Cart, Dakhla | D-Stanley | CC BY 2.0 | https://www.flickr.com/photos/79721788@N00/6810158421 |
+| n-LB04.webp | Glen Mona, open level crossing - geograph.org.uk - 4619004.j | Mike Faherty | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Glen_Mona,_open_level_crossing_-_geograph.org.uk_-_4619004.jpg |
+| n-LB05.webp | TrafficJamBikeLane.jpg | Raysonho @ Open Grid Scheduler / Grid Engine | CC0 | https://commons.wikimedia.org/wiki/File:TrafficJamBikeLane.jpg |
+| n-LB09.webp | Sandstorm, Sharjah to Dubai E 611 highway - 03.jpg | en:User:MMuzammils | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Sandstorm,_Sharjah_to_Dubai_E_611_highway_-_03.jpg |
+| n-LB10.webp | Highway in smoke 02.JPG | CambridgeBayWeather | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Highway_in_smoke_02.JPG |
+| n-LB11.webp | Zone piétonne des Bergues (Genève) 6 (50001411567).jpg | RdA Suisse from Suisse | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Zone_pi%C3%A9tonne_des_Bergues_(Gen%C3%A8ve)_6_(50001411567).jpg |
+| n-LB12.webp | CDL - Religious procession in Câmara de Lobos, Madeira, 2023 | Josep M. Gracia | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:CDL_-_Religious_procession_in_C%C3%A2mara_de_Lobos,_Madeira,_2023.jpg |
+| n-LB13.webp | Long Pond Road nb entering Little Summit, PA, April 2025.jpg | Mr. Matté | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Long_Pond_Road_nb_entering_Little_Summit,_PA,_April_2025.jpg |
+| n-LB14.webp | Warning sign - steep descent ahead, Highfield Road, Lydney - | Jaggery | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Warning_sign_-_steep_descent_ahead,_Highfield_Road,_Lydney_-_geograph.org.uk_-_5387908.jpg |
+| n-LB15.webp | Aircraft Warning Lights, near Cranwell Airfield - geograph.o | J.Hannan-Briggs | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Aircraft_Warning_Lights,_near_Cranwell_Airfield_-_geograph.org.uk_-_2953024.jpg |
+| n-LB17.webp | Chantecoq-FR-45-aire autoroutière-aire de repos-1.jpg | François GOGLINS | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Chantecoq-FR-45-aire_autorouti%C3%A8re-aire_de_repos-1.jpg |
+| n-LB19.webp | Cars parked on the steep hill by St Mary's Church, Rydal - g | Gordon Brown | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Cars_parked_on_the_steep_hill_by_St_Mary%27s_Church,_Rydal_-_geograph.org.uk_-_7985727.jpg |
+| n-LB20.webp | Dust storm in Beijing 2006.JPG | Shizhao | CC BY 2.5 | https://commons.wikimedia.org/wiki/File:Dust_storm_in_Beijing_2006.JPG |
+| n-LB21.webp | Car door open on protected bike lane | Richard Drdul | CC BY-SA 2.0 | https://www.flickr.com/photos/20816835@N00/35462957371 |
+| n-LB22.webp | Cracked windshield (6295398911).jpg | runran from An island in the stream | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Cracked_windshield_(6295398911).jpg |
+| n-LB23.webp | Truck blowing exhaust smoke | Matthew Paul Argall | CC BY 2.0 | https://www.flickr.com/photos/79157069@N03/11614912373 |
+| n-LB27.webp | Car dashboard controls show settings for air conditioning li | Shixart1985 | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Car_dashboard_controls_show_settings_for_air_conditioning_lighting_and_other_features.jpg |
+| n-LB28.webp | Gear stick (FIAT 500 Abarth).jpg | Petar Milošević | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Gear_stick_(FIAT_500_Abarth).jpg |
+| n-LB29.webp | Highway 11 bridge debris (36493215244).jpg | USFWS/Southeast | Public domain | https://commons.wikimedia.org/wiki/File:Highway_11_bridge_debris_(36493215244).jpg |
+| n-LB31.webp | Medics conduct first aid refresher training DVIDS187980.jpg | U.S. Army (DVIDS) | Public domain | https://commons.wikimedia.org/wiki/File:Medics_conduct_first_aid_refresher_training_DVIDS187980.jpg |
+| n-LB32.webp | Abi in a space blanket (4746073335).jpg | Paul Holloway from Birmingham, United Kingdom | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Abi_in_a_space_blanket_(4746073335).jpg |
+| n-LB33.webp | USMC-0800114-M-1909N-015.jpg | U.S. Marine Corps | Public domain | https://commons.wikimedia.org/wiki/File:USMC-0800114-M-1909N-015.jpg |
+| n-LB34.webp | Kopfstütze.jpg | Thomas doerfer | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Kopfst%C3%BCtze.jpg |
+| n-LB35.webp | Watch your street (Unsplash).jpg | Nino Ubezio eastplane | CC0 | https://commons.wikimedia.org/wiki/File:Watch_your_street_(Unsplash).jpg |

@@ -239,6 +239,12 @@
     "theme": "t10",
     "chapter": "t10-c01",
     "context": "La climatisation tourne à fond.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB27.webp",
+      "alt": "Commandes de climatisation sur le tableau de bord",
+      "credit": "Shixart1985, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -259,6 +265,12 @@
     "theme": "t10",
     "chapter": "t10-c01",
     "context": "Je change de vitesse.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB28.webp",
+      "alt": "Pommeau de levier de vitesses manuel",
+      "credit": "Petar Milošević, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -344,6 +356,12 @@
     "theme": "t10",
     "chapter": "t10-c01",
     "context": "Mon pot d'échappement fume noir.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB23.webp",
+      "alt": "Camion rejetant une fumée d'échappement",
+      "credit": "Matthew Paul Argall, CC BY 2.0, Flickr"
+    },
     "parts": [
       {
         "kind": "yesno",

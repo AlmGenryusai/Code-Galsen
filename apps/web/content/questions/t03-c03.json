@@ -274,6 +274,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Je suis dans une aire piétonne.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB11.webp",
+      "alt": "Rue piétonne fréquentée (Genève)",
+      "credit": "RdA Suisse from Suisse, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -362,6 +368,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Une procession marche sur la chaussée.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB12.webp",
+      "alt": "Procession religieuse marchant sur la chaussée",
+      "credit": "Josep M. Gracia, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -383,6 +395,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "J'approche d'un sommet de côte. Je ne vois pas ce qui vient.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB13.webp",
+      "alt": "Route montant vers un sommet de côte sans visibilité",
+      "credit": "Mr. Matté, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -436,6 +454,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Près d'un aérodrome, deux feux rouges clignotent devant moi.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB15.webp",
+      "alt": "Route longeant un aérodrome avec feux d'avertissement",
+      "credit": "J.Hannan-Briggs, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -484,6 +508,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Je descends une longue pente. Mes freins chauffent.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB14.webp",
+      "alt": "Panneau de descente dangereuse 12 % avant une route en pente",
+      "credit": "Jaggery, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
