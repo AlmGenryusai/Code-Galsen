@@ -16,7 +16,7 @@ export default function MentionsLegalesPage() {
       <H2>Accès payant</H2>
       <p>4 900 FCFA pour 90 jours, payés par Wave. Le code d&apos;activation est personnel et lié à un appareil.</p>
       <H2>Propriété</H2>
-      <p>Les textes et questions sont la propriété de l&apos;éditeur. Les panneaux et les photos proviennent de Wikimedia Commons, sous leurs licences d&apos;origine : l&apos;auteur et la licence de chaque photo sont indiqués sur la photo.</p>
+      <p>Les textes et questions sont la propriété de l&apos;éditeur. Les photos proviennent de sources tierces (notamment Wikimedia Commons, Pexels, Unsplash), sous leurs licences d&apos;origine : la source de chaque photo est indiquée dans la page Crédits. Pour toute demande de retrait, écris-nous sur WhatsApp.</p>
     </LegalPage>
   )
 }
