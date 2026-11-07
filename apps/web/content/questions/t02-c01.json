@@ -291,9 +291,9 @@
     "context": "De nuit, hors agglomération, je veux dépasser.",
     "media": {
       "kind": "photo",
-      "src": "p30.webp",
-      "alt": "Conduite sur une route sombre la nuit",
-      "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
+      "src": "n-LD10-1.webp",
+      "alt": "Route de campagne de nuit éclairée par les phares",
+      "credit": "Tony Webster from Minneapolis, Minnesota, United States, CC BY 2.0, Wikimedia Commons"
     },
     "parts": [
       {
@@ -446,6 +446,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "Je roule très lentement à cause d'un problème mécanique.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LD02-1.webp",
+      "alt": "Voiture arrêtée dans une ruelle, feux orange allumés à l'avant",
+      "credit": "Lars Plougmann, CC BY-SA 2.0, Flickr"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -527,9 +533,9 @@
     "context": "De nuit, hors agglomération, la route est libre.",
     "media": {
       "kind": "photo",
-      "src": "p30.webp",
-      "alt": "Conduite sur une route sombre la nuit",
-      "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
+      "src": "n-LD10-2.webp",
+      "alt": "Conduite de nuit, virage éclairé par les phares",
+      "credit": "ianmunroe, CC BY 2.0, Flickr"
     },
     "parts": [
       {

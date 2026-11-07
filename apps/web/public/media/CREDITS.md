@@ -247,3 +247,21 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | n-LC07.webp | Bouteille de bière ouverte au volant | Source inconnue | Inconnue (Google Images) | - |
 | n-LC08.webp | Deux cyclistes côte à côte, taxi en arrière-plan | Source inconnue | Inconnue (Google Images) | - |
 | n-LC09.webp | File de voitures garées le long du trottoir en ville (logo r | Source inconnue | Inconnue (Google Images) | - |
+| n-LD02-1.webp | Hazard lights | Lars Plougmann | CC BY-SA 2.0 | https://www.flickr.com/photos/75062596@N00/35780911226 |
+| n-LD04-1.webp | Blocking Driveway 20170921 180546.jpg | 123TheBusHonolulu6969 | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Blocking_Driveway_20170921_180546.jpg |
+| n-LD05-1.webp | 1966 Volkswagen Beetle | dave_7 | CC BY 2.0 | https://www.flickr.com/photos/21612624@N00/14742158469 |
+| n-LD06-1.webp | Being Free Is... | cogdogblog | CC CC0 1.0 | https://www.flickr.com/photos/37996646802@N01/2824429592 |
+| n-LD08-1.webp | Donkey Cart | A.Davey | CC BY 2.0 | https://www.flickr.com/photos/40595948@N00/5066209698 |
+| n-LD08-2.webp | Donkey cart in Mokopane | Meraj Chhaya | CC BY 2.0 | https://www.flickr.com/photos/24215621@N08/11344034936 |
+| n-LD08-3.webp | Palestinian w Donkey Cart | nborun | CC BY 2.0 | https://www.flickr.com/photos/13825417@N00/5274894757 |
+| n-LD09-1.webp | tule fog | emdot | CC BY 2.0 | https://www.flickr.com/photos/35237093637@N01/73257387 |
+| n-LD09-2.webp | Gray at Half Pay | cogdogblog | CC CC0 1.0 | https://www.flickr.com/photos/37996646802@N01/3114745610 |
+| n-LD09-3.webp | Foggy Road | Kullez | CC BY 2.0 | https://www.flickr.com/photos/41819313@N02/6209153944 |
+| n-LD10-1.webp | Headlights - Night Driving on the Gunflint Trail, Minnesota  | Tony Webster from Minneapolis, Minnesota, United States | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Headlights_-_Night_Driving_on_the_Gunflint_Trail,_Minnesota_(41329948150).jpg |
+| n-LD10-2.webp | Night Driving. | ianmunroe | CC BY 2.0 | https://www.flickr.com/photos/86838704@N00/4367643023 |
+| n-LD11-1.webp | Narrow road, normal-sized lorry - geograph.org.uk - 5299783. | Christine Johnstone | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Narrow_road,_normal-sized_lorry_-_geograph.org.uk_-_5299783.jpg |
+| n-LD11-2.webp | She got stuck on some brambles ... (16:50) | wallygrom | CC BY-SA 2.0 | https://www.flickr.com/photos/33037982@N04/29078701714 |
+| n-LD12-1.webp | A dangerous blind bend - evidently - geograph.org.uk - 68840 | Alan Hughes | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:A_dangerous_blind_bend_-_evidently_-_geograph.org.uk_-_6884065.jpg |
+| n-LD12-2.webp | Fast bends on a narrow lane - geograph.org.uk - 2447244.jpg | Richard Law | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Fast_bends_on_a_narrow_lane_-_geograph.org.uk_-_2447244.jpg |
+| n-LD13-1.webp | Bush taxi minibus type.jpg | Inconnu | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Bush_taxi_minibus_type.jpg |
+| n-LD13-2.webp | Transport by bush taxi.jpg | Rakotovaogael | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Transport_by_bush_taxi.jpg |

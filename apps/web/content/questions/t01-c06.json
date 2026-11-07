@@ -384,6 +384,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Je me gare devant l'entrée d'une maison.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LD04-1.webp",
+      "alt": "SUV garé en travers de l'entrée d'une allée privée",
+      "credit": "123TheBusHonolulu6969, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
