@@ -245,5 +245,68 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t05-c04-0009",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "context": "Je roule sans boucler ma ceinture.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mon permis peut être suspendu :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Le défaut de ceinture fait partie des infractions qui peuvent entraîner la suspension du permis.",
+    "legal_ref": "Décret 2004-13, annexe M (art. M19)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t05-c04-0010",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "context": "Je dépasse une voiture par la droite, sans raison.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mon permis peut être suspendu :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Le dépassement par la droite interdit peut entraîner la suspension du permis.",
+    "legal_ref": "Décret 2004-13, annexe M (art. M19) ; art. 18",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t05-c04-0011",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "context": "Après un accident avec blessés graves, je déplace ma voiture sans raison.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est interdit :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Sans danger imminent, on ne modifie pas la position des véhicules avant l'arrivée des autorités.",
+    "legal_ref": "Décret 2004-13, art. 136 et 139",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

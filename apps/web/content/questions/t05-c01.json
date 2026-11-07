@@ -270,5 +270,90 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t05-c01-0009",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "context": "J'ai 17 ans.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux obtenir le permis B :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "L'âge minimum pour le permis B est 18 ans.",
+    "legal_ref": "Décret 2004-13, art. 95",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t05-c01-0010",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "context": "J'ai le permis B. Je veux conduire un minibus de 15 places.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mon permis suffit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le permis B couvre au plus 8 places assises en plus du conducteur. Au-delà, il faut le permis D.",
+    "legal_ref": "Décret 2004-13, art. 94",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t05-c01-0011",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "context": "J'attelle une remorque de 500 kg à ma voiture.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mon permis B suffit :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Avec le permis B, on peut atteler une remorque dont le poids total en charge ne dépasse pas 750 kg.",
+    "legal_ref": "Décret 2004-13, art. 94",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t05-c01-0012",
+    "theme": "t05",
+    "chapter": "t05-c01",
+    "context": "J'ai le permis B. On me propose de conduire un taxi.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mon permis B suffit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le transport public de voyageurs, taxis compris, relève du permis D.",
+    "legal_ref": "Décret 2004-13, art. 94",
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Croire qu'un taxi, voiture de tourisme, se conduit avec le permis B.",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

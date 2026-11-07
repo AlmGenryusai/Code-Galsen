@@ -226,5 +226,87 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Conduire trop loin du volant."
+  },
+  {
+    "id": "t07-c01-0008",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "context": "Je règle mon siège.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'enfonce les pédales à fond, jambes un peu pliées :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Jambes légèrement fléchies pédale enfoncée : vous freinez fort sans tendre la jambe.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t07-c01-0009",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "context": "Je veux coller une photo sur mon pare-brise.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est permis :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "On ne réduit pas la visibilité avec des vignettes ou photos autres que celles prévues par l'administration.",
+    "legal_ref": "Décret 2004-13, art. 62",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t07-c01-0010",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "context": "Avant de partir, mes vitres sont couvertes de poussière.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je les nettoie :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Le conducteur doit voir suffisamment devant, derrière et sur les côtés.",
+    "legal_ref": "Décret 2004-13, art. 62",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t07-c01-0011",
+    "theme": "t07",
+    "chapter": "t07-c01",
+    "context": "J'attache ma ceinture.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "La sangle passe sur l'épaule, pas sur le cou :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Bien placée, la ceinture retient le corps par les os solides : épaule et bassin.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
   }
 ]
