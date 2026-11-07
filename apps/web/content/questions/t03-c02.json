@@ -303,5 +303,143 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "S'arrêter sur la bande pour une pause."
+  },
+  {
+    "id": "t03-c02-0010",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "context": "Je m'insère sur l'autoroute depuis la bretelle.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je cède aux véhicules déjà sur l'autoroute :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Ils doivent me laisser la place :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "L'autoroute a la priorité absolue. Celui qui s'insère cède le passage.",
+    "legal_ref": "Décret 2004-13, art. 1",
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Croire que ceux de l'autoroute doivent laisser entrer.",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c02-0011",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "context": "Sur autoroute, j'ai dépassé. La voie de droite est libre.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je reviens sur la voie de droite :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "On roule sur la voie la plus à droite. La voie de gauche sert à dépasser.",
+    "legal_ref": "Décret 2004-13, art. 3",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c02-0012",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "context": "Une charrette veut entrer sur l'autoroute.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Elle peut y circuler :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "L'autoroute est réservée aux véhicules à moteur de plus de 50 cm³.",
+    "legal_ref": "Décret 2004-13, art. 1",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c02-0013",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "context": "Sur autoroute, la voie de gauche roule lentement.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je dépasse par la droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le dépassement se fait par la gauche. On attend que la voie se libère.",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c02-0014",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "context": "Je suis en panne sur l'autoroute, la nuit.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je place un triangle de pré-signalisation :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Feux de détresse et triangle signalent le véhicule immobilisé.",
+    "legal_ref": "Décret 2004-13, art. 80 et 83",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c02-0015",
+    "theme": "t03",
+    "chapter": "t03-c02",
+    "context": "Je vois ce panneau avant le péage.",
+    "media": {
+      "kind": "sign",
+      "src": "c62",
+      "alt": "Péage : ticket à prendre",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je me prépare à m'arrêter :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Au poste de péage, l'arrêt est obligatoire.",
+    "legal_ref": "Décret 2004-13, annexe P4 (B5c)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

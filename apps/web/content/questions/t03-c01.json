@@ -407,5 +407,185 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Freiner brutalement sur route mouillée."
+  },
+  {
+    "id": "t03-c01-0012",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Forte pluie, en plein jour.",
+    "parts": [
+      {
+        "text": "J'allume :",
+        "options": [
+          {
+            "id": "A",
+            "text": "mes feux de croisement"
+          },
+          {
+            "id": "B",
+            "text": "rien : il fait jour"
+          },
+          {
+            "id": "C",
+            "text": "mes feux de position seuls"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "De jour aussi, on allume les feux quand la visibilité l'exige. Les feux de position seuls ne suffisent pas hors éclairage public.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c01-0013",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Une fumée de feu de brousse traverse la route.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je réduis ma vitesse :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "La fumée réduit la visibilité : vitesse réduite, prêt à s'arrêter.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c01-0014",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Les phares d'en face m'éblouissent.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis et regarde le bord droit :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Ébloui, vous ne voyez plus la route : ralentissez et fixez le bord droit jusqu'au croisement.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c01-0015",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Il pleut fort. Mes essuie-glaces ne nettoient plus bien.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux continuer ainsi :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "L'essuie-glace doit permettre de voir distinctement la route. Faites-le changer.",
+    "legal_ref": "Décret 2004-13, art. 64",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c01-0016",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Une grande flaque couvre la route.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis avant la flaque :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je freine fort dans l'eau :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Dans l'eau, les pneus peuvent perdre le contact avec la route (aquaplaning). On ralentit avant et on évite de freiner fort.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c01-0017",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "Je sors d'une route inondée. Mes freins sont mouillés.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je freine doucement pour les sécher :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Mouillés, les freins sont moins efficaces. Quelques freinages légers les sèchent.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c01-0018",
+    "theme": "t03",
+    "chapter": "t03-c01",
+    "context": "De nuit, je roule sur une piste sans éclairage.",
+    "parts": [
+      {
+        "text": "Je règle ma vitesse sur :",
+        "options": [
+          {
+            "id": "A",
+            "text": "la portée de mes feux"
+          },
+          {
+            "id": "B",
+            "text": "la limite de la route"
+          },
+          {
+            "id": "C",
+            "text": "la vitesse du véhicule devant"
+          }
+        ],
+        "correct": [
+          "A"
+        ]
+      }
+    ],
+    "explanation": "La nuit, vous devez pouvoir vous arrêter dans la zone éclairée par vos feux.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]
