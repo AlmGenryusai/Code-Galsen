@@ -280,6 +280,12 @@
     "theme": "t05",
     "chapter": "t05-c02",
     "context": "La nuit, une partie de mon chargement tombe sur la chaussée.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB29.webp",
+      "alt": "Amas de débris en travers d'une chaussée",
+      "credit": "USFWS/Southeast, Public domain, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

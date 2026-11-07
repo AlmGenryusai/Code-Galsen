@@ -524,6 +524,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Un passage à niveau sans barrière arrive. Un camion lent est devant.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB04.webp",
+      "alt": "Route rurale menant à un passage à niveau sans barrière",
+      "credit": "Mike Faherty, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

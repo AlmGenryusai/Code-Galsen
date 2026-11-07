@@ -544,6 +544,12 @@
     "theme": "t01",
     "chapter": "t01-c03",
     "context": "Je roule en voiture. Une piste cyclable longe la route bouchée.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB05.webp",
+      "alt": "Bande cyclable libre le long d'une file de voitures à l'arrêt",
+      "credit": "Raysonho @ Open Grid Scheduler / Grid Engine, CC0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

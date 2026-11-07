@@ -210,6 +210,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Une victime saigne beaucoup d'une jambe.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB31.webp",
+      "alt": "Pose d'un bandage compressif sur une jambe",
+      "credit": "U.S. Army (DVIDS), Public domain, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -365,6 +371,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Un danger imminent m'oblige à déplacer un véhicule accidenté.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB33.webp",
+      "alt": "Collision entre deux voitures, fumée sous le capot",
+      "credit": "U.S. Marine Corps, Public domain, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -386,6 +398,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Une victime consciente tremble et a froid.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB32.webp",
+      "alt": "Victime allongée couverte d'une couverture de survie",
+      "credit": "Paul Holloway from Birmingham, United Kingdom, CC BY-SA 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -406,6 +424,12 @@
     "theme": "t06",
     "chapter": "t06-c01",
     "context": "Un véhicule accidenté fume.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LB33.webp",
+      "alt": "Collision entre deux voitures, fumée sous le capot",
+      "credit": "U.S. Marine Corps, Public domain, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
