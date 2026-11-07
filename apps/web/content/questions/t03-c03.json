@@ -338,5 +338,152 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Freiner brusquement sur le ralentisseur."
+  },
+  {
+    "id": "t03-c03-0012",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "context": "Une procession marche sur la chaussée.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis pour la croiser :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "On réduit sa vitesse pour croiser ou dépasser un groupe de piétons.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c03-0013",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "context": "J'approche d'un sommet de côte. Je ne vois pas ce qui vient.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je dépasse vite avant le sommet :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Au sommet d'une côte, la visibilité manque : vitesse réduite et dépassement interdit.",
+    "legal_ref": "Décret 2004-13, art. 13 et 21",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c03-0014",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "context": "Ce panneau est avant un virage à flanc de colline.",
+    "media": {
+      "kind": "sign",
+      "src": "a1b",
+      "alt": "Virage à gauche",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis avant le virage :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "On aborde les virages à vitesse réduite, avant d'y entrer.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A1b) ; art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c03-0015",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "context": "Près d'un aérodrome, deux feux rouges clignotent devant moi.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Les feux rouges clignotants signalent un aérodrome ou un passage à niveau : arrêt absolu.",
+    "legal_ref": "Décret 2004-13, annexe P6 et P7",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c03-0016",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "context": "Je vois ce panneau.",
+    "media": {
+      "kind": "sign",
+      "src": "a23",
+      "alt": "Passage d",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Des avions peuvent passer à basse altitude :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Ce panneau annonce une zone de passage d'avions à basse altitude. Le bruit soudain peut surprendre.",
+    "legal_ref": "Décret 2004-13, annexe P3 (A23)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t03-c03-0017",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "context": "Je descends une longue pente. Mes freins chauffent.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'utilise le frein moteur :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je descends au point mort :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le frein moteur (rapport plus bas) retient la voiture sans chauffer les freins. Au point mort, rien ne retient.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
   }
 ]

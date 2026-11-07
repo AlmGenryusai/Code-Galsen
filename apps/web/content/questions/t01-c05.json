@@ -395,5 +395,255 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Dépasser à l'approche d'une côte."
+  },
+  {
+    "id": "t01-c05-0012",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Route à trois voies. Une voiture occupe la voie du milieu pour dépasser.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'attends qu'elle libère la voie :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je m'y engage aussi pour dépasser :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Sur trois voies, on n'utilise la voie du milieu que si personne n'y dépasse déjà.",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0013",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "De jour, hors agglomération, je vais dépasser.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je mets mon clignotant gauche :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux prévenir d'un coup de klaxon :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Vous prévenez ceux qui suivent avec le clignotant. De jour, vous pouvez avertir celui que vous dépassez au klaxon, si ce n'est pas interdit.",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0014",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Je viens de dépasser une voiture.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je me rabats juste devant elle :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je reviens à droite sans la gêner :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "On ne revient à droite que sans gêner celui qu'on a dépassé. Se rabattre trop tôt est une infraction (queue de poisson).",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0015",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Une voiture lente roule devant moi, juste avant un carrefour.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je la dépasse avant le carrefour :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le dépassement est interdit aux intersections.",
+    "legal_ref": "Décret 2004-13, art. 21",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0016",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Un passage à niveau sans barrière arrive. Un camion lent est devant.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je le dépasse avant la voie ferrée :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je reste derrière lui :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Il est interdit de dépasser à la traversée d'une voie ferrée non gardée.",
+    "legal_ref": "Décret 2004-13, art. 21",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0017",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Une voiture me dépasse. Une autre arrive en face.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ralentis pour l'aider à se rabattre :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je garde ma vitesse :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Celui qui est dépassé serre à droite, n'accélère pas et ralentit au besoin.",
+    "legal_ref": "Décret 2004-13, art. 19",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0018",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Sur une route à une voie, un véhicule veut me dépasser.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je laisse la gauche libre :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux prendre l'accotement si nécessaire :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Sur une voie unique, celui qui est dépassé laisse libre la partie gauche, par l'accotement si nécessaire.",
+    "legal_ref": "Décret 2004-13, art. 19",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0019",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Route à double sens à trois voies. Je dépasse.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'utilise la voie la plus à gauche :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'utilise la voie du milieu si elle est libre :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Sur une chaussée à double sens de plus de deux voies, on ne prend pas la voie la plus à gauche pour dépasser.",
+    "legal_ref": "Décret 2004-13, art. 18 et 22",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0020",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "La nuit, en ville, je veux avertir que je dépasse.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'alterne croisement et position :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'alterne avec les feux de route :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "En agglomération, on alterne seulement feux de croisement et feux de position. Les feux de route éblouissent.",
+    "legal_ref": "Décret 2004-13, art. 18",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c05-0021",
+    "theme": "t01",
+    "chapter": "t01-c05",
+    "context": "Je croise un véhicule sur une route à plusieurs voies.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je serre le bord droit autant que possible :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Pour croiser sur plusieurs voies, on serre au maximum le bord droit, selon la présence des autres usagers.",
+    "legal_ref": "Décret 2004-13, art. 17",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

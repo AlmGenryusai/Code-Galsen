@@ -442,5 +442,161 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Rester sur la voie de gauche sans dépasser."
+  },
+  {
+    "id": "t01-c03-0014",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "Je vais tourner à droite.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je serre le bord droit de la chaussée :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je m'écarte à gauche pour mieux tourner :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Pour tourner à droite, on serre le bord droit, sauf si le véhicule est trop long.",
+    "legal_ref": "Décret 2004-13, art. 26",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c03-0015",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "Je vais tourner à gauche sur une route à double sens.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je serre vers le milieu de la chaussée :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je serre à droite avant de tourner :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Pour tourner à gauche, on se place vers le milieu : ceux qui suivent peuvent vous dépasser par la droite.",
+    "legal_ref": "Décret 2004-13, art. 27",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c03-0016",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "J'attends pour tourner à gauche. Des voitures arrivent en face.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Ma voiture reste parallèle à la route :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'amorce déjà mon virage :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "En attendant, on n'amorce pas le virage : la voiture reste parallèle à la route pour ne gêner aucun sens.",
+    "legal_ref": "Décret 2004-13, art. 27",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c03-0017",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "Je roule en voiture. Une piste cyclable longe la route bouchée.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je l'emprunte pour avancer :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Chaque usager reste sur la voie de sa catégorie :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Chacun emprunte la chaussée, la piste ou le trottoir prévu pour sa catégorie, sauf force majeure.",
+    "legal_ref": "Décret 2004-13, art. 11",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c03-0018",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "Lignes discontinues. Je veux tourner à gauche vers une cour.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux franchir la ligne à ma gauche :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je franchis une ligne continue pour tourner :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "On franchit une ligne discontinue pour dépasser ou traverser la chaussée. Une ligne continue ne se franchit jamais.",
+    "legal_ref": "Décret 2004-13, art. 4 et 5",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c03-0019",
+    "theme": "t01",
+    "chapter": "t01-c03",
+    "context": "Je suis seul sur une route à deux voies dans mon sens.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je roule sur la voie de droite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je roule à cheval sur la ligne :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le conducteur seul prend la voie la plus à droite et ne chevauche pas les lignes.",
+    "legal_ref": "Décret 2004-13, art. 3",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

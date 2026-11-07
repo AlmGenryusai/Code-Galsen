@@ -343,5 +343,230 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Klaxonner la nuit pour tout."
+  },
+  {
+    "id": "t02-c01-0012",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Un cycliste devant moi lève le bras gauche vers le haut.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il va tourner à droite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il va tourner à gauche :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le bras levé vers le haut annonce un virage du côté opposé au bras.",
+    "legal_ref": "Décret 2004-13, art. 8",
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Croire que le bras gauche annonce toujours la gauche.",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0013",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Le conducteur d'une charrette baisse le bras vers le sol.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il va ralentir ou s'arrêter :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il me laisse passer :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le bras vers le bas annonce un ralentissement ou un arrêt.",
+    "legal_ref": "Décret 2004-13, art. 8",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0014",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Je suis le dernier d'une file arrêtée sur une route rapide.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'allume mes feux de détresse :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Ces feux sont réservés aux pannes :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Les feux de détresse préviennent aussi quand on est le dernier d'une file en fort ralentissement.",
+    "legal_ref": "Décret 2004-13, art. 80",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0015",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Je roule très lentement à cause d'un problème mécanique.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux allumer mes feux de détresse :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Les feux de détresse signalent un véhicule à allure fortement réduite.",
+    "legal_ref": "Décret 2004-13, art. 80",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0016",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Un camion garé me cache la vue au carrefour.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'avance à allure modérée :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe vite pour réduire le risque :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "À l'approche d'une intersection, on ralentit d'autant plus que la visibilité est mauvaise.",
+    "legal_ref": "Décret 2004-13, art. 25",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0017",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "En ville, de jour, je klaxonne.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mes coups de klaxon sont brefs :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux klaxonner longuement dans un bouchon :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "En agglomération, les signaux sonores sont brefs et très modérés.",
+    "legal_ref": "Décret 2004-13, art. 89",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0018",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "De nuit, hors agglomération, la route est libre.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'utilise mes feux de route :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Une voiture arrive : je passe en croisement :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Feux de route sur route libre. On passe en croisement pour croiser ou suivre de près un véhicule.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0019",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "De jour, un vent de sable réduit la visibilité.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'allume mes feux :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Les feux ne servent que la nuit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "De jour aussi, on allume les feux quand les circonstances l'exigent.",
+    "legal_ref": "Décret 2004-13, art. 82",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c01-0020",
+    "theme": "t02",
+    "chapter": "t02-c01",
+    "context": "Je vais ralentir fortement.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je vérifie d'abord derrière moi :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Avant un changement important d'allure, on s'assure qu'il est sans danger, puis on avertit.",
+    "legal_ref": "Décret 2004-13, art. 8",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]
