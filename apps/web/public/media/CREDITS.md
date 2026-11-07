@@ -265,3 +265,4 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | n-LD12-2.webp | Fast bends on a narrow lane - geograph.org.uk - 2447244.jpg | Richard Law | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Fast_bends_on_a_narrow_lane_-_geograph.org.uk_-_2447244.jpg |
 | n-LD13-1.webp | Bush taxi minibus type.jpg | Inconnu | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Bush_taxi_minibus_type.jpg |
 | n-LD13-2.webp | Transport by bush taxi.jpg | Rakotovaogael | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Transport_by_bush_taxi.jpg |
+| n-Cfeu-vert.webp | Feu vert, trois feux sur fond de ciel | Source inconnue (Google Images) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |

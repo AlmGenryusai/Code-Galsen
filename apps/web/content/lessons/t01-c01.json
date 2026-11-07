@@ -199,6 +199,36 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n-Cfeu-vert.webp",
+            "alt": "Feu vert",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Feu vert : voie libre."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "q-t01-c01-0019.webp",
+            "alt": "Feu jaune allumé",
+            "credit": "Xosema, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Feu jaune : j'annonce l'arrêt."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bfeux.webp",
+            "alt": "Feu rouge en ville, voiture à l'arrêt",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Feu rouge : je m'arrête."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p21.webp",
             "alt": "Feu vert en flèche à un carrefour",
             "credit": "DanTD, CC BY 4.0, via Wikimedia Commons"
@@ -236,16 +266,6 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Les marques au sol guident ma trajectoire."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Bfeux.webp",
-            "alt": "Feu rouge en ville, voiture à l'arrêt",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Feu rouge : je m'arrête."
         },
         {
           "type": "memo",
