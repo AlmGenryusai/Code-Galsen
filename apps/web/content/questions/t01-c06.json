@@ -85,6 +85,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Je cherche où me garer.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LC09.webp",
+      "alt": "File de voitures garées le long du trottoir en ville",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "text": "Je ne me gare pas près :",

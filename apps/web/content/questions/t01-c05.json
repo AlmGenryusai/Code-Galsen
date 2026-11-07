@@ -96,6 +96,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Je dépasse un cycliste, un piéton ou une charrette.",
+    "media": {
+      "kind": "photo",
+      "src": "n-LC08.webp",
+      "alt": "Deux cyclistes côte à côte, taxi en arrière-plan",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
