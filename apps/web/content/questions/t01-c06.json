@@ -328,5 +328,104 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Démarrer sans regarder ni signaler."
+  },
+  {
+    "id": "t01-c06-0011",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "context": "La nuit, je me gare sur une route sans éclairage.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Mon véhicule doit être signalé par ses feux :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Il est visible, rien à allumer :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "La nuit, un véhicule en stationnement est signalé par un feu de position et un feu arrière, ou par un feu de stationnement.",
+    "legal_ref": "Décret 2004-13, art. 83",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c06-0012",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "context": "Je me gare devant l'entrée d'une maison.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je ne dois pas gêner l'accès :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux bloquer l'entrée un court moment :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Un véhicule en stationnement ne doit pas entraver l'accès des immeubles riverains.",
+    "legal_ref": "Décret 2004-13, art. 32",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c06-0013",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "context": "Hors agglomération, je veux faire une pause.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je stationne sur l'accotement :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je reste sur la chaussée, feux allumés :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Hors agglomération, le stationnement sur la chaussée est interdit, sauf force majeure.",
+    "legal_ref": "Décret 2004-13, art. 31",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c06-0014",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "context": "Le seul accotement est une piste réservée aux cycles.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'y gare :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "On se range sur un accotement non affecté à une circulation spéciale.",
+    "legal_ref": "Décret 2004-13, art. 32",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

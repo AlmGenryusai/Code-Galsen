@@ -370,5 +370,127 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Croire qu'on peut repartir « doucement »."
+  },
+  {
+    "id": "t02-c02-0012",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "context": "J'ai bu deux bières il y a une heure.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux conduire si je me sens bien :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux dépasser le seuil sans le sentir :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Le seuil légal est 0,20 g/L de sang. On peut le dépasser sans se sentir ivre.",
+    "legal_ref": "loi 2022-04, L.84",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c02-0013",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "context": "Mon téléphone sonne pendant que je roule.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je le prends en main pour répondre vite :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête en lieu sûr pour répondre :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Tenir son téléphone en main en conduisant est interdit.",
+    "legal_ref": "loi 2022-04, L.57",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c02-0014",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "context": "Je prends un médicament qui donne sommeil.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux conduire normalement :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je lis la notice avant de conduire :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Certains médicaments réduisent la vigilance. Lisez la notice et demandez conseil au médecin ou au pharmacien.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c02-0015",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "context": "Je conduis depuis trois heures sans pause.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je fais une pause :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Un café remplace le repos :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "La fatigue réduit l'attention. Seul le repos la fait passer.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t02-c02-0016",
+    "theme": "t02",
+    "chapter": "t02-c02",
+    "context": "Je suis très en colère après une dispute.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'attends d'être calme pour partir :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "La colère pousse à prendre des risques. Mieux vaut attendre d'être calme avant de conduire.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
   }
 ]

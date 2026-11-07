@@ -360,5 +360,162 @@
       "moniteur": "2026-11-03",
       "juriste": "2026-11-03"
     }
+  },
+  {
+    "id": "t01-c04-0012",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "context": "En agglomération, il pleut.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Ma limite reste 50 km/h :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux devoir rouler moins vite :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "En agglomération, la limite reste 50 km/h sous la pluie. Mais vous réduisez votre vitesse si les conditions l'exigent.",
+    "legal_ref": "loi 2022-04, L.58 ; décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c04-0013",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "context": "Route à double sens sans séparateur. Il pleut. Je suis en voiture.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 70 km/h :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Elle reste à 90 km/h :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Sur route à double sens sans séparateur : 90 km/h par temps normal, 70 km/h par pluie.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c04-0014",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "context": "Sur autoroute, il y a du brouillard. Je vois à 40 mètres.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Ma vitesse maximale est de 50 km/h :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux rouler à 100 km/h :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Avec une visibilité inférieure à 50 mètres, la limite est 50 km/h, même sur autoroute.",
+    "legal_ref": "loi 2022-04, L.58",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c04-0015",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "context": "Je traverse un village sur une route nationale.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je roule à vitesse réduite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "La limite de la nationale s'applique :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Dans l'agglomération, la limite est 50 km/h et la vitesse doit être réduite.",
+    "legal_ref": "loi 2022-04, L.60 ; décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Garder la vitesse de la route en traversant un village.",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c04-0016",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "context": "La nuit, hors agglomération, je roule en feux de croisement.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je réduis ma vitesse :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je garde ma vitesse de jour :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Avec les feux de croisement, on voit moins loin : la vitesse doit être réduite.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c04-0017",
+    "theme": "t01",
+    "chapter": "t01-c04",
+    "context": "Je roule à 50 km/h en ville. Des enfants jouent au bord.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux devoir rouler sous la limite :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Respecter la limite suffit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "La limite est un maximum. Vous réglez votre vitesse sur les obstacles prévisibles.",
+    "legal_ref": "Décret 2004-13, art. 13",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]

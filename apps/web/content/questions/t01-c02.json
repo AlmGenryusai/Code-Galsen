@@ -516,5 +516,376 @@
       "moniteur": "2026-11-06",
       "juriste": "2026-11-06"
     }
+  },
+  {
+    "id": "t01-c02-0016",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Le feu jaune clignote. Une voiture arrive à ma droite.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je lui cède le passage :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le feu clignotant me donne la priorité :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Au feu jaune clignotant, la priorité à droite s'applique.",
+    "legal_ref": "Décret 2004-13, art. 28 ; annexe P7",
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Croire que le feu clignotant donne la priorité.",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0017",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Je sors d'une station-service vers la route.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête d'abord :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'ai la priorité, je viens de droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "La sortie d'une station-service est un chemin privé : on marque un temps d'arrêt et on cède le passage.",
+    "legal_ref": "Décret 2004-13, art. 1 et 7",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0018",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Je suis dans le rond-point. Une voiture attend à l'entrée, à ma droite.",
+    "media": {
+      "kind": "sign",
+      "src": "sens-giratoire",
+      "alt": "Carrefour à sens giratoire",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je garde la priorité :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Elle passe, elle vient de droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Dans un carrefour à sens giratoire, celui qui est déjà engagé est prioritaire.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0019",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Je tourne à gauche. Une moto arrive en face, tout droit.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je la laisse passer :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe, mon clignotant est mis :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Pour tourner à gauche, on cède le passage aux véhicules qui viennent en sens inverse. Le clignotant ne donne aucune priorité.",
+    "legal_ref": "Décret 2004-13, art. 27",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0020",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Une voiture de police, sirène en marche, me suit dans un bouchon.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je dois faciliter son passage :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je peux la dépasser si elle ralentit :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "On cède immédiatement le passage aux véhicules prioritaires qui utilisent leur sirène. Il est interdit de les dépasser.",
+    "legal_ref": "Décret 2004-13, art. 29",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0021",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Je roule sur cette route. Au carrefour, l'autre route a un STOP.",
+    "media": {
+      "kind": "sign",
+      "src": "route-prioritaire",
+      "alt": "Route à caractère prioritaire",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Le conducteur au STOP doit me céder :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je dois m'arrêter aussi :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le conducteur au STOP s'arrête et cède à ceux de la route prioritaire.",
+    "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (AB6)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0022",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Au STOP, j'ai marqué l'arrêt. Une voiture arrive à ma gauche.",
+    "media": {
+      "kind": "sign",
+      "src": "stop",
+      "alt": "Stop",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je lui cède le passage :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Après l'arrêt, j'ai la priorité :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Au STOP, on s'arrête puis on cède à tous les conducteurs de l'autre route, de droite comme de gauche.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Croire que l'arrêt donne la priorité.",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0023",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Une voiture arrive à ma gauche sur l'autre route.",
+    "media": {
+      "kind": "sign",
+      "src": "cedez-le-passage",
+      "alt": "Cédez le passage",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je lui cède le passage :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je cède seulement à ceux de droite :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Au cédez-le-passage, on cède à tous les conducteurs de l'autre route, quel que soit leur sens.",
+    "legal_ref": "Décret 2004-13, art. 28",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0024",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Un convoi militaire traverse le carrefour.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'insère entre deux camions :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "J'attends que tout le convoi soit passé :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Il est interdit de couper une colonne militaire ou un cortège en marche.",
+    "legal_ref": "Décret 2004-13, art. 30",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0025",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Carrefour sans panneau. Une charrette arrive à ma droite.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je lui cède le passage :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe, elle est plus lente :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le conducteur d'une charrette est un conducteur. Sans signalisation, on cède à celui qui vient de droite.",
+    "legal_ref": "Décret 2004-13, art. 1 et 28",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0026",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "Le garde du passage à niveau me fait signe d'arrêter.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'obéis au garde :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe avant la fermeture :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Au passage à niveau gardé, on obéit au garde et on ne gêne pas la fermeture des barrières.",
+    "legal_ref": "Décret 2004-13, art. 12",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0027",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "J'ai le feu vert. Des piétons finissent de traverser devant moi.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je les laisse finir :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Le vert me donne la priorité sur eux :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le vert vous autorise à passer, sans danger pour les piétons déjà engagés.",
+    "legal_ref": "Décret 2004-13, art. 13 ; annexe F3",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c02-0028",
+    "theme": "t01",
+    "chapter": "t01-c02",
+    "context": "J'arrive à ce rond-point. Une voiture vient de ma gauche dans l'anneau.",
+    "media": {
+      "kind": "sign",
+      "src": "sens-giratoire",
+      "alt": "Carrefour à sens giratoire",
+      "credit": "Code Galsen"
+    },
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je lui cède le passage :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe, elle vient de gauche :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Dans le giratoire, celui qui est engagé passe, même s'il vient de gauche.",
+    "legal_ref": "Décret 2004-13, art. 28 ; annexe P3 (A25)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "common_mistake": "Appliquer la priorité à droite dans un giratoire.",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
   }
 ]
