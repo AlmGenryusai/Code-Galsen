@@ -7,11 +7,12 @@ import { FREE_THEME } from '@/lib/license/license'
 import { themeTitle } from '@/lib/quiz/taxonomy'
 import { activate, type ActivationError } from '@/lib/license/activate'
 import { useLicense } from '@/lib/license/use-license'
+import { PLANS, formatPrice, planLabel, type Plan } from '@/lib/license/plans'
 
 interface Props {
   themeCount: number
   questionCount: number
-  wavePaymentUrl: string // vide → bouton masqué
+  waveUrls: Record<Plan['months'], string> // lien Wave par formule ; vide → commande WhatsApp
   supportWhatsapp: string // numéro international sans « + » ; vide → lien masqué
 }
 
@@ -44,9 +45,14 @@ const buttonStyle = {
   cursor: 'pointer',
 } as const
 
-export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supportWhatsapp }: Props) {
+export function ActivationView({ themeCount, questionCount, waveUrls, supportWhatsapp }: Props) {
   const [code, setCode] = useState('')
   const [status, setStatus] = useState<Status>('idle')
+  const [plan, setPlan] = useState<Plan>(PLANS[PLANS.length - 1])
+  const waveUrl = waveUrls[plan.months]
+  const orderUrl = supportWhatsapp
+    ? `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent(`Bonjour, je veux la formule ${plan.months} mois (${formatPrice(plan.price).replace(/\u00a0/g, ' ')}).`)}`
+    : ''
   const [activatedUntil, setActivatedUntil] = useState<number | null>(null)
   const license = useLicense()
   const activeUntil = activatedUntil ?? (license.active ? license.expiresAt : null)
@@ -115,18 +121,59 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
         border: '1px solid hsl(var(--border))',
         borderRadius: 'var(--radius)',
       }}>
-        <div style={{ fontSize: 28, fontWeight: 800, color: 'hsl(var(--text))' }}>4&nbsp;900 FCFA</div>
-        <div style={{ fontSize: 14, color: 'hsl(var(--muted))', marginBottom: wavePaymentUrl ? 14 : 0 }}>pour 90 jours</div>
-        {wavePaymentUrl && (
+        <div role="radiogroup" aria-label="Formule" style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {PLANS.map((p) => {
+            const selected = p.months === plan.months
+            const best = p === PLANS[PLANS.length - 1]
+            return (
+              <button
+                key={p.months}
+                type="button"
+                role="radio"
+                aria-checked={selected}
+                onClick={() => setPlan(p)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  gap: 8,
+                  minHeight: 56,
+                  padding: '10px 14px',
+                  borderRadius: 'var(--radius)',
+                  border: `${selected ? 2 : 1}px solid hsl(var(${selected ? '--primary-h' : '--border'}))`,
+                  background: 'hsl(var(--bg))',
+                  color: 'hsl(var(--text))',
+                  fontFamily: 'var(--font-sans)',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                }}
+              >
+                <span>
+                  <span style={{ display: 'block', fontSize: 16, fontWeight: 700 }}>{planLabel(p)}</span>
+                  {best && (
+                    <span style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'hsl(var(--success))' }}>
+                      Le plus avantageux
+                    </span>
+                  )}
+                </span>
+                <span style={{ fontSize: 18, fontWeight: 800 }}>{formatPrice(p.price)}</span>
+              </button>
+            )
+          })}
+        </div>
+        {(waveUrl || orderUrl) && (
           <a
-            href={wavePaymentUrl}
+            href={waveUrl || orderUrl}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ ...buttonStyle, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}
+            style={{ ...buttonStyle, marginTop: 14, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}
           >
-            Payer avec Wave
+            {waveUrl ? `Payer ${formatPrice(plan.price)} avec Wave` : 'Commander sur WhatsApp'}
           </a>
         )}
+        <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10 }}>
+          Le code est envoyé sur WhatsApp. La durée démarre à l&apos;activation.
+        </p>
       </div>
 
       {activeUntil !== null ? (
@@ -145,25 +192,6 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
         </div>
       ) : (
         <form onSubmit={handleSubmit} noValidate style={{ marginTop: 24 }}>
-          {!wavePaymentUrl && supportWhatsapp && (
-            <a
-              href={`https://wa.me/${supportWhatsapp}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                minHeight: 44,
-                marginBottom: 8,
-                fontSize: 14,
-                fontWeight: 600,
-                color: 'hsl(var(--primary-h))',
-                textDecoration: 'none',
-              }}
-            >
-              Pour obtenir un code, écris-nous sur WhatsApp
-            </a>
-          )}
           <label htmlFor="code" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: 'hsl(var(--text))', marginBottom: 8 }}>
             Code d&apos;activation
           </label>

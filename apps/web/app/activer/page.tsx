@@ -8,7 +8,11 @@ export default function ActiverPage() {
     <ActivationView
       themeCount={themes.length}
       questionCount={themes.reduce((s, t) => s + t.count, 0)}
-      wavePaymentUrl={process.env.NEXT_PUBLIC_WAVE_PAYMENT_URL ?? ''}
+      waveUrls={{
+        1: process.env.NEXT_PUBLIC_WAVE_URL_1_MOIS ?? '',
+        2: process.env.NEXT_PUBLIC_WAVE_URL_2_MOIS ?? '',
+        3: process.env.NEXT_PUBLIC_WAVE_URL_3_MOIS ?? '',
+      }}
       supportWhatsapp={process.env.NEXT_PUBLIC_SUPPORT_WHATSAPP ?? ''}
     />
   )

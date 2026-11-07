@@ -6,7 +6,7 @@
 
 PWA mobile-first, hors ligne, préparation à l'examen théorique du permis **B** au **Sénégal**. Français uniquement en V1.
 
-- Prix : **4 900 FCFA / 90 jours**, paiement Wave (lien de paiement Business), activation par code.
+- Prix : **1 mois 2 500 · 2 mois 3 500 · 3 mois 4 000 FCFA** (durée portée par le code, `licenses.duration_days`), paiement Wave (lien de paiement Business), activation par code.
 - Gratuit : 1 thème + 1 examen blanc. Payant : tout le reste.
 - Cible terrain : Android d'entrée de gamme, réseau faible, peu de RAM.
 - Ne remplace pas l'auto-école (obligatoire, loi 2022-04). Ne délivre aucun certificat.
@@ -72,7 +72,7 @@ pnpm --filter web build
 pnpm --filter web typecheck
 pnpm --filter web lint
 pnpm --filter web test
-node scripts/generate-codes.mjs 50   # 50 codes (max 500) → codes/*.sql + .csv (gitignoré)
+node scripts/generate-codes.mjs 50 3 # 50 codes 3 mois (max 500 ; mois 1|2|3) → codes/*.sql + .csv (gitignoré)
 ```
 
 ## Structure

@@ -2,7 +2,7 @@
 
 PWA mobile-first, hors ligne, pour préparer l'examen théorique du permis **B** au **Sénégal**. Français uniquement en V1.
 
-**Modèle :** 4 900 FCFA · 90 jours · paiement Wave (lien de paiement Business), activation par code. Gratuit : 1 thème + 1 examen blanc.
+**Modèle :** 3 formules (1 mois 2 500 · 2 mois 3 500 · 3 mois 4 000 FCFA) · paiement Wave (lien de paiement Business), activation par code. Gratuit : 1 thème + 1 examen blanc.
 
 Préparation à l'examen : ne remplace pas l'auto-école et ne délivre aucun certificat.
 

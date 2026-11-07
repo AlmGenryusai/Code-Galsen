@@ -81,6 +81,12 @@ describe('fonction activate', () => {
     expect(ok).toBe(true)
   })
 
+  it.each([[30], [60], [90]])('formule %i jours → exp = activation + durée du code', async (days) => {
+    rows.set(CODE, { code: CODE, device_id: null, activated_at: null, expires_at: null, duration_days: days })
+    const { license } = await (await post({ code: CODE, deviceId: DEV_A })).json()
+    expect(payloadOf(license).exp).toBe(Math.floor(NOW.getTime() / 1000) + days * DAY)
+  })
+
   it('même appareil → même licence (même exp)', async () => {
     const first = await (await post({ code: CODE, deviceId: DEV_A })).json()
     const again = await post({ code: CODE, deviceId: DEV_A })
