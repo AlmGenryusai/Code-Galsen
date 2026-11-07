@@ -119,6 +119,12 @@
     "theme": "t10",
     "chapter": "t10-c01",
     "context": "J'ai une charge inutile dans mon véhicule.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t10-c01-0004.webp",
+      "alt": "Break vue de l'arrière avec un coffre de toit, dans la circulation",
+      "credit": "Retired electrician, CC0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
