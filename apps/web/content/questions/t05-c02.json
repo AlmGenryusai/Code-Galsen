@@ -107,6 +107,12 @@
     "theme": "t05",
     "chapter": "t05-c02",
     "context": "Je transporte du sable ou du ciment.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t05-c02-0004.webp",
+      "alt": "Camion benne jaune qui roule sur une route en ville",
+      "credit": "Livingstone Imonitie, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "text": "Je les :",

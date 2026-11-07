@@ -96,6 +96,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Je dépasse un cycliste, un piéton ou une charrette.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c05-0003.webp",
+      "alt": "Vue depuis une voiture qui suit un cycliste sur une route de ville, voiture en face",
+      "credit": "Xboxrocker84, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

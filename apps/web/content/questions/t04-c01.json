@@ -102,6 +102,12 @@
     "theme": "t04",
     "chapter": "t04-c01",
     "context": "La nuit, un groupe marche au bord d'une route peu éclairée.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t04-c01-0004.webp",
+      "alt": "Deux piétons qui marchent de nuit au bord d'une rue, phares d'une voiture qui passe",
+      "credit": "marfis75, CC BY 2.0, Flickr"
+    },
     "parts": [
       {
         "kind": "yesno",
