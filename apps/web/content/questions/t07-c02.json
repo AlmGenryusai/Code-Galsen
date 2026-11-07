@@ -235,5 +235,67 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Laisser la clé sur le contact."
+  },
+  {
+    "id": "t07-c02-0009",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "context": "Je me gare en pente, puis je m'éloigne.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je serre le frein à main :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "On immobilise le véhicule selon la pente avant de s'éloigner.",
+    "legal_ref": "Décret 2004-13, art. 34",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t07-c02-0010",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "context": "Mon passager arrière veut descendre côté route.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Il regarde d'abord derrière :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Aucun occupant n'ouvre une portière sans s'assurer qu'il peut le faire sans danger.",
+    "legal_ref": "Décret 2004-13, art. 35",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t07-c02-0011",
+    "theme": "t07",
+    "chapter": "t07-c02",
+    "context": "Je veux laisser un enfant seul dans la voiture au soleil.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est dangereux, même peu de temps :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Au soleil, l'habitacle chauffe très vite. Ne laissez jamais un enfant seul.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
   }
 ]

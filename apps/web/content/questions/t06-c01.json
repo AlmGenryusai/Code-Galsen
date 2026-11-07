@@ -231,5 +231,176 @@
       "juriste": "2026-11-06"
     },
     "common_mistake": "Attendre sans agir."
+  },
+  {
+    "id": "t06-c01-0008",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "context": "Accident avec blessés graves. Aucun danger ne menace.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je laisse les véhicules en place :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "On ne déplace pas les véhicules sans l'autorisation des autorités, sauf nécessité absolue.",
+    "legal_ref": "Décret 2004-13, art. 136",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t06-c01-0009",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "context": "Je suis témoin d'un accident grave.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je préviens police ou gendarmerie et secours :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Seuls les conducteurs doivent prévenir :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le conducteur ou, à défaut, toute personne présente prévient au plus vite les forces de l'ordre et le service de santé.",
+    "legal_ref": "Décret 2004-13, art. 136",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t06-c01-0010",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "context": "Après un accident grave, je ramasse les débris pour dégager.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux le faire avant l'enquête :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Avant l'enquête, on ne modifie pas les lieux ni les traces, sauf motif légitime.",
+    "legal_ref": "Décret 2004-13, art. 137",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t06-c01-0011",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "context": "La nuit, ma voiture est immobilisée après un accident.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je signale l'obstacle :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Le conducteur assure la sécurité, et notamment l'éclairage de l'obstacle dès la tombée du jour.",
+    "legal_ref": "Décret 2004-13, art. 138",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t06-c01-0012",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "context": "Le conducteur blessé ne peut pas signaler sa voiture.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Toute personne présente peut le faire :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Si le conducteur ne peut pas, l'autre conducteur ou toute personne présente signale l'obstacle.",
+    "legal_ref": "Décret 2004-13, art. 138",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t06-c01-0013",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "context": "Un danger imminent m'oblige à déplacer un véhicule accidenté.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je relève d'abord sa position :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Avant de déplacer, on note la position exacte avec des repères, sauf exception.",
+    "legal_ref": "Décret 2004-13, art. 136",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07",
+      "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t06-c01-0014",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "context": "Une victime consciente tremble et a froid.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je la couvre et je lui parle :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Couvrir la victime et la rassurer limite l'aggravation en attendant les secours.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
+  },
+  {
+    "id": "t06-c01-0015",
+    "theme": "t06",
+    "chapter": "t06-c01",
+    "context": "Un véhicule accidenté fume.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "J'éloigne les personnes autour :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Un risque d'incendie impose d'éloigner les témoins, puis d'alerter.",
+    "legal_ref": null,
+    "legal_status": "not_regulatory",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-07"
+    }
   }
 ]
