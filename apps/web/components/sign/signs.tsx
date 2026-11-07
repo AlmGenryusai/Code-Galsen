@@ -15,6 +15,10 @@ export const SIGNS: Record<string, SignDef> = {
   'autre-danger': { label: 'Autre danger', file: 'a14' },
   'passage-pietons': { label: 'Passage pour piétons', file: 'a13b' },
 
+  // Formes vides (cours « familles de panneaux »)
+  'forme-danger': { label: 'Forme d\'un panneau de danger : triangle bordé de rouge', file: 'forme-danger' },
+  'forme-interdiction': { label: 'Forme d\'un panneau d\'interdiction : rond blanc bordé de rouge', file: 'forme-interdiction' },
+
   // Panneaux en fichier SVG
   stop: { label: 'Stop', file: 'ab4' },
   'route-prioritaire': { label: 'Route à caractère prioritaire', file: 'ab6' },

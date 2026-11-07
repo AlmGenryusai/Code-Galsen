@@ -20,8 +20,8 @@
             {
               "media": {
                 "kind": "sign",
-                "src": "priorite-droite",
-                "alt": "Intersection avec priorité à droite",
+                "src": "forme-danger",
+                "alt": "Forme d'un panneau de danger : triangle bordé de rouge",
                 "credit": "Code Galsen"
               },
               "label": "**Danger** : triangle, fond crème, bordé de rouge."
@@ -29,8 +29,8 @@
             {
               "media": {
                 "kind": "sign",
-                "src": "b15",
-                "alt": "Priorité au sens inverse : cédez le passage aux véhicules venant en face",
+                "src": "forme-interdiction",
+                "alt": "Forme d'un panneau d'interdiction : rond blanc bordé de rouge",
                 "credit": "Code Galsen"
               },
               "label": "**Interdiction** : rond, fond blanc, bordé de rouge."
