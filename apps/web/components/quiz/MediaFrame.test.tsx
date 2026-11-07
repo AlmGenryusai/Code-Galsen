@@ -26,6 +26,12 @@ describe('MediaFrame', () => {
     expect(html).toContain('--sand')
   })
 
+  it('illustration fit=contain : image entière sur fond blanc', () => {
+    const html = renderToStaticMarkup(<MediaFrame media={{ ...photo, fit: 'contain' }} />)
+    expect(html).toContain('object-fit:contain')
+    expect(html).toContain('background:#fff')
+  })
+
   it('photo : chemin /media, lazy, alt', () => {
     const html = renderToStaticMarkup(<MediaFrame media={photo} />)
     expect(html).toContain('src="/media/rond-point.webp"')

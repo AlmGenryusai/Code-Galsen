@@ -175,16 +175,6 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "n-Ffeu-tricolore.webp",
-            "alt": "Feu tricolore qui passe du vert au orange puis au rouge",
-            "credit": "Source inconnue (site d'auto-école)"
-          },
-          "caption": "Toujours le même ordre : vert, orange, rouge."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
             "src": "p04.webp",
             "alt": "Agent de la circulation qui fait signe aux voitures",
             "credit": "Mir koks, CC BY-SA 4.0, via Wikimedia Commons"
@@ -209,31 +199,12 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "n-Ffeu-vert.webp",
-            "alt": "Feu vert",
-            "credit": "Source inconnue (site d'auto-école)"
+            "src": "n-Ffeu-trio.webp",
+            "alt": "Feux tricolores : vert, orange, rouge",
+            "credit": "Source inconnue (site d'auto-école)",
+            "fit": "contain"
           },
-          "caption": "Feu vert : voie libre."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Ffeu-orange.webp",
-            "alt": "Feu orange",
-            "credit": "Source inconnue (site d'auto-école)"
-          },
-          "caption": "Feu orange : j'annonce l'arrêt."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Ffeu-rouge.webp",
-            "alt": "Feu rouge",
-            "credit": "Source inconnue (site d'auto-école)"
-          },
-          "caption": "Feu rouge : je m'arrête."
+          "caption": "Vert : voie libre. Orange : j'annonce l'arrêt. Rouge : je m'arrête."
         },
         {
           "type": "image",
@@ -241,7 +212,8 @@
             "kind": "photo",
             "src": "n-Ffeu-clignotant.webp",
             "alt": "Feu orange clignotant",
-            "credit": "Source inconnue (site d'auto-école)"
+            "credit": "Source inconnue (site d'auto-école)",
+            "fit": "contain"
           },
           "caption": "Feu orange clignotant : je ralentis, prudence."
         },
@@ -251,7 +223,8 @@
             "kind": "photo",
             "src": "n-Ffeu-fleches.webp",
             "alt": "Feux à flèches : rouge, vert puis orange",
-            "credit": "Source inconnue (site d'auto-école)"
+            "credit": "Source inconnue (site d'auto-école)",
+            "fit": "contain"
           },
           "caption": "Feux à flèches : je regarde bien ce qu'ils autorisent."
         },
