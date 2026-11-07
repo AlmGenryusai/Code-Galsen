@@ -522,6 +522,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Le feu jaune clignote. Une voiture arrive à ma droite.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c01-0019.webp",
+      "alt": "Feu jaune allumé au bord d'une route",
+      "credit": "Xosema, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -549,6 +555,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Je sors d'une station-service vers la route.",
+    "media": {
+      "kind": "photo",
+      "src": "p22.webp",
+      "alt": "Sortie de station-service sur une route",
+      "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -607,6 +619,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Je tourne à gauche. Une moto arrive en face, tout droit.",
+    "media": {
+      "kind": "photo",
+      "src": "p29.webp",
+      "alt": "Petite voiture qui tourne à gauche à un carrefour",
+      "credit": "Retired electrician, CC0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -782,6 +800,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Carrefour sans panneau. Une charrette arrive à ma droite.",
+    "media": {
+      "kind": "photo",
+      "src": "s13.webp",
+      "alt": "Charrette lourdement chargée tirée par deux ânes sur une route goudronnée",
+      "credit": "NigerTZai, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -808,6 +832,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Le garde du passage à niveau me fait signe d'arrêter.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c06-0004.webp",
+      "alt": "Voiture qui franchit un passage à niveau, barrières levées",
+      "credit": "Sebleouf, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -834,6 +864,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "J'ai le feu vert. Des piétons finissent de traverser devant moi.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S10-1.webp",
+      "alt": "Piétons qui traversent sur un passage piéton",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -893,6 +929,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Je dois tourner à gauche au carrefour. Une voiture arrive en face, tout droit.",
+    "media": {
+      "kind": "photo",
+      "src": "p29.webp",
+      "alt": "Petite voiture qui tourne à gauche à un carrefour",
+      "credit": "Retired electrician, CC0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -919,6 +961,12 @@
     "theme": "t01",
     "chapter": "t01-c02",
     "context": "Carrefour sans panneau. Une voiture arrive à ma gauche.",
+    "media": {
+      "kind": "photo",
+      "src": "p02.webp",
+      "alt": "Rue sablonneuse à un croisement, sans panneau",
+      "credit": "Olivier Flambeau, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

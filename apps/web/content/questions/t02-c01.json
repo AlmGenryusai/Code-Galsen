@@ -289,6 +289,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "De nuit, hors agglomération, je veux dépasser.",
+    "media": {
+      "kind": "photo",
+      "src": "p30.webp",
+      "alt": "Conduite sur une route sombre la nuit",
+      "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -376,6 +382,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "Le conducteur d'une charrette baisse le bras vers le sol.",
+    "media": {
+      "kind": "photo",
+      "src": "s13.webp",
+      "alt": "Charrette lourdement chargée tirée par deux ânes sur une route goudronnée",
+      "credit": "NigerTZai, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -402,6 +414,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "Je suis le dernier d'une file arrêtée sur une route rapide.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S16-2.webp",
+      "alt": "Circulation dense sur l'autoroute",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -475,6 +493,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "En ville, de jour, je klaxonne.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Xklaxon-1.webp",
+      "alt": "Main qui appuie sur le klaxon au centre du volant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -501,6 +525,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "De nuit, hors agglomération, la route est libre.",
+    "media": {
+      "kind": "photo",
+      "src": "p30.webp",
+      "alt": "Conduite sur une route sombre la nuit",
+      "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -527,6 +557,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "De jour, un vent de sable réduit la visibilité.",
+    "media": {
+      "kind": "photo",
+      "src": "s06.webp",
+      "alt": "Phares d'un véhicule dans un épais brouillard",
+      "credit": "Tupungato, CC BY 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -553,6 +589,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "Je vais ralentir fortement.",
+    "media": {
+      "kind": "photo",
+      "src": "n-V2frein.webp",
+      "alt": "Pied qui appuie sur la pédale de frein",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -600,6 +642,12 @@
     "theme": "t02",
     "chapter": "t02-c01",
     "context": "Je klaxonne longuement dans un embouteillage.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t10-c01-0003.webp",
+      "alt": "Embouteillage de taxis et de bus à Dakar",
+      "credit": "Ji-Elle, domaine public, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

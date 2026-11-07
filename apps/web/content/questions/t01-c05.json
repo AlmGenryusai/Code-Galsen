@@ -401,6 +401,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Route à trois voies. Une voiture occupe la voie du milieu pour dépasser.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-1.webp",
+      "alt": "Route à plusieurs voies vue depuis une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -427,6 +433,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "De jour, hors agglomération, je vais dépasser.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c05-0002.webp",
+      "alt": "Dépassement d'un camion sur une route à double sens",
+      "credit": "BrokenSphere, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -453,6 +465,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Je viens de dépasser une voiture.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bretro.webp",
+      "alt": "Rétroviseur extérieur avec la route derrière",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -526,6 +544,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Une voiture me dépasse. Une autre arrive en face.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t01-c05-0002.webp",
+      "alt": "Dépassement d'un camion sur une route à double sens",
+      "credit": "BrokenSphere, CC BY-SA 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -552,6 +576,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Sur une route à une voie, un véhicule veut me dépasser.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bretro.webp",
+      "alt": "Rétroviseur extérieur avec la route derrière",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -578,6 +608,12 @@
     "theme": "t01",
     "chapter": "t01-c05",
     "context": "Route à double sens à trois voies. Je dépasse.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S02-1.webp",
+      "alt": "Route à plusieurs voies vue depuis une voiture",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

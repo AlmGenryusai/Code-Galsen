@@ -202,6 +202,12 @@
     "theme": "t04",
     "chapter": "t04-c05",
     "context": "Un camion va tourner à droite, je suis derrière.",
+    "media": {
+      "kind": "photo",
+      "src": "p44.webp",
+      "alt": "Camion très chargé qui cache la route devant lui",
+      "credit": "Amuzujoe, CC BY-SA 4.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

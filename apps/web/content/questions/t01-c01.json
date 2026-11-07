@@ -2486,6 +2486,12 @@
     "theme": "t01",
     "chapter": "t01-c01",
     "context": "Des barrières à bandes rouges et blanches sont sur la route.",
+    "media": {
+      "kind": "photo",
+      "src": "p35.webp",
+      "alt": "Panneaux de route barrée et de déviation",
+      "credit": "Chabe01, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

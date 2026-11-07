@@ -300,6 +300,12 @@
     "theme": "t05",
     "chapter": "t05-c02",
     "context": "La nuit, mon chargement dépasse à l'arrière.",
+    "media": {
+      "kind": "photo",
+      "src": "u03.webp",
+      "alt": "Vieille berline bleue vue de dos, matelas et couettes empilés sur le toit",
+      "credit": "Anatoly Maltsev, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -321,6 +327,12 @@
     "theme": "t05",
     "chapter": "t05-c02",
     "context": "Ma camionnette est surchargée.",
+    "media": {
+      "kind": "photo",
+      "src": "q-t09-c02-0003.webp",
+      "alt": "Taxi surchargé, deux passagers debout à l'arrière sur le pare-chocs",
+      "credit": "Annabel Symington, CC BY 2.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

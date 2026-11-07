@@ -249,6 +249,12 @@
     "theme": "t08",
     "chapter": "t08-c02",
     "context": "Je n'ai qu'un triangle dans le coffre.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S17-1.webp",
+      "alt": "Triangle de signalisation sur la chaussée, voiture arrêtée derrière",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -270,6 +276,12 @@
     "theme": "t08",
     "chapter": "t08-c02",
     "context": "Un de mes pneus est lisse sur une bande.",
+    "media": {
+      "kind": "photo",
+      "src": "p49.webp",
+      "alt": "Pneu usé jusqu'à la corde",
+      "credit": "Paul.schrepfer, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

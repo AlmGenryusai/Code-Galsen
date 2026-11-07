@@ -266,6 +266,12 @@
     "theme": "t04",
     "chapter": "t04-c04",
     "context": "Un taxi ralentit et se déporte vers le bord.",
+    "media": {
+      "kind": "photo",
+      "src": "p26.webp",
+      "alt": "Taxi dans le centre-ville",
+      "credit": "Babacar Dioum, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

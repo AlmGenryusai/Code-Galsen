@@ -285,6 +285,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Je cherche où me garer.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Xstationnement-2.webp",
+      "alt": "Parking plein vu d'en haut",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -312,6 +318,12 @@
     "theme": "t01",
     "chapter": "t01-c06",
     "context": "Je repars après un stationnement.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bretro.webp",
+      "alt": "Rétroviseur extérieur avec la route derrière",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",

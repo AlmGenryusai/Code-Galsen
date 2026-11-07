@@ -252,6 +252,12 @@
     "theme": "t09",
     "chapter": "t09-c02",
     "context": "Sur ma moto, mon passager pose les pieds sur les pédales.",
+    "media": {
+      "kind": "photo",
+      "src": "p39.webp",
+      "alt": "Moto-taxi à Lagos",
+      "credit": "Olasunkanmiariyo, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -273,6 +279,12 @@
     "theme": "t09",
     "chapter": "t09-c02",
     "context": "Mon passager de moto s'assoit sur le porte-bagages.",
+    "media": {
+      "kind": "photo",
+      "src": "p39.webp",
+      "alt": "Moto-taxi à Lagos",
+      "credit": "Olasunkanmiariyo, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

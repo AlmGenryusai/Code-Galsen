@@ -290,6 +290,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "La route est étroite, encombrée ou bordée d'habitations.",
+    "media": {
+      "kind": "photo",
+      "src": "p02.webp",
+      "alt": "Rue sablonneuse à un croisement, sans panneau",
+      "credit": "Olivier Flambeau, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -317,6 +323,12 @@
     "theme": "t03",
     "chapter": "t03-c03",
     "context": "Un panneau triangulaire annonce un dos d'âne.",
+    "media": {
+      "kind": "photo",
+      "src": "p16.webp",
+      "alt": "Ralentisseur sur la chaussée",
+      "credit": "Андрей Романенко, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

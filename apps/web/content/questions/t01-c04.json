@@ -366,6 +366,12 @@
     "theme": "t01",
     "chapter": "t01-c04",
     "context": "En agglomération, il pleut.",
+    "media": {
+      "kind": "photo",
+      "src": "n-Bpluie.webp",
+      "alt": "Gouttes de pluie sur un pare-brise, voiture devant",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -392,6 +398,12 @@
     "theme": "t01",
     "chapter": "t01-c04",
     "context": "Route à double sens sans séparateur. Il pleut. Je suis en voiture.",
+    "media": {
+      "kind": "photo",
+      "src": "u06.webp",
+      "alt": "Route mouillée dans la brume, un camion arrive en face d'un véhicule aux feux allumés",
+      "credit": "Prashant Gautam, Unsplash License, Unsplash"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -418,6 +430,12 @@
     "theme": "t01",
     "chapter": "t01-c04",
     "context": "Sur autoroute, il y a du brouillard. Je vois à 40 mètres.",
+    "media": {
+      "kind": "photo",
+      "src": "p32.webp",
+      "alt": "Phares d'une voiture dans un brouillard épais",
+      "credit": "Marek Ślusarczyk (Tupungato), CC BY 3.0, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -471,6 +489,12 @@
     "theme": "t01",
     "chapter": "t01-c04",
     "context": "La nuit, hors agglomération, je roule en feux de croisement.",
+    "media": {
+      "kind": "photo",
+      "src": "p30.webp",
+      "alt": "Conduite sur une route sombre la nuit",
+      "credit": "RealGPTV01, CC BY-SA 4.0, via Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",
@@ -497,6 +521,12 @@
     "theme": "t01",
     "chapter": "t01-c04",
     "context": "Je roule à 50 km/h en ville. Des enfants jouent au bord.",
+    "media": {
+      "kind": "photo",
+      "src": "n-S11-1.webp",
+      "alt": "Enfants avec cartables devant une école",
+      "credit": "Source inconnue (Google Images)"
+    },
     "parts": [
       {
         "kind": "yesno",
