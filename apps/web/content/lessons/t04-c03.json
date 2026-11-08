@@ -34,6 +34,19 @@
         },
         {
           "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je lève le pied dès que je vois une charrette ou un animal, même loin.",
+            "Je laisse au moins 1 mètre sur le côté en la dépassant, plus si possible.",
+            "La nuit, je passe en feux de croisement en arrivant derrière elle : les phares peuvent effrayer l'animal.",
+            "J'attends une ligne droite dégagée pour dépasser, sans m'impatienter."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Sur la route"
         },
         {

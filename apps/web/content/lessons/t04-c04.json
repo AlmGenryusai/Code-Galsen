@@ -24,6 +24,19 @@
         },
         {
           "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je garde au moins 2 secondes de distance derrière un car rapide ou un Ndiaga Ndiaye (les cars de transport en commun blancs, souvent bondés).",
+            "Je regarde les passagers qui font signe au bord de la route : le car va s'arrêter près d'eux.",
+            "Quand un car est arrêté, je ralentis fort avant de passer à côté, prêt à freiner pour un piéton.",
+            "Je ne me place pas juste derrière : il peut reculer ou s'arrêter sans prévenir."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Sur la route"
         },
         {

@@ -34,6 +34,26 @@
         },
         {
           "type": "heading",
+          "text": "L'angle mort, c'est quoi ?"
+        },
+        {
+          "type": "text",
+          "text": "C'est la zone autour de ma voiture que je ne vois pas dans mes rétroviseurs : surtout à l'arrière gauche et à l'arrière droite. Une moto entière peut s'y cacher. Pour la voir, je dois tourner la tête par-dessus l'épaule."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Avant chaque changement de direction : rétroviseur intérieur, rétroviseur extérieur, puis coup d'œil par-dessus l'épaule.",
+            "Je mets mon clignotant tôt pour que les motos me voient venir.",
+            "En ville, je m'attends à voir surgir une moto de n'importe quel côté, même par la droite."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Sur la route"
         },
         {
