@@ -8,7 +8,22 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Un véhicule doit être en état de rouler en sécurité."
+          "text": "Un véhicule doit être en état de rouler sans danger. Un équipement en panne peut entraîner l'immobilisation du véhicule par un agent."
+        },
+        {
+          "type": "heading",
+          "text": "Ce qui doit marcher"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les freins : un frein principal (la pédale) et un frein de secours (le frein à main).",
+            "Les pneus : les sculptures (les rainures) sont bien visibles, sans hernie ni coupure profonde. Je n'oublie pas la roue de secours.",
+            "Les rétroviseurs : au moins deux, pour voir derrière et sur le côté.",
+            "L'avertisseur sonore (le klaxon).",
+            "Tous les feux : position, croisement, route, stop, clignotants, recul.",
+            "Les essuie-glaces et le lave-glace, avec un pare-brise sans grosse fissure devant le conducteur."
+          ]
         },
         {
           "type": "image",
@@ -22,15 +37,14 @@
         },
         {
           "type": "heading",
-          "text": "À contrôler"
+          "text": "À bord"
         },
         {
           "type": "list",
           "items": [
-            "Deux rétroviseurs au moins.",
-            "Deux dispositifs de freinage : un principal et un de secours.",
-            "Des pneus aux sculptures visibles, sans déchirure profonde.",
-            "Un avertisseur sonore qui fonctionne."
+            "Deux triangles de pré-signalisation : ils sont obligatoires.",
+            "Une roue de secours et de quoi la changer (cric, clé).",
+            "Un gilet jaune, une trousse de secours et une lampe : ils sont fortement conseillés."
           ]
         },
         {
@@ -45,7 +59,7 @@
         },
         {
           "type": "memo",
-          "text": "Freins, pneus, rétroviseurs, avertisseur."
+          "text": "Ma voiture doit avoir des freins, des pneus, des rétroviseurs et un klaxon en bon état."
         }
       ]
     },
@@ -77,7 +91,7 @@
             "Pression d'huile : j'arrête le moteur.",
             "Température du moteur : je m'arrête et j'attends.",
             "Frein : je fais contrôler avant de repartir.",
-            "Défaut d'ABS : le freinage normal marche, mais je fais contrôler."
+            "Défaut d'ABS (système antiblocage des roues, qui empêche les roues de se bloquer au freinage) : le freinage normal marche, mais je fais contrôler."
           ]
         },
         {
@@ -91,12 +105,118 @@
           "caption": "Les voyants s'allument au tableau de bord : je les reconnais avant de partir."
         },
         {
+          "type": "heading",
+          "text": "Autres commandes utiles"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Désembuage avant : je dirige la ventilation vers le pare-brise. La climatisation sèche l'air et enlève la buée plus vite.",
+            "Désembuage arrière : le bouton chauffe les fils de la lunette arrière. Je l'éteins quand la vitre est claire.",
+            "Climatisation : par forte chaleur, elle évite la fatigue. Elle consomme un peu plus de carburant.",
+            "Voyant airbag : il s'allume au démarrage puis s'éteint. S'il reste allumé, l'airbag risque de ne pas se déclencher : je fais contrôler."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Je ne roule pas avec un pare-brise embué : je m'arrête et j'attends de voir clair."
+        },
+        {
           "type": "attention",
           "text": "Rouler avec un voyant rouge peut détruire le moteur ou rendre le freinage inefficace."
         },
         {
           "type": "memo",
-          "text": "Rouge : j'arrête."
+          "text": "Si un voyant rouge s'allume, je m'arrête dès que possible et je coupe le moteur."
+        }
+      ]
+    },
+    {
+      "id": "t08-c01-f03",
+      "title": "Tous les voyants, couleur par couleur",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Au démarrage, presque tous les voyants s'allument quelques secondes : c'est un test. Ensuite, ils doivent s'éteindre. La couleur du voyant qui reste allumé me dit à quel point c'est grave."
+        },
+        {
+          "type": "heading",
+          "text": "Les 3 couleurs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rouge : danger. Je m'arrête dès que possible, en sécurité, et je coupe le moteur.",
+            "Orange ou jaune : un problème ou une alerte. Je peux continuer prudemment, mais je fais contrôler rapidement.",
+            "Vert ou bleu : simple information. Une fonction est en marche, tout est normal."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Rouge : je m'arrête"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pression d'huile (burette) : le moteur manque d'huile. Je coupe le moteur tout de suite, sinon il casse.",
+            "Température moteur (thermomètre dans l'eau) : le moteur chauffe. Je m'arrête et j'attends qu'il refroidisse avant d'ouvrir le capot.",
+            "Freins (point d'exclamation dans un cercle) : frein à main serré, ou liquide de frein trop bas. Si le frein à main est desserré, je fais contrôler avant de repartir.",
+            "Batterie : la batterie ne se recharge plus. La voiture peut s'arrêter bientôt : je vais au garage le plus proche.",
+            "Airbag : l'airbag risque de ne pas se déclencher. Je fais contrôler au plus vite.",
+            "Ceinture (personnage attaché) : une ceinture n'est pas bouclée. Je l'attache.",
+            "Porte ouverte (voiture avec portière ouverte) : une portière ou le coffre est mal fermé. Je m'arrête et je ferme.",
+            "Direction assistée (volant) : le volant devient dur. Je roule doucement jusqu'au garage."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Orange ou jaune : je fais contrôler"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Moteur (forme de moteur) : défaut du moteur ou de la pollution. Je fais contrôler rapidement. S'il clignote, je ralentis et je vais au garage tout de suite.",
+            "ABS : l'antiblocage des roues ne marche plus. Le freinage normal fonctionne, mais les roues peuvent se bloquer en freinage fort.",
+            "Antidérapage (voiture qui glisse) : s'il clignote, la voiture corrige une glissade, je lève le pied. S'il reste allumé, le système est en panne.",
+            "Pression des pneus (fer à cheval avec point d'exclamation) : un pneu est sous-gonflé ou crevé. Je vérifie la pression.",
+            "Carburant (pompe à essence) : je suis sur la réserve. Je fais le plein bientôt.",
+            "Préchauffage diesel (ressort) : j'attends qu'il s'éteigne avant de démarrer.",
+            "Plaquettes de frein (cercle avec pointillés) : les plaquettes sont usées, je les fais changer.",
+            "Feux antibrouillard arrière : ils sont allumés. Je les éteins dès que le brouillard disparaît."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-R-voyantpneus.webp",
+            "alt": "Voyant orange de pression des pneus : fer à cheval avec un point d'exclamation",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Voyant pression des pneus : je vérifie le gonflage."
+        },
+        {
+          "type": "heading",
+          "text": "Vert ou bleu : information"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Feux de croisement (vert) : mes codes sont allumés.",
+            "Feux de position (vert) : mes veilleuses sont allumées.",
+            "Feux de route (bleu) : mes phares sont allumés. Je les coupe dès que je croise ou suis un véhicule.",
+            "Clignotants (flèches vertes) : ils clignotent avec un petit bruit. Les deux en même temps, ce sont les feux de détresse.",
+            "Antibrouillard avant (vert) : ils sont allumés.",
+            "Régulateur de vitesse (compteur) : la vitesse est maintenue automatiquement."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Un voyant rouge qui s'allume en roulant n'est jamais à ignorer. Continuer peut casser le moteur ou me laisser sans freins."
+        },
+        {
+          "type": "memo",
+          "text": "Rouge, je m'arrête. Orange, je fais contrôler vite. Vert ou bleu, c'est juste une information."
         }
       ]
     }

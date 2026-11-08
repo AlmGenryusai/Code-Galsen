@@ -60,7 +60,7 @@
         },
         {
           "type": "memo",
-          "text": "École, hôpital, mosquée, église : 30 km/h."
+          "text": "Près d'une école, d'un hôpital, d'une mosquée ou d'une église, je roule à 30 km/h au plus."
         }
       ]
     },
@@ -98,6 +98,32 @@
         },
         {
           "type": "heading",
+          "text": "Les types de passage à niveau"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Barrières manœuvrées par un garde (passage gardé) : j'obéis aux gestes du garde. Quand les barrières commencent à se fermer, je m'arrête.",
+            "Barrières ou demi-barrières automatiques : des feux rouges clignotent, souvent avec une sonnerie, puis les barrières se baissent toutes seules. Dès que les feux clignotent, je m'arrête, même si la barrière est encore levée.",
+            "Demi-barrières : elles ne ferment que la moitié droite de la route. Je ne fais jamais le tour par la gauche : le train arrive en quelques secondes.",
+            "Sans barrière, avec feux rouges clignotants : les feux annoncent le train. Deux feux rouges qui clignotent veulent dire arrêt absolu.",
+            "Sans barrière ni feu, avec une croix devant la voie : personne ne surveille. Je ralentis, je regarde des deux côtés et j'écoute avant de traverser."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais dans tous les cas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ralentis dès le panneau triangle qui annonce le passage à niveau.",
+            "Je ne m'engage que si je peux traverser d'un coup, sans m'arrêter sur les rails : si la file est bloquée de l'autre côté, j'attends avant.",
+            "Si ma voiture cale sur les rails, je fais sortir tout le monde immédiatement, loin des rails, puis j'appelle les secours."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Panneaux à reconnaître"
         },
         {
@@ -129,7 +155,7 @@
         },
         {
           "type": "memo",
-          "text": "Pas de passage si je ne suis pas sûr."
+          "text": "À un passage à niveau, si je ne suis pas sûr qu'aucun train n'arrive, je ne traverse pas."
         }
       ]
     },
@@ -255,12 +281,12 @@
         },
         {
           "type": "memo",
-          "text": "Virage, village, marché : je lève le pied."
+          "text": "Avant un virage, un village ou un marché, je ralentis car un danger peut apparaître d'un coup."
         }
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 12, 13, 21, 33, annexe P3 ; loi 2022-04, L.2, L.60",
+  "legal_ref": "Décret 2004-13, art. 12, 13, 21, 33, annexe P3, P6, P7 (signaux G1, G2, G3) ; loi 2022-04, L.2, L.60",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

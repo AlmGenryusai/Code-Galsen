@@ -420,11 +420,11 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Je place un triangle de pré-signalisation :",
+        "statement": "Je place les triangles de pré-signalisation :",
         "correct": "yes"
       }
     ],
-    "explanation": "Feux de détresse et triangle signalent le véhicule immobilisé.",
+    "explanation": "Feux de détresse et triangles de pré-signalisation, à 30 mètres au moins, signalent le véhicule immobilisé.",
     "legal_ref": "Décret 2004-13, art. 80 et 83",
     "legal_status": "confirmed",
     "status": "published",

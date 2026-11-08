@@ -53,8 +53,35 @@
           "caption": "Un enfant est attaché dans un dispositif adapté."
         },
         {
+          "type": "heading",
+          "text": "Les enfants en voiture"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Un bébé voyage dans un siège-coque, installé dos à la route.",
+            "Un jeune enfant voyage dans un siège auto adapté à sa taille, puis sur un rehausseur jusqu'à ce que la ceinture adulte lui passe bien sur l'épaule et non sur le cou.",
+            "Les enfants voyagent de préférence à l'arrière. Je ne mets jamais un siège bébé dos à la route devant un airbag passager en marche.",
+            "Je verrouille les portières arrière avec la sécurité enfant.",
+            "Je ne laisse jamais un enfant seul dans une voiture garée au soleil : la chaleur peut le tuer en quelques minutes."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ma responsabilité de conducteur"
+        },
+        {
+          "type": "list",
+          "items": [
+            "C'est moi qui décide de démarrer : avant de partir, je vérifie que tout le monde est assis et attaché.",
+            "Je ne prends pas plus de passagers que de places. Personne sur le marchepied, le toit ou dans le coffre.",
+            "Si un passager refuse de s'attacher à l'avant, je ne démarre pas : il est en infraction, et en cas de choc il peut me blesser.",
+            "Je conduis plus doucement quand je transporte des enfants, une femme enceinte ou une personne âgée."
+          ]
+        },
+        {
           "type": "memo",
-          "text": "Une place, un passager ; une ceinture si la place en a une."
+          "text": "Chaque passager a sa place, et il attache sa ceinture si la place en a une."
         }
       ]
     },
@@ -64,7 +91,19 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Sur une moto, le passager porte un casque de sécurité."
+          "text": "À moto, rien ne protège le corps en cas de chute. Le casque protège la tête, qui est la partie la plus souvent touchée dans un accident."
+        },
+        {
+          "type": "heading",
+          "text": "Le casque"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le conducteur et chaque passager portent un casque de sécurité.",
+            "Il est à la bonne taille et attaché sous le menton : un casque non attaché part dès le premier choc.",
+            "Un casque qui a subi un choc est à changer, même s'il ne semble pas abîmé."
+          ]
         },
         {
           "type": "image",
@@ -78,24 +117,36 @@
         },
         {
           "type": "heading",
+          "text": "Les passagers"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ne prends pas plus de passagers que la moto n'a de sièges.",
+            "Chaque passager a un vrai siège et des repose-pieds : les pédales et le porte-bagage n'en tiennent pas lieu.",
+            "Interdit : porter un enfant dans ses bras, l'asseoir devant le conducteur, ou un passager assis « en amazone » (les deux jambes du même côté)."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Les enfants"
         },
         {
           "type": "text",
-          "text": "Un enfant de moins de 5 ans doit être placé dans une corbeille ou un siège muni de courroies, solidement fixé au véhicule. Il ne se tient pas dans les bras du conducteur."
+          "text": "Un enfant de moins de 5 ans doit être placé dans une corbeille ou un siège muni de courroies, solidement fixé à la moto."
         },
         {
           "type": "attention",
-          "text": "Un passager assis « en amazone » ou à califourchon sans dispositif est interdit."
+          "text": "Un passager mal installé déséquilibre la moto et gêne le conducteur pour tourner le guidon."
         },
         {
           "type": "memo",
-          "text": "Casque pour tous, siège pour les petits."
+          "text": "À moto, tout le monde porte un casque. En voiture, les jeunes enfants voyagent dans un siège adapté."
         }
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, annexe D27, D28 ; loi 2022-04, L.50, L.51",
+  "legal_ref": "Décret 2004-13, annexe D27, D28 ; loi 2022-04, L.50, L.51 ; décret 2004-13, annexe S2",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

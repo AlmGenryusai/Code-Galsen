@@ -69,7 +69,7 @@
         },
         {
           "type": "memo",
-          "text": "Triangle : danger. Rond blanc bordé de rouge : interdit. Rond bleu : obligatoire."
+          "text": "Un panneau en triangle annonce un danger. Un rond blanc bordé de rouge interdit quelque chose. Un rond bleu m'oblige à faire quelque chose."
         }
       ]
     },
@@ -159,7 +159,7 @@
         },
         {
           "type": "memo",
-          "text": "Losange jaune : je passe. STOP et triangle : je cède."
+          "text": "Sur une route au losange jaune, je suis prioritaire. Devant un STOP ou un triangle pointe en bas, je laisse passer les autres."
         }
       ]
     },
@@ -262,7 +262,7 @@
         },
         {
           "type": "memo",
-          "text": "Rouge, je m'arrête. L'agent passe avant le feu."
+          "text": "Au feu rouge, je m'arrête. Si un agent fait la circulation, j'obéis à l'agent, même si le feu dit autre chose."
         }
       ]
     }

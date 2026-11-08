@@ -24,6 +24,19 @@
         },
         {
           "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je garde au moins 2 secondes de distance derrière un car rapide ou un Ndiaga Ndiaye (les cars de transport en commun blancs, souvent bondés).",
+            "Je regarde les passagers qui font signe au bord de la route : le car va s'arrêter près d'eux.",
+            "Quand un car est arrêté, je ralentis fort avant de passer à côté, prêt à freiner pour un piéton.",
+            "Je ne me place pas juste derrière : il peut reculer ou s'arrêter sans prévenir."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Sur la route"
         },
         {
@@ -138,7 +151,7 @@
             "alt": "Arrêt de BRT à Dakar",
             "credit": "4MAPS, CC BY 4.0, via Wikimedia Commons"
           },
-          "caption": "Voie du BRT : je laisse la voie réservée aux bus."
+          "caption": "Voie du BRT (Bus Rapid Transit, le bus rapide de Dakar) : je laisse la voie réservée aux bus."
         },
         {
           "type": "attention",
@@ -149,9 +162,53 @@
           "text": "Un véhicule de transport qui ralentit va probablement s'arrêter."
         }
       ]
+    },
+    {
+      "id": "t04-c04-f04",
+      "title": "TER et BRT : les voies réservées",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "À Dakar, le TER (Train Express Régional, entre Dakar et l'aéroport international Blaise-Diagne) et le BRT (Bus Rapid Transit, le bus rapide) ont leurs propres voies. Elles ne sont pas pour moi."
+        },
+        {
+          "type": "heading",
+          "text": "Le TER"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La voie ferrée est clôturée : je n'y entre jamais, ni à pied ni en voiture.",
+            "Je ne m'arrête pas et je ne me gare pas sur une voie ferrée.",
+            "Je traverse seulement par un pont, un passage souterrain ou un passage à niveau.",
+            "Le train a toujours la priorité : il ne peut ni s'arrêter vite ni m'éviter."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Le BRT"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le couloir du BRT est réservé à ses bus : je n'y roule pas et je ne m'y arrête pas.",
+            "Je ne me gare que sur les places prévues le long du corridor, pas sur la chaussée, le trottoir ou la piste cyclable.",
+            "Charrettes et pousse-pousse sont interdits sur le corridor. Les camions de plus de 3,5 t y sont interdits de 6 h à 21 h.",
+            "Aux carrefours, je respecte les feux : un bus BRT arrive vite et dans son propre couloir."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Couper le couloir BRT ou rouler dedans pour éviter un bouchon, c'est risquer un choc avec un bus lancé."
+        },
+        {
+          "type": "memo",
+          "text": "Je n'entre jamais sur la voie du TER ni dans le couloir du BRT : ces voies ne sont pas pour les voitures."
+        }
+      ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 8 et 19 ; loi 2022-04, L.49",
+  "legal_ref": "Décret 2004-13, art. 8 et 19 ; loi 2022-04, L.49 ; décret 2004-13, art. 11, 12, 33 ; arrêté du préfet de Dakar (corridor BRT, 29 juillet 2024)",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

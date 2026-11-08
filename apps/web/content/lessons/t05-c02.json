@@ -8,7 +8,20 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Un chargement mal fait devient un danger pour les autres."
+          "text": "Un objet qui tombe d'un véhicule peut provoquer un accident derrière lui. Le conducteur est responsable de son chargement."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je répartis la charge : le plus lourd en bas et au centre.",
+            "J'attache solidement tout ce qui peut bouger ou dépasser, avec des sangles ou des cordes.",
+            "Je fixe les chaînes, bâches et cordes pour qu'elles ne flottent pas et ne traînent pas par terre.",
+            "Je ne dépasse pas le poids maximum autorisé du véhicule : une voiture trop chargée freine moins bien et tient moins bien la route."
+          ]
         },
         {
           "type": "image",
@@ -22,27 +35,15 @@
         },
         {
           "type": "heading",
-          "text": "Je fais"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Je prends toute précaution pour qu'il ne cause ni dommage ni danger.",
-            "Je fixe solidement ce qui dépasse.",
-            "Chaînes et bâches ne flottent pas et ne traînent pas."
-          ]
-        },
-        {
-          "type": "heading",
-          "text": "Matériaux pulvérulents"
+          "text": "Sable, ciment, terre"
         },
         {
           "type": "text",
-          "text": "Je les couvre d'une bâche étanche bien amarrée."
+          "text": "Ce qu'on appelle les matériaux « pulvérulents » (en poudre ou en grains : sable, ciment, terre, gravillons) s'envolent avec le vent. Je les couvre d'une bâche étanche bien attachée."
         },
         {
           "type": "memo",
-          "text": "Amarré, couvert, rien qui traîne."
+          "text": "Mon chargement est bien attaché et couvert, et rien ne traîne sur la route."
         }
       ]
     },
@@ -52,19 +53,27 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Des barres, des tuyaux ou des planches dépassent facilement."
+          "text": "Des barres de fer, des tuyaux ou des planches dépassent souvent du véhicule. Mal attachés, ils peuvent blesser un piéton ou un motard."
         },
         {
           "type": "heading",
-          "text": "Limites"
+          "text": "Les limites"
         },
         {
           "type": "list",
           "items": [
             "Rien ne dépasse à l'avant du véhicule.",
-            "Rien ne dépasse de plus de 3 mètres à l'arrière.",
-            "Les pièces sont amarrées entre elles et au véhicule."
+            "À l'arrière, le chargement ne traîne pas par terre et ne dépasse pas de plus de 3 mètres.",
+            "Les pièces sont attachées entre elles et au véhicule, pour ne pas déborder sur les côtés en roulant."
           ]
+        },
+        {
+          "type": "heading",
+          "text": "Être vu"
+        },
+        {
+          "type": "text",
+          "text": "L'extrémité arrière du chargement porte un dispositif réfléchissant, de jour comme de nuit. Si elle dépasse de plus de 1 mètre, elle porte aussi une lumière rouge la nuit, visible à 150 mètres."
         },
         {
           "type": "attention",
@@ -72,7 +81,7 @@
         },
         {
           "type": "memo",
-          "text": "Pas devant, trois mètres derrière au maximum."
+          "text": "Une charge longue ne dépasse jamais à l'avant, et pas plus de trois mètres à l'arrière."
         }
       ]
     },
@@ -82,7 +91,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Chaque place est faite pour une personne."
+          "text": "Chaque place assise est faite pour une seule personne. Un véhicule trop chargé en passagers est plus difficile à freiner et dangereux en cas de choc."
         },
         {
           "type": "heading",
@@ -91,10 +100,10 @@
         {
           "type": "list",
           "items": [
-            "Passagers sur les marchepieds, y compris les apprentis.",
-            "Passagers sur le toit.",
-            "Plus de personnes que de places inscrites sur le certificat d'immatriculation.",
-            "Une remorque pour transporter des personnes."
+            "Des passagers debout sur les marchepieds, y compris les apprentis des cars rapides.",
+            "Des passagers sur le toit.",
+            "Plus de personnes que de places inscrites sur la carte grise.",
+            "Transporter des personnes dans une remorque."
           ]
         },
         {
@@ -103,11 +112,11 @@
         },
         {
           "type": "text",
-          "text": "Les enfants non accompagnés sont transportés assis."
+          "text": "Le transport des élèves se fait uniquement avec des véhicules prévus pour le transport public de personnes. Les enfants qui voyagent sans adulte sont transportés assis."
         },
         {
           "type": "memo",
-          "text": "Une place, une personne, assis."
+          "text": "Chaque passager a sa propre place et reste assis."
         }
       ]
     }
