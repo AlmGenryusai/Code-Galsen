@@ -8,23 +8,32 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Quand deux véhicules viennent en sens inverse, ils se croisent à droite."
+          "text": "Croiser, c'est passer à côté d'un véhicule qui vient en face. Sur nos routes souvent étroites et sans ligne au milieu, c'est un moment dangereux."
         },
         {
           "type": "heading",
-          "text": "Je fais"
+          "text": "Ce que je fais"
         },
         {
           "type": "list",
           "items": [
-            "Je me serre sur ma droite.",
-            "Sur une route à une seule voie, je laisse ma gauche libre et j'utilise l'accotement si besoin.",
-            "Si un obstacle bloque ma voie, je laisse passer ceux qui viennent en face avant."
+            "Je me serre sur ma droite, en gardant de la place pour les piétons et les motos du bas-côté.",
+            "Sur une route étroite, je ralentis. Si besoin, je mords sur l'accotement, à vitesse réduite.",
+            "Si un obstacle (véhicule garé, travaux, trou) bloque ma voie, je laisse d'abord passer ceux qui viennent en face.",
+            "La nuit, je passe en feux de croisement pour ne pas éblouir celui qui arrive."
           ]
         },
         {
+          "type": "heading",
+          "text": "Les gros véhicules"
+        },
+        {
+          "type": "text",
+          "text": "Sur une route étroite, un véhicule de plus de 2,10 mètres de large ou de plus de 8 mètres de long (camion, car) doit ralentir ou s'arrêter pour laisser passer les véhicules plus petits."
+        },
+        {
           "type": "attention",
-          "text": "Sur route étroite, un véhicule de plus de 2,10 m de large ou 8 m de long ralentit ou s'arrête pour laisser passer les plus petits."
+          "text": "Si l'obstacle est de mon côté, c'est à moi de m'arrêter et d'attendre."
         },
         {
           "type": "memo",
@@ -38,18 +47,19 @@
       "blocks": [
         {
           "type": "text",
-          "text": "On dépasse par la gauche."
+          "text": "Dépasser, c'est passer devant un véhicule qui roule dans le même sens que moi. Je passe toujours par sa gauche. C'est la manœuvre qui cause les chocs de face les plus graves."
         },
         {
           "type": "heading",
-          "text": "Avant"
+          "text": "Avant : je vérifie"
         },
         {
           "type": "list",
           "items": [
-            "Assez de place et de visibilité devant.",
-            "Prévenir : clignotant, appel de phares ou avertisseur.",
-            "Rien ne vient en face sur une route à deux voies."
+            "Je vois assez loin devant pour faire toute la manœuvre : pas de virage ni de sommet de côte devant.",
+            "Rien ne vient en face sur une route à double sens.",
+            "Personne derrière moi n'a commencé à me dépasser (rétroviseur et coup d'œil sur le côté).",
+            "Le véhicule devant ne s'apprête pas lui-même à tourner à gauche ou à dépasser."
           ]
         },
         {
@@ -64,13 +74,22 @@
         },
         {
           "type": "heading",
+          "text": "Avant : je préviens"
+        },
+        {
+          "type": "text",
+          "text": "Je mets mon clignotant gauche. Hors agglomération, je peux aussi prévenir celui que je dépasse : avec un coup d'avertisseur le jour, ou un appel de phares la nuit."
+        },
+        {
+          "type": "heading",
           "text": "Pendant et après"
         },
         {
           "type": "list",
           "items": [
-            "Je laisse au moins 1 mètre à un piéton, un cycle, un cavalier, un animal ou une charrette.",
-            "Je me rabats seulement quand je peux le faire sans gêner celui que j'ai dépassé."
+            "Je dépasse franchement, sans traîner à côté de lui.",
+            "Je laisse au moins 1 mètre à un piéton, un vélo, un cavalier, un animal ou une charrette.",
+            "Je me rabats à droite seulement quand je le vois en entier dans mon rétroviseur intérieur, avec le clignotant droit."
           ]
         },
         {

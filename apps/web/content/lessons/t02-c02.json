@@ -94,7 +94,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Utiliser le téléphone en main au volant est interdit. L'interdiction vise le véhicule en circulation."
+          "text": "Lire un message ou téléphoner en conduisant, c'est rouler les yeux fermés : en 3 secondes à 50 km/h, la voiture parcourt plus de 40 mètres. La loi interdit le téléphone tenu en main dès que le véhicule roule."
         },
         {
           "type": "heading",
@@ -103,18 +103,33 @@
         {
           "type": "list",
           "items": [
-            "Téléphoner avec le téléphone tenu en main.",
-            "Tenir en main tout autre appareil qui détourne l'attention.",
-            "Porter un écouteur ou un casque audio dans l'oreille."
+            "Téléphoner avec le téléphone tenu en main, même à un feu ou dans un bouchon tant que la voiture est en circulation.",
+            "Tenir en main tout autre appareil qui détourne l'attention : tablette, GPS, lecteur.",
+            "Porter un écouteur, une oreillette ou un casque audio dans l'oreille."
           ]
         },
         {
+          "type": "heading",
+          "text": "Ce qui est permis"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Un appareil qui corrige la surdité.",
+            "Les véhicules de police, gendarmerie, pompiers et ambulances en service sont exemptés."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "La bonne pratique"
+        },
+        {
           "type": "text",
-          "text": "Seul un appareil de correction de surdité est permis. Les véhicules de police, gendarmerie, pompiers et ambulances en service sont exemptés."
+          "text": "Avant de partir, je mets le téléphone en silencieux, hors de portée. Si je dois appeler ou répondre, je m'arrête dans un endroit autorisé, moteur coupé."
         },
         {
           "type": "attention",
-          "text": "Les appareils de contrôle automatique peuvent constater le téléphone en main."
+          "text": "Téléphone tenu en main : délit puni de 3 à 6 mois de prison et 50 000 à 500 000 FCFA. Les radars automatiques peuvent le constater."
         },
         {
           "type": "memo",
@@ -128,7 +143,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Trois protections qui sauvent des vies."
+          "text": "Trois protections simples sauvent des vies : la ceinture, le casque et le repos."
         },
         {
           "type": "heading",
@@ -136,7 +151,28 @@
         },
         {
           "type": "text",
-          "text": "Elle est obligatoire pour le conducteur et les places avant. Seule une contre-indication médicale, avec certificat, dispense."
+          "text": "Elle est obligatoire pour le conducteur et les passagers avant. Seule une contre-indication médicale, avec certificat, dispense. Les détails sont dans le cours « Ceinture et aides à la conduite »."
+        },
+        {
+          "type": "heading",
+          "text": "Le casque"
+        },
+        {
+          "type": "text",
+          "text": "Sur une moto ou un vélomoteur, le conducteur et le passager portent un casque de sécurité, bien attaché sous le menton."
+        },
+        {
+          "type": "heading",
+          "text": "La fatigue"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Signes : bâillements, yeux qui piquent, paupières lourdes, je ne me souviens plus des derniers kilomètres.",
+            "Au premier signe, je m'arrête dans un endroit sûr et je dors 15 à 20 minutes.",
+            "Sur un long trajet, je fais une pause toutes les 2 heures.",
+            "Je ne prends pas la route après une nuit sans sommeil ou un gros repas."
+          ]
         },
         {
           "type": "image",
@@ -149,6 +185,10 @@
           "caption": "De nuit, la fatigue arrive vite : je m'arrête."
         },
         {
+          "type": "text",
+          "text": "La loi ne cite pas la fatigue, mais un conducteur qui s'endort reste responsable de l'accident."
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -157,22 +197,6 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Je boucle ma ceinture avant de démarrer."
-        },
-        {
-          "type": "heading",
-          "text": "Le casque"
-        },
-        {
-          "type": "text",
-          "text": "Les passagers de motos et de vélomoteurs doivent porter un casque homologué."
-        },
-        {
-          "type": "heading",
-          "text": "La fatigue"
-        },
-        {
-          "type": "text",
-          "text": "La loi ne cite pas la fatigue. Au premier signe de sommeil, je m'arrête dans un endroit sûr et je me repose."
         },
         {
           "type": "image",

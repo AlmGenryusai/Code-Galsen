@@ -91,7 +91,7 @@
             "Pression d'huile : j'arrête le moteur.",
             "Température du moteur : je m'arrête et j'attends.",
             "Frein : je fais contrôler avant de repartir.",
-            "Défaut d'ABS : le freinage normal marche, mais je fais contrôler."
+            "Défaut d'ABS (système antiblocage des roues, qui empêche les roues de se bloquer au freinage) : le freinage normal marche, mais je fais contrôler."
           ]
         },
         {

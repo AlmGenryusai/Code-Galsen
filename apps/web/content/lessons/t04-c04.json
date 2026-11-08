@@ -138,7 +138,7 @@
             "alt": "Arrêt de BRT à Dakar",
             "credit": "4MAPS, CC BY 4.0, via Wikimedia Commons"
           },
-          "caption": "Voie du BRT : je laisse la voie réservée aux bus."
+          "caption": "Voie du BRT (Bus Rapid Transit, le bus rapide de Dakar) : je laisse la voie réservée aux bus."
         },
         {
           "type": "attention",
@@ -156,7 +156,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "À Dakar, le TER (train) et le BRT (bus rapide) ont leurs propres voies. Elles ne sont pas pour moi."
+          "text": "À Dakar, le TER (Train Express Régional, entre Dakar et l'aéroport international Blaise-Diagne) et le BRT (Bus Rapid Transit, le bus rapide) ont leurs propres voies. Elles ne sont pas pour moi."
         },
         {
           "type": "heading",

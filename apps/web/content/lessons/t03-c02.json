@@ -8,7 +8,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "L'autoroute est faite pour aller vite en sécurité : deux chaussées séparées, une clôture, et aucun croisement à niveau."
+          "text": "L'autoroute est faite pour aller vite en sécurité : deux chaussées séparées par un terre-plein, une clôture, et aucun croisement à niveau. Au Sénégal, par exemple l'autoroute à péage Dakar – AIBD (aéroport international Blaise-Diagne)."
         },
         {
           "type": "heading",
@@ -16,15 +16,21 @@
         },
         {
           "type": "text",
-          "text": "Seulement les véhicules à moteur de plus de 50 cm³. Pas de piétons, de vélos ni de cyclomoteurs."
+          "text": "Seulement les véhicules à moteur de plus de 50 cm³ (centimètres cubes : la taille du moteur). Pas de piétons, de vélos, de charrettes ni de cyclomoteurs."
         },
         {
           "type": "heading",
           "text": "Pour entrer"
         },
         {
-          "type": "text",
-          "text": "Sur la voie d'accélération, je prends de la vitesse pour m'insérer sans gêner. Je ne m'arrête pas au bout de la bretelle."
+          "type": "list",
+          "items": [
+            "Je prends la bretelle d'entrée, puis la voie d'accélération (ou voie d'insertion) : une voie qui longe l'autoroute sur la droite.",
+            "Sur cette voie, j'accélère pour atteindre la vitesse des voitures de l'autoroute.",
+            "Je mets mon clignotant gauche, je regarde dans le rétroviseur et par-dessus l'épaule.",
+            "Je m'insère dans un espace libre. Ceux qui sont déjà sur l'autoroute sont prioritaires.",
+            "Je ne m'arrête pas au bout de la voie d'accélération, sauf si c'est vraiment impossible de passer."
+          ]
         },
         {
           "type": "image",
@@ -48,7 +54,19 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Les limites sont plus hautes, les erreurs plus graves."
+          "text": "Sur autoroute, les limites sont plus hautes, donc les erreurs sont plus graves : à 130 km/h, la voiture parcourt 36 mètres chaque seconde."
+        },
+        {
+          "type": "heading",
+          "text": "Les limites, en voiture"
+        },
+        {
+          "type": "list",
+          "items": [
+            "130 km/h par temps normal.",
+            "100 km/h par pluie.",
+            "50 km/h si je vois à moins de 50 mètres (brouillard, poussière, forte pluie)."
+          ]
         },
         {
           "type": "image",
@@ -62,14 +80,26 @@
         },
         {
           "type": "heading",
-          "text": "Les limites"
+          "text": "La distance avec le véhicule devant"
+        },
+        {
+          "type": "text",
+          "text": "Je garde au moins 2 secondes entre lui et moi. Je choisis un repère (un panneau) : quand il le passe, je compte « un, deux ». Si j'arrive au repère avant, je suis trop près."
+        },
+        {
+          "type": "text",
+          "text": "Hors agglomération, les véhicules de plus de 3,5 tonnes ou de plus de 8 mètres laissent au moins 50 mètres entre eux."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je ne fais jamais"
         },
         {
           "type": "list",
           "items": [
-            "Voiture : 130 km/h par temps normal.",
-            "Voiture : 100 km/h par pluie.",
-            "Voiture : 50 km/h si je vois à moins de 50 mètres."
+            "Faire demi-tour ou marche arrière : les autres arrivent à pleine vitesse.",
+            "M'arrêter, sauf en cas de panne ou d'urgence, sur la bande d'arrêt d'urgence.",
+            "Rouler sur la bande d'arrêt d'urgence."
           ]
         },
         {
@@ -81,10 +111,6 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Sur autoroute, je garde mes distances."
-        },
-        {
-          "type": "text",
-          "text": "Hors agglomération, les véhicules de plus de 3,5 tonnes ou de plus de 8 mètres laissent au moins 50 mètres entre eux."
         },
         {
           "type": "attention",

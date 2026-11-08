@@ -8,7 +8,19 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Avant de tourner, de me déporter ou de ralentir fortement, je regarde d'abord si c'est possible. Ensuite seulement, j'avertis les autres."
+          "text": "Les autres usagers ne lisent pas dans mes pensées. Avant de tourner, de changer de file ou de ralentir fortement, je regarde d'abord si c'est possible. Ensuite seulement, je préviens. Enfin, je bouge."
+        },
+        {
+          "type": "heading",
+          "text": "Dans l'ordre"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Je regarde : rétroviseurs, puis coup d'œil par-dessus l'épaule pour l'angle mort (la zone que les rétroviseurs ne montrent pas).",
+            "2. Je préviens : clignotant assez tôt, au moins quelques secondes avant.",
+            "3. Je bouge, en douceur, puis j'arrête le clignotant."
+          ]
         },
         {
           "type": "image",
@@ -22,13 +34,16 @@
         },
         {
           "type": "heading",
-          "text": "Les gestes"
+          "text": "Les gestes du bras"
+        },
+        {
+          "type": "text",
+          "text": "Un vélo, une charrette ou une moto sans clignotant prévient avec le bras :"
         },
         {
           "type": "list",
           "items": [
-            "Clignotant : pour tourner ou se déporter.",
-            "Bras tendu à l'horizontale : je tourne du côté du bras (pour vélo, charrette, moto sans clignotant).",
+            "Bras tendu à l'horizontale : je tourne du côté du bras.",
             "Bras levé : je tourne du côté opposé.",
             "Bras baissé : je ralentis ou je m'arrête."
           ]

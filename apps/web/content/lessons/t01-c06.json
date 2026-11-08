@@ -194,7 +194,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Deux gestes simples évitent beaucoup d'accidents."
+          "text": "Beaucoup d'accidents arrivent au moment où l'on s'arrête, où l'on descend ou où l'on repart. Quelques gestes simples suffisent à les éviter."
         },
         {
           "type": "heading",
@@ -204,8 +204,8 @@
           "type": "list",
           "items": [
             "Je coupe le moteur.",
-            "Je vérifie qu'il ne bougera pas : frein à main, pente, sol.",
-            "Je prends les précautions pour qu'il reste visible."
+            "Je serre le frein à main. En pente, j'engage une vitesse et je tourne les roues vers le trottoir.",
+            "Si je suis arrêté sur la chaussée la nuit ou par mauvaise visibilité, je laisse mes feux de position allumés pour être vu."
           ]
         },
         {
@@ -214,15 +214,19 @@
         },
         {
           "type": "text",
-          "text": "Je regarde derrière moi : un cycliste ou une moto peut passer. J'ouvre quand je peux le faire sans danger."
+          "text": "Je regarde dans le rétroviseur, puis par-dessus mon épaule : un cycliste ou une moto peut passer tout près. J'ouvre doucement, quand je peux le faire sans danger."
         },
         {
           "type": "heading",
           "text": "Avant de repartir"
         },
         {
-          "type": "text",
-          "text": "Je préviens avec le clignotant et je ne gêne aucun véhicule en mouvement."
+          "type": "list",
+          "items": [
+            "Je regarde dans mes rétroviseurs et dans l'angle mort, par-dessus mon épaule.",
+            "Je mets mon clignotant pour montrer que je vais m'insérer.",
+            "Je laisse passer les véhicules qui arrivent : celui qui repart n'est jamais prioritaire."
+          ]
         },
         {
           "type": "memo",

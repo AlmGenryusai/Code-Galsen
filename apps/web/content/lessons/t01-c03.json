@@ -8,7 +8,20 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Seul sur la route, je tiens la partie droite de la chaussée. Si la chaussée a plusieurs voies, je prends la plus à droite."
+          "text": "La chaussée est la partie de la route faite pour rouler. Elle peut être découpée en voies : une voie est la largeur d'une file de voitures, souvent marquée par des lignes blanches. Seul sur la route, je tiens la partie droite de la chaussée. Si la chaussée a plusieurs voies dans mon sens, je prends la plus à droite."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je roule au milieu de ma voie, sans rouler à cheval sur les lignes.",
+            "Si la route n'a qu'une voie dans chaque sens et que je ne vois pas loin (virage, sommet de côte), je reste bien à droite pour laisser libre la partie gauche.",
+            "Sur une route à plusieurs voies, j'utilise les voies de gauche seulement pour dépasser, puis je reviens à droite.",
+            "Le trottoir et l'accotement (le bas-côté) ne sont pas pour les voitures. Je les emprunte seulement s'ils sont prévus pour mon type de véhicule, ou en cas de force majeure."
+          ]
         },
         {
           "type": "image",
@@ -19,18 +32,6 @@
             "credit": "Tabl-trai, CC BY-SA 3.0, via Wikimedia Commons"
           },
           "caption": "Les flèches au sol indiquent la direction de chaque voie."
-        },
-        {
-          "type": "heading",
-          "text": "Ce que je fais"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Je ne roule pas sur les lignes.",
-            "Si la route n'a qu'une voie et que je ne vois pas loin, je laisse libre la partie gauche.",
-            "Je prends le trottoir ou l'accotement seulement s'ils sont faits pour mon type de véhicule."
-          ]
         },
         {
           "type": "attention",

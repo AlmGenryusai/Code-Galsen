@@ -78,7 +78,21 @@
       "blocks": [
         {
           "type": "text",
-          "text": "La pluie et le sable allongent la distance de freinage."
+          "text": "Sur une route mouillée ou couverte de sable, les pneus accrochent moins. La voiture met plus de temps à s'arrêter et glisse plus facilement dans les virages."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je roule moins vite : hors agglomération, les limites baissent sous la pluie.",
+            "Je double ma distance avec le véhicule devant.",
+            "Je freine tôt et doucement, en ligne droite.",
+            "Je ralentis avant les virages, pas dedans.",
+            "J'allume mes feux de croisement pour être vu."
+          ]
         },
         {
           "type": "image",
@@ -92,14 +106,14 @@
         },
         {
           "type": "heading",
-          "text": "Ce que je fais"
+          "text": "Les pièges"
         },
         {
           "type": "list",
           "items": [
-            "J'augmente ma distance avec le véhicule devant.",
-            "Je freine tôt et doucement.",
-            "Je ralentis avant les virages, pas dedans."
+            "Les premières pluies après la saison sèche : l'huile et la poussière sur la route forment une couche très glissante.",
+            "Les flaques profondes : à vitesse élevée, les pneus peuvent flotter sur l'eau (« aquaplaning ») et la voiture ne répond plus. Je lève le pied doucement, sans freiner fort ni donner de coup de volant.",
+            "Le sable sur la chaussée, fréquent près des côtes et des dunes : il glisse comme de l'eau."
           ]
         },
         {
@@ -111,10 +125,6 @@
             "credit": "Anderson sady, CC BY-SA 3.0, via Wikimedia Commons"
           },
           "caption": "Du sable sur la route : la chaussée glisse."
-        },
-        {
-          "type": "text",
-          "text": "Après les premières pluies, la chaussée est plus glissante."
         },
         {
           "type": "image",
