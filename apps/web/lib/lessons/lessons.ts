@@ -52,6 +52,11 @@ export function sheetHref(chapterId: string, n?: number): string {
   return n === undefined ? base : `${base}&f=${n}`
 }
 
+/** Liste des cours avec le thème donné déplié. */
+export function themeHref(theme: string): string {
+  return `/fiches?t=${encodeURIComponent(theme)}`
+}
+
 /** Paramètre `f` → numéro de fiche (1..count), sinon null : l'écran du chapitre s'affiche. */
 export function parseSheetParam(f: string | null, count: number): number | null {
   if (f === null || !/^[1-9]\d*$/.test(f)) return null
