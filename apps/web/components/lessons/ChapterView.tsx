@@ -5,7 +5,7 @@ import { LessonHeader } from './LessonHeader'
 import { BottomBar, BOTTOM_BAR_SPACE } from './BottomBar'
 import { useThemeAccess } from './useThemeAccess'
 import { ChevronIcon } from '@/components/dashboard/Icons'
-import { sheetHref, sheetMinutes } from '@/lib/lessons/lessons'
+import { sheetHref, sheetMinutes, themeHref } from '@/lib/lessons/lessons'
 import type { LessonFile } from '@/lib/lessons/types'
 import { useProgress } from '@/lib/progress/use-progress'
 import { chapterTitle } from '@/lib/quiz/taxonomy'
@@ -19,7 +19,7 @@ export function ChapterView({ lesson }: { lesson: LessonFile }) {
 
   return (
     <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))' }}>
-      <LessonHeader title={chapterTitle(lesson.id)} backHref="/fiches" />
+      <LessonHeader title={chapterTitle(lesson.id)} backHref={themeHref(lesson.theme)} />
       <main style={{ padding: '12px 20px 0', paddingBottom: BOTTOM_BAR_SPACE }}>
         <p style={{ fontSize: 14, color: 'hsl(var(--muted))' }}>
           {lesson.sheets.length} {lesson.sheets.length > 1 ? 'fiches' : 'fiche'} · {read} / {lesson.sheets.length} lues

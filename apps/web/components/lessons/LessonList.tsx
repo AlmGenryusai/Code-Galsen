@@ -12,7 +12,7 @@ import { useProgress } from '@/lib/progress/use-progress'
 import { TAXONOMY, chapterTitle, themeTitle } from '@/lib/quiz/taxonomy'
 
 /** Une section par thème qui a des fiches, une ligne par chapitre. */
-export function LessonList({ lessons }: { lessons: LessonFile[] }) {
+export function LessonList({ lessons, openTheme }: { lessons: LessonFile[]; openTheme?: string | null }) {
   const license = useLicense()
   const { progress } = useProgress()
   // Thème gratuit en tête, puis l'ordre de la taxonomie
@@ -20,11 +20,17 @@ export function LessonList({ lessons }: { lessons: LessonFile[] }) {
     (a, b) => Number(b.id === FREE_THEME) - Number(a.id === FREE_THEME),
   )
 
+  // Thème déplié : celui d'où l'on vient, sinon le premier dont tous les chapitres ne sont pas lus
+  const unfinished = themes.find((t) =>
+    lessons.some((l) => l.theme === t.id && !l.sheets.every((sh) => progress.lessons[sh.id])),
+  )
+  const opened = themes.some((t) => t.id === openTheme) ? openTheme : (unfinished ?? themes[0])?.id
+
   return (
     <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))' }}>
       <LessonHeader title="Fiches de cours" backHref="/" />
       <main style={{ padding: '8px 20px 24px' }}>
-        {themes.map((t, i) => {
+        {themes.map((t) => {
           const chapters = lessons.filter((l) => l.theme === t.id)
           // Étapes du thème : chaque chapitre lu en entier + la série d'entraînement du thème
           const done =
@@ -33,7 +39,7 @@ export function LessonList({ lessons }: { lessons: LessonFile[] }) {
           const steps = chapters.length + 1
           const themeLocked = license.loaded && !canAccess({ kind: 'theme', theme: t.id }, license)
           return (
-          <details key={t.id} open={i === 0} style={{ borderBottom: '1px solid hsl(var(--sand))' }}>
+          <details key={t.id} open={t.id === opened} style={{ borderBottom: '1px solid hsl(var(--sand))' }}>
             <summary
               style={{
                 display: 'flex',
