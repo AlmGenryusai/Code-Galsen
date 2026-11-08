@@ -554,7 +554,11 @@
     "explanation": "Dès que les feux rouges clignotent, il faut s'arrêter, même si la barrière est encore levée.",
     "common_mistake": "Tenter de passer avant la fermeture.",
     "legal_ref": "Décret 2004-13, annexe P6 et P7",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-08",
+      "juriste": "2026-11-08"
+    }
   }
 ]

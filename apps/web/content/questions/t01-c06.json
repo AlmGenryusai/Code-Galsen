@@ -490,7 +490,11 @@
     "explanation": "Le véhicule immobilisé est signalé par des feux de détresse et deux triangles de pré-signalisation, à 30 mètres au moins.",
     "common_mistake": "Ne poser qu'un seul triangle, ou le poser trop près.",
     "legal_ref": "Décret 2004-13, art. 80 et 83, annexe I (I-43 à I-45)",
-    "legal_status": "pending",
-    "status": "draft"
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-08",
+      "juriste": "2026-11-08"
+    }
   }
 ]
