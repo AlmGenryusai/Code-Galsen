@@ -78,6 +78,16 @@
           "caption": "Deux chaussées séparées : un terre-plein sépare les deux sens."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-route-2x2-sans-separation.webp",
+            "alt": "Route à deux voies dans chaque sens, sur une seule chaussée, sans terre-plein au milieu",
+            "credit": "Andrew Bossi, CC BY-SA 2.5, Wikimedia Commons"
+          },
+          "caption": "Au moins 2 voies par sens, sans terre-plein : seules des lignes peintes séparent les deux sens. Photo prise aux États-Unis, où la ligne du milieu est jaune ; au Sénégal, elle est blanche."
+        },
+        {
           "type": "heading",
           "text": "Par pluie"
         },

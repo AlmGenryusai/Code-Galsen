@@ -165,6 +165,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "c-planche-voyants.webp",
+            "alt": "Planche des principaux voyants classés par couleur : rouge, orange, vert ou bleu",
+            "credit": "Soupeurfaive, CC BY-SA 3.0, Wikimedia Commons (assemblage)"
+          },
+          "caption": "Les principaux voyants, classés par couleur. La forme exacte peut varier selon la voiture."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "c-tableau-de-bord.webp",
             "alt": "Tableau de bord avec compteurs et voyants",
             "credit": "auteur non renseigné, CC0"
