@@ -98,7 +98,7 @@ export function InstallHint() {
           onClick={dismiss}
           style={{
             minHeight: 44,
-            padding: '0 12px',
+            padding: '0 4px',
             border: 'none',
             background: 'transparent',
             color: 'hsl(var(--muted))',

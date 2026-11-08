@@ -81,7 +81,30 @@ main {
   margin: 0 auto;
   position: relative;
   overflow-x: hidden;
+  overflow-x: clip; /* clip : garde position:sticky fonctionnel (iOS Safari) */
   background: hsl(var(--bg));
+}
+
+/* iOS / Android : pas de zoom au double-tap, pas de flash gris, pas de texte gonflé en paysage */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+a, button, input, [role="button"], [role="tab"] {
+  touch-action: manipulation;
+}
+button, a, [role="button"] {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+/* iOS : retire le style natif des champs (ombre interne, arrondi forcé) */
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: var(--radius);
 }
 
 /* Tap targets min 48px (P06, P07) */

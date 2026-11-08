@@ -57,7 +57,7 @@ export function CarnetView({ questions }: Props) {
   }
 
   return (
-    <div style={{ background: 'hsl(var(--bg))', minHeight: '100dvh', paddingBottom: 80 }}>
+    <div style={{ background: 'hsl(var(--bg))', minHeight: '100dvh', paddingBottom: 'calc(80px + env(safe-area-inset-bottom))' }}>
       {/* Header */}
       <div style={{ padding: '14px 20px 0' }}>
         <h1 style={{ fontSize: 17, fontWeight: 700, color: 'hsl(var(--text))' }}>Progression</h1>
@@ -73,7 +73,7 @@ export function CarnetView({ questions }: Props) {
             borderRadius: 'var(--radius)',
             padding: '16px',
           }}>
-            <div style={{ fontSize: 12, fontWeight: 600, color: 'hsl(var(--muted))', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+            <div style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--muted))', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
               Dernier examen · {formatDate(last.date)}
             </div>
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 10 }}>
@@ -93,7 +93,7 @@ export function CarnetView({ questions }: Props) {
                 {last.passed ? 'Réussi' : 'Échoué'}
               </span>
             </div>
-            <div style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 4 }}>
+            <div style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 4 }}>
               {last.faults} faute{last.faults !== 1 ? 's' : ''} · {last.total - last.faults}/{last.total} correctes
             </div>
           </div>
@@ -110,7 +110,7 @@ export function CarnetView({ questions }: Props) {
             <div style={{ fontSize: 28, fontWeight: 800, color: 'hsl(var(--text))', lineHeight: 1 }}>
               {examAttempts.length}
             </div>
-            <div style={{ fontSize: 12, color: 'hsl(var(--muted))', marginTop: 4 }}>
+            <div style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 4 }}>
               examen{examAttempts.length > 1 ? 's' : ''} réalisé{examAttempts.length > 1 ? 's' : ''}
             </div>
           </div>
@@ -130,7 +130,7 @@ export function CarnetView({ questions }: Props) {
             }}>
               {avgScore ?? '—'}%
             </div>
-            <div style={{ fontSize: 12, color: 'hsl(var(--muted))', marginTop: 4 }}>
+            <div style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 4 }}>
               taux moyen récent
             </div>
           </div>
@@ -144,7 +144,7 @@ export function CarnetView({ questions }: Props) {
             borderRadius: 'var(--radius)',
             padding: '14px 16px',
           }}>
-            <div style={{ fontSize: 12, fontWeight: 600, color: 'hsl(var(--muted))', marginBottom: 12, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+            <div style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--muted))', marginBottom: 12, textTransform: 'uppercase', letterSpacing: '0.06em' }}>
               Thèmes à revoir
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>

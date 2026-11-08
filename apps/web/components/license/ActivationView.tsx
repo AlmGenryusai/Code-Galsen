@@ -66,7 +66,7 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
   }
 
   return (
-    <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', padding: '8px 20px 32px' }}>
+    <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', padding: '8px 20px calc(32px + env(safe-area-inset-bottom))' }}>
       <Link
         href="/"
         aria-label="Retour"
@@ -104,7 +104,7 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
           </li>
         ))}
       </ul>
-      <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10 }}>
+      <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 10 }}>
         Version gratuite : thème « {themeTitle(FREE_THEME)} » et 1 examen blanc.
       </p>
 
@@ -219,7 +219,7 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
           >
             {status === 'pending' ? 'Activation…' : 'Activer'}
           </button>
-          <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10, textAlign: 'center' }}>
+          <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 10, textAlign: 'center' }}>
             Le code s&apos;active sur un seul téléphone.
           </p>
         </form>

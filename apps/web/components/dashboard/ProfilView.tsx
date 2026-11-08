@@ -69,7 +69,7 @@ export function ProfilView({ supportWhatsapp, sheetTotal }: { supportWhatsapp: s
               <span style={{ fontWeight: 700 }}>{value}</span>
             </div>
           ))}
-          <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 8 }}>Enregistrée sur ce téléphone uniquement.</p>
+          <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 8 }}>Enregistrée sur ce téléphone uniquement.</p>
         </div>
 
         {supportWhatsapp && (
