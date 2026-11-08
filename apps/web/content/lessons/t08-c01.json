@@ -118,6 +118,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-desembuage.webp",
+            "alt": "Bouton de désembuage de la lunette arrière",
+            "credit": "auteur non renseigné, CC BY-NC-SA (Flickr)"
+          },
+          "caption": "Ce bouton chauffe la lunette arrière pour enlever la buée."
+        },
+        {
           "type": "text",
           "text": "Je ne roule pas avec un pare-brise embué : je m'arrête et j'attends de voir clair."
         },
@@ -150,6 +160,16 @@
             "Orange ou jaune : un problème ou une alerte. Je peux continuer prudemment, mais je fais contrôler rapidement.",
             "Vert ou bleu : simple information. Une fonction est en marche, tout est normal."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-tableau-de-bord.webp",
+            "alt": "Tableau de bord avec compteurs et voyants",
+            "credit": "auteur non renseigné, CC0"
+          },
+          "caption": "Les voyants se trouvent entre les compteurs."
         },
         {
           "type": "heading",
