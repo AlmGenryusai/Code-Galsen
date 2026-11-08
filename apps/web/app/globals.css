@@ -85,6 +85,12 @@ main {
   background: hsl(var(--bg));
 }
 
+/* Focus clavier / lecteur d'écran visible (n'apparaît pas au toucher) */
+:focus-visible {
+  outline: 3px solid hsl(var(--structure));
+  outline-offset: 2px;
+}
+
 /* iOS / Android : pas de zoom au double-tap, pas de flash gris, pas de texte gonflé en paysage */
 html {
   -webkit-text-size-adjust: 100%;

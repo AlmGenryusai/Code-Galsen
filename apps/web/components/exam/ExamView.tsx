@@ -23,6 +23,8 @@ export function ExamView({ questions }: ExamViewProps) {
   const [index, setIndex] = useState(0)
   const [picked, setPicked] = useState<OptionId[][]>([])
   const [timeLeft, setTimeLeft] = useState<number>(TIMER_SECONDS)
+  // Échéance absolue : le temps continue de couler si l'onglet passe en arrière-plan (iOS suspend les minuteurs).
+  const deadline = useRef(Date.now() + TIMER_SECONDS * 1000)
   const [answers, setAnswers] = useState<ExamAnswer[]>([])
   const [done, setDone] = useState(false)
 
@@ -41,6 +43,7 @@ export function ExamView({ questions }: ExamViewProps) {
       setIndex((i) => i + 1)
       setPicked([])
       setTimeLeft(TIMER_SECONDS)
+      deadline.current = Date.now() + TIMER_SECONDS * 1000
       return
     }
     const correct = all.filter((a) => a.correct).length
@@ -60,13 +63,18 @@ export function ExamView({ questions }: ExamViewProps) {
 
   useEffect(() => {
     if (done || total === 0) return
-    if (timeLeft <= 0) {
-      onTimeout.current([], true)
-      return
+    const sync = () => {
+      const left = Math.max(0, Math.ceil((deadline.current - Date.now()) / 1000))
+      setTimeLeft(left)
+      if (left <= 0) onTimeout.current([], true)
     }
-    const id = setTimeout(() => setTimeLeft((t) => t - 1), 1000)
-    return () => clearTimeout(id)
-  }, [timeLeft, done, total])
+    const id = setInterval(sync, 500)
+    document.addEventListener('visibilitychange', sync)
+    return () => {
+      clearInterval(id)
+      document.removeEventListener('visibilitychange', sync)
+    }
+  }, [done, total])
 
   function handlePick(partIndex: number, id: OptionId) {
     const next = q.parts.map((_, i) => picked[i] ?? [])
