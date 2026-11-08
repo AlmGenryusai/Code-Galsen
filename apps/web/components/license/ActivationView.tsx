@@ -175,6 +175,11 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
               setCode(formatCode(e.target.value))
               setStatus('idle')
             }}
+            onFocus={(e) => {
+              // Clavier mobile : garde le champ et le bouton visibles
+              const el = e.currentTarget
+              setTimeout(() => el.scrollIntoView({ block: 'center', behavior: 'smooth' }), 300)
+            }}
             placeholder="GALS-XXXX-XXXX"
             inputMode="text"
             autoCapitalize="characters"
