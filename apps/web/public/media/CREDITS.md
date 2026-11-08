@@ -268,3 +268,7 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | n-Ffeu-fleches.webp | Feux à flèches animés : rouge, vert, orange | Source inconnue (site d'auto-école, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
 | n-Ffeu-clignotant.webp | Feu orange clignotant animé | Source inconnue (site d'auto-école, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
 | n-Ffeu-trio.webp | Feux tricolores : vert, orange, rouge | Source inconnue (site d'auto-école, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| n-R-lignes.webp | Schéma : ligne continue, discontinue et mixte | Source inconnue (Google Images, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| n-R-voyantpneus.webp | Voyant orange de pression des pneus | Source inconnue (iStock, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| n-R-triangle.webp | Triangle de pré-signalisation posé au bord de la route | Source inconnue (Google Images, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| n-R-stationnement.webp | Voitures garées le long d'une rue | Source inconnue (Google Images, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |

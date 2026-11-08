@@ -96,6 +96,16 @@
           "text": "Je regarde celle qui est juste à ma gauche : si c'est la continue, je ne passe pas. Si c'est la discontinue, je peux passer le temps de dépasser."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-R-lignes.webp",
+            "alt": "Schéma de trois marquages : ligne continue, ligne discontinue et ligne mixte",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Ligne mixte : je ne franchis que si la discontinue est de mon côté."
+        },
+        {
           "type": "attention",
           "text": "Sur une chaussée à trois voies, la voie la plus à gauche est réservée à ceux qui viennent en face."
         },

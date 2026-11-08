@@ -186,6 +186,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-R-voyantpneus.webp",
+            "alt": "Voyant orange de pression des pneus : fer à cheval avec un point d'exclamation",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Voyant pression des pneus : je vérifie le gonflage."
+        },
+        {
           "type": "heading",
           "text": "Vert ou bleu : information"
         },

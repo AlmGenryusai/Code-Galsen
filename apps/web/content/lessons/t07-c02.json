@@ -56,6 +56,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-R-stationnement.webp",
+            "alt": "Voitures garées le long d'une rue en ville",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Garé sans gêner, moteur coupé, frein serré, clé sur moi."
+        },
+        {
           "type": "memo",
           "text": "Quand je quitte ma voiture, je coupe le moteur, je serre le frein à main et je garde la clé sur moi."
         }
