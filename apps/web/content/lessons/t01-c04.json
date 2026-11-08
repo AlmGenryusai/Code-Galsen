@@ -46,6 +46,19 @@
         },
         {
           "type": "heading",
+          "text": "Reconnaître le type de route"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Voie : une file de voitures. Chaussée : toute la partie où l'on roule.",
+            "Deux chaussées séparées : un terre-plein ou un muret au milieu sépare les deux sens.",
+            "Au moins 2 voies par sens : deux files ou plus dans mon sens, sans terre-plein.",
+            "Double sens sans séparateur : une seule chaussée, une file par sens, juste une ligne au milieu."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Par pluie"
         },
         {
@@ -54,7 +67,7 @@
         },
         {
           "type": "memo",
-          "text": "50 en ville, 30 devant une école, puis 130, 110, 100, 90 selon la route."
+          "text": "En ville, je roule à 50 km/h au plus, et à 30 km/h près d'une école, d'un hôpital ou d'un lieu de culte. Hors de la ville, la limite va de 90 à 130 km/h selon le type de route."
         }
       ]
     },
@@ -133,7 +146,7 @@
         },
         {
           "type": "memo",
-          "text": "Je dois pouvoir m'arrêter dans ce que je vois."
+          "text": "Je roule assez lentement pour pouvoir m'arrêter avant ce que je vois devant moi."
         }
       ]
     },
@@ -167,7 +180,7 @@
         },
         {
           "type": "memo",
-          "text": "Je ralentis avant le danger, pas pendant."
+          "text": "Quand je vois un danger arriver, je ralentis avant d'y être, pas une fois dessus."
         }
       ]
     }

@@ -119,7 +119,7 @@
         },
         {
           "type": "memo",
-          "text": "Gêner le moins possible : accotement, loin des virages."
+          "text": "Je m'arrête là où je gêne le moins : sur l'accotement si possible, et loin des virages."
         }
       ]
     },
@@ -158,7 +158,7 @@
         },
         {
           "type": "memo",
-          "text": "Détresse et triangle, avant tout autre geste."
+          "text": "En panne sur la route, j'allume d'abord mes feux de détresse et je pose le triangle, avant de faire autre chose."
         }
       ]
     },
@@ -200,7 +200,7 @@
         },
         {
           "type": "memo",
-          "text": "Moteur coupé, regard derrière, clignotant au départ."
+          "text": "Avant de quitter ma voiture, je coupe le moteur. Avant de repartir, je regarde derrière moi et je mets mon clignotant."
         }
       ]
     }

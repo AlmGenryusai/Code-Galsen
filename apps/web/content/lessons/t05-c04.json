@@ -39,7 +39,7 @@
         },
         {
           "type": "memo",
-          "text": "Pas de permis, fuite, refus : délits."
+          "text": "Conduire sans permis, fuir après un accident ou refuser un contrôle sont des délits."
         }
       ]
     },
@@ -75,7 +75,7 @@
         },
         {
           "type": "memo",
-          "text": "Un geste au volant peut devenir un délit."
+          "text": "Une mauvaise action au volant, comme téléphoner en conduisant, peut être punie comme un délit."
         }
       ]
     },
@@ -104,7 +104,7 @@
         },
         {
           "type": "memo",
-          "text": "Je suis responsable de ce que je fais au volant."
+          "text": "Au volant, je suis responsable de ce que je fais et des dégâts que je cause."
         }
       ]
     }

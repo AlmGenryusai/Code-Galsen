@@ -45,7 +45,7 @@
         },
         {
           "type": "memo",
-          "text": "Freins, pneus, rétroviseurs, avertisseur."
+          "text": "Ma voiture doit avoir des freins, des pneus, des rétroviseurs et un klaxon en bon état."
         }
       ]
     },
@@ -91,12 +91,29 @@
           "caption": "Les voyants s'allument au tableau de bord : je les reconnais avant de partir."
         },
         {
+          "type": "heading",
+          "text": "Autres commandes utiles"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Désembuage avant : je dirige la ventilation vers le pare-brise. La climatisation sèche l'air et enlève la buée plus vite.",
+            "Désembuage arrière : le bouton chauffe les fils de la lunette arrière. Je l'éteins quand la vitre est claire.",
+            "Climatisation : par forte chaleur, elle évite la fatigue. Elle consomme un peu plus de carburant.",
+            "Voyant airbag : il s'allume au démarrage puis s'éteint. S'il reste allumé, l'airbag risque de ne pas se déclencher : je fais contrôler."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Je ne roule pas avec un pare-brise embué : je m'arrête et j'attends de voir clair."
+        },
+        {
           "type": "attention",
           "text": "Rouler avec un voyant rouge peut détruire le moteur ou rendre le freinage inefficace."
         },
         {
           "type": "memo",
-          "text": "Rouge : j'arrête."
+          "text": "Si un voyant rouge s'allume, je m'arrête dès que possible et je coupe le moteur."
         }
       ]
     }

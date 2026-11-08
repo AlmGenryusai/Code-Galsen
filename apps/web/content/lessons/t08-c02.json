@@ -75,7 +75,7 @@
         },
         {
           "type": "memo",
-          "text": "Pneus, huile, eau, feux."
+          "text": "Avant de partir, je vérifie les pneus, le niveau d'huile, le liquide de refroidissement et les feux."
         }
       ]
     },
@@ -119,7 +119,7 @@
         },
         {
           "type": "memo",
-          "text": "Chaleur : j'attends. Crevaison : je freine doucement."
+          "text": "Si le moteur chauffe, je m'arrête et j'attends qu'il refroidisse. Si un pneu crève, je tiens bien le volant et je freine doucement."
         }
       ]
     }

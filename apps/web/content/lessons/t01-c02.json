@@ -93,7 +93,7 @@
         },
         {
           "type": "memo",
-          "text": "Pas de panneau : je cède à droite."
+          "text": "À un carrefour sans panneau ni feu, je laisse passer celui qui arrive par ma droite."
         }
       ]
     },
@@ -221,7 +221,7 @@
         },
         {
           "type": "memo",
-          "text": "STOP : j'arrête. Cédez : je laisse passer. Rond-point : l'engagé passe."
+          "text": "Au STOP, je m'arrête complètement. Au « cédez le passage », je laisse passer sans forcément m'arrêter. Au rond-point, celui qui tourne déjà dedans passe en premier."
         }
       ]
     },
@@ -277,7 +277,7 @@
         },
         {
           "type": "memo",
-          "text": "Sirène, cortège, train : je laisse passer."
+          "text": "Quand j'entends une sirène, que je vois un cortège officiel ou qu'un train arrive, je les laisse passer avant moi."
         }
       ]
     }

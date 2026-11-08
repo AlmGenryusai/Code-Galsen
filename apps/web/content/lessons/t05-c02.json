@@ -42,7 +42,7 @@
         },
         {
           "type": "memo",
-          "text": "Amarré, couvert, rien qui traîne."
+          "text": "Mon chargement est bien attaché et couvert, et rien ne traîne sur la route."
         }
       ]
     },
@@ -72,7 +72,7 @@
         },
         {
           "type": "memo",
-          "text": "Pas devant, trois mètres derrière au maximum."
+          "text": "Une charge longue ne dépasse jamais à l'avant, et pas plus de trois mètres à l'arrière."
         }
       ]
     },
@@ -107,7 +107,7 @@
         },
         {
           "type": "memo",
-          "text": "Une place, une personne, assis."
+          "text": "Chaque passager a sa propre place et reste assis."
         }
       ]
     }

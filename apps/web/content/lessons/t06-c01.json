@@ -56,7 +56,7 @@
         },
         {
           "type": "memo",
-          "text": "Protéger, alerter, secourir."
+          "text": "Face à un accident, je protège d'abord les lieux, puis j'appelle les secours, et ensuite seulement j'aide les blessés."
         }
       ]
     },
@@ -87,7 +87,7 @@
         },
         {
           "type": "memo",
-          "text": "Je protège, j'appelle, j'appuie sur la plaie."
+          "text": "Je protège les lieux, j'appelle les secours, et si quelqu'un saigne, j'appuie fort sur la plaie."
         }
       ]
     }

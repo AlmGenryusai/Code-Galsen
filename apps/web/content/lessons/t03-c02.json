@@ -38,7 +38,7 @@
         },
         {
           "type": "memo",
-          "text": "Bretelle : j'accélère, je m'insère."
+          "text": "Sur la bretelle d'entrée, j'accélère pour rouler à la vitesse des autres, puis je m'insère quand il y a de la place."
         }
       ]
     },
@@ -92,7 +92,7 @@
         },
         {
           "type": "memo",
-          "text": "Voiture : 130, 100 sous la pluie, 50 dans la brume."
+          "text": "Sur autoroute, en voiture, je roule à 130 km/h au plus, à 100 km/h sous la pluie, et à 50 km/h si je vois à moins de 50 mètres."
         }
       ]
     },
@@ -140,7 +140,7 @@
         },
         {
           "type": "memo",
-          "text": "Panne : bande d'arrêt, détresse, signal."
+          "text": "En panne sur autoroute, je m'arrête sur la bande d'arrêt d'urgence, j'allume mes feux de détresse et je signale ma voiture."
         }
       ]
     }

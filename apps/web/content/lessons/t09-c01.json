@@ -78,7 +78,7 @@
         },
         {
           "type": "memo",
-          "text": "Ceinture d'abord, airbag en plus."
+          "text": "La ceinture me protège en premier. L'airbag complète la ceinture, il ne la remplace pas."
         }
       ]
     },
@@ -104,7 +104,7 @@
         },
         {
           "type": "memo",
-          "text": "Appuyer à fond, rester appuyé."
+          "text": "Avec l'ABS, en cas d'urgence, j'appuie à fond sur le frein et je reste appuyé."
         }
       ]
     }

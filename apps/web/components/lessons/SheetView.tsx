@@ -40,7 +40,7 @@ export function SheetView({ lesson, n }: { lesson: LessonFile; n: number }) {
       {last ? (
         <BottomBar
           href={`/quiz?theme=${encodeURIComponent(lesson.theme)}`}
-          secondary={{ href: '/', label: "Retour à l'accueil" }}
+          secondary={{ href: '/fiches', label: 'Retour aux cours' }}
         >
           M&apos;entraîner sur ce thème
         </BottomBar>

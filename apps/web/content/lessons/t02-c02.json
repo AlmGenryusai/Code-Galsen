@@ -57,8 +57,34 @@
           "caption": "Stupéfiants et fatigue réduisent les réflexes."
         },
         {
+          "type": "heading",
+          "text": "Médicaments"
+        },
+        {
+          "type": "text",
+          "text": "Certains médicaments endorment ou ralentissent les réflexes, même achetés sans ordonnance."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Somnifères et calmants.",
+            "Médicaments contre l'allergie.",
+            "Sirops contre la toux.",
+            "Certains antidouleurs forts.",
+            "Médicaments contre la dépression ou l'épilepsie."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Avant de conduire, je lis la notice et je demande au pharmacien ou au médecin. Si je me sens somnolent, je ne prends pas le volant."
+        },
+        {
+          "type": "text",
+          "text": "Un médicament mélangé à l'alcool multiplie ses effets."
+        },
+        {
           "type": "memo",
-          "text": "Je conduis ou je bois, pas les deux."
+          "text": "Si je dois conduire, je ne bois pas d'alcool. Si j'ai bu, je ne conduis pas."
         }
       ]
     },
@@ -92,7 +118,7 @@
         },
         {
           "type": "memo",
-          "text": "Téléphone en main, écouteurs : non."
+          "text": "En conduisant, je ne tiens jamais mon téléphone en main et je ne porte pas d'écouteurs."
         }
       ]
     },
@@ -160,7 +186,7 @@
         },
         {
           "type": "memo",
-          "text": "Ceinture avant de démarrer. Casque pour les passagers de moto. Fatigue : je m'arrête."
+          "text": "J'attache ma ceinture avant de démarrer. Mes passagers à moto portent un casque. Si je suis fatigué, je m'arrête pour me reposer."
         }
       ]
     }

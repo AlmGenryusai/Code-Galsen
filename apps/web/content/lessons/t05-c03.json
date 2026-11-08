@@ -24,7 +24,7 @@
         },
         {
           "type": "memo",
-          "text": "Une carte sécurisée, un capital de points."
+          "text": "Le nouveau permis est une carte sécurisée qui commence avec un capital de points."
         }
       ]
     },
@@ -63,7 +63,7 @@
         },
         {
           "type": "memo",
-          "text": "Stage pour récupérer. Zéro point, permis invalidé."
+          "text": "Je peux récupérer des points en faisant un stage. Si je n'ai plus aucun point, mon permis n'est plus valable."
         }
       ]
     },
@@ -85,7 +85,7 @@
         },
         {
           "type": "memo",
-          "text": "Permis suspendu : je ne conduis pas."
+          "text": "Si mon permis est suspendu, je n'ai pas le droit de conduire."
         }
       ]
     }

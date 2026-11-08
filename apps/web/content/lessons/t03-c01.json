@@ -68,7 +68,7 @@
         },
         {
           "type": "memo",
-          "text": "Je vois mal : je ralentis et j'allume."
+          "text": "Par brouillard, poussière ou forte pluie, je vois moins loin : je ralentis et j'allume mes feux de croisement pour être vu."
         }
       ]
     },
@@ -128,7 +128,7 @@
         },
         {
           "type": "memo",
-          "text": "Sol mouillé : plus de distance, moins de vitesse."
+          "text": "Sur une route mouillée, je freine moins bien : je roule moins vite et je laisse plus de distance devant moi."
         }
       ]
     },
@@ -147,9 +147,10 @@
         {
           "type": "list",
           "items": [
-            "Sans éclairage public : feux de croisement ou de route.",
-            "Je croise ou je suis de près un véhicule : feux de croisement pour ne pas éblouir.",
-            "Un véhicule garé la nuit doit être signalé par ses feux."
+            "En ville, dans une rue bien éclairée : les veilleuses suffisent.",
+            "Sur une route sans éclairage : feux de route quand personne n'est devant moi.",
+            "Dès qu'un véhicule arrive en face ou que j'en suis un de près : feux de croisement, pour ne pas l'éblouir.",
+            "Garé la nuit au bord d'une route : ma voiture doit rester visible grâce à ses feux."
           ]
         },
         {
@@ -168,7 +169,7 @@
         },
         {
           "type": "memo",
-          "text": "Nuit : j'éclaire, je n'éblouis pas."
+          "text": "La nuit, j'allume mes feux pour bien voir, et je passe en feux de croisement dès qu'un véhicule arrive en face."
         }
       ]
     }

@@ -54,7 +54,7 @@
         },
         {
           "type": "memo",
-          "text": "Une place, un passager ; une ceinture si la place en a une."
+          "text": "Chaque passager a sa place, et il attache sa ceinture si la place en a une."
         }
       ]
     },
@@ -90,7 +90,7 @@
         },
         {
           "type": "memo",
-          "text": "Casque pour tous, siège pour les petits."
+          "text": "À moto, tout le monde porte un casque. En voiture, les jeunes enfants voyagent dans un siège adapté."
         }
       ]
     }

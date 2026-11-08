@@ -28,7 +28,7 @@
         },
         {
           "type": "memo",
-          "text": "Croiser : à droite, et chacun fait de la place."
+          "text": "Pour croiser un véhicule, je serre à droite, et chacun laisse de la place à l'autre."
         }
       ]
     },
@@ -83,7 +83,7 @@
         },
         {
           "type": "memo",
-          "text": "Je vois, je préviens, je dépasse à gauche."
+          "text": "Pour dépasser, je vérifie que la voie est libre, je mets mon clignotant, puis je passe par la gauche."
         }
       ]
     },
@@ -171,7 +171,7 @@
         },
         {
           "type": "memo",
-          "text": "Pas de vue, pas de dépassement."
+          "text": "Si je ne vois pas assez loin devant, je ne dépasse pas."
         }
       ]
     }

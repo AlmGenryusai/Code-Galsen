@@ -38,7 +38,7 @@
         },
         {
           "type": "memo",
-          "text": "Droite, dans ma voie, sur la chaussée."
+          "text": "Je roule à droite, dans ma voie, et toujours sur la chaussée."
         }
       ]
     },
@@ -59,14 +59,6 @@
           "text": "Je ne la franchis pas et je ne la chevauche pas."
         },
         {
-          "type": "heading",
-          "text": "Ligne discontinue"
-        },
-        {
-          "type": "text",
-          "text": "Je peux franchir celle qui est à ma gauche pour dépasser, ou si je m'apprête à traverser la chaussée."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -78,11 +70,11 @@
         },
         {
           "type": "heading",
-          "text": "Ligne continue collée à une discontinue"
+          "text": "Ligne discontinue"
         },
         {
           "type": "text",
-          "text": "Je regarde celle qui est juste à ma gauche : si c'est la continue, je ne passe pas. Si c'est la discontinue, je peux passer le temps de dépasser."
+          "text": "Je peux franchir celle qui est à ma gauche pour dépasser, ou si je m'apprête à traverser la chaussée."
         },
         {
           "type": "image",
@@ -93,6 +85,14 @@
             "credit": "GilPe, CC BY-SA 4.0, via Wikimedia Commons"
           },
           "caption": "Ligne discontinue : je peux la franchir si la route est libre."
+        },
+        {
+          "type": "heading",
+          "text": "Ligne continue collée à une discontinue"
+        },
+        {
+          "type": "text",
+          "text": "Je regarde celle qui est juste à ma gauche : si c'est la continue, je ne passe pas. Si c'est la discontinue, je peux passer le temps de dépasser."
         },
         {
           "type": "attention",
@@ -120,7 +120,7 @@
         },
         {
           "type": "memo",
-          "text": "Continue : je reste. Discontinue : je passe pour dépasser."
+          "text": "Une ligne continue, je ne la franchis pas. Une ligne discontinue, je peux la franchir pour dépasser, puis je reviens à droite."
         }
       ]
     },
@@ -195,7 +195,7 @@
         },
         {
           "type": "memo",
-          "text": "Croiser : à droite. Contourner : à droite."
+          "text": "Quand je croise un véhicule, je serre à droite. Devant un obstacle ou un rond-point, je le contourne par la droite."
         }
       ]
     }

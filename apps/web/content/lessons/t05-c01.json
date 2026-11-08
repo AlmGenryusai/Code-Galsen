@@ -28,7 +28,7 @@
         },
         {
           "type": "memo",
-          "text": "Permis, carte du véhicule, assurance."
+          "text": "En voiture, j'ai toujours sur moi mon permis, la carte grise du véhicule et l'attestation d'assurance."
         }
       ]
     },
@@ -58,7 +58,7 @@
         },
         {
           "type": "memo",
-          "text": "Déclarer, immatriculer, visiter."
+          "text": "Un véhicule doit être déclaré, immatriculé, et passer la visite technique avant de rouler."
         }
       ]
     },
@@ -87,7 +87,7 @@
         },
         {
           "type": "memo",
-          "text": "Deux plaques, vrai nom, bon permis."
+          "text": "Mon véhicule porte deux plaques, à mon vrai nom, et j'ai le permis qui correspond à ce véhicule."
         }
       ]
     }
