@@ -8,18 +8,27 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Le permis est une carte numérisée et sécurisée. Elle contient les empreintes du titulaire pour permettre un contrôle biométrique."
+          "text": "Le nouveau code de la route (loi 2022-04) crée un nouveau permis de conduire et un permis à points. Certaines règles pratiques attendent encore un décret."
         },
         {
           "type": "heading",
-          "text": "À retenir"
+          "text": "La carte"
+        },
+        {
+          "type": "text",
+          "text": "Le permis est une carte numérique sécurisée. Elle contient les empreintes digitales du titulaire, pour que les agents puissent vérifier que c'est bien lui (contrôle « biométrique »)."
+        },
+        {
+          "type": "heading",
+          "text": "Le permis à points"
         },
         {
           "type": "list",
           "items": [
-            "Chaque conducteur a un capital de points.",
-            "Le nombre de points au départ est fixé par décret.",
-            "Les points sont personnels : seules les autorités administratives et judiciaires peuvent les connaître."
+            "Chaque conducteur reçoit un capital de points sur son permis.",
+            "Le nombre de points au départ et le barème des retraits seront fixés par décret.",
+            "Le nombre de points est confidentiel : seules l'administration et la justice peuvent le connaître.",
+            "Le système doit entrer en vigueur au plus tard 3 ans après la loi."
           ]
         },
         {
@@ -34,22 +43,18 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Certaines infractions font perdre des points. La liste et le barème sont fixés par décret."
+          "text": "Le permis à points sert à sanctionner les conducteurs qui commettent des infractions à répétition."
         },
         {
           "type": "heading",
-          "text": "Si les points baissent"
+          "text": "Comment je perds des points"
         },
         {
           "type": "list",
           "items": [
-            "Je peux en récupérer en suivant un stage de sensibilisation à la sécurité routière.",
-            "Si le capital tombe à zéro, le permis est invalidé."
+            "Certaines infractions entraînent un retrait de points, en plus de l'amende ou de la prison.",
+            "La liste de ces infractions et le nombre de points retirés seront fixés par décret."
           ]
-        },
-        {
-          "type": "attention",
-          "text": "Un permis invalidé ne permet plus de conduire."
         },
         {
           "type": "image",
@@ -60,6 +65,26 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Chaque infraction a des conséquences sur mon permis."
+        },
+        {
+          "type": "heading",
+          "text": "Comment j'en récupère"
+        },
+        {
+          "type": "text",
+          "text": "Je peux récupérer des points en suivant un stage de sensibilisation à la sécurité routière."
+        },
+        {
+          "type": "heading",
+          "text": "Si je n'ai plus de points"
+        },
+        {
+          "type": "text",
+          "text": "Quand le capital tombe à zéro, le permis est invalidé : il n'est plus valable, je n'ai plus le droit de conduire."
+        },
+        {
+          "type": "attention",
+          "text": "Conduire avec un permis invalidé est un délit : 3 ans de prison et 100 000 à 500 000 FCFA."
         },
         {
           "type": "memo",
@@ -73,7 +98,18 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Un juge peut suspendre ou annuler un permis, en plus du retrait de points."
+          "text": "En plus du retrait de points, un juge peut retirer le droit de conduire."
+        },
+        {
+          "type": "heading",
+          "text": "Les deux mesures"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Suspension : le permis est retiré pour une durée fixée par le juge. À la fin, je le récupère.",
+            "Annulation : le permis est supprimé. Je ne peux plus conduire tant que je n'ai pas obtenu un nouveau permis."
+          ]
         },
         {
           "type": "heading",
@@ -81,7 +117,7 @@
         },
         {
           "type": "text",
-          "text": "C'est un délit puni de prison et d'amende, sans circonstances atténuantes. Refuser de remettre un permis suspendu est puni de la même façon."
+          "text": "Conduire malgré une suspension ou une annulation, ou refuser de rendre son permis à l'agent, est un délit : 3 ans de prison et 100 000 à 500 000 FCFA. Le juge ne peut pas accorder de circonstances atténuantes."
         },
         {
           "type": "memo",
@@ -90,7 +126,7 @@
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.5 à L.12, L.77, L.81, L.103",
+  "legal_ref": "Loi 2022-04, L.4 à L.12, L.77, L.81, L.103",
   "legal_status": "pending",
   "status": "draft"
 }

@@ -8,7 +8,22 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Un bon réglage évite la fatigue et améliore le contrôle de la voiture."
+          "text": "Bien installé, je vois mieux, je fatigue moins et je réagis plus vite. Je fais ces réglages avant de démarrer, jamais en roulant."
+        },
+        {
+          "type": "heading",
+          "text": "Dans l'ordre"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Le siège : assis au fond, le dos contre le dossier. En appuyant la pédale de gauche à fond, ma jambe reste légèrement pliée.",
+            "2. Le dossier : poignets posés sur le haut du volant, bras tendus, mes épaules restent contre le dossier.",
+            "3. Le volant, s'il se règle : je vois bien le compteur, et il est à environ 25 cm de ma poitrine.",
+            "4. L'appui-tête : le haut est au niveau du haut de ma tête. Il protège mon cou en cas de choc par l'arrière.",
+            "5. Les rétroviseurs : l'intérieur montre toute la lunette arrière ; les extérieurs montrent la route, avec juste un peu de ma carrosserie sur le bord.",
+            "6. La ceinture : je l'attache en dernier, avant de démarrer."
+          ]
         },
         {
           "type": "image",
@@ -22,16 +37,11 @@
         },
         {
           "type": "heading",
-          "text": "Avant de démarrer"
+          "text": "Les chaussures"
         },
         {
-          "type": "list",
-          "items": [
-            "Je règle mon siège pour atteindre les pédales à fond.",
-            "Je règle mes rétroviseurs pour voir la route sur les côtés et derrière.",
-            "Je règle l'appui-tête à hauteur de la tête.",
-            "J'attache ma ceinture."
-          ]
+          "type": "text",
+          "text": "Je conduis avec des chaussures qui tiennent bien le pied. Des tongs ou des claquettes peuvent glisser ou se coincer sous une pédale."
         },
         {
           "type": "image",
@@ -65,7 +75,20 @@
       "blocks": [
         {
           "type": "text",
-          "text": "La ceinture est obligatoire pour le conducteur et les places avant. Seule une contre-indication médicale, avec certificat, dispense."
+          "text": "La ceinture est obligatoire pour le conducteur et les passagers avant. Seule une personne qui a une contre-indication médicale, avec un certificat médical, en est dispensée."
+        },
+        {
+          "type": "heading",
+          "text": "L'intérieur de la voiture (l'habitacle)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je range ou je fixe tout ce qui peut rouler : bouteille, sac, téléphone. En freinant, un objet peut glisser sous la pédale de frein et la bloquer.",
+            "Lors d'un choc, un objet posé sur la plage arrière devient un projectile.",
+            "Je ne tiens rien dans la main en conduisant : téléphone, nourriture ou cigarette.",
+            "Je ne mets rien devant le pare-brise ou sur le tableau de bord qui gêne la vue ou le déploiement de l'airbag."
+          ]
         },
         {
           "type": "image",
@@ -76,18 +99,6 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Ceinture bouclée avant de démarrer."
-        },
-        {
-          "type": "heading",
-          "text": "L'habitacle"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Je range ou je fixe tout ce qui peut rouler.",
-            "Je ne laisse rien près des pédales.",
-            "Je ne tiens rien dans la main en conduisant."
-          ]
         },
         {
           "type": "image",

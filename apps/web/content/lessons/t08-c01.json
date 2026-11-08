@@ -8,7 +8,22 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Un véhicule doit être en état de rouler en sécurité."
+          "text": "Un véhicule doit être en état de rouler sans danger. Un équipement en panne peut entraîner l'immobilisation du véhicule par un agent."
+        },
+        {
+          "type": "heading",
+          "text": "Ce qui doit marcher"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les freins : un frein principal (la pédale) et un frein de secours (le frein à main).",
+            "Les pneus : les sculptures (les rainures) sont bien visibles, sans hernie ni coupure profonde. Je n'oublie pas la roue de secours.",
+            "Les rétroviseurs : au moins deux, pour voir derrière et sur le côté.",
+            "L'avertisseur sonore (le klaxon).",
+            "Tous les feux : position, croisement, route, stop, clignotants, recul.",
+            "Les essuie-glaces et le lave-glace, avec un pare-brise sans grosse fissure devant le conducteur."
+          ]
         },
         {
           "type": "image",
@@ -22,15 +37,14 @@
         },
         {
           "type": "heading",
-          "text": "À contrôler"
+          "text": "À bord"
         },
         {
           "type": "list",
           "items": [
-            "Deux rétroviseurs au moins.",
-            "Deux dispositifs de freinage : un principal et un de secours.",
-            "Des pneus aux sculptures visibles, sans déchirure profonde.",
-            "Un avertisseur sonore qui fonctionne."
+            "Deux triangles de pré-signalisation : ils sont obligatoires.",
+            "Une roue de secours et de quoi la changer (cric, clé).",
+            "Un gilet jaune, une trousse de secours et une lampe : ils sont fortement conseillés."
           ]
         },
         {

@@ -8,7 +8,20 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Face à un accident, l'ordre compte : protéger, alerter, secourir."
+          "text": "Je suis témoin d'un accident, ou j'y suis mêlé. Ce que je fais dans les premières minutes peut sauver des vies, ou en coûter d'autres. Il y a un ordre à suivre : protéger, alerter, secourir."
+        },
+        {
+          "type": "heading",
+          "text": "1. Protéger : éviter un deuxième accident"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je m'arrête en sécurité, après l'accident, sur le bas-côté si possible. J'allume mes feux de détresse.",
+            "Je mets mon gilet jaune si j'en ai un, puis je pose les triangles à 30 mètres au moins, à l'avant et à l'arrière de l'accident.",
+            "Si un véhicule accidenté a le moteur allumé, je coupe le contact. Je ne fume pas : il peut y avoir de l'essence par terre.",
+            "J'éloigne les curieux et les passagers de la chaussée."
+          ]
         },
         {
           "type": "image",
@@ -22,27 +35,16 @@
         },
         {
           "type": "heading",
-          "text": "Protéger"
+          "text": "2. Alerter : prévenir les secours"
         },
         {
           "type": "list",
           "items": [
-            "J'arrête mon véhicule en sécurité et j'allume mes feux de détresse.",
-            "Je pose un triangle de pré-signalisation assez loin pour être vu à temps.",
-            "J'éloigne les curieux de la chaussée."
+            "J'appelle les sapeurs-pompiers (18), la police (17) ou le SAMU (Service d'aide médicale urgente, 1515).",
+            "Je donne le lieu exact : la route, la ville, un repère proche (station, mosquée, pont).",
+            "Je dis ce qui s'est passé, le nombre de blessés et leur état : conscient ou non, saigne ou non, coincé ou non.",
+            "Je ne raccroche pas le premier : c'est l'opérateur qui met fin à l'appel."
           ]
-        },
-        {
-          "type": "heading",
-          "text": "Alerter"
-        },
-        {
-          "type": "text",
-          "text": "Je donne le lieu précis, le nombre de victimes et leur état. Je réponds aux questions sans raccrocher en premier."
-        },
-        {
-          "type": "attention",
-          "text": "Fuir après un accident est un délit. Je reste sur place."
         },
         {
           "type": "image",
@@ -53,6 +55,18 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Après un accident, je protège et j'alerte."
+        },
+        {
+          "type": "heading",
+          "text": "3. Secourir"
+        },
+        {
+          "type": "text",
+          "text": "J'aide les blessés seulement après avoir protégé et alerté. Voir la fiche suivante."
+        },
+        {
+          "type": "attention",
+          "text": "Le conducteur impliqué qui s'en va pour échapper à sa responsabilité commet un délit de fuite : 1 à 3 ans de prison, peines doublées s'il y a des blessés ou des morts."
         },
         {
           "type": "memo",
@@ -66,24 +80,37 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Sans formation, je fais les gestes simples et je laisse les secouristes faire le reste."
+          "text": "Sans formation de secouriste, je fais seulement des gestes simples et sûrs. Je laisse les secours faire le reste."
         },
         {
           "type": "heading",
-          "text": "Je fais"
+          "text": "Ce que je fais"
         },
         {
           "type": "list",
           "items": [
-            "Je ne déplace pas une victime, sauf danger immédiat (feu, circulation).",
-            "Je ne retire pas le casque d'un motard.",
-            "J'appuie fortement sur une plaie qui saigne.",
-            "Je parle à la victime pour la rassurer."
+            "Je parle à la victime, je lui dis que les secours arrivent et je reste près d'elle.",
+            "Si elle saigne beaucoup, j'appuie fort et sans arrêt sur la plaie avec un tissu propre, ou avec la main protégée par un sac plastique.",
+            "Si elle a froid ou est sous le soleil, je la couvre ou je la protège, sans la bouger.",
+            "Si elle ne répond pas mais respire, je la surveille et je rappelle les secours si son état change."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je ne fais pas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ne déplace pas une victime, sauf danger immédiat : incendie, risque d'être heurtée par une voiture.",
+            "Je ne retire pas le casque d'un motard : je peux aggraver une blessure du cou.",
+            "Je ne donne ni à boire ni à manger, même si la victime le demande.",
+            "Je ne modifie pas la place des véhicules ni les traces sur la route : la police en a besoin pour l'enquête."
           ]
         },
         {
           "type": "attention",
-          "text": "Je ne donne ni à boire ni à manger à une victime grave."
+          "text": "Après un accident avec morts ou blessés graves, déplacer un véhicule sans autorisation ou effacer les traces est puni d'une amende de 15 000 FCFA."
         },
         {
           "type": "memo",
@@ -92,7 +119,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 80, art. 83, annexe I (I-43 à I-45) ; loi 2022-04, L.64, L.82",
+  "legal_ref": "Décret 2004-13, art. 80, 83, 136 à 139, annexe I (I-43 à I-45) ; loi 2022-04, L.64, L.82",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

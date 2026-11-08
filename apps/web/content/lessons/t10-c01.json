@@ -8,19 +8,21 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Une conduite souple fait gagner du carburant et ménage la voiture."
+          "text": "Une conduite souple fait économiser du carburant, donc de l'argent, et use moins les freins, les pneus et le moteur."
         },
         {
           "type": "heading",
-          "text": "Je fais"
+          "text": "Ce que je fais"
         },
         {
           "type": "list",
           "items": [
-            "J'anticipe pour lever le pied plutôt que freiner fort.",
-            "J'accélère doucement et je garde une vitesse stable.",
-            "Je garde mes pneus bien gonflés.",
-            "Je retire la charge inutile."
+            "Je regarde loin devant pour anticiper : je lève le pied tôt avant un feu rouge ou un ralentissement, au lieu de freiner fort au dernier moment.",
+            "J'accélère doucement et je passe la vitesse supérieure assez tôt.",
+            "Je garde une vitesse stable. Sur route, rouler un peu moins vite fait beaucoup baisser la consommation.",
+            "Je garde mes pneus bien gonflés : un pneu dégonflé fait consommer plus.",
+            "Je retire du coffre et du toit ce qui ne sert pas : le poids et la galerie sur le toit font consommer plus.",
+            "J'utilise la climatisation raisonnablement : elle augmente la consommation."
           ]
         },
         {
@@ -45,19 +47,27 @@
       "blocks": [
         {
           "type": "text",
-          "text": "La loi demande que les véhicules limitent leur consommation d'énergie et leurs émissions polluantes."
+          "text": "Les fumées des véhicules polluent l'air des villes comme Dakar et rendent malades. La loi demande que les véhicules limitent leur consommation d'énergie et leurs rejets polluants."
         },
         {
           "type": "heading",
-          "text": "Je fais"
+          "text": "Ce que je fais"
         },
         {
           "type": "list",
           "items": [
-            "Je coupe le moteur à l'arrêt prolongé.",
-            "Je fais entretenir mon véhicule.",
-            "Je ne modifie pas le pot d'échappement."
+            "Je coupe le moteur quand j'attends à l'arrêt plus d'une minute.",
+            "Je fais entretenir régulièrement mon véhicule : vidange, filtres, réglages. Une fumée noire ou bleue à l'échappement est un signe de panne.",
+            "Je partage les trajets ou je prends les transports en commun quand c'est possible."
           ]
+        },
+        {
+          "type": "heading",
+          "text": "Interdit"
+        },
+        {
+          "type": "text",
+          "text": "Supprimer ou trafiquer l'antipollution du véhicule (par exemple vider le pot catalytique ou retirer le filtre à particules) est un délit : 3 à 6 mois de prison et 50 000 à 500 000 FCFA."
         },
         {
           "type": "memo",
@@ -66,7 +76,7 @@
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.25, L.26 ; décret 2004-13, art. 60",
+  "legal_ref": "Loi 2022-04, L.25, L.26, L.92 ; décret 2004-13, art. 60",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

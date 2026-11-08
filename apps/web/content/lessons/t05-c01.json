@@ -8,23 +8,36 @@
       "blocks": [
         {
           "type": "text",
-          "text": "À chaque contrôle, un agent peut me demander mes papiers. Je dois les avoir avec moi."
+          "text": "Sur la route, la police, la gendarmerie ou un agent du ministère des Transports peut m'arrêter pour un contrôle. Je dois pouvoir présenter tout de suite les papiers du conducteur et du véhicule."
         },
         {
           "type": "heading",
-          "text": "Je présente"
+          "text": "Les papiers à présenter"
         },
         {
           "type": "list",
           "items": [
-            "Mon permis de conduire, valable pour la catégorie de mon véhicule.",
-            "Le certificat d'immatriculation du véhicule, avec la date de fin de la visite technique.",
-            "L'assurance, et l'autorisation de transport si c'est un véhicule de transport."
+            "Mon permis de conduire, valable et correspondant à la catégorie du véhicule que je conduis (permis B pour une voiture).",
+            "Le certificat d'immatriculation du véhicule, qu'on appelle souvent « carte grise ». La date de fin de validité de la visite technique est inscrite au dos.",
+            "L'attestation d'assurance du véhicule.",
+            "Pour un véhicule de transport (taxi, car, camion) : l'autorisation de transport et la patente."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Pendant le contrôle"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je m'arrête dès qu'un agent me fait signe, en me rangeant sur le côté sans gêner.",
+            "Je coupe le moteur, je reste calme et je présente mes papiers.",
+            "Je donne mon vrai nom, ma vraie adresse et mon vrai numéro de téléphone."
           ]
         },
         {
           "type": "attention",
-          "text": "Je m'arrête à la sommation d'un agent. Fuir un contrôle est un délit."
+          "text": "Ne pas s'arrêter à la demande d'un agent, ou refuser un contrôle, est un délit : 6 mois à 2 ans de prison et 100 000 à 500 000 FCFA (francs CFA) d'amende."
         },
         {
           "type": "memo",
@@ -38,23 +51,32 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Un véhicule ne roule pas sans être déclaré."
+          "text": "Avant de rouler sur la voie publique, un véhicule doit être déclaré à l'administration et prouvé en bon état."
         },
         {
           "type": "heading",
-          "text": "Les règles"
+          "text": "La mise en circulation"
         },
         {
           "type": "list",
           "items": [
-            "Je déclare la mise en circulation dans les 15 jours.",
-            "Je reçois un certificat d'immatriculation et d'aptitude technique.",
-            "Un véhicule de transport passe la visite technique avant d'être mis en circulation, sauf s'il est neuf."
+            "Le propriétaire déclare la mise en circulation du véhicule dans les 15 jours.",
+            "Il reçoit un certificat d'immatriculation et d'aptitude technique (la carte grise), qui donne au véhicule son numéro d'immatriculation.",
+            "Sans ce certificat au-delà des 15 jours, le véhicule peut être immobilisé sur place."
           ]
         },
         {
-          "type": "text",
-          "text": "La date d'expiration de la visite technique est inscrite sur le certificat d'immatriculation."
+          "type": "heading",
+          "text": "La visite technique"
+        },
+        {
+          "type": "list",
+          "items": [
+            "C'est un contrôle du véhicule dans un centre agréé : freins, pneus, éclairage, direction, pollution.",
+            "Un véhicule d'occasion passe la visite avant sa première mise en circulation au Sénégal. Un véhicule neuf en est dispensé.",
+            "Ensuite, la visite se refait régulièrement. Sa date limite est inscrite sur la carte grise.",
+            "Un véhicule sans visite technique valable peut être mis en fourrière."
+          ]
         },
         {
           "type": "memo",
@@ -68,22 +90,35 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Une voiture porte deux plaques d'immatriculation, à l'avant et à l'arrière. Les motos et cyclomoteurs n'ont pas cette obligation."
+          "text": "La plaque d'immatriculation permet d'identifier le véhicule et son propriétaire. Le permis prouve que j'ai le droit de le conduire."
         },
         {
           "type": "heading",
-          "text": "À éviter"
+          "text": "Les plaques"
         },
         {
           "type": "list",
           "items": [
-            "Rouler sans plaque ou avec une plaque non agréée.",
-            "Donner un faux nom ou une fausse adresse à un agent : c'est un délit."
+            "Une voiture porte deux plaques : une à l'avant, une à l'arrière.",
+            "Les plaques doivent être agréées (fabriquées selon le modèle officiel), lisibles et propres.",
+            "Utiliser une plaque non agréée est un délit : 3 à 6 mois de prison et 50 000 à 500 000 FCFA."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Le bon permis"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le permis B permet de conduire une voiture. Un camion, un car ou une moto demandent d'autres catégories.",
+            "Conduire avec un permis d'une autre catégorie : 1 à 5 ans de prison et 100 000 à 1 000 000 FCFA.",
+            "Prêter ma voiture à quelqu'un qui n'a pas de permis est puni comme si je conduisais moi-même sans permis."
           ]
         },
         {
           "type": "attention",
-          "text": "Un permis d'une autre catégorie ne me permet pas de conduire ce véhicule."
+          "text": "Donner un faux nom, une fausse adresse ou un faux numéro à un agent : 6 mois à 3 ans de prison."
         },
         {
           "type": "memo",

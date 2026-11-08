@@ -8,7 +8,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Avant d'ouvrir une portière, je m'assure que je peux le faire sans danger."
+          "text": "Une portière ouverte d'un coup côté route peut faire tomber un motard ou un cycliste qui arrive. La loi interdit de descendre ou d'ouvrir une portière sans s'être assuré qu'on peut le faire sans danger."
         },
         {
           "type": "heading",
@@ -17,14 +17,15 @@
         {
           "type": "list",
           "items": [
-            "Je regarde dans le rétroviseur et derrière moi.",
-            "J'ouvre doucement.",
-            "Je fais descendre les passagers côté trottoir ou accotement."
+            "Je regarde dans le rétroviseur extérieur, puis je tourne la tête pour voir l'angle mort.",
+            "J'ouvre avec la main la plus éloignée de la portière (la main droite pour la portière gauche) : cela me fait tourner le buste et regarder derrière.",
+            "J'ouvre doucement, un peu d'abord, puis en entier si personne n'arrive.",
+            "Je fais descendre les passagers côté trottoir ou bas-côté."
           ]
         },
         {
           "type": "attention",
-          "text": "Un enfant descend toujours côté trottoir, par la main."
+          "text": "Un enfant descend toujours côté trottoir, et je le tiens par la main."
         },
         {
           "type": "memo",
@@ -38,18 +39,20 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Quand je m'éloigne, je laisse le véhicule en sécurité."
+          "text": "Quand je m'éloigne de ma voiture, même quelques minutes, je la laisse en sécurité : elle ne doit ni bouger, ni être volée, ni gêner."
         },
         {
           "type": "heading",
-          "text": "Je fais"
+          "text": "Ce que je fais"
         },
         {
           "type": "list",
           "items": [
+            "Je me gare là où c'est autorisé, sans gêner la circulation ni l'entrée des maisons.",
             "Je coupe le moteur.",
-            "Je serre le frein à main et j'engage une vitesse en pente.",
-            "Je ferme et j'emporte la clé."
+            "Je serre le frein à main. En pente, j'engage aussi une vitesse et je tourne les roues vers le trottoir.",
+            "Je ferme les vitres et les portières, et j'emporte la clé.",
+            "Je ne laisse ni enfant ni animal seul dans la voiture."
           ]
         },
         {
