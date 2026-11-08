@@ -98,19 +98,29 @@
         },
         {
           "type": "heading",
-          "text": "Feux rouges clignotants"
+          "text": "Les types de passage à niveau"
         },
         {
-          "type": "text",
-          "text": "Au passage à niveau sans barrière, deux feux rouges qui clignotent annoncent l'arrivée d'un train. Ils signifient : arrêt absolu. Je m'arrête et j'attends qu'ils s'éteignent."
+          "type": "list",
+          "items": [
+            "Barrières manœuvrées par un garde (passage gardé) : j'obéis aux gestes du garde. Quand les barrières commencent à se fermer, je m'arrête.",
+            "Barrières ou demi-barrières automatiques : des feux rouges clignotent, souvent avec une sonnerie, puis les barrières se baissent toutes seules. Dès que les feux clignotent, je m'arrête, même si la barrière est encore levée.",
+            "Demi-barrières : elles ne ferment que la moitié droite de la route. Je ne fais jamais le tour par la gauche : le train arrive en quelques secondes.",
+            "Sans barrière, avec feux rouges clignotants : les feux annoncent le train. Deux feux rouges qui clignotent veulent dire arrêt absolu.",
+            "Sans barrière ni feu, avec une croix devant la voie : personne ne surveille. Je ralentis, je regarde des deux côtés et j'écoute avant de traverser."
+          ]
         },
         {
           "type": "heading",
-          "text": "Croix devant la voie"
+          "text": "Ce que je fais dans tous les cas"
         },
         {
-          "type": "text",
-          "text": "Une croix placée juste avant la voie ferrée signale un passage à niveau non gardé : personne ne surveille, c'est à moi de regarder des deux côtés."
+          "type": "list",
+          "items": [
+            "Je ralentis dès le panneau triangle qui annonce le passage à niveau.",
+            "Je ne m'engage que si je peux traverser d'un coup, sans m'arrêter sur les rails : si la file est bloquée de l'autre côté, j'attends avant.",
+            "Si ma voiture cale sur les rails, je fais sortir tout le monde immédiatement, loin des rails, puis j'appelle les secours."
+          ]
         },
         {
           "type": "heading",
@@ -276,7 +286,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 12, 13, 21, 33, annexe P3, P6, P7 ; loi 2022-04, L.2, L.60",
+  "legal_ref": "Décret 2004-13, art. 12, 13, 21, 33, annexe P3, P6, P7 (signaux G1, G2, G3) ; loi 2022-04, L.2, L.60",
   "legal_status": "confirmed",
   "status": "published",
   "review": {
