@@ -68,7 +68,7 @@ export function QuizView({ questions, title, onFinish }: QuizViewProps) {
         <div style={{ fontSize: 16, fontWeight: 600, color: 'hsl(var(--text))' }}>
           {pass ? 'Bravo ! Tu maîtrises ce thème.' : 'Continue à t\'entraîner.'}
         </div>
-        <div style={{ fontSize: 13, color: 'hsl(var(--muted))' }}>
+        <div style={{ fontSize: 14, color: 'hsl(var(--muted))' }}>
           {score}/{total} bonnes réponses
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10, width: '100%', maxWidth: 320, marginTop: 8 }}>

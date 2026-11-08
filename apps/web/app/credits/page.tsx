@@ -12,7 +12,7 @@ export default function CreditsPage() {
         {credits.map((c) => (
           <li key={c.src} style={{ padding: '8px 0', borderTop: '1px solid hsl(var(--border, var(--muted) / 0.3))', fontSize: 14 }}>
             <span style={{ display: 'block' }}>{c.alt}</span>
-            <span style={{ display: 'block', color: 'hsl(var(--muted))', fontSize: 13 }}>{c.credit}</span>
+            <span style={{ display: 'block', color: 'hsl(var(--muted))', fontSize: 14 }}>{c.credit}</span>
           </li>
         ))}
       </ul>
