@@ -82,7 +82,7 @@ export function BottomNav() {
               minHeight: 56,
               padding: '8px 0',
               color: 'hsl(var(--bg))',
-              opacity: active ? 1 : 0.7,
+              opacity: active ? 1 : 0.85,
               textDecoration: 'none',
               fontSize: 14,
               fontFamily: 'var(--font-sans)',
