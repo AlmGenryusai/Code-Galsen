@@ -46,16 +46,17 @@ const primaryButton = {
 function Gauge({ correct, total }: { correct: number; total: number }) {
   const r = 54
   const c = 2 * Math.PI * r
+  const passed = total > 0 && correct >= targetScore(total)
   return (
     <div style={{ position: 'relative', width: 140, height: 140 }}>
       <svg width="140" height="140" viewBox="0 0 140 140" aria-hidden="true" style={{ transform: 'rotate(-90deg)' }}>
         <circle cx="70" cy="70" r={r} fill="none" stroke="hsl(var(--sand))" strokeWidth="12" />
         <circle
-          cx="70" cy="70" r={r} fill="none" stroke="hsl(var(--structure))" strokeWidth="12" strokeLinecap="round"
+          cx="70" cy="70" r={r} fill="none" stroke={passed ? 'hsl(var(--structure))' : 'hsl(var(--wrong))'} strokeWidth="12" strokeLinecap="round"
           strokeDasharray={c} strokeDashoffset={c * (1 - (total ? correct / total : 0))}
         />
       </svg>
-      <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 28, fontWeight: 800, color: 'hsl(var(--ink))' }}>
+      <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 24, fontWeight: 800, whiteSpace: 'nowrap', color: 'hsl(var(--ink))' }}>
         {correct} / {total}
       </div>
     </div>
@@ -88,10 +89,13 @@ export function ExamDebrief({ questions, answers }: ExamDebriefProps) {
         <div style={{ flex: 1, fontSize: 16, fontWeight: 700 }}>Examen blanc terminé</div>
       </div>
 
-      <div style={{ maxWidth: 430, margin: '0 auto', padding: `24px 20px ${SAFE_BOTTOM}` }}>
+      <div style={{ maxWidth: 430, margin: '0 auto', padding: "24px 20px 0" }}>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 }}>
           <Gauge correct={correct} total={total} />
           <div style={{ fontSize: 15, color: 'hsl(var(--ink))' }}>Objectif : {targetScore(total)} / {total}</div>
+          {correct < targetScore(total) && (
+            <div style={{ fontSize: 15, fontWeight: 700, color: 'hsl(var(--wrong))' }}>Il t&apos;en manque {targetScore(total) - correct}</div>
+          )}
         </div>
 
         <h2 style={{ fontSize: 16, fontWeight: 700, color: 'hsl(var(--ink))', margin: '28px 0 12px' }}>Par thème</h2>
@@ -102,7 +106,7 @@ export function ExamDebrief({ questions, answers }: ExamDebriefProps) {
                 <span>{themeTitle(t.theme)}</span>
                 <span style={{ fontWeight: 700 }}>{t.correct} / {t.total}</span>
               </div>
-              <div style={{ height: 6, marginTop: 6, borderRadius: 3, background: 'hsl(var(--sand))' }}>
+              <div style={{ height: 8, marginTop: 6, borderRadius: 3, background: 'hsl(var(--border-2))' }}>
                 <div style={{ height: '100%', width: `${(t.correct / t.total) * 100}%`, borderRadius: 3, background: 'hsl(var(--structure))' }} />
               </div>
             </li>
@@ -139,7 +143,7 @@ export function ExamDebrief({ questions, answers }: ExamDebriefProps) {
           ))}
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginTop: 32 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 10, marginTop: 32, position: 'sticky', bottom: 0, padding: `12px 0 ${SAFE_BOTTOM}`, background: 'hsl(var(--bg))', borderTop: '1px solid hsl(var(--sand))' }}>
           {correct < total && (
             <button onClick={() => router.push('/quiz?mode=erreurs')} style={primaryButton}>Revoir mes erreurs</button>
           )}

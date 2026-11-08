@@ -26,10 +26,15 @@ interface QuestionCardProps {
 const TILE = 48
 const CORRECTION_BAR = 96
 
+/** Jusqu'à 4 cases sur un seul rang (barre ≈148 px au lieu de ≈203 px) ; au-delà, 2 colonnes. */
+function tileColumns(slotCount: number): number {
+  return slotCount >= 1 && slotCount <= 4 ? slotCount : 2
+}
+
 /** Hauteur de la barre du bas : libellé, grille A-D (2 colonnes), bouton Valider. */
 function barHeight(variant: string, slotCount: number): number {
   if (variant === 'correction') return CORRECTION_BAR
-  const rows = Math.max(1, Math.ceil(slotCount / 2))
+  const rows = Math.max(1, Math.ceil(slotCount / tileColumns(slotCount)))
   return 8 + 20 + 6 + rows * TILE + (rows - 1) * 8 + 10 + 48 + 8
 }
 const SHOW_DRAFT_BADGE = process.env.NODE_ENV !== 'production'
@@ -204,7 +209,7 @@ export function QuestionCard({
         {variant !== 'correction' && (
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--ink))', textAlign: 'center', marginBottom: 6 }}>{KIND_LABEL[answerKind(q)]}</div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: `repeat(${tileColumns(slots.reduce((n, s) => n + s.length, 0))}, 1fr)`, gap: 8 }}>
               {slots.flatMap((partSlotList, pi) =>
                 partSlotList.map((slot) => {
                   const isPicked = picked[pi]?.includes(slot.id) ?? false
@@ -224,7 +229,7 @@ export function QuestionCard({
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        gap: 14,
+                        gap: 8,
                         background: isPicked && !revealed ? 'hsl(var(--sand))' : 'hsl(var(--surface))',
                         border: isPicked && !revealed ? '2px solid hsl(var(--structure))' : '1.5px solid hsl(var(--sand))',
                         borderRadius: 'var(--radius)',
@@ -272,9 +277,9 @@ export function QuestionCard({
             type="button"
             onClick={revealed ? onNext : onSubmit}
             disabled={!revealed && !ready}
-            style={{ ...ACTION, flex: 'none', width: '100%', minHeight: 48, opacity: !revealed && !ready ? 0.5 : 1 }}
+            style={{ ...ACTION, flex: 'none', width: '100%', minHeight: 48, opacity: 1, ...(!revealed && !ready ? { background: 'hsl(var(--sand))', color: 'hsl(25 15% 30%)' } : {}) }}
           >
-            {revealed ? (isLast ? 'Résultats' : 'Suivant') : variant === 'exam' ? (isLast ? 'Terminer' : 'Valider') : `Valider (${index + 1}/${total})`}
+            {revealed ? (isLast ? 'Résultats' : 'Suivant') : variant === 'exam' ? (isLast ? 'Terminer' : 'Valider') : 'Valider'}
           </button>
         )}
       </div>
