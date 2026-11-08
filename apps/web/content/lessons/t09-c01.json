@@ -43,6 +43,18 @@
           "caption": "L'étiquette rappelle les consignes de sécurité de l'airbag."
         },
         {
+          "type": "heading",
+          "text": "Qui doit s'attacher ?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le conducteur et les passagers des places avant : c'est obligatoire.",
+            "Les passagers arrière : la loi ne l'impose pas encore, mais un passager arrière non attaché est projeté vers l'avant au moindre choc. Je leur demande de s'attacher si la place a une ceinture.",
+            "Chaque personne attache sa propre ceinture : jamais une ceinture pour deux, jamais un enfant sur les genoux sous la même ceinture."
+          ]
+        },
+        {
           "type": "attention",
           "text": "Un passager non attaché peut devenir un projectile et blesser les autres."
         },
@@ -65,6 +77,39 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Ceinture bouclée, sangle bien positionnée."
+        },
+        {
+          "type": "heading",
+          "text": "Bien la porter"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La sangle du haut passe sur l'épaule et au milieu de la poitrine, jamais sous le bras ni contre le cou.",
+            "La sangle du bas passe sur les hanches, le plus bas possible.",
+            "Elle est bien serrée, sans torsion. Je ne mets pas de pince pour la détendre."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Femme enceinte"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La grossesse ne dispense pas de la ceinture : elle protège la mère et le bébé.",
+            "La sangle du bas passe sous le ventre, sur le haut des cuisses et les hanches. Jamais sur le ventre.",
+            "La sangle du haut passe entre les seins, sur le côté du ventre.",
+            "Le siège est reculé le plus possible pour éloigner le ventre du volant et de l'airbag."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "La seule dispense"
+        },
+        {
+          "type": "text",
+          "text": "Seule une personne qui a une contre-indication médicale, prouvée par un certificat médical établi pour cela, peut ne pas porter la ceinture. Elle garde ce certificat sur elle pour le montrer en cas de contrôle. Ni la chaleur, ni un trajet court, ni la grossesse ne sont des dispenses."
         },
         {
           "type": "image",

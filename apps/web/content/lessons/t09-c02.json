@@ -53,6 +53,33 @@
           "caption": "Un enfant est attaché dans un dispositif adapté."
         },
         {
+          "type": "heading",
+          "text": "Les enfants en voiture"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Un bébé voyage dans un siège-coque, installé dos à la route.",
+            "Un jeune enfant voyage dans un siège auto adapté à sa taille, puis sur un rehausseur jusqu'à ce que la ceinture adulte lui passe bien sur l'épaule et non sur le cou.",
+            "Les enfants voyagent de préférence à l'arrière. Je ne mets jamais un siège bébé dos à la route devant un airbag passager en marche.",
+            "Je verrouille les portières arrière avec la sécurité enfant.",
+            "Je ne laisse jamais un enfant seul dans une voiture garée au soleil : la chaleur peut le tuer en quelques minutes."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ma responsabilité de conducteur"
+        },
+        {
+          "type": "list",
+          "items": [
+            "C'est moi qui décide de démarrer : avant de partir, je vérifie que tout le monde est assis et attaché.",
+            "Je ne prends pas plus de passagers que de places. Personne sur le marchepied, le toit ou dans le coffre.",
+            "Si un passager refuse de s'attacher à l'avant, je ne démarre pas : il est en infraction, et en cas de choc il peut me blesser.",
+            "Je conduis plus doucement quand je transporte des enfants, une femme enceinte ou une personne âgée."
+          ]
+        },
+        {
           "type": "memo",
           "text": "Chaque passager a sa place, et il attache sa ceinture si la place en a une."
         }
@@ -95,7 +122,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, annexe D27, D28 ; loi 2022-04, L.50, L.51",
+  "legal_ref": "Décret 2004-13, annexe D27, D28 ; loi 2022-04, L.50, L.51 ; décret 2004-13, annexe S2",
   "legal_status": "confirmed",
   "status": "published",
   "review": {
