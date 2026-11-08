@@ -58,6 +58,26 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-route-une-voie.webp",
+            "alt": "Route à double sens, une voie par sens, sans séparateur au milieu",
+            "credit": "auteur non renseigné, CC BY-SA 3.0"
+          },
+          "caption": "Route à double sens sans séparateur : une seule ligne au milieu."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-route-2x2.webp",
+            "alt": "Route à deux chaussées séparées par un terre-plein central",
+            "credit": "auteur non renseigné, CC BY-SA 4.0"
+          },
+          "caption": "Deux chaussées séparées : un terre-plein sépare les deux sens."
+        },
+        {
           "type": "heading",
           "text": "Par pluie"
         },

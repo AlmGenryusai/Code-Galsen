@@ -36,6 +36,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "c-bretelle.webp",
+            "alt": "Bretelle d'entrée qui rejoint l'autoroute par la voie d'accélération",
+            "credit": "auteur non renseigné, CC BY-SA 2.5"
+          },
+          "caption": "La bretelle mène à la voie d'accélération : j'y prends ma vitesse."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p11.webp",
             "alt": "Échangeur d'autoroute",
             "credit": "Velvet, CC BY-SA 4.0, via Wikimedia Commons"

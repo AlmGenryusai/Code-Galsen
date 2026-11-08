@@ -75,6 +75,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-medicaments.webp",
+            "alt": "Plaquette de comprimés",
+            "credit": "auteur non renseigné, CC BY 2.0"
+          },
+          "caption": "Avant de conduire, je lis la notice de mes médicaments."
+        },
+        {
           "type": "text",
           "text": "Avant de conduire, je lis la notice et je demande au pharmacien ou au médecin. Si je me sens somnolent, je ne prends pas le volant."
         },
@@ -107,6 +117,16 @@
             "Tenir en main tout autre appareil qui détourne l'attention : tablette, GPS, lecteur.",
             "Porter un écouteur, une oreillette ou un casque audio dans l'oreille."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-telephone.webp",
+            "alt": "Conducteur qui tient son téléphone en main au volant",
+            "credit": "auteur non renseigné, CC BY-SA 2.5"
+          },
+          "caption": "Téléphone tenu en main au volant : interdit."
         },
         {
           "type": "heading",

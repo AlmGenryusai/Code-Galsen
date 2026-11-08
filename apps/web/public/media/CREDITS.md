@@ -272,3 +272,18 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | n-R-voyantpneus.webp | Voyant orange de pression des pneus | Source inconnue (iStock, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
 | n-R-triangle.webp | Triangle de pré-signalisation posé au bord de la route | Source inconnue (Google Images, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
 | n-R-stationnement.webp | Voitures garées le long d'une rue | Source inconnue (Google Images, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| c-telephone.webp | Conducteur qui tient son téléphone en main au volant | Non renseigné | CC BY-SA 2.5 | - |
+| c-bretelle.webp | Bretelle d'entrée et voie d'accélération sur l'autoroute A14 | Non renseigné | CC BY-SA 2.5 | - |
+| c-route-une-voie.webp | Route à une voie par sens sans séparateur (D769) | Non renseigné | CC BY-SA 3.0 | - |
+| c-route-2x2.webp | Route à deux chaussées séparées (2x2 voies) | Non renseigné | CC BY-SA 4.0 | - |
+| c-pn-croix.webp | Croix de passage à niveau sans barrière | Non renseigné | CC0 | - |
+| c-pn-feux.webp | Feux rouges clignotants de passage à niveau | Non renseigné | CC BY-SA 4.0 | - |
+| c-pn-demi-barriere.webp | Passage à niveau à demi-barrière | Non renseigné | CC BY-SA 4.0 | - |
+| c-pn-barriere-fermee.webp | Barrière automatique fermée au passage d'un train | Non renseigné | CC BY-SA 4.0 | - |
+| c-pn-balises.webp | Balises rayées avant un passage à niveau | Non renseigné | CC BY-SA 4.0 | - |
+| c-voyant-abs.webp | Voyant ABS allumé | Non renseigné | Domaine public | - |
+| c-tableau-de-bord.webp | Tableau de bord Kia avec voyants | Non renseigné | CC0 | - |
+| c-ter.webp | TER de Dakar | Non renseigné | CC BY-SA 4.0 | - |
+| c-brt.webp | BRT de Dakar à un arrêt | Non renseigné | CC BY 4.0 | - |
+| c-medicaments.webp | Plaquette de médicaments | Non renseigné | CC BY 2.0 | - |
+| c-desembuage.webp | Bouton de désembuage de la lunette arrière | Non renseigné (Flickr) | CC BY-NC-SA, usage non commercial : à vérifier avant publication | - |

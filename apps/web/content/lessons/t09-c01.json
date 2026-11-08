@@ -193,6 +193,16 @@
           "text": "Sur le tableau de bord, le voyant ABS est orange : les trois lettres « ABS » écrites dans un cercle, entre deux arcs de parenthèses."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-voyant-abs.webp",
+            "alt": "Voyant ABS orange allumé au tableau de bord",
+            "credit": "auteur non renseigné, domaine public"
+          },
+          "caption": "Voyant ABS allumé en roulant : je fais contrôler."
+        },
+        {
           "type": "list",
           "items": [
             "Au démarrage, il s'allume quelques secondes puis s'éteint : c'est un test normal.",
