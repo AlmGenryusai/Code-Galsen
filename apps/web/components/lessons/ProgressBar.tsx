@@ -7,7 +7,7 @@ export function ProgressBar({ value, max, label }: { value: number; max: number;
       aria-valuemin={0}
       aria-valuemax={max}
       aria-valuenow={value}
-      style={{ height: 6, background: 'hsl(var(--sand))', borderRadius: 3, overflow: 'hidden' }}
+      style={{ height: 8, background: 'hsl(var(--border-2))', borderRadius: 3, overflow: 'hidden' }}
     >
       <div style={{ width: `${max ? (value / max) * 100 : 0}%`, height: '100%', background: 'hsl(var(--structure))' }} />
     </div>

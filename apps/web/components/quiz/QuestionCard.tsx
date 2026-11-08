@@ -32,8 +32,10 @@ function tileColumns(slotCount: number): number {
 }
 
 /** Hauteur de la barre du bas : libellé, grille A-D (2 colonnes), bouton Valider. */
-function barHeight(variant: string, slotCount: number): number {
+function barHeight(variant: string, slotCount: number, revealed = false): number {
   if (variant === 'correction') return CORRECTION_BAR
+  // Après validation (entraînement) : la grille disparaît, la barre se réduit au seul bouton Suivant
+  if (revealed) return 8 + 48 + 8
   const rows = Math.max(1, Math.ceil(slotCount / tileColumns(slotCount)))
   return 8 + 20 + 6 + rows * TILE + (rows - 1) * 8 + 10 + 48 + 8
 }
@@ -84,7 +86,7 @@ export function QuestionCard({
   const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
   const ok = revealed && isCorrect(q, picked)
   const isLast = index + 1 >= total
-  const bar = barHeight(variant, slots.reduce((n, s) => n + s.length, 0))
+  const bar = barHeight(variant, slots.reduce((n, s) => n + s.length, 0), revealed)
 
   return (
     <>
@@ -171,7 +173,7 @@ export function QuestionCard({
                   fontSize: 16,
                   fontWeight: 700,
                   background: ok ? 'hsl(var(--right-soft))' : 'hsl(var(--wrong-soft))',
-                  color: ok ? 'hsl(var(--right))' : 'hsl(var(--wrong))',
+                  color: ok ? 'hsl(132 49% 22%)' : 'hsl(var(--wrong))',
                 }}
               >
                 <span aria-hidden="true">{ok ? '✓' : '✕'}</span>
@@ -181,6 +183,7 @@ export function QuestionCard({
                 explanation={q.explanation}
                 commonMistake={q.common_mistake}
                 answersText={correctLettersText(q, orders)}
+                defaultOpen={!ok}
               />
             </div>
           )}
@@ -206,7 +209,7 @@ export function QuestionCard({
           borderTop: '1px solid hsl(var(--sand))',
         }}
       >
-        {variant !== 'correction' && (
+        {variant !== 'correction' && !revealed && (
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--ink))', textAlign: 'center', marginBottom: 6 }}>{KIND_LABEL[answerKind(q)]}</div>
             <div style={{ display: 'grid', gridTemplateColumns: `repeat(${tileColumns(slots.reduce((n, s) => n + s.length, 0))}, 1fr)`, gap: 8 }}>
@@ -265,7 +268,7 @@ export function QuestionCard({
         )}
         {variant === 'correction' ? (
           <div style={{ display: 'flex', flex: 1, justifyContent: 'flex-end', gap: 8 }}>
-            <button type="button" onClick={onPrev} disabled={index === 0} style={{ ...ACTION, flex: 1, background: 'hsl(var(--surface))', border: '1.5px solid hsl(var(--sand))', opacity: index === 0 ? 0.5 : 1 }}>
+            <button type="button" onClick={onPrev} disabled={index === 0} style={{ ...ACTION, flex: 1, background: 'hsl(var(--surface))', border: '1.5px solid hsl(var(--sand))', opacity: 1, color: index === 0 ? 'hsl(25 11% 38%)' : undefined, ...(index === 0 ? { background: 'hsl(var(--sand))', border: '1.5px solid hsl(var(--border-2))' } : {}) }}>
               Précédent
             </button>
             <button type="button" onClick={onNext} style={{ ...ACTION, flex: 1 }}>

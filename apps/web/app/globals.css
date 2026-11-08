@@ -92,6 +92,7 @@ main {
 }
 
 /* iOS / Android : pas de zoom au double-tap, pas de flash gris, pas de texte gonflé en paysage */
+body { overscroll-behavior-y: none; }
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -106,6 +107,13 @@ button, a, [role="button"] {
   -webkit-user-select: none;
   user-select: none;
 }
+/* Retour tactile immédiat (transform + filtre seulement, pas de transition) */
+button:not(:disabled):active,
+a:active {
+  filter: brightness(0.94);
+  transform: scale(0.985);
+}
+
 /* iOS : retire le style natif des champs (ombre interne, arrondi forcé) */
 input {
   -webkit-appearance: none;

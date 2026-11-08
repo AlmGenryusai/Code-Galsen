@@ -19,7 +19,7 @@ export function ExplanationPanel({ explanation, commonMistake, answersText, defa
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
         style={{
-          minHeight: 44,
+          minHeight: 48,
           padding: '0 4px',
           background: 'none',
           border: 'none',
