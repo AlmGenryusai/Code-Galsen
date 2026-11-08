@@ -287,3 +287,5 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | c-brt.webp | BRT de Dakar à un arrêt | Non renseigné | CC BY 4.0 | - |
 | c-medicaments.webp | Plaquette de médicaments | Non renseigné | CC BY 2.0 | - |
 | c-desembuage.webp | Bouton de désembuage de la lunette arrière | Non renseigné (Flickr) | CC BY-NC-SA, usage non commercial : à vérifier avant publication | - |
+| c-route-2x2-sans-separation.webp | Route à 2 voies par sens sans terre-plein (MD 115, Maryland, USA) | Andrew Bossi, Wikimedia Commons ([source](https://commons.wikimedia.org/wiki/File:2006_02_24_-_MD115_-_WB_09.JPG)) | CC BY-SA 2.5 | Réduite à 800 px |
+| c-planche-voyants.webp | Planche des principaux voyants par couleur | Soupeurfaive, Wikimedia Commons (20 symboles, ex. [ABS](https://commons.wikimedia.org/wiki/File:Anti-lock_braking_system_logo.png)) | CC BY-SA 3.0 | Assemblage en grille, légendes ajoutées, fonds airbag (rouge) et pneus (orange) recolorés ; planche sous CC BY-SA 3.0 |
