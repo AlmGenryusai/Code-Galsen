@@ -289,3 +289,10 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | c-desembuage.webp | Bouton de désembuage de la lunette arrière | Non renseigné (Flickr) | CC BY-NC-SA, usage non commercial : à vérifier avant publication | - |
 | c-route-2x2-sans-separation.webp | Route à 2 voies par sens sans terre-plein (MD 115, Maryland, USA) | Andrew Bossi, Wikimedia Commons ([source](https://commons.wikimedia.org/wiki/File:2006_02_24_-_MD115_-_WB_09.JPG)) | CC BY-SA 2.5 | Réduite à 800 px |
 | c-planche-voyants.webp | Planche des principaux voyants par couleur | Soupeurfaive, Wikimedia Commons (20 symboles, ex. [ABS](https://commons.wikimedia.org/wiki/File:Anti-lock_braking_system_logo.png)) | CC BY-SA 3.0 | Assemblage en grille, légendes ajoutées, fonds airbag (rouge) et pneus (orange) recolorés ; planche sous CC BY-SA 3.0 |
+| q-gem-a02.webp | Chemin de terre vers une route (scène A02) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a04b.webp | Deux camions sur route de campagne (scène A04b) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a08.webp | Moto à un feu rouge (scène A08) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a09.webp | Moto dans le rétroviseur (scène A09) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a16.webp | Arrière de voiture, vignettes sur la lunette (scène A16) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a17.webp | Pick-up chargé de barres (scène A17) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a28.webp | Clé de contact et voyants (scène A28) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
