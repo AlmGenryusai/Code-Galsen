@@ -129,7 +129,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Si je dois m'arrêter sur la chaussée parce que mon véhicule est en panne, je protège les autres."
+          "text": "Ma voiture tombe en panne ou je crève sur la route. Les voitures qui arrivent derrière ne savent pas que je suis arrêté. Mon premier travail : protéger, moi, mes passagers et les autres."
         },
         {
           "type": "image",
@@ -143,18 +143,44 @@
         },
         {
           "type": "heading",
-          "text": "Je fais"
+          "text": "Étape par étape"
         },
         {
           "type": "list",
           "items": [
-            "J'allume mes feux de détresse.",
-            "Je pose un triangle de pré-signalisation derrière mon véhicule."
+            "1. Dès que je sens la panne, j'allume mes feux de détresse et je ralentis doucement.",
+            "2. Je me range le plus à droite possible, sur l'accotement si je peux, loin d'un virage, d'un sommet de côte ou d'un carrefour.",
+            "3. Je serre le frein à main, je coupe le moteur et je tourne les roues vers le bas-côté.",
+            "4. Je mets mon gilet jaune avant de sortir, s'il y en a un dans la voiture, pour être vu.",
+            "5. Je fais descendre les passagers du côté du bas-côté, jamais côté route, et je les éloigne de la chaussée.",
+            "6. Je pose les deux triangles : un à l'arrière et un à l'avant de la voiture, chacun à 30 mètres au moins. Je marche face aux voitures qui arrivent, sur le bas-côté.",
+            "7. J'appelle un dépanneur ou les secours, en restant derrière la glissière ou loin de la route.",
+            "8. La nuit, je laisse aussi les feux de position allumés si la batterie le permet."
           ]
         },
         {
+          "type": "heading",
+          "text": "Ce que dit la règle"
+        },
+        {
           "type": "text",
-          "text": "Même de jour, un véhicule arrêté peut être heurté."
+          "text": "Toute voiture doit avoir en permanence deux triangles de pré-signalisation. Un véhicule arrêté sur la chaussée doit être signalé par ces deux triangles, placés à l'avant et à l'arrière, à 30 mètres au moins."
+        },
+        {
+          "type": "heading",
+          "text": "Les erreurs fréquentes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Poser des branches ou des pierres à la place des triangles, puis les laisser sur la route en repartant.",
+            "Rester assis dans la voiture arrêtée sur la chaussée.",
+            "Réparer côté route, le dos aux voitures qui arrivent."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Même de jour, un véhicule arrêté sur la route peut être heurté. Je signale d'abord, je répare ensuite."
         },
         {
           "type": "memo",
@@ -205,7 +231,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 9, 31 à 35 ; loi 2022-04, L.64",
+  "legal_ref": "Décret 2004-13, art. 9, 31 à 35, 80, 83, annexe I (art. I-43 à I-45) ; loi 2022-04, L.64",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

@@ -129,9 +129,14 @@
         {
           "type": "list",
           "items": [
-            "Je me range sur la bande d'arrêt d'urgence.",
-            "J'allume les feux de détresse.",
-            "Je signale mon véhicule, je fais descendre les passagers du côté sûr."
+            "1. J'allume mes feux de détresse et je rejoins la bande d'arrêt d'urgence, le plus à droite possible.",
+            "2. Je coupe le moteur et je serre le frein à main.",
+            "3. Je mets mon gilet jaune avant de sortir, s'il y en a un dans la voiture.",
+            "4. Je sors et je fais sortir tout le monde par la droite, côté glissière.",
+            "5. Tout le monde passe derrière la glissière et s'éloigne de la voie. Personne ne reste dans la voiture.",
+            "6. Si je peux le faire sans danger, je pose les triangles à 30 mètres au moins, en commençant par celui de l'arrière, et en marchant sur la bande d'arrêt d'urgence.",
+            "7. J'appelle un dépanneur ou les secours depuis derrière la glissière.",
+            "8. Je ne traverse jamais l'autoroute à pied, et je ne tente pas de réparer moi-même."
           ]
         },
         {
