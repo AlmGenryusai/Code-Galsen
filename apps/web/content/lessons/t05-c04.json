@@ -4,11 +4,37 @@
   "sheets": [
     {
       "id": "t05-c04-f01",
-      "title": "Les infractions graves",
+      "title": "Du moins grave au plus grave",
       "blocks": [
         {
           "type": "text",
-          "text": "Certaines infractions sont des délits : prison et amende."
+          "text": "Il existe deux niveaux d'infractions. Les contraventions, les plus légères, se paient par une amende fixe. Les délits, plus graves, peuvent mener en prison."
+        },
+        {
+          "type": "heading",
+          "text": "1. Contraventions : amende forfaitaire"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Toute règle du code non respectée, sans sanction particulière prévue : 3 000 FCFA.",
+            "Même faute avec une moto de 125 cm³ ou moins, une charrette, une voiture à bras ou un vélo : 5 000 FCFA.",
+            "Même faute avec un véhicule de plus de 125 cm³, donc une voiture : 6 000 FCFA.",
+            "Après un accident avec morts ou blessés graves : ne pas prévenir police ou gendarmerie, déplacer le véhicule sans autorisation, effacer les traces ou ne pas éclairer l'obstacle la nuit : 15 000 FCFA.",
+            "En cas de récidive, s'y ajoute jusqu'à 30 jours de prison."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Mesures sur le véhicule"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Immobilisation sur place : conducteur ivre, sans permis valable, véhicule en mauvais état (freins, pneus, éclairage), surcharge.",
+            "Mise en fourrière : stationnement dangereux, véhicule abandonné, visite technique non faite, amende forfaitaire non payée.",
+            "Les frais de fourrière sont à la charge du propriétaire."
+          ]
         },
         {
           "type": "image",
@@ -22,20 +48,22 @@
         },
         {
           "type": "heading",
-          "text": "Quelques exemples"
+          "text": "3. Délits : prison et amende"
         },
         {
           "type": "list",
           "items": [
-            "Conduire sans permis : 1 à 3 ans de prison et 100 000 à 1 000 000 FCFA.",
-            "Fuir après un accident : 1 à 3 ans et 500 000 à 5 000 000 FCFA.",
+            "Téléphone tenu en main ou écouteurs, règles de feux, pré-signalisation : 3 à 6 mois et 50 000 à 500 000 FCFA.",
             "Refuser de s'arrêter à un agent : 6 mois à 2 ans.",
-            "Faux nom ou fausse adresse : 6 mois à 3 ans."
+            "Donner un faux nom ou une fausse adresse : 6 mois à 3 ans.",
+            "Conduire sans permis : 1 à 3 ans et 100 000 à 1 000 000 FCFA.",
+            "Conduire avec 0,20 g/L d'alcool dans le sang ou plus, ou en état d'ivresse : 1 à 3 ans et 500 000 à 5 000 000 FCFA.",
+            "Fuir après un accident : 1 à 3 ans et 500 000 à 5 000 000 FCFA."
           ]
         },
         {
           "type": "attention",
-          "text": "Pour la conduite sans permis et la fuite après un accident, les peines sont doublées si l'infraction cause la mort ou des blessures."
+          "text": "Pour la conduite sans permis, l'alcool au volant et la fuite après un accident, les peines sont doublées si l'infraction cause la mort ou des blessures."
         },
         {
           "type": "memo",
@@ -109,7 +137,7 @@
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.78, L.82, L.85, L.86, L.87, L.94, L.96, L.98, L.102",
+  "legal_ref": "Loi 2022-04, L.78, L.82, L.84, L.85, L.86, L.87, L.94, L.96, L.98, L.102 ; décret 2004-13, art. 112, 119, 123, 131 à 133, 139",
   "legal_status": "confirmed",
   "status": "published",
   "review": {
