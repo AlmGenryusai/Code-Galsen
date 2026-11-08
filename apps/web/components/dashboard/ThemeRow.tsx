@@ -31,7 +31,7 @@ export function ThemeRow({ title, progress, questionsTotal, lastSeries, href, lo
         <div style={{ fontSize: 14, color: 'hsl(var(--muted))', margin: '2px 0 6px' }}>
           {questionsTotal} question{questionsTotal > 1 ? 's' : ''}
         </div>
-        <div style={{ height: 4, background: 'hsl(var(--sand))', borderRadius: 99, overflow: 'hidden' }}>
+        <div style={{ height: 6, background: 'hsl(var(--border-2))', borderRadius: 99, overflow: 'hidden' }}>
           <div
             style={{ height: '100%', width: `${progress}%`, background: 'hsl(var(--structure))', borderRadius: 99 }}
           />

@@ -113,11 +113,12 @@ export function QuizView({ questions, title, onFinish }: QuizViewProps) {
 
   return (
     <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', display: 'flex', flexDirection: 'column' }}>
-      {/* En-tête */}
+      {/* En-tête (collant : ne part pas avec le scroll sur Chrome Android) */}
+      <div style={{ position: 'sticky', top: 0, zIndex: 20 }}>
       <div style={{ background: 'hsl(var(--structure))', color: 'hsl(var(--bg))', padding: '4px 12px 0 8px', display: 'flex', alignItems: 'center', gap: 8 }}>
         <button
           onClick={() => router.back()}
-          style={{ background: 'none', border: 'none', color: 'inherit', fontSize: 28, lineHeight: 1, minWidth: 44, minHeight: 48 }}
+          style={{ background: 'none', border: 'none', color: 'inherit', fontSize: 28, lineHeight: 1, minWidth: 48, minHeight: 48 }}
           aria-label="Retour"
         >
           ‹
@@ -131,6 +132,7 @@ export function QuizView({ questions, title, onFinish }: QuizViewProps) {
           width: `${((index + (answered ? 1 : 0)) / total) * 100}%`,
           background: 'hsl(var(--primary))',
         }} />
+      </div>
       </div>
 
       <QuestionCard

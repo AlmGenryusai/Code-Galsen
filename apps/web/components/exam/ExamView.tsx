@@ -87,19 +87,21 @@ export function ExamView({ questions }: ExamViewProps) {
 
   return (
     <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', display: 'flex', flexDirection: 'column' }}>
-      {/* En-tête */}
+      {/* En-tête collant */}
+      <div style={{ position: 'sticky', top: 0, zIndex: 20 }}>
       <div style={{ background: 'hsl(var(--structure))', color: 'hsl(var(--bg))', padding: '0 16px', minHeight: 52, display: 'flex', alignItems: 'center', gap: 12 }}>
         <div style={{ flex: 1, fontSize: 16, fontWeight: 700 }}>Examen blanc</div>
-        <div style={{ fontSize: 14, opacity: 0.85 }} aria-label={`${timeLeft} secondes restantes`}>{timeLeft} s</div>
+        <div style={{ fontSize: 18, fontWeight: 700, fontVariantNumeric: 'tabular-nums', color: timeLeft <= 10 ? '#FFC299' : undefined }} aria-label={`${timeLeft} secondes restantes`}>{timeLeft} s</div>
         <div style={{ fontSize: 16, fontWeight: 700 }}>{index + 1} / {total}</div>
       </div>
-      <div style={{ height: 4, background: 'hsl(var(--structure))' }}>
+      <div style={{ height: 6, background: 'hsl(var(--structure))' }}>
         <div style={{
           height: '100%',
           width: `${(timeLeft / TIMER_SECONDS) * 100}%`,
-          background: 'hsl(var(--primary))',
+          background: 'hsl(var(--bg))',
           transition: 'width 1s linear',
         }} />
+      </div>
       </div>
 
       <QuestionCard

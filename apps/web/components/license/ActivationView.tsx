@@ -74,9 +74,9 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
           display: 'inline-flex',
           alignItems: 'center',
           justifyContent: 'center',
-          width: 44,
-          height: 44,
-          marginLeft: -12,
+          width: 48,
+          height: 48,
+          marginLeft: -14,
           color: 'hsl(var(--muted))',
           fontSize: 22,
           textDecoration: 'none',
@@ -94,7 +94,7 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
 
       <ul style={{ listStyle: 'none', padding: 0, margin: '18px 0 0', display: 'flex', flexDirection: 'column', gap: 10 }}>
         {[
-          `Les ${themeCount} thèmes du programme (${questionCount} questions)`,
+          `Les ${themeCount} thèmes du programme (${questionCount} questions)`,
           'Examens blancs illimités',
           'Révision de tes erreurs',
         ].map((item) => (

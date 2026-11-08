@@ -17,14 +17,14 @@ export function MediaFrame({ media, hideCredit = false, hideBadge = false, round
 
   if (media.kind === 'sign') {
     return (
-      <div style={{ aspectRatio: '16 / 9', width: '100%', background: 'hsl(var(--sand))', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: radius, overflow: 'hidden' }}>
+      <div style={{ aspectRatio: '16 / 9', maxHeight: 'max(120px, 28dvh)', width: '100%', background: 'hsl(var(--sand))', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: radius, overflow: 'hidden' }}>
         <RoadSign id={media.src} size={96} />
       </div>
     )
   }
 
   return (
-    <div style={{ position: 'relative', aspectRatio: '16 / 9', width: '100%', background: media.fit === 'contain' ? '#fff' : 'hsl(var(--sand))', overflow: 'hidden', borderRadius: radius }}>
+    <div style={{ position: 'relative', aspectRatio: '16 / 9', maxHeight: 'max(120px, 28dvh)', width: '100%', background: media.fit === 'contain' ? '#fff' : 'hsl(var(--sand))', overflow: 'hidden', borderRadius: radius }}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/media/${media.src}`}
