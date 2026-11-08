@@ -533,5 +533,28 @@
     "review": {
       "moniteur": "2026-11-07"
     }
+  },
+  {
+    "id": "t03-c03-0018",
+    "theme": "t03",
+    "chapter": "t03-c03",
+    "context": "Je m'approche d'un passage à niveau. Des feux rouges clignotent, mais la barrière est encore levée.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je m'arrête :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je passe vite avant qu'elle ne descende :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Dès que les feux rouges clignotent, il faut s'arrêter, même si la barrière est encore levée.",
+    "common_mistake": "Tenter de passer avant la fermeture.",
+    "legal_ref": "Décret 2004-13, annexe P6 et P7",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]

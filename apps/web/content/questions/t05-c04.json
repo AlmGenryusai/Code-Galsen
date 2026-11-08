@@ -314,5 +314,69 @@
       "moniteur": "2026-11-07",
       "juriste": "2026-11-07"
     }
+  },
+  {
+    "id": "t05-c04-0012",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "context": "Je conduis avec 0,20 g/L d'alcool dans le sang, sans paraître ivre.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "C'est un délit puni de prison :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je ne risque rien tant que je ne suis pas manifestement ivre :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "À partir de 0,20 g/L de sang (ou 0,10 mg/L d'air expiré), c'est un délit : 1 à 3 ans de prison et 500 000 à 5 000 000 FCFA, même sans signe d'ivresse.",
+    "common_mistake": "Croire qu'on ne risque rien si l'on tient debout.",
+    "legal_ref": "loi 2022-04, L.84",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0013",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "context": "Je viens de causer un accident et j'ai peur des conséquences.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je repars sans m'arrêter :",
+        "correct": "no"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Si l'accident a fait un blessé et que je fuis, la peine est doublée :",
+        "correct": "yes"
+      }
+    ],
+    "explanation": "Fuir après un accident est un délit : 1 à 3 ans de prison et 500 000 à 5 000 000 FCFA. En cas de mort ou de blessés, les peines sont doublées.",
+    "common_mistake": "Partir pour éviter les ennuis.",
+    "legal_ref": "loi 2022-04, L.82",
+    "legal_status": "pending",
+    "status": "draft"
+  },
+  {
+    "id": "t05-c04-0014",
+    "theme": "t05",
+    "chapter": "t05-c04",
+    "context": "Ma voiture est en panne sur la route. Je n'ai pas posé les triangles et un autre véhicule heurte la mienne : il y a un blessé.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je peux bénéficier d'un sursis :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Violer les règles de pré-signalisation et causer un accident avec un mort ou un blessé est puni de 3 à 6 mois de prison et de 50 000 à 500 000 FCFA, sans sursis possible.",
+    "common_mistake": "Penser que seul l'autre conducteur est fautif.",
+    "legal_ref": "loi 2022-04, L.95",
+    "legal_status": "pending",
+    "status": "draft"
   }
 ]
