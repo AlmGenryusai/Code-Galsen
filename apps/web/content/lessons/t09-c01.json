@@ -129,11 +129,47 @@
     },
     {
       "id": "t09-c01-f02",
-      "title": "Freiner avec l'ABS",
+      "title": "L'ABS : à quoi il sert et comment freiner",
       "blocks": [
         {
+          "type": "heading",
+          "text": "C'est quoi l'ABS ?"
+        },
+        {
           "type": "text",
-          "text": "L'ABS empêche les roues de bloquer au freinage."
+          "text": "ABS veut dire « système antiblocage des roues ». C'est un dispositif électronique installé sur presque toutes les voitures récentes. Il agit tout seul, je n'ai aucun bouton à toucher."
+        },
+        {
+          "type": "heading",
+          "text": "Le problème qu'il résout"
+        },
+        {
+          "type": "text",
+          "text": "Quand je freine très fort, sans ABS, les roues peuvent se bloquer : elles s'arrêtent de tourner et la voiture glisse sur ses pneus, comme sur une savonnette. Une voiture qui glisse ne tourne plus : même si je tourne le volant, elle continue tout droit. Sur une route mouillée, sableuse ou avec des gravillons, cela arrive encore plus vite."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que fait l'ABS"
+        },
+        {
+          "type": "text",
+          "text": "L'ABS surveille chaque roue. Dès qu'une roue va se bloquer, il relâche et reprend le freinage très vite, plusieurs fois par seconde. Les roues continuent de tourner, donc je garde la direction : je peux tourner le volant pour éviter un obstacle tout en freinant."
+        },
+        {
+          "type": "text",
+          "text": "Attention : l'ABS ne fait pas freiner plus court. Sur sol mouillé ou sur du sable, la distance de freinage reste longue. Il m'aide à garder le contrôle, il ne remplace pas une vitesse adaptée."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je ressens quand il agit"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La pédale de frein vibre et remonte par petites secousses sous mon pied.",
+            "J'entends un bruit de grognement ou de crépitement.",
+            "C'est normal : cela veut dire que l'ABS travaille. Je ne relâche surtout pas la pédale."
+          ]
         },
         {
           "type": "heading",
@@ -142,9 +178,26 @@
         {
           "type": "list",
           "items": [
-            "J'appuie à fond sur la pédale et je la maintiens.",
-            "Je garde le volant pour contrôler la direction.",
-            "Je ne pompe pas."
+            "J'appuie à fond sur la pédale de frein, d'un coup.",
+            "Je garde le pied appuyé à fond jusqu'à l'arrêt, même si la pédale vibre.",
+            "Je regarde là où je veux aller, pas l'obstacle, et je tourne le volant pour l'éviter si besoin.",
+            "Je ne pompe pas sur la pédale : c'est l'ABS qui le fait, en bien plus rapide. Pomper ne servait que sur les vieilles voitures sans ABS."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Le voyant ABS"
+        },
+        {
+          "type": "text",
+          "text": "Sur le tableau de bord, le voyant ABS est orange : les trois lettres « ABS » écrites dans un cercle, entre deux arcs de parenthèses."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Au démarrage, il s'allume quelques secondes puis s'éteint : c'est un test normal.",
+            "S'il reste allumé en roulant, l'ABS est en panne. Mes freins marchent encore normalement, mais les roues peuvent se bloquer en freinage fort. Je roule plus doucement, je garde plus de distance et je fais contrôler la voiture rapidement.",
+            "Si le voyant ABS orange et le voyant rouge des freins s'allument ensemble, c'est grave : je m'arrête dès que possible et je ne repars pas sans contrôle."
           ]
         },
         {
