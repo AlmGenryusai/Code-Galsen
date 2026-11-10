@@ -297,39 +297,19 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | q-gem-a17.webp | Pick-up chargé de barres (scène A17) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
 | q-gem-a28.webp | Clé de contact et voyants (scène A28) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
 
-## Lot e- (2026-11-10, dossier « Elements Usefull Pics », auteur non renseigné)
+## Schémas originaux (2026-11-10)
 
-| Fichier | Description | Auteur | Licence |
-|---|---|---|---|
-| e-route-prioritaire.webp | Tableau : le panneau losange jaune et le panneau d'intersection avec route prioritaire | auteur non renseigné | non renseignée |
-| e-panneau-intersection.webp | Vue du conducteur : panneau triangulaire d'intersection repéré avant le carrefour | auteur non renseigné | non renseignée |
-| e-sens-inverse.webp | Vue du conducteur : rue étroite avec panneau de priorité pour la circulation en sens inverse | auteur non renseigné | non renseignée |
-| e-carrefours-successifs.webp | Schéma : une rue avec plusieurs carrefours et des panneaux différents à chacun | auteur non renseigné | non renseignée |
-| e-indices-intersection.webp | Schéma : indices d'une intersection, véhicules qui tournent, trottoir interrompu, passages piétons | auteur non renseigné | non renseignée |
-| e-carrefour-droite.webp | Vue du conducteur : intersection en ville, voiture bleue arrivant par la droite | auteur non renseigné | non renseignée |
-| e-sortie-parking.webp | Vue du conducteur : voiture qui s'apprête à sortir d'un parking sur la droite | auteur non renseigné | non renseignée |
-| e-stop-schema.webp | Schéma : deux voitures arrêtées au STOP de part et d'autre d'un carrefour | auteur non renseigné | non renseignée |
-| e-stop-gauche.webp | Schéma : deux voitures face à face qui tournent chacune à gauche au carrefour | auteur non renseigné | non renseignée |
-| e-cedez-photo.webp | Vue du conducteur : panneau cédez le passage et ligne pointillée au sol | auteur non renseigné | non renseignée |
-| e-giratoire-entree.webp | Schéma : entrée dans un rond-point, une voiture déjà engagée et une qui attend | auteur non renseigné | non renseignée |
-| e-giratoire-sortie.webp | Schéma : voitures qui entrent et sortent d'un rond-point | auteur non renseigné | non renseignée |
-| e-giratoire-voies.webp | Schéma : trajectoires dans un rond-point à deux voies selon la sortie choisie | auteur non renseigné | non renseignée |
-| e-tourner-gauche.webp | Schéma : voiture qui se place près de l'axe pour tourner à gauche | auteur non renseigné | non renseignée |
-| e-tourner-droite-faux.webp | Schéma : voiture qui s'écarte trop avant de tourner à droite (trajectoire en rouge) | auteur non renseigné | non renseignée |
-| e-tourner-droite.webp | Schéma : voiture qui reste à droite pour tourner à droite (trajectoire en bleu) | auteur non renseigné | non renseignée |
-| e-lignes-tableau.webp | Tableau : ligne continue, ligne mixte, ligne d'annonce et panneaux d'interdiction de dépasser | auteur non renseigné | non renseignée |
-| e-voiture-garee.webp | Vue du conducteur : file de voitures garées, une avec un conducteur à bord, cycliste en face | auteur non renseigné | non renseignée |
-| e-cia.webp | Aide-mémoire : Contrôler, Indiquer, Agir | auteur non renseigné | non renseignée |
-| e-retro-gauche.webp | Vue du conducteur sur voie rapide, rétroviseur gauche entouré | auteur non renseigné | non renseignée |
-| e-angle-mort.webp | Vue du conducteur, rétroviseur extérieur entouré, véhicule proche | auteur non renseigné | non renseignée |
-| e-camion-retro.webp | Vue du conducteur : camion visible dans le rétroviseur intérieur | auteur non renseigné | non renseignée |
-| e-bretelle-dessus.webp | Vue du dessus : voiture sur une voie d'insertion qui rejoint la route principale | auteur non renseigné | non renseignée |
-| e-insertion.webp | Vue du conducteur : arrivée sur une route rapide, camion et voiture devant | auteur non renseigné | non renseignée |
-| e-voie-rapide.webp | Vue du conducteur sur une voie rapide à deux voies | auteur non renseigné | non renseignée |
-| e-autoroute-retro.webp | Vue du conducteur sur autoroute, véhicules dans le rétroviseur | auteur non renseigné | non renseignée |
-| e-compteur-panneau.webp | Vue du conducteur : panneau de limitation et compteur entourés | auteur non renseigné | non renseignée |
-| e-regulateur.webp | Commandes du régulateur de vitesse sur le volant | auteur non renseigné | non renseignée |
-| e-pietons-traversent.webp | Vue du conducteur : piétons qui traversent hors passage devant un mur | auteur non renseigné | non renseignée |
-| e-pietonne-bord.webp | Vue du conducteur : une piétonne marche au bord de la route | auteur non renseigné | non renseignée |
-| e-tourner-ville.webp | Vue du conducteur en ville : bus en face, flèche indiquant où tourner | auteur non renseigné | non renseignée |
-| e-tram-carrefour.webp | Vue du conducteur : carrefour avec feu, tram et panneaux de direction | auteur non renseigné | non renseignée |
+Remplacent le lot `e-` (visuels d'un concurrent, retirés).
+
+| Fichier | Titre | Auteur | Licence | Source |
+|---|---|---|---|---|
+| d-priorite-droite.webp | Schéma : Priorité à droite sans panneau | Code Galsen | Création originale | - |
+| d-stop.webp | Schéma : STOP des deux côtés | Code Galsen | Création originale | - |
+| d-tourner-droite.webp | Schéma : Tourner à droite | Code Galsen | Création originale | - |
+| d-tourner-droite-faux.webp | Schéma : Tourner à droite : écart à éviter | Code Galsen | Création originale | - |
+| d-tourner-gauche.webp | Schéma : Tourner à gauche | Code Galsen | Création originale | - |
+| d-giratoire-entree.webp | Schéma : Entrée de rond-point | Code Galsen | Création originale | - |
+| d-giratoire-sortie.webp | Schéma : Sortie de rond-point | Code Galsen | Création originale | - |
+| d-insertion.webp | Schéma : Voie d'insertion | Code Galsen | Création originale | - |
+| d-voiture-garee.webp | Schéma : Écart avec les voitures garées | Code Galsen | Création originale | - |
+| d-cia.webp | Schéma : Contrôler, Indiquer, Agir | Code Galsen | Création originale | - |

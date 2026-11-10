@@ -76,22 +76,12 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-cia.webp",
+            "src": "d-cia.webp",
             "alt": "Aide-mémoire : Contrôler, Indiquer, Agir",
-            "credit": "auteur non renseigné",
+            "credit": "Code Galsen (schéma original)",
             "fit": "contain"
           },
           "caption": "Avant chaque manœuvre : je Contrôle (rétroviseurs, angle mort), j'Indique (clignotant), puis j'Agis."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-retro-gauche.webp",
-            "alt": "Vue du conducteur sur voie rapide, rétroviseur gauche entouré",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Avant de déboîter, je regarde le rétroviseur gauche."
         },
         {
           "type": "heading",
@@ -125,9 +115,9 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-angle-mort.webp",
-            "alt": "Vue du conducteur, rétroviseur extérieur entouré, véhicule proche",
-            "credit": "auteur non renseigné"
+            "src": "u09.webp",
+            "alt": "Rétroviseur extérieur d'une voiture avec clignotant allumé",
+            "credit": "Dmytro Vynohradov, Unsplash License, Unsplash"
           },
           "caption": "Le rétroviseur ne montre pas tout : je tourne la tête pour l'angle mort."
         },

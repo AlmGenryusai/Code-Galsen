@@ -56,9 +56,10 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-bretelle-dessus.webp",
-            "alt": "Vue du dessus : voiture sur une voie d'insertion qui rejoint la route principale",
-            "credit": "auteur non renseigné"
+            "src": "d-insertion.webp",
+            "alt": "Schéma vu du dessus : voie d'insertion, je cède à la voiture déjà sur la route",
+            "credit": "Code Galsen (schéma original)",
+            "fit": "contain"
           },
           "caption": "Sur la voie d'insertion, j'accélère et je cède à ceux déjà sur la route."
         },
@@ -66,19 +67,9 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-insertion.webp",
-            "alt": "Vue du conducteur : arrivée sur une route rapide, camion et voiture devant",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Je regarde loin devant et dans le rétroviseur pour trouver un espace."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-voie-rapide.webp",
-            "alt": "Vue du conducteur sur une voie rapide à deux voies",
-            "credit": "auteur non renseigné"
+            "src": "q-t01-c04-0003.webp",
+            "alt": "Autoroute à deux voies par sens, peu de circulation",
+            "credit": "Anthony Levrot, CC BY-SA 4.0, Wikimedia Commons"
           },
           "caption": "Une fois inséré, je reste sur la voie de droite."
         },
@@ -127,16 +118,6 @@
           "text": "Je garde au moins 2 secondes entre lui et moi. Je choisis un repère (un panneau) : quand il le passe, je compte « un, deux ». Si j'arrive au repère avant, je suis trop près."
         },
         {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-autoroute-retro.webp",
-            "alt": "Vue du conducteur sur autoroute, véhicules dans le rétroviseur",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Sur autoroute, je surveille les rétroviseurs souvent."
-        },
-        {
           "type": "text",
           "text": "Hors agglomération, les véhicules de plus de 3,5 tonnes ou de plus de 8 mètres laissent au moins 50 mètres entre eux."
         },
@@ -161,26 +142,6 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Sur autoroute, je garde mes distances."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-compteur-panneau.webp",
-            "alt": "Vue du conducteur : panneau de limitation et compteur entourés",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Je compare le panneau et mon compteur."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-regulateur.webp",
-            "alt": "Commandes du régulateur de vitesse sur le volant",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Le régulateur garde une vitesse fixe ; je le coupe dès que la circulation se densifie."
         },
         {
           "type": "attention",
