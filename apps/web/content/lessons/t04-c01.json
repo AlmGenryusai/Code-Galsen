@@ -199,6 +199,26 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-pietons-traversent.webp",
+            "alt": "Vue du conducteur : piétons qui traversent hors passage devant un mur",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Des piétons traversent hors du passage : je ralentis et je les laisse finir."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-pietonne-bord.webp",
+            "alt": "Vue du conducteur : une piétonne marche au bord de la route",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Piéton au bord de la route : je m'écarte et je ralentis."
+        },
+        {
           "type": "attention",
           "text": "Je ne suis pas prioritaire parce que le piéton traverse hors passage : je dois toujours pouvoir m'arrêter."
         },
