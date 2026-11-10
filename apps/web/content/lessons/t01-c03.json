@@ -11,6 +11,28 @@
           "text": "La chaussée est la partie de la route faite pour rouler. Elle peut être découpée en voies : une voie est la largeur d'une file de voitures, souvent marquée par des lignes blanches. Seul sur la route, je tiens la partie droite de la chaussée. Si la chaussée a plusieurs voies dans mon sens, je prends la plus à droite."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-tourner-droite-faux.webp",
+            "alt": "Schéma : voiture qui s'écarte trop avant de tourner à droite (trajectoire en rouge)",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "À éviter : s'écarter à gauche avant de tourner à droite."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-tourner-droite.webp",
+            "alt": "Schéma : voiture qui reste à droite pour tourner à droite (trajectoire en bleu)",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Pour tourner à droite, je reste serré à droite."
+        },
+        {
           "type": "heading",
           "text": "Ce que je fais"
         },
@@ -32,6 +54,17 @@
             "credit": "Tabl-trai, CC BY-SA 3.0, via Wikimedia Commons"
           },
           "caption": "Les flèches au sol indiquent la direction de chaque voie."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-tourner-gauche.webp",
+            "alt": "Schéma : voiture qui se place près de l'axe pour tourner à gauche",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Pour tourner à gauche, je me rapproche de l'axe de la route."
         },
         {
           "type": "attention",
@@ -106,6 +139,17 @@
           "caption": "Ligne mixte : je ne franchis que si la discontinue est de mon côté."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-lignes-tableau.webp",
+            "alt": "Tableau : ligne continue, ligne mixte, ligne d'annonce et panneaux d'interdiction de dépasser",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Ligne continue : je ne la franchis pas. Ligne mixte : je regarde le trait de mon côté."
+        },
+        {
           "type": "attention",
           "text": "Sur une chaussée à trois voies, la voie la plus à gauche est réservée à ceux qui viennent en face."
         },
@@ -176,6 +220,16 @@
             "credit": "Chabe01, CC BY-SA 4.0, via Wikimedia Commons"
           },
           "caption": "Route barrée : je suis la déviation."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-voiture-garee.webp",
+            "alt": "Vue du conducteur : file de voitures garées, une avec un conducteur à bord, cycliste en face",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Conducteur à bord d'une voiture garée : elle peut déboîter ou ouvrir sa portière, je m'écarte."
         },
         {
           "type": "heading",

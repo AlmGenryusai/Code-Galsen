@@ -158,6 +158,37 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-route-prioritaire.webp",
+            "alt": "Tableau : le panneau losange jaune et le panneau d'intersection avec route prioritaire",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Trait épais = la route prioritaire ; traits fins = les routes qui me cèdent le passage."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-panneau-intersection.webp",
+            "alt": "Vue du conducteur : panneau triangulaire d'intersection repéré avant le carrefour",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je repère le panneau tôt : il me dit qui aura la priorité au prochain carrefour."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-sens-inverse.webp",
+            "alt": "Vue du conducteur : rue étroite avec panneau de priorité pour la circulation en sens inverse",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Panneau rond à bord rouge, flèche rouge vers moi : je laisse passer ceux qui arrivent en face."
+        },
+        {
           "type": "memo",
           "text": "Sur une route au losange jaune, je suis prioritaire. Devant un STOP ou un triangle pointe en bas, je laisse passer les autres."
         }
