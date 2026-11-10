@@ -130,6 +130,16 @@
           "text": "Un camion qui arrive en face fait un appel d'air et prend beaucoup de place. Je me tiens bien à droite de ma voie, sans mordre sur le bas-côté."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-camion-retro.webp",
+            "alt": "Vue du conducteur : camion visible dans le rétroviseur intérieur",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Un camion me suit de près : je garde ma vitesse et je facilite son dépassement."
+        },
+        {
           "type": "attention",
           "text": "Sur une route étroite, je ralentis avant le croisement, au lieu de freiner pendant."
         },

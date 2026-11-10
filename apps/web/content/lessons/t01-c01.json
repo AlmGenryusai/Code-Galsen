@@ -169,6 +169,26 @@
         {
           "type": "memo",
           "text": "Sur une route au losange jaune, je suis prioritaire. Devant un STOP ou un triangle pointe en bas, je laisse passer les autres."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-panneau-intersection.webp",
+            "alt": "Vue du conducteur : panneau triangulaire d'intersection repéré avant le carrefour",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je repère le panneau tôt : il me dit qui aura la priorité au prochain carrefour."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-sens-inverse.webp",
+            "alt": "Vue du conducteur : rue étroite avec panneau de priorité pour la circulation en sens inverse",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Panneau rond à bord rouge, flèche rouge vers moi : je laisse passer ceux qui arrivent en face."
         }
       ]
     },

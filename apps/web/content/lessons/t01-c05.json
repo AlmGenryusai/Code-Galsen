@@ -124,6 +124,16 @@
         {
           "type": "memo",
           "text": "Pour dépasser, je vérifie que la voie est libre, je mets mon clignotant, puis je passe par la gauche."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-retro-gauche.webp",
+            "alt": "Vue du conducteur sur voie rapide, rétroviseur gauche entouré",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Avant de déboîter, je regarde le rétroviseur gauche."
         }
       ]
     },

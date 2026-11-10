@@ -24,6 +24,17 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "e-carrefours-successifs.webp",
+            "alt": "Schéma : une rue avec plusieurs carrefours et des panneaux différents à chacun",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Chaque carrefour a sa règle : je relis les panneaux à chaque intersection."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "d-priorite-droite.webp",
             "alt": "Schéma : sans panneau, je cède à la voiture qui arrive de ma droite",
             "credit": "Code Galsen (schéma original)",
@@ -52,6 +63,17 @@
             "credit": "Olivier Flambeau, CC BY-SA 4.0, via Wikimedia Commons"
           },
           "caption": "Croisement sans panneau : je cherche qui arrive, je cède à droite."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-indices-intersection.webp",
+            "alt": "Schéma : indices d'une intersection, véhicules qui tournent, trottoir interrompu, passages piétons",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Sans panneau, des indices annoncent une intersection : voitures qui tournent, trottoir interrompu, passages piétons."
         },
         {
           "type": "heading",
@@ -97,6 +119,16 @@
             "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"
           },
           "caption": "Une sortie de station-service : je surveille ceux qui sortent."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-sortie-parking.webp",
+            "alt": "Vue du conducteur : voiture qui s'apprête à sortir d'un parking sur la droite",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Une voiture va sortir d'un parking : je la surveille et je reste prêt à freiner."
         },
         {
           "type": "attention",
@@ -152,6 +184,16 @@
         {
           "type": "text",
           "text": "Je laisse passer ceux de l'autre route, qu'ils viennent de gauche ou de droite. Je ralentis, je m'arrête si nécessaire."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-cedez-photo.webp",
+            "alt": "Vue du conducteur : panneau cédez le passage et ligne pointillée au sol",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Triangle pointe en bas et ligne pointillée : je ralentis et je laisse passer."
         },
         {
           "type": "image",
@@ -266,6 +308,28 @@
         {
           "type": "memo",
           "text": "Au STOP, je m'arrête complètement. Au « cédez le passage », je laisse passer sans forcément m'arrêter. Au rond-point, celui qui tourne déjà dedans passe en premier."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-stop-gauche.webp",
+            "alt": "Schéma : deux voitures face à face qui tournent chacune à gauche au carrefour",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Deux voitures tournent à gauche face à face : chacune contourne l'autre sans se couper la route."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-giratoire-voies.webp",
+            "alt": "Schéma : trajectoires dans un rond-point à deux voies selon la sortie choisie",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les trajectoires changent selon la sortie choisie : je me place tôt et je signale ma sortie."
         }
       ]
     },
