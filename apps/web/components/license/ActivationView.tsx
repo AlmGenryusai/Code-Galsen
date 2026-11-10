@@ -20,11 +20,14 @@ type Status = 'idle' | 'invalid' | 'pending' | ActivationError
 const MESSAGES: Partial<Record<Status, string>> = {
   invalid: 'Format attendu : GALS-XXXX-XXXX',
   unknown_code: 'Code inconnu. Vérifie la saisie.',
-  already_used: 'Code déjà utilisé sur un autre téléphone. Contacte le support.',
+  already_used: 'Code déjà utilisé sur un autre téléphone. Écris-nous sur WhatsApp (lien ci-dessous).',
   expired: 'Ce code a expiré.',
   network: 'Pas de connexion. Réessaie quand tu as du réseau.',
   server: 'Erreur du serveur. Réessaie plus tard.',
 }
+
+// Message pré-rempli : le vendeur sait tout de suite ce que veut le client
+const WA_TEXT = "Bonjour, je veux l'accès complet Code Galsen (4 900 FCFA / 90 jours)."
 
 function formatDate(expSec: number): string {
   return new Date(expSec * 1000).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
@@ -50,6 +53,7 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
   const [activatedUntil, setActivatedUntil] = useState<number | null>(null)
   const license = useLicense()
   const activeUntil = activatedUntil ?? (license.active ? license.expiresAt : null)
+  const waHref = `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent(WA_TEXT)}`
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
@@ -116,8 +120,8 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
         borderRadius: 'var(--radius)',
       }}>
         <div style={{ fontSize: 28, fontWeight: 800, color: 'hsl(var(--text))' }}>4&nbsp;900 FCFA</div>
-        <div style={{ fontSize: 14, color: 'hsl(var(--muted))', marginBottom: wavePaymentUrl ? 14 : 0 }}>pour 90 jours</div>
-        {wavePaymentUrl && (
+        <div style={{ fontSize: 14, color: 'hsl(var(--muted))', marginBottom: 14 }}>pour 90 jours</div>
+        {wavePaymentUrl ? (
           <a
             href={wavePaymentUrl}
             target="_blank"
@@ -126,7 +130,34 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
           >
             Payer avec Wave
           </a>
+        ) : (
+          supportWhatsapp && (
+            <a
+              href={waHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ ...buttonStyle, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}
+            >
+              Acheter sur WhatsApp
+            </a>
+          )
         )}
+        <ol style={{ listStyle: 'none', padding: 0, margin: '16px 0 0', display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {[
+            wavePaymentUrl ? 'Paie 4 900 FCFA avec Wave.' : 'Écris-nous sur WhatsApp, puis paie avec Wave.',
+            'Tu reçois ton code sur WhatsApp.',
+            'Saisis-le ci-dessous : accès complet tout de suite.',
+          ].map((step, i) => (
+            <li key={step} style={{ display: 'flex', gap: 10, fontSize: 14, color: 'hsl(var(--text))', lineHeight: 1.4 }}>
+              <span aria-hidden style={{
+                flex: '0 0 22px', height: 22, borderRadius: 11, background: 'hsl(var(--bg))',
+                border: '1px solid hsl(var(--border))', fontSize: 12, fontWeight: 700,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+              }}>{i + 1}</span>
+              {step}
+            </li>
+          ))}
+        </ol>
       </div>
 
       {activeUntil !== null ? (
@@ -145,25 +176,6 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
         </div>
       ) : (
         <form onSubmit={handleSubmit} noValidate style={{ marginTop: 24 }}>
-          {!wavePaymentUrl && supportWhatsapp && (
-            <a
-              href={`https://wa.me/${supportWhatsapp}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                minHeight: 44,
-                marginBottom: 8,
-                fontSize: 14,
-                fontWeight: 600,
-                color: 'hsl(var(--primary-h))',
-                textDecoration: 'none',
-              }}
-            >
-              Pour obtenir un code, écris-nous sur WhatsApp
-            </a>
-          )}
           <label htmlFor="code" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: 'hsl(var(--text))', marginBottom: 8 }}>
             Code d&apos;activation
           </label>
