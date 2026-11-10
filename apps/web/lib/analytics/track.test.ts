@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 vi.mock('@vercel/analytics', () => ({ track: vi.fn() }))
 import { track as vercelTrack } from '@vercel/analytics'
-import { captureUtm, readUtm, shareUrl, trackVisit } from './track'
+import { captureUtm, readUtm, scoreShareText, shareUrl, trackVisit } from './track'
 
 beforeEach(() => {
   localStorage.clear()
@@ -35,5 +35,11 @@ describe('visite', () => {
 it('lien de partage avec UTM', () => {
   expect(shareUrl('https://code-galsen.vercel.app', 'score')).toBe(
     'https://code-galsen.vercel.app/?utm_source=whatsapp&utm_medium=partage&utm_campaign=score',
+  )
+})
+
+it('message de partage du score', () => {
+  expect(scoreShareText(34, 40, 'https://x.app')).toBe(
+    "J'ai eu 34/40 à mon examen blanc du code de la route sur Code Galsen. Et toi, tu fais combien ? https://x.app/?utm_source=whatsapp&utm_medium=partage&utm_campaign=score",
   )
 })
