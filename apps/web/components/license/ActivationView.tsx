@@ -7,12 +7,11 @@ import { FREE_THEME } from '@/lib/license/license'
 import { themeTitle } from '@/lib/quiz/taxonomy'
 import { activate, type ActivationError } from '@/lib/license/activate'
 import { useLicense } from '@/lib/license/use-license'
-import { PLANS, formatPrice, planLabel, type Plan } from '@/lib/license/plans'
+import { PLANS, formatPrice, planLabel } from '@/lib/license/plans'
 
 interface Props {
   themeCount: number
   questionCount: number
-  waveUrls: Record<Plan['months'], string> // lien Wave par formule ; vide → commande WhatsApp
   supportWhatsapp: string // numéro international sans « + » ; vide → lien masqué
 }
 
@@ -45,13 +44,11 @@ const buttonStyle = {
   cursor: 'pointer',
 } as const
 
-export function ActivationView({ themeCount, questionCount, waveUrls, supportWhatsapp }: Props) {
+export function ActivationView({ themeCount, questionCount, supportWhatsapp }: Props) {
   const [code, setCode] = useState('')
   const [status, setStatus] = useState<Status>('idle')
-  const [plan, setPlan] = useState<Plan>(PLANS[PLANS.length - 1])
-  const waveUrl = waveUrls[plan.months]
   const orderUrl = supportWhatsapp
-    ? `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent(`Bonjour, je veux la formule ${plan.months} mois (${formatPrice(plan.price).replace(/\u00a0/g, ' ')}).`)}`
+    ? `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent("Bonjour, je veux l'accès complet Code Galsen.")}`
     : ''
   const [activatedUntil, setActivatedUntil] = useState<number | null>(null)
   const license = useLicense()
@@ -121,61 +118,48 @@ export function ActivationView({ themeCount, questionCount, waveUrls, supportWha
         border: '1px solid hsl(var(--border))',
         borderRadius: 'var(--radius)',
       }}>
-        <div role="radiogroup" aria-label="Formule" style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-          {PLANS.map((p) => {
-            const selected = p.months === plan.months
-            const best = p === PLANS[PLANS.length - 1]
-            return (
-              <button
-                key={p.months}
-                type="button"
-                role="radio"
-                aria-checked={selected}
-                onClick={() => setPlan(p)}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'space-between',
-                  gap: 8,
-                  minHeight: 56,
-                  padding: '10px 14px',
-                  borderRadius: 'var(--radius)',
-                  border: `${selected ? 2 : 1}px solid hsl(var(${selected ? '--primary-h' : '--border'}))`,
-                  background: 'hsl(var(--bg))',
-                  color: 'hsl(var(--text))',
-                  fontFamily: 'var(--font-sans)',
-                  textAlign: 'left',
-                  cursor: 'pointer',
-                }}
-              >
-                <span>
-                  <span style={{ display: 'block', fontSize: 16, fontWeight: 700 }}>{planLabel(p)}</span>
-                  {best && (
-                    <span style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'hsl(var(--success))' }}>
-                      Le plus avantageux
-                    </span>
-                  )}
-                </span>
-                <span style={{ fontSize: 18, fontWeight: 800 }}>{formatPrice(p.price)}</span>
-              </button>
-            )
-          })}
-        </div>
-        {(waveUrl || orderUrl) && (
+        <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {PLANS.map((p) => (
+            <li
+              key={p.months}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: 8,
+                minHeight: 52,
+                padding: '10px 14px',
+                borderRadius: 'var(--radius)',
+                border: '1px solid hsl(var(--border))',
+                background: 'hsl(var(--bg))',
+                color: 'hsl(var(--text))',
+              }}
+            >
+              <span>
+                <span style={{ display: 'block', fontSize: 16, fontWeight: 700 }}>{planLabel(p)}</span>
+                {p === PLANS[PLANS.length - 1] && (
+                  <span style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'hsl(var(--success))' }}>
+                    Le plus avantageux
+                  </span>
+                )}
+              </span>
+              <span style={{ fontSize: 18, fontWeight: 800 }}>{formatPrice(p.price)}</span>
+            </li>
+          ))}
+        </ul>
+        {orderUrl && (
           <a
-            href={waveUrl || orderUrl}
+            href={orderUrl}
             target="_blank"
             rel="noopener noreferrer"
             style={{ ...buttonStyle, marginTop: 14, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}
           >
-            {waveUrl ? `Payer ${formatPrice(plan.price)} avec Wave` : 'Commander sur WhatsApp'}
+            Acheter sur WhatsApp
           </a>
         )}
         <ol style={{ listStyle: 'none', padding: 0, margin: '16px 0 0', display: 'flex', flexDirection: 'column', gap: 8 }}>
           {[
-            waveUrl
-              ? `Paie ${formatPrice(plan.price)} avec Wave.`
-              : 'Écris-nous sur WhatsApp, puis paie avec Wave.',
+            'Écris-nous sur WhatsApp, choisis ta formule, puis paie avec Wave.',
             'Tu reçois ton code sur WhatsApp.',
             'Saisis-le ci-dessous : accès complet tout de suite. La durée démarre à l\u2019activation.',
           ].map((step, i) => (
