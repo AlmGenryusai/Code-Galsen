@@ -20,10 +20,10 @@ export function LessonList({ lessons, openTheme }: { lessons: LessonFile[]; open
     (a, b) => Number(b.id === FREE_THEME) - Number(a.id === FREE_THEME),
   )
 
-  // Thème déplié : celui d'où l'on vient, sinon le premier dont tous les chapitres ne sont pas lus
-  const unfinished = themes.find((t) =>
-    lessons.some((l) => l.theme === t.id && !l.sheets.every((sh) => progress.lessons[sh.id])),
-  )
+  // Cours terminé : toutes ses fiches lues + son test fait
+  const chapterDone = (l: LessonFile) => l.sheets.every((sh) => progress.lessons[sh.id]) && !!progress.series[l.id]
+  // Thème déplié : celui d'où l'on vient, sinon le premier dont un cours n'est pas terminé
+  const unfinished = themes.find((t) => lessons.some((l) => l.theme === t.id && !chapterDone(l)))
   const opened = themes.some((t) => t.id === openTheme) ? openTheme : (unfinished ?? themes[0])?.id
 
   return (
@@ -32,9 +32,9 @@ export function LessonList({ lessons, openTheme }: { lessons: LessonFile[]; open
       <main style={{ padding: '8px 20px 24px' }}>
         {themes.map((t) => {
           const chapters = lessons.filter((l) => l.theme === t.id)
-          // Étapes du thème : chaque chapitre lu en entier + la série d'entraînement du thème
+          // Étapes du thème : chaque cours terminé (fiches + test) + la série d'entraînement du thème
           const done =
-            chapters.filter((l) => l.sheets.every((sh) => progress.lessons[sh.id])).length +
+            chapters.filter(chapterDone).length +
             (progress.series[t.id] ? 1 : 0)
           const steps = chapters.length + 1
           const themeLocked = license.loaded && !canAccess({ kind: 'theme', theme: t.id }, license)
@@ -61,8 +61,11 @@ export function LessonList({ lessons, openTheme }: { lessons: LessonFile[]; open
             {chapters.map((l) => {
                 // Avant chargement de la licence : lien vers la fiche, sans cadenas ; la fiche tranche
                 const locked = license.loaded && !canAccess({ kind: 'theme', theme: l.theme }, license)
-                const total = l.sheets.length
-                const read = l.sheets.filter((sh) => progress.lessons[sh.id]).length
+                const sheets = l.sheets.length
+                // Étapes du cours : chaque fiche lue + le test du cours
+                const total = sheets + 1
+                const test = progress.series[l.id]
+                const read = l.sheets.filter((sh) => progress.lessons[sh.id]).length + (test ? 1 : 0)
                 return (
                   <Link
                     key={l.id}
@@ -84,10 +87,11 @@ export function LessonList({ lessons, openTheme }: { lessons: LessonFile[]; open
                         {chapterTitle(l.id)}
                       </span>
                       <span style={{ display: 'block', fontSize: 14, color: 'hsl(var(--muted))', margin: '2px 0 6px' }}>
-                        {total} {total > 1 ? 'fiches' : 'fiche'}
-                        {!locked && ` · ${read} / ${total} lues`}
+                        {sheets} {sheets > 1 ? 'fiches' : 'fiche'} + test
+                        {!locked && ` · ${read}/${total}`}
+                        {!locked && test && ` · test ${test.score}/${test.total}`}
                       </span>
-                      {!locked && <ProgressBar value={read} max={total} label={`${read} fiches lues sur ${total}`} />}
+                      {!locked && <ProgressBar value={read} max={total} label={`${read} étapes faites sur ${total}`} />}
                     </span>
                     <span aria-hidden style={{ color: 'hsl(var(--muted))', display: 'flex', flexShrink: 0 }}>
                       {locked ? <LockIcon /> : <ChevronIcon />}

@@ -37,16 +37,12 @@ export function SheetView({ lesson, n, next }: { lesson: LessonFile; n: number; 
         <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginBottom: 4 }}>{sheetMinutes(sheet)} min</p>
         <SheetBlocks sheet={sheet} />
       </main>
-      {last && next ? (
-        <BottomBar href={sheetHref(next.id, 1)} secondary={{ href: themeHref(lesson.theme), label: 'Retour aux cours' }}>
-          Cours suivant
-        </BottomBar>
-      ) : last ? (
+      {last ? (
         <BottomBar
-          href={`/quiz?theme=${encodeURIComponent(lesson.theme)}`}
-          secondary={{ href: themeHref(lesson.theme), label: 'Retour aux cours' }}
+          href={`/quiz?chapter=${encodeURIComponent(lesson.id)}`}
+          secondary={next ? { href: sheetHref(next.id, 1), label: 'Cours suivant' } : { href: themeHref(lesson.theme), label: 'Retour aux cours' }}
         >
-          M&apos;entraîner sur ce thème
+          Faire le test du cours
         </BottomBar>
       ) : (
         <BottomBar href={sheetHref(lesson.id, n + 1)}>Suivant</BottomBar>

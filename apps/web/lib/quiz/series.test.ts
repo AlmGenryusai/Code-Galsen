@@ -30,6 +30,16 @@ describe('pickSeries', () => {
     expect(pool.map((q) => q.id)).toEqual(ids)
   })
 
+  it('id de chapitre → questions de ce chapitre seulement', () => {
+    const pool = [
+      ...qs('t01', 4).map((q) => ({ ...q, chapter: 't01-c01' })),
+      ...qs('t02', 3).map((q) => ({ ...q, chapter: 't01-c02' })),
+    ]
+    const out = pickSeries(pool, 't01-c02')
+    expect(out).toHaveLength(3)
+    expect(out.every((q) => q.chapter === 't01-c02')).toBe(true)
+  })
+
   it('size personnalisé', () => {
     expect(pickSeries(qs('A', 15), 'A', 3)).toHaveLength(3)
   })

@@ -9,7 +9,7 @@ import { pickSeries } from '@/lib/quiz/series'
 import { useProgress } from '@/lib/progress/use-progress'
 import { redirectFor, type Target } from '@/lib/license/license'
 import { useLicense } from '@/lib/license/use-license'
-import { themeTitle } from '@/lib/quiz/taxonomy'
+import { chapterTitle, themeTitle } from '@/lib/quiz/taxonomy'
 import type { QuestionV2 } from '@/lib/quiz/types'
 
 const DUE_LIMIT = 20
@@ -20,13 +20,16 @@ interface Props {
 
 /**
  * /quiz : entraînement sur tout le programme, /quiz?theme=<thème> : un thème,
- * /quiz?mode=erreurs : questions dues de la file SRS. Verrou gratuit / payant : lib/license.
+ * /quiz?chapter=<chapitre> : test d'un cours, /quiz?mode=erreurs : questions dues de la file SRS. Verrou gratuit / payant : lib/license.
  */
 export function QuizEntry({ questions }: Props) {
   const router = useRouter()
   const params = useSearchParams()
   const isErrors = params.get('mode') === 'erreurs'
-  const theme = params.get('theme')
+  const chapterParam = params.get('chapter')
+  const chapter = chapterParam && questions.some((q) => q.chapter === chapterParam) ? chapterParam : null
+  // Test de cours : même verrou que son thème
+  const theme = chapter ? chapter.split('-')[0] : params.get('theme')
   const themed = theme ? questions.filter((q) => q.theme === theme) : []
   // Thème inconnu → traité comme /quiz sans thème
   const target: Target = isErrors
@@ -55,6 +58,9 @@ export function QuizEntry({ questions }: Props) {
   }, [isErrors, loaded, due, questions, progress.srs])
 
   if (!license.loaded || redirect) return null
+  if (target.kind === 'theme' && chapter) {
+    return <ChapterTest questions={questions} chapter={chapter} theme={target.theme} onFinish={recordSeries} />
+  }
   if (target.kind === 'theme') {
     return <ThemeSeries questions={questions} theme={target.theme} onFinish={recordSeries} />
   }
@@ -106,6 +112,29 @@ function ThemeSeries({
       questions={picked}
       title={`Série « ${themeTitle(theme)} »`}
       onFinish={(score, total) => onFinish(theme, score, total)}
+    />
+  )
+}
+
+/** Test d'un cours : jusqu'à 10 questions du chapitre ; note enregistrée sous l'id du chapitre. */
+function ChapterTest({
+  questions,
+  chapter,
+  theme,
+  onFinish,
+}: {
+  questions: QuestionV2[]
+  chapter: string
+  theme: string
+  onFinish: (key: string, score: number, total: number) => void
+}) {
+  const [picked] = useState(() => pickSeries(questions, chapter))
+  return (
+    <QuizView
+      questions={picked}
+      title={`Test « ${chapterTitle(chapter)} »`}
+      onFinish={(score, total) => onFinish(chapter, score, total)}
+      nextAction={{ href: `/fiches?t=${encodeURIComponent(theme)}`, label: 'Retour aux cours →' }}
     />
   )
 }

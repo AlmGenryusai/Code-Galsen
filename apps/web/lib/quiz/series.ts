@@ -3,14 +3,14 @@ import type { QuestionV2 } from './types'
 
 export const SERIES_SIZE = 10
 
-/** Jusqu'à `size` questions du thème, au hasard et sans doublon. */
+/** Jusqu'à `size` questions du thème (ou du chapitre, ex. « t01-c02 »), au hasard et sans doublon. */
 export function pickSeries(
   pool: QuestionV2[],
   theme: string,
   size: number = SERIES_SIZE,
   rng: () => number = Math.random,
 ): QuestionV2[] {
-  const a = pool.filter((q) => q.theme === theme)
+  const a = pool.filter((q) => q.theme === theme || q.chapter === theme)
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(rng() * (i + 1))
     ;[a[i], a[j]] = [a[j], a[i]]
