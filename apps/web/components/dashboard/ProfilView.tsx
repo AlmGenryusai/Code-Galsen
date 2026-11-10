@@ -85,6 +85,7 @@ export function ProfilView({ supportWhatsapp, sheetTotal }: { supportWhatsapp: s
 
         <h2 style={H2}>Informations</h2>
         <nav style={{ ...CARD, padding: '4px 16px' }}>
+          <Link href="/qui-sommes-nous" style={LINK}>Qui sommes-nous · Remboursement</Link>
           <Link href="/mentions-legales" style={LINK}>Mentions légales</Link>
           <Link href="/confidentialite" style={LINK}>Confidentialité</Link>
           <Link href="/credits" style={LINK}>Crédits photos</Link>

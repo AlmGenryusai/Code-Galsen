@@ -180,6 +180,12 @@ export function ActivationView({ themeCount, questionCount, supportWhatsapp }: P
             Acheter sur WhatsApp
           </a>
         )}
+        <Link
+          href="/qui-sommes-nous#remboursement"
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 44, fontSize: 14, color: 'hsl(var(--muted))' }}
+        >
+          Qui sommes-nous · Remboursement
+        </Link>
         <ol style={{ listStyle: 'none', padding: 0, margin: '16px 0 0', display: 'flex', flexDirection: 'column', gap: 8 }}>
           {[
             'Touche ta formule pour nous écrire sur WhatsApp, puis paie avec Wave.',
