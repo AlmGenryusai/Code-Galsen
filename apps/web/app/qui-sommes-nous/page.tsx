@@ -7,7 +7,7 @@ const WHATSAPP = process.env.NEXT_PUBLIC_SUPPORT_WHATSAPP ?? ''
 export default function QuiSommesNousPage() {
   return (
     <LegalPage title="Qui sommes-nous">
-      <p>Code Galsen est fait à Dakar par Alfred Mane, pour préparer l&apos;examen du code de la route (permis B) avec les règles du Sénégal.</p>
+      <p>Code Galsen t&apos;aide à préparer l&apos;examen du code de la route (permis B) avec les règles du Sénégal, sur ton téléphone, même sans connexion une fois installé.</p>
       <H2>Pourquoi Code Galsen</H2>
       <p>La plupart des applis de code sont faites pour la France, avec des règles et des situations qui ne sont pas les nôtres. Ici, chaque question s&apos;appuie sur la loi 2022-04 portant Code de la route ou le décret 2004-13, avec l&apos;article cité dans la correction. Les situations sont celles de nos routes : motos Jakarta, charrettes, cars rapides.</p>
       <p>Code Galsen t&apos;aide à te préparer. Il ne remplace pas l&apos;auto-école, obligatoire, et ne garantit pas la réussite à l&apos;examen.</p>
