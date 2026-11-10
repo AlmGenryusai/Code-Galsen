@@ -9,15 +9,17 @@ import { targetScore } from '@/lib/quiz/exam'
 import { useQuestionGuards } from '@/lib/quiz/use-question-guards'
 import { useProgress } from '@/lib/progress/use-progress'
 import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
+import { track } from '@/lib/analytics/track'
 
 const { timerSeconds: TIMER_SECONDS } = EXAM_CONFIG
 
 interface ExamViewProps {
   questions: QuestionV2[]
+  free?: boolean // examen blanc gratuit (mesure du funnel)
 }
 
 /** Examen blanc : on coche, on valide, on passe à la suite. Aucune correction avant le débrief. */
-export function ExamView({ questions }: ExamViewProps) {
+export function ExamView({ questions, free = false }: ExamViewProps) {
   const total = questions.length
 
   const [index, setIndex] = useState(0)
@@ -54,6 +56,7 @@ export function ExamView({ questions }: ExamViewProps) {
       total,
       passed: correct >= targetScore(total),
     })
+    track('examen_fini', { score: correct, gratuit: free })
     setDone(true)
   }
 
