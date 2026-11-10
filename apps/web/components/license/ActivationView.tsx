@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import Link from 'next/link'
 import { formatCode, isValidCode } from '@/lib/license/code'
 import { FREE_THEME } from '@/lib/license/license'
@@ -60,6 +60,14 @@ export function ActivationView({ themeCount, questionCount, supportWhatsapp }: P
   const [activatedUntil, setActivatedUntil] = useState<number | null>(null)
   const license = useLicense()
   const activeUntil = activatedUntil ?? (license.active ? license.expiresAt : null)
+  // Navigateur (pas l'app installée) : iPhone ne partage pas les données entre Safari et l'app installée
+  const [inBrowser, setInBrowser] = useState(false)
+  useEffect(() => {
+    setInBrowser(
+      !window.matchMedia('(display-mode: standalone)').matches &&
+        (navigator as Navigator & { standalone?: boolean }).standalone !== true,
+    )
+  }, [])
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
@@ -206,6 +214,20 @@ export function ActivationView({ themeCount, questionCount, supportWhatsapp }: P
         </div>
       ) : (
         <form onSubmit={handleSubmit} noValidate style={{ marginTop: 24 }}>
+          {inBrowser && (
+            <p role="note" style={{
+              marginBottom: 16,
+              padding: '12px 14px',
+              background: 'hsl(var(--surface))',
+              border: '1px solid hsl(var(--border))',
+              borderRadius: 'var(--radius)',
+              fontSize: 14,
+              lineHeight: 1.45,
+              color: 'hsl(var(--text))',
+            }}>
+              <strong>Installe l&apos;appli avant d&apos;activer ton code.</strong> Active-le ensuite depuis l&apos;icône Code Galsen. Sur iPhone, un code activé dans Safari ne passe pas dans l&apos;appli installée.
+            </p>
+          )}
           <label htmlFor="code" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: 'hsl(var(--text))', marginBottom: 8 }}>
             Code d&apos;activation
           </label>
