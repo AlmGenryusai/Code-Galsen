@@ -8,7 +8,7 @@
       "blocks": [
         {
           "type": "text",
-          "text": "L'autoroute est faite pour aller vite en sécurité : deux chaussées séparées, une clôture, et aucun croisement à niveau."
+          "text": "L'autoroute est faite pour aller vite en sécurité : deux chaussées séparées par un terre-plein, une clôture, et aucun croisement à niveau. Au Sénégal, par exemple l'autoroute à péage Dakar – AIBD (aéroport international Blaise-Diagne)."
         },
         {
           "type": "heading",
@@ -16,15 +16,31 @@
         },
         {
           "type": "text",
-          "text": "Seulement les véhicules à moteur de plus de 50 cm³. Pas de piétons, de vélos ni de cyclomoteurs."
+          "text": "Seulement les véhicules à moteur de plus de 50 cm³ (centimètres cubes : la taille du moteur). Pas de piétons, de vélos, de charrettes ni de cyclomoteurs."
         },
         {
           "type": "heading",
           "text": "Pour entrer"
         },
         {
-          "type": "text",
-          "text": "Sur la voie d'accélération, je prends de la vitesse pour m'insérer sans gêner. Je ne m'arrête pas au bout de la bretelle."
+          "type": "list",
+          "items": [
+            "Je prends la bretelle d'entrée, puis la voie d'accélération (ou voie d'insertion) : une voie qui longe l'autoroute sur la droite.",
+            "Sur cette voie, j'accélère pour atteindre la vitesse des voitures de l'autoroute.",
+            "Je mets mon clignotant gauche, je regarde dans le rétroviseur et par-dessus l'épaule.",
+            "Je m'insère dans un espace libre. Ceux qui sont déjà sur l'autoroute sont prioritaires.",
+            "Je ne m'arrête pas au bout de la voie d'accélération, sauf si c'est vraiment impossible de passer."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-bretelle.webp",
+            "alt": "Bretelle d'entrée qui rejoint l'autoroute par la voie d'accélération",
+            "credit": "auteur non renseigné, CC BY-SA 2.5"
+          },
+          "caption": "La bretelle mène à la voie d'accélération : j'y prends ma vitesse."
         },
         {
           "type": "image",
@@ -37,8 +53,38 @@
           "caption": "Voie d'insertion : je prends ma vitesse avant de m'insérer."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-bretelle-dessus.webp",
+            "alt": "Vue du dessus : voiture sur une voie d'insertion qui rejoint la route principale",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Sur la voie d'insertion, j'accélère et je cède à ceux déjà sur la route."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-insertion.webp",
+            "alt": "Vue du conducteur : arrivée sur une route rapide, camion et voiture devant",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je regarde loin devant et dans le rétroviseur pour trouver un espace."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-voie-rapide.webp",
+            "alt": "Vue du conducteur sur une voie rapide à deux voies",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Une fois inséré, je reste sur la voie de droite."
+        },
+        {
           "type": "memo",
-          "text": "Bretelle : j'accélère, je m'insère."
+          "text": "Sur la bretelle d'entrée, j'accélère pour rouler à la vitesse des autres, puis je m'insère quand il y a de la place."
         }
       ]
     },
@@ -48,7 +94,19 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Les limites sont plus hautes, les erreurs plus graves."
+          "text": "Sur autoroute, les limites sont plus hautes, donc les erreurs sont plus graves : à 130 km/h, la voiture parcourt 36 mètres chaque seconde."
+        },
+        {
+          "type": "heading",
+          "text": "Les limites, en voiture"
+        },
+        {
+          "type": "list",
+          "items": [
+            "130 km/h par temps normal.",
+            "100 km/h par pluie.",
+            "50 km/h si je vois à moins de 50 mètres (brouillard, poussière, forte pluie)."
+          ]
         },
         {
           "type": "image",
@@ -62,14 +120,36 @@
         },
         {
           "type": "heading",
-          "text": "Les limites"
+          "text": "La distance avec le véhicule devant"
+        },
+        {
+          "type": "text",
+          "text": "Je garde au moins 2 secondes entre lui et moi. Je choisis un repère (un panneau) : quand il le passe, je compte « un, deux ». Si j'arrive au repère avant, je suis trop près."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-autoroute-retro.webp",
+            "alt": "Vue du conducteur sur autoroute, véhicules dans le rétroviseur",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Sur autoroute, je surveille les rétroviseurs souvent."
+        },
+        {
+          "type": "text",
+          "text": "Hors agglomération, les véhicules de plus de 3,5 tonnes ou de plus de 8 mètres laissent au moins 50 mètres entre eux."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je ne fais jamais"
         },
         {
           "type": "list",
           "items": [
-            "Voiture : 130 km/h par temps normal.",
-            "Voiture : 100 km/h par pluie.",
-            "Voiture : 50 km/h si je vois à moins de 50 mètres."
+            "Faire demi-tour ou marche arrière : les autres arrivent à pleine vitesse.",
+            "M'arrêter, sauf en cas de panne ou d'urgence, sur la bande d'arrêt d'urgence.",
+            "Rouler sur la bande d'arrêt d'urgence."
           ]
         },
         {
@@ -83,8 +163,24 @@
           "caption": "Sur autoroute, je garde mes distances."
         },
         {
-          "type": "text",
-          "text": "Hors agglomération, les véhicules de plus de 3,5 tonnes ou de plus de 8 mètres laissent au moins 50 mètres entre eux."
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-compteur-panneau.webp",
+            "alt": "Vue du conducteur : panneau de limitation et compteur entourés",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je compare le panneau et mon compteur."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-regulateur.webp",
+            "alt": "Commandes du régulateur de vitesse sur le volant",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Le régulateur garde une vitesse fixe ; je le coupe dès que la circulation se densifie."
         },
         {
           "type": "attention",
@@ -92,7 +188,7 @@
         },
         {
           "type": "memo",
-          "text": "Voiture : 130, 100 sous la pluie, 50 dans la brume."
+          "text": "Sur autoroute, en voiture, je roule à 130 km/h au plus, à 100 km/h sous la pluie, et à 50 km/h si je vois à moins de 50 mètres."
         }
       ]
     },
@@ -129,9 +225,14 @@
         {
           "type": "list",
           "items": [
-            "Je me range sur la bande d'arrêt d'urgence.",
-            "J'allume les feux de détresse.",
-            "Je signale mon véhicule, je fais descendre les passagers du côté sûr."
+            "1. J'allume mes feux de détresse et je rejoins la bande d'arrêt d'urgence, le plus à droite possible.",
+            "2. Je coupe le moteur et je serre le frein à main.",
+            "3. Je mets mon gilet jaune avant de sortir, s'il y en a un dans la voiture.",
+            "4. Je sors et je fais sortir tout le monde par la droite, côté glissière.",
+            "5. Tout le monde passe derrière la glissière et s'éloigne de la voie. Personne ne reste dans la voiture.",
+            "6. Si je peux le faire sans danger, je pose les triangles à 30 mètres au moins, en commençant par celui de l'arrière, et en marchant sur la bande d'arrêt d'urgence.",
+            "7. J'appelle un dépanneur ou les secours depuis derrière la glissière.",
+            "8. Je ne traverse jamais l'autoroute à pied, et je ne tente pas de réparer moi-même."
           ]
         },
         {
@@ -140,7 +241,7 @@
         },
         {
           "type": "memo",
-          "text": "Panne : bande d'arrêt, détresse, signal."
+          "text": "En panne sur autoroute, je m'arrête sur la bande d'arrêt d'urgence, j'allume mes feux de détresse et je signale ma voiture."
         }
       ]
     }

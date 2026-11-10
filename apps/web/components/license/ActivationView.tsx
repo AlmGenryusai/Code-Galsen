@@ -21,7 +21,7 @@ type Status = 'idle' | 'invalid' | 'pending' | ActivationError
 const MESSAGES: Partial<Record<Status, string>> = {
   invalid: 'Format attendu : GALS-XXXX-XXXX',
   unknown_code: 'Code inconnu. Vérifie la saisie.',
-  already_used: 'Code déjà utilisé sur un autre téléphone. Contacte le support.',
+  already_used: 'Code déjà utilisé sur un autre téléphone. Écris-nous sur WhatsApp (lien ci-dessous).',
   expired: 'Ce code a expiré.',
   network: 'Pas de connexion. Réessaie quand tu as du réseau.',
   server: 'Erreur du serveur. Réessaie plus tard.',
@@ -72,7 +72,7 @@ export function ActivationView({ themeCount, questionCount, waveUrls, supportWha
   }
 
   return (
-    <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', padding: '8px 20px 32px' }}>
+    <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', padding: '8px 20px calc(32px + env(safe-area-inset-bottom))' }}>
       <Link
         href="/"
         aria-label="Retour"
@@ -80,9 +80,9 @@ export function ActivationView({ themeCount, questionCount, waveUrls, supportWha
           display: 'inline-flex',
           alignItems: 'center',
           justifyContent: 'center',
-          width: 44,
-          height: 44,
-          marginLeft: -12,
+          width: 48,
+          height: 48,
+          marginLeft: -14,
           color: 'hsl(var(--muted))',
           fontSize: 22,
           textDecoration: 'none',
@@ -100,7 +100,7 @@ export function ActivationView({ themeCount, questionCount, waveUrls, supportWha
 
       <ul style={{ listStyle: 'none', padding: 0, margin: '18px 0 0', display: 'flex', flexDirection: 'column', gap: 10 }}>
         {[
-          `Les ${themeCount} thèmes du programme (${questionCount} questions)`,
+          `Les ${themeCount} thèmes du programme (${questionCount} questions)`,
           'Examens blancs illimités',
           'Révision de tes erreurs',
         ].map((item) => (
@@ -110,7 +110,7 @@ export function ActivationView({ themeCount, questionCount, waveUrls, supportWha
           </li>
         ))}
       </ul>
-      <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10 }}>
+      <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 10 }}>
         Version gratuite : thème « {themeTitle(FREE_THEME)} » et 1 examen blanc.
       </p>
 
@@ -171,9 +171,24 @@ export function ActivationView({ themeCount, questionCount, waveUrls, supportWha
             {waveUrl ? `Payer ${formatPrice(plan.price)} avec Wave` : 'Commander sur WhatsApp'}
           </a>
         )}
-        <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10 }}>
-          Le code est envoyé sur WhatsApp. La durée démarre à l&apos;activation.
-        </p>
+        <ol style={{ listStyle: 'none', padding: 0, margin: '16px 0 0', display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {[
+            waveUrl
+              ? `Paie ${formatPrice(plan.price)} avec Wave.`
+              : 'Écris-nous sur WhatsApp, puis paie avec Wave.',
+            'Tu reçois ton code sur WhatsApp.',
+            'Saisis-le ci-dessous : accès complet tout de suite. La durée démarre à l\u2019activation.',
+          ].map((step, i) => (
+            <li key={step} style={{ display: 'flex', gap: 10, fontSize: 14, color: 'hsl(var(--text))', lineHeight: 1.4 }}>
+              <span aria-hidden style={{
+                flex: '0 0 22px', height: 22, borderRadius: 11, background: 'hsl(var(--bg))',
+                border: '1px solid hsl(var(--border))', fontSize: 12, fontWeight: 700,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+              }}>{i + 1}</span>
+              {step}
+            </li>
+          ))}
+        </ol>
       </div>
 
       {activeUntil !== null ? (
@@ -202,6 +217,11 @@ export function ActivationView({ themeCount, questionCount, waveUrls, supportWha
             onChange={(e) => {
               setCode(formatCode(e.target.value))
               setStatus('idle')
+            }}
+            onFocus={(e) => {
+              // Clavier mobile : garde le champ et le bouton visibles
+              const el = e.currentTarget
+              setTimeout(() => el.scrollIntoView({ block: 'center', behavior: 'smooth' }), 300)
             }}
             placeholder="GALS-XXXX-XXXX"
             inputMode="text"
@@ -247,7 +267,7 @@ export function ActivationView({ themeCount, questionCount, waveUrls, supportWha
           >
             {status === 'pending' ? 'Activation…' : 'Activer'}
           </button>
-          <p style={{ fontSize: 13, color: 'hsl(var(--muted))', marginTop: 10, textAlign: 'center' }}>
+          <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 10, textAlign: 'center' }}>
             Le code s&apos;active sur un seul téléphone.
           </p>
         </form>

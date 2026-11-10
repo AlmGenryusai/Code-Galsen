@@ -339,6 +339,12 @@
     "theme": "t01",
     "chapter": "t01-c04",
     "context": "Au volant d'une voiture, par temps normal, je roule sur une route à deux voies par sens, sans terre-plein.",
+    "media": {
+      "kind": "photo",
+      "src": "c-route-2x2-sans-separation.webp",
+      "alt": "Route à deux voies dans chaque sens, sans terre-plein au milieu",
+      "credit": "Andrew Bossi, CC BY-SA 2.5, Wikimedia Commons"
+    },
     "parts": [
       {
         "kind": "yesno",

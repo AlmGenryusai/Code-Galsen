@@ -34,6 +34,20 @@
         },
         {
           "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ralentis dès que je vois un passage piéton, un arrêt de car ou des gens au bord de la route.",
+            "Je m'arrête avant la ligne du passage, pas dessus, pour laisser traverser.",
+            "Je ne klaxonne pas pour presser un piéton : une personne âgée ou un enfant peut paniquer.",
+            "Je fais attention aux piétons cachés par un véhicule arrêté, surtout les enfants.",
+            "Une personne qui pousse une voiture d'enfant ou un fauteuil roulant est un piéton : je lui cède le passage de la même façon."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Sur la route"
         },
         {
@@ -183,6 +197,26 @@
             "J'adapte ma vitesse à ce que mes phares me laissent voir.",
             "Je reste prêt à freiner ou à m'écarter, sans faire de mouvement brusque."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-pietons-traversent.webp",
+            "alt": "Vue du conducteur : piétons qui traversent hors passage devant un mur",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Des piétons traversent hors du passage : je ralentis et je les laisse finir."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-pietonne-bord.webp",
+            "alt": "Vue du conducteur : une piétonne marche au bord de la route",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Piéton au bord de la route : je m'écarte et je ralentis."
         },
         {
           "type": "attention",

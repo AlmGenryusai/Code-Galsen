@@ -24,6 +24,19 @@
         },
         {
           "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Règle simple : si je ne vois pas les yeux du chauffeur dans son rétroviseur, il ne me voit pas.",
+            "Je reste loin derrière un camion : je vois mieux la route et je ne suis pas dans son angle mort.",
+            "Je ne reste jamais longtemps à côté d'un camion : je le dépasse franchement ou je reste derrière.",
+            "Quand un camion tourne, je lui laisse toute la place : son arrière coupe le virage."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Sur la route"
         },
         {
@@ -115,6 +128,16 @@
         {
           "type": "text",
           "text": "Un camion qui arrive en face fait un appel d'air et prend beaucoup de place. Je me tiens bien à droite de ma voie, sans mordre sur le bas-côté."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-camion-retro.webp",
+            "alt": "Vue du conducteur : camion visible dans le rétroviseur intérieur",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Un camion me suit de près : je garde ma vitesse et je facilite son dépassement."
         },
         {
           "type": "attention",

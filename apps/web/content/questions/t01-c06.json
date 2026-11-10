@@ -70,7 +70,7 @@
         ]
       }
     ],
-    "explanation": "La loi (L.64) impose une pré-signalisation par des moyens adéquats. Hors agglomération, le décret (art. 31) cite le triangle de pré-signalisation et les feux de détresse.",
+    "explanation": "La loi (L.64) impose une pré-signalisation par des moyens adéquats. Hors agglomération, le décret (art. 31) cite les triangles de pré-signalisation (deux, à 30 mètres au moins du véhicule) et les feux de détresse.",
     "common_mistake": "Penser que son véhicule est assez visible.",
     "legal_ref": "Décret 2004-13, art. 31 ; loi 2022-04, L.64",
     "legal_status": "confirmed",
@@ -468,6 +468,33 @@
     "review": {
       "moniteur": "2026-11-07",
       "juriste": "2026-11-07"
+    }
+  },
+  {
+    "id": "t01-c06-0015",
+    "theme": "t01",
+    "chapter": "t01-c06",
+    "context": "Ma voiture tombe en panne sur la route, hors agglomération.",
+    "parts": [
+      {
+        "kind": "yesno",
+        "statement": "Je pose un triangle derrière et un devant mon véhicule :",
+        "correct": "yes"
+      },
+      {
+        "kind": "yesno",
+        "statement": "Je les place à moins de 30 mètres pour les surveiller :",
+        "correct": "no"
+      }
+    ],
+    "explanation": "Le véhicule immobilisé est signalé par des feux de détresse et deux triangles de pré-signalisation, à 30 mètres au moins.",
+    "common_mistake": "Ne poser qu'un seul triangle, ou le poser trop près.",
+    "legal_ref": "Décret 2004-13, art. 80 et 83, annexe I (I-43 à I-45)",
+    "legal_status": "confirmed",
+    "status": "published",
+    "review": {
+      "moniteur": "2026-11-08",
+      "juriste": "2026-11-08"
     }
   }
 ]

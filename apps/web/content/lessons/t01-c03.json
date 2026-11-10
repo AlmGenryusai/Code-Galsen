@@ -8,7 +8,42 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Seul sur la route, je tiens la partie droite de la chaussée. Si la chaussée a plusieurs voies, je prends la plus à droite."
+          "text": "La chaussée est la partie de la route faite pour rouler. Elle peut être découpée en voies : une voie est la largeur d'une file de voitures, souvent marquée par des lignes blanches. Seul sur la route, je tiens la partie droite de la chaussée. Si la chaussée a plusieurs voies dans mon sens, je prends la plus à droite."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-tourner-droite-faux.webp",
+            "alt": "Schéma : voiture qui s'écarte trop avant de tourner à droite (trajectoire en rouge)",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "À éviter : s'écarter à gauche avant de tourner à droite."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-tourner-droite.webp",
+            "alt": "Schéma : voiture qui reste à droite pour tourner à droite (trajectoire en bleu)",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Pour tourner à droite, je reste serré à droite."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je roule au milieu de ma voie, sans rouler à cheval sur les lignes.",
+            "Si la route n'a qu'une voie dans chaque sens et que je ne vois pas loin (virage, sommet de côte), je reste bien à droite pour laisser libre la partie gauche.",
+            "Sur une route à plusieurs voies, j'utilise les voies de gauche seulement pour dépasser, puis je reviens à droite.",
+            "Le trottoir et l'accotement (le bas-côté) ne sont pas pour les voitures. Je les emprunte seulement s'ils sont prévus pour mon type de véhicule, ou en cas de force majeure."
+          ]
         },
         {
           "type": "image",
@@ -21,16 +56,15 @@
           "caption": "Les flèches au sol indiquent la direction de chaque voie."
         },
         {
-          "type": "heading",
-          "text": "Ce que je fais"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Je ne roule pas sur les lignes.",
-            "Si la route n'a qu'une voie et que je ne vois pas loin, je laisse libre la partie gauche.",
-            "Je prends le trottoir ou l'accotement seulement s'ils sont faits pour mon type de véhicule."
-          ]
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-tourner-gauche.webp",
+            "alt": "Schéma : voiture qui se place près de l'axe pour tourner à gauche",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Pour tourner à gauche, je me rapproche de l'axe de la route."
         },
         {
           "type": "attention",
@@ -38,7 +72,7 @@
         },
         {
           "type": "memo",
-          "text": "Droite, dans ma voie, sur la chaussée."
+          "text": "Je roule à droite, dans ma voie, et toujours sur la chaussée."
         }
       ]
     },
@@ -59,6 +93,16 @@
           "text": "Je ne la franchis pas et je ne la chevauche pas."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "m01.webp",
+            "alt": "Ligne continue au centre de la chaussée",
+            "credit": "GilPe, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Ligne continue : je ne la franchis pas."
+        },
+        {
           "type": "heading",
           "text": "Ligne discontinue"
         },
@@ -70,11 +114,11 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "m01.webp",
-            "alt": "Ligne continue au centre de la chaussée",
+            "src": "m02.webp",
+            "alt": "Ligne discontinue au centre de la chaussée",
             "credit": "GilPe, CC BY-SA 4.0, via Wikimedia Commons"
           },
-          "caption": "Ligne continue : je ne la franchis pas."
+          "caption": "Ligne discontinue : je peux la franchir si la route est libre."
         },
         {
           "type": "heading",
@@ -88,11 +132,22 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "m02.webp",
-            "alt": "Ligne discontinue au centre de la chaussée",
-            "credit": "GilPe, CC BY-SA 4.0, via Wikimedia Commons"
+            "src": "n-R-lignes.webp",
+            "alt": "Schéma de trois marquages : ligne continue, ligne discontinue et ligne mixte",
+            "credit": "Source inconnue (Google Images)"
           },
-          "caption": "Ligne discontinue : je peux la franchir si la route est libre."
+          "caption": "Ligne mixte : je ne franchis que si la discontinue est de mon côté."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-lignes-tableau.webp",
+            "alt": "Tableau : ligne continue, ligne mixte, ligne d'annonce et panneaux d'interdiction de dépasser",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Ligne continue : je ne la franchis pas. Ligne mixte : je regarde le trait de mon côté."
         },
         {
           "type": "attention",
@@ -120,7 +175,7 @@
         },
         {
           "type": "memo",
-          "text": "Continue : je reste. Discontinue : je passe pour dépasser."
+          "text": "Une ligne continue, je ne la franchis pas. Une ligne discontinue, je peux la franchir pour dépasser, puis je reviens à droite."
         }
       ]
     },
@@ -167,6 +222,16 @@
           "caption": "Route barrée : je suis la déviation."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-voiture-garee.webp",
+            "alt": "Vue du conducteur : file de voitures garées, une avec un conducteur à bord, cycliste en face",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Conducteur à bord d'une voiture garée : elle peut déboîter ou ouvrir sa portière, je m'écarte."
+        },
+        {
           "type": "heading",
           "text": "Panneaux à reconnaître"
         },
@@ -195,7 +260,7 @@
         },
         {
           "type": "memo",
-          "text": "Croiser : à droite. Contourner : à droite."
+          "text": "Quand je croise un véhicule, je serre à droite. Devant un obstacle ou un rond-point, je le contourne par la droite."
         }
       ]
     }

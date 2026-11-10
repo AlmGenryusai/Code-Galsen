@@ -85,10 +85,10 @@ describe('QuestionCard — rendu', () => {
     for (const t of ['>x<', '>y<', '>z<', '>w<']) expect(out).toContain(t)
   })
 
-  it('Valider (n/total) grisé tant que rien n’est coché', () => {
+  it('Valider grisé tant que rien n’est coché', () => {
     const out = html(question(undefined, yes('no')))
-    expect(out).toContain('Valider (3/10)')
-    expect(out).toMatch(/<button[^>]*disabled=""[^>]*>Valider \(3\/10\)/)
+    expect(out).toContain('Valider')
+    expect(out).toMatch(/<button[^>]*disabled=""[^>]*>Valider</)
   })
 
   it('Valider actif une fois coché', () => {

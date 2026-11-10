@@ -26,10 +26,17 @@ interface QuestionCardProps {
 const TILE = 48
 const CORRECTION_BAR = 96
 
+/** Jusqu'à 4 cases sur un seul rang (barre ≈148 px au lieu de ≈203 px) ; au-delà, 2 colonnes. */
+function tileColumns(slotCount: number): number {
+  return slotCount >= 1 && slotCount <= 4 ? slotCount : 2
+}
+
 /** Hauteur de la barre du bas : libellé, grille A-D (2 colonnes), bouton Valider. */
-function barHeight(variant: string, slotCount: number): number {
+function barHeight(variant: string, slotCount: number, revealed = false): number {
   if (variant === 'correction') return CORRECTION_BAR
-  const rows = Math.max(1, Math.ceil(slotCount / 2))
+  // Après validation (entraînement) : la grille disparaît, la barre se réduit au seul bouton Suivant
+  if (revealed) return 8 + 48 + 8
+  const rows = Math.max(1, Math.ceil(slotCount / tileColumns(slotCount)))
   return 8 + 20 + 6 + rows * TILE + (rows - 1) * 8 + 10 + 48 + 8
 }
 const SHOW_DRAFT_BADGE = process.env.NODE_ENV !== 'production'
@@ -79,7 +86,7 @@ export function QuestionCard({
   const ready = q.parts.every((_, i) => (picked[i]?.length ?? 0) > 0)
   const ok = revealed && isCorrect(q, picked)
   const isLast = index + 1 >= total
-  const bar = barHeight(variant, slots.reduce((n, s) => n + s.length, 0))
+  const bar = barHeight(variant, slots.reduce((n, s) => n + s.length, 0), revealed)
 
   return (
     <>
@@ -166,7 +173,7 @@ export function QuestionCard({
                   fontSize: 16,
                   fontWeight: 700,
                   background: ok ? 'hsl(var(--right-soft))' : 'hsl(var(--wrong-soft))',
-                  color: ok ? 'hsl(var(--right))' : 'hsl(var(--wrong))',
+                  color: ok ? 'hsl(132 49% 22%)' : 'hsl(var(--wrong))',
                 }}
               >
                 <span aria-hidden="true">{ok ? '✓' : '✕'}</span>
@@ -176,6 +183,7 @@ export function QuestionCard({
                 explanation={q.explanation}
                 commonMistake={q.common_mistake}
                 answersText={correctLettersText(q, orders)}
+                defaultOpen={!ok}
               />
             </div>
           )}
@@ -201,10 +209,10 @@ export function QuestionCard({
           borderTop: '1px solid hsl(var(--sand))',
         }}
       >
-        {variant !== 'correction' && (
+        {variant !== 'correction' && !revealed && (
           <div style={{ flex: 1 }}>
             <div style={{ fontSize: 13, fontWeight: 600, color: 'hsl(var(--ink))', textAlign: 'center', marginBottom: 6 }}>{KIND_LABEL[answerKind(q)]}</div>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: `repeat(${tileColumns(slots.reduce((n, s) => n + s.length, 0))}, 1fr)`, gap: 8 }}>
               {slots.flatMap((partSlotList, pi) =>
                 partSlotList.map((slot) => {
                   const isPicked = picked[pi]?.includes(slot.id) ?? false
@@ -224,7 +232,7 @@ export function QuestionCard({
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        gap: 14,
+                        gap: 8,
                         background: isPicked && !revealed ? 'hsl(var(--sand))' : 'hsl(var(--surface))',
                         border: isPicked && !revealed ? '2px solid hsl(var(--structure))' : '1.5px solid hsl(var(--sand))',
                         borderRadius: 'var(--radius)',
@@ -260,7 +268,7 @@ export function QuestionCard({
         )}
         {variant === 'correction' ? (
           <div style={{ display: 'flex', flex: 1, justifyContent: 'flex-end', gap: 8 }}>
-            <button type="button" onClick={onPrev} disabled={index === 0} style={{ ...ACTION, flex: 1, background: 'hsl(var(--surface))', border: '1.5px solid hsl(var(--sand))', opacity: index === 0 ? 0.5 : 1 }}>
+            <button type="button" onClick={onPrev} disabled={index === 0} style={{ ...ACTION, flex: 1, background: 'hsl(var(--surface))', border: '1.5px solid hsl(var(--sand))', opacity: 1, color: index === 0 ? 'hsl(25 11% 38%)' : undefined, ...(index === 0 ? { background: 'hsl(var(--sand))', border: '1.5px solid hsl(var(--border-2))' } : {}) }}>
               Précédent
             </button>
             <button type="button" onClick={onNext} style={{ ...ACTION, flex: 1 }}>
@@ -272,9 +280,9 @@ export function QuestionCard({
             type="button"
             onClick={revealed ? onNext : onSubmit}
             disabled={!revealed && !ready}
-            style={{ ...ACTION, flex: 'none', width: '100%', minHeight: 48, opacity: !revealed && !ready ? 0.5 : 1 }}
+            style={{ ...ACTION, flex: 'none', width: '100%', minHeight: 48, opacity: 1, ...(!revealed && !ready ? { background: 'hsl(var(--sand))', color: 'hsl(25 15% 30%)' } : {}) }}
           >
-            {revealed ? (isLast ? 'Résultats' : 'Suivant') : variant === 'exam' ? (isLast ? 'Terminer' : 'Valider') : `Valider (${index + 1}/${total})`}
+            {revealed ? (isLast ? 'Résultats' : 'Suivant') : variant === 'exam' ? (isLast ? 'Terminer' : 'Valider') : 'Valider'}
           </button>
         )}
       </div>

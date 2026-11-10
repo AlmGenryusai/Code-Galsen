@@ -268,3 +268,68 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | n-Ffeu-fleches.webp | Feux à flèches animés : rouge, vert, orange | Source inconnue (site d'auto-école, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
 | n-Ffeu-clignotant.webp | Feu orange clignotant animé | Source inconnue (site d'auto-école, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
 | n-Ffeu-trio.webp | Feux tricolores : vert, orange, rouge | Source inconnue (site d'auto-école, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| n-R-lignes.webp | Schéma : ligne continue, discontinue et mixte | Source inconnue (Google Images, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| n-R-voyantpneus.webp | Voyant orange de pression des pneus | Source inconnue (iStock, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| n-R-triangle.webp | Triangle de pré-signalisation posé au bord de la route | Source inconnue (Google Images, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| n-R-stationnement.webp | Voitures garées le long d'une rue | Source inconnue (Google Images, fourni par Alfred) | Non vérifiée, risque accepté par Alfred le 2026-11-07 | - |
+| c-telephone.webp | Conducteur qui tient son téléphone en main au volant | Non renseigné | CC BY-SA 2.5 | - |
+| c-bretelle.webp | Bretelle d'entrée et voie d'accélération sur l'autoroute A14 | Non renseigné | CC BY-SA 2.5 | - |
+| c-route-une-voie.webp | Route à une voie par sens sans séparateur (D769) | Non renseigné | CC BY-SA 3.0 | - |
+| c-route-2x2.webp | Route à deux chaussées séparées (2x2 voies) | Non renseigné | CC BY-SA 4.0 | - |
+| c-pn-croix.webp | Croix de passage à niveau sans barrière | Non renseigné | CC0 | - |
+| c-pn-feux.webp | Feux rouges clignotants de passage à niveau | Non renseigné | CC BY-SA 4.0 | - |
+| c-pn-demi-barriere.webp | Passage à niveau à demi-barrière | Non renseigné | CC BY-SA 4.0 | - |
+| c-pn-barriere-fermee.webp | Barrière automatique fermée au passage d'un train | Non renseigné | CC BY-SA 4.0 | - |
+| c-pn-balises.webp | Balises rayées avant un passage à niveau | Non renseigné | CC BY-SA 4.0 | - |
+| c-voyant-abs.webp | Voyant ABS allumé | Non renseigné | Domaine public | - |
+| c-tableau-de-bord.webp | Tableau de bord Kia avec voyants | Non renseigné | CC0 | - |
+| c-ter.webp | TER de Dakar | Non renseigné | CC BY-SA 4.0 | - |
+| c-brt.webp | BRT de Dakar à un arrêt | Non renseigné | CC BY 4.0 | - |
+| c-medicaments.webp | Plaquette de médicaments | Non renseigné | CC BY 2.0 | - |
+| c-desembuage.webp | Bouton de désembuage de la lunette arrière | Non renseigné (Flickr) | CC BY-NC-SA, usage non commercial : à vérifier avant publication | - |
+| c-route-2x2-sans-separation.webp | Route à 2 voies par sens sans terre-plein (MD 115, Maryland, USA) | Andrew Bossi, Wikimedia Commons ([source](https://commons.wikimedia.org/wiki/File:2006_02_24_-_MD115_-_WB_09.JPG)) | CC BY-SA 2.5 | Réduite à 800 px |
+| c-planche-voyants.webp | Planche des principaux voyants par couleur | Soupeurfaive, Wikimedia Commons (20 symboles, ex. [ABS](https://commons.wikimedia.org/wiki/File:Anti-lock_braking_system_logo.png)) | CC BY-SA 3.0 | Assemblage en grille, légendes ajoutées, fonds airbag (rouge) et pneus (orange) recolorés ; planche sous CC BY-SA 3.0 |
+| q-gem-a02.webp | Chemin de terre vers une route (scène A02) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a04b.webp | Deux camions sur route de campagne (scène A04b) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a08.webp | Moto à un feu rouge (scène A08) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a09.webp | Moto dans le rétroviseur (scène A09) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a16.webp | Arrière de voiture, vignettes sur la lunette (scène A16) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a17.webp | Pick-up chargé de barres (scène A17) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+| q-gem-a28.webp | Clé de contact et voyants (scène A28) | Image générée par IA (Gemini) | Image IA, fournie par Alfred | - |
+
+## Lot e- (2026-11-10, dossier « Elements Usefull Pics », auteur non renseigné)
+
+| Fichier | Description | Auteur | Licence |
+|---|---|---|---|
+| e-route-prioritaire.webp | Tableau : le panneau losange jaune et le panneau d'intersection avec route prioritaire | auteur non renseigné | non renseignée |
+| e-panneau-intersection.webp | Vue du conducteur : panneau triangulaire d'intersection repéré avant le carrefour | auteur non renseigné | non renseignée |
+| e-sens-inverse.webp | Vue du conducteur : rue étroite avec panneau de priorité pour la circulation en sens inverse | auteur non renseigné | non renseignée |
+| e-carrefours-successifs.webp | Schéma : une rue avec plusieurs carrefours et des panneaux différents à chacun | auteur non renseigné | non renseignée |
+| e-indices-intersection.webp | Schéma : indices d'une intersection, véhicules qui tournent, trottoir interrompu, passages piétons | auteur non renseigné | non renseignée |
+| e-carrefour-droite.webp | Vue du conducteur : intersection en ville, voiture bleue arrivant par la droite | auteur non renseigné | non renseignée |
+| e-sortie-parking.webp | Vue du conducteur : voiture qui s'apprête à sortir d'un parking sur la droite | auteur non renseigné | non renseignée |
+| e-stop-schema.webp | Schéma : deux voitures arrêtées au STOP de part et d'autre d'un carrefour | auteur non renseigné | non renseignée |
+| e-stop-gauche.webp | Schéma : deux voitures face à face qui tournent chacune à gauche au carrefour | auteur non renseigné | non renseignée |
+| e-cedez-photo.webp | Vue du conducteur : panneau cédez le passage et ligne pointillée au sol | auteur non renseigné | non renseignée |
+| e-giratoire-entree.webp | Schéma : entrée dans un rond-point, une voiture déjà engagée et une qui attend | auteur non renseigné | non renseignée |
+| e-giratoire-sortie.webp | Schéma : voitures qui entrent et sortent d'un rond-point | auteur non renseigné | non renseignée |
+| e-giratoire-voies.webp | Schéma : trajectoires dans un rond-point à deux voies selon la sortie choisie | auteur non renseigné | non renseignée |
+| e-tourner-gauche.webp | Schéma : voiture qui se place près de l'axe pour tourner à gauche | auteur non renseigné | non renseignée |
+| e-tourner-droite-faux.webp | Schéma : voiture qui s'écarte trop avant de tourner à droite (trajectoire en rouge) | auteur non renseigné | non renseignée |
+| e-tourner-droite.webp | Schéma : voiture qui reste à droite pour tourner à droite (trajectoire en bleu) | auteur non renseigné | non renseignée |
+| e-lignes-tableau.webp | Tableau : ligne continue, ligne mixte, ligne d'annonce et panneaux d'interdiction de dépasser | auteur non renseigné | non renseignée |
+| e-voiture-garee.webp | Vue du conducteur : file de voitures garées, une avec un conducteur à bord, cycliste en face | auteur non renseigné | non renseignée |
+| e-cia.webp | Aide-mémoire : Contrôler, Indiquer, Agir | auteur non renseigné | non renseignée |
+| e-retro-gauche.webp | Vue du conducteur sur voie rapide, rétroviseur gauche entouré | auteur non renseigné | non renseignée |
+| e-angle-mort.webp | Vue du conducteur, rétroviseur extérieur entouré, véhicule proche | auteur non renseigné | non renseignée |
+| e-camion-retro.webp | Vue du conducteur : camion visible dans le rétroviseur intérieur | auteur non renseigné | non renseignée |
+| e-bretelle-dessus.webp | Vue du dessus : voiture sur une voie d'insertion qui rejoint la route principale | auteur non renseigné | non renseignée |
+| e-insertion.webp | Vue du conducteur : arrivée sur une route rapide, camion et voiture devant | auteur non renseigné | non renseignée |
+| e-voie-rapide.webp | Vue du conducteur sur une voie rapide à deux voies | auteur non renseigné | non renseignée |
+| e-autoroute-retro.webp | Vue du conducteur sur autoroute, véhicules dans le rétroviseur | auteur non renseigné | non renseignée |
+| e-compteur-panneau.webp | Vue du conducteur : panneau de limitation et compteur entourés | auteur non renseigné | non renseignée |
+| e-regulateur.webp | Commandes du régulateur de vitesse sur le volant | auteur non renseigné | non renseignée |
+| e-pietons-traversent.webp | Vue du conducteur : piétons qui traversent hors passage devant un mur | auteur non renseigné | non renseignée |
+| e-pietonne-bord.webp | Vue du conducteur : une piétonne marche au bord de la route | auteur non renseigné | non renseignée |
+| e-tourner-ville.webp | Vue du conducteur en ville : bus en face, flèche indiquant où tourner | auteur non renseigné | non renseignée |
+| e-tram-carrefour.webp | Vue du conducteur : carrefour avec feu, tram et panneaux de direction | auteur non renseigné | non renseignée |

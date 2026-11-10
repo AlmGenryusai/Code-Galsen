@@ -200,7 +200,7 @@
     "parts": [
       {
         "kind": "yesno",
-        "statement": "Je dois porter un casque homologué :",
+        "statement": "Je dois porter un casque de sécurité :",
         "correct": "yes"
       },
       {

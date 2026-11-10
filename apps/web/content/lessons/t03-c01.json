@@ -68,7 +68,7 @@
         },
         {
           "type": "memo",
-          "text": "Je vois mal : je ralentis et j'allume."
+          "text": "Par brouillard, poussière ou forte pluie, je vois moins loin : je ralentis et j'allume mes feux de croisement pour être vu."
         }
       ]
     },
@@ -78,7 +78,21 @@
       "blocks": [
         {
           "type": "text",
-          "text": "La pluie et le sable allongent la distance de freinage."
+          "text": "Sur une route mouillée ou couverte de sable, les pneus accrochent moins. La voiture met plus de temps à s'arrêter et glisse plus facilement dans les virages."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je roule moins vite : hors agglomération, les limites baissent sous la pluie.",
+            "Je double ma distance avec le véhicule devant.",
+            "Je freine tôt et doucement, en ligne droite.",
+            "Je ralentis avant les virages, pas dedans.",
+            "J'allume mes feux de croisement pour être vu."
+          ]
         },
         {
           "type": "image",
@@ -92,14 +106,14 @@
         },
         {
           "type": "heading",
-          "text": "Ce que je fais"
+          "text": "Les pièges"
         },
         {
           "type": "list",
           "items": [
-            "J'augmente ma distance avec le véhicule devant.",
-            "Je freine tôt et doucement.",
-            "Je ralentis avant les virages, pas dedans."
+            "Les premières pluies après la saison sèche : l'huile et la poussière sur la route forment une couche très glissante.",
+            "Les flaques profondes : à vitesse élevée, les pneus peuvent flotter sur l'eau (« aquaplaning ») et la voiture ne répond plus. Je lève le pied doucement, sans freiner fort ni donner de coup de volant.",
+            "Le sable sur la chaussée, fréquent près des côtes et des dunes : il glisse comme de l'eau."
           ]
         },
         {
@@ -113,10 +127,6 @@
           "caption": "Du sable sur la route : la chaussée glisse."
         },
         {
-          "type": "text",
-          "text": "Après les premières pluies, la chaussée est plus glissante."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -128,7 +138,7 @@
         },
         {
           "type": "memo",
-          "text": "Sol mouillé : plus de distance, moins de vitesse."
+          "text": "Sur une route mouillée, je freine moins bien : je roule moins vite et je laisse plus de distance devant moi."
         }
       ]
     },
@@ -147,9 +157,10 @@
         {
           "type": "list",
           "items": [
-            "Sans éclairage public : feux de croisement ou de route.",
-            "Je croise ou je suis de près un véhicule : feux de croisement pour ne pas éblouir.",
-            "Un véhicule garé la nuit doit être signalé par ses feux."
+            "En ville, dans une rue bien éclairée : les veilleuses suffisent.",
+            "Sur une route sans éclairage : feux de route quand personne n'est devant moi.",
+            "Dès qu'un véhicule arrive en face ou que j'en suis un de près : feux de croisement, pour ne pas l'éblouir.",
+            "Garé la nuit au bord d'une route : ma voiture doit rester visible grâce à ses feux."
           ]
         },
         {
@@ -168,7 +179,7 @@
         },
         {
           "type": "memo",
-          "text": "Nuit : j'éclaire, je n'éblouis pas."
+          "text": "La nuit, j'allume mes feux pour bien voir, et je passe en feux de croisement dès qu'un véhicule arrive en face."
         }
       ]
     }

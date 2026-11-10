@@ -8,7 +8,19 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Avant de tourner, de me déporter ou de ralentir fortement, je regarde d'abord si c'est possible. Ensuite seulement, j'avertis les autres."
+          "text": "Les autres usagers ne lisent pas dans mes pensées. Avant de tourner, de changer de file ou de ralentir fortement, je regarde d'abord si c'est possible. Ensuite seulement, je préviens. Enfin, je bouge."
+        },
+        {
+          "type": "heading",
+          "text": "Dans l'ordre"
+        },
+        {
+          "type": "list",
+          "items": [
+            "1. Je regarde : rétroviseurs, puis coup d'œil par-dessus l'épaule pour l'angle mort (la zone que les rétroviseurs ne montrent pas).",
+            "2. Je préviens : clignotant assez tôt, au moins quelques secondes avant.",
+            "3. Je bouge, en douceur, puis j'arrête le clignotant."
+          ]
         },
         {
           "type": "image",
@@ -22,13 +34,16 @@
         },
         {
           "type": "heading",
-          "text": "Les gestes"
+          "text": "Les gestes du bras"
+        },
+        {
+          "type": "text",
+          "text": "Un vélo, une charrette ou une moto sans clignotant prévient avec le bras :"
         },
         {
           "type": "list",
           "items": [
-            "Clignotant : pour tourner ou se déporter.",
-            "Bras tendu à l'horizontale : je tourne du côté du bras (pour vélo, charrette, moto sans clignotant).",
+            "Bras tendu à l'horizontale : je tourne du côté du bras.",
             "Bras levé : je tourne du côté opposé.",
             "Bras baissé : je ralentis ou je m'arrête."
           ]
@@ -39,7 +54,7 @@
         },
         {
           "type": "memo",
-          "text": "Je regarde, puis je signale, puis je bouge."
+          "text": "Avant de changer de direction, je regarde d'abord, je préviens ensuite avec le clignotant, et seulement après je bouge."
         }
       ]
     },
@@ -63,13 +78,27 @@
         },
         {
           "type": "heading",
-          "text": "Les feux"
+          "text": "Mes 3 feux"
         },
         {
           "type": "list",
           "items": [
-            "La nuit : feux de croisement ou de route.",
-            "Je croise ou je suis de près un véhicule : feux de croisement, pour ne pas l'éblouir."
+            "Feux de position (veilleuses) : ils servent à être vu.",
+            "Feux de croisement (codes) : ils éclairent environ 30 mètres devant sans éblouir. Voyant vert au tableau de bord.",
+            "Feux de route (phares) : ils éclairent loin, au moins 100 mètres. Voyant bleu au tableau de bord."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Quel feu selon la situation"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La nuit, en ville, dans une rue bien éclairée : les veilleuses suffisent.",
+            "La nuit, hors agglomération, sur une route sans éclairage et sans personne devant : feux de route, pour voir loin.",
+            "Un véhicule arrive en face, ou je suis un véhicule de près : je repasse en feux de croisement pour ne pas l'éblouir.",
+            "Brouillard, poussière ou forte pluie, même de jour : feux de croisement, pour être vu."
           ]
         },
         {
@@ -102,7 +131,7 @@
         },
         {
           "type": "memo",
-          "text": "Feux de croisement quand je croise. Klaxon seulement si c'est nécessaire."
+          "text": "Quand je croise un véhicule ou que j'en suis un de près la nuit, je passe en feux de croisement pour ne pas l'éblouir. Je klaxonne seulement pour prévenir d'un danger."
         }
       ]
     },
@@ -142,17 +171,37 @@
           "text": "En dépassant, je préviens celui que je dépasse : de jour avec l'avertisseur, de nuit avec des appels de phares."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-tourner-ville.webp",
+            "alt": "Vue du conducteur en ville : bus en face, flèche indiquant où tourner",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Avant de tourner, je repère le bus en face et les piétons."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-tram-carrefour.webp",
+            "alt": "Vue du conducteur : carrefour avec feu, tram et panneaux de direction",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je lis les panneaux de direction tôt pour choisir ma voie."
+        },
+        {
           "type": "attention",
           "text": "Un carrefour sans panneau n'est pas un carrefour sans danger : je cède à droite et je regarde."
         },
         {
           "type": "memo",
-          "text": "Je vois avant d'arriver."
+          "text": "À l'approche d'un carrefour, je regarde loin devant pour voir les dangers avant d'y arriver."
         }
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 8, 18, 25, 82, 87, 89 ; loi 2022-04, L.62, L.66",
+  "legal_ref": "Décret 2004-13, art. 8, 18, 25, 70 à 72, 82, 87, 89 ; loi 2022-04, L.62, L.66",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

@@ -8,7 +8,19 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Avant de partir, je vérifie l'état de mon véhicule."
+          "text": "Avant un long trajet, ou au moins une fois par semaine, je fais le tour de ma voiture. Ces contrôles prennent 5 minutes et évitent la plupart des pannes."
+        },
+        {
+          "type": "heading",
+          "text": "Les pneus"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je vérifie la pression à froid, à la station, avec les chiffres indiqués sur la portière du conducteur ou dans le carnet.",
+            "Un pneu sous-gonflé chauffe, s'use vite et peut éclater, surtout avec la chaleur.",
+            "Je regarde l'usure, les coupures et les bosses sur le flanc."
+          ]
         },
         {
           "type": "image",
@@ -22,15 +34,14 @@
         },
         {
           "type": "heading",
-          "text": "Je vérifie"
+          "text": "Sous le capot, moteur froid"
         },
         {
           "type": "list",
           "items": [
-            "La pression des pneus.",
-            "Le niveau d'huile et d'eau.",
-            "Les feux et l'avertisseur.",
-            "Le carburant."
+            "L'huile moteur : je tire la jauge, je l'essuie, je la remets, je la ressors. Le niveau doit être entre les repères MIN (minimum) et MAX (maximum).",
+            "Le liquide de refroidissement : le niveau du réservoir transparent est entre MIN et MAX. Je n'ouvre jamais ce bouchon moteur chaud.",
+            "Le liquide de frein et le lave-glace : même vérification."
           ]
         },
         {
@@ -42,6 +53,18 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Je vérifie et complète le niveau d'huile."
+        },
+        {
+          "type": "heading",
+          "text": "Le reste"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'allume tous les feux et je fais le tour de la voiture, ou je demande à quelqu'un de regarder.",
+            "Je teste le klaxon et les essuie-glaces.",
+            "Je prévois assez de carburant pour le trajet."
+          ]
         },
         {
           "type": "image",
@@ -75,7 +98,7 @@
         },
         {
           "type": "memo",
-          "text": "Pneus, huile, eau, feux."
+          "text": "Avant de partir, je vérifie les pneus, le niveau d'huile, le liquide de refroidissement et les feux."
         }
       ]
     },
@@ -84,28 +107,21 @@
       "title": "Chaleur, crevaison, panne",
       "blocks": [
         {
-          "type": "heading",
-          "text": "Surchauffe"
-        },
-        {
           "type": "text",
-          "text": "Je m'arrête à l'ombre, je coupe le moteur, j'attends. Je n'ouvre jamais le bouchon d'un radiateur chaud."
+          "text": "Avec la chaleur, le sable et l'état de certaines routes, ces trois pannes sont fréquentes. Bien réagir évite l'accident."
         },
         {
           "type": "heading",
-          "text": "Crevaison"
+          "text": "Le moteur chauffe"
         },
         {
-          "type": "text",
-          "text": "Je tiens le volant, je lève le pied, je freine doucement, puis je me range sur un sol plat."
-        },
-        {
-          "type": "heading",
-          "text": "Immobilisé sur la chaussée"
-        },
-        {
-          "type": "text",
-          "text": "Immobilisé sur la chaussée : feux de détresse et, s'il y a lieu, triangle de pré-signalisation."
+          "type": "list",
+          "items": [
+            "Je le vois à l'aiguille de température qui monte dans le rouge, au voyant rouge, ou à de la vapeur sous le capot.",
+            "Je me range dès que possible, je coupe le moteur et j'attends au moins 30 minutes, à l'ombre si je peux.",
+            "Je n'ouvre jamais le bouchon du radiateur ou du réservoir moteur chaud : le liquide bouillant peut gicler et me brûler.",
+            "Une fois refroidi, je complète le liquide et je fais contrôler la voiture."
+          ]
         },
         {
           "type": "image",
@@ -118,8 +134,29 @@
           "caption": "L'anneau de remorquage sert à se faire tracter."
         },
         {
+          "type": "heading",
+          "text": "Un pneu crève en roulant"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La voiture tire d'un côté ou vibre fort.",
+            "Je tiens le volant fermement à deux mains, je garde la voiture droite.",
+            "Je lève le pied de l'accélérateur et je freine doucement, sans coup de frein brusque.",
+            "Je me range sur un sol plat, loin de la circulation, avant de changer la roue."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "La voiture s'arrête sur la chaussée"
+        },
+        {
+          "type": "text",
+          "text": "Feux de détresse, gilet, passagers à l'abri, deux triangles à 30 mètres : je suis la procédure de la fiche « En panne sur la route »."
+        },
+        {
           "type": "memo",
-          "text": "Chaleur : j'attends. Crevaison : je freine doucement."
+          "text": "Si le moteur chauffe, je m'arrête et j'attends qu'il refroidisse. Si un pneu crève, je tiens bien le volant et je freine doucement."
         }
       ]
     }

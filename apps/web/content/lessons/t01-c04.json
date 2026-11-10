@@ -46,6 +46,49 @@
         },
         {
           "type": "heading",
+          "text": "Reconnaître le type de route"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Voie : une file de voitures. Chaussée : toute la partie où l'on roule.",
+            "Deux chaussées séparées : un terre-plein ou un muret au milieu sépare les deux sens.",
+            "Au moins 2 voies par sens : deux files ou plus dans mon sens, sans terre-plein.",
+            "Double sens sans séparateur : une seule chaussée, une file par sens, juste une ligne au milieu."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-route-une-voie.webp",
+            "alt": "Route à double sens, une voie par sens, sans séparateur au milieu",
+            "credit": "auteur non renseigné, CC BY-SA 3.0"
+          },
+          "caption": "Route à double sens sans séparateur : une seule ligne au milieu."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-route-2x2.webp",
+            "alt": "Route à deux chaussées séparées par un terre-plein central",
+            "credit": "auteur non renseigné, CC BY-SA 4.0"
+          },
+          "caption": "Deux chaussées séparées : un terre-plein sépare les deux sens."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-route-2x2-sans-separation.webp",
+            "alt": "Route à deux voies dans chaque sens, sur une seule chaussée, sans terre-plein au milieu",
+            "credit": "Andrew Bossi, CC BY-SA 2.5, Wikimedia Commons"
+          },
+          "caption": "Au moins 2 voies par sens, sans terre-plein : seules des lignes peintes séparent les deux sens. Photo prise aux États-Unis, où la ligne du milieu est jaune ; au Sénégal, elle est blanche."
+        },
+        {
+          "type": "heading",
           "text": "Par pluie"
         },
         {
@@ -54,7 +97,7 @@
         },
         {
           "type": "memo",
-          "text": "50 en ville, 30 devant une école, puis 130, 110, 100, 90 selon la route."
+          "text": "En ville, je roule à 50 km/h au plus, et à 30 km/h près d'une école, d'un hôpital ou d'un lieu de culte. Hors de la ville, la limite va de 90 à 130 km/h selon le type de route."
         }
       ]
     },
@@ -133,7 +176,7 @@
         },
         {
           "type": "memo",
-          "text": "Je dois pouvoir m'arrêter dans ce que je vois."
+          "text": "Je roule assez lentement pour pouvoir m'arrêter avant ce que je vois devant moi."
         }
       ]
     },
@@ -143,31 +186,37 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Au Sénégal, la route mélange voitures, motos, charrettes, piétons et animaux. La même vitesse n'est pas la même selon le lieu."
+          "text": "Au Sénégal, la route mélange voitures, motos Jakarta, charrettes, piétons et animaux. La limite de vitesse est un maximum : souvent, la bonne vitesse est plus basse."
         },
         {
           "type": "heading",
-          "text": "Exemples"
+          "text": "Situation → ce que je fais"
         },
         {
           "type": "list",
           "items": [
-            "Sortie d'école : 30 km/h maximum, et moins si des enfants courent.",
-            "Route nationale, nuit : je règle ma vitesse sur mes phares.",
-            "Route mouillée : j'allonge ma distance de freinage."
+            "Sortie d'école ou abords d'un hôpital : 30 km/h maximum, et moins si des enfants courent au bord de la route.",
+            "Marché, gare routière, arrêt de car rapide : je roule au pas, des gens traversent sans regarder.",
+            "Route nationale la nuit : je roule assez lentement pour m'arrêter dans la zone éclairée par mes phares.",
+            "Route mouillée ou couverte de sable : je ralentis et je double ma distance avec le véhicule devant.",
+            "Troupeau ou charrette sur le bas-côté : je ralentis tôt, un animal peut traverser d'un coup."
           ]
         },
         {
+          "type": "heading",
+          "text": "Pourquoi la vitesse compte"
+        },
+        {
           "type": "text",
-          "text": "Plus je roule vite, plus ma distance d'arrêt est longue et plus le choc est grave."
+          "text": "Plus je roule vite, plus il me faut de distance pour m'arrêter, et plus le choc est violent. Un piéton heurté à 30 km/h survit le plus souvent ; à 60 km/h, il a peu de chances de survivre."
         },
         {
           "type": "attention",
-          "text": "La vitesse est une infraction que les appareils automatiques constatent."
+          "text": "L'excès de vitesse est un délit (3 à 6 mois de prison) et peut être constaté par des radars automatiques."
         },
         {
           "type": "memo",
-          "text": "Je ralentis avant le danger, pas pendant."
+          "text": "Quand je vois un danger arriver, je ralentis avant d'y être, pas une fois dessus."
         }
       ]
     }

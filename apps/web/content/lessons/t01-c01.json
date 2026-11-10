@@ -69,7 +69,7 @@
         },
         {
           "type": "memo",
-          "text": "Triangle : danger. Rond blanc bordé de rouge : interdit. Rond bleu : obligatoire."
+          "text": "Un panneau en triangle annonce un danger. Un rond blanc bordé de rouge interdit quelque chose. Un rond bleu m'oblige à faire quelque chose."
         }
       ]
     },
@@ -158,8 +158,39 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-route-prioritaire.webp",
+            "alt": "Tableau : le panneau losange jaune et le panneau d'intersection avec route prioritaire",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Trait épais = la route prioritaire ; traits fins = les routes qui me cèdent le passage."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-panneau-intersection.webp",
+            "alt": "Vue du conducteur : panneau triangulaire d'intersection repéré avant le carrefour",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je repère le panneau tôt : il me dit qui aura la priorité au prochain carrefour."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-sens-inverse.webp",
+            "alt": "Vue du conducteur : rue étroite avec panneau de priorité pour la circulation en sens inverse",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Panneau rond à bord rouge, flèche rouge vers moi : je laisse passer ceux qui arrivent en face."
+        },
+        {
           "type": "memo",
-          "text": "Losange jaune : je passe. STOP et triangle : je cède."
+          "text": "Sur une route au losange jaune, je suis prioritaire. Devant un STOP ou un triangle pointe en bas, je laisse passer les autres."
         }
       ]
     },
@@ -262,7 +293,7 @@
         },
         {
           "type": "memo",
-          "text": "Rouge, je m'arrête. L'agent passe avant le feu."
+          "text": "Au feu rouge, je m'arrête. Si un agent fait la circulation, j'obéis à l'agent, même si le feu dit autre chose."
         }
       ]
     }

@@ -23,6 +23,8 @@ export function ExamView({ questions }: ExamViewProps) {
   const [index, setIndex] = useState(0)
   const [picked, setPicked] = useState<OptionId[][]>([])
   const [timeLeft, setTimeLeft] = useState<number>(TIMER_SECONDS)
+  // Échéance absolue : le temps continue de couler si l'onglet passe en arrière-plan (iOS suspend les minuteurs).
+  const deadline = useRef(Date.now() + TIMER_SECONDS * 1000)
   const [answers, setAnswers] = useState<ExamAnswer[]>([])
   const [done, setDone] = useState(false)
 
@@ -41,6 +43,7 @@ export function ExamView({ questions }: ExamViewProps) {
       setIndex((i) => i + 1)
       setPicked([])
       setTimeLeft(TIMER_SECONDS)
+      deadline.current = Date.now() + TIMER_SECONDS * 1000
       return
     }
     const correct = all.filter((a) => a.correct).length
@@ -60,13 +63,18 @@ export function ExamView({ questions }: ExamViewProps) {
 
   useEffect(() => {
     if (done || total === 0) return
-    if (timeLeft <= 0) {
-      onTimeout.current([], true)
-      return
+    const sync = () => {
+      const left = Math.max(0, Math.ceil((deadline.current - Date.now()) / 1000))
+      setTimeLeft(left)
+      if (left <= 0) onTimeout.current([], true)
     }
-    const id = setTimeout(() => setTimeLeft((t) => t - 1), 1000)
-    return () => clearTimeout(id)
-  }, [timeLeft, done, total])
+    const id = setInterval(sync, 500)
+    document.addEventListener('visibilitychange', sync)
+    return () => {
+      clearInterval(id)
+      document.removeEventListener('visibilitychange', sync)
+    }
+  }, [done, total])
 
   function handlePick(partIndex: number, id: OptionId) {
     const next = q.parts.map((_, i) => picked[i] ?? [])
@@ -79,19 +87,21 @@ export function ExamView({ questions }: ExamViewProps) {
 
   return (
     <div style={{ minHeight: '100dvh', background: 'hsl(var(--bg))', display: 'flex', flexDirection: 'column' }}>
-      {/* En-tête */}
+      {/* En-tête collant */}
+      <div style={{ position: 'sticky', top: 0, zIndex: 20 }}>
       <div style={{ background: 'hsl(var(--structure))', color: 'hsl(var(--bg))', padding: '0 16px', minHeight: 52, display: 'flex', alignItems: 'center', gap: 12 }}>
         <div style={{ flex: 1, fontSize: 16, fontWeight: 700 }}>Examen blanc</div>
-        <div style={{ fontSize: 14, opacity: 0.85 }} aria-label={`${timeLeft} secondes restantes`}>{timeLeft} s</div>
+        <div style={{ fontSize: 18, fontWeight: 700, fontVariantNumeric: 'tabular-nums', color: timeLeft <= 10 ? '#FFC299' : undefined }} aria-label={`${timeLeft} secondes restantes`}>{timeLeft} s</div>
         <div style={{ fontSize: 16, fontWeight: 700 }}>{index + 1} / {total}</div>
       </div>
-      <div style={{ height: 4, background: 'hsl(var(--structure))' }}>
+      <div style={{ height: 6, background: 'hsl(var(--structure))' }}>
         <div style={{
           height: '100%',
           width: `${(timeLeft / TIMER_SECONDS) * 100}%`,
-          background: 'hsl(var(--primary))',
+          background: 'hsl(var(--bg))',
           transition: 'width 1s linear',
         }} />
+      </div>
       </div>
 
       <QuestionCard

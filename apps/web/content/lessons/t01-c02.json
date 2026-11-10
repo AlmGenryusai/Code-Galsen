@@ -21,6 +21,27 @@
           "caption": "Carrefour chargé : je ralentis et je regarde à droite avant de m'engager."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-carrefours-successifs.webp",
+            "alt": "Schéma : une rue avec plusieurs carrefours et des panneaux différents à chacun",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Chaque carrefour a sa règle : je relis les panneaux à chaque intersection."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-carrefour-droite.webp",
+            "alt": "Vue du conducteur : intersection en ville, voiture bleue arrivant par la droite",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Une voiture arrive de ma droite et rien n'est indiqué : je la laisse passer."
+        },
+        {
           "type": "heading",
           "text": "Quand la règle de la droite s'applique"
         },
@@ -41,6 +62,17 @@
             "credit": "Olivier Flambeau, CC BY-SA 4.0, via Wikimedia Commons"
           },
           "caption": "Croisement sans panneau : je cherche qui arrive, je cède à droite."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-indices-intersection.webp",
+            "alt": "Schéma : indices d'une intersection, véhicules qui tournent, trottoir interrompu, passages piétons",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Sans panneau, des indices annoncent une intersection : voitures qui tournent, trottoir interrompu, passages piétons."
         },
         {
           "type": "heading",
@@ -88,12 +120,22 @@
           "caption": "Une sortie de station-service : je surveille ceux qui sortent."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-sortie-parking.webp",
+            "alt": "Vue du conducteur : voiture qui s'apprête à sortir d'un parking sur la droite",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Une voiture va sortir d'un parking : je la surveille et je reste prêt à freiner."
+        },
+        {
           "type": "attention",
           "text": "Le plus gros ou le plus rapide n'a pas de priorité en plus. Celui de droite passe, même si c'est une petite moto."
         },
         {
           "type": "memo",
-          "text": "Pas de panneau : je cède à droite."
+          "text": "À un carrefour sans panneau ni feu, je laisse passer celui qui arrive par ma droite."
         }
       ]
     },
@@ -117,6 +159,28 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "e-stop-schema.webp",
+            "alt": "Schéma : deux voitures arrêtées au STOP de part et d'autre d'un carrefour",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Au STOP, arrêt complet à la ligne, puis je repars quand la voie est libre."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-stop-gauche.webp",
+            "alt": "Schéma : deux voitures face à face qui tournent chacune à gauche au carrefour",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Deux voitures tournent à gauche face à face : chacune contourne l'autre sans se couper la route."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p03.webp",
             "alt": "Panneau STOP et ligne d'arrêt au sol",
             "credit": "LincolnGroup11, CC BY-SA 3.0, via Wikimedia Commons"
@@ -135,6 +199,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "e-cedez-photo.webp",
+            "alt": "Vue du conducteur : panneau cédez le passage et ligne pointillée au sol",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Triangle pointe en bas et ligne pointillée : je ralentis et je laisse passer."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "m04.webp",
             "alt": "Panneau STOP avec marquage au sol",
             "credit": "Marc Mongenet, CC BY-SA 4.0, via Wikimedia Commons"
@@ -148,6 +222,39 @@
         {
           "type": "text",
           "text": "Celui qui est déjà engagé dans le rond-point passe en premier. Celui qui arrive attend."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-giratoire-entree.webp",
+            "alt": "Schéma : entrée dans un rond-point, une voiture déjà engagée et une qui attend",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Au rond-point, j'attends que la voiture déjà engagée soit passée."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-giratoire-sortie.webp",
+            "alt": "Schéma : voitures qui entrent et sortent d'un rond-point",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Pour sortir, je mets mon clignotant à droite juste avant ma sortie."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-giratoire-voies.webp",
+            "alt": "Schéma : trajectoires dans un rond-point à deux voies selon la sortie choisie",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les trajectoires changent selon la sortie choisie : je me place tôt et je signale ma sortie."
         },
         {
           "type": "image",
@@ -221,7 +328,7 @@
         },
         {
           "type": "memo",
-          "text": "STOP : j'arrête. Cédez : je laisse passer. Rond-point : l'engagé passe."
+          "text": "Au STOP, je m'arrête complètement. Au « cédez le passage », je laisse passer sans forcément m'arrêter. Au rond-point, celui qui tourne déjà dedans passe en premier."
         }
       ]
     },
@@ -277,7 +384,7 @@
         },
         {
           "type": "memo",
-          "text": "Sirène, cortège, train : je laisse passer."
+          "text": "Quand j'entends une sirène, que je vois un cortège officiel ou qu'un train arrive, je les laisse passer avant moi."
         }
       ]
     }

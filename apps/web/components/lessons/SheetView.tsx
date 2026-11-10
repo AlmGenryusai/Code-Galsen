@@ -6,13 +6,13 @@ import { BottomBar, BOTTOM_BAR_SPACE } from './BottomBar'
 import { ProgressBar } from './ProgressBar'
 import { SheetBlocks } from './SheetBlocks'
 import { useThemeAccess } from './useThemeAccess'
-import { sheetHref, sheetMinutes } from '@/lib/lessons/lessons'
+import { sheetHref, sheetMinutes, themeHref } from '@/lib/lessons/lessons'
 import type { LessonFile } from '@/lib/lessons/types'
 import { useProgress } from '@/lib/progress/use-progress'
 import { chapterTitle } from '@/lib/quiz/taxonomy'
 
 /** Lecture de la fiche n (1-based). Marquée lue à l'ouverture, si l'accès est autorisé. */
-export function SheetView({ lesson, n }: { lesson: LessonFile; n: number }) {
+export function SheetView({ lesson, n, next }: { lesson: LessonFile; n: number; next?: LessonFile }) {
   const open = useThemeAccess(lesson.theme)
   const { loaded, recordLesson } = useProgress()
   const sheet = lesson.sheets[n - 1]
@@ -37,10 +37,14 @@ export function SheetView({ lesson, n }: { lesson: LessonFile; n: number }) {
         <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginBottom: 4 }}>{sheetMinutes(sheet)} min</p>
         <SheetBlocks sheet={sheet} />
       </main>
-      {last ? (
+      {last && next ? (
+        <BottomBar href={sheetHref(next.id, 1)} secondary={{ href: themeHref(lesson.theme), label: 'Retour aux cours' }}>
+          Cours suivant
+        </BottomBar>
+      ) : last ? (
         <BottomBar
           href={`/quiz?theme=${encodeURIComponent(lesson.theme)}`}
-          secondary={{ href: '/', label: "Retour à l'accueil" }}
+          secondary={{ href: themeHref(lesson.theme), label: 'Retour aux cours' }}
         >
           M&apos;entraîner sur ce thème
         </BottomBar>
