@@ -52,7 +52,7 @@ export function ProfilView({ supportWhatsapp, sheetTotal }: { supportWhatsapp: s
             <>
               <p style={{ fontSize: 15, fontWeight: 700, color: 'hsl(var(--text))' }}>Version gratuite</p>
               <p style={{ fontSize: 14, color: 'hsl(var(--muted))', marginTop: 4, lineHeight: 1.4 }}>
-                1 thème et 1 examen blanc. Le code débloque tout pendant 90 jours.
+                1 thème et 1 examen blanc. Le code débloque tout pendant 1, 2 ou 3 mois selon la formule.
               </p>
               <Link href="/activer" style={{ ...LINK, color: 'hsl(var(--primary-h))', fontWeight: 600, marginTop: 4 }}>
                 Activer un code

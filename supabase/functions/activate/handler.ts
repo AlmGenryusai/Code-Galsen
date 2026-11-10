@@ -6,6 +6,8 @@ export interface LicenseRow {
   device_id: string | null
   activated_at: string | null
   expires_at: string | null
+  /** Durée de la formule (30, 60 ou 90). Absente/null = 90 (codes d'avant les formules). */
+  duration_days?: number | null
 }
 
 export interface Deps {
@@ -17,7 +19,8 @@ export interface Deps {
   allowedOrigins: string[]
 }
 
-const DURATION_MS = 90 * 86_400_000
+const DEFAULT_DAYS = 90
+const DAY_MS = 86_400_000
 const CODE_RE = /^GALS-[A-Z0-9]{4}-[A-Z0-9]{4}$/
 const DEVICE_RE = /^[0-9a-f]{32}$/
 
@@ -71,7 +74,7 @@ export async function handle(req: Request, deps: Deps): Promise<Response> {
     if (row.device_id === null) {
       // Transfert manuel (device_id remis à null) : on garde la date de fin d'origine
       const activatedAt = row.activated_at ?? now.toISOString()
-      const expiresAt = row.expires_at ?? new Date(now.getTime() + DURATION_MS).toISOString()
+      const expiresAt = row.expires_at ?? new Date(now.getTime() + (row.duration_days ?? DEFAULT_DAYS) * DAY_MS).toISOString()
       if (await deps.bindDevice(c, deviceId, activatedAt, expiresAt)) {
         row = { ...row, device_id: deviceId, activated_at: activatedAt, expires_at: expiresAt }
       } else {

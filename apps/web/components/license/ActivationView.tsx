@@ -7,11 +7,12 @@ import { FREE_THEME } from '@/lib/license/license'
 import { themeTitle } from '@/lib/quiz/taxonomy'
 import { activate, type ActivationError } from '@/lib/license/activate'
 import { useLicense } from '@/lib/license/use-license'
+import { PLANS, formatPrice, planLabel, type Plan } from '@/lib/license/plans'
 
 interface Props {
   themeCount: number
   questionCount: number
-  wavePaymentUrl: string // vide → bouton masqué
+  waveUrls: Record<Plan['months'], string> // lien Wave par formule ; vide → commande WhatsApp
   supportWhatsapp: string // numéro international sans « + » ; vide → lien masqué
 }
 
@@ -25,9 +26,6 @@ const MESSAGES: Partial<Record<Status, string>> = {
   network: 'Pas de connexion. Réessaie quand tu as du réseau.',
   server: 'Erreur du serveur. Réessaie plus tard.',
 }
-
-// Message pré-rempli : le vendeur sait tout de suite ce que veut le client
-const WA_TEXT = "Bonjour, je veux l'accès complet Code Galsen (4 900 FCFA / 90 jours)."
 
 function formatDate(expSec: number): string {
   return new Date(expSec * 1000).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
@@ -47,13 +45,17 @@ const buttonStyle = {
   cursor: 'pointer',
 } as const
 
-export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supportWhatsapp }: Props) {
+export function ActivationView({ themeCount, questionCount, waveUrls, supportWhatsapp }: Props) {
   const [code, setCode] = useState('')
   const [status, setStatus] = useState<Status>('idle')
+  const [plan, setPlan] = useState<Plan>(PLANS[PLANS.length - 1])
+  const waveUrl = waveUrls[plan.months]
+  const orderUrl = supportWhatsapp
+    ? `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent(`Bonjour, je veux la formule ${plan.months} mois (${formatPrice(plan.price).replace(/\u00a0/g, ' ')}).`)}`
+    : ''
   const [activatedUntil, setActivatedUntil] = useState<number | null>(null)
   const license = useLicense()
   const activeUntil = activatedUntil ?? (license.active ? license.expiresAt : null)
-  const waHref = `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent(WA_TEXT)}`
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
@@ -119,34 +121,63 @@ export function ActivationView({ themeCount, questionCount, wavePaymentUrl, supp
         border: '1px solid hsl(var(--border))',
         borderRadius: 'var(--radius)',
       }}>
-        <div style={{ fontSize: 28, fontWeight: 800, color: 'hsl(var(--text))' }}>4&nbsp;900 FCFA</div>
-        <div style={{ fontSize: 14, color: 'hsl(var(--muted))', marginBottom: 14 }}>pour 90 jours</div>
-        {wavePaymentUrl ? (
+        <div role="radiogroup" aria-label="Formule" style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {PLANS.map((p) => {
+            const selected = p.months === plan.months
+            const best = p === PLANS[PLANS.length - 1]
+            return (
+              <button
+                key={p.months}
+                type="button"
+                role="radio"
+                aria-checked={selected}
+                onClick={() => setPlan(p)}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  gap: 8,
+                  minHeight: 56,
+                  padding: '10px 14px',
+                  borderRadius: 'var(--radius)',
+                  border: `${selected ? 2 : 1}px solid hsl(var(${selected ? '--primary-h' : '--border'}))`,
+                  background: 'hsl(var(--bg))',
+                  color: 'hsl(var(--text))',
+                  fontFamily: 'var(--font-sans)',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                }}
+              >
+                <span>
+                  <span style={{ display: 'block', fontSize: 16, fontWeight: 700 }}>{planLabel(p)}</span>
+                  {best && (
+                    <span style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'hsl(var(--success))' }}>
+                      Le plus avantageux
+                    </span>
+                  )}
+                </span>
+                <span style={{ fontSize: 18, fontWeight: 800 }}>{formatPrice(p.price)}</span>
+              </button>
+            )
+          })}
+        </div>
+        {(waveUrl || orderUrl) && (
           <a
-            href={wavePaymentUrl}
+            href={waveUrl || orderUrl}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ ...buttonStyle, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}
+            style={{ ...buttonStyle, marginTop: 14, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}
           >
-            Payer avec Wave
+            {waveUrl ? `Payer ${formatPrice(plan.price)} avec Wave` : 'Commander sur WhatsApp'}
           </a>
-        ) : (
-          supportWhatsapp && (
-            <a
-              href={waHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ ...buttonStyle, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}
-            >
-              Acheter sur WhatsApp
-            </a>
-          )
         )}
         <ol style={{ listStyle: 'none', padding: 0, margin: '16px 0 0', display: 'flex', flexDirection: 'column', gap: 8 }}>
           {[
-            wavePaymentUrl ? 'Paie 4 900 FCFA avec Wave.' : 'Écris-nous sur WhatsApp, puis paie avec Wave.',
+            waveUrl
+              ? `Paie ${formatPrice(plan.price)} avec Wave.`
+              : 'Écris-nous sur WhatsApp, puis paie avec Wave.',
             'Tu reçois ton code sur WhatsApp.',
-            'Saisis-le ci-dessous : accès complet tout de suite.',
+            'Saisis-le ci-dessous : accès complet tout de suite. La durée démarre à l\u2019activation.',
           ].map((step, i) => (
             <li key={step} style={{ display: 'flex', gap: 10, fontSize: 14, color: 'hsl(var(--text))', lineHeight: 1.4 }}>
               <span aria-hidden style={{

@@ -29,7 +29,7 @@ async function rest(path: string, init: RequestInit = {}): Promise<LicenseRow[]>
   return res.json()
 }
 
-const COLUMNS = 'select=code,device_id,activated_at,expires_at'
+const COLUMNS = 'select=code,device_id,activated_at,expires_at,duration_days'
 
 Deno.serve((req) =>
   handle(req, {

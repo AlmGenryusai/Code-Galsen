@@ -1,5 +1,5 @@
 // Génère N codes d'activation + un SQL à coller dans le SQL Editor Supabase + un CSV de suivi.
-// Usage : node scripts/generate-codes.mjs [N]   (défaut 50, maximum 500)
+// Usage : node scripts/generate-codes.mjs [N] [MOIS]   (N : défaut 50, max 500 ; MOIS : 1, 2 ou 3, défaut 3)
 // Ne se connecte à rien.
 
 import { randomInt } from 'node:crypto'
@@ -11,6 +11,8 @@ import { fileURLToPath } from 'node:url'
 const ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'
 const DEFAULT_COUNT = 50
 const MAX_COUNT = 500
+/** Formule → durée en jours (colonne `duration_days`). */
+const DAYS_BY_MONTHS = { 1: 30, 2: 60, 3: 90 }
 
 function randomChunk(rand) {
   let out = ''
@@ -25,6 +27,15 @@ export function generateCodes(count, rand = (max) => randomInt(max)) {
     codes.add(`GALS-${randomChunk(rand)}-${randomChunk(rand)}`)
   }
   return [...codes]
+}
+
+/** SQL d'insertion pour le SQL Editor Supabase. */
+export function buildSql(codes, days) {
+  return (
+    'insert into licenses (code, duration_days) values\n' +
+    codes.map((c) => `  ('${c}', ${days})`).join(',\n') +
+    '\non conflict (code) do nothing;\n'
+  )
 }
 
 function pad(n) {
@@ -43,17 +54,20 @@ function main() {
     console.error(`Nombre invalide : entier entre 1 et ${MAX_COUNT} (reçu : ${arg}).`)
     process.exit(1)
   }
+  const months = process.argv[3] === undefined ? 3 : Number(process.argv[3])
+  const days = DAYS_BY_MONTHS[months]
+  if (!days) {
+    console.error(`Formule invalide : 1, 2 ou 3 mois (reçu : ${process.argv[3]}).`)
+    process.exit(1)
+  }
 
   const codes = generateCodes(count)
   const dir = resolve(fileURLToPath(new URL('../codes', import.meta.url)))
-  const base = join(dir, `${stamp(new Date())}_lot-${count}`)
+  const base = join(dir, `${stamp(new Date())}_lot-${count}_${months}mois`)
   const sqlPath = `${base}.sql`
   const csvPath = `${base}.csv`
 
-  const sql =
-    'insert into licenses (code) values\n' +
-    codes.map((c) => `  ('${c}')`).join(',\n') +
-    '\non conflict (code) do nothing;\n'
+  const sql = buildSql(codes, days)
   const csv = ['code', ...codes].join('\n') + '\n'
 
   mkdirSync(dir, { recursive: true })
@@ -69,7 +83,7 @@ function main() {
     throw err
   }
 
-  console.log(`${codes.length} codes générés.`)
+  console.log(`${codes.length} codes générés (${months} mois = ${days} jours).`)
   console.log(`SQL : ${sqlPath}`)
   console.log(`CSV : ${csvPath}`)
 }
