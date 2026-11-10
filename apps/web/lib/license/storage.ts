@@ -30,6 +30,19 @@ export function saveLicenseToken(token: string) {
   } catch {
     // stockage plein ou indisponible : licence valable pour cette session seulement
   }
+  requestPersist()
+}
+
+/**
+ * Demande au navigateur de ne pas effacer nos données (licence, progression) quand l'espace manque.
+ * Sans effet si l'API est absente ou refusée : rien à faire de plus.
+ */
+export function requestPersist() {
+  try {
+    void navigator.storage?.persist?.().catch(() => {})
+  } catch {
+    // API absente
+  }
 }
 
 function readLicenseToken(): string | null {

@@ -1,13 +1,14 @@
 'use client'
 
-import { useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import Link from 'next/link'
 import { formatCode, isValidCode } from '@/lib/license/code'
 import { FREE_THEME } from '@/lib/license/license'
 import { themeTitle } from '@/lib/quiz/taxonomy'
 import { activate, type ActivationError } from '@/lib/license/activate'
 import { useLicense } from '@/lib/license/use-license'
-import { PLANS, formatPrice, planLabel } from '@/lib/license/plans'
+import { PLANS, formatPrice, planLabel, type Plan } from '@/lib/license/plans'
+import { readUtm, track } from '@/lib/analytics/track'
 
 interface Props {
   themeCount: number
@@ -47,12 +48,26 @@ const buttonStyle = {
 export function ActivationView({ themeCount, questionCount, supportWhatsapp }: Props) {
   const [code, setCode] = useState('')
   const [status, setStatus] = useState<Status>('idle')
-  const orderUrl = supportWhatsapp
-    ? `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent("Bonjour, je veux l'accès complet Code Galsen.")}`
-    : ''
+  const orderUrl = (p?: Plan) =>
+    supportWhatsapp
+      ? `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent(
+          p
+            ? `Bonjour, je veux l'accès complet Code Galsen, formule ${planLabel(p)} (${formatPrice(p.price)}).`
+            : "Bonjour, je veux l'accès complet Code Galsen.",
+        )}`
+      : ''
+  const trackOrder = (p?: Plan) => track('clic_acheter', { formule: p ? planLabel(p) : 'non choisie', source: readUtm().source })
   const [activatedUntil, setActivatedUntil] = useState<number | null>(null)
   const license = useLicense()
   const activeUntil = activatedUntil ?? (license.active ? license.expiresAt : null)
+  // Navigateur (pas l'app installée) : iPhone ne partage pas les données entre Safari et l'app installée
+  const [inBrowser, setInBrowser] = useState(false)
+  useEffect(() => {
+    setInBrowser(
+      !window.matchMedia('(display-mode: standalone)').matches &&
+        (navigator as Navigator & { standalone?: boolean }).standalone !== true,
+    )
+  }, [])
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault()
@@ -61,6 +76,7 @@ export function ActivationView({ themeCount, questionCount, supportWhatsapp }: P
     setStatus('pending')
     const result = await activate(code)
     if (result.ok) {
+      track('activation_ok', { source: readUtm().source })
       setActivatedUntil(result.license.expiresAt)
       setStatus('idle')
     } else {
@@ -120,46 +136,59 @@ export function ActivationView({ themeCount, questionCount, supportWhatsapp }: P
       }}>
         <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
           {PLANS.map((p) => (
-            <li
-              key={p.months}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'space-between',
-                gap: 8,
-                minHeight: 52,
-                padding: '10px 14px',
-                borderRadius: 'var(--radius)',
-                border: '1px solid hsl(var(--border))',
-                background: 'hsl(var(--bg))',
-                color: 'hsl(var(--text))',
-              }}
-            >
-              <span>
-                <span style={{ display: 'block', fontSize: 16, fontWeight: 700 }}>{planLabel(p)}</span>
-                {p === PLANS[PLANS.length - 1] && (
-                  <span style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'hsl(var(--success))' }}>
-                    Le plus avantageux
-                  </span>
-                )}
-              </span>
-              <span style={{ fontSize: 18, fontWeight: 800 }}>{formatPrice(p.price)}</span>
+            <li key={p.months}>
+              <a
+                href={orderUrl(p) || undefined}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackOrder(p)}
+                style={{
+                  textDecoration: 'none',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  gap: 8,
+                  minHeight: 52,
+                  padding: '10px 14px',
+                  borderRadius: 'var(--radius)',
+                  border: '1px solid hsl(var(--border))',
+                  background: 'hsl(var(--bg))',
+                  color: 'hsl(var(--text))',
+                }}
+              >
+                <span>
+                  <span style={{ display: 'block', fontSize: 16, fontWeight: 700 }}>{planLabel(p)}</span>
+                  {p === PLANS[PLANS.length - 1] && (
+                    <span style={{ display: 'block', fontSize: 12, fontWeight: 600, color: 'hsl(var(--success))' }}>
+                      Le plus avantageux
+                    </span>
+                  )}
+                </span>
+                <span style={{ fontSize: 18, fontWeight: 800 }}>{formatPrice(p.price)} <span aria-hidden style={{ color: 'hsl(var(--muted))' }}>›</span></span>
+              </a>
             </li>
           ))}
         </ul>
-        {orderUrl && (
+        {supportWhatsapp && (
           <a
-            href={orderUrl}
+            href={orderUrl()}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackOrder()}
             style={{ ...buttonStyle, marginTop: 14, background: 'hsl(var(--primary))', color: 'hsl(var(--text))' }}
           >
             Acheter sur WhatsApp
           </a>
         )}
+        <Link
+          href="/qui-sommes-nous#remboursement"
+          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 44, fontSize: 14, color: 'hsl(var(--muted))' }}
+        >
+          Qui sommes-nous · Remboursement
+        </Link>
         <ol style={{ listStyle: 'none', padding: 0, margin: '16px 0 0', display: 'flex', flexDirection: 'column', gap: 8 }}>
           {[
-            'Écris-nous sur WhatsApp, choisis ta formule, puis paie avec Wave.',
+            'Touche ta formule pour nous écrire sur WhatsApp, puis paie avec Wave.',
             'Tu reçois ton code sur WhatsApp.',
             'Saisis-le ci-dessous : accès complet tout de suite. La durée démarre à l\u2019activation.',
           ].map((step, i) => (
@@ -191,6 +220,20 @@ export function ActivationView({ themeCount, questionCount, supportWhatsapp }: P
         </div>
       ) : (
         <form onSubmit={handleSubmit} noValidate style={{ marginTop: 24 }}>
+          {inBrowser && (
+            <p role="note" style={{
+              marginBottom: 16,
+              padding: '12px 14px',
+              background: 'hsl(var(--surface))',
+              border: '1px solid hsl(var(--border))',
+              borderRadius: 'var(--radius)',
+              fontSize: 14,
+              lineHeight: 1.45,
+              color: 'hsl(var(--text))',
+            }}>
+              <strong>Installe l&apos;appli avant d&apos;activer ton code.</strong> Active-le ensuite depuis l&apos;icône Code Galsen. Sur iPhone, un code activé dans Safari ne passe pas dans l&apos;appli installée.
+            </p>
+          )}
           <label htmlFor="code" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: 'hsl(var(--text))', marginBottom: 8 }}>
             Code d&apos;activation
           </label>

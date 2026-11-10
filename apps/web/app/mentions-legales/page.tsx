@@ -14,7 +14,7 @@ export default function MentionsLegalesPage() {
       <H2>Sources</H2>
       <p>Le contenu s&apos;appuie sur la loi 2022-04 portant Code de la route et sur le décret 2004-13. Certaines valeurs dépendent de décrets d&apos;application non encore publiés : elles ne figurent pas dans l&apos;application. En cas de doute, seuls les textes officiels font foi.</p>
       <H2>Accès payant</H2>
-      <p>Trois formules, payées par Wave : 1 mois (30 jours) 2 500 FCFA, 2 mois (60 jours) 3 500 FCFA, 3 mois (90 jours) 4 000 FCFA. La durée démarre à l&apos;activation du code. Le code d&apos;activation est personnel et lié à un appareil.</p>
+      <p>Trois formules, payées par Wave : 1 mois (30 jours) 2 500 FCFA, 2 mois (60 jours) 3 500 FCFA, 3 mois (90 jours) 4 000 FCFA. La durée démarre à l&apos;activation du code. Le code d&apos;activation est personnel et lié à un appareil. Conditions de remboursement : page « Qui sommes-nous ».</p>
       <H2>Propriété</H2>
       <p>Les textes et questions sont la propriété de l&apos;éditeur. Les photos proviennent de sources tierces (notamment Wikimedia Commons, Pexels, Unsplash), sous leurs licences d&apos;origine : la source de chaque photo est indiquée dans la page Crédits. Pour toute demande de retrait, écris-nous sur WhatsApp.</p>
     </LegalPage>

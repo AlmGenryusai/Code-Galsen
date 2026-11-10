@@ -29,5 +29,5 @@ export function ExamGate({ questions }: { questions: QuestionV2[] }) {
 
   // Chrono d'ExamView démarré seulement après la décision
   if (!allowed || !picked) return null
-  return <ExamView questions={picked} />
+  return <ExamView questions={picked} free={!license.active} />
 }

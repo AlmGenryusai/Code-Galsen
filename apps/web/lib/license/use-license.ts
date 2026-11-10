@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { loadLicense } from './storage'
+import { loadLicense, requestPersist } from './storage'
 import type { License } from './license'
 
 type LicenseState = License & { loaded: boolean }
@@ -15,6 +15,7 @@ export function useLicense(): LicenseState {
   useEffect(() => {
     let alive = true
     loadLicense().then((l) => {
+      if (l.active) requestPersist() // licences activées avant cette version
       if (alive) setState({ ...l, loaded: true })
     })
     return () => {

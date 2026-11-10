@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import localFont from 'next/font/local'
 import { RegisterServiceWorker } from '@/components/RegisterServiceWorker'
+import { AnalyticsTracker } from '@/components/AnalyticsTracker'
 import './globals.css'
 
 // P12: polices auto-hébergées (variables, subset latin), display swap — pas d'appel Google Fonts au build
@@ -60,6 +61,7 @@ export default function RootLayout({
       <body>
         <main>{children}</main>
         <RegisterServiceWorker />
+        <AnalyticsTracker />
       </body>
     </html>
   )

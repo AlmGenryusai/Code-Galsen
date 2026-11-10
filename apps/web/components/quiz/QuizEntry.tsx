@@ -11,6 +11,7 @@ import { redirectFor, type Target } from '@/lib/license/license'
 import { useLicense } from '@/lib/license/use-license'
 import { chapterTitle, themeTitle } from '@/lib/quiz/taxonomy'
 import type { QuestionV2 } from '@/lib/quiz/types'
+import { track } from '@/lib/analytics/track'
 
 const DUE_LIMIT = 20
 
@@ -59,10 +60,10 @@ export function QuizEntry({ questions }: Props) {
 
   if (!license.loaded || redirect) return null
   if (target.kind === 'theme' && chapter) {
-    return <ChapterTest questions={questions} chapter={chapter} theme={target.theme} onFinish={recordSeries} />
+    return <ChapterTest questions={questions} chapter={chapter} theme={target.theme} free={!license.active} onFinish={recordSeries} />
   }
   if (target.kind === 'theme') {
-    return <ThemeSeries questions={questions} theme={target.theme} onFinish={recordSeries} />
+    return <ThemeSeries questions={questions} theme={target.theme} free={!license.active} onFinish={recordSeries} />
   }
   if (!isErrors) return <QuizView questions={questions} title="Entraînement" />
   if (due === null) return null
@@ -100,18 +101,24 @@ export function QuizEntry({ questions }: Props) {
 function ThemeSeries({
   questions,
   theme,
+  free,
   onFinish,
 }: {
   questions: QuestionV2[]
   theme: string
+  free: boolean
   onFinish: (theme: string, score: number, total: number) => void
 }) {
   const [picked] = useState(() => pickSeries(questions, theme))
+  useTrackStart(theme, free)
   return (
     <QuizView
       questions={picked}
       title={`Série « ${themeTitle(theme)} »`}
-      onFinish={(score, total) => onFinish(theme, score, total)}
+      onFinish={(score, total) => {
+        trackEnd(theme, free, score, total)
+        onFinish(theme, score, total)
+      }}
     />
   )
 }
@@ -121,20 +128,39 @@ function ChapterTest({
   questions,
   chapter,
   theme,
+  free,
   onFinish,
 }: {
   questions: QuestionV2[]
   chapter: string
   theme: string
+  free: boolean
   onFinish: (key: string, score: number, total: number) => void
 }) {
   const [picked] = useState(() => pickSeries(questions, chapter))
+  useTrackStart(chapter, free)
   return (
     <QuizView
       questions={picked}
       title={`Test « ${chapterTitle(chapter)} »`}
-      onFinish={(score, total) => onFinish(chapter, score, total)}
+      onFinish={(score, total) => {
+        trackEnd(chapter, free, score, total)
+        onFinish(chapter, score, total)
+      }}
       nextAction={{ href: `/fiches?t=${encodeURIComponent(theme)}`, label: 'Retour aux cours →' }}
     />
   )
+}
+
+/** Funnel : début de série (thème ou cours), gratuit ou payant. */
+function useTrackStart(serie: string, free: boolean) {
+  useEffect(() => {
+    track('quiz_debut', { serie, gratuit: free })
+    // une fois au montage
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+}
+
+function trackEnd(serie: string, free: boolean, score: number, total: number) {
+  track('serie_finie', { serie: free ? `${serie} (gratuit)` : serie, score: total ? Math.round((score / total) * 100) : 0 })
 }

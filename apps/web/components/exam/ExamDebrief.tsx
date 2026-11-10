@@ -6,6 +6,7 @@ import { CorrectionSheet } from './CorrectionSheet'
 import { scoreByTheme, stepCorrection, targetScore } from '@/lib/quiz/exam'
 import { themeTitle } from '@/lib/quiz/taxonomy'
 import type { OptionId, QuestionV2 } from '@/lib/quiz/types'
+import { scoreShareText, track } from '@/lib/analytics/track'
 
 export interface ExamAnswer {
   picked: OptionId[][]
@@ -97,6 +98,28 @@ export function ExamDebrief({ questions, answers }: ExamDebriefProps) {
             <div style={{ fontSize: 15, fontWeight: 700, color: 'hsl(var(--wrong))' }}>Il t&apos;en manque {targetScore(total) - correct}</div>
           )}
         </div>
+        <a
+          href="https://wa.me/"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => {
+            // URL construite au clic : origine réelle (preview, domaine final)
+            e.currentTarget.href = `https://wa.me/?text=${encodeURIComponent(scoreShareText(correct, total, window.location.origin))}`
+            track('partage_score', { score: correct })
+          }}
+          style={{
+            ...primaryButton,
+            marginTop: 16,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'transparent',
+            border: '1.5px solid hsl(var(--sand))',
+            textDecoration: 'none',
+          }}
+        >
+          Partager mon score sur WhatsApp
+        </a>
 
         <h2 style={{ fontSize: 16, fontWeight: 700, color: 'hsl(var(--ink))', margin: '28px 0 12px' }}>Par thème</h2>
         <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 12 }}>
