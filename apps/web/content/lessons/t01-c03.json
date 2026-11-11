@@ -14,9 +14,9 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-tourner-droite-faux.webp",
-            "alt": "Schéma : voiture qui s'écarte trop avant de tourner à droite (trajectoire en rouge)",
-            "credit": "auteur non renseigné",
+            "src": "d-tourner-droite-faux.webp",
+            "alt": "Schéma : voiture qui s'écarte à gauche avant de tourner à droite, à éviter",
+            "credit": "Code Galsen (schéma original)",
             "fit": "contain"
           },
           "caption": "À éviter : s'écarter à gauche avant de tourner à droite."
@@ -25,9 +25,9 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-tourner-droite.webp",
-            "alt": "Schéma : voiture qui reste à droite pour tourner à droite (trajectoire en bleu)",
-            "credit": "auteur non renseigné",
+            "src": "d-tourner-droite.webp",
+            "alt": "Schéma : voiture qui reste serrée à droite pour tourner à droite",
+            "credit": "Code Galsen (schéma original)",
             "fit": "contain"
           },
           "caption": "Pour tourner à droite, je reste serré à droite."
@@ -59,9 +59,9 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-tourner-gauche.webp",
-            "alt": "Schéma : voiture qui se place près de l'axe pour tourner à gauche",
-            "credit": "auteur non renseigné",
+            "src": "d-tourner-gauche.webp",
+            "alt": "Schéma : voiture placée près de l'axe pour tourner à gauche",
+            "credit": "Code Galsen (schéma original)",
             "fit": "contain"
           },
           "caption": "Pour tourner à gauche, je me rapproche de l'axe de la route."
@@ -139,15 +139,18 @@
           "caption": "Ligne mixte : je ne franchis que si la discontinue est de mon côté."
         },
         {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-lignes-tableau.webp",
-            "alt": "Tableau : ligne continue, ligne mixte, ligne d'annonce et panneaux d'interdiction de dépasser",
-            "credit": "auteur non renseigné",
-            "fit": "contain"
-          },
-          "caption": "Ligne continue : je ne la franchis pas. Ligne mixte : je regarde le trait de mon côté."
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b3",
+                "alt": "Interdiction de dépasser",
+                "credit": "Code Galsen"
+              },
+              "label": "**Interdiction de dépasser** : valable même si la ligne au sol est discontinue."
+            }
+          ]
         },
         {
           "type": "attention",
@@ -225,9 +228,10 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-voiture-garee.webp",
-            "alt": "Vue du conducteur : file de voitures garées, une avec un conducteur à bord, cycliste en face",
-            "credit": "auteur non renseigné"
+            "src": "d-voiture-garee.webp",
+            "alt": "Schéma : je garde un écart avec les voitures garées, dont une avec un conducteur à bord",
+            "credit": "Code Galsen (schéma original)",
+            "fit": "contain"
           },
           "caption": "Conducteur à bord d'une voiture garée : elle peut déboîter ou ouvrir sa portière, je m'écarte."
         },

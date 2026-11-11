@@ -109,6 +109,15 @@
             {
               "media": {
                 "kind": "sign",
+                "src": "ab2",
+                "alt": "Intersection avec une route prioritaire",
+                "credit": "Code Galsen"
+              },
+              "label": "**Triangle, trait épais** : la route prioritaire est celle du trait épais ; je cède."
+            },
+            {
+              "media": {
+                "kind": "sign",
                 "src": "ab7",
                 "alt": "Fin de route à caractère prioritaire",
                 "credit": "Code Galsen"
@@ -158,15 +167,8 @@
           ]
         },
         {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-route-prioritaire.webp",
-            "alt": "Tableau : le panneau losange jaune et le panneau d'intersection avec route prioritaire",
-            "credit": "auteur non renseigné",
-            "fit": "contain"
-          },
-          "caption": "Trait épais = la route prioritaire ; traits fins = les routes qui me cèdent le passage."
+          "type": "memo",
+          "text": "Sur une route au losange jaune, je suis prioritaire. Devant un STOP ou un triangle pointe en bas, je laisse passer les autres."
         },
         {
           "type": "image",
@@ -187,10 +189,6 @@
             "credit": "auteur non renseigné"
           },
           "caption": "Panneau rond à bord rouge, flèche rouge vers moi : je laisse passer ceux qui arrivent en face."
-        },
-        {
-          "type": "memo",
-          "text": "Sur une route au losange jaune, je suis prioritaire. Devant un STOP ou un triangle pointe en bas, je laisse passer les autres."
         }
       ]
     },

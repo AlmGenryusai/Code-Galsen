@@ -56,11 +56,26 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-bretelle-dessus.webp",
-            "alt": "Vue du dessus : voiture sur une voie d'insertion qui rejoint la route principale",
-            "credit": "auteur non renseigné"
+            "src": "d-insertion.webp",
+            "alt": "Schéma vu du dessus : voie d'insertion, je cède à la voiture déjà sur la route",
+            "credit": "Code Galsen (schéma original)",
+            "fit": "contain"
           },
           "caption": "Sur la voie d'insertion, j'accélère et je cède à ceux déjà sur la route."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "q-t01-c04-0003.webp",
+            "alt": "Autoroute à deux voies par sens, peu de circulation",
+            "credit": "Anthony Levrot, CC BY-SA 4.0, Wikimedia Commons"
+          },
+          "caption": "Une fois inséré, je reste sur la voie de droite."
+        },
+        {
+          "type": "memo",
+          "text": "Sur la bretelle d'entrée, j'accélère pour rouler à la vitesse des autres, puis je m'insère quand il y a de la place."
         },
         {
           "type": "image",
@@ -71,20 +86,6 @@
             "credit": "auteur non renseigné"
           },
           "caption": "Je regarde loin devant et dans le rétroviseur pour trouver un espace."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-voie-rapide.webp",
-            "alt": "Vue du conducteur sur une voie rapide à deux voies",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Une fois inséré, je reste sur la voie de droite."
-        },
-        {
-          "type": "memo",
-          "text": "Sur la bretelle d'entrée, j'accélère pour rouler à la vitesse des autres, puis je m'insère quand il y a de la place."
         }
       ]
     },

@@ -35,9 +35,10 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-carrefour-droite.webp",
-            "alt": "Vue du conducteur : intersection en ville, voiture bleue arrivant par la droite",
-            "credit": "auteur non renseigné"
+            "src": "d-priorite-droite.webp",
+            "alt": "Schéma : sans panneau, je cède à la voiture qui arrive de ma droite",
+            "credit": "Code Galsen (schéma original)",
+            "fit": "contain"
           },
           "caption": "Une voiture arrive de ma droite et rien n'est indiqué : je la laisse passer."
         },
@@ -159,23 +160,12 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-stop-schema.webp",
-            "alt": "Schéma : deux voitures arrêtées au STOP de part et d'autre d'un carrefour",
-            "credit": "auteur non renseigné",
+            "src": "d-stop.webp",
+            "alt": "Schéma : deux voitures arrêtées au STOP cèdent à la voiture de la route principale",
+            "credit": "Code Galsen (schéma original)",
             "fit": "contain"
           },
           "caption": "Au STOP, arrêt complet à la ligne, puis je repars quand la voie est libre."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-stop-gauche.webp",
-            "alt": "Schéma : deux voitures face à face qui tournent chacune à gauche au carrefour",
-            "credit": "auteur non renseigné",
-            "fit": "contain"
-          },
-          "caption": "Deux voitures tournent à gauche face à face : chacune contourne l'autre sans se couper la route."
         },
         {
           "type": "image",
@@ -227,9 +217,9 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-giratoire-entree.webp",
-            "alt": "Schéma : entrée dans un rond-point, une voiture déjà engagée et une qui attend",
-            "credit": "auteur non renseigné",
+            "src": "d-giratoire-entree.webp",
+            "alt": "Schéma : je cède à la voiture déjà engagée dans le rond-point",
+            "credit": "Code Galsen (schéma original)",
             "fit": "contain"
           },
           "caption": "Au rond-point, j'attends que la voiture déjà engagée soit passée."
@@ -238,23 +228,12 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-giratoire-sortie.webp",
-            "alt": "Schéma : voitures qui entrent et sortent d'un rond-point",
-            "credit": "auteur non renseigné",
+            "src": "d-giratoire-sortie.webp",
+            "alt": "Schéma : clignotant à droite juste avant la sortie du rond-point",
+            "credit": "Code Galsen (schéma original)",
             "fit": "contain"
           },
           "caption": "Pour sortir, je mets mon clignotant à droite juste avant ma sortie."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-giratoire-voies.webp",
-            "alt": "Schéma : trajectoires dans un rond-point à deux voies selon la sortie choisie",
-            "credit": "auteur non renseigné",
-            "fit": "contain"
-          },
-          "caption": "Les trajectoires changent selon la sortie choisie : je me place tôt et je signale ma sortie."
         },
         {
           "type": "image",
@@ -329,6 +308,28 @@
         {
           "type": "memo",
           "text": "Au STOP, je m'arrête complètement. Au « cédez le passage », je laisse passer sans forcément m'arrêter. Au rond-point, celui qui tourne déjà dedans passe en premier."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-stop-gauche.webp",
+            "alt": "Schéma : deux voitures face à face qui tournent chacune à gauche au carrefour",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Deux voitures tournent à gauche face à face : chacune contourne l'autre sans se couper la route."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-giratoire-voies.webp",
+            "alt": "Schéma : trajectoires dans un rond-point à deux voies selon la sortie choisie",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les trajectoires changent selon la sortie choisie : je me place tôt et je signale ma sortie."
         }
       ]
     },
