@@ -2,8 +2,8 @@
   "id": "t08-c03",
   "theme": "t08",
   "legal_ref": "Décret 2004-13, art. 64, art. 70 à 83",
-  "legal_status": "sourced",
-  "status": "draft",
+  "legal_status": "confirmed",
+  "status": "published",
   "sheets": [
     {
       "id": "t08-c03-f01",
@@ -275,5 +275,9 @@
         }
       ]
     }
-  ]
+  ],
+  "review": {
+    "moniteur": "2026-11-22",
+    "juriste": "2026-11-22"
+  }
 }

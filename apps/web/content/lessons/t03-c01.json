@@ -211,6 +211,10 @@
           "caption": "De nuit, un piéton se voit tard : je ralentis."
         },
         {
+          "type": "text",
+          "text": "Pour le détail des feux, voir le cours « Feux et visibilité » (thème Le véhicule)."
+        },
+        {
           "type": "attention",
           "text": "Je règle ma vitesse sur la portée de mes phares : si je ne peux pas m'arrêter dans ce que j'éclaire, je roule trop vite."
         },
