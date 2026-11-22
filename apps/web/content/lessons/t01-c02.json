@@ -113,6 +113,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-carrefour-moto-voiture.webp",
+            "alt": "Carrefour : une moto (A) et une voiture (B) arrivent",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Avant de m'engager, je regarde aussi les motos, plus petites et plus difficiles à voir."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p22.webp",
             "alt": "Sortie de station-service sur une route",
             "credit": "David Howard, CC BY-SA 2.0, via Wikimedia Commons"

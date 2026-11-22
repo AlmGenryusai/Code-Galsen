@@ -24,6 +24,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-croiser-route-etroite.webp",
+            "alt": "Vue du conducteur : une voiture arrive en face sur une route étroite",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Sur une route étroite, je ralentis et je me serre à droite pour croiser."
+        },
+        {
           "type": "heading",
           "text": "Les gros véhicules"
         },
@@ -120,6 +130,16 @@
         {
           "type": "text",
           "text": "Je me serre à droite et je n'accélère pas."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-retros-controle.webp",
+            "alt": "Vue du conducteur : rétroviseurs entourés",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je contrôle mon rétroviseur intérieur et mon rétroviseur de côté."
         },
         {
           "type": "image",

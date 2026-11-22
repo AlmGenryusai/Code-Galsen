@@ -27,6 +27,17 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-charge-coffre.webp",
+            "alt": "Coffre : charge mal rangée (croix) et bien rangée (coche)",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Je charge le coffre avec les objets lourds en bas et bien calés."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p44.webp",
             "alt": "Camion chargé à l'excès",
             "credit": "Amuzujoe, CC BY-SA 4.0, via Wikimedia Commons"
@@ -44,6 +55,17 @@
         {
           "type": "memo",
           "text": "Mon chargement est bien attaché et couvert, et rien ne traîne sur la route."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-charge-phares.webp",
+            "alt": "Voiture chargée : réglage des feux",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Voiture chargée : je règle mes phares pour ne pas éblouir en face."
         }
       ]
     },
@@ -74,6 +96,16 @@
         {
           "type": "text",
           "text": "L'extrémité arrière du chargement porte un dispositif réfléchissant, de jour comme de nuit. Si elle dépasse de plus de 1 mètre, elle porte aussi une lumière rouge la nuit, visible à 150 mètres."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-charges-exterieur.webp",
+            "alt": "Porte-vélos et coffre de toit sur des voitures",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Porte-vélos ou coffre de toit : la charge doit être bien fixée et ne pas cacher mes feux."
         },
         {
           "type": "attention",

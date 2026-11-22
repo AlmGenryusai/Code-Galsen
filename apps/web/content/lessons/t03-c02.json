@@ -36,6 +36,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-autoroute-sortie.webp",
+            "alt": "Voie rapide avec panneau de direction",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Sur voie rapide, je lis les panneaux de direction tôt."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "c-bretelle.webp",
             "alt": "Bretelle d'entrée qui rejoint l'autoroute par la voie d'accélération",
             "credit": "auteur non renseigné, CC BY-SA 2.5"
@@ -125,6 +135,27 @@
         {
           "type": "text",
           "text": "Je garde au moins 2 secondes entre lui et moi. Je choisis un repère (un panneau) : quand il le passe, je compte « un, deux ». Si j'arrive au repère avant, je suis trop près."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-camion-distance.webp",
+            "alt": "Camion devant, vu depuis la voiture",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je garde assez de distance avec le camion devant moi."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-deux-secondes.webp",
+            "alt": "Schéma de la règle des deux secondes",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Je choisis un repère au bord de la route : entre le véhicule devant et moi, il faut au moins deux secondes."
         },
         {
           "type": "image",
@@ -234,6 +265,16 @@
             "7. J'appelle un dépanneur ou les secours depuis derrière la glissière.",
             "8. Je ne traverse jamais l'autoroute à pied, et je ne tente pas de réparer moi-même."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-bande-arret-urgence.webp",
+            "alt": "Autoroute : voies de dépassement, voie normale, bande d'arrêt d'urgence",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "En panne sur autoroute, je rejoins la bande d'arrêt d'urgence."
         },
         {
           "type": "attention",

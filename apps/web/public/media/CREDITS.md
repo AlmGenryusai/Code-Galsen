@@ -333,3 +333,46 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | e-pietonne-bord.webp | Vue du conducteur : une piétonne marche au bord de la route | auteur non renseigné | non renseignée |
 | e-tourner-ville.webp | Vue du conducteur en ville : bus en face, flèche indiquant où tourner | auteur non renseigné | non renseignée |
 | e-tram-carrefour.webp | Vue du conducteur : carrefour avec feu, tram et panneaux de direction | auteur non renseigné | non renseignée |
+| n3-panneaux-danger.webp | Six panneaux de danger triangulaires | auteur non renseigné | non renseignée |
+| n3-medicaments-niveaux.webp | Pictogrammes de niveau 1, 2 et 3 sur les boîtes de médicaments | auteur non renseigné | non renseignée |
+| n3-medecin-consultation.webp | Un médecin discute avec une patiente | auteur non renseigné | non renseignée |
+| n3-alcool-verre.webp | Du vin versé dans un verre | auteur non renseigné | non renseignée |
+| n3-ecouteur-interdit.webp | Conducteur avec une oreillette, croix rouge | auteur non renseigné | non renseignée |
+| n3-fatigue-signes.webp | Signes de fatigue au volant : bâillements, picotements des yeux, raideur | auteur non renseigné | non renseignée |
+| n3-fatigue-conducteur.webp | Conducteur fatigué, la main sur le front | auteur non renseigné | non renseignée |
+| n3-percois-analyse-decide.webp | Trois étapes : je perçois, j'analyse, je décide | auteur non renseigné | non renseignée |
+| n3-pn-feux-rouges.webp | Passage à niveau, feux rouges clignotants et barrière | auteur non renseigné | non renseignée |
+| n3-pn-barriere-retro.webp | Vue du conducteur devant un passage à niveau avec barrières | auteur non renseigné | non renseignée |
+| n3-pn-panneaux-tableau.webp | Tableau des panneaux de passage à niveau | auteur non renseigné | non renseignée |
+| n3-virage-route.webp | Vue du conducteur à l'entrée d'un virage | auteur non renseigné | non renseignée |
+| n3-virage-trajectoire.webp | Schéma de trajectoire dans un virage | auteur non renseigné | non renseignée |
+| n3-tunnel-feux.webp | Vue du conducteur dans un tunnel éclairé | auteur non renseigné | non renseignée |
+| n3-pluie-autoroute.webp | Voie rapide sous la pluie, pare-brise mouillé | auteur non renseigné | non renseignée |
+| n3-camion-distance.webp | Camion devant, vu depuis la voiture | auteur non renseigné | non renseignée |
+| n3-deux-secondes.webp | Schéma de la règle des deux secondes | auteur non renseigné | non renseignée |
+| n3-autoroute-sortie.webp | Voie rapide avec panneau de direction | auteur non renseigné | non renseignée |
+| n3-bande-arret-urgence.webp | Autoroute : voies de dépassement, voie normale, bande d'arrêt d'urgence | auteur non renseigné | non renseignée |
+| n3-moto-retro-ville.webp | Vue du conducteur : moto et cyclistes dans le rétroviseur | auteur non renseigné | non renseignée |
+| n3-angle-mort-schema.webp | Schéma de la vision du conducteur et des angles morts | auteur non renseigné | non renseignée |
+| n3-embouteillage-moto.webp | Embouteillage sous la pluie, une moto se faufile | auteur non renseigné | non renseignée |
+| n3-portiere-velo.webp | Voiture garée, cycliste qui passe à côté | auteur non renseigné | non renseignée |
+| n3-portiere-pistes.webp | Schéma : voitures, vélos et ouverture des portières | auteur non renseigné | non renseignée |
+| n3-camion-angles-morts.webp | Schéma des angles morts autour d'un camion | auteur non renseigné | non renseignée |
+| n3-camion-virage.webp | Schéma d'un camion qui tourne à droite | auteur non renseigné | non renseignée |
+| n3-camion-citerne.webp | Camion-citerne sur la route | auteur non renseigné | non renseignée |
+| n3-camion-arriere.webp | Arrière d'un camion avec catadioptres entourés | auteur non renseigné | non renseignée |
+| n3-carrefour-moto-voiture.webp | Carrefour : une moto (A) et une voiture (B) arrivent | auteur non renseigné | non renseignée |
+| n3-balises-cones.webp | Chevrons, fin de chantier, cône et balise | auteur non renseigné | non renseignée |
+| n3-croiser-route-etroite.webp | Vue du conducteur : une voiture arrive en face sur une route étroite | auteur non renseigné | non renseignée |
+| n3-retros-controle.webp | Vue du conducteur : rétroviseurs entourés | auteur non renseigné | non renseignée |
+| n3-detresse-icone.webp | Icône des feux de détresse | auteur non renseigné | non renseignée |
+| n3-vitesse-flou.webp | Piétons flous : la vision se réduit quand la vitesse augmente | auteur non renseigné | non renseignée |
+| n3-vitesse-vision.webp | Schéma : l'angle de vision diminue quand la vitesse augmente | auteur non renseigné | non renseignée |
+| n3-freinage-arret.webp | Schéma de la distance de freinage | auteur non renseigné | non renseignée |
+| n3-distance-arret.webp | Schéma : temps de réaction plus distance de freinage égale distance d'arrêt | auteur non renseigné | non renseignée |
+| n3-charge-coffre.webp | Coffre : charge mal rangée (croix) et bien rangée (coche) | auteur non renseigné | non renseignée |
+| n3-charge-phares.webp | Voiture chargée : réglage des feux | auteur non renseigné | non renseignée |
+| n3-charges-exterieur.webp | Porte-vélos et coffre de toit sur des voitures | auteur non renseigné | non renseignée |
+| n3-accident-voitures.webp | Deux voitures accidentées | auteur non renseigné | non renseignée |
+| n3-premiers-secours-route.webp | Une personne blessée sur la chaussée, secourue | auteur non renseigné | non renseignée |
+| n3-poste-conduite.webp | Conductrice bien installée au poste de conduite | auteur non renseigné | non renseignée |

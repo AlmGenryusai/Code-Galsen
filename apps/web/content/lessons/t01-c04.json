@@ -137,6 +137,28 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-freinage-arret.webp",
+            "alt": "Schéma de la distance de freinage",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Entre le moment où j'appuie sur la pédale et l'arrêt complet, la voiture roule encore."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-distance-arret.webp",
+            "alt": "Schéma : temps de réaction plus distance de freinage égale distance d'arrêt",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Distance d'arrêt = temps de réaction + distance de freinage."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-Bdistance.webp",
             "alt": "Schéma de la distance d'arrêt : temps de réaction puis freinage",
             "credit": "Source inconnue (Google Images)"
@@ -209,6 +231,27 @@
         {
           "type": "text",
           "text": "Plus je roule vite, plus il me faut de distance pour m'arrêter, et plus le choc est violent. Un piéton heurté à 30 km/h survit le plus souvent ; à 60 km/h, il a peu de chances de survivre."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-vitesse-flou.webp",
+            "alt": "Piétons flous : la vision se réduit quand la vitesse augmente",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Plus je roule vite, plus mon champ de vision se réduit."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-vitesse-vision.webp",
+            "alt": "Schéma : l'angle de vision diminue quand la vitesse augmente",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "À grande vitesse, je ne vois plus les piétons sur le côté."
         },
         {
           "type": "attention",

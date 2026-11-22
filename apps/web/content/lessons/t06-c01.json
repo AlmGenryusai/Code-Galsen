@@ -96,6 +96,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-premiers-secours-route.webp",
+            "alt": "Une personne blessée sur la chaussée, secourue",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je protège et j'alerte avant de secourir."
+        },
+        {
           "type": "heading",
           "text": "Ce que je ne fais pas"
         },

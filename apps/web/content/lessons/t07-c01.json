@@ -29,6 +29,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-poste-conduite.webp",
+            "alt": "Conductrice bien installée au poste de conduite",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Siège, volant, rétroviseurs : je règle tout avant de démarrer."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-S21-1.webp",
             "alt": "Conductrice aux bras tendus, trop loin du volant",
             "credit": "Source inconnue (Google Images)"

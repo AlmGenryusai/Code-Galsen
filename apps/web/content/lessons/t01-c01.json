@@ -56,6 +56,17 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-panneaux-danger.webp",
+            "alt": "Six panneaux de danger triangulaires",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les panneaux de danger sont des triangles à bord rouge."
+        },
+        {
           "type": "heading",
           "text": "Exception"
         },

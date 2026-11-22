@@ -113,6 +113,16 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-accident-voitures.webp",
+            "alt": "Deux voitures accidentées",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Une faute d'inattention peut suffire à provoquer un accident."
+        },
+        {
           "type": "memo",
           "text": "Téléphoner en main ou rouler trop vite, ce n'est pas une petite faute : c'est un délit, jusqu'à 6 mois de prison."
         }
