@@ -23,6 +23,16 @@
           "text": "Un camion a de grands angles morts et met longtemps à freiner. En tournant, son arrière déborde."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-camion-citerne.webp",
+            "alt": "Camion-citerne sur la route",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Un camion lourd met plus de temps à s'arrêter."
+        },
+        {
           "type": "heading",
           "text": "Ce que je fais"
         },
@@ -42,6 +52,16 @@
         {
           "type": "text",
           "text": "Au port de Dakar, un camion tourne à droite. Je reste derrière lui, loin, au lieu de passer à sa droite."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-camion-arriere.webp",
+            "alt": "Arrière d'un camion avec catadioptres entourés",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Les catadioptres à l'arrière du camion le rendent visible la nuit."
         },
         {
           "type": "heading",
@@ -74,12 +94,34 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-camion-angles-morts.webp",
+            "alt": "Schéma des angles morts autour d'un camion",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Autour du camion, les zones rouges sont ses angles morts : le chauffeur ne me voit pas."
+        },
+        {
           "type": "heading",
           "text": "Quand il tourne"
         },
         {
           "type": "text",
           "text": "Pour tourner à droite, le camion se déporte d'abord à gauche, puis son arrière balaie le côté droit. Un véhicule glissé à sa droite se fait coincer."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-camion-virage.webp",
+            "alt": "Schéma d'un camion qui tourne à droite",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Un camion qui tourne se déporte : je ne me glisse pas à côté de lui."
         },
         {
           "type": "image",

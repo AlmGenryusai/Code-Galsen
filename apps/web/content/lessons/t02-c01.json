@@ -164,6 +164,17 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-percois-analyse-decide.webp",
+            "alt": "Trois étapes : je perçois, j'analyse, je décide",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Face à un carrefour : je perçois, j'analyse, je décide."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-S08-1.webp",
             "alt": "Mains sur le volant à l'approche d'un carrefour",
             "credit": "Source inconnue (Google Images)"

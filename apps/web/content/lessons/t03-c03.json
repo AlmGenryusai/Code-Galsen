@@ -108,6 +108,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-pn-feux-rouges.webp",
+            "alt": "Passage à niveau, feux rouges clignotants et barrière",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Feux rouges qui clignotent : je m'arrête, même si la barrière n'est pas encore baissée."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "c-pn-feux.webp",
             "alt": "Feux rouges clignotants d'un passage à niveau",
             "credit": "auteur non renseigné, CC BY-SA 4.0"
@@ -174,6 +184,17 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-pn-panneaux-tableau.webp",
+            "alt": "Tableau des panneaux de passage à niveau",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les panneaux annoncent le passage à niveau et le type de protection."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "c-pn-balises.webp",
             "alt": "Balises à bandes rouges et blanches au bord de la route avant un passage à niveau",
             "credit": "auteur non renseigné, CC BY-SA 4.0"
@@ -210,6 +231,16 @@
         {
           "type": "text",
           "text": "Je dégage immédiatement la voie ferrée. Il est interdit de stationner sur un passage à niveau, et de dépasser aux passages à niveau non gardés."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-pn-barriere-retro.webp",
+            "alt": "Vue du conducteur devant un passage à niveau avec barrières",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je vérifie que la voie est libre de l'autre côté avant de m'engager."
         },
         {
           "type": "heading",
@@ -252,6 +283,27 @@
             "les routes étroites, encombrées ou bordées d'habitations",
             "les ralentisseurs de type dos d'âne et les traversées de villages"
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-virage-route.webp",
+            "alt": "Vue du conducteur à l'entrée d'un virage",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Avant un virage, je ralentis : je ne vois pas ce qui m'attend après."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-virage-trajectoire.webp",
+            "alt": "Schéma de trajectoire dans un virage",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Dans un virage, je limite ma vitesse : sinon la force centrifuge me pousse vers l'extérieur."
         },
         {
           "type": "image",

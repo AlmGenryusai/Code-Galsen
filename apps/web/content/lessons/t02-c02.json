@@ -36,6 +36,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-alcool-verre.webp",
+            "alt": "Du vin versé dans un verre",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Un seul verre peut déjà modifier mes réflexes."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-S25-6.webp",
             "alt": "Main tenant un joint sur un volant",
             "credit": "Source inconnue (Google Images)"
@@ -63,6 +73,27 @@
         {
           "type": "text",
           "text": "Certains médicaments endorment ou ralentissent les réflexes, même achetés sans ordonnance."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-medicaments-niveaux.webp",
+            "alt": "Pictogrammes de niveau 1, 2 et 3 sur les boîtes de médicaments",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Sur la boîte, un pictogramme avec un niveau d'alerte : plus il est élevé, plus je dois être prudent au volant."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-medecin-consultation.webp",
+            "alt": "Un médecin discute avec une patiente",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Avant de conduire sous traitement, je demande conseil à mon médecin ou à mon pharmacien."
         },
         {
           "type": "list",
@@ -117,6 +148,16 @@
             "Tenir en main tout autre appareil qui détourne l'attention : tablette, GPS, lecteur.",
             "Porter un écouteur, une oreillette ou un casque audio dans l'oreille."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-ecouteur-interdit.webp",
+            "alt": "Conducteur avec une oreillette, croix rouge",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Écouteurs ou oreillette : ce que je ne fais pas au volant."
         },
         {
           "type": "image",
@@ -203,6 +244,27 @@
             "Sur un long trajet, je fais une pause toutes les 2 heures.",
             "Je ne prends pas la route après une nuit sans sommeil ou un gros repas."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-fatigue-signes.webp",
+            "alt": "Signes de fatigue au volant : bâillements, picotements des yeux, raideur",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Bâillements, picotements des yeux, raideur dans la nuque : ce sont des signes de fatigue. Je m'arrête."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-fatigue-conducteur.webp",
+            "alt": "Conducteur fatigué, la main sur le front",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Quand la fatigue arrive, je ne force pas : je m'arrête et je me repose."
         },
         {
           "type": "image",
