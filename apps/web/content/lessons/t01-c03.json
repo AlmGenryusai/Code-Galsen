@@ -263,6 +263,17 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-balises-cones.webp",
+            "alt": "Chevrons, fin de chantier, cône et balise",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Chevrons, cônes et balises : ils signalent un obstacle à contourner."
+        },
+        {
           "type": "memo",
           "text": "Quand je croise un véhicule, je serre à droite. Devant un obstacle ou un rond-point, je le contourne par la droite."
         }

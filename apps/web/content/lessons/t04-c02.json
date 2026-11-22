@@ -41,6 +41,17 @@
           "text": "C'est la zone autour de ma voiture que je ne vois pas dans mes rétroviseurs : surtout à l'arrière gauche et à l'arrière droite. Une moto entière peut s'y cacher. Pour la voir, je dois tourner la tête par-dessus l'épaule."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-angle-mort-schema.webp",
+            "alt": "Schéma de la vision du conducteur et des angles morts",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les angles morts : un deux-roues peut y disparaître."
+        },
+        {
           "type": "heading",
           "text": "Ce que je fais"
         },
@@ -51,6 +62,16 @@
             "Je mets mon clignotant tôt pour que les motos me voient venir.",
             "En ville, je m'attends à voir surgir une moto de n'importe quel côté, même par la droite."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-moto-retro-ville.webp",
+            "alt": "Vue du conducteur : moto et cyclistes dans le rétroviseur",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Je regarde dans le rétroviseur : motos et vélos arrivent vite sur les côtés."
         },
         {
           "type": "heading",
@@ -112,6 +133,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n3-embouteillage-moto.webp",
+            "alt": "Embouteillage sous la pluie, une moto se faufile",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Dans les embouteillages, les motos remontent entre les files : je regarde avant de bouger."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p06.webp",
             "alt": "Moto qui remonte la file à côté d'un minibus",
             "credit": "JulianGrayscales, CC BY-SA 4.0, via Wikimedia Commons",
@@ -154,6 +185,27 @@
         {
           "type": "text",
           "text": "Garé au bord de la route, j'ouvre ma portière côté circulation. Une moto qui passe juste à côté n'a pas le temps de l'éviter."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-portiere-velo.webp",
+            "alt": "Voiture garée, cycliste qui passe à côté",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Avant d'ouvrir la portière, je regarde derrière moi."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n3-portiere-pistes.webp",
+            "alt": "Schéma : voitures, vélos et ouverture des portières",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Une portière ouverte coupe la route aux vélos."
         },
         {
           "type": "list",
