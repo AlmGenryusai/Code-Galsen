@@ -77,6 +77,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n4-pedales.webp",
+            "alt": "Les trois pédales : embrayage, frein et accélérateur",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Embrayage, frein, accélérateur : je connais la place de chaque pédale."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-Btongs.webp",
             "alt": "Pied en tongs sur la pédale d'une voiture",
             "credit": "Source inconnue (Google Images)"

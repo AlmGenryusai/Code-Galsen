@@ -98,6 +98,17 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n4-compteur-jauges.webp",
+            "alt": "Tableau de bord : jauge d'essence, température du moteur, compte-tours, compteur",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Sur le tableau de bord : jauge d'essence, température du moteur, compte-tours."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-V2voyants.webp",
             "alt": "Tableau de bord avec plusieurs voyants allumés",
             "credit": "Source inconnue (Google Images)"
@@ -199,6 +210,17 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-voyants-rouges.webp",
+            "alt": "Planche des voyants rouges du tableau de bord",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Voyants rouges : je m'arrête dès que possible, en sécurité."
+        },
+        {
           "type": "heading",
           "text": "Orange ou jaune : je fais contrôler"
         },
@@ -214,6 +236,28 @@
             "Plaquettes de frein (cercle avec pointillés) : les plaquettes sont usées, je les fais changer.",
             "Feux antibrouillard arrière : ils sont allumés. Je les éteins dès que le brouillard disparaît."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-voyants-orange.webp",
+            "alt": "Planche des voyants orange du tableau de bord",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Voyants orange : je fais contrôler la voiture rapidement."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-voyant-carburant.webp",
+            "alt": "Voyant orange de la pompe à carburant",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Voyant de carburant : je fais le plein sans attendre."
         },
         {
           "type": "image",

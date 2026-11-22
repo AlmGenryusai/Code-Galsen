@@ -26,6 +26,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n4-clignotant-droit.webp",
+            "alt": "Vue du conducteur : camion devant, clignotant droit entouré",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Clignotant droit : j'avertis avant de tourner."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p28.webp",
             "alt": "Rétroviseur intérieur d'une voiture",
             "credit": "Bob Adams from Amanzimtoti, South Africa, CC BY-SA 2.0, via Wikimedia Commons"

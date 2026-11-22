@@ -376,3 +376,20 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | n3-accident-voitures.webp | Deux voitures accidentées | auteur non renseigné | non renseignée |
 | n3-premiers-secours-route.webp | Une personne blessée sur la chaussée, secourue | auteur non renseigné | non renseignée |
 | n3-poste-conduite.webp | Conductrice bien installée au poste de conduite | auteur non renseigné | non renseignée |
+| n4-feux-avant-photos.webp | Six photos de la face avant d'une voiture : feux diurnes, croisement, route, brouillard, position, clignotants | auteur non renseigné | non renseignée |
+| n4-feux-etre-vu-voir.webp | Tableau : feux de position, croisement, route, brouillard avant et arrière, avec leur rôle (être vu, voir) | auteur non renseigné | non renseignée |
+| n4-feux-arriere-photos.webp | Photos de l'arrière d'une voiture : clignotants, stop, brouillard arrière, marche arrière, position, catadioptres | auteur non renseigné | non renseignée |
+| n4-volant-commandes.webp | Volant : commande des feux et clignotants, commande des essuie-glaces et du lave-glace, avertisseur sonore | auteur non renseigné | non renseignée |
+| n4-desembuage-commandes.webp | Tableau de commandes : désembuage avant, dégivrage arrière, feux de détresse, ventilation | auteur non renseigné | non renseignée |
+| n4-clignotant-droit.webp | Vue du conducteur : camion devant, clignotant droit entouré | auteur non renseigné | non renseignée |
+| n4-compteur-jauges.webp | Tableau de bord : jauge d'essence, température du moteur, compte-tours, compteur | auteur non renseigné | non renseignée |
+| n4-voyants-rouges.webp | Planche des voyants rouges du tableau de bord | auteur non renseigné | non renseignée |
+| n4-voyants-orange.webp | Planche des voyants orange du tableau de bord | auteur non renseigné | non renseignée |
+| n4-voyant-carburant.webp | Voyant orange de la pompe à carburant | auteur non renseigné | non renseignée |
+| n4-pneu-usure.webp | Pneu : bande de roulement, témoins d'usure et repère | auteur non renseigné | non renseignée |
+| n4-pneu-pression-etiquette.webp | Étiquette de pression des pneus sur le montant de la porte | auteur non renseigné | non renseignée |
+| n4-capot-controle.webp | Un mécanicien note ses contrôles sous le capot ouvert | auteur non renseigné | non renseignée |
+| n4-niveaux-liquides.webp | Lave-glace, huile moteur, liquide de frein et de refroidissement : où vérifier le niveau | auteur non renseigné | non renseignée |
+| n4-moteur-chauffe-voyant.webp | Compte-tours et voyant de température du moteur allumé | auteur non renseigné | non renseignée |
+| n4-changer-roue.webp | Étapes pour changer une roue en images | auteur non renseigné | non renseignée |
+| n4-pedales.webp | Les trois pédales : embrayage, frein et accélérateur | auteur non renseigné | non renseignée |
