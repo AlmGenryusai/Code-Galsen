@@ -39,6 +39,28 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n4-feux-avant-photos.webp",
+            "alt": "Six photos de la face avant d'une voiture : feux diurnes, croisement, route, brouillard, position, clignotants",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les feux avant, un par un : je repère où se trouve chacun sur la voiture."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-feux-etre-vu-voir.webp",
+            "alt": "Tableau : feux de position, croisement, route, brouillard avant et arrière, avec leur rôle (être vu, voir)",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Chaque feu sert à voir, à être vu, ou aux deux."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-S07-2.webp",
             "alt": "Symbole du feu de route au tableau de bord",
             "credit": "Source inconnue (Google Images)"
@@ -65,6 +87,17 @@
             "Feux de recul : ils s'allument en marche arrière.",
             "Feux de détresse : feux orange clignotants, à l'avant et à l'arrière."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-feux-arriere-photos.webp",
+            "alt": "Photos de l'arrière d'une voiture : clignotants, stop, brouillard arrière, marche arrière, position, catadioptres",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les feux arrière : clignotants, stop, brouillard, marche arrière, position et catadioptres."
         },
         {
           "type": "memo",
@@ -176,6 +209,17 @@
           ]
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-volant-commandes.webp",
+            "alt": "Volant : commande des feux et clignotants, commande des essuie-glaces et du lave-glace, avertisseur sonore",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les commandes au volant : feux et clignotants d'un côté, essuie-glaces de l'autre, klaxon au centre."
+        },
+        {
           "type": "attention",
           "text": "Je ne roule pas avec des essuie-glaces usés ou un pare-brise sale : je vois mal, surtout de nuit."
         },
@@ -199,6 +243,17 @@
             "Pare-brise : je dirige la ventilation vers le pare-brise et j'active la climatisation, qui sèche l'air.",
             "Lunette arrière : bouton de chauffage. Je l'éteins quand la vitre est claire."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-desembuage-commandes.webp",
+            "alt": "Tableau de commandes : désembuage avant, dégivrage arrière, feux de détresse, ventilation",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les touches de désembuage et de dégivrage, à côté de celle des feux de détresse."
         },
         {
           "type": "heading",

@@ -26,6 +26,27 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n4-pneu-usure.webp",
+            "alt": "Pneu : bande de roulement, témoins d'usure et repère",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Les témoins d'usure dans les rainures du pneu me montrent quand le changer."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-pneu-pression-etiquette.webp",
+            "alt": "Étiquette de pression des pneus sur le montant de la porte",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "L'étiquette de pression se trouve souvent sur le montant de la porte ou dans la trappe à carburant."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "p49.webp",
             "alt": "Pneu usé jusqu'à la corde",
             "credit": "Paul.schrepfer, CC BY-SA 4.0, via Wikimedia Commons"
@@ -51,6 +72,27 @@
           "items": [
             "L'huile moteur : je tire la jauge, je l'essuie, je la remets, je la ressors. Le niveau doit être entre les repères MIN (minimum) et MAX (maximum)."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-capot-controle.webp",
+            "alt": "Un mécanicien note ses contrôles sous le capot ouvert",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Sous le capot, moteur froid, je contrôle les niveaux."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-niveaux-liquides.webp",
+            "alt": "Lave-glace, huile moteur, liquide de frein et de refroidissement : où vérifier le niveau",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Où vérifier : lave-glace, huile, liquide de frein et liquide de refroidissement."
         },
         {
           "type": "image",
@@ -137,6 +179,16 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n4-moteur-chauffe-voyant.webp",
+            "alt": "Compte-tours et voyant de température du moteur allumé",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Quand la température monte, je m'arrête et j'attends que le moteur refroidisse."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-V2anneau.webp",
             "alt": "Anneau de remorquage sorti du pare-chocs d'une voiture",
             "credit": "Source inconnue (Google Images)"
@@ -155,6 +207,17 @@
             "Je lève le pied de l'accélérateur et je freine doucement, sans coup de frein brusque.",
             "Je me range sur un sol plat, loin de la circulation, avant de changer la roue."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-changer-roue.webp",
+            "alt": "Étapes pour changer une roue en images",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Changer une roue, étape par étape."
         },
         {
           "type": "heading",
