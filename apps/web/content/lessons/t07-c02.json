@@ -59,16 +59,6 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "n4-verrouillage-bouton.webp",
-            "alt": "Bouton de verrouillage centralisé entouré, à côté des feux de détresse",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Avant de descendre, je pense à verrouiller la voiture."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
             "src": "n-R-stationnement.webp",
             "alt": "Voitures garées le long d'une rue en ville",
             "credit": "Source inconnue (Google Images)"

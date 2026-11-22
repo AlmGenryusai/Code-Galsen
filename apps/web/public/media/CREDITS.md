@@ -393,9 +393,3 @@ Modifications (lot du 2026-11-07, fichiers q-* ajoutés après q-t09-c02-0003) :
 | n4-moteur-chauffe-voyant.webp | Compte-tours et voyant de température du moteur allumé | auteur non renseigné | non renseignée |
 | n4-changer-roue.webp | Étapes pour changer une roue en images | auteur non renseigné | non renseignée |
 | n4-pedales.webp | Les trois pédales : embrayage, frein et accélérateur | auteur non renseigné | non renseignée |
-| n4-verrouillage-bouton.webp | Bouton de verrouillage centralisé entouré, à côté des feux de détresse | auteur non renseigné | non renseignée |
-| n4-feux-icones.webp | Icônes des feux : position, croisement, route, brouillard avant et arrière, clignotants, détresse | auteur non renseigné | non renseignée |
-| n4-disque-frein.webp | Disque de frein (A) et étrier (B) vus de près | auteur non renseigné | non renseignée |
-| n4-levier-manuel.webp | Levier de vitesses d'une boîte manuelle | auteur non renseigné | non renseignée |
-| n4-levier-automatique.webp | Levier d'une boîte automatique | auteur non renseigné | non renseignée |
-| n4-transmission-schema.webp | Schéma : moteur, embrayage, boîte de vitesses, roue | auteur non renseigné | non renseignée |

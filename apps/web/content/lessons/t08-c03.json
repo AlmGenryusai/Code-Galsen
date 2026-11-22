@@ -61,17 +61,6 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "n4-feux-icones.webp",
-            "alt": "Icônes des feux : position, croisement, route, brouillard avant et arrière, clignotants, détresse",
-            "credit": "auteur non renseigné",
-            "fit": "contain"
-          },
-          "caption": "Ces icônes s'allument au tableau de bord quand le feu est en marche."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
             "src": "n-S07-2.webp",
             "alt": "Symbole du feu de route au tableau de bord",
             "credit": "Source inconnue (Google Images)"
