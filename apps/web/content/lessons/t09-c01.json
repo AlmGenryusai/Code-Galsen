@@ -69,16 +69,6 @@
           "caption": "Voyant de ceinture : quelqu'un n'est pas attaché."
         },
         {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Bceinture1.webp",
-            "alt": "Ceinture de sécurité bouclée sur une personne assise",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Ceinture bouclée, sangle bien positionnée."
-        },
-        {
           "type": "heading",
           "text": "Bien la porter"
         },
@@ -89,6 +79,16 @@
             "La sangle du bas passe sur les hanches, le plus bas possible.",
             "Elle est bien serrée, sans torsion. Je ne mets pas de pince pour la détendre."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bceinture1.webp",
+            "alt": "Ceinture de sécurité bouclée sur une personne assise",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Ceinture bouclée, sangle bien positionnée."
         },
         {
           "type": "heading",

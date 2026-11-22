@@ -1,6 +1,6 @@
 import { LegalPage, H2 } from '@/components/LegalPage'
 
-export const metadata = { title: 'Confidentialité — Code Galsen' }
+export const metadata = { title: 'Confidentialité — Permis Galsen' }
 
 export default function ConfidentialitePage() {
   return (

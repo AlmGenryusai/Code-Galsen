@@ -40,7 +40,7 @@ export function GET(_req: Request, { params }: { params: { file: string } }) {
           letterSpacing: -size * 0.01,
         }}
       >
-        CG
+        PG
       </div>
     ),
     { width: size, height: size },

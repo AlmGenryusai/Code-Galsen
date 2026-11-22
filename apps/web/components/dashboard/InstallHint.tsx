@@ -65,7 +65,7 @@ export function InstallHint() {
         color: 'hsl(var(--text))',
       }}
     >
-      <p style={{ fontWeight: 700 }}>Installe Code Galsen sur ton téléphone</p>
+      <p style={{ fontWeight: 700 }}>Installe Permis Galsen sur ton téléphone</p>
       <p style={{ color: 'hsl(var(--muted))', marginTop: 4 }}>
         {mode === 'ios'
           ? 'Dans Safari : touche Partager, puis « Sur l’écran d’accueil ». L’app marche ensuite sans connexion.'

@@ -17,12 +17,7 @@
         {
           "type": "list",
           "items": [
-            "1. Le siège : assis au fond, le dos contre le dossier. En appuyant la pédale de gauche à fond, ma jambe reste légèrement pliée.",
-            "2. Le dossier : poignets posés sur le haut du volant, bras tendus, mes épaules restent contre le dossier.",
-            "3. Le volant, s'il se règle : je vois bien le compteur, et il est à environ 25 cm de ma poitrine.",
-            "4. L'appui-tête : le haut est au niveau du haut de ma tête. Il protège mon cou en cas de choc par l'arrière.",
-            "5. Les rétroviseurs : l'intérieur montre toute la lunette arrière ; les extérieurs montrent la route, avec juste un peu de ma carrosserie sur le bord.",
-            "6. La ceinture : je l'attache en dernier, avant de démarrer."
+            "1. Le siège : assis au fond, le dos contre le dossier. En appuyant la pédale de gauche à fond, ma jambe reste légèrement pliée."
           ]
         },
         {
@@ -36,12 +31,13 @@
           "caption": "Trop loin du volant, je ne contrôle plus bien."
         },
         {
-          "type": "heading",
-          "text": "Les chaussures"
-        },
-        {
-          "type": "text",
-          "text": "Je conduis avec des chaussures qui tiennent bien le pied. Des tongs ou des claquettes peuvent glisser ou se coincer sous une pédale."
+          "type": "list",
+          "items": [
+            "2. Le dossier : poignets posés sur le haut du volant, bras tendus, mes épaules restent contre le dossier.",
+            "3. Le volant, s'il se règle : je vois bien le compteur, et il est à environ 25 cm de ma poitrine.",
+            "4. L'appui-tête : le haut est au niveau du haut de ma tête. Il protège mon cou en cas de choc par l'arrière.",
+            "5. Les rétroviseurs : l'intérieur montre toute la lunette arrière ; les extérieurs montrent la route, avec juste un peu de ma carrosserie sur le bord."
+          ]
         },
         {
           "type": "image",
@@ -52,6 +48,20 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Je règle mes rétroviseurs avant de partir."
+        },
+        {
+          "type": "list",
+          "items": [
+            "6. La ceinture : je l'attache en dernier, avant de démarrer."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Les chaussures"
+        },
+        {
+          "type": "text",
+          "text": "Je conduis avec des chaussures qui tiennent bien le pied. Des tongs ou des claquettes peuvent glisser ou se coincer sous une pédale."
         },
         {
           "type": "image",
@@ -71,11 +81,21 @@
     },
     {
       "id": "t07-c01-f02",
-      "title": "Ceinture et habitacle",
+      "title": "Habitacle et ceinture",
       "blocks": [
         {
           "type": "text",
-          "text": "La ceinture est obligatoire pour le conducteur et les passagers avant. Seule une personne qui a une contre-indication médicale, avec un certificat médical, en est dispensée."
+          "text": "Avant de démarrer, je m'attache : toutes les règles de la ceinture et de l'airbag sont dans la fiche « Ceinture et airbag » (cours « Ceinture et aides à la conduite »). Ici, je prépare l'intérieur de la voiture."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S20-3.webp",
+            "alt": "Conductrice souriante, ceinture bouclée, au volant",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Ceinture bouclée avant de démarrer."
         },
         {
           "type": "heading",
@@ -89,26 +109,6 @@
             "Je ne tiens rien dans la main en conduisant : téléphone, nourriture ou cigarette.",
             "Je ne mets rien devant le pare-brise ou sur le tableau de bord qui gêne la vue ou le déploiement de l'airbag."
           ]
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-S20-3.webp",
-            "alt": "Conductrice souriante, ceinture bouclée, au volant",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Ceinture bouclée avant de démarrer."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Bceinture2.webp",
-            "alt": "Main qui attrape la ceinture pour la boucler",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Je boucle ma ceinture avant de rouler."
         },
         {
           "type": "image",

@@ -40,6 +40,6 @@ it('lien de partage avec UTM', () => {
 
 it('message de partage du score', () => {
   expect(scoreShareText(34, 40, 'https://x.app')).toBe(
-    "J'ai eu 34/40 à mon examen blanc du code de la route sur Code Galsen. Et toi, tu fais combien ? https://x.app/?utm_source=whatsapp&utm_medium=partage&utm_campaign=score",
+    "J'ai eu 34/40 à mon examen blanc du code de la route sur Permis Galsen. Et toi, tu fais combien ? https://x.app/?utm_source=whatsapp&utm_medium=partage&utm_campaign=score",
   )
 })

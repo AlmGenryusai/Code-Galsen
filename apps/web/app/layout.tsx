@@ -20,14 +20,14 @@ const mono = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Code Galsen',
+  title: 'Permis Galsen',
   description: 'Prépare ton permis de conduire au Sénégal/UEMOA',
   manifest: '/manifest.json',
   icons: { apple: '/icons/apple-touch-icon.png' },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Code Galsen',
+    title: 'Permis Galsen',
     // Écran de lancement iOS (sinon flash blanc au démarrage depuis l'écran d'accueil)
     startupImage: [
       { url: '/splash/640x1136.png', media: '(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)' },

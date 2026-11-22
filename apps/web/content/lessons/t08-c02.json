@@ -37,11 +37,19 @@
           "text": "Sous le capot, moteur froid"
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Xentretien-4.webp",
+            "alt": "Compartiment moteur, capot levé",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Capot levé : je contrôle les niveaux à froid."
+        },
+        {
           "type": "list",
           "items": [
-            "L'huile moteur : je tire la jauge, je l'essuie, je la remets, je la ressors. Le niveau doit être entre les repères MIN (minimum) et MAX (maximum).",
-            "Le liquide de refroidissement : le niveau du réservoir transparent est entre MIN et MAX. Je n'ouvre jamais ce bouchon moteur chaud.",
-            "Le liquide de frein et le lave-glace : même vérification."
+            "L'huile moteur : je tire la jauge, je l'essuie, je la remets, je la ressors. Le niveau doit être entre les repères MIN (minimum) et MAX (maximum)."
           ]
         },
         {
@@ -55,15 +63,9 @@
           "caption": "Je vérifie et complète le niveau d'huile."
         },
         {
-          "type": "heading",
-          "text": "Le reste"
-        },
-        {
           "type": "list",
           "items": [
-            "J'allume tous les feux et je fais le tour de la voiture, ou je demande à quelqu'un de regarder.",
-            "Je teste le klaxon et les essuie-glaces.",
-            "Je prévois assez de carburant pour le trajet."
+            "Le liquide de refroidissement : le niveau du réservoir transparent est entre MIN et MAX. Je n'ouvre jamais ce bouchon moteur chaud."
           ]
         },
         {
@@ -77,6 +79,12 @@
           "caption": "Je vérifie le liquide de refroidissement."
         },
         {
+          "type": "list",
+          "items": [
+            "Le liquide de frein et le lave-glace : même vérification."
+          ]
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -87,14 +95,16 @@
           "caption": "Je complète le niveau quand il est bas."
         },
         {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Xentretien-4.webp",
-            "alt": "Compartiment moteur, capot levé",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Capot levé : je contrôle les niveaux à froid."
+          "type": "heading",
+          "text": "Le reste"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'allume tous les feux et je fais le tour de la voiture, ou je demande à quelqu'un de regarder.",
+            "Je teste le klaxon et les essuie-glaces.",
+            "Je prévois assez de carburant pour le trajet."
+          ]
         },
         {
           "type": "memo",

@@ -82,6 +82,7 @@ export const TAXONOMY: Theme[] = [
     chapters: [
       { id: 't08-c01', title: 'Fonctionnement et voyants' },
       { id: 't08-c02', title: 'Entretien, chaleur et pannes' },
+      { id: 't08-c03', title: 'Feux et visibilité' },
     ],
   },
   {

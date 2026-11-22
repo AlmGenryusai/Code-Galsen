@@ -171,7 +171,17 @@
         },
         {
           "type": "text",
-          "text": "Elle est obligatoire pour le conducteur et les passagers avant. Seule une contre-indication médicale, avec certificat, dispense. Les détails sont dans le cours « Ceinture et aides à la conduite »."
+          "text": "Je m'attache avant chaque trajet. Toutes les règles sont dans la fiche « Ceinture et airbag »."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-V2bouclage.webp",
+            "alt": "Passager qui boucle sa ceinture de sécurité",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Je boucle ma ceinture avant de démarrer."
         },
         {
           "type": "heading",
@@ -207,16 +217,6 @@
         {
           "type": "text",
           "text": "La loi ne cite pas la fatigue, mais un conducteur qui s'endort reste responsable de l'accident."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-V2bouclage.webp",
-            "alt": "Passager qui boucle sa ceinture de sécurité",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Je boucle ma ceinture avant de démarrer."
         },
         {
           "type": "image",

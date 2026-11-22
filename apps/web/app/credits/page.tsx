@@ -1,7 +1,7 @@
 import { LegalPage } from '@/components/LegalPage'
 import { getPhotoCredits } from '@/lib/credits'
 
-export const metadata = { title: 'Crédits photos — Code Galsen' }
+export const metadata = { title: 'Crédits photos — Permis Galsen' }
 
 export default function CreditsPage() {
   const credits = getPhotoCredits()

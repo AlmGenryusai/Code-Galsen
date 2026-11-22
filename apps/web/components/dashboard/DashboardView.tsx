@@ -64,7 +64,7 @@ export function DashboardView({ data, questions, lessonIds }: Props) {
           alignItems: 'center',
         }}
       >
-        <span style={{ fontSize: 18, fontWeight: 800 }}>Code Galsen</span>
+        <span style={{ fontSize: 18, fontWeight: 800 }}>Permis Galsen</span>
         {license.loaded && <PassChip license={license} />}
       </header>
       <InstallHint />

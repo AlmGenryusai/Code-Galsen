@@ -42,6 +42,22 @@
           "text": "Ce qu'on appelle les matériaux « pulvérulents » (en poudre ou en grains : sable, ciment, terre, gravillons) s'envolent avec le vent. Je les couvre d'une bâche étanche bien attachée."
         },
         {
+          "type": "heading",
+          "text": "Trop chargé : mes phares éblouissent"
+        },
+        {
+          "type": "text",
+          "text": "Avec une charge lourde à l'arrière ou beaucoup de passagers derrière, l'arrière de la voiture s'affaisse et l'avant se relève. Mes phares montent alors et **éblouissent** ceux que je croise. Je vois aussi moins bien la route devant moi."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je règle la hauteur de mes phares avec la molette du tableau de bord, quand ma voiture en a une.",
+            "Je baisse mes feux de croisement dès que je croise ou que je suis un véhicule : je ne dois jamais éblouir les autres conducteurs.",
+            "Une voiture très chargée freine aussi plus tard : je laisse plus de distance."
+          ]
+        },
+        {
           "type": "memo",
           "text": "Mon chargement est bien attaché et couvert, et rien ne traîne sur la route."
         }
@@ -121,7 +137,7 @@
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.50 à L.56 ; décret 2004-13, annexe I (art. I-39, I-40)",
+  "legal_ref": "Loi 2022-04, L.50 à L.56 ; décret 2004-13, annexe I (art. I-39, I-40) ; décret 2004-13, art. 72, 82 (ne pas éblouir)",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

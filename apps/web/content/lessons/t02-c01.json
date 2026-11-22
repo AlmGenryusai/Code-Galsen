@@ -130,6 +130,10 @@
           "caption": "Le klaxon sert à avertir, pas à s'énerver."
         },
         {
+          "type": "text",
+          "text": "Le détail de chaque feu, de sa portée et de son usage est dans le cours « Feux et visibilité » (thème Le véhicule)."
+        },
+        {
           "type": "memo",
           "text": "Quand je croise un véhicule ou que j'en suis un de près la nuit, je passe en feux de croisement pour ne pas l'éblouir. Je klaxonne seulement pour prévenir d'un danger."
         }

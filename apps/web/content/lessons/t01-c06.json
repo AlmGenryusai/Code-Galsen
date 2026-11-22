@@ -34,6 +34,27 @@
           ]
         },
         {
+          "type": "heading",
+          "text": "Les trois façons de se garer"
+        },
+        {
+          "type": "text",
+          "text": "Selon la place et le marquage au sol, je me gare en **créneau** (parallèle au trottoir), en **épi** (en oblique) ou en **bataille** (perpendiculaire). Dans chaque cas, je choisis marche avant ou marche arrière, et je regarde autour de moi avant de bouger."
+        },
+        {
+          "type": "heading",
+          "text": "Le créneau"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je me gare en parallèle du trottoir, entre deux véhicules ou derrière un seul.",
+            "Je mets mon clignotant, je m'arrête à côté de la voiture devant la place, à environ un mètre d'elle, puis je recule doucement en braquant vers le trottoir.",
+            "Quand mon avant est dégagé, je redresse les roues et je centre la voiture dans la place.",
+            "Avant et pendant la manœuvre, je contrôle les rétroviseurs et l'angle mort : circulation, piétons, cyclistes."
+          ]
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -45,47 +66,16 @@
         },
         {
           "type": "heading",
-          "text": "Panneaux à reconnaître"
+          "text": "Le stationnement en épi"
         },
         {
-          "type": "signs",
+          "type": "list",
           "items": [
-            {
-              "media": {
-                "kind": "sign",
-                "src": "b6a1",
-                "alt": "Stationnement interdit",
-                "credit": "Code Galsen"
-              },
-              "label": "Stationnement interdit"
-            },
-            {
-              "media": {
-                "kind": "sign",
-                "src": "b6d",
-                "alt": "Arrêt et stationnement interdits",
-                "credit": "Code Galsen"
-              },
-              "label": "Arrêt et stationnement interdits"
-            },
-            {
-              "media": {
-                "kind": "sign",
-                "src": "b6b1",
-                "alt": "Zone à stationnement interdit",
-                "credit": "Code Galsen"
-              },
-              "label": "Zone à stationnement interdit"
-            }
+            "Les places sont en oblique, marquées par des lignes au sol.",
+            "En marche avant : je mets mon clignotant, je m'écarte un peu du côté opposé, puis je tourne pour entrer dans la place en suivant l'angle des lignes.",
+            "En marche arrière : je recule dans la place, plus facile pour ressortir en marche avant et voir arriver la circulation.",
+            "Je regarde bien les deux côtés avant de bouger : les voitures voisines cachent la vue."
           ]
-        },
-        {
-          "type": "text",
-          "text": "Je regarde le trait rouge : **une barre**, stationnement interdit. **Une croix**, arrêt et stationnement interdits."
-        },
-        {
-          "type": "attention",
-          "text": "Hors agglomération, je ne stationne pas sur la chaussée, sauf force majeure."
         },
         {
           "type": "image",
@@ -108,6 +98,19 @@
           "caption": "Stationnement en épi, marche arrière."
         },
         {
+          "type": "heading",
+          "text": "Le stationnement en bataille"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Les places sont perpendiculaires au trottoir, marquées par des lignes au sol.",
+            "En marche avant : je m'écarte pour tourner large, puis je rentre bien droit dans la place.",
+            "En marche arrière : plus facile pour ressortir en marche avant et voir la circulation.",
+            "Je contrôle les angles de ma voiture et les piétons avant de bouger."
+          ]
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -116,6 +119,53 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Stationnement en bataille, marche avant."
+        },
+        {
+          "type": "heading",
+          "text": "Panneaux à reconnaître"
+        },
+        {
+          "type": "signs",
+          "items": [
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b6a1",
+                "alt": "Stationnement interdit",
+                "credit": "Permis Galsen"
+              },
+              "label": "Stationnement interdit"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b6d",
+                "alt": "Arrêt et stationnement interdits",
+                "credit": "Permis Galsen"
+              },
+              "label": "Arrêt et stationnement interdits"
+            },
+            {
+              "media": {
+                "kind": "sign",
+                "src": "b6b1",
+                "alt": "Zone à stationnement interdit",
+                "credit": "Permis Galsen"
+              },
+              "label": "Zone à stationnement interdit"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Une barre rouge : **stationnement interdit**. Je peux m'arrêter un instant, mais pas stationner.",
+            "Deux barres rouges en croix : **arrêt et stationnement interdits**."
+          ]
+        },
+        {
+          "type": "attention",
+          "text": "Hors agglomération, je ne stationne pas sur la chaussée, sauf force majeure."
         },
         {
           "type": "memo",

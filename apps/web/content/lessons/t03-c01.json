@@ -8,7 +8,53 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Quand je vois mal, je roule pour pouvoir m'arrêter dans ce que je vois."
+          "text": "Brouillard, poussière et forte pluie ne se gèrent pas de la même façon. Dans les trois cas, je vois moins loin : je roule pour pouvoir m'arrêter dans ce que je vois, et je règle ma vitesse en conséquence."
+        },
+        {
+          "type": "heading",
+          "text": "Ce qui est commun aux trois"
+        },
+        {
+          "type": "list",
+          "items": [
+            "J'allume mes feux de croisement, même de jour : c'est pour être vu.",
+            "Je réduis ma vitesse, même si la route est droite.",
+            "En voiture, si je vois à moins de 50 mètres, je roule à 50 km/h maximum."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Brouillard"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Feux de croisement allumés ; je n'utilise pas les feux de route, dont la lumière se reflète dans le brouillard.",
+            "Si ma voiture a des feux antibrouillard, je peux les allumer quand la visibilité est très mauvaise, et je les éteins dès que le brouillard se lève pour ne pas éblouir.",
+            "Je garde une grande distance avec le véhicule devant moi : je ne le suis pas de trop près en me guidant sur ses feux."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "p32.webp",
+            "alt": "Voiture en face dans le brouillard, phares allumés",
+            "credit": "Marek Ślusarczyk (Tupungato), CC BY 3.0, via Wikimedia Commons"
+          },
+          "caption": "Brouillard : je ralentis et j'allume mes feux pour être vu."
+        },
+        {
+          "type": "heading",
+          "text": "Poussière, sable ou fumée"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Feux de croisement allumés, vitesse réduite : un nuage de poussière peut cacher un piéton, une charrette ou un véhicule à l'arrêt.",
+            "Derrière un camion ou une file de véhicules qui soulève de la poussière, je me tiens loin et je ne dépasse que lorsque je vois la route devant.",
+            "Je n'essuie pas le pare-brise à sec : le sable raye la vitre. J'utilise d'abord le lave-glace."
+          ]
         },
         {
           "type": "image",
@@ -22,14 +68,15 @@
         },
         {
           "type": "heading",
-          "text": "Ce que je fais"
+          "text": "Forte pluie"
         },
         {
           "type": "list",
           "items": [
-            "J'allume mes feux de croisement, même de jour.",
-            "Je réduis ma vitesse, même si la route est droite.",
-            "En voiture, si je vois à moins de 50 mètres, je roule à 50 km/h maximum."
+            "Je vois moins loin, et la route glisse : je freine plus tôt et plus doucement, avec plus de distance.",
+            "Mes essuie-glaces doivent être en bon état ; si la vitre s'embue, j'utilise le désembuage.",
+            "Une grande flaque ou une route inondée : je ne m'y engage pas si je ne connais pas la profondeur.",
+            "Si l'eau est si forte que je ne vois presque plus, je m'arrête dès que je peux le faire sans danger, hors de la chaussée, et j'attends que ça passe."
           ]
         },
         {
@@ -43,20 +90,6 @@
           "caption": "Sous la pluie, je vois moins et je freine plus tard : je ralentis."
         },
         {
-          "type": "attention",
-          "text": "Je ne klaxonne pas pour « voir plus loin » : ça ne change pas ma visibilité."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "p32.webp",
-            "alt": "Voiture en face dans le brouillard, phares allumés",
-            "credit": "Marek Ślusarczyk (Tupungato), CC BY 3.0, via Wikimedia Commons"
-          },
-          "caption": "Brouillard : je ralentis et j'allume mes feux pour être vu."
-        },
-        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -65,6 +98,10 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Sous la pluie, la visibilité baisse."
+        },
+        {
+          "type": "attention",
+          "text": "Je ne klaxonne pas pour « voir plus loin » : ça ne change pas ma visibilité."
         },
         {
           "type": "memo",
@@ -172,6 +209,10 @@
             "credit": "A S M Jobaer, CC BY-SA 4.0, via Wikimedia Commons"
           },
           "caption": "De nuit, un piéton se voit tard : je ralentis."
+        },
+        {
+          "type": "text",
+          "text": "Pour le détail des feux, voir le cours « Feux et visibilité » (thème Le véhicule)."
         },
         {
           "type": "attention",

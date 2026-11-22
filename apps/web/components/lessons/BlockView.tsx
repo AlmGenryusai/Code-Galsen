@@ -84,7 +84,7 @@ export function BlockView({ block }: { block: Block }) {
     case 'image':
       return (
         <figure style={{ margin: '0 0 16px' }}>
-          <MediaFrame media={block.media} hideCredit hideBadge rounded />
+          <MediaFrame media={block.media} hideCredit hideBadge rounded natural />
           {block.caption && (
             <figcaption style={{ fontSize: 14, lineHeight: 1.4, color: 'hsl(var(--muted))', marginTop: 6 }}>
               {block.caption}
