@@ -1,4 +1,4 @@
-# CLAUDE.md — Code Galsen
+# CLAUDE.md — Permis Galsen
 
 > Lu automatiquement par Claude Code. Source des décisions : `/refonte/26-29` (projet Claude) — résumées ici.
 

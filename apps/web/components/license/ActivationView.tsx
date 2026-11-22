@@ -52,8 +52,8 @@ export function ActivationView({ themeCount, questionCount, supportWhatsapp }: P
     supportWhatsapp
       ? `https://wa.me/${supportWhatsapp}?text=${encodeURIComponent(
           p
-            ? `Bonjour, je veux l'accès complet Code Galsen, formule ${planLabel(p)} (${formatPrice(p.price)}).`
-            : "Bonjour, je veux l'accès complet Code Galsen.",
+            ? `Bonjour, je veux l'accès complet Permis Galsen, formule ${planLabel(p)} (${formatPrice(p.price)}).`
+            : "Bonjour, je veux l'accès complet Permis Galsen.",
         )}`
       : ''
   const trackOrder = (p?: Plan) => track('clic_acheter', { formule: p ? planLabel(p) : 'non choisie', source: readUtm().source })
@@ -231,7 +231,7 @@ export function ActivationView({ themeCount, questionCount, supportWhatsapp }: P
               lineHeight: 1.45,
               color: 'hsl(var(--text))',
             }}>
-              <strong>Installe l&apos;appli avant d&apos;activer ton code.</strong> Active-le ensuite depuis l&apos;icône Code Galsen. Sur iPhone, un code activé dans Safari ne passe pas dans l&apos;appli installée.
+              <strong>Installe l&apos;appli avant d&apos;activer ton code.</strong> Active-le ensuite depuis l&apos;icône Permis Galsen. Sur iPhone, un code activé dans Safari ne passe pas dans l&apos;appli installée.
             </p>
           )}
           <label htmlFor="code" style={{ display: 'block', fontSize: 14, fontWeight: 600, color: 'hsl(var(--text))', marginBottom: 8 }}>

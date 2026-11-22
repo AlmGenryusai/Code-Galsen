@@ -55,7 +55,7 @@
                 "kind": "sign",
                 "src": "b6a1",
                 "alt": "Stationnement interdit",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Stationnement interdit"
             },
@@ -64,7 +64,7 @@
                 "kind": "sign",
                 "src": "b6d",
                 "alt": "Arrêt et stationnement interdits",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Arrêt et stationnement interdits"
             },
@@ -73,7 +73,7 @@
                 "kind": "sign",
                 "src": "b6b1",
                 "alt": "Zone à stationnement interdit",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Zone à stationnement interdit"
             }

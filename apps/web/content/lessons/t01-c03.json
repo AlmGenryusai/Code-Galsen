@@ -243,7 +243,7 @@
                 "kind": "sign",
                 "src": "b15",
                 "alt": "Priorité au sens inverse : cédez le passage aux véhicules venant en face",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Priorité au sens inverse : cédez le passage aux véhicules venant en face"
             },
@@ -252,7 +252,7 @@
                 "kind": "sign",
                 "src": "c18",
                 "alt": "Priorité par rapport au sens inverse",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Priorité par rapport au sens inverse"
             }

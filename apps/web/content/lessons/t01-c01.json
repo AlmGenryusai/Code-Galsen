@@ -22,7 +22,7 @@
                 "kind": "sign",
                 "src": "forme-danger",
                 "alt": "Forme d'un panneau de danger : triangle bordé de rouge",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Danger** : triangle, fond crème, bordé de rouge."
             },
@@ -31,7 +31,7 @@
                 "kind": "sign",
                 "src": "forme-interdiction",
                 "alt": "Forme d'un panneau d'interdiction : rond blanc bordé de rouge",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Interdiction** : rond, fond blanc, bordé de rouge."
             },
@@ -40,7 +40,7 @@
                 "kind": "sign",
                 "src": "b21b",
                 "alt": "Direction obligatoire : tout droit",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Obligation** : rond, fond bleu foncé, symbole blanc."
             },
@@ -49,7 +49,7 @@
                 "kind": "sign",
                 "src": "c18",
                 "alt": "Priorité par rapport au sens inverse",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Indication** : rectangulaire ou carré, souvent bleu ou crème."
             }
@@ -93,7 +93,7 @@
                 "kind": "sign",
                 "src": "stop",
                 "alt": "Stop",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**STOP** : arrêt complet, puis céder le passage."
             },
@@ -102,7 +102,7 @@
                 "kind": "sign",
                 "src": "route-prioritaire",
                 "alt": "Route à caractère prioritaire",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Losange jaune** : je suis sur une route prioritaire."
             },
@@ -111,7 +111,7 @@
                 "kind": "sign",
                 "src": "ab7",
                 "alt": "Fin de route à caractère prioritaire",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Losange barré** : la priorité se termine."
             },
@@ -120,7 +120,7 @@
                 "kind": "sign",
                 "src": "priorite-droite",
                 "alt": "Intersection avec priorité à droite",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Croix** : règle de la droite, je cède à ma droite."
             }
@@ -142,7 +142,7 @@
                 "kind": "sign",
                 "src": "b15",
                 "alt": "Priorité au sens inverse : cédez le passage aux véhicules venant en face",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Rond, flèche rouge** : je cède le passage à ceux d'en face."
             },
@@ -151,7 +151,7 @@
                 "kind": "sign",
                 "src": "c18",
                 "alt": "Priorité par rapport au sens inverse",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "**Carré bleu** : j'ai la priorité sur ceux d'en face."
             }
@@ -161,12 +161,19 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "e-route-prioritaire.webp",
-            "alt": "Tableau : le panneau losange jaune et le panneau d'intersection avec route prioritaire",
-            "credit": "auteur non renseigné",
-            "fit": "contain"
+            "src": "e-route-prioritaire-panneaux.webp",
+            "alt": "Panneau losange jaune avec, dessous, le panonceau qui dessine le carrefour",
+            "credit": "auteur non renseigné"
           },
-          "caption": "Trait épais = la route prioritaire ; traits fins = les routes qui me cèdent le passage."
+          "caption": "Le panonceau sous le losange dessine le carrefour vu d'en haut."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le trait du bas, c'est ma route : celle sur laquelle je roule.",
+            "Le trait épais, c'est la route prioritaire : ici, je continue tout droit en ayant la priorité.",
+            "Les traits fins, ce sont les routes qui me cèdent le passage."
+          ]
         },
         {
           "type": "image",

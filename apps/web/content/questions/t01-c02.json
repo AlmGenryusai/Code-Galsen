@@ -40,7 +40,7 @@
       "kind": "sign",
       "src": "route-prioritaire",
       "alt": "Panneau : Route à caractère prioritaire",
-      "credit": "Code Galsen (SVG)"
+      "credit": "Permis Galsen (SVG)"
     },
     "parts": [
       {
@@ -354,7 +354,7 @@
       "kind": "sign",
       "src": "route-prioritaire",
       "alt": "Route à caractère prioritaire",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {
@@ -386,7 +386,7 @@
       "kind": "sign",
       "src": "stop",
       "alt": "Stop",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {
@@ -429,7 +429,7 @@
       "kind": "sign",
       "src": "cedez-le-passage",
       "alt": "Cédez le passage",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {
@@ -495,7 +495,7 @@
       "kind": "sign",
       "src": "sens-giratoire",
       "alt": "Carrefour à sens giratoire",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {
@@ -603,7 +603,7 @@
       "kind": "sign",
       "src": "sens-giratoire",
       "alt": "Carrefour à sens giratoire",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {
@@ -699,7 +699,7 @@
       "kind": "sign",
       "src": "route-prioritaire",
       "alt": "Route à caractère prioritaire",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {
@@ -731,7 +731,7 @@
       "kind": "sign",
       "src": "stop",
       "alt": "Stop",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {
@@ -764,7 +764,7 @@
       "kind": "sign",
       "src": "cedez-le-passage",
       "alt": "Cédez le passage",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {
@@ -924,7 +924,7 @@
       "kind": "sign",
       "src": "sens-giratoire",
       "alt": "Carrefour à sens giratoire",
-      "credit": "Code Galsen"
+      "credit": "Permis Galsen"
     },
     "parts": [
       {

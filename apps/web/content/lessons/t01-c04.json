@@ -159,7 +159,7 @@
                 "kind": "sign",
                 "src": "b14-30",
                 "alt": "Limitation de vitesse (la limite est indiquée sur le panneau)",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Limitation de vitesse (la limite est indiquée sur le panneau)"
             },
@@ -168,7 +168,7 @@
                 "kind": "sign",
                 "src": "b33-30",
                 "alt": "Fin de limitation de vitesse",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Fin de limitation de vitesse"
             }

@@ -76,5 +76,5 @@ export function shareUrl(origin: string, campaign: string): string {
 
 /** Message WhatsApp « Partager mon score » (wording : préparation, jamais garantie). */
 export function scoreShareText(correct: number, total: number, origin: string): string {
-  return `J'ai eu ${correct}/${total} à mon examen blanc du code de la route sur Code Galsen. Et toi, tu fais combien ? ${shareUrl(origin, 'score')}`
+  return `J'ai eu ${correct}/${total} à mon examen blanc du code de la route sur Permis Galsen. Et toi, tu fais combien ? ${shareUrl(origin, 'score')}`
 }

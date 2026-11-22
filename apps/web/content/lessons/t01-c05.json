@@ -195,7 +195,7 @@
                 "kind": "sign",
                 "src": "b3",
                 "alt": "Interdiction de dépasser",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Interdiction de dépasser"
             },
@@ -204,7 +204,7 @@
                 "kind": "sign",
                 "src": "b3a",
                 "alt": "Interdiction de dépasser pour les camions",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Interdiction de dépasser pour les camions"
             },
@@ -213,7 +213,7 @@
                 "kind": "sign",
                 "src": "b34",
                 "alt": "Fin d'interdiction de dépasser",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Fin d'interdiction de dépasser"
             }

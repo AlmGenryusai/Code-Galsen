@@ -11,9 +11,22 @@ const BADGE_LABEL: Record<NonNullable<Media['badge']>, string> = {
 }
 
 /** Zone média 16:9 pleine largeur : panneau SVG sur sable, ou photo avec repère et picto. Pas de média : rien. */
-export function MediaFrame({ media, hideCredit = false, hideBadge = false, rounded = false }: { media?: Media; hideCredit?: boolean; hideBadge?: boolean; rounded?: boolean }) {
+export function MediaFrame({ media, hideCredit = false, hideBadge = false, rounded = false, natural = false }: { media?: Media; hideCredit?: boolean; hideBadge?: boolean; rounded?: boolean; natural?: boolean }) {
   if (!media) return null
   const radius = rounded ? 'var(--radius)' : undefined
+
+  // Cours : image entière à son format, jamais rognée ni entourée de bandes (schémas verticaux, photos annotées)
+  if (natural && media.kind === 'photo') {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={`/media/${media.src}`}
+        alt={media.alt}
+        loading="lazy"
+        style={{ display: 'block', width: 'auto', maxWidth: '100%', height: 'auto', maxHeight: '80dvh', margin: '0 auto', borderRadius: radius }}
+      />
+    )
+  }
 
   if (media.kind === 'sign') {
     return (

@@ -1,4 +1,4 @@
-# Code Galsen
+# Permis Galsen
 
 PWA mobile-first, hors ligne, pour préparer l'examen théorique du permis **B** au **Sénégal**. Français uniquement en V1.
 

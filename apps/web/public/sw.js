@@ -1,4 +1,4 @@
-// Service worker Code Galsen — écrit à la main, sans dépendance.
+// Service worker Permis Galsen — écrit à la main, sans dépendance.
 // Enregistré en /sw.js?v=<BUILD_ID> (components/RegisterServiceWorker.tsx) :
 // URL différente à chaque déploiement → nouvelle installation, ancien cache purgé.
 

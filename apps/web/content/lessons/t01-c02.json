@@ -86,7 +86,7 @@
                 "kind": "sign",
                 "src": "priorite-droite",
                 "alt": "Intersection avec priorité à droite",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Intersection avec priorité à droite"
             },
@@ -95,7 +95,7 @@
                 "kind": "sign",
                 "src": "ab2",
                 "alt": "Intersection avec une route prioritaire",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Intersection avec une route prioritaire"
             }
@@ -278,7 +278,7 @@
                 "kind": "sign",
                 "src": "stop",
                 "alt": "Stop",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Stop"
             },
@@ -287,7 +287,7 @@
                 "kind": "sign",
                 "src": "cedez-le-passage",
                 "alt": "Cédez le passage",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Cédez le passage"
             },
@@ -296,7 +296,7 @@
                 "kind": "sign",
                 "src": "sens-giratoire",
                 "alt": "Carrefour à sens giratoire",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Carrefour à sens giratoire"
             }

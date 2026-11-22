@@ -1,5 +1,5 @@
 # =============================================================================
-# .github/workflows/ci.yml — Code Galsen CI pipeline (MVP)
+# .github/workflows/ci.yml — Permis Galsen CI pipeline (MVP)
 # =============================================================================
 
 name: CI

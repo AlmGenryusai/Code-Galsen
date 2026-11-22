@@ -52,7 +52,7 @@
                 "kind": "sign",
                 "src": "a13a",
                 "alt": "Endroit fréquenté par des enfants",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Endroit fréquenté par des enfants"
             }
@@ -184,7 +184,7 @@
                 "kind": "sign",
                 "src": "a7",
                 "alt": "Passage à niveau avec barrières",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Passage à niveau avec barrières"
             },
@@ -193,7 +193,7 @@
                 "kind": "sign",
                 "src": "a8",
                 "alt": "Passage à niveau sans barrières",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Passage à niveau sans barrières"
             }
@@ -256,7 +256,7 @@
                 "kind": "sign",
                 "src": "a1a",
                 "alt": "Virage à droite",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Virage à droite"
             },
@@ -265,7 +265,7 @@
                 "kind": "sign",
                 "src": "a1b",
                 "alt": "Virage à gauche",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Virage à gauche"
             },
@@ -274,7 +274,7 @@
                 "kind": "sign",
                 "src": "a1c",
                 "alt": "Succession de virages, le premier à droite",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Succession de virages, le premier à droite"
             },
@@ -283,7 +283,7 @@
                 "kind": "sign",
                 "src": "a1d",
                 "alt": "Succession de virages, le premier à gauche",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Succession de virages, le premier à gauche"
             },
@@ -292,7 +292,7 @@
                 "kind": "sign",
                 "src": "a2a",
                 "alt": "Cassis ou dos d'âne",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Cassis ou dos d'âne"
             },
@@ -301,7 +301,7 @@
                 "kind": "sign",
                 "src": "a2b",
                 "alt": "Ralentisseur",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Ralentisseur"
             },
@@ -310,7 +310,7 @@
                 "kind": "sign",
                 "src": "a3",
                 "alt": "Chaussée rétrécie",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Chaussée rétrécie"
             },
@@ -319,7 +319,7 @@
                 "kind": "sign",
                 "src": "a16",
                 "alt": "Descente dangereuse",
-                "credit": "Code Galsen"
+                "credit": "Permis Galsen"
               },
               "label": "Descente dangereuse"
             }

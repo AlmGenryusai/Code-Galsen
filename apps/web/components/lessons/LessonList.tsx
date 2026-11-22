@@ -32,11 +32,11 @@ export function LessonList({ lessons, openTheme }: { lessons: LessonFile[]; open
       <main style={{ padding: '8px 20px 24px' }}>
         {themes.map((t) => {
           const chapters = lessons.filter((l) => l.theme === t.id)
-          // Étapes du thème : chaque cours terminé (fiches + test) + la série d'entraînement du thème
+          // Étapes du thème : chaque fiche lue, chaque test de cours fait, + la série d'entraînement du thème
           const done =
-            chapters.filter(chapterDone).length +
+            chapters.reduce((n, l) => n + l.sheets.filter((sh) => progress.lessons[sh.id]).length + (progress.series[l.id] ? 1 : 0), 0) +
             (progress.series[t.id] ? 1 : 0)
-          const steps = chapters.length + 1
+          const steps = chapters.reduce((n, l) => n + l.sheets.length + 1, 0) + 1
           const themeLocked = license.loaded && !canAccess({ kind: 'theme', theme: t.id }, license)
           return (
           <details key={t.id} open={t.id === opened} style={{ borderBottom: '1px solid hsl(var(--sand))' }}>
