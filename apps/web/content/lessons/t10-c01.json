@@ -63,6 +63,43 @@
         },
         {
           "type": "heading",
+          "text": "Les véhicules et la pollution"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La loi classe les véhicules à moteur selon leur contribution à la limitation de la pollution de l'air et leur sobriété en énergie.",
+            "La consommation d'énergie d'un véhicule et la façon de la mesurer doivent être affichées là où il est vendu ou loué.",
+            "Les véhicules à très faibles émissions peuvent bénéficier d'avantages fixés par l'autorité compétente."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Visite technique et état du véhicule"
+        },
+        {
+          "type": "list",
+          "items": [
+            "La visite technique contrôle notamment l'état du véhicule, dont ses rejets polluants. Je ne l'oublie pas : sans visite valable, le véhicule peut être mis en fourrière.",
+            "Un véhicule d'occasion passe la visite avant sa première mise en circulation au Sénégal (détail dans le cours sur la mise en circulation).",
+            "Si je transforme notablement mon véhicule, je le déclare au service d'immatriculation, qui peut demander une nouvelle visite."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Acheter ou vendre un véhicule d'occasion"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le vendeur remplit un certificat de vente et écrit « vendu à… » avec la date et le nom de l'acheteur sur la carte grise. Cette mention annule la validité de la carte grise.",
+            "L'acheteur demande tout de suite le transfert de la carte grise à son nom, avec le certificat de vente et l'ancienne carte grise.",
+            "Si le véhicule change de région, il faut en plus une attestation d'inscription ou de non-inscription de gage.",
+            "Le vendeur informe aussi la direction des transports terrestres de la vente. Même les garagistes et commerçants de l'automobile doivent le faire."
+          ]
+        },
+        {
+          "type": "heading",
           "text": "Interdit"
         },
         {
@@ -76,7 +113,7 @@
       ]
     }
   ],
-  "legal_ref": "Loi 2022-04, L.25, L.26, L.92 ; décret 2004-13, art. 60",
+  "legal_ref": "Loi 2022-04, L.25, L.26, L.47, L.92 ; décret 2004-13, art. 44, 45, 60, annexe L (mutation d'un véhicule)",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

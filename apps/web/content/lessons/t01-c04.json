@@ -33,28 +33,77 @@
         },
         {
           "type": "heading",
-          "text": "Hors agglomération, par temps normal"
+          "text": "Hors agglomération : temps normal, puis pluie"
+        },
+        {
+          "type": "text",
+          "text": "Voie : une file de voitures. Chaussée : toute la partie où l'on roule. Pour chaque type de route, la limite baisse quand il pleut."
+        },
+        {
+          "type": "heading",
+          "text": "Autoroute"
         },
         {
           "type": "list",
           "items": [
-            "Autoroute : 130 km/h.",
-            "Route à deux chaussées séparées : 110 km/h.",
-            "Route avec au moins 2 voies par sens : 100 km/h.",
-            "Route à double sens sans séparateur : 90 km/h."
+            "Temps normal : **130 km/h**.",
+            "Par pluie : **100 km/h**."
           ]
         },
         {
           "type": "heading",
-          "text": "Reconnaître le type de route"
+          "text": "Route à deux chaussées séparées"
         },
         {
           "type": "list",
           "items": [
-            "Voie : une file de voitures. Chaussée : toute la partie où l'on roule.",
-            "Deux chaussées séparées : un terre-plein ou un muret au milieu sépare les deux sens.",
-            "Au moins 2 voies par sens : deux files ou plus dans mon sens, sans terre-plein.",
-            "Double sens sans séparateur : une seule chaussée, une file par sens, juste une ligne au milieu."
+            "Un terre-plein ou un muret sépare les deux sens.",
+            "Temps normal : **110 km/h**.",
+            "Par pluie : **90 km/h**."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-route-2x2.webp",
+            "alt": "Route à deux chaussées séparées par un terre-plein central",
+            "credit": "auteur non renseigné, CC BY-SA 4.0"
+          },
+          "caption": "Un terre-plein sépare les deux sens : 110 km/h, 90 km/h par pluie."
+        },
+        {
+          "type": "heading",
+          "text": "Route avec au moins 2 voies par sens"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deux files ou plus dans mon sens, sans terre-plein : seules des lignes peintes séparent les sens.",
+            "Temps normal : **100 km/h**.",
+            "Par pluie : **80 km/h**."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-route-2x2-sans-separation.webp",
+            "alt": "Route à deux voies dans chaque sens, sur une seule chaussée, sans terre-plein au milieu",
+            "credit": "Andrew Bossi, CC BY-SA 2.5, Wikimedia Commons"
+          },
+          "caption": "Deux files dans mon sens, sans terre-plein : 100 km/h, 80 km/h par pluie. Photo prise aux États-Unis, où la ligne du milieu est jaune ; au Sénégal, elle est blanche."
+        },
+        {
+          "type": "heading",
+          "text": "Route à double sens sans séparateur"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Une seule chaussée, une file par sens, juste une ligne au milieu.",
+            "Temps normal : **90 km/h**.",
+            "Par pluie : **70 km/h**."
           ]
         },
         {
@@ -65,35 +114,15 @@
             "alt": "Route à double sens, une voie par sens, sans séparateur au milieu",
             "credit": "auteur non renseigné, CC BY-SA 3.0"
           },
-          "caption": "Route à double sens sans séparateur : une seule ligne au milieu."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "c-route-2x2.webp",
-            "alt": "Route à deux chaussées séparées par un terre-plein central",
-            "credit": "auteur non renseigné, CC BY-SA 4.0"
-          },
-          "caption": "Deux chaussées séparées : un terre-plein sépare les deux sens."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "c-route-2x2-sans-separation.webp",
-            "alt": "Route à deux voies dans chaque sens, sur une seule chaussée, sans terre-plein au milieu",
-            "credit": "Andrew Bossi, CC BY-SA 2.5, Wikimedia Commons"
-          },
-          "caption": "Au moins 2 voies par sens, sans terre-plein : seules des lignes peintes séparent les deux sens. Photo prise aux États-Unis, où la ligne du milieu est jaune ; au Sénégal, elle est blanche."
+          "caption": "Une seule chaussée, une ligne au milieu : 90 km/h, 70 km/h par pluie."
         },
         {
           "type": "heading",
-          "text": "Par pluie"
+          "text": "Visibilité de moins de 50 mètres"
         },
         {
           "type": "text",
-          "text": "Les limites baissent : 100, 90, 80, 70 km/h dans l'ordre des routes ci-dessus. Si je vois à moins de 50 mètres, c'est 50 km/h partout."
+          "text": "Brouillard, poussière ou forte pluie : si je vois à moins de 50 mètres, je roule à **50 km/h au plus**, sur toutes les routes."
         },
         {
           "type": "memo",

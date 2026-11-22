@@ -154,6 +154,10 @@
           "text": "Sur une chaussée à trois voies, la voie la plus à gauche est réservée à ceux qui viennent en face."
         },
         {
+          "type": "heading",
+          "text": "Zébras et chevrons"
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",

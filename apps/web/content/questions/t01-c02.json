@@ -164,7 +164,7 @@
     "id": "t01-c02-0006",
     "theme": "t01",
     "chapter": "t01-c02",
-    "context": "Je suis déjà engagé dans un rond-point. Un véhicule veut y entrer.",
+    "context": "Je suis déjà engagé dans un carrefour à sens giratoire. Un véhicule veut y entrer.",
     "media": {
       "kind": "photo",
       "src": "m05.webp",
@@ -179,7 +179,7 @@
       },
       {
         "kind": "yesno",
-        "statement": "Celui qui entre dans le rond-point passe avant moi :",
+        "statement": "Celui qui entre dans le giratoire passe avant moi :",
         "correct": "no"
       }
     ],
@@ -490,7 +490,7 @@
     "id": "t01-c02-0015",
     "theme": "t01",
     "chapter": "t01-c02",
-    "context": "Une voiture est déjà dans le rond-point.",
+    "context": "Une voiture est déjà dans le giratoire.",
     "media": {
       "kind": "sign",
       "src": "sens-giratoire",
@@ -598,7 +598,7 @@
     "id": "t01-c02-0018",
     "theme": "t01",
     "chapter": "t01-c02",
-    "context": "Je suis dans le rond-point. Une voiture attend à l'entrée, à ma droite.",
+    "context": "Je suis dans le giratoire. Une voiture attend à l'entrée, à ma droite.",
     "media": {
       "kind": "sign",
       "src": "sens-giratoire",
@@ -919,7 +919,7 @@
     "id": "t01-c02-0028",
     "theme": "t01",
     "chapter": "t01-c02",
-    "context": "J'arrive à ce rond-point. Une voiture vient de ma gauche dans l'anneau.",
+    "context": "J'arrive à ce carrefour à sens giratoire. Une voiture vient de ma gauche dans l'anneau.",
     "media": {
       "kind": "sign",
       "src": "sens-giratoire",

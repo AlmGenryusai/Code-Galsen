@@ -70,75 +70,18 @@
       "blocks": [
         {
           "type": "text",
-          "text": "Le train a toujours la priorité."
+          "text": "Le train a toujours la priorité. Il existe plusieurs sortes de passages à niveau : je reconnais chacune, et je sais quoi faire."
         },
         {
           "type": "heading",
-          "text": "Avec barrières"
-        },
-        {
-          "type": "text",
-          "text": "J'obéis au garde et je n'empêche pas la fermeture des barrières."
-        },
-        {
-          "type": "heading",
-          "text": "Sans barrière"
-        },
-        {
-          "type": "text",
-          "text": "Je ne m'engage qu'après m'être assuré qu'aucun train n'approche et que je peux traverser en sécurité."
-        },
-        {
-          "type": "heading",
-          "text": "Si un train arrive"
-        },
-        {
-          "type": "text",
-          "text": "Je dégage immédiatement la voie ferrée. Il est interdit de stationner sur un passage à niveau, et de dépasser aux passages à niveau non gardés."
-        },
-        {
-          "type": "heading",
-          "text": "Les types de passage à niveau"
+          "text": "1. Avec barrières et un garde"
         },
         {
           "type": "list",
           "items": [
-            "Barrières manœuvrées par un garde (passage gardé) : j'obéis aux gestes du garde. Quand les barrières commencent à se fermer, je m'arrête.",
-            "Barrières ou demi-barrières automatiques : des feux rouges clignotent, souvent avec une sonnerie, puis les barrières se baissent toutes seules. Dès que les feux clignotent, je m'arrête, même si la barrière est encore levée.",
-            "Demi-barrières : elles ne ferment que la moitié droite de la route. Je ne fais jamais le tour par la gauche : le train arrive en quelques secondes.",
-            "Sans barrière, avec feux rouges clignotants : les feux annoncent le train. Deux feux rouges qui clignotent veulent dire arrêt absolu.",
-            "Sans barrière ni feu, avec une croix devant la voie : personne ne surveille. Je ralentis, je regarde des deux côtés et j'écoute avant de traverser."
+            "Un garde manœuvre les barrières : j'obéis à ses indications et je n'empêche jamais la fermeture des barrières.",
+            "Dès que les barrières commencent à se fermer, je m'arrête. Je ne passe pas dessous et je ne les contourne jamais."
           ]
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "c-pn-croix.webp",
-            "alt": "Croix rouge et blanche devant une voie ferrée",
-            "credit": "auteur non renseigné, CC0"
-          },
-          "caption": "La croix signale la voie ferrée : passage sans barrière."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "c-pn-feux.webp",
-            "alt": "Feux rouges clignotants d'un passage à niveau",
-            "credit": "auteur non renseigné, CC BY-SA 4.0"
-          },
-          "caption": "Feux rouges qui clignotent : arrêt absolu."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "c-pn-demi-barriere.webp",
-            "alt": "Passage à niveau avec demi-barrière qui ferme la moitié droite de la route",
-            "credit": "auteur non renseigné, CC BY-SA 4.0"
-          },
-          "caption": "Demi-barrière : je ne la contourne jamais par la gauche."
         },
         {
           "type": "image",
@@ -152,15 +95,80 @@
         },
         {
           "type": "heading",
-          "text": "Ce que je fais dans tous les cas"
+          "text": "2. Automatique : feux rouges clignotants et barrières"
         },
         {
           "type": "list",
           "items": [
-            "Je ralentis dès le panneau triangle qui annonce le passage à niveau.",
-            "Je ne m'engage que si je peux traverser d'un coup, sans m'arrêter sur les rails : si la file est bloquée de l'autre côté, j'attends avant.",
-            "Si ma voiture cale sur les rails, je fais sortir tout le monde immédiatement, loin des rails, puis j'appelle les secours."
+            "Les feux rouges se mettent à clignoter, souvent avec une sonnerie, puis les barrières se baissent toutes seules.",
+            "Dès que les feux clignotent, je m'arrête, même si la barrière est encore levée. Deux feux rouges qui clignotent veulent dire arrêt absolu."
           ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-pn-feux.webp",
+            "alt": "Feux rouges clignotants d'un passage à niveau",
+            "credit": "auteur non renseigné, CC BY-SA 4.0"
+          },
+          "caption": "Feux rouges qui clignotent : arrêt absolu."
+        },
+        {
+          "type": "heading",
+          "text": "Les demi-barrières"
+        },
+        {
+          "type": "text",
+          "text": "Elles ne ferment que la moitié droite de la route. Je ne fais jamais le tour par la gauche : le train arrive en quelques secondes."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-pn-demi-barriere.webp",
+            "alt": "Passage à niveau avec demi-barrière qui ferme la moitié droite de la route",
+            "credit": "auteur non renseigné, CC BY-SA 4.0"
+          },
+          "caption": "Demi-barrière : je ne la contourne jamais par la gauche."
+        },
+        {
+          "type": "heading",
+          "text": "3. Sans barrière"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Une croix devant la voie signale le passage : personne ne surveille.",
+            "Je ralentis, je regarde des deux côtés et j'écoute. Je ne m'engage qu'après m'être assuré qu'aucun train n'approche et que je peux traverser en sécurité.",
+            "Certains passages sans barrière ont deux feux rouges clignotants : quand ils clignotent, un train arrive et je m'arrête."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "c-pn-croix.webp",
+            "alt": "Croix rouge et blanche devant une voie ferrée",
+            "credit": "auteur non renseigné, CC0"
+          },
+          "caption": "La croix signale la voie ferrée : passage sans barrière."
+        },
+        {
+          "type": "heading",
+          "text": "Voie électrifiée"
+        },
+        {
+          "type": "text",
+          "text": "Sur une voie ferrée électrique, un portique peut signaler des fils situés à moins de 6 mètres de hauteur. Si mon véhicule est haut ou porte un chargement haut, je fais attention."
+        },
+        {
+          "type": "heading",
+          "text": "Comment je repère un passage à niveau de loin"
+        },
+        {
+          "type": "text",
+          "text": "Je ralentis dès le panneau triangle qui l'annonce. Des balises rayées peuvent aussi me prévenir que je m'approche."
         },
         {
           "type": "image",
@@ -171,10 +179,6 @@
             "credit": "auteur non renseigné, CC BY-SA 4.0"
           },
           "caption": "Ces balises rayées annoncent un passage à niveau : je ralentis."
-        },
-        {
-          "type": "heading",
-          "text": "Panneaux à reconnaître"
         },
         {
           "type": "signs",
@@ -197,6 +201,25 @@
               },
               "label": "Passage à niveau sans barrières"
             }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Si un train arrive"
+        },
+        {
+          "type": "text",
+          "text": "Je dégage immédiatement la voie ferrée. Il est interdit de stationner sur un passage à niveau, et de dépasser aux passages à niveau non gardés."
+        },
+        {
+          "type": "heading",
+          "text": "Ce que je fais dans tous les cas"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ne m'engage que si je peux traverser d'un coup, sans m'arrêter sur les rails : si la file est bloquée de l'autre côté, j'attends avant.",
+            "Si ma voiture cale sur les rails, je fais sortir tout le monde immédiatement, loin des rails, puis j'appelle les secours."
           ]
         },
         {

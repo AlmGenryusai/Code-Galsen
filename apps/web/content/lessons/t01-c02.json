@@ -188,6 +188,10 @@
           "caption": "STOP : je m'arrête derrière la ligne, pas sur elle."
         },
         {
+          "type": "attention",
+          "text": "Rouler au pas devant un STOP sans s'arrêter reste une faute."
+        },
+        {
           "type": "heading",
           "text": "Cédez le passage"
         },
@@ -217,11 +221,43 @@
         },
         {
           "type": "heading",
-          "text": "Rond-point"
+          "text": "Rond-point ou carrefour à sens giratoire ?"
         },
         {
           "type": "text",
-          "text": "Celui qui est déjà engagé dans le rond-point passe en premier. Celui qui arrive attend."
+          "text": "Les deux se ressemblent : un îlot au centre, et je tourne autour **par la droite**. Ce qui change, c'est **qui a la priorité**. Je regarde donc les panneaux avant d'entrer."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "m05.webp",
+            "alt": "Rond-point vu du ciel",
+            "credit": "Arild Vågen, CC BY-SA 4.0, via Wikimedia Commons"
+          },
+          "caption": "Vu du ciel : on tourne toujours autour de l'îlot par la droite."
+        },
+        {
+          "type": "heading",
+          "text": "Carrefour à sens giratoire : celui qui tourne passe"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je le reconnais à ses panneaux : un triangle avec trois flèches qui tournent, et souvent un panneau rond bleu avec des flèches en cercle.",
+            "Celui qui est déjà engagé dans l'anneau a la priorité. Moi qui arrive, je lui cède le passage.",
+            "Si personne ne tourne, je peux entrer sans m'arrêter."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-V2pangiratoire.webp",
+            "alt": "Panneau triangulaire de rond-point et panneau rond bleu de sens giratoire",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "À gauche, le triangle annonce un carrefour à sens giratoire ; à droite, le panneau rond bleu impose de tourner dans le sens des flèches."
         },
         {
           "type": "image",
@@ -232,7 +268,37 @@
             "credit": "auteur non renseigné",
             "fit": "contain"
           },
-          "caption": "Au rond-point, j'attends que la voiture déjà engagée soit passée."
+          "caption": "Carrefour à sens giratoire : j'attends que la voiture déjà engagée soit passée."
+        },
+        {
+          "type": "heading",
+          "text": "Rond-point sans panneau : priorité à droite"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Un îlot ou un monument au milieu d'une place, sans panneau de sens giratoire : c'est une intersection ordinaire.",
+            "Je le contourne toujours par la droite.",
+            "La priorité à droite s'applique : je cède à celui qui arrive à ma droite, même s'il entre dans l'anneau alors que j'y tourne déjà."
+          ]
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-Bgiratoire.webp",
+            "alt": "Rond-point vu du dessus avec passages piétons",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Place avec îlot central : je cherche le panneau avant d'entrer pour savoir qui a la priorité."
+        },
+        {
+          "type": "heading",
+          "text": "Dans l'anneau et à la sortie"
+        },
+        {
+          "type": "text",
+          "text": "Je me place tôt selon la sortie que je vise. Juste avant de sortir, je mets mon clignotant à droite."
         },
         {
           "type": "image",
@@ -255,16 +321,6 @@
             "fit": "contain"
           },
           "caption": "Les trajectoires changent selon la sortie choisie : je me place tôt et je signale ma sortie."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "m05.webp",
-            "alt": "Rond-point vu du ciel",
-            "credit": "Arild Vågen, CC BY-SA 4.0, via Wikimedia Commons"
-          },
-          "caption": "Rond-point : j'entre en cédant aux véhicules déjà engagés."
         },
         {
           "type": "heading",
@@ -303,32 +359,8 @@
           ]
         },
         {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-V2pangiratoire.webp",
-            "alt": "Panneau triangulaire de rond-point et panneau rond bleu de sens giratoire",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "À gauche, le panneau annonce un rond-point ; à droite, le panneau rond bleu indique le sens à suivre."
-        },
-        {
-          "type": "attention",
-          "text": "Rouler au pas devant un STOP sans s'arrêter reste une faute."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "n-Bgiratoire.webp",
-            "alt": "Rond-point vu du dessus avec passages piétons",
-            "credit": "Source inconnue (Google Images)"
-          },
-          "caption": "Rond-point vu du dessus."
-        },
-        {
           "type": "memo",
-          "text": "Au STOP, je m'arrête complètement. Au « cédez le passage », je laisse passer sans forcément m'arrêter. Au rond-point, celui qui tourne déjà dedans passe en premier."
+          "text": "Au STOP, je m'arrête complètement. Au « cédez le passage », je laisse passer sans forcément m'arrêter. Au carrefour à sens giratoire, celui qui tourne déjà passe en premier ; sans panneau, c'est la priorité à droite."
         }
       ]
     },
@@ -389,7 +421,7 @@
       ]
     }
   ],
-  "legal_ref": "Décret 2004-13, art. 7, 12, 25, 28 à 30",
+  "legal_ref": "Décret 2004-13, art. 7, 10, 12, 25, 28 à 30 ; loi 2022-04 (définition du carrefour à sens giratoire)",
   "legal_status": "confirmed",
   "status": "published",
   "review": {

@@ -25,11 +25,7 @@
         {
           "type": "list",
           "items": [
-            "Je prends la bretelle d'entrée, puis la voie d'accélération (ou voie d'insertion) : une voie qui longe l'autoroute sur la droite.",
-            "Sur cette voie, j'accélère pour atteindre la vitesse des voitures de l'autoroute.",
-            "Je mets mon clignotant gauche, je regarde dans le rétroviseur et par-dessus l'épaule.",
-            "Je m'insère dans un espace libre. Ceux qui sont déjà sur l'autoroute sont prioritaires.",
-            "Je ne m'arrête pas au bout de la voie d'accélération, sauf si c'est vraiment impossible de passer."
+            "Je prends la bretelle d'entrée, puis la voie d'accélération (ou voie d'insertion) : une voie qui longe l'autoroute sur la droite."
           ]
         },
         {
@@ -41,6 +37,12 @@
             "credit": "auteur non renseigné, CC BY-SA 2.5"
           },
           "caption": "La bretelle mène à la voie d'accélération : j'y prends ma vitesse."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sur cette voie, j'accélère pour atteindre la vitesse des voitures de l'autoroute."
+          ]
         },
         {
           "type": "image",
@@ -63,6 +65,13 @@
           "caption": "Sur la voie d'insertion, j'accélère et je cède à ceux déjà sur la route."
         },
         {
+          "type": "list",
+          "items": [
+            "Je mets mon clignotant gauche, je regarde dans le rétroviseur et par-dessus l'épaule.",
+            "Je m'insère dans un espace libre. Ceux qui sont déjà sur l'autoroute sont prioritaires."
+          ]
+        },
+        {
           "type": "image",
           "media": {
             "kind": "photo",
@@ -71,6 +80,12 @@
             "credit": "auteur non renseigné"
           },
           "caption": "Je regarde loin devant et dans le rétroviseur pour trouver un espace."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Je ne m'arrête pas au bout de la voie d'accélération, sauf si c'est vraiment impossible de passer."
+          ]
         },
         {
           "type": "image",
@@ -112,11 +127,21 @@
           "type": "image",
           "media": {
             "kind": "photo",
-            "src": "n-S16-2.webp",
-            "alt": "Circulation dense sur l'autoroute",
-            "credit": "Source inconnue (Google Images)"
+            "src": "e-compteur-panneau.webp",
+            "alt": "Vue du conducteur : panneau de limitation et compteur entourés",
+            "credit": "auteur non renseigné"
           },
-          "caption": "Dans la circulation dense, je garde mes distances."
+          "caption": "Je compare le panneau et mon compteur."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "e-regulateur.webp",
+            "alt": "Commandes du régulateur de vitesse sur le volant",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Le régulateur garde une vitesse fixe ; je le coupe dès que la circulation se densifie."
         },
         {
           "type": "heading",
@@ -125,6 +150,16 @@
         {
           "type": "text",
           "text": "Je garde au moins 2 secondes entre lui et moi. Je choisis un repère (un panneau) : quand il le passe, je compte « un, deux ». Si j'arrive au repère avant, je suis trop près."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n-S16-2.webp",
+            "alt": "Circulation dense sur l'autoroute",
+            "credit": "Source inconnue (Google Images)"
+          },
+          "caption": "Dans la circulation dense, je garde mes distances."
         },
         {
           "type": "image",
@@ -161,26 +196,6 @@
             "credit": "Source inconnue (Google Images)"
           },
           "caption": "Sur autoroute, je garde mes distances."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-compteur-panneau.webp",
-            "alt": "Vue du conducteur : panneau de limitation et compteur entourés",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Je compare le panneau et mon compteur."
-        },
-        {
-          "type": "image",
-          "media": {
-            "kind": "photo",
-            "src": "e-regulateur.webp",
-            "alt": "Commandes du régulateur de vitesse sur le volant",
-            "credit": "auteur non renseigné"
-          },
-          "caption": "Le régulateur garde une vitesse fixe ; je le coupe dès que la circulation se densifie."
         },
         {
           "type": "attention",
