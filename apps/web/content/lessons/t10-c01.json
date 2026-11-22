@@ -29,6 +29,37 @@
           "type": "image",
           "media": {
             "kind": "photo",
+            "src": "n4-levier-manuel.webp",
+            "alt": "Levier de vitesses d'une boîte manuelle",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Boîte manuelle : je change de rapport avec le levier."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-levier-automatique.webp",
+            "alt": "Levier d'une boîte automatique",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Boîte automatique : le levier se place sur P, R, N ou D."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-transmission-schema.webp",
+            "alt": "Schéma : moteur, embrayage, boîte de vitesses, roue",
+            "credit": "auteur non renseigné",
+            "fit": "contain"
+          },
+          "caption": "Du moteur à la roue : embrayage, boîte de vitesses, puis la roue."
+        },
+        {
+          "type": "image",
+          "media": {
+            "kind": "photo",
             "src": "n-Xpuissance-1.webp",
             "alt": "Pied sur l'accélérateur",
             "credit": "Source inconnue (Google Images)"

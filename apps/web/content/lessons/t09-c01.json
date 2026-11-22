@@ -140,6 +140,16 @@
           "text": "ABS veut dire « système antiblocage des roues ». C'est un dispositif électronique installé sur presque toutes les voitures récentes. Il agit tout seul, je n'ai aucun bouton à toucher."
         },
         {
+          "type": "image",
+          "media": {
+            "kind": "photo",
+            "src": "n4-disque-frein.webp",
+            "alt": "Disque de frein (A) et étrier (B) vus de près",
+            "credit": "auteur non renseigné"
+          },
+          "caption": "Le disque (A) et l'étrier (B) : c'est là que les plaquettes serrent la roue pour freiner."
+        },
+        {
           "type": "heading",
           "text": "Le problème qu'il résout"
         },
